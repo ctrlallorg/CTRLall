@@ -57,7 +57,7 @@ You can embed a file in a Word document as an OLE object.
         </tr>
       <tr>
         <td colspan="2"><p>Both embedded and linked OLE objects can trigger macro warnings or security prompts. Linked OLE objects can also produce warnings if source files are missing or inaccessible.</p>
-        <p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Linked file warning.png' | url }}" alt="OLE object linked file warning" style="max-width: 100%; height: auto; display: block; margin: auto;"></p>
+        <p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Linked file warning.png' | url }}" alt="OLE object linked file warning" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
         </td>
       </tr>
     </tbody>
@@ -175,11 +175,11 @@ You can embed a file in a Word document as an OLE object.
       <tr>
         <td>
         <p>Check both checkboxes <strong>Link to file</strong> and <strong>Display as icon</strong>, then click <strong>OK</strong>.</p>
-        <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object Create from file linked content icon.png' | url }}" alt="Insert Object Create from file linked content icon" style="max-width: 100%; height: auto; display: block; margin: auto;"></p>
+        <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object Create from file linked content icon.png' | url }}" alt="Insert Object Create from file linked content icon" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
         </td>
         <td>
         <p>Check <strong>Link to file</strong>, then click <strong>OK</strong>.</p>
-        <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object Create from file linked content.png' | url }}" alt="Insert Object Create from file linked content" style="max-width: 100%; height: auto; display: block; margin: auto;"></p>
+        <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object Create from file linked content.png' | url }}" alt="Insert Object Create from file linked content" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
         </td>
       </tr>
     </tbody>
