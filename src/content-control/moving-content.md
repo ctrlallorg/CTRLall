@@ -38,3 +38,21 @@ then
 <img class="thumbnail border" src="{{ '/assets/images/content control/Cut and paste cell value.gif' | url }}"  alt="Cut and paste cell value" style="height:25%; width:25%; vertical-align:middle">
 
 <img class="thumbnail border" src="{{ '/assets/images/content control/Cut and paste file.gif' | url }}"  alt="Cut and paste file" style="height:100%; width:100%; vertical-align:middle">
+
+<h2>The Spike - multiple cut and paste</h2>
+<p>A function that's very little known is The Spike which allows you to individually cut multiple non-contiguous items and then paste them altogther. Why's it called 'The Spike'? The name describes its behaviour inspired by that old-fashioned paper spike you'll see in cafes and restaurants to collect multiple receipts or notes.</p>
+<p>To use it do the following:</p>
+<ol>
+    <li>Select some content then Press <strong>Shift + F3</strong> to cut it. This copies it to the spike's memory (note: not the clipboard).</p>
+    <p><u>Note</u>: If you have a <strong>Fn</strong> button on your keyboard like mine you may need to press that before F3, in which case you'll be pressing <strong>Shift + Fn + F3</strong>.</p>
+    <p><img class="thumbnail" src="{{ '/assets/images/keyboard shortcuts/TheSpikeCtrl+F3.png' | url }}"  alt="Cut and paste file" style="height:40%; width:40%; vertical-align:middle"></p></li>
+    <li>Select other content and repeat to cut more content to the spike.</li>
+    <li>Select where you want to paste and then press <strong>Ctrl + Shift + F3</strong> (or <strong>Ctrl + Shift + Fn + F3</strong>) to paste all the content from the spike.
+    <p><img class="thumbnail" src="{{ '/assets/images/keyboard shortcuts/TheSpikeCtrl+Shift+F3.png' | url }}"  alt="Cut and paste file" style="height:60%; width:60%; vertical-align:middle"></p></li>
+</ol>
+<p>Take a look. It can be pretty useful if you want to extract multiple elements from somewhere at once, especially if where you're pasting to involves a lot of scrolling. Consider using this when building a summary, an appendix, compiling quotes or reorganising sections of a document.</p>
+
+<img class="thumbnail border" src="{{ '/assets/images/content control/Spike%20example.gif' | url }}"  alt="Cutting and pasting multiple content with the spike" style="height:50%; width:auto%; vertical-align:middle">
+
+<p>Note also how it pastes content in the order it was cut not it's original position in the document; ('Apple' is at the end not the start).</p>
+

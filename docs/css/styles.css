@@ -311,9 +311,24 @@ img.border {
 
 .section-light table {
   width: 100%;
-  table-layout: auto;
+  table-layout: fixed; /* Forces colgroup widths */
   border-collapse: collapse;
 }
+
+.section-light th,
+.section-light td {
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 1rem;
+  white-space: normal;         /* Allows wrapping */
+  word-break: break-word;      /* Breaks long words */
+  overflow-wrap: break-word;   /* Ensures wrapping for long words */
+  overflow: visible;           /* Allows content to expand vertically */
+  height: auto;                /* Ensures row height adapts to content */
+}
+
 
 table th,
 table td {
@@ -322,12 +337,16 @@ table td {
   text-align: left;
   vertical-align: middle;
   font-size: 1rem;
+  white-space: normal;         /* Allows wrapping */
+  word-break: break-word;      /* Breaks long words */
+  overflow-wrap: break-word;   /* Ensures wrapping for long words */
+  overflow: visible;           /* Allows content to expand vertically */
+  height: auto;                /* Ensures row height adapts to content */
 }
 
 .section-light th:first-child,
 .section-light td:first-child {
-  width: 1%;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .section-light th {
@@ -388,12 +407,15 @@ table td {
 .hover-table tbody tr:hover {
   background-color: #f0f0f0;
   cursor: default;
+  word-break: break-word;    /* Breaks long words if needed */
 }
 
 /* Table style with no visible borders */
 .no-border {
   width: 100%;
   border-collapse: collapse;
+  word-break: break-word;    /* Breaks long words if needed */
+
 }
 
 .no-border th,
@@ -403,6 +425,7 @@ table td {
   text-align: left;
   vertical-align: middle;
   font-size: 1rem;
+  word-break: break-word;    /* Breaks long words if needed */
 }
 
 

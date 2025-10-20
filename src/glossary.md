@@ -351,7 +351,7 @@ active: glossary
       <td>A template is a preset file that serves as a starting point for creating new files with consistent <a href="#formatting">formatting</a>, styles and layout.</td>
     </tr>
     <tr>
-      <td id="text-wrap">Text wrap / Wrapping</td>
+      <td id="text-wrap">Text wrap</td>
       <td>This is a function to prevent hyphenation at the end of the line. If your text goes beyond the right <a href="#margin">margin</a> it will automatically move down to the next line.</td>
     </tr> 
     <tr>
@@ -389,8 +389,8 @@ active: glossary
       <td>Writing, editing, and production of documents, such as letters, reports, and books, through the use of a computer program. </td>
     </tr> 
     <tr>
-      <td></td>
-      <td></td>
+      <td>Wrap / Wrapping (images/objects)</td>
+      <td>Wrapping for images and objects refers to how text flows around or interacts with visual elements like images, shapes, icons, 3D models or charts, or objects like a text box, within a document. It greatly affects readability, general layout and aesthetics. Wrappig can be controlled by an image/object's layout options, more detail and examples on this can be found here: <a href="/word/images/#layout-options">Layout options</a>.</td>
     </tr>
     <tr>
       <td></td>
