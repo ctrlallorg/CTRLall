@@ -5,7 +5,7 @@ permalink: /word/objects-embedded-files/
 active: word
 ---
 
-<h1>Embedded files</h1>
+<h1>Embedded files (OLE objects)</h1>
 
 <section class="section-light">
 
@@ -57,7 +57,7 @@ You can embed a file in a Word document as an OLE object.
         </tr>
       <tr>
         <td colspan="2"><p>Both embedded and linked OLE objects can trigger macro warnings or security prompts. Linked OLE objects can also produce warnings if source files are missing or inaccessible.</p>
-        <p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Linked file warning.png' | url }}" alt="OLE object linked file warning" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
+        <p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Linked file warning.png' | url }}" alt="OLE object linked file warning" style="max-width: 100%; height: auto; display: block; margin: auto;"></p>
         </td>
       </tr>
     </tbody>
@@ -146,7 +146,7 @@ You can embed a file in a Word document as an OLE object.
     </thead>
     <tbody>
       <tr>
-        <td>
+        <td style="vertical-align: top;">
         <p>Before talking about which checkbox to check, the easiest way to embed a file with an icon is to just simply drag and drop an existing file icon into your open Word document and it'll embed itself on the page wherever your insertion point was when you dropped it.</p>
         <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object Word doc icon.png' | url }}" alt="Embedded file OLE object icon" style="max-width: 100%; height: auto; display: block; margin: auto;"></p>
         <p>But if you want to do it via Insert > Object, in this window check <strong>Display as icon</strong>, then click <strong>OK</strong>:</p>
@@ -173,11 +173,11 @@ You can embed a file in a Word document as an OLE object.
     </thead>
     <tbody>
       <tr>
-        <td>
+        <td style="vertical-align: top;">
         <p>Check both checkboxes <strong>Link to file</strong> and <strong>Display as icon</strong>, then click <strong>OK</strong>.</p>
         <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object Create from file linked content icon.png' | url }}" alt="Insert Object Create from file linked content icon" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
         </td>
-        <td>
+        <td style="vertical-align: top;">
         <p>Check <strong>Link to file</strong>, then click <strong>OK</strong>.</p>
         <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object Create from file linked content.png' | url }}" alt="Insert Object Create from file linked content" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
         </td>
@@ -200,10 +200,10 @@ You can embed a file in a Word document as an OLE object.
     </thead>
     <tbody>
       <tr>
-        <td>
+        <td style="vertical-align: top;">
         <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object Word doc icon.png' | url }}" alt="OLE object Word doc icon" style="max-width: 100%; height: auto; display: block; margin: auto;"></p>
         </td>
-        <td>
+        <td style="vertical-align: top;">
         <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object Word doc visual content.png' | url }}" alt="OLE object Word doc visual content" style="max-width: 100%; height: auto; display: block; margin: auto;"></p>
         </td>
       </tr>
@@ -228,47 +228,47 @@ You can embed a file in a Word document as an OLE object.
     <tbody>
       <tr>
         <td>Word</td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object Word doc icon.png' | url }}" alt="OLE object Word doc icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
-        <td colspan="2"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object Word doc visual content.png' | url }}" alt="OLE object Word doc visual content" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object Word doc icon.png' | url }}" alt="OLE object Word doc icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
+        <td colspan="2" style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object Word doc visual content.png' | url }}" alt="OLE object Word doc visual content" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
      </tr>
      <tr>
         <td>Excel</td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object excel icon.png' | url }}" alt="OLE object excel icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
-        <td colspan="2"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object excel visual content.png' | url }}" alt="OLE object excel visual content" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object excel icon.png' | url }}" alt="OLE object excel icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
+        <td colspan="2" style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object Excel visual content.png' | url }}" alt="OLE object Excel visual content" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
      </tr>
      <tr>
         <td>PowerPoint</td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object ppt icon.png' | url }}" alt="OLE object ppt icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
-        <td colspan="2"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object ppt visual content.png' | url }}" alt="OLE object ppt visual content" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object ppt icon.png' | url }}" alt="OLE object ppt icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
+        <td colspan="2" style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object ppt visual content.png' | url }}" alt="OLE object ppt visual content" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
      </tr>
      <tr>
         <td>Outlook message</td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object outlook msg icon.png' | url }}" alt="OLE object outlook msg icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object outlook msg content embedded.png' | url }}" alt="OLE object outlook msg content embedded" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object outlook msg content linked.png' | url }}" alt="OLE object outlook msg content linkedt" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>        
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object outlook msg icon.png' | url }}" alt="OLE object outlook msg icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object outlook msg content embedded.png' | url }}" alt="OLE object outlook msg content embedded" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object outlook msg content linked.png' | url }}" alt="OLE object outlook msg content linkedt" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>        
     </tr>
      <tr>
         <td>PDF</td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object pdf icon.png' | url }}" alt="OLE object pdf icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
-        <td colspan="2"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object pdf visual content.png' | url }}" alt="OLE object pdf visual content" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object pdf icon.png' | url }}" alt="OLE object pdf icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
+        <td colspan="2" style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object pdf visual content.png' | url }}" alt="OLE object pdf visual content" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
      </tr>
      <tr>
         <td>Zipped file</td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object zipped icon.png' | url }}" alt="OLE object zipped icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object zipped content embedded.png' | url }}" alt="OLE object zipped content embedded" style="max-width: 90%; height: auto; display: block; margin: auto;"></td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object zipped content linked.png' | url }}" alt="OLE object zipped content linked" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object zipped icon.png' | url }}" alt="OLE object zipped icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object zipped content embedded.png' | url }}" alt="OLE object zipped content embedded" style="max-width: 90%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object zipped content linked.png' | url }}" alt="OLE object zipped content linked" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
      </tr>
      <tr>
         <td>Audio</td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object audio icon.png' | url }}" alt="OLE object audio icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object audio content embedded.png' | url }}" alt="OLE object audio content embedded" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object audio content linked.png' | url }}" alt="OLE object audio content linked" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object audio icon.png' | url }}" alt="OLE object audio icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object audio content embedded.png' | url }}" alt="OLE object audio content embedded" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object audio content linked.png' | url }}" alt="OLE object audio content linked" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
      </tr>
      <tr>
         <td>Video</td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object video icon.png' | url }}" alt="OLE object video icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object video content embedded.png' | url }}" alt="OLE object video content embedded" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object video content linked.png' | url }}" alt="OLE object video content linked" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object video icon.png' | url }}" alt="OLE object video icon" style="max-width: 75%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object video content embedded.png' | url }}" alt="OLE object video content embedded" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
+        <td style="vertical-align: top;"><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object video content linked.png' | url }}" alt="OLE object video content linked" style="max-width: 100%; height: auto; display: block; margin: auto;"></td>
      </tr>
      <tr>
         <td>Other</td>
