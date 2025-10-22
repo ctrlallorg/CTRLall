@@ -8,7 +8,7 @@ active: content-control
 <h1>Copying content</h1>
 
 <h2>Copy and paste</h2> 
-<p>Copying content attaches its information temporarily to the computer's <a href="/glossary/#clipboard">clipboard</a>. This allows you to then <a href="/glossary/#paste">paste</a> it elsewhere. Hence the phrase 'copy and paste'.</p>
+<p>Copying content attaches its information temporarily to the computer's <span class="glossary-hover" data-term="clipboard">clipboard</span>. This allows you to then <span class="glossary-hover" data-term="paste">paste</span> it elsewhere. Hence the phrase 'copy and paste'.</p>
 
 <p>You can use the keyboard shortcut:</p>
 <ol>

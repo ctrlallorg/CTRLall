@@ -15,14 +15,14 @@ active: word
 
 <p><img class="border" src="{{ '/assets/images/word/Indents/Indent%20example.png' | url }}" alt="Example of an indented paragraph" style="display: inline; margin: auto; height:80%; width: 80%;"></p>
 
-<p>You can also adjust indents with indent markers on the <strong><a href="/glossary/#ruler">ruler</a></strong> tool. To enable to the ruler go to <strong>View > Show</strong> and check <strong>Ruler</strong>. Below we'll look at different uses</p>
+<p>You can also adjust indents with indent markers on the <strong>ruler</strong> tool. To enable to the ruler go to <strong>View > Show</strong> and check <strong>Ruler</strong>. Below we'll look at different uses</p>
 
 <p><img src="{{ '/assets/images/word/Indents/ruler.png' | url }}" alt="Ruler tool" style="display: inline; margin: auto; height:20%; width: 20%;"></p>
 
 
 <h2 id="pargraphs-and-indents">Paragraphs and indents</h2>
 
-With the <a href="/glossary/#insertion-point">insertion point</a> on the paragraph, on the <a href="/glossary/#ruler">ruler</a> above the page you'll see the indent markers aligned together like this:
+With the <span class="glossary-hover" data-term="insertion-point">insertion point</span> on the paragraph, on the ruler above the page you'll see the indent markers aligned together like this:
 <p><img class="border" src="{{ '/assets/images/word/Indents/Paragraph%20indent%20markers%20on%20ruler.png' | url }}" alt="Paragraph and indent markers" style="display: inline; margin: auto; height:100%; width: 100%;"></p>
 
 <p>Here's what each of the indent markers do when working with paragraphs:</p>

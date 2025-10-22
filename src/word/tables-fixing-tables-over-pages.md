@@ -45,11 +45,11 @@ Now instead of content overflowing the whole row moves down to the next page ins
 
 <p>Table content overflows to the next page if it can't all fit on that page. If you need all the content to fit on the page before consider:</p>
 <ul>
-    <li>Removing empty lines that you don't need (typically caused by <a href="/glossary/#hard-return">hard returns</a> or <a href="/glossary/#soft-return">soft returns</a>)</li>
+    <li>Removing empty lines that you don't need (typically caused by <span class="glossary-hover" data-term="hard-return">hard returns</span> or <span class="glossary-hover" data-term="soft-return">soft returns</span>)</li>
     <li><a href="/word/formatting-text/">Reducing the font size</a></li>
     <li><a href="/word/images/#image-resize">Resizing images</a> to fit</li>
     <li>If you have space try <a href="/word/tables/">expanding the column width</a> to give the content more space</li>
-    <li>If possible alter the document's <a href="/glossary/#margin">top and bottom margins</a> to be wider. This should be a last resort though as it affects the whole document or <a href="/glossary/#section">section</a>.</li>
+    <li>If possible alter the document's <span class="glossary-hover" data-term="margin">top and bottom margins</span> to be wider. This should be a last resort though as it affects the whole document or <span class="glossary-hover" data-term="section">section</span>.</li>
 </ul>
 
 
@@ -98,8 +98,8 @@ s
 <p>What if you don't want that and just want the top header row repeating? There’s a few ways we can tackle this:</p>
 
 <ol>
-    <li>Ask yourself do those cells really need to be merged? You can have them separate and <a href="/word/tables-formatting/">alter the table's formatting</a> with borders and shading so it still <i>looks</i> merged if that's a requirement for you. That way the top row remains a true header row and Word will only repeat that. 
-    <p>For the example above we'd rebuild the rows. The easiest way to do that would be to merge the left column's 2nd row with the header row, create a new row below it and move the extra content into that row (<a href="/glossary/#cut-and-paste">cut and paste</a> it), then clean up the header row height (<a href="/word/tables/">adjusting it with your mouse</a>) and if needed <a href="/word/tables-formatting/">style</a> the new row e.g. if you want it to stand out as a subheading.</p></li>
+    <li>Ask yourself do those cells really need to be merged? You can have them separate and <a href="/word/tables-formatting/">alter the table's formatting</a> with borders and shading so it still <i>looks</i> merged if needed. That way the top row remains a true header row and Word will only repeat that. 
+    <p>For the example above we'd rebuild the rows. The easiest way to do that would be to merge the left column's 2nd row with the header row, create a new row below it and move the extra content into that row (<span class="glossary-hover" data-term="cut-and-paste">cut and paste</span> it), then clean up the header row height (<a href="/word/tables/">adjusting it with your mouse</a>) and if needed <a href="/word/tables-formatting/">style</a> the new row e.g. if you want it to stand out as a subheading.</p></li>
     <img class="thumbnail" src="{{ '/assets/images/word/Tables fixing tables over pages/Fixing merged table rows.gif' | url }}"  alt="Fixing merged table rows" style="height:85%; width:85%; vertical-align:middle">
     <li>If you want merged cells to show on some pages but not on others then that’s trickier. Instead it’s better to split your table into different tables and create a new header row matching the last.</li>
 </ol>

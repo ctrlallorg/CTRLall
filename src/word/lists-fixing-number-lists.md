@@ -9,7 +9,7 @@ active: word
 
 <p>In large or complex documents number lists can sometimes be broken, especially when extending over different headings and other content. Here's how to fix them.</p>
 
-<p>In the example snip below we have a numbered lists extending over headings which we want to all be connected together. Note: Some are connected, some are not.</p>
+<p>In the example snip below we have a numbered lists extending over headings which we want to all be connected together. <u>Note</u>: Some are connected, some are not.</p>
 
 <img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Number list issue example.png' | url }}" alt="Number list issue example" width="450">
 

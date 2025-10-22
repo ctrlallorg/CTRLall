@@ -9,7 +9,7 @@ active: word
 
 <section class="section-light">
 
-<p>Besides <a href="/word/formatting-text/">formatting text</a> inside a table, there's various ways to format tables themselves:</p>
+<p>Besides <span class="glossary-hover" data-term="formatting">formatting text</span> inside a table, there's various ways to format tables themselves:</p>
 <ul style="list-style-type: circle;">
     <li><a href="#table-cell-alignment">Table cell alignment</a></li>
     <li><a href="#table-borders">Table borders</a></li>

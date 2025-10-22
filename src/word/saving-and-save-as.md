@@ -20,7 +20,7 @@ In these example snips we're using Micrsoft Word, but you can do this in Excel a
 
 <p><strong>OR</strong></p>
 
-<li><strong>Save as a new document or a different <a href="/glossary/#filetype">filetype</a></strong> (e.g. a template or PDF) using <strong>File > Save As.</strong></li>
+<li><strong>Save as a new document or a different <span class="glossary-hover" data-term="filetype">filetype</span></strong> (e.g. a template or PDF) using <strong>File > Save As.</strong></li>
 
 Select <strong>File</strong>
 <img class="thumbnail" src="{{ '/assets/images/word/Saving%20and%20Save%20as/2a%20File.png' | url }}"  alt="File button in Word" style="height:13%; width:13%; vertical-align:middle">

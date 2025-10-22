@@ -40,13 +40,13 @@ active: word
 <td>Another huge range of categories to search/choose from, e.g. avatars, characters, industrial, medical, tools, landscaping, animals, 3D shapes and icons, animated models and more.</td>
 </tr>
 <tr>
-<td><a href="#image-insert-smartart-chart">SmartArt</a></td>
+<td><a href="#image-insert-smartart">SmartArt</a></td>
 <td>Diagrammatic visuals with editable text</td>
 <td>Various different types of editable diagrams including lists, Processes, Cycles, Hierarchies, Relationships, Matrices, Pyramids and Pictures.</td>
 </tr>
 <tr>
 <td><a href="#image-insert-chart">Charts</a></td>
-<td>Inserted via Word or linked from a chart in <a href="/glossary/#microsoft-excel">Excel</a>.</td>
+<td>Inserted via Word or linked from a chart in <span class="glossary-hover" data-term="microsoft-excel">Excel</span>.</td>
 <td>Several different chart varieties e.g column, line, pie, bar, area, scatter, radar, treemap, histogram, box and whisker, waterfall, funnel and more.</td>
 </tr>
 <tr>
@@ -55,7 +55,7 @@ active: word
 <td>Word gives you the option to insert a screenshot of any open window (i.e. one that is not minimised). Alternatively you can choose to take a screen clip to screenshot a selected area.</td>
 </tr>
 <tr>
-<td><a href="image-insert-WordArt">WordArt</a></td>
+<td><a href="#image-insert-WordArt">WordArt</a></td>
 <td>Stylised text treated as a visual object. This is an old feature of Word Gen X and Millennials  will remember well from the 90s.</td>
 <td>Multiple choices from a modest gallery of styles.</td>
 </tr>
@@ -99,7 +99,10 @@ active: word
     </tbody>
   </table>
 
-<p>After you've selected an image and pressed <strong>Insert</strong> it will appear on the page. Where it appears on the page is determined by where you had the <a href="/glossary/#insertion-point">insertion point</a> and how large the image is.</p>
+<p>After you've selected an image and pressed <strong>Insert</strong> it will appear on the page. Where it appears on the page is determined by where you had the <span class="glossary-hover" data-term="insertion-point">insertion point</span> and how large the image is.</p>
+
+
+
 
 <p>In the example below I've selected and inserted a photo from my laptop of my dog Buckley. As you can see, due to the high resolution (detail) of the photo it's quite large and takes up most of the A4 page, so I'll want to resize it to be smaller. Everything on how to alter images can be found in this article: <a href="/word/altering-images-and-objects/">Altering images and objects</a>.</p>
 
@@ -135,7 +138,6 @@ active: word
 <p>Once inserted you can alter shapes in their position, colour, size and some let you type inside them. To edit and alter shapes see this article: <a href="/word/altering-images-and-objects/">Altering images and objects</a>.</p>
 <p><img class="thumbnail" src="{{ '/assets/images/word/Images/Typing%20inside%20shape.png' | url }}" alt="Typing inside a shape" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
 
-
 <h3>Icons</h3>
 <p>Word has a library of useful royalty-free icons you can insert, recolor and resize. To alter icons see this article: <a href="/word/altering-images-and-objects/">Altering images and objects</a>.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Stock%20images%20gallery.png' | url }}" alt="Stock images gallery" style="max-width: 75%; height: auto; display: inline; margin: auto;"></p>
@@ -148,11 +150,12 @@ active: word
 <p><img class="thumbnail" src="{{ '/assets/images/word/Images/3D%20model%20examples.png' | url }}" alt="3D model example" style="max-width: 75%; height: auto; display: inline; margin: auto;"></p>
 
 
-<h2>Inserting SmartArt</h2>
-<p>SmartArt produces linked text containers arranged in viual layouts that are very useful to illustrate points, processes and structures for a report or guide. This feature is especially useful in <a href="/glossary/#microsoft-powerpoint">PowerPoint</a> presentations. Under <strong>Insert</strong> select <strong>SmartArt</strong>, once you've chosen the option you need, select <strong>OK</strong> and you can then type into the visual as needed, as well as edit and style using the <strong>SmartArt Design</strong> and <strong>Format</strong> tabs on the ribbon.</p>
+<h2 id="#image-insert-smartart">Inserting SmartArt</h2>
+<p>SmartArt produces linked text containers arranged in viual layouts that are very useful to illustrate points, processes and structures for a report or guide. This feature is especially useful in <span class="glossary-hover" data-term="microsoft-powerpoint">PowerPoint</span> presentations. Under <strong>Insert</strong> select <strong>SmartArt</strong>, once you've chosen the option you need, select <strong>OK</strong> and you can then type into the visual as needed, as well as edit and style using the <strong>SmartArt Design</strong> and <strong>Format</strong> tabs on the ribbon.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/SmartArt%20menu.png' | url }}" alt="SmartArt menu" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/SmartArt.png' | url }}" alt="SmartArt" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
 <p><img class="thumbnail" src="{{ '/assets/images/word/Images/SmartArt%20example.png' | url }}" alt="SmartArt example" style="max-width: 75%; height: auto; display: inline; margin: auto;"></p>
+
 
 <h2 id="image-insert-chart">Inserting charts</h2>
 <p>Via <strong>Insert > Chart</strong>, Word gives you several chart types to create one from:</p>
@@ -163,13 +166,13 @@ active: word
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Chart%20word%20inserted.png' | url }}" alt="Chart inserted" style="max-width: 75%; height: auto; display: inline; margin: auto;"></p>
 
 <h4>How to import charts from Excel into Word</h4>
-<p>Importing charts from Excel into Word is done by simply <a href="/glossary/#copy-and-paste">copy and pasting</a> it from the Excel app into Word. Once pasted you can format and style the chart as needed and edit the data within Word.</p>
+<p>Importing charts from Excel into Word is done by simply <span class="glossary-hover" data-term="copy-and-paste">copy and pasting</span> it from the Excel app into Word. Once pasted you can format and style the chart as needed and edit the data within Word.</p>
 <p>More on editing charts here: <a href="/word/editing-charts/">Editing charts</a>.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Excel%20chart%20copy%20paste%20into%20word.gif' | url }}" alt="Excel chart copy paste into Word" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
 
 
 <h2 id="image-insert-screenshot">Inserting Screenshots</h2>
-<p>Select <strong>Insert > Screenshot</strong> to see a thumbnail gallery of windows that you have open. (<u>Note</u>: it won't show any minimised windows.)</p>
+<p>Select <strong>Insert</strong> > <strong>Screenshot</strong> to see a thumbnail gallery of windows that you have open. (<u>Note</u>: it won't show any minimised windows.)</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Screenshot.png' | url }}" alt="Screenshot tool" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
 <p>Click on one and a screenshot of it will be inserted into your document wherever your insertion point was:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Screenshot%20inserted.png' | url }}" alt="Screenshot inserted" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
@@ -182,6 +185,5 @@ active: word
 <p>WordArt was all the rage in the 90s, every printed poster and PowerPoint presentation used them to make words stand out in a stylised way. The modern version is limited but offers the same function. Select <strong>Insert > WordArt</strong> to choose from a gallery of typographic styles; you can then type and further edit that style if you want via the <strong>Shape Format</strong> tools on the ribbon.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/WordArt%20menu.png' | url }}" alt="WordArt menu" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/WordArt%20inserted.png' | url }}" alt="WordArt inserted" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
-
 
 </section>

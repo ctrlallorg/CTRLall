@@ -45,8 +45,8 @@ active: content-control
 <br>
 <table class="shortcut-tables-cursor-icons hover-table">
   <colgroup>
-    <col style="width: auto;">
-    <col style="width: 100%;">
+    <col style="width: 10%;">
+    <col style="width: 90%;">
   </colgroup>
   <thead>
     <tr>
@@ -150,8 +150,8 @@ active: content-control
 <br>
 <table class="shortcut-tables-cursor-icons hover-table">
   <colgroup>
-    <col style="width: auto;">
-    <col style="width: 100%;">
+    <col style="width: 11%;">
+    <col style="width: 90%;">
   </colgroup>
   <thead>
     <tr>

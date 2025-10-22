@@ -27,7 +27,7 @@ active: word
 <td>Equations are created within a field object inserted into the document.</td>
 </tr>
 <tr>
-<td><a href="#object-embedded-files">Embedded files</a></td>
+<td><a href="#object-embedded-files">Embedded files (OLE objects)</a></td>
 <td>You can import other files directly onto the page in your document.</td>
 </tr>
 <tr>
@@ -56,10 +56,9 @@ active: word
 <p><img class="thumbnail" src="{{ '/assets/images/word/Objects/Equation%20field.png' | url }}" alt="Equation field on page" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
 <p><img class="thumbnail" src="{{ '/assets/images/word/Objects/Equation%20tab%20ribbon.png' | url }}" alt="Equation tab ribbon" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
 
-<h2 id="object-embedded-files">Inserting embedded files</h2>
-<p>You can embed existing files onto a page of a document. This acts as a way of attaching files to your Word document.</p> 
-<p>Word does have a menu path to do this which is fairly convoluted (Insert > Object > Create from File); it's much easier to simply drag and drop an existing file from its desktop/folder location on to the page. It appears as an icon with the filename.</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Objects/Insert%20embedded%20file.gif' | url }}" alt="Insert embedded file" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
+<h2 id="object-embedded-files">Inserting embedded files (OLE objects)</h2>
+<p>You can embed existing files onto a page of a document. This acts as a way of attaching file content to your Word document either as a static standalone copy of that file or linked to the source file. There's a lot to unpack about these, to understand everything about them look at this article: <a href="/word/objects-embedded-files/">Embedded files (OLE objects)</a>.</p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Objects%20Embedded%20files/OLE%20object.png' | url }}" alt="Insert embedded file" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
 
 
 <h2 id="object-drawing-canvas">Inserting drawing canvases</h2>

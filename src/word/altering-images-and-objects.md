@@ -5,19 +5,32 @@ permalink: /word/altering-images-and-objects/
 active: word
 ---
 
-<h1>Altering images and objects</h1>
+<h1>Altering images, graphic visuals and some objects</h1>
 
 <section class="section-light">
-<p><a href="/word/images/">Image and graphic visuals</a> and <a href="/word/objects/">Objects</a>.</p>
-
-<h2 id="image-alter">Altering images/shapes (including icons and 3D models)</h2>
-<p>When inserted an image or object is automatically selected and has a <a href="/glossary/#bounding-box">bounding box</a> around it. The bounding box has some white circles around the image called <strong>sizing handles</strong> used to resize it as needed. There is also a <strong>rotate handle</strong> icon to rotate your image/shape if you want to. Your cursor icon will change depending on where you hover it, indicating available actions you can do by clicking and dragging.</p>
+<p>This article explains how to alter certain <a href="/word/images/">images and graphic visuals</a> and some <a href="/word/objects/">objects</a>, specifically these:</p>
+<ul>
+  <li><a href="/word/images/#image-insert">Images/Pictures</a></li>
+  <li><a href="/word/images/#image-insert-shape-icon-model">Shapes</a></li>
+  <li><a href="/word/images/#image-insert-shape-icon-model">Icons</a></li>
+  <li><a href="/word/images/#image-insert-shape-icon-model">3D models</a></li>
+  <li><a href="/word/images/#image-insert-smartart">SmartArt</a></li>
+  <li><a href="/word/images/#image-insert-chart">Charts</a></li>
+  <li><a href="/word/images/#image-insert-screenshot">Screenshots</a></li>
+  <li><a href="/word/images/#image-insert-WordArt">WordArt</a></li>
+  <li><a href="/word/objects/#object-text-box">Text boxes</a></li>
+  <li><a href="/word/objects/#object-embedded-files">Embedded files (OLE objects)</a></li>
+  <li><a href="/word/objects/#object-drawing-canvas">Drawing canvas</a></li>
+</ul>
+<h2 id="alter-image-object">Altering images and objects</h2>
+<p>When an image or object is inserted it is automatically selected with a <strong>selection frame</strong> around it. The selection frame has points around the image called <strong>sizing handles</strong> used to resize it as needed. Some will also have a <strong>rotate handle</strong> icon to rotate your image/shape freely.</p>
+<p>Your cursor icon changes depending on where you hover it, indicating available actions you can do by <span class="glossary-hover" data-term="drag">clicking and dragging</span>.</p>
 <p>Hover over the table rows below to see an example of each in action:</p>
-  <table class="word-images-cursor-icons hover-table">
+<table class="word-images-cursor-icons hover-table">
     <colgroup>
-      <col style="width: 17%;">
-      <col style="width: 63%;">
-      <col style="width: 20%;">
+      <col style="width: 35%;">
+      <col style="width: 35%;">
+      <col style="width: 10%;">
     </colgroup>
     <thead>
       <tr>
@@ -28,8 +41,8 @@ active: word
     </thead>
     <tbody>
       <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Resize%20image.gif' | url }}">
-        <td>Hover over sizing handles (white circles)<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Sizing%20handles.png' | url }}" alt="Sizing handles" style="display: block; margin: auto; width: 50%;"></p></td>
-        <td>Hover over sizing handles and you'l see a two-way arrow indicating what direction you can resize in (i.e. horizonal, vertical or diagonal). Click and drag to resize, drag inward to reduce the size, drag outward to increase the size.</td>
+        <td>Hover over sizing handles<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Sizing%20handles.png' | url }}" alt="Sizing handles" style="display: block; margin: auto; width: 50%;"></p></td>
+        <td>Hover over sizing handles and you'll see a two-way arrow indicating what direction you can resize in (i.e. horizonal, vertical or diagonal). Click and drag to resize, drag inward to reduce the size, drag outward to increase the size.</td>
         <td>
         <img class="thumbnail" src="{{ '/assets/images/word/Images/Resize%20arrow%20diagonal.png' | url }}" alt="Resize arrow diagonal" style="display: block; margin: auto; width: 50%;">
         <img class="thumbnail" src="{{ '/assets/images/word/Images/Resize%20arrow%20horizontal.png' | url }}" alt="Resize arrow horizontal" style="display: block; margin: auto; width: 50%;">
@@ -43,7 +56,7 @@ active: word
       </tr>
       <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Move%20image.gif' | url }}">
         <td>Hover anywhere over the image/shape</td>
-        <td><p>Hover over the image/shape, then when the cursor icon changes to a four-way arrow you can click and drag to move it.</p> <p><u>Note</u>: by default images fit within the text sharing a line with it which will restrict how and where you move it. To move images more freely you can change its <strong>layout options</strong> so it 'floats' above or behind text, see below.</p></td>
+        <td><p>Hover over the image/shape, then when the cursor icon changes to a four-way arrow you can click and drag to move it.</p> <p><u>Note</u>: by default images fit within the text sharing a line with it which will restrict how and where you move it. To move images more freely you can change its <strong>layout options</strong> so it 'floats' above, below or amongst text.</p></td>
         <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Move%20arrow%20grey%20background.png' | url }}" alt="Move arrow" style="display: block; margin: auto; width: 100%;"></td>
       </tr>
       <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Adjustment%20handle%20example.gif' | url }}">
@@ -56,10 +69,10 @@ active: word
         <td><p>Hover over and when the cursor icon changes to rotate icon you can click and drag to rotate the model around anyway.</p></td>
         <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Rotate%20arrow.png' | url }}" alt="Move arrow" style="display: block; margin: auto; width: 100%;"></td>
       </tr>
-    </tbody>s
+    </tbody>
     </table>
     <h3 id="layout-options">Layout options</h3>
-    <p>When the image/shape is selected you'll also see a small box top right, click this to see the layout options available:</p>
+    <p>When the image/shape is selected you'll also see a small box top right, click this to see the layout options which include several <strong>wrapping</strong> styles. Wrapping is where the image/object can move between, above or below the text rather than in line with it. Wrapping can greatly improve your document's layout, readability and aesthetics.</p>
     <img class="thumbnail" src="{{ '/assets/images/word/Images/Layout%20options.png' | url }}" alt="Layout options" style="display: inline; margin: auto; width: 50%;">
     <p>Hover over the rows below to see how text acts around the image/shape each option:</p>
     <table class="word-images-cursor-icons hover-table">
@@ -80,7 +93,7 @@ active: word
       </tr>
       <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Layout%20options%20square%20wrap%20example.png' | url }}">
         <td>Layout options square wrap<img class="thumbnail" src="{{ '/assets/images/word/Images/Layout%20options%20square%20wrap.png' | url }}" alt="Layout options square wrap" style="display: block; margin: auto; width: 30%;"></td>
-        <td>Text wraps around the outer edge of the image/shape’s bounding box in a square or rectangular shape. This is useful for placing images/shapes beside paragraphs or in columns.</td>
+        <td>Text wraps around the outer edge of the image/shape’s selection frame in a square or rectangular shape. This is useful for placing images/shapes beside paragraphs or in columns.</td>
       </tr>
       <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Layout%20options%20tight%20wrap%20example.png' | url }}">
         <td>Layout options tight wrap<img class="thumbnail" src="{{ '/assets/images/word/Images/Layout%20options%20tight%20wrap.png' | url }}" alt="Layout options tight wrap" style="display: block; margin: auto; width: 30%;"></td>
@@ -139,7 +152,7 @@ active: word
 
 <p>The anchor is helpful if you have the default option <strong>Move with text</strong> enabled, as you can use it to predict whether your image/shape will shift if that paragraph — or one before it — moves.</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Images/Anchor%20with%20square%20wrap.png' | url }}" alt="Anchor with square wrap" style="display: block; margin: auto; width: 85%;">
+<img class="thumbnail border" src="{{ '/assets/images/word/Images/Anchor%20with%20square%20wrap.png' | url }}" alt="Anchor with square wrap" style="display: block; margin: auto; width: 75%;">
 
 <h4 id="locked-anchor">Locked Anchor</h4>
 <p>With floating images if you drag the image/shape far enough up or down the page, Word  reassigns its anchor to a different paragraph. To prevent this, you can 'lock' the anchor.</p>

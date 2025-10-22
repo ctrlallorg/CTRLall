@@ -18,6 +18,8 @@ permalink: /
 <section class="section-light">
   <h2>What's new?</h2>
   <ul>
+    <li>21 Oct 2025 - Glossary tooltips - hover over purple terms to see glossary tooltips at a glance</li>
+    <li>News: <a href="https://microsoft.design/articles/fluid-forms-vibrant-colors/" target="_blank">Office 365 icons get a revamp</a></li>
     <li>10 Oct 2025 - Glossary added</li>
   </ul>
 </section>

@@ -209,6 +209,7 @@ p {
 
 h1 {
   color: #452c50;
+  margin-top: 0.5em;
 }
 
 h2 {
@@ -771,6 +772,33 @@ table td {
   cursor: pointer;
   z-index: 1000;
 }
+
+
+/* ─── Glossary tooltip ────────────────────────── */
+#glossary-tooltip {
+  position: absolute;
+  max-width: 400px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.glossary-hover {
+  color: #452c50;
+  cursor: pointer;
+  text-decoration: underline dotted;
+  font-weight: 500;
+}
+
+.glossary-hover:hover {
+  color: #452c50;
+  cursor: pointer;
+}
+
 
 /* ─── Portrait Mode Warning ────────────────────── */
 #portrait-warning {

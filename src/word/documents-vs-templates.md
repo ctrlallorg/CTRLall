@@ -5,16 +5,15 @@ permalink: /word/documents-vs-templates/
 active: word
 ---
 
-
 <h1>Documents vs Templates</h1>
 
 <section class="section-light">
 <h2>What's the difference?</h2>
-<p>If you're not too familiar with templates it's easy to get lost with the <a href="/glossary/#filetype">filetype</a> difference between a document and a template.</p>
+<p>If you're not too familiar with templates it's easy to get lost with the <span class="glossary-hover" data-term="filetype">filetype</span> difference between a document and a template.</p>
 
 <p><strong>Document</strong>: When creating a new document it will be blank, A4 size and portrait with styles based on a global template used for all new documents.</p>
 
-<p><strong>Template</strong>: A template is a preset file that serves as a starting point for creating new documents with consistent <a href="#formatting">formatting</a>, styles and layout. When opening a template file Word provides you with a document to edit based on that template's attributes, you're not editing the template itself. Templates are meant to be reused without being overwritten.</p>
+<p><strong>Template</strong>: A template is a preset file that serves as a starting point for creating new documents with consistent <span class="glossary-hover" data-term="formatting">formatting</span>, styles and layout. When opening a template file Word provides you with a document to edit based on that template's attributes, you're not editing the template itself. Templates are meant to be reused without being overwritten.</p>
 
 <img class="thumbnail" src="{{ '/assets/images/word/Documents vs Templates/Template opened as document.png' | url }}"  alt="Template new document" style="height:55%; width:55%; vertical-align:middle">
 
@@ -28,7 +27,7 @@ active: word
 <p>The top file reads ‘Report Template' but is actually a document, not a template. You can tell whether a Word file is a template or a document in two ways:</p>
 
 <ol>
-    <li>In the <strong>Name</strong> column look at the <a href="/glossary/#filename-extension">filename extension</a> after the full stop</li>
+    <li>In the <strong>Name</strong> column look at the <strong>filename extension</strong> after the full stop</li>
     <li>Look at the <strong>Type</strong> column</li>
 </ol>
 
