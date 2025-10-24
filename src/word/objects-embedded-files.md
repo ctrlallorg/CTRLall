@@ -18,7 +18,7 @@ You can embed a file in a Word document as an OLE object.
 
 <h2 id="what-is-an-OLE-object">What is an OLE object?</h2>
 <p>OLE stands for Object Linking and Embedding. It’s a Microsoft framework that allows an application like Word to insert and interact with content from another application like Excel, PowerPoint, PDFs or even media players.</p> 
-<p>In Word, an OLE <i>object</i> uses that OLE framework to import content from an external file onto the document page, showing either the external content in an OLE container or the file's icon to be opened up. Here's what both look like on the page:</p>
+<p>In Word, an OLE <i>object</i> uses that OLE framework to import content from an external file onto the document page, showing either the file's icon which can be double clicked on to open it up, or the external file's actual content shown in an OLE container. Here's what both look like on the page:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/OLE object.png' | url }}" alt="OLE objects in a Word document" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
 
 <p id="OLE-object-types">OLE objects are shown as either an icon or visual content of an external file, simple enough. However there are two different types of OLE object you can insert into a document and it's important to understand the difference:</p>
@@ -296,7 +296,9 @@ You can embed a file in a Word document as an OLE object.
 </ul>
 
 <h2 id="edit-embedded-file">Resizing an OLE object</h2>
-<p>Icons can't be resized, but visual content can. Drag </p>
+<p>Icons can't be resized, but visual content can. Select the visual content then click and drag the sizing handles at the edges of the OLE container to resize visual content on the page as needed.</p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Resize OLE container.gif' | url }}" alt="Resize OLE container" style="max-width: 50%; height: auto; display: inline; margin: auto;"></p>
+
 
 <h2 id="wrap-embedded-file">Wrapping an OLE object</h2>
 <p>By default OLE objects are set to be in line with text. They behave slightly differently than images as they don’t expose the floating layout widget and require wrapping manually. To set wrapping for an OLE object <strong>right click</strong> on it then select <strong>Picture</strong>.</p>
