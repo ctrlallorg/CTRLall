@@ -1,8 +1,13 @@
 ---
 title: Embedded files
 layout: layout.liquid
-permalink: /word/objects-embedded-files/
 active: word
+permalink: /word/objects-embedded-files/
+canonical: /word/objects-embedded-files/
+asset_id: ctrlall-objects-embedded-files-v1
+image: /assets/images/Ctrl All logo blue.svg
+description: Embed and link external files in a Microsoft Word document with clear steps, visuals, and animations.
+keywords: Word, Microsoft Word, external files, source file, access, import, embed, embedded, link to file, visual content, preview, file icon, open up in the document, attach, attachment, attach to the document, become part of the document, include file in the document, OLE, OLE framework, OLE object, Object Linking and Embedding, page, filetype, Word, .docx, Excel, .xlsx, PowerPoint, .pptx, Outlook message, email, .msg, PDF, zipped file, zip file, .zip, audio, .mp3, video, .mp4. 
 ---
 
 <h1>Embedded files (OLE objects)</h1>

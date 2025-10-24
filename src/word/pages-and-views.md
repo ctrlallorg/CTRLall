@@ -1,8 +1,13 @@
 ---
 title: Pages and Views
 layout: layout.liquid
-permalink: /word/pages-and-views/
 active: word
+permalink: /word/pages-and-views/
+canonical: /word/pages-and-views/
+asset_id: ctrlall-pages-and-views-v1
+image: /assets/images/Ctrl All logo blue.svg
+description: Altering pages and views in Microsoft Word with clear steps, visuals, and animations.
+keywords: Word, Microsoft Word, page, interface, view, zoom, zooming, zoom in, zoom out, up close, make bigger, make smaller, reduce, increase, enlarge, scale, fit on page, go deeper in, go further in, go further out, keyboard shortcuts, layout, size, orientation.
 ---
 
 

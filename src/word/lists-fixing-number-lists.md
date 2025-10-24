@@ -1,8 +1,13 @@
 ---
 title: "Lists: Fixing number lists"
 layout: layout.liquid
-permalink: /word/lists-fixing-number-lists/
 active: word
+permalink: /word/lists-fixing-number-lists/
+canonical: /word/lists-fixing-number-lists/
+asset_id: ctrlall-lists-fixing-number-lists-v1
+image: /assets/images/Ctrl All logo blue.svg
+description: How to fix number list issues in Microsoft Word with clear steps, visuals, and animations.
+keywords: Word, Microsoft Word, number list, list, sequential, sequentially, in sequence, number order, in order, numerical, in sync, synchronize, synchronized, join, joined together, flow, connected, separate, separated, not working,   continue numbering, numbering value, number value, sort, problem, issue, error, help, get back, retrieve, solution, answer.
 ---
 
 <h1>Fixing number lists</h2>

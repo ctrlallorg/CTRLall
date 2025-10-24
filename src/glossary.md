@@ -1,11 +1,17 @@
 ---
 title: Glossary
+description: A digital literacy glossary of terms with tooltip visuals and detailed definitions.
 layout: layout.liquid
 permalink: /glossary/
 active: glossary
+canonical: /glossary/
+asset_id: glossary-v1.0
+image: /assets/images/Ctrl All logo blue.svg
+keywords: Ctrl All, glossary, terms, definitions, tooltips, examples, reference, index, Application, App, Attribute (formatting), AutoComplete, AutoCorrect, AutoSave, Automatic grammar checking, Automatic spell checking, Bullet list, Bullets, Copy, Copy and paste, Copying and pasting, Copying content, Clipboard, Windows clipboard, Office clipboard, Colour palette, Columns (MS Word layout, Column boundary marker, Cursor, Pointer, Cursor keys, Cut, Cut and paste, Cutting and pasting, Drag, Click and drag, Clicking and dragging, Drag and drop, dragging and dropping, Filename, Filename extension, Filetype, Filename extension, First-line indent, Floating image, Footer, Font, Format, Formatting, Format Painter, Gridlines, Hanging indent, Hard return, Header, Highlight (formatting), Highlight (selected content, Indent, Insertion point, Kerning, Left indent, Locked anchor, Margin (MS Word, Maximise screen , Microsoft Office, Microsoft Excel, Microsoft Outlook, Microsoft PowerPoint, Microsoft Word, Minimise screen, Multilevel list, Number list, OLE object (embedded file), Embedded files (OLE objects), Operating System (OS), Orientation (MS Word), Page break, Paragraph marks, Show/Hide ¶, Paste, Pasting, Point (font), Quick Access Toolbar, Quick Parts, Quick Styles, Redo, Ribbon, Right indent, Rotate handle, Ruler, Save, Section, Section break, Select, Selecting, Selection, Selection frame, Sizing handles, Soft return, Sort, Spellcheck (Spelling and Grammar), Status bar, Style, Tab stop, Tab (left, centre, right), Table, Table border, Table cell, Template, Text wrap, Toggle, Track Changes, Typo (Typographical error), Undo, Web browser, Word Document, Word processing, Wrap, Wrapping (images/objects).
 ---
 
 <h1>Glossary</h1>
+<!-- CTRL All glossary v1.0 -->
 <table class="hover-table">
     <colgroup>
       <col style="width: 20%;">
@@ -60,7 +66,7 @@ active: glossary
       <td>Underlines words in red to indicate a misspelling.</td>
     </tr>
     <tr>
-      <td id="bullet-list">Bullet list</td>
+      <td id="bullet-list">Bullet list / Bullets</td>
       <td>A list format of text where each new line has a bullet dot before it. Useful for condensing information into bitesize points.</td>
     </tr>
     <tr>
@@ -155,7 +161,7 @@ active: glossary
     </tr>
     <tr>
       <td id="format-painter">Format Painter</td>
-      <td>A very useful tool that lets you copy the formatting of text to apply it on other text, like copy and paste but for formatting. See this article on <a href="/word/formatting-text">Formatting text</a>.</td>
+      <td><p>A very useful tool that lets you copy the formatting of text to apply it on other text, like copy and paste but for formatting. See this article on <a href="/word/formatting-text">Formatting text</a>.</p><p><img src="{{ '/assets/images/glossary/Format painter icon.png' | url }}" alt="Format painter icon" style="width: 5%;"></p></td>
     </tr>
     <tr>
       <td id="gridlines">Gridlines</td>
@@ -350,7 +356,7 @@ active: glossary
       <td>Allows you to arrange content in lists or <a href="#table">table</a> columns in ascending or descending order. <strong>Custom sort</strong> is another option for tables that allows you to sort by multiple criteria.</td>
     </tr>
     <tr>
-      <td id="spellcheck">Spellcheck (Spelling and Grammer)</td>
+      <td id="spellcheck">Spellcheck (Spelling and grammar)</td>
       <td>A tool to review your document for spelling and grammatical errors.</td>
     </tr>
     <tr>
@@ -600,7 +606,7 @@ active: glossary
         <td>Underlines words in red to indicate a misspelling.</td>
       </tr>
       <tr>
-        <td id="bullet-list">Bullet list</td>
+        <td id="bullet-list">Bullet list / Bullets</td>
         <td>A list format of text where each new line has a bullet dot before it. Useful for condensing information into bitesize points.</td>
       </tr>
       <tr>
@@ -695,7 +701,8 @@ active: glossary
       </tr>
       <tr>
         <td id="format-painter">Format Painter</td>
-        <td>A very useful tool that lets you copy the formatting of text to apply it on other text, like copy and paste but for formatting. See this article on <a href="/word/formatting-text">Formatting text</a>.</td>
+        <td><p><img src="{{ '/assets/images/glossary/Format painter icon.png' | url }}" alt="Format painter icon" style="width: 5%; margin-left: 1rem;"></p><p>Format Painter is a very useful tool that lets you copy the formatting of text to apply it on other text, like copy and paste but for formatting. See more in this article about <a href="/word/formatting-text">formatting text</a>.</p>
+       </td>
       </tr>
       <tr>
         <td id="gridlines">Gridlines</td>
@@ -888,7 +895,7 @@ active: glossary
       <td>Allows you to arrange content in lists or <a href="#table">table</a> columns in ascending or descending order. <strong>Custom sort</strong> is another option for tables that allows you to sort by multiple criteria.</td>
     </tr>
     <tr>
-      <td id="spellcheck">Spellcheck (Spelling and Grammer)</td>
+      <td id="spellcheck">Spellcheck (Spelling and grammar)</td>
       <td>A tool to review your document for spelling and grammatical errors.</td>
     </tr>
     <tr>

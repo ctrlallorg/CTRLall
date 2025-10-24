@@ -1,8 +1,13 @@
 ---
 title: Keyboard Shortcuts
 layout: layout.liquid
-permalink: /content-control/keyboard-shortcuts/
 active: content-control
+permalink: /content-control/keyboard-shortcuts/
+canonical: /content-control/keyboard-shortcuts/
+asset_id: ctrlall-keyboard-shortcuts-v1
+image: /assets/images/Ctrl All logo blue.svg
+description: Keyboard shortcuts in Windows and Microsoft Office with tooltip visuals.
+keywords: Windows, Microsoft Office, Microsoft Word, Microsoft Excel, shortcuts, keyboard shortcuts, hot keys, keyboard, keys, buttons, how to, ctrl, shift, win, windows key, combination. 
 ---
 
 <h1>Keyboard Shortcuts</h1>

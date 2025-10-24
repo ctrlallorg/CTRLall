@@ -1,8 +1,13 @@
 ---
 title: Editing charts
 layout: layout.liquid
-permalink: /word/editing-charts/
 active: word
+permalink: /word/editing-charts/
+canonical: /word/editing-charts/
+asset_id: ctrlall-editing-charts-v1
+image: /assets/images/Ctrl All logo blue.svg
+description: Editing charts in Mirosoft Word with clear steps, visuals, and animations. .
+keywords: Word, Microsoft Word, excel, Microsoft Excel, chart, insert, import, edit, update, data, update.
 ---
 
 <h1>Editing Charts</h1>

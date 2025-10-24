@@ -1,8 +1,13 @@
 ---
 title: Objects
 layout: layout.liquid
-permalink: /word/objects/
 active: word
+permalink: /word/objects/
+canonical: /word/objects/
+asset_id: ctrlall-objects-v1
+image: /assets/images/Ctrl All logo blue.svg
+description: A guide on everything about objects in Microsoft Word with clear steps, visuals, and animations.
+keywords: Word, Microsoft Word, object, objects, text box, textbox, embedded file, drawing canvas, insert, inserting.
 ---
 
 <h1>Objects</h1>

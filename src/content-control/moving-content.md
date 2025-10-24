@@ -20,7 +20,7 @@ Dragging, also referred to as 'drag and drop' or 'click and drag', is where you 
 
 
 
-<h2>Cut and paste</h2> 
+<h2 id="cut-and-paste">Cut and paste</h2> 
 <p>Cutting and pasting is where you copy content to the clipboard while removing ('cutting') it from its original location, to then duplicate ('paste') it elsewhere. Hence the phrase 'cut and paste'.</p>
 
 <p>For content in applications, the content is removed when cut.</p>

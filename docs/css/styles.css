@@ -1,3 +1,7 @@
+/* CTRL All glossary styling v1.0
+   Tooltip estabished for glossary terms
+   Asset fingerprint: glossary-core | owner: Steve Williams | origin: ctrlall.com */
+
 /* ─── Top Navigation Layout ───────────────────── */
 .topnav {
   display: flex;
@@ -777,7 +781,7 @@ table td {
 /* ─── Glossary tooltip ────────────────────────── */
 #glossary-tooltip {
   position: absolute;
-  max-width: 400px;
+  max-width: 500px;
   background: #fff;
   border: 1px solid #ccc;
   padding: 1em;

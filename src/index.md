@@ -1,8 +1,13 @@
 ---
 title: CTRL All
-description: A digital literacy hub built on clarity, ethics, and open-source empowerment.
+description: Ctrl All - A digital literacy hub built on clarity, ethics, and open-source empowerment.
 layout: layout.liquid
 permalink: /
+active: index
+canonical: /index/
+asset_id: index-v1.0
+image: /assets/images/Ctrl All logo blue.svg
+keywords: Ctrl All, digital literacy, digital skills, microsoft office, microsoft word, help, guides, articles, how to, solved problems, fix everyday issues, fix common problems, glossary, terms, definitions, tooltips, examples, reference, index, answers, jargon free, no jargon, explain, wiki, beginner, new to word.
 ---
 
 <section class="hero">

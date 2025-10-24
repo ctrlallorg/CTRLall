@@ -1,8 +1,13 @@
 ---
 title: Saving an Save As
 layout: layout.liquid
-permalink: /word/saving-and-save-as/
 active: word
+permalink: /word/saving-and-save-as/
+canonical: /word/saving-and-save-as/
+asset_id: ctrlall-saving-and-save-as-v1
+image: /assets/images/Ctrl All logo blue.svg
+description: Saving an Save As in Microsoft Word with clear steps, visuals, and animations.
+keywords: Word, Microsoft Word, save, save as, back up, backup, save a copy, computer, laptop, hard drive, cloud, online, machine, PC, file, existing file, save over, overwrite, filetype, document, template.  
 ---
 
 <h1>Saving and Save As</h1>

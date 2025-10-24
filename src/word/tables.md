@@ -1,8 +1,13 @@
 ---
 title: Tables
 layout: layout.liquid
-permalink: /word/tables/
 active: word
+permalink: /word/tables/
+canonical: /word/tables/
+asset_id: ctrlall-tables-v1
+image: /assets/images/Ctrl All logo blue.svg
+description: A guide to tables in Microsoft Word with clear steps, visuals, and animations.
+keywords: Word, Microsoft Word, table, table layout, cell, column, column width, row, row height, distribution, space, spacing, extend, extended, margins, borders, resize, adjust, align, alignment, vertically, horizontally, insert, inserting, arrows, cursor, pointer, icon, hover, hover over, mouse symbol, select, selecting.
 ---
 
 <h1>Tables</h1>

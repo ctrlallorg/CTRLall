@@ -1,8 +1,13 @@
 ---
 title: "Indents"
 layout: layout.liquid
-permalink: /word/indents/
 active: word
+permalink: /word/indents/
+canonical: /word/indents/
+asset_id: ctrlall-indents-v1
+image: /assets/images/Ctrl All logo blue.svg
+description: Indents in Microsoft Word with clear steps, visuals, and animations.
+keywords: Word, Microsoft Word, paragraph options, indent, indenting, indentation, format paragraph, formatting text, style paragraph, space, spacing, tab, tabs, margin indent marker, slider, ruler, hanging indent, first line indent, left indent.  
 ---
 
 <h1>Indents</h1>

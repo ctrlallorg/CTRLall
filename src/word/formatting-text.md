@@ -3,6 +3,10 @@ title: Formatting text
 layout: layout.liquid
 permalink: /word/formatting-text/
 active: word
+description: "Style words, sentences, and paragraphs in Word with clear steps, visuals, and animations."
+keywords: "Word formatting, format text, style text, font options, change font, bold, italic, underline, strikethrough, font effects, font size, pt, font color, font colour, highlight, align text, left align, center align, right align, justify, subscript, superscript, change case, sentence case, lowercase, uppercase, all caps, bullet list, numbered list, multilevel list, steps, points, indent, indentation, clear formatting, remove formatting, remove font formatting, reset font formatting"
+canonical: "/modules/formatting-text.html"
+asset_id: "ctrlall-formatting-text-v1"
 ---
 
 <h1>Formatting text</h1>
@@ -11,20 +15,64 @@ active: word
 On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting tools change the appearance and layout of your text and document; they make your content more readable, professional, and visually appealing. This article explains what each does.
 
 <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/01 Home tab on ribbon.png' | url }}"  alt="Home tab on ribbon" style="height:55%; width:55%; vertical-align:middle"></p>
-<br>
 
-<strong>Clipboard tools</strong>
+<h2>Clipboard tools</h2>
 <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/02 Home Clipboard.png' | url }}"  alt="Home Clipboard tools on ribbon" style="height:35%; width:35%; vertical-align:middle"></p>
 
-<strong>Format Painter</strong> 
+<h4>Cut, copy and paste</h4> 
+<p>These are tools to copy and/or move content.</p>
+<ul>
+  <li><u>Cut</u>: see <a href="/content-control/moving-content/#cut-and-paste" target="_blank">Moving content</a></li>
+  <li><u>Copy</u>: see <a href="/content-control/copying-content/" target="_blank">Copying content</a></li>
+  <li><u>Paste</u>: depending on what content you've cut or copied you'll see different icon options, for text it's generally these four:
+<table>
+  <colgroup>
+      <col style="width: 35%;">
+      <col style="width: 65%;">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Paste icon</th>
+        <th>Definition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Paste - Keep Source Formatting
+        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Keep Source Formatting.png' | url }}"  alt="Paste Keep Source Formatting" style="width:20%; vertical-align:middle"></div></td>
+        <td>Pastes the content bringing its inherent formatting to your document. This may not always be something you want.</td>
+      </tr>
+      <tr>
+        <td>Paste - Merge Formatting
+        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Merge Formatting.png' | url }}"  alt="Paste Merge Formatting" style="width:20%; vertical-align:middle"></div></td>
+        <td>Content will take on the formatting on your document when you have placed the <span class="glossary-hover" data-term="insertion-point">insertion point</span>.</td>
+      </tr>
+      <tr>
+        <td>Paste - Picture
+        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Picture.png' | url }}"  alt="Paste Picture" style="width:20%; vertical-align:middle"></div></td>
+        <td>Pastes as an image. Useful if you need a snapshot of content that you don't want altered.</td>
+      </tr>
+      <tr>
+        <td>Paste - Keep Text Only
+        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Keep Text Only.png' | url }}"  alt="Paste Keep Text Only" style="width:20%; vertical-align:middle"></div></td>
+        <td>Pastes text without any formatting it originally had. This is especially useful when copying text from elsewhere like another document or a webpage.</td>
+      </tr>
+    </tbody>
+  </table>
+</li>
+<h4>Format Painter</h4> 
 <img class="thumbnail" src="{{ '/assets/images/word/Formatting text/02a Format painter icon.png' | url }}"  alt="Format painter icon" style="height:5%; width:5%; vertical-align:middle"> 
 <p>This is a useful tool which applies formatting from selected formatted text to other text. This is much faster to apply the same custom formatting elsewhere.</p>
 <u>Note</u>: For headings you should use Styles (see further below), the format painter can then be used to apply a heading's heading style onto other text.
 <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/02b Format painter example.gif' | url }}"  alt="Format painter" style="height:60%; width:60%; vertical-align:middle"></p>
 
-<strong>Font tools</istrong>
+<h2>Font tools</h2>
 <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/03 Home Font.png' | url }}"  alt="Home Font tools on ribbon" style="height:55%; width:55%; vertical-align:middle"></p>
 <table>
+<colgroup>
+      <col style="width: 20%;">
+      <col style="width: 80%;">
+    </colgroup>
   <thead>
     <tr>
       <th>Formatting Type</th>
@@ -78,9 +126,11 @@ On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting 
     </tr>
   </tbody>
 </table>
-<br>
 
-<strong>Paragraph</strong>
+
+<p>Click the bottom right corner button and you can bring up further <a href="/word/font-options/">Font options</a>.</p>
+
+<h2>Paragraph</h2>
 <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/05 Home Paragraph.png' | url }}"  alt="Home Paragraph tools on ribbon" style="height:55%; width:55%; vertical-align:middle"></p>
 
 <table>

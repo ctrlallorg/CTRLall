@@ -2,15 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>{{ title }}</title>
+  <title>{{ title }} – CTRL All</title>
+
+  {% if page.canonical %}
+    <link rel="canonical" href="{{ page.canonical | absolute_url }}">
+  {% else %}
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% endif %}
+
+  <meta name="ctrlall-source" content="{{ page.asset_id }}">
   <meta name="description" content="{{ description | default: 'Empowering learners with open-source tools and ethical guidance.' }}">
-  <meta name="author" content="Steve – CTRL All">
+  <meta name="keywords" content="{{ keywords }}">
+  <meta name="author" content="Steve Williams – CTRL All">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="robots" content="index, follow">
+
+  {% assign page_image = image | default: "/assets/images/Ctrl All logo blue.svg" %}
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ title }} – CTRL All">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:image" content="{{ page_image | absolute_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+
+
   <meta name="google-adsense-account" content="ca-pub-6596712504858429">
+
   <link rel="stylesheet" href="/css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 
 <body>
 <div id="portrait-warning">
@@ -123,6 +143,7 @@
 <!-- Tooltip container -->
 <div id="glossary-tooltip" hidden></div>
 
+<!-- CTRL All asset ID: {{ page.asset_id }} -->
 
 </body>
 </html>

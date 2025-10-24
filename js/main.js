@@ -1,3 +1,7 @@
+/* CTRL All glossary logic v1.0
+   Added Tooltip functionality
+   Asset fingerprint: glossary-core | owner: Steve Williams | origin: ctrlall.com */
+
 document.addEventListener("DOMContentLoaded", () => {
   // ─── Topbar Menu Toggle ─────────────────────
   const menuToggle = document.querySelector(".menu-toggle");

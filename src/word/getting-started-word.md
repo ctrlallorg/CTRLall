@@ -1,8 +1,13 @@
 ---
 title: Getting started with Microsoft Word
 layout: layout.liquid
-permalink: /word/getting-started-word/
 active: word
+permalink: /word/getting-started-word/
+canonical: /word/getting-started-word/
+asset_id: ctrlall-getting-started-word-v1
+image: /assets/images/Ctrl All logo blue.svg
+description: Getting started with Microsoft Word, an introduction with clear steps, visuals, and animations.
+keywords: Word, Microsoft Word, version, open Word, app, application, doc, document, make a new document, open document, open file, interface, screen, page, quick access toolbar, ribbon, status bar, button, tool, close document, close app, close application, close Word.
 ---
 
 <h1>Getting started with Microsoft Word</h1>

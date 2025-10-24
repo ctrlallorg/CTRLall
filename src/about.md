@@ -4,6 +4,10 @@ description: About us.
 layout: layout.liquid
 active: about
 permalink: /about/
+canonical: /about/
+asset_id: ctrlall-about-v1
+image: /assets/images/Ctrl All logo blue.svg
+keywords: Ctrl all, about us, digital literacy, no jargon, guides, tutorials, copyright, ads.
 ---
 
 <section class="section-light">
