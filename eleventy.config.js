@@ -25,13 +25,14 @@ module.exports = function(eleventyConfig) {
   // ─── Template Formats ─────────────────────────────────────
   eleventyConfig.setTemplateFormats(["md", "11ty.md", "liquid", "html"]);
 
-  // ─── Directory Structure ──────────────────────────────────
+  // ─── Directory Structure and Path Prefix for GitHub Pages ─
   return {
     dir: {
       input: "src",
       includes: "../_includes", // ✅ correct path from src to root-level _includes
       output: "docs"
     },
+    pathPrefix: "/CTRLall/",
     htmlTemplateEngine: "liquid",
     markdownTemplateEngine: "liquid",
     templateFormats: ["md", "11ty.md", "liquid", "html"]
