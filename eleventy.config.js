@@ -32,7 +32,7 @@ module.exports = function(eleventyConfig) {
       includes: "../_includes", // ✅ correct path from src to root-level _includes
       output: "docs"
     },
-    pathPrefix: "/CTRLall/",
+    pathPrefix: "/",
     htmlTemplateEngine: "liquid",
     markdownTemplateEngine: "liquid",
     templateFormats: ["md", "11ty.md", "liquid", "html"]
