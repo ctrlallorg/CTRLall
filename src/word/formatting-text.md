@@ -14,10 +14,10 @@ asset_id: "ctrlall-formatting-text-v1"
 <section class="section-light">
 On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting tools change the appearance and layout of your text and document; they make your content more readable, professional, and visually appealing. This article explains what each does.
 
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/01 Home tab on ribbon.png' | url }}"  alt="Home tab on ribbon" style="height:55%; width:55%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/01 Home tab on ribbon.png' | url }}"  alt="Home tab on ribbon" style="width:75%; vertical-align:middle"></p>
 
 <h2>Clipboard tools</h2>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/02 Home Clipboard.png' | url }}"  alt="Home Clipboard tools on ribbon" style="height:35%; width:35%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/02 Home Clipboard.png' | url }}"  alt="Home Clipboard tools on ribbon" style="width:40%; vertical-align:middle"></p>
 
 <h4>Cut, copy and paste</h4> 
 <p>These are tools to copy and/or move content.</p>
@@ -61,13 +61,13 @@ On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting 
   </table>
 </li>
 <h4>Format Painter</h4> 
-<img class="thumbnail" src="{{ '/assets/images/word/Formatting text/02a Format painter icon.png' | url }}"  alt="Format painter icon" style="height:5%; width:5%; vertical-align:middle"> 
+<img class="thumbnail" src="{{ '/assets/images/word/Formatting text/02a Format painter icon.png' | url }}"  alt="Format painter icon" style=" width:5%; vertical-align:middle"> 
 <p>This is a useful tool which applies formatting from selected formatted text to other text. This is much faster to apply the same custom formatting elsewhere.</p>
 <u>Note</u>: For headings you should use Styles (see further below), the format painter can then be used to apply a heading's heading style onto other text.
 <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/02b Format painter example.gif' | url }}"  alt="Format painter" style="height:60%; width:60%; vertical-align:middle"></p>
 
 <h2>Font tools</h2>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/03 Home Font.png' | url }}"  alt="Home Font tools on ribbon" style="height:55%; width:55%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/03 Home Font.png' | url }}"  alt="Home Font tools on ribbon" style="width:80%; vertical-align:middle"></p>
 <table>
 <colgroup>
       <col style="width: 20%;">
@@ -131,9 +131,13 @@ On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting 
 <p>Click the bottom right corner button and you can bring up further <a href="/word/font-options/">Font options</a>.</p>
 
 <h2>Paragraph</h2>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/05 Home Paragraph.png' | url }}"  alt="Home Paragraph tools on ribbon" style="height:55%; width:55%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/05 Home Paragraph.png' | url }}"  alt="Home Paragraph tools on ribbon" style="width:75%; vertical-align:middle"></p>
 
 <table>
+<colgroup>
+      <col style="width: 20%;">
+      <col style="width: 80%;">
+    </colgroup>
   <thead>
     <tr>
       <th>Formatting Type</th>
@@ -204,13 +208,13 @@ On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting 
     <tr>
       <td>Sort</td>
       <td>
-        Useful to sort text in different ways in lists and tables (text, number, date, ascending/descending, multiple orders)
+        Sort is useful to order text in different ways in lists and tables: alphabetically A-Z, reverse alphabetically Z-A, by number, yy date, ascending/descending, and multiple levels of sorting orders.
       </td>
     </tr>
     <tr>
       <td>Line spacing</td>
       <td>
-        <p style="line-height: 1.5;">
+        <p style="line-height: 2.5;">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
         </p>
       </td>

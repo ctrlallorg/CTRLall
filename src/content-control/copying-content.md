@@ -1,13 +1,23 @@
 ---
 title: Copying content
 layout: layout.liquid
-active: content-control
 permalink: /content-control/copying-content/
 canonical: /content-control/copying-content/
-asset_id: ctrlall-copying-content-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: Copying and duplicating content in Microsoft Word with clear steps, visuals, and animations.
-keywords: Word, Microsoft Word, how to, copy, copying, duplicate, duplication, clipboard, content, text, copy, paste, copy and paste.  
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-copying-content-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - copy content
+  - copy text
+  - duplicate content
+  - duplicate text
+  - keyboard shortcuts
+  - clipboard
+  - copy and paste
+active: content-control
 ---
 
 <h1>Copying content</h1>

@@ -1,13 +1,44 @@
 ---
 title: Altering images and objects
 layout: layout.liquid
-active: word
 permalink: /word/altering-images-and-objects/
 canonical: /word/altering-images-and-objects/
-asset_id: ctrlall-altering-images-and-objects-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: Alter, resize, rotate and edit images and graphic visuals in Microsoft Word with clear steps, visuals, and animations.
-keywords: Resize, rotate, edit, change, color, colour, image, graphic, picture, shape, icon, 3D model, SmartArt, chart, screenshot, WordArt, object, text box, textbox, embedded file, drawing canvas, arrows, pointer, cursor, hover, hover over, mouse symbol, layout options, wrap, in line with text, Fix position on page, Move with Text, Tight, square, above text, on top of text, behind text, beneath text, under text, format, formatting, position, anchor, locked anchor, lock anchor.
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-altering-images-and-objects-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - image
+  - picture
+  - resize
+  - rotate
+  - change color
+  - icon
+  - SmartArt
+  - chart
+  - screenshot
+  - WordArt
+  - edit object
+  - text box
+  - drawing canvas
+  - embedded file
+  - OLE object
+active: word
+
+---
+description: Getting started with Microsoft Word, an introduction with clear steps, visuals, and animations.
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-getting-started-word-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - getting started
+  - opening application
+  - document creation
+active: word
 ---
 
 <h1>Altering images, graphic visuals and some objects</h1>

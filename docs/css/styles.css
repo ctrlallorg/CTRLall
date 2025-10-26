@@ -408,6 +408,20 @@ table td {
   display: block;
 }
 
+.preload-images {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.preload-images img {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+
 /* Table row hover highlight style */
 .hover-table tbody tr:hover {
   background-color: #f0f0f0;

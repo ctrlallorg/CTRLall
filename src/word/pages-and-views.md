@@ -19,7 +19,7 @@ This article explains the basics of altering pages and views in Microsoft Word.
 <h2>View tab</h2>
 <p>Under the View tab you have several options to zoom and have choose where one or more pages are shown on screen.</p>
 
-<p><img class="thumbnail" src="{{ '/assets/images/word/Pages and Views/1 Zoom on Ribbon.png' | url }}"  alt="Zoom on Ribbon" style="height:30%; width:30%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Pages and Views/1 Zoom on Ribbon.png' | url }}"  alt="Zoom on Ribbon" style="height:30%; width:30%; vertical-align:middle"></p>
 <br>
 <strong>Zoom keyboard shortcuts:</strong>
 <ul>
@@ -34,16 +34,16 @@ This article explains the basics of altering pages and views in Microsoft Word.
 
 
 <p>One page view:</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Pages and Views/2 One Page.png' | url }}"  alt="One page view" style="height:50%; width:50%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Pages and Views/2 One Page.png' | url }}"  alt="One page view" style="height:50%; width:50%; vertical-align:middle"></p>
 
 <p>Multiple pages view:</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Pages and Views/3 Multiple Pages.png' | url }}"  alt="Mulitple pages view" style="height:50%; width:50%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Pages and Views/3 Multiple Pages.png' | url }}"  alt="Mulitple pages view" style="height:50%; width:50%; vertical-align:middle"></p>
 
 <br>
 <h2>Layout tab</h2>
 <p>Under <strong>Layout</strong> you can change the size and orientation of a page. You can also alter margins, columns and apply other tools which are a little more advanced.</p>
 
-<p><img class="thumbnail" src="{{ '/assets/images/word/Pages and Views/4 Layout Page Setup.png' | url }}"  alt="Layout Page Setup options" style="height:40%; width:40%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Pages and Views/4 Layout Page Setup.png' | url }}"  alt="Layout Page Setup options" style="height:40%; width:40%; vertical-align:middle"></p>
 
 <p><strong>Size</strong> and <strong>Orientation</strong> are the most common tools used here:</p>
 

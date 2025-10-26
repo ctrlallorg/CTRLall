@@ -29,7 +29,7 @@ module.exports = function(eleventyConfig) {
   return {
     dir: {
       input: "src",
-      includes: "../_includes", // ✅ Eleventy uses this
+      includes: "../_includes", // ✅ correct path from src to root-level _includes
       output: "docs"
     },
     htmlTemplateEngine: "liquid",

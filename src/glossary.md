@@ -7,8 +7,18 @@ active: glossary
 canonical: /glossary/
 asset_id: glossary-v1.0
 image: /assets/images/Ctrl All logo blue.svg
-keywords: Ctrl All, glossary, terms, definitions, tooltips, examples, reference, index, Application, App, Attribute (formatting), AutoComplete, AutoCorrect, AutoSave, Automatic grammar checking, Automatic spell checking, Bullet list, Bullets, Copy, Copy and paste, Copying and pasting, Copying content, Clipboard, Windows clipboard, Office clipboard, Colour palette, Columns (MS Word layout, Column boundary marker, Cursor, Pointer, Cursor keys, Cut, Cut and paste, Cutting and pasting, Drag, Click and drag, Clicking and dragging, Drag and drop, dragging and dropping, Filename, Filename extension, Filetype, Filename extension, First-line indent, Floating image, Footer, Font, Format, Formatting, Format Painter, Gridlines, Hanging indent, Hard return, Header, Highlight (formatting), Highlight (selected content, Indent, Insertion point, Kerning, Left indent, Locked anchor, Margin (MS Word, Maximise screen , Microsoft Office, Microsoft Excel, Microsoft Outlook, Microsoft PowerPoint, Microsoft Word, Minimise screen, Multilevel list, Number list, OLE object (embedded file), Embedded files (OLE objects), Operating System (OS), Orientation (MS Word), Page break, Paragraph marks, Show/Hide ¶, Paste, Pasting, Point (font), Quick Access Toolbar, Quick Parts, Quick Styles, Redo, Ribbon, Right indent, Rotate handle, Ruler, Save, Section, Section break, Select, Selecting, Selection, Selection frame, Sizing handles, Soft return, Sort, Spellcheck (Spelling and Grammar), Status bar, Style, Tab stop, Tab (left, centre, right), Table, Table border, Table cell, Template, Text wrap, Toggle, Track Changes, Typo (Typographical error), Undo, Web browser, Word Document, Word processing, Wrap, Wrapping (images/objects).
 ---
+
+<div class="preload-images" hidden>
+  <img src="/assets/images/word/Images/Anchor%20icon.png" alt="Anchor icon: Links image to a specific paragraph.">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+C.png" alt="Ctrl + C shortcut: Copy selected content to clipboard.">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+X.png" alt="Ctrl + X shortcut: Cut selected content to clipboard.">
+  <img src="/assets/images/word/Images/Locked%20anchor%20icon.png" alt="Locked anchor icon: Fixes image to a paragraph without reassignment.">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+V.png" alt="Ctrl + V shortcut: Paste content from clipboard.">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+S.png" alt="Ctrl + S shortcut: Save the current file.">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+Y.png" alt="Ctrl + Y shortcut: Repeat the last action.">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+Z.png" alt="Ctrl + Z shortcut: Undo the last action.">
+</div>
 
 <h1>Glossary</h1>
 <!-- CTRL All glossary v1.0 -->
@@ -565,9 +575,9 @@ keywords: Ctrl All, glossary, terms, definitions, tooltips, examples, reference,
   <template id="tooltip-glossary">
     <table>
       <tr>
-        <td id="adjustment-handles">Adjustment handles</td>
+        <td id="adjustment-handles" aria-label="Adjustment handles: yellow dot used to reshape images in Word">Adjustment handles</td>
         <td><p>For certain images and graphic visuals when selected a selection frame appears around it including a yellow dot called an adjustment handle. These let you adjust the inner or outer dimensions of that image/graphic. Not to be confused with <a href="#sizing-handles">sizing handles</a>, for more information and examples see here: <a href="/word/altering-images-and-objects/">Altering images and objects</a></p>
-        <p><img src="{{ '/assets/images/word/Images/Adjustment%20handle.png' | url }}" alt="Sizing handles" style="display: block; margin-left: 0; width: 20%;"></p></td>
+        <p><img src="{{ '/assets/images/word/Images/Adjustment%20handle.png' | url }}" alt="Yellow adjustment handle dot used to reshape images in Word" style="display: block; margin-left: 0; width: 20%;"></p></td>
       </tr>
       <tr>
         <td id="alignment">Alignment</td>

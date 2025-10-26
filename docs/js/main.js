@@ -140,6 +140,41 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+// Keyboard shortcut image alt description automation
+// ─── Scoped Alt Text Injection for Keyboard Shortcut Tooltips ─────────
+if (
+  window.location.pathname.includes("/content-control/keyboard-shortcuts")
+) {
+  const tooltip = document.getElementById("gif-tooltip");
+  const tooltipImg = tooltip?.querySelector("img");
+
+  if (tooltip && tooltipImg) {
+    document.querySelectorAll(".tooltip-row").forEach((row) => {
+      row.addEventListener("mouseenter", () => {
+        const gifSrc = row.getAttribute("data-gif");
+        const shortcut = row.querySelector("td:nth-child(1)")?.textContent.trim();
+        const description = row.querySelector("td:nth-child(2)")?.textContent.trim();
+
+        tooltipImg.src = gifSrc;
+        tooltipImg.alt = `${shortcut} shortcut: ${description}`;
+        tooltip.style.display = "block";
+      });
+
+      row.addEventListener("mousemove", (e) => {
+        tooltip.style.left = e.pageX + 15 + "px";
+        tooltip.style.top = e.pageY + 15 + "px";
+      });
+
+      row.addEventListener("mouseleave", () => {
+        tooltip.style.display = "none";
+        tooltipImg.src = "";
+        tooltipImg.alt = "";
+      });
+    });
+  }
+}
+
+
   // ─── Mobile Orientation Overlay ─────────────
   function checkOrientation() {
     const overlay = document.getElementById("portrait-overlay");

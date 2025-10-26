@@ -34,7 +34,7 @@ Then <strong>Save As</strong></p>
 
 This will then bring up these options to choose where to save, what the name of the file should be and what filetype you need to save it as. Double click <strong>This PC</strong> to browse a location.
 
-<p><img class="thumbnail" src="{{ '/assets/images/word/Saving%20and%20Save%20as/3%20Save%20As.png' | url }}"  alt="Save As button in Word" style="height:37%; width:37%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Saving%20and%20Save%20as/3%20Save%20As.png' | url }}"  alt="Save As button in Word" style="height:37%; width:37%; vertical-align:middle"></p>
 
 In the browser window that appears decide on the file name, the filetype (the dropdown menu gives a large list of options) and the location to save it.
 

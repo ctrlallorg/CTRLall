@@ -1,13 +1,21 @@
 ---
 title: Keyboard Shortcuts
 layout: layout.liquid
-active: content-control
 permalink: /content-control/keyboard-shortcuts/
 canonical: /content-control/keyboard-shortcuts/
-asset_id: ctrlall-keyboard-shortcuts-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: Keyboard shortcuts in Windows and Microsoft Office with tooltip visuals.
-keywords: Windows, Microsoft Office, Microsoft Word, Microsoft Excel, shortcuts, keyboard shortcuts, hot keys, keyboard, keys, buttons, how to, ctrl, shift, win, windows key, combination. 
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-keyboard-shortcuts-v1
+tags:
+  - windows
+  - microsoft word
+  - microsoft excel
+  - keyboard shortcut
+  - hotkey
+  - keyboard shortcuts
+  - keys
+  - buttons
+active: content-control
 ---
 
 <h1>Keyboard Shortcuts</h1>
@@ -17,6 +25,14 @@ keywords: Windows, Microsoft Office, Microsoft Word, Microsoft Excel, shortcuts,
 <h2 id="windows-keyboard-shortcuts">Windows shortcuts</h2>
 <p>Note: Some Windows shortcuts use the <strong>Windows</strong> key which looks like this:</p>
 <p><img src="{{ '/assets/images/keyboard shortcuts/Windows key on keyboard.png' | url }}"  alt="Windows key on keyboard" style="height:33%; width:33%; vertical-align:middle"></p>
+
+<div class="preload-images">
+  <img src="/assets/images/keyboard shortcuts/Win+D.png" alt="Windows + D shortcut: Shows the desktop (minimise all windows)">
+  <img src="/assets/images/keyboard shortcuts/Win+L.png" alt="Windows + L shortcut: Locks the screen">
+  <img src="/assets/images/keyboard shortcuts/Win+up.png" alt="Windows + Up Arrow shortcut: Maximises the current window to full screen">
+  <img src="/assets/images/keyboard shortcuts/Win+leftright.png" alt="Windows + Left/Right Arrow shortcut: 'Snaps' window to left or right side of the screen">
+</div>
+
 
 <table class="shortcut-tables-cursor-icons hover-table">
    <thead>
@@ -44,6 +60,32 @@ keywords: Windows, Microsoft Office, Microsoft Word, Microsoft Excel, shortcuts,
     </tr>
 </tbody>
 </table>
+
+
+<div class="preload-images" hidden>
+  <img src="/assets/images/keyboard shortcuts/Ctrl+S.png" alt="Ctrl + S shortcut: Save the current file">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+N.png" alt="Ctrl + N shortcut: Create a new document">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+O.png" alt="Ctrl + O shortcut: Open an existing file">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+W.png" alt="Ctrl + W shortcut: Close the document (keeping the application open)">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+P.png" alt="Ctrl + P shortcut: Print">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+Z.png" alt="Ctrl + Z shortcut: Undo the previous action">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+Y.png" alt="Ctrl + Y shortcut: Redo the previous action (doesn't work in all instances)">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+X.png" alt="Ctrl + X shortcut: Cut the selected content">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+C.png" alt="Ctrl + C shortcut: Copy the selected content to the clipboard">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+V.png" alt="Ctrl + V shortcut: Paste the copied or cut content from the clipboard">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+A.png" alt="Ctrl + A shortcut: Select all content">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+F.png" alt="Ctrl + F shortcut: Find text">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+H.png" alt="Ctrl + H shortcut: Find and Replace text">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+L.png" alt="Ctrl + L shortcut: Left align content">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+E.png" alt="Ctrl + E shortcut: Centre align content">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+R.png" alt="Ctrl + R shortcut: Right align content">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+B.png" alt="Ctrl + B shortcut: Bold selected text">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+I.png" alt="Ctrl + I shortcut: Italicize selected text">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+U.png" alt="Ctrl + U shortcut: Underline selected text">
+  <img src="/assets/images/keyboard shortcuts/Ctrl++.png" alt="Ctrl + + shortcut: Zoom in">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+-.png" alt="Ctrl + - shortcut: Zoom out">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+0.png" alt="Ctrl + 0 shortcut: Reset zoom level to 100%">
+</div>
 
 
 <h2 id="word-keyboard-shortcuts">Microsoft Word shortcuts</h2>
@@ -150,6 +192,27 @@ keywords: Windows, Microsoft Office, Microsoft Word, Microsoft Excel, shortcuts,
     </tr>
 </tbody>
 </table>
+
+
+<div class="preload-images" hidden>
+  <img src="/assets/images/keyboard shortcuts/Ctrl+S.png" alt="Ctrl + S shortcut: Save the current workbook">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+N.png" alt="Ctrl + N shortcut: Create a new workbook">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+O.png" alt="Ctrl + O shortcut: Open an existing workbook">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+W.png" alt="Ctrl + W shortcut: Close the workbook (keeping the application open)">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+P.png" alt="Ctrl + P shortcut: Print">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+Z.png" alt="Ctrl + Z shortcut: Undo the previous action">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+Y.png" alt="Ctrl + Y shortcut: Redo the previous action (doesn't work in all instances)">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+X.png" alt="Ctrl + X shortcut: Cut the selected content">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+C.png" alt="Ctrl + C shortcut: Copy the selected content to the clipboard">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+V.png" alt="Ctrl + V shortcut: Paste the copied or cut content from the clipboard">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+A.png" alt="Ctrl + A shortcut: Select all cells">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+F.png" alt="Ctrl + F shortcut: Find a value">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+H.png" alt="Ctrl + H shortcut: Find and Replace values">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+E.png" alt="Ctrl + E shortcut: Flash fill">
+  <img src="/assets/images/keyboard shortcuts/Ctrl++.png" alt="Ctrl + + shortcut: Zoom in">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+-.png" alt="Ctrl + - shortcut: Zoom out">
+</div>
+s
 
 <h2 id="excel keyboard shortcuts">Microsoft Excel shortcuts</h2>
 <br>

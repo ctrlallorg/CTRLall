@@ -5,25 +5,53 @@
   <title>{{ title }} – CTRL All</title>
 
   {% if page.canonical %}
-    <link rel="canonical" href="{{ page.canonical | absolute_url }}">
+    <link rel="canonical" href="{{ page.canonical }}">
   {% else %}
-    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="canonical" href="{{ page.url }}">
   {% endif %}
 
   <meta name="ctrlall-source" content="{{ page.asset_id }}">
   <meta name="description" content="{{ description | default: 'Empowering learners with open-source tools and ethical guidance.' }}">
-  <meta name="keywords" content="{{ keywords }}">
   <meta name="author" content="Steve Williams – CTRL All">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="robots" content="index, follow">
 
   {% assign page_image = image | default: "/assets/images/Ctrl All logo blue.svg" %}
+
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ title }} – CTRL All">
   <meta property="og:description" content="{{ description }}">
-  <meta property="og:image" content="{{ page_image | absolute_url }}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ page_image }}">
+  <meta property="og:url" content="{{ page.url }}">
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ title | escape }}",
+    "description": "{{ description | escape }}",
+    "url": "{{ page.url }}",
+    "image": "{{ page_image }}",
+    "author": {
+      "@type": "Organization",
+      "name": "CTRL All"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "CTRL All",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "/assets/logo.png"
+      }
+    },
+    {% if date %}
+    "datePublished": "{{ date }}",
+    {% endif %}
+    {% if last_modified %}
+    "dateModified": "{{ last_modified }}"
+    {% endif %}
+  }
+  </script>
 
   <meta name="google-adsense-account" content="ca-pub-6596712504858429">
 
@@ -31,16 +59,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-
 <body>
-<div id="portrait-warning">
-  This website is better experienced in landscape mode.
-</div>
+  <div id="portrait-warning">This website is better experienced in landscape mode.</div>
 
   <noscript>
-    <div class="noscript-warning">
-      JavaScript is required for full site functionality.
-    </div>
+    <div class="noscript-warning">JavaScript is required for full site functionality.</div>
   </noscript>
 
   <div id="portrait-overlay">
@@ -52,62 +75,59 @@
     {% include "topbar.liquid" %}
   </header>
 
-<div class="layout-wrapper">
-  <nav class="sidebar-wrapper">
-    <div id="navbar-content" class="navbar-collapse">
-      {% include "navbar.liquid", page: page %}
-    </div>
-  </nav>
+  <div class="layout-wrapper">
+    <nav class="sidebar-wrapper">
+      <div id="navbar-content" class="navbar-collapse">
+        {% include "navbar.liquid", page: page %}
+      </div>
+    </nav>
 
-  <main class="content-wrapper">
-    <div class="content">
-      {{ content }}
-    </div>
-  </main>
+    <main class="content-wrapper">
+      <div class="content">
+        <section id="main-content">
+          {{ content }}
+        </section>
+      </div>
+    </main>
 
-  <aside class="adsbar-wrapper">
-    {% include "adsbar.liquid" %}
-  </aside>
-</div>
+    <aside class="adsbar-wrapper">
+      {% include "adsbar.liquid" %}
+    </aside>
+  </div>
 
-<!-- Tooltip & Share Dropdown -->
   <div id="gif-tooltip" class="gif-tooltip">
     <img src="" alt="Tooltip GIF">
   </div>
 
   <div id="share-dropdown" class="dropdown-content">
     <a href="javascript:void(0)" onclick="copyPageLink(this)" style="position:relative;">
-      🔗Copy Link
-      <span class="copy-tooltip">Copied!</span>
+      🔗Copy Link <span class="copy-tooltip">Copied!</span>
     </a>
-
     <a href="javascript:void(0)" onclick="emailCurrentPage(event)">📧Email this page</a>
-
-    <a id="linkedin-share" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Flocalhost%3A8080%2F">
+    <a id="linkedin-share" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url }}">
       <img src="/assets/images/topbar/linkedin.png" alt="Linkedin">
     </a>
-    <a id="facebook-share" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A8080%2F">
+    <a id="facebook-share" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url }}">
       <img src="/assets/images/topbar/facebook.png" alt="Facebook">
     </a>
-    <a id="reddit-share" target="_blank" href="https://www.reddit.com/submit?url=http%3A%2F%2Flocalhost%3A8080%2F&amp;title=CTRL%20All">
+    <a id="reddit-share" target="_blank" href="https://www.reddit.com/submit?url={{ page.url }}&title=CTRL%20All">
       <img src="/assets/images/topbar/reddit.png" alt="Reddit">
     </a>
-    <a id="bluesky-share" target="_blank" href="https://bsky.app/intent/compose?text=CTRL%20All%20http%3A%2F%2Flocalhost%3A8080%2F">
+    <a id="bluesky-share" target="_blank" href="https://bsky.app/intent/compose?text=CTRL%20All%20{{ page.url }}">
       <img src="/assets/images/topbar/bluesky.png" alt="Bluesky">
     </a>
-    <a id="threads-share" target="_blank" href="https://www.threads.net/intent/post?text=CTRL%20All%20http%3A%2F%2Flocalhost%3A8080%2F">
+    <a id="threads-share" target="_blank" href="https://www.threads.net/intent/post?text=CTRL%20All%20{{ page.url }}">
       <img src="/assets/images/topbar/threads.png" alt="Threads">
     </a>
   </div>
 
-  <!-- Global Modal Container -->
   <div id="imageModal" class="modal">
     <span class="close">&times;</span>
     <img id="modalImage" class="modal-content" src="" alt="">
   </div>
 
   <footer class="site-footer">
-  © 2025 Ctrl All. All rights reserved. For reuse or licensing inquiries, please <a href="/contact/">contact us</a>.
+    © 2025 Ctrl All. All rights reserved. For reuse or licensing inquiries, please <a href="/contact/">contact us</a>.
   </footer>
 
   <script src="/js/main.js"></script>
@@ -134,16 +154,13 @@
     }
   </script>
 
-<!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
 
-<!-- Tooltip container -->
-<div id="glossary-tooltip" hidden></div>
+  <div id="glossary-tooltip" hidden></div>
 
-<!-- CTRL All asset ID: {{ page.asset_id }} -->
-
+  <!-- CTRL All asset ID: {{ page.asset_id }} -->
 </body>
 </html>

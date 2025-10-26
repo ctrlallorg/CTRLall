@@ -1,15 +1,70 @@
 ---
 title: Font options
 layout: layout.liquid
-active: word
 permalink: /word/font-options/
 canonical: /word/font-options/
-asset_id: ctrlall-font-options-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: Style font for words, sentences, and paragraphs in Microsoft Word with clear steps, visuals, and animations.
-keywords: Word formatting, format text, formatting text, style text, style words, change font, font options, bold, italic, underline, strikethrough, font effects, font size, pt, font color, font colour, highlight, align text, left align, center align, right align, justify, subscript, superscript, change case, sentence case, lowercase, uppercase, all caps, bullet list, numbered list, multilevel list, steps, points, indent, indentation, clear formatting, remove formatting, remove font formatting, reset font formatting 
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-font-options-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - font options
+  - format text
+  - format sentence
+  - format paragraph
+  - style text
+  - style words
+  - style sentence
+  - style paragraph
+  - change font
+  - align text
+  - bold
+  - italic
+  - underline
+  - bigger font
+  - smaller font
+  - font color
+  - highlight
+  - subscript
+  - superscript
+  - change sentence case
+  - lowercase
+  - uppercase
+  - all caps
+  - bullet list
+  - numbered list
+  - multilevel list
+active: word
 ---
-
+---
+title: "Documents vs Templates"
+layout: layout.liquid
+permalink: /word/documents-vs-templates/
+canonical: /word/documents-vs-templates/
+description: Understand the difference between a document and a template in Microsoft Word with clear steps, visuals, and animations.
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-documents-vs-templates-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - document
+  - template
+  - docx
+  - dotx
+  - doc
+  - save
+  - save as
+  - file type
+  - type of file
+  - file format
+  - blueprint
+  - existing file
+  - edit a template
+active: word
+---
 <h1>Font options</h1>
 
 <section class="section-light">

@@ -1,14 +1,21 @@
 ---
 title: Getting started with Microsoft Word
 layout: layout.liquid
-active: word
 permalink: /word/getting-started-word/
 canonical: /word/getting-started-word/
-asset_id: ctrlall-getting-started-word-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: Getting started with Microsoft Word, an introduction with clear steps, visuals, and animations.
-keywords: Word, Microsoft Word, version, open Word, app, application, doc, document, make a new document, open document, open file, interface, screen, page, quick access toolbar, ribbon, status bar, button, tool, close document, close app, close application, close Word.
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-getting-started-word-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - getting started
+  - opening application
+  - document creation
+active: word
 ---
+
 
 <h1>Getting started with Microsoft Word</h1>
 
@@ -32,7 +39,7 @@ If you're new to Microsoft Word ('Word' for short), then chances are you're new 
 
 There are a few versions of Microsoft Word:
 
-<table class="word-tables-cursor-icons hover-table">
+<table>
     <colgroup>
       <col style="width: 20%;">
       <col style="width: 80%;">
@@ -93,63 +100,63 @@ There are a few versions of Microsoft Word:
 <h2 id="open-word-app">Opening the Microsoft Word app</h2>
 <h4>UPDATE OCTOBER 2025: Microsoft recently updated all Office 365 icons, we'll be refreshing these screenshots soon. <a href="https://microsoft.design/articles/fluid-forms-vibrant-colors/" target="_blank">Read more here</a>.</h4>
 <p>The first thing to do is to find the application to open it. The blue Word application icon is typically 'pinned' to your taskbar on the bottom of your screen like this:</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Word app on taskbar.png' | url }}"  alt="Word app on taskbar" style="height:55%; width:55%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Word app on taskbar.png' | url }}"  alt="Where to find the Microsoft Word app on the taskbar" style="width:55%; vertical-align:middle"></p>
 
 <p>If you don't see it you can <strong>left click</strong> in the <strong>search bar</strong> and type in 'word':</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 1.png' | url }}"  alt="Searching for Word app" style="height:55%; width:55%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 1.png' | url }}"  alt="Searching for the Word app with the taskbar search bar" style="height:55%; width:55%; vertical-align:middle"></p>
 
 <p>Word will then appear in search results above. You can click on either of these two highlighted buttons below to open the application:</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 2.png' | url }}"  alt="Searching for Word app" style="height:75%; width:75%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 2.png' | url }}"  alt="Taskbar search results for Word" style="width:75%; vertical-align:middle"></p>
 
 <strong>Tip</strong>: Once you've opened the app, <strong>right click</strong> on the blue Word app icon and select <strong>Pin to taskbar</strong> from the menu. Pinning the Word app to the taskbar will make it stay there after you close it:
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Pin Word app taskbar.png' | url }}"  alt="Pin Word app to the taskbar" style="height:25%; width:25%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Pin Word app taskbar.png' | url }}"  alt="Pin Word app to the taskbar" style="width:25%; vertical-align:middle"></p>
 
 
 
 <h2 id="create-new-word-doc">Creating a new document</h2>
 
 <p>Once Word has loaded up you'll see this initial menu screen below. To start a brand new document click the highlighted option <strong>Blank document</strong>. There are also many different <a href="/glossary/#template">templates</a> you can choose from here as well.</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/New document.png' | url }}"  alt="Initial interface" style="height:100%; width:100%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/New document.png' | url }}"  alt="The first screen interface you see when Word opens" style="width:100%; vertical-align:middle"></p>
 
 
 <h2 id="open-word-doc">Opening an existing Word document file</h2>
 If you have Word document or template file to work from you don't need to open the Word app first. Simply <strong>double click</strong> on the file icon (or <strong>left click</strong> it to select it and press <strong>Enter</strong>) and it will open in Word.
 
 A word document icon looks like this depending on where you're viewing it:
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Doc icon 1.png' | url }}"  alt="Word doc icon" style="height:12%; width:12%; vertical-align:middle"></p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Doc icon 2.png' | url }}"  alt="Word doc icon" style="height:100%; width:20%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Doc icon 1.png' | url }}"  alt="Large word doc icon" style="width:12%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Doc icon 2.png' | url }}"  alt="Small doc icon" style="width:20%; vertical-align:middle"></p>
 
 
 <h2 id="word-interface">The main interface</h2>
 <p> This is the main Word interface you work from. It's made of different sections which we'll go through top to bottom.</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Word interface.png' | url }}"  alt="Word interface" style="height:100%; width:100%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Word interface.png' | url }}"  alt="Main Word interface screen" style="width:100%; vertical-align:middle"></p>
 <h3 id="quick-access-toolbar">Quick Access Toolbar</h3>
 <p>At the very top of the app is the Quick Access Toolbar has some options that are always available; on the left are options to <span class="glossary-hover" data-term="save">save</span>, <span class="glossary-hover" data-term="undo">undo</span>, <span class="glossary-hover" data-term="redo">redo</span>; in the centre is a searchbar to search for tools and options; on the right are options to <span class="glossary-hover" data-term="minimise-screen">minimise screen</span>, <span class="glossary-hover" data-term="maximise-screen">maximise screen</span> and close the application. If you're using Microsoft Office 365 then you'll see a <span class="glossary-hover" data-term="toggle">toggle</span> for <span class="glossary-hover" data-term="autosave">Autosave</span> to the far left as well.</p>
-<img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Word interface Quick Access Toolbar.png' | url }}"  alt="Word interface Quick Access Toolbar" style="height:100%; width:100%; vertical-align:middle">
+<img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Word interface Quick Access Toolbar.png' | url }}"  alt="Quick Access Toolbar options at the very top" style="width:100%; vertical-align:middle">
 
 <p><strong>Tip</strong>: Hover over the maximise button and you'll see some 'snap' feature options to display multiple windows in various ways on screen.</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Hover snap options.png' | url }}"  alt="Hover snap options" style="height:33%; width:33%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Hover snap options.png' | url }}"  alt="Hovering over maximise button for window snap options" style="height:33%; width:33%; vertical-align:middle"></p>
 
 <h3>The Ribbon</h3>
 <p>The Ribbon is where you access tools and options to edit the document with. They are categorised under tabs for different purposes. <strong>Home</strong> is the most common tab you will use featuring tools for content control (Clipboard), Font and Paragraph formatting and Styles. In time you may also find yourself using the other tabs such as <strong>Insert</strong> for adding tables or images, <strong>Layout</strong> for altering the page or <strong>Review</strong> for quality assessing and collaboration with others.</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Word interface Ribbon.png' | url }}"  alt="Word interface Ribbon" style="height:100%; width:100%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Word interface Ribbon.png' | url }}"  alt="Ribbon toolbar of buttons above the page" style=" width:100%; vertical-align:middle"></p>
 
 <h3>Workspace</h3>
 <p>This is the main area in which you edit your document. The white area represents the page itself including its <span class="glossary-hover" data-term="margin">margins</span>. You can add, edit or delete content on the page. The blinking <span class="glossary-hover" data-term="insertion-point">insertion point</span> line shows where your next action (e.g. typing) will happen. The grey area surrounding page is a neutral background space to help visually separate the page from the rest of the app window.</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Word interface Workspace.png' | url }}"  alt="Word interface Workspace" style="height:100%; width:100%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Word interface Workspace.png' | url }}"  alt="Word workspace area where you edit the page" style="width:100%; vertical-align:middle"></p>
 <h3>Status bar</h3>
 The bar at the bottom of the window shows details about the document such as the page number, total pages, word count as well as the current language setting, accessibility, view options and the zoom tool.
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Word interface Status bar.png' | url }}"  alt="Word interface Status bar" style="height:100%; width:100%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Word interface Status bar.png' | url }}"  alt="Status bar with document information at the very bottom" style="width:100%; vertical-align:middle"></p>
 
 <h2 id="close-word-doc">Closing a document</h2>
 You can close the current document but still keep the Word application open by clicking <strong>File > Close</strong>:
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/File.png' | url }}"  alt="File button" style="height:100%; width:20%; vertical-align:middle"></p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Close document.png' | url }}"  alt="Close document" style="height:100%; width:20%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/File.png' | url }}"  alt="File button top left" style="width:20%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Close document.png' | url }}"  alt="Close document button under File" style="width:20%; vertical-align:middle"></p>
 
 A quicker way is to use the keyboard shortcut holding down <strong>Ctrl</strong> and then pressing <strong>W</strong>:
-<p><img class="thumbnail" src="{{ '/assets/images/keyboard shortcuts/Ctrl+W.png' | url }}"  alt="Word doc icon" style="height:100%; width:20%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/keyboard shortcuts/Ctrl+W.png' | url }}"  alt="Ctrl + W shortcut: Close the document (keeping the application open)" style="width:20%; vertical-align:middle"></p>
 
-<h2 id="close-word-app">Closing the app</h2>
+<h2 id="close-word-app">Close Word app</h2>
 <p>You can close Word by pressing the X button in the far right corner on the <span class="glossary-hover" data-term="quick-access-toolbar">Quick Access Toolbar</span>. If you have made any unsaved edits Word will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
 <div style="height:150px;"></div>
 
