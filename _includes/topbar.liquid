@@ -1,14 +1,14 @@
 <header class="topbar">
   <div class="topbar-left">
     <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-     <a href="/" class="logo-link" style="display: inline-block;">
-  {% include "ctrl-all-logo.svg" %}
-</a>
- </div>
+    <a href="{{ '/' | url }}" class="logo-link" style="display: inline-block;">
+      {% include "ctrl-all-logo.svg" %}
+    </a>
+  </div>
   <div class="topbar-right">
     <nav class="topnav">
-      <a href="/about/" class="{% if active == 'about' %}active{% endif %}">About</a>
-      <a href="/contact/" class="{% if active == 'contact' %}active{% endif %}">Contact</a>
+      <a href="{{ '/about/' | url }}" class="{% if active == 'about' %}active{% endif %}">About</a>
+      <a href="{{ '/contact/' | url }}" class="{% if active == 'contact' %}active{% endif %}">Contact</a>
       <a href="#" class="dropbtn">Share</a>
     </nav>
   </div>

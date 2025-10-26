@@ -6,9 +6,9 @@
       Content control <span class="arrow"></span>
     </button>
     <ul id="nav-content-control" class="nav-level-2 {% if active == 'content-control' %}show{% endif %}">
-      <li><a href="/content-control/moving-content/" class="{% if page.url == '/content-control/moving-content/' %}active{% endif %}">Moving content</a></li>
-      <li><a href="/content-control/copying-content/" class="{% if page.url == '/content-control/copying-content/' %}active{% endif %}">Copying content</a></li>
-      <li><a href="/content-control/keyboard-shortcuts/" class="{% if page.url == '/content-control/keyboard-shortcuts/' %}active{% endif %}">Keyboard Shortcuts</a></li>
+      <li><a href="{{ '/content-control/moving-content/' | url }}" class="{% if page.url == '/content-control/moving-content/' %}active{% endif %}">Moving content</a></li>
+      <li><a href="{{ '/content-control/copying-content/' | url }}" class="{% if page.url == '/content-control/copying-content/' %}active{% endif %}">Copying content</a></li>
+      <li><a href="{{ '/content-control/keyboard-shortcuts/' | url }}" class="{% if page.url == '/content-control/keyboard-shortcuts/' %}active{% endif %}">Keyboard Shortcuts</a></li>
     </ul>
   </li>
 
@@ -18,43 +18,43 @@
       Word <span class="arrow"></span>
     </button>
     <ul id="nav-word" class="nav-level-2 {% if active == 'word' %}show{% endif %}">
-      <li><a href="/word/getting-started-word/" class="{% if page.url == '/word/getting-started-word/' %}active{% endif %}">Getting started with Word</a></li>
-      <li><a href="/word/documents-vs-templates/" class="{% if page.url == '/word/documents-vs-templates/' %}active{% endif %}">Documents vs Templates</a></li>
-      <li><a href="/word/pages-and-views/" class="{% if page.url == '/word/pages-and-views/' %}active{% endif %}">Pages and views</a></li>
-      <li><a href="/word/saving-and-save-as/" class="{% if page.url == '/word/saving-and-save-as/' %}active{% endif %}">Saving and Save As</a></li>
-      <li><a href="/word/selecting-text/" class="{% if page.url == '/word/selecting-text/' %}active{% endif %}">Selecting text</a></li>
-      <li><a href="/word/formatting-text/" class="{% if page.url == '/word/formatting-text/' %}active{% endif %}">Formatting text</a></li>
-      <li><a href="/word/font-options/" class="{% if page.url == '/word/font-options/' %}active{% endif %}">Font options</a></li>
-      
-      <li><a href="/word/paragraph-options/" class="{% if page.url == '/word/paragraph-options/' %}active{% endif %}">Paragraph options</a></li>      
-      <li><a href="/word/styles/" class="{% if page.url == '/word/styles/' %}active{% endif %}">Styles</a></li>
-      <li><a href="/word/indents/" class="{% if page.url == '/word/indents/' %}active{% endif %}">Indents</a></li>  
-      <li><a href="/word/lists-fixing-number-lists/" class="{% if page.url == '/word/lists-fixing-number-lists/' %}active{% endif %}">Lists: Fixing number lists</a></li>
-      <li><a href="/word/lists-soft-hard-returns/" class="{% if page.url == '/word/lists-soft-hard-returns/' %}active{% endif %}">Lists: Soft & hard returns</a></li>
-      <li><a href="/word/tables/" class="{% if page.url == '/word/tables/' %}active{% endif %}">Tables</a></li>
-      <li><a href="/word/tables-formatting/" class="{% if page.url == '/word/tables-formatting/' %}active{% endif %}">Tables: Formatting</a></li>
-      <li><a href="/word/tables-fixing-tables-extending-offscreen/" class="{% if page.url == '/word/tables-fixing-tables-extending-offscreen/' %}active{% endif %}">Tables: Fixing tables extending offscreen</a></li>
-      <li><a href="/word/tables-fixing-tables-over-pages/" class="{% if page.url == '/word/tables-fixing-tables-over-pages/' %}active{% endif %}">Tables: Fixing tables over pages</a></li>
-      <li><a href="/word/images/" class="{% if page.url == '/word/images/' %}active{% endif %}">Images</a></li>
-      <li><a href="/word/altering-images-and-objects/" class="{% if page.url == '/word/altering-images-and-objects/' %}active{% endif %}">Altering images and objects</a></li>      
-      <li><a href="/word/objects/" class="{% if page.url == '/word/objects/' %}active{% endif %}">Objects</a></li>
-      <li><a href="/word/objects-embedded-files/" class="{% if page.url == '/word/objects-embedded-files/' %}active{% endif %}">Objects: Embedded Files</a></li>
-      <li><a href="/coming-soon/" class="{% if page.url == '/word/editing-charts/' %}active{% endif %}">Editing charts</a></li>
-      <li><a href="/content-control/keyboard-shortcuts/#word-keyboard-shortcuts" class="{% if page.url == '/content-control/keyboard-shortcuts/#word-keyboard-shortcuts' %}active{% endif %}">Word Keyboard Shortcuts</a></li>
+      <li><a href="{{ '/word/getting-started-word/' | url }}" class="{% if page.url == '/word/getting-started-word/' %}active{% endif %}">Getting started with Word</a></li>
+      <li><a href="{{ '/word/documents-vs-templates/' | url }}" class="{% if page.url == '/word/documents-vs-templates/' %}active{% endif %}">Documents vs Templates</a></li>
+      <li><a href="{{ '/word/pages-and-views/' | url }}" class="{% if page.url == '/word/pages-and-views/' %}active{% endif %}">Pages and views</a></li>
+      <li><a href="{{ '/word/saving-and-save-as/' | url }}" class="{% if page.url == '/word/saving-and-save-as/' %}active{% endif %}">Saving and Save As</a></li>
+      <li><a href="{{ '/word/selecting-text/' | url }}" class="{% if page.url == '/word/selecting-text/' %}active{% endif %}">Selecting text</a></li>
+      <li><a href="{{ '/word/formatting-text/' | url }}" class="{% if page.url == '/word/formatting-text/' %}active{% endif %}">Formatting text</a></li>
+      <li><a href="{{ '/word/font-options/' | url }}" class="{% if page.url == '/word/font-options/' %}active{% endif %}">Font options</a></li>
+      <li><a href="{{ '/word/paragraph-options/' | url }}" class="{% if page.url == '/word/paragraph-options/' %}active{% endif %}">Paragraph options</a></li>
+      <li><a href="{{ '/word/styles/' | url }}" class="{% if page.url == '/word/styles/' %}active{% endif %}">Styles</a></li>
+      <li><a href="{{ '/word/indents/' | url }}" class="{% if page.url == '/word/indents/' %}active{% endif %}">Indents</a></li>
+      <li><a href="{{ '/word/lists-fixing-number-lists/' | url }}" class="{% if page.url == '/word/lists-fixing-number-lists/' %}active{% endif %}">Lists: Fixing number lists</a></li>
+      <li><a href="{{ '/word/lists-soft-hard-returns/' | url }}" class="{% if page.url == '/word/lists-soft-hard-returns/' %}active{% endif %}">Lists: Soft & hard returns</a></li>
+      <li><a href="{{ '/word/tables/' | url }}" class="{% if page.url == '/word/tables/' %}active{% endif %}">Tables</a></li>
+      <li><a href="{{ '/word/tables-formatting/' | url }}" class="{% if page.url == '/word/tables-formatting/' %}active{% endif %}">Tables: Formatting</a></li>
+      <li><a href="{{ '/word/tables-fixing-tables-extending-offscreen/' | url }}" class="{% if page.url == '/word/tables-fixing-tables-extending-offscreen/' %}active{% endif %}">Tables: Fixing tables extending offscreen</a></li>
+      <li><a href="{{ '/word/tables-fixing-tables-over-pages/' | url }}" class="{% if page.url == '/word/tables-fixing-tables-over-pages/' %}active{% endif %}">Tables: Fixing tables over pages</a></li>
+      <li><a href="{{ '/word/images/' | url }}" class="{% if page.url == '/word/images/' %}active{% endif %}">Images</a></li>
+      <li><a href="{{ '/word/altering-images-and-objects/' | url }}" class="{% if page.url == '/word/altering-images-and-objects/' %}active{% endif %}">Altering images and objects</a></li>
+      <li><a href="{{ '/word/objects/' | url }}" class="{% if page.url == '/word/objects/' %}active{% endif %}">Objects</a></li>
+      <li><a href="{{ '/word/objects-embedded-files/' | url }}" class="{% if page.url == '/word/objects-embedded-files/' %}active{% endif %}">Objects: Embedded Files</a></li>
+      <li><a href="{{ '/coming-soon/' | url }}" class="{% if page.url == '/word/editing-charts/' %}active{% endif %}">Editing charts</a></li>
+      <li><a href="{{ '/content-control/keyboard-shortcuts/#word-keyboard-shortcuts' | url }}" class="{% if page.url == '/content-control/keyboard-shortcuts/#word-keyboard-shortcuts' %}active{% endif %}">Word Keyboard Shortcuts</a></li>
     </ul>
   </li>
+
   <!-- Excel Section -->
   <li>
     <button class="nav-toggle {% if active == 'excel' %}active expanded{% endif %}" data-section="excel" aria-expanded="{% if active == 'excel' %}true{% else %}false{% endif %}" aria-controls="nav-excel">
       Excel <span class="arrow"></span>
     </button>
     <ul id="nav-excel" class="nav-level-2 {% if active == 'excel' %}show{% endif %}">
-      <li><a href="/coming-soon/" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Getting started with Excel</a></li>
-      <li><a href="/coming-soon/" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Selecting cells and values</a></li>
-      <li><a href="/coming-soon/" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Understanding formulas</a></li>
-      <li><a href="/coming-soon/" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Conditional formatting</a></li>
-      <li><a href="/coming-soon/" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Data validation</a></li>
-      <li><a href="/content-control/keyboard-shortcuts/#excel-keyboard-shortcuts" class="{% if page.url == '/content-control/keyboard-shortcuts/#excel-keyboard-shortcuts' %}active{% endif %}">Excel Keyboard Shortcuts</a></li>
+      <li><a href="{{ '/coming-soon/' | url }}" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Getting started with Excel</a></li>
+      <li><a href="{{ '/coming-soon/' | url }}" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Selecting cells and values</a></li>
+      <li><a href="{{ '/coming-soon/' | url }}" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Understanding formulas</a></li>
+      <li><a href="{{ '/coming-soon/' | url }}" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Conditional formatting</a></li>
+      <li><a href="{{ '/coming-soon/' | url }}" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Data validation</a></li>
+      <li><a href="{{ '/content-control/keyboard-shortcuts/#excel-keyboard-shortcuts' | url }}" class="{% if page.url == '/content-control/keyboard-shortcuts/#excel-keyboard-shortcuts' %}active{% endif %}">Excel Keyboard Shortcuts</a></li>
     </ul>
   </li>
 
@@ -64,31 +64,11 @@
       PowerPoint <span class="arrow"></span>
     </button>
     <ul id="nav-powerpoint" class="nav-level-2 {% if active == 'powerpoint' %}show{% endif %}">
-      <li><a href="/coming-soon/" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Getting started with PowerPoint</a></li>
-      <li><a href="/coming-soon/" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Editing slides</a></li>
-      <li><a href="/coming-soon/" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Animations</a></li>
-      <li><a href="/coming-soon/" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Fading list effect</a></li>
-      <li><a href="/coming-soon/" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Presenter view</a></li>
-      <li><a href="/content-control/keyboard-shortcuts/#powerpoint-keyboard-shortcuts" class="{% if page.url == '/content-control/keyboard-shortcuts/#powerpoint-keyboard-shortcuts' %}active{% endif %}">PowerPoint Keyboard Shortcuts</a></li>
+      <li><a href="{{ '/coming-soon/' | url }}" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Getting started with PowerPoint</a></li>
+      <li><a href="{{ '/coming-soon/' | url }}" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Adjusting slides</a></li>
+      <li><a href="{{ '/coming-soon/' | url }}" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Adding content to slides</a></li>
+      <li><a href="{{ '/coming-soon/' | url }}" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Effect: fade on click</a></li>
+      <li><a href="{{ '/coming-soon/' | url }}" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Presenter view</a></li>
+      <li><a href="{{ '/content-control/keyboard-shortcuts/#powerpoint-excel-keyboard-shortcuts' | url }}" class="{% if page.url == '/content-control/keyboard-shortcuts/#excel-keyboard-shortcuts' %}active{% endif %}">Excel Keyboard Shortcuts</a></li>
     </ul>
   </li>
-
-  <!-- Outlook Section -->
-  <li>
-    <button class="nav-toggle {% if active == 'outlook' %}active expanded{% endif %}" data-section="outlook" aria-expanded="{% if active == 'outlook' %}true{% else %}false{% endif %}" aria-controls="nav-outlook">
-      Outlook <span class="arrow"></span>
-    </button>
-    <ul id="nav-outlook" class="nav-level-2 {% if active == 'outlook' %}show{% endif %}">
-      <li><a href="/coming-soon/" class="{% if page.url == '/coming-soon/' %}active{% endif %}">Outlook signatures</a></li>
-      <li><a href="/content-control/keyboard-shortcuts/#outlook-keyboard-shortcuts" class="{% if page.url == '/content-control/keyboard-shortcuts/#outlook-keyboard-shortcuts' %}active{% endif %}">Outlook Keyboard Shortcuts</a></li>
-    </ul>
-  </li>
-
-  <!-- Glossary Section -->
-  <li>
-    <button class="nav-toggle {% if active == 'glossary' %}active{% endif %}" onclick="location.href='/glossary/'">
-      Glossary
-    </button>
-  </li>
-<div style="margin-bottom: 50px;"></div>
-</ul>
