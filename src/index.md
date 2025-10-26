@@ -12,8 +12,10 @@ keywords: Ctrl All, digital literacy, digital skills, microsoft office, microsof
 
 <section class="hero">
     <div style="display: block; margin: 0 auto; width: fit-content;">
-  <img src="/assets/images/Ctrl All logo purple.svg" alt="CTRL All logo" width="300" height="auto">
+    <img src="{{ '/assets/images/Ctrl%20All%20logo%20purple.svg' | url }}"  alt="CTRL All logo" style="width:300px">
 </div>
+
+
     <p style="color: #2c3e50;"><strong>Digital literacy with soul, clarity, and control.</strong></p>
      <br>
   <p>Welcome to CTRL All — a space built for learners, creators, educators and troubleshooters who believe digital skills should be empowering, ethical, and open to everyone.</p> 
