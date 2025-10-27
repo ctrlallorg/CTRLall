@@ -12,9 +12,6 @@ tags:
   - microsoft word
   - document
   - template
-  - docx
-  - dotx
-  - doc
   - save
   - save as
   - file type
@@ -23,6 +20,12 @@ tags:
   - blueprint
   - existing file
   - edit a template
+  - docx
+  - dotx
+  - doc
+  - what is a .dotx file?
+  - what is a .dotx file?
+  - what is a .doc file?
 active: word
 ---
 

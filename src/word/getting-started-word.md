@@ -10,9 +10,28 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - getting started
-  - opening application
-  - document creation
+  - what is word
+  - get started with word
+  - new to word
+  - starting with word
+  - word for beginner
+  - never used word
+  - not used word before
+  - how do you use word
+  - what do you do in word
+  - how do you use word
+  - how does word work
+  - how to open up word
+  - open word app
+  - make a document
+  - create a document
+  - create a docx
+  - how do i open word?
+  - how to open a word document
+  - how to open document
+  - open a docx file
+  - open a dotx file
+  - open a doc file
 active: word
 ---
 
