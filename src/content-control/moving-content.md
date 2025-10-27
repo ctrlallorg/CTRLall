@@ -58,7 +58,7 @@ then
 <img class="thumbnail border" src="{{ '/assets/images/content control/Cut and paste file.gif' | url }}"  alt="Cutting a file in a window and pasting it into a new folder location." style="height:100%; width:100%; vertical-align:middle">
 
 <h2>The Spike - multiple cut and paste</h2>
-<p>A function that's very little known is The Spike which allows you to individually cut multiple non-contiguous items and then paste them altogther. Why's it called 'The Spike'? The name describes its behaviour inspired by that old-fashioned paper spike you'll see in cafes and restaurants to collect multiple receipts or notes.</p>
+<p>A function that's very little known is The Spike which allows you to individually cut multiple non-contiguous items and then paste them altogether. Why's it called 'The Spike'? The name describes its behaviour inspired by that old-fashioned paper spike you'll see in cafes and restaurants to collect multiple receipts or notes.</p>
 <p>To use it do the following:</p>
 <ol>
     <li>Select some content then Press <strong>Shift + F3</strong> to cut it. This copies it to the spike's memory (note: not the clipboard).</p>

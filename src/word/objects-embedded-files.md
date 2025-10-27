@@ -48,7 +48,7 @@ You can embed a file in a Word document as an OLE object.
 <h2 id="what-is-an-OLE-object">What is an OLE object?</h2>
 <p>OLE stands for Object Linking and Embedding. It’s a Microsoft framework that allows an application like Word to insert and interact with content from another application like Excel, PowerPoint, PDFs or even media players.</p> 
 <p>In Word, an OLE <i>object</i> uses that OLE framework to import content from an external file onto the document page, showing either the file's icon which can be double clicked on to open it up, or the external file's actual content shown in an OLE container. Here's what both look like on the page:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/OLE object.png' | url }}" alt="OLE objects in a Word document" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/OLE objects.png' | url }}" alt="An OLE object icon and visual content in a Word document" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
 
 <p id="OLE-object-types">OLE objects are shown as either an icon or visual content of an external file, simple enough. However there are two different types of OLE object you can insert into a document and it's important to understand the difference:</p>
 <ul>
@@ -91,7 +91,7 @@ You can embed a file in a Word document as an OLE object.
         </tr>
       <tr>
         <td colspan="2"><p>Both embedded and linked OLE objects can trigger macro warnings or security prompts. Linked OLE objects can also produce warnings if source files are missing or inaccessible.</p>
-        <p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Linked file warning.png' | url }}" alt="OLE object linked file warning" style="max-width: 100%; height: auto; display: block; margin: auto;"></p>
+        <p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Linked file warning.png' | url }}" alt="OLE object linked file warning message: This document contains links that may refer to other files" style="max-width: 100%; height: auto; display: block; margin: auto;"></p>
         </td>
       </tr>
     </tbody>
@@ -151,7 +151,7 @@ You can embed a file in a Word document as an OLE object.
     <li>Excel - as above</li>
     <li>PowerPoint - as above</li>
     <li>PDFs - as above</li>
-    <li>Zipped files (in various formats: .zip, .7z etc) - linked or embedded, but cannot show visual scontent</li>
+    <li>Zipped files (in various formats: .zip, .7z etc) - linked or embedded, but cannot show visual content</li>
     <li>Audio and Video files - linked or embedded, but cannot show visual content</li>
 </ul>
 
@@ -159,11 +159,11 @@ You can embed a file in a Word document as an OLE object.
 <p>With OLE objects, whether embedded or linked in the document, the visual representation is either an icon or the external visual content itself. Here's how to insert both (<u>Note</u>: use this website's top left toggle to collapse the sidebar to see the following images more clearly):</p>
 <p>Go to <strong>Insert > Object</strong>:</p>
 
-<td><p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object.png' | url }}" alt="Insert Object" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p></td>
+<td><p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object.png' | url }}" alt="Insert Object option on ribbon in Word" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p></td>
 
 <p>Next select the <strong>Create from File</strong> tab (the 'Create New' tab lets you choose between some formats first but it'll end up asking you to choose a file anyway). Click <strong>Browse</strong> and choose the external file you need:</p>
 
-<td><p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object Create from file.png' | url }}" alt="Insert Object Create from file" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p></td>
+<td><p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object Create from file.png' | url }}" alt="Insert Object option Create from file" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p></td>
 
 <p>Those two little checkboxes affect whether it will be displayed as an icon or visual content and whether it will be linked or embedded within this document:</p>
 
@@ -182,9 +182,9 @@ You can embed a file in a Word document as an OLE object.
       <tr>
         <td style="vertical-align: top;">
         <p>Before talking about which checkbox to check, the easiest way to embed a file with an icon is to just simply drag and drop an existing file icon into your open Word document and it'll embed itself on the page wherever your insertion point was when you dropped it.</p>
-        <p><img class="thumbnail" src="{{ '/assets/images/word/Objects/Insert%20embedded%20file.gif' | url }}" alt="Insert embedded file" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
+        <p><img class="thumbnail" src="{{ '/assets/images/word/Objects/Insert%20embedded%20file.gif' | url }}" alt="Insert embedded file in Word" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
         <p>But if you want to do it via Insert > Object, in this window check <strong>Display as icon</strong>, then click <strong>OK</strong>:</p>
-        <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object Create from file embedded icon.png' | url }}" alt=Insert Object Create from file embedded icon" style="max-width: 100%; height: auto; display: block; margin: auto;"></p>
+        <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object Create from file embedded icon.png' | url }}" alt="Insert Object Create from file embedded icon" style="max-width: 100%; height: auto; display: block; margin: auto;"></p>
         </td>
         <td style="vertical-align: top;">
         <p>Leave both checkboxes unchecked, then click <strong>OK</strong>.</p>
@@ -316,7 +316,7 @@ You can embed a file in a Word document as an OLE object.
 
 <h2>Opening an OLE object</h2>
 <p>To open an OLE object file (linked or embedded), simply <strong>double click on it</strong> and its respective application will open. With the example in this article I'm opening an embedded Word document — note the 'Document in Document1' title on the Quick Access Toolbar.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Embedded file OLE object open.png' | url }}" alt="Embedded file OLE object open" style="max-width: 75%; height: auto; display: inline; margin: auto;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Embedded file OLE object open.png' | url }}" alt="Embedded file OLE object opened with title document in document1" style="max-width: 75%; height: auto; display: inline; margin: auto;"></p>
 <h4>Why hasn't the OLE object content updated since I last edited the original/source file?</h4>
 <p>OLE objects only update with the source file if the content is <i>linked</i> to the source file. What you likely have is an OLE object with content previously imported from the source file, so the content at the time became embedded into the document; it won't update with the external source file as it's a separate past version of it. You'll want to delete this and create a linked OLE object instead.</p>
 <ul>
@@ -326,15 +326,15 @@ You can embed a file in a Word document as an OLE object.
 
 <h2 id="edit-embedded-file">Resizing an OLE object</h2>
 <p>Icons can't be resized, but visual content can. Select the visual content then click and drag the sizing handles at the edges of the OLE container to resize visual content on the page as needed.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Resize OLE container.gif' | url }}" alt="Resize OLE container" style="max-width: 50%; height: auto; display: inline; margin: auto;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Resize OLE container.gif' | url }}" alt="Demonstration of resizing an embedded object OLE container" style="max-width: 50%; height: auto; display: inline; margin: auto;"></p>
 
 
 <h2 id="wrap-embedded-file">Wrapping an OLE object</h2>
 <p>By default OLE objects are set to be in line with text. They behave slightly differently than images as they don’t expose the floating layout widget and require wrapping manually. To set wrapping for an OLE object <strong>right click</strong> on it then select <strong>Picture</strong>.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Embedded file OLE object menu.png' | url }}" alt="Embedded file OLE object menu" style="max-width: 75%; height: auto; display: inline; margin: auto;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Embedded file OLE object menu.png' | url }}" alt="Embedded file OLE object right click menu Picture option" style="max-width: 75%; height: auto; display: inline; margin: auto;"></p>
 <p>Select the <strong>Layout</strong> tab in the window that pops up. This give you some wrapping styles and alignment options but if you click <strong>Advanced</strong> it gives you a few more including the Top and Bottom style, and spacing from the surrounding text.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Embedded file OLE object wrap settings.png' | url }}" alt="Embedded file OLE object wrap settings" style="max-width: 75%; height: auto; display: inline; margin: auto;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Embedded file OLE object wrap settings.png' | url }}" alt="Format object wrap options and advanced options" style="max-width: 75%; height: auto; display: inline; margin: auto;"></p>
 <p>Here's the Top and Bottom wrapping style applied with some added 'distance from text' spacing top and bottom:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Embedded file OLE object wrap.png' | url }}" alt="Embedded file OLE object wrap" style="max-width: 75%; height: auto; display: inline; margin: auto;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Embedded file OLE object wrap.png' | url }}" alt="Embedded file icon in a paragraph with top and bottom wrapping" style="max-width: 75%; height: auto; display: inline; margin: auto;"></p>
 </section>
 

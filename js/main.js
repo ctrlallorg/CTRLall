@@ -333,4 +333,3 @@ document.addEventListener('DOMContentLoaded', async () => {
     }, 150);
   });
 });
-

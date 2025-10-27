@@ -4,8 +4,7 @@ layout: layout.liquid
 permalink: /word/getting-started-word/
 canonical: /word/getting-started-word/
 description: Getting started with Microsoft Word, an introduction with clear steps, visuals, and animations.
-image: /assets/images/Ctrl All logo blue.svg
-asset_id: ctrlall-getting-started-word-v1
+casset_id: ctrlall-getting-started-word-v1
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:
@@ -150,7 +149,7 @@ A word document icon looks like this depending on where you're viewing it:
 <p> This is the main Word interface you work from. It's made of different sections which we'll go through top to bottom.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Word interface.png' | url }}"  alt="Main Word interface screen" style="width:100%; vertical-align:middle"></p>
 <h3 id="quick-access-toolbar">Quick Access Toolbar</h3>
-<p>At the very top of the app is the Quick Access Toolbar has some options that are always available; on the left are options to <span class="glossary-hover" data-term="save">save</span>, <span class="glossary-hover" data-term="undo">undo</span>, <span class="glossary-hover" data-term="redo">redo</span>; in the centre is a searchbar to search for tools and options; on the right are options to <span class="glossary-hover" data-term="minimise-screen">minimise screen</span>, <span class="glossary-hover" data-term="maximise-screen">maximise screen</span> and close the application. If you're using Microsoft Office 365 then you'll see a <span class="glossary-hover" data-term="toggle">toggle</span> for <span class="glossary-hover" data-term="autosave">Autosave</span> to the far left as well.</p>
+<p>At the very top of the app is the Quick Access Toolbar has some options that are always available; on the left are options to <span class="glossary-hover" data-term="save">save</span>, <span class="glossary-hover" data-term="undo">undo</span>, <span class="glossary-hover" data-term="redo">redo</span>; in the centre is a search bar to search for tools and options; on the right are options to <span class="glossary-hover" data-term="minimise-screen">minimise screen</span>, <span class="glossary-hover" data-term="maximise-screen">maximise screen</span> and close the application. If you're using Microsoft Office 365 then you'll see a <span class="glossary-hover" data-term="toggle">toggle</span> for <span class="glossary-hover" data-term="autosave">Autosave</span> to the far left as well.</p>
 <img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Word interface Quick Access Toolbar.png' | url }}"  alt="Quick Access Toolbar options at the very top" style="width:100%; vertical-align:middle">
 
 <p><strong>Tip</strong>: Hover over the maximise button and you'll see some 'snap' feature options to display multiple windows in various ways on screen.</p>

@@ -1,13 +1,11 @@
 ---
 title: Tables
 layout: layout.liquid
-active: word
 permalink: /word/tables/
 canonical: /word/tables/
 description: A guide to tables in Microsoft Word with clear steps, visuals, and animations.
 image: /assets/images/Ctrl All logo blue.svg
 asset_id: ctrlall-tables-v1
-keywords: Word, Microsoft Word, table, table layout, cell, column, column width, row, row height, distribution, space, spacing, extend, extended, margins, borders, resize, adjust, align, alignment, vertically, horizontally, insert, inserting, arrows, cursor, pointer, icon, hover, hover over, mouse symbol, select, selecting.
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:
@@ -33,7 +31,7 @@ tags:
   - mouse icon
   - insert table
   - edit table
-  - alter tbale
+  - alter table
   - modify table
 active: word
 ---
@@ -68,37 +66,37 @@ To create a table, select the <strong>Insert</strong> tab on the ribbon, then se
       <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Tables/select text example.gif' | url }}">
         <td>Select text in table cell</td>
         <td>Hover over text, then when the cursor icon changes double click to select a word.</td>
-        <td><img src="{{ '/assets/images/word/Tables/select%20text%20icon.png' | url }}" alt="Selecting text" style="display: block; margin: auto; width: 30px;"></td>
+        <td><img src="{{ '/assets/images/word/Tables/select%20text%20icon.png' | url }}" alt="Selecting text cursor icon in Word" style="display: block; margin: auto; width: 30px;"></td>
       </tr>
       <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Tables/select%20cell%20example.gif' | url }}">
         <td>Select whole cell</td>
         <td>Hover just to the right of the left cell border, then click when the cursor icon changes.</td>
-        <td><img src="{{ '/assets/images/word/Tables/select%20cell%20arrow.png' | url }}" alt="Select cell arrow" style="display: block; margin: auto; width: 30px;"></td>
+        <td><img src="{{ '/assets/images/word/Tables/select%20cell%20arrow.png' | url }}" alt="Select cell arrow cursor icon in Word" style="display: block; margin: auto; width: 30px;"></td>
       </tr>
       <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Tables/select%20multiple%20cells%20example.gif' | url }}" data-gif-style="max-width:180px;">
         <td>Select multiple cells</td>
         <td>Hold down click and then drag ('click and drag') from one cell to another.</td>
-        <td><img src="{{ '/assets/images/word/Tables/select%20text%20icon.png' | url }}" alt="Selecting text" style="display: block; margin: auto; width: 30px;"></td>
+        <td><img src="{{ '/assets/images/word/Tables/select%20text%20icon.png' | url }}" alt="Selecting text cursor icon in Word" style="display: block; margin: auto; width: 30px;"></td>
       </tr>
       <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Tables/select column example.gif' | url }}">
         <td>Select whole column</td>
         <td>Hover over top of column, then click when the cursor icon changes.</td>
-        <td><img src="{{ '/assets/images/word/Tables/select%20column%20arrow.png' | url }}" alt="Select column arrow" style="display: block; margin: auto; width: 24px;"></td>
+        <td><img src="{{ '/assets/images/word/Tables/select%20column%20arrow.png' | url }}" alt="Select table column arrow cursor icon in Word" style="display: block; margin: auto; width: 24px;"></td>
       </tr>
       <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Tables/select%20table%20example.gif' | url }}">
         <td>Select whole table</td>
         <td>Hover anywhere in the table, then click the square icon that appears in the top right corner.</td>
-        <td><img src="{{ '/assets/images/word/Tables/select%20table%20square.png' | url }}" alt="Select table icon" style="display: block; margin: auto; width: 50px;"></td>
+        <td><img src="{{ '/assets/images/word/Tables/select%20table%20square.png' | url }}" alt="Select table cursor icon in Word" style="display: block; margin: auto; width: 50px;"></td>
       </tr>
       <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Tables/adjust%20column%20width%20example.gif' | url }}">
         <td>Adjust column width</td>
         <td>Hover just to the right of the left cell border, then click and drag when the cursor icon changes.</td>
-        <td><img src="{{ '/assets/images/word/Tables/adjust%20column%20width.png' | url }}" alt="Adjust column icon" style="display: block; margin: auto; width: 40px;"></td>
+        <td><img src="{{ '/assets/images/word/Tables/adjust%20column%20width.png' | url }}" alt="Adjust table column cursor icon in Word" style="display: block; margin: auto; width: 40px;"></td>
       </tr>
       <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Tables/adjust%20row%20height%20example.gif' | url }}">
         <td>Adjust row height</td>
         <td>Hover over row border, then click and drag when the cursor icon changes.</td>
-        <td><img src="{{ '/assets/images/word/Tables/adjust%20row%20height.png' | url }}" alt="Adjust row icon" style="display: block; margin: auto; width: 40px;"></td>
+        <td><img src="{{ '/assets/images/word/Tables/adjust%20row%20height.png' | url }}" alt="Adjust table row cursor icon in Word" style="display: block; margin: auto; width: 40px;"></td>
       </tr>
     </tbody>
   </table>

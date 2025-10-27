@@ -2,11 +2,54 @@
 title: Formatting text
 layout: layout.liquid
 permalink: /word/formatting-text/
+canonical: /modules/formatting-text.html
+description: Style words, sentences, and paragraphs in Word with clear steps, visuals, and animations.
+asset_id: ctrlall-formatting-text-v1"
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - font options
+  - format text
+  - format sentence
+  - format paragraph
+  - style text
+  - style words
+  - style sentence
+  - style paragraph
+  - clipboard
+  - copy
+  - cut
+  - paste
+  - different ways to paste
+  - different ways to copy
+  - copy without formatting
+  - format painter
+  - change font
+  - align text
+  - bold
+  - italic
+  - underline
+  - bigger font
+  - smaller font
+  - font color
+  - font colour
+  - highlight
+  - subscript
+  - superscript
+  - change sentence case
+  - capitals
+  - lowercase
+  - uppercase
+  - all caps
+  - bullet list
+  - numbered list
+  - multilevel list
+  - indent
+  - tab
+  - sort
+  - line spacing
 active: word
-description: "Style words, sentences, and paragraphs in Word with clear steps, visuals, and animations."
-keywords: "Word formatting, format text, style text, font options, change font, bold, italic, underline, strikethrough, font effects, font size, pt, font color, font colour, highlight, align text, left align, center align, right align, justify, subscript, superscript, change case, sentence case, lowercase, uppercase, all caps, bullet list, numbered list, multilevel list, steps, points, indent, indentation, clear formatting, remove formatting, remove font formatting, reset font formatting"
-canonical: "/modules/formatting-text.html"
-asset_id: "ctrlall-formatting-text-v1"
 ---
 
 <h1>Formatting text</h1>
@@ -14,10 +57,10 @@ asset_id: "ctrlall-formatting-text-v1"
 <section class="section-light">
 On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting tools change the appearance and layout of your text and document; they make your content more readable, professional, and visually appealing. This article explains what each does.
 
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/01 Home tab on ribbon.png' | url }}"  alt="Home tab on ribbon" style="width:75%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home tab on ribbon.png' | url }}"  alt="Home tab tools on ribbon in Word" style="width:75%; vertical-align:middle"></p>
 
 <h2>Clipboard tools</h2>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/02 Home Clipboard.png' | url }}"  alt="Home Clipboard tools on ribbon" style="width:40%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Clipboard.png' | url }}"  alt="Home Clipboard tools on ribbon in Word" style="width:40%; vertical-align:middle"></p>
 
 <h4>Cut, copy and paste</h4> 
 <p>These are tools to copy and/or move content.</p>
@@ -39,35 +82,35 @@ On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting 
     <tbody>
       <tr>
         <td>Paste - Keep Source Formatting
-        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Keep Source Formatting.png' | url }}"  alt="Paste Keep Source Formatting" style="width:20%; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Keep Source Formatting.png' | url }}"  alt="Paste Keep Source Formatting icon" style="width:20%; vertical-align:middle"></div></td>
         <td>Pastes the content bringing its inherent formatting to your document. This may not always be something you want.</td>
       </tr>
       <tr>
         <td>Paste - Merge Formatting
-        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Merge Formatting.png' | url }}"  alt="Paste Merge Formatting" style="width:20%; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Merge Formatting.png' | url }}"  alt="Paste Merge Formatting icon" style="width:20%; vertical-align:middle"></div></td>
         <td>Content will take on the formatting on your document when you have placed the <span class="glossary-hover" data-term="insertion-point">insertion point</span>.</td>
       </tr>
       <tr>
         <td>Paste - Picture
-        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Picture.png' | url }}"  alt="Paste Picture" style="width:20%; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Picture.png' | url }}"  alt="Paste Picture icon" style="width:20%; vertical-align:middle"></div></td>
         <td>Pastes as an image. Useful if you need a snapshot of content that you don't want altered.</td>
       </tr>
       <tr>
         <td>Paste - Keep Text Only
-        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Keep Text Only.png' | url }}"  alt="Paste Keep Text Only" style="width:20%; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Keep Text Only.png' | url }}"  alt="Paste Keep Text Only icon" style="width:20%; vertical-align:middle"></div></td>
         <td>Pastes text without any formatting it originally had. This is especially useful when copying text from elsewhere like another document or a webpage.</td>
       </tr>
     </tbody>
   </table>
 </li>
 <h4>Format Painter</h4> 
-<img class="thumbnail" src="{{ '/assets/images/word/Formatting text/02a Format painter icon.png' | url }}"  alt="Format painter icon" style=" width:5%; vertical-align:middle"> 
+<img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Format painter icon.png' | url }}"  alt="Format painter icon" style=" width:5%; vertical-align:middle"> 
 <p>This is a useful tool which applies formatting from selected formatted text to other text. This is much faster to apply the same custom formatting elsewhere.</p>
 <u>Note</u>: For headings you should use Styles (see further below), the format painter can then be used to apply a heading's heading style onto other text.
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/02b Format painter example.gif' | url }}"  alt="Format painter" style="height:60%; width:60%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Format painter example.gif' | url }}"  alt="Example of format painter being used to style text" style="height:60%; width:60%; vertical-align:middle"></p>
 
 <h2>Font tools</h2>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/03 Home Font.png' | url }}"  alt="Home Font tools on ribbon" style="width:80%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="width:80%; vertical-align:middle"></p>
 <table>
 <colgroup>
       <col style="width: 20%;">
@@ -131,7 +174,7 @@ On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting 
 <p>Click the bottom right corner button and you can bring up further <a href="/word/font-options/">Font options</a>.</p>
 
 <h2>Paragraph</h2>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/05 Home Paragraph.png' | url }}"  alt="Home Paragraph tools on ribbon" style="width:75%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Paragraph.png' | url }}"  alt="Home Paragraph tools on ribbon in Word" style="width:75%; vertical-align:middle"></p>
 
 <table>
 <colgroup>
@@ -208,7 +251,7 @@ On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting 
     <tr>
       <td>Sort</td>
       <td>
-        Sort is useful to order text in different ways in lists and tables: alphabetically A-Z, reverse alphabetically Z-A, by number, yy date, ascending/descending, and multiple levels of sorting orders.
+        Sort is useful to order text in different ways in lists and tables: alphabetically A-Z, reverse alphabetically Z-A, by number, by date, ascending/descending, and multiple levels of sorting orders.
       </td>
     </tr>
     <tr>
