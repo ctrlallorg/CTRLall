@@ -4,11 +4,40 @@ layout: layout.liquid
 active: word
 permalink: /word/styles/
 canonical: /word/styles/
-asset_id: ctrlall-styles-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: Applying and editing styles in Microsoft Word with clear steps, visuals, and animations.
-keywords: Word, Microsoft Word, styles, styling, styles gallery, quick styles gallery, heading, title, top line, headline, top text, first sentence, top part, start of the page, main title, page label, spacing, white space, white area, caption, label, name, text, words, sentence, paragraph, font, font options, paragraph options, format, formatting.  
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-styles-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - styling
+  - styles
+  - styles gallery
+  - quick styles gallery
+  - heading
+  - title
+  - top line
+  - headline
+  - top text
+  - big text
+  - top part
+  - start of the page
+  - main title
+  - page label
+  - spacing
+  - white space
+  - white area
+  - caption
+  - label
+  - name
+  - paragraph options
+  - font options
+  - format
+  - formatting
+active: word
 ---
+
 
 <h1>Styles</h1>
 

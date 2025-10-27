@@ -1,13 +1,31 @@
 ---
 title: Images and graphic visuals
 layout: layout.liquid
-active: word
 permalink: /word/images/
 canonical: /word/images/
-asset_id: ctrlall-images-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: A guide on everything about images and graphic visuals in Microsoft Word with clear steps, visuals, and animations.
-keywords: Word, Microsoft Word, image, graphic, visual, shape, icon, 3D model, chart, SmrtArt, chart, screenshot, WordArt, insert, inserting, image types.
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-images-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - image
+  - shape
+  - icon
+  - 3D model
+  - chart
+  - SmartArt
+  - chart
+  - screenshot
+  - WordArt
+  - insert
+  - image types
+  - types of image
+  - graphic
+  - visual
+  - picture
+active: word
 ---
 
 <h1>Images and graphic visuals</h1>

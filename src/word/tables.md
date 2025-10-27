@@ -4,10 +4,38 @@ layout: layout.liquid
 active: word
 permalink: /word/tables/
 canonical: /word/tables/
-asset_id: ctrlall-tables-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: A guide to tables in Microsoft Word with clear steps, visuals, and animations.
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-tables-v1
 keywords: Word, Microsoft Word, table, table layout, cell, column, column width, row, row height, distribution, space, spacing, extend, extended, margins, borders, resize, adjust, align, alignment, vertically, horizontally, insert, inserting, arrows, cursor, pointer, icon, hover, hover over, mouse symbol, select, selecting.
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - table
+  - table layout
+  - row
+  - row height
+  - column
+  - column width
+  - increase column
+  - enlarge column
+  - expand column
+  - reduce column
+  - increase row height
+  - enlarge row
+  - expand row
+  - reduce row
+  - make narrower
+  - arrow
+  - cursor
+  - pointer
+  - mouse icon
+  - insert table
+  - edit table
+  - alter tbale
+  - modify table
+active: word
 ---
 
 <h1>Tables</h1>

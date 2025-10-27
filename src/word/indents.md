@@ -1,13 +1,31 @@
 ---
 title: "Indents"
 layout: layout.liquid
-active: word
 permalink: /word/indents/
 canonical: /word/indents/
-asset_id: ctrlall-indents-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: Indents in Microsoft Word with clear steps, visuals, and animations.
-keywords: Word, Microsoft Word, paragraph options, indent, indenting, indentation, format paragraph, formatting text, style paragraph, space, spacing, tab, tabs, margin indent marker, slider, ruler, hanging indent, first line indent, left indent.  
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-indents-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - indent
+  - indenting
+  - indentation
+  - indent marker
+  - tab
+  - move the first line
+  - move rest of the paragraph
+  - move text left and right
+  - move text horizontally
+  - margin
+  - hanging indent
+  - first line indent
+  - left inden
+  - space
+  - spacing
+active: word
 ---
 
 <h1>Indents</h1>

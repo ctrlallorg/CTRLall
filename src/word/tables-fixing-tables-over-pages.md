@@ -4,10 +4,44 @@ layout: layout.liquid
 active: word
 permalink: /word/tables-fixing-tables-over-pages/
 canonical: /word/tables-fixing-tables-over-pages/
-asset_id: ctrlall-tables-fixing-tables-over-pages-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: How to alter tables extending over pages Microsoft Word with clear steps, visuals, and animations.
-keywords: Word, Microsoft Word, table, table layout, column, row height, row distribution, rogue row, space, white space, extend, extended, off the page, offscreen, off-screen off the screen, can't see, invisible, can't control, gone, over the edge, area, beyond the margin, disappears, disappeared, moves to next page, shifts down, jumps down, page break, split table, splitting, separates, repeat header row, top of page, merged rows, fit on page, how do i, broken, not working, problem, issue, error, help, get back, retrieve, solution, answer.
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-tables-fixing-tables-over-pages-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - table
+  - table layout
+  - row
+  - row height
+  - row distribution
+  - skips to next page
+  - extends off page
+  - goes to next page
+  - shifts to next page
+  - shifts down
+  - straddling both pages
+  - table splits
+  - split table
+  - disappears
+  - over the edge
+  - over the page
+  - jumps down
+  - repeat header row
+  - top of page
+  - merged row
+  - fit on page
+  - issue
+  - problem
+  - error
+  - broken
+  - not working
+  - help
+  - how do i
+  - retrieve
+  - get back
+active: word
 ---
 
 <h1>Fixing tables over pages</h1>

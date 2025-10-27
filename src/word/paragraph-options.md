@@ -1,13 +1,39 @@
 ---
 title: Paragraph options
 layout: layout.liquid
-active: word
 permalink: /word/paragraph-options/
 canonical: /word/paragraph-options/
-asset_id: ctrlall-paragraph-options-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: Edit paragraph and line spacing, indentation and page/link breaks in Microsoft Word with clear steps, visuals, and animations.
-keywords: Paragraph options, Word formatting, format paragraph, formatting text, style paragraph, paragraph spacing, space between paragraphs, space between sentences, sentence spacing, line spacing, line space, spacing above and below, spread lines out, spread out lines, border, margin, indent, indentation, page break, line break, window, orphan, keep lines together, tighten lines, tighter lines, loosen lines, looser lines.  
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-paragraph-options-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - paragraph options
+  - format paragraph
+  - format text
+  - style paragraph
+  - line spacing
+  - space between paragraph
+  - space between sentences
+  - space between lines
+  - spacing above and below
+  - spread lines out
+  - make lines tighter
+  - tighter spacing
+  - looser spacing
+  - loosen spacing
+  - tighten space
+  - close up space
+  - increase space
+  - indent
+  - indentation
+  - page break
+  - line break
+  - widow
+  - orphan
+active: word
 ---
 
 <h1>Paragraph options</h1>

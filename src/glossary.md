@@ -1,12 +1,40 @@
 ---
 title: Glossary
-description: A digital literacy glossary of terms with tooltip visuals and detailed definitions.
 layout: layout.liquid
 permalink: /glossary/
-active: glossary
 canonical: /glossary/
-asset_id: glossary-v1.0
+description: A digital literacy glossary from Ctrl All of terms with tooltip visuals and detailed definitions.
 image: /assets/images/Ctrl All logo blue.svg
+asset_id: glossary-v1.0
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - ctrl all
+  - glossary
+  - glossary of computer terms
+  - digital literacy
+  - computing basics
+  - tech terms explained
+  - plain language tech
+  - beginner-friendly
+  - no jargon
+  - beginner-friendly
+  - self-taught
+  - teach yourself
+  - accessible education
+  - microsoft office glossary
+  - microsoft word terms
+  - digital skills glossary
+  - keyboard shortcuts
+  - file types explained
+  - internet terms
+  - software terms
+  - help guide
+  - educational resource
+  - union education
+  - library resource
+  - digital education
+active: glossary
 ---
 
 <div class="preload-images" hidden>

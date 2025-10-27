@@ -1,14 +1,37 @@
 ---
 title: Image and object issues
 layout: layout.liquid
-active: word
 permalink: /word/image-object-issues/
 canonical: /word/image-object-issues/
-asset_id: ctrlall-image-object-issues-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: How to fix issues with images and objects in Microsoft Word, help with clear steps, visuals, and animations.
-keywords: Word, Microsoft Word, image, graphic, visual, shape, icon, 3D model, chart, SmrtArt, chart, screenshot, WordArt, object, text box, textbox, embedded file, drawing canvas, issue, problem, stuck, help, how do i, broken, not working, problem, issue, error, help, get back, retrieve, solution, answer.
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-image-object-issues-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - image
+  - shape
+  - icon
+  - 3D model
+  - chart
+  - SmartArt
+  - chart
+  - screenshot
+  - WordArt
+  - object
+  - text box
+  - embedded file
+  - OLE object
+  - drawing canvas
+  - issue
+  - problem
+  - stuck
+  - not working
+  - how do i
+active: word
 ---
+
 
 <h1>Image and object issues</h1>
 

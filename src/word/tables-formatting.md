@@ -2,9 +2,28 @@
 title: "Tables: Formatting"
 layout: layout.liquid
 permalink: /word/tables-formatting/
+canonical: /word/tables-formatting/
+description: Style tables in Word with clear steps, visuals, and animations.
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-tables-formatting-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - table
+  - table layout
+  - row
+  - row height
+  - row distribution
+  - adjust
+  - table cell alignment
+  - table borders
+  - table shading
+  - remove paragraph spacing in a table
+  - bullet list in table
+  - number list in table
 active: word
 ---
-
 <h1>Tables: Formatting</h1>
 
 <section class="section-light">

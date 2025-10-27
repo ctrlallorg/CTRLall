@@ -1,15 +1,35 @@
 ---
 title: "Lists: Soft & hard returns"
 layout: layout.liquid
-active: word
 permalink: /word/lists-soft-hard-returns/
 canonical: /word/lists-soft-hard-returns/
-asset_id: ctrlall-lists-soft-hard-returns-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: Hard and soft returns in number lists and bullet lists in Microsoft Word with clear steps, visuals, and animations.
-keywords: Word, Microsoft Word, list, number list, bullet list, bullets, steps, points, add line, new line, more space, add space underneath, flow on beneath, go to next line, soft return, hard return, emphasise, stand out, separate, separated, break from sequence, break from number order, not joined together, not connected, separate from list, continue numbering, next in sequence, in sequence, in sync, synchronized, carry on, sequential, sequentially, in order, numbering value, number value, number order, numerical, join, joined together, flow, connected. 
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-lists-soft-hard-returns-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - list
+  - number list
+  - bullet list
+  - bullets
+  - soft return
+  - hard return
+  - extra line
+  - break sequence 
+  - joined togther
+  - line underneath
+  - separate from list
+  - connected
+  - not connected
+  - issue
+  - problem
+  - help
+  - how do i
+active: word
+--- 
 
----
 
 <h1>Lists: Soft & hard returns</h1>
 

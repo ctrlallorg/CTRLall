@@ -1,14 +1,25 @@
 ---
 title: Selecting text
 layout: layout.liquid
-active: word
 permalink: /word/selecting-text/
 canonical: /word/selecting-text/
-asset_id: ctrlall-selecting-text-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: Select words, sentences, and paragraphs in Microsoft Word with clear steps, visuals, and animations.
-keywords: Word, Microsoft Word, choose, click on, select, select text, selecting text, select word, select sentence, select paragraph, select line selecting words, highlight text, highlight word, highlight sentences, highlight paragraph, highlight line.  
-
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-selecting-text-v1 
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - select text
+  - selecting text
+  - click on
+  - choose
+  - highlight
+  - select words
+  - select sentence
+  - select paragraph
+  - select line
+active: word
 ---
 
 <h1>Selecting text</h1>

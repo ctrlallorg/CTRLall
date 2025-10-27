@@ -3,11 +3,54 @@ title: CTRL All
 description: Ctrl All - A digital literacy hub built on clarity, ethics, and open-source empowerment.
 layout: layout.liquid
 permalink: /
-active: index
 canonical: /index/
 asset_id: index-v1.0
 image: /assets/images/Ctrl All logo blue.svg
-keywords: Ctrl All, digital literacy, digital skills, microsoft office, microsoft word, help, guides, articles, how to, solved problems, fix everyday issues, fix common problems, glossary, terms, definitions, tooltips, examples, reference, index, answers, jargon free, no jargon, explain, wiki, beginner, new to word.
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - ctrl all
+  - digital literacy
+  - digital education
+  - digital skills
+  - computing basics
+  - tech terms explained
+  - plain language tech
+  - beginner-friendly
+  - new to windows
+  - new to word
+  - examples
+  - fix issue
+  - solve problem
+  - get answers
+  - no jargon
+  - make sense
+  - explain
+  - free
+  - no paywalls
+  - accessible
+  - teach yourself
+  - self-taught
+  - learn microsoft word
+  - learning microsoft word
+  - microsoft office basics
+  - microsoft word basics
+  - microsoft office for beginners
+  - microsoft word for beginners
+  - help guide
+  - article
+  - how to guide
+  - about us
+  - union education
+  - library digital skills
+  - library resource
+  - library training
+  - glossary of computer terms
+  - educational resource
+  - corporate office education
+  - computing basics
+active: index
+---
 ---
 
 <section class="hero">

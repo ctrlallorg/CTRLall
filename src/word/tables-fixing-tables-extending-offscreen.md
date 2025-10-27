@@ -1,13 +1,42 @@
 ---
 title: "Tables: Fixing tables extending offscreen"
 layout: layout.liquid
-active: word
 permalink: /word/tables-fixing-tables-extending-offscreen/
 canonical: /word/tables-fixing-tables-extending-offscreen/
-asset_id: ctrlall-tables-fixing-tables-extending-offscreen-v1
-image: /assets/images/Ctrl All logo blue.svg
 description: How to fix tables that are extending offscreen Microsoft Word with clear steps, visuals, and animations.
-keywords: Word, Microsoft Word, table, table layout, column, column width, column distribution, rogue column, extend, extended, off the page, offscreen, off-screen off the screen, can't see, invisible, can't control, gone, over the edge, area, beyond the margin, grey area, disappears, disappeared, how do i, broken, not working, problem, issue, error, help, get back, retrieve, solution, answer.
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-tables-fixing-tables-extending-offscreen-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - microsoft word
+  - table
+  - table layout
+  - column
+  - column width
+  - column distribution
+  - rogue column
+  - extending off screen
+  - going off screen
+  - disappears
+  - disappeared
+  - can't see
+  - invisible
+  - can't control
+  - gone
+  - over the edge
+  - beyond the margin
+  - grey area
+  - issue
+  - problem
+  - error
+  - broken
+  - not working
+  - help
+  - how do i
+  - retrieve
+  - get back
+active: word
 ---
 
 <h1>Fixing tables extending offscreen</h1>

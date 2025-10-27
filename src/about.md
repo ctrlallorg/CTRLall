@@ -1,14 +1,57 @@
 ---
 title: About Ctrl All
-description: About us.
 layout: layout.liquid
-active: about
 permalink: /about/
 canonical: /about/
-asset_id: ctrlall-about-v1
+description: About us.
 image: /assets/images/Ctrl All logo blue.svg
-keywords: Ctrl all, about us, digital literacy, no jargon, guides, tutorials, copyright, ads.
+asset_id: ctrlall-about-v1
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - ctrl all
+  - digital literacy
+  - digital education
+  - digital skills
+  - computing basics
+  - tech terms explained
+  - plain language tech
+  - beginner-friendly
+  - new to windows
+  - new to word
+  - examples
+  - fix issue
+  - solve problem
+  - get answers
+  - no jargon
+  - make sense
+  - explain
+  - free
+  - no paywalls
+  - accessible
+  - teach yourself
+  - self-taught
+  - learn microsoft word
+  - learning microsoft word
+  - microsoft office basics
+  - microsoft word basics
+  - microsoft office for beginners
+  - microsoft word for beginners
+  - help guide
+  - article
+  - how to guide
+  - about us
+  - union education
+  - library digital skills
+  - library resource
+  - library training
+  - glossary of computer terms
+  - educational resource
+  - corporate office education
+  - computing basics
+active: about
 ---
+
 
 <section class="section-light">
   <h1>About us</h1>
