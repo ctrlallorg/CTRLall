@@ -1,5 +1,5 @@
 ---
-title: "Tables: Fixing tables extending offscreen"
+title: "Tables: Fixing tables extending off the page"
 layout: layout.liquid
 permalink: /word/tables-fixing-tables-extending-offscreen/
 canonical: /word/tables-fixing-tables-extending-offscreen/
