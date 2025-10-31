@@ -214,15 +214,14 @@ active: glossary
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Page break</td>
+          <td><a href="#page-break">Page break</a></td>
             <td style="text-align: center;">
               <img src="{{ '/assets/images/glossary/Page break marker.png' | url }}" alt="Page break marker in Word" style="width: 100%; display: block; margin: 0 auto;">
             </td>
             <td>Marks where a new page begins</td>
           </tr>
           <tr>
-            <td>Section break</td>
+            <td><a href="#section-break">Section break</a></td>
             <td style="text-align: center;">
               <img src="{{ '/assets/images/glossary/Section break marker.png' | url }}" alt="Section break marker in Word" style="width: 100%; display: block; margin: 0 auto;">
             </td>
@@ -408,12 +407,7 @@ active: glossary
     </tr>
     <tr>
       <td id="page-break">Page break</td>
-      <td>A page break is the boundary of the editable area between one page and another. To add a page break press Ctrl + Enter. To view page breaks you need to turn on the <a href="#paragraph marks">paragraph marks tool</a>.</td>
-    </tr>
-    <tr>
-      <td id="paragraph-marks">Paragraph marks / Show/Hide ¶</td>
-      <td>Paragraph marks (also called Show/Hide ¶) is a visibility toggle showing hidden layout and formatting markers in the document e.g., <a href="#page-break">page breaks</a> and <a href="#section-break">section breaks</a>. This can be useful to troubleshoot layout issues. The Paragraph marks tool can be found under Home > Paragraph.
-      <img class="border" src="{{ '/assets/images/glossary/Paragraph marks.png' | url }}" alt="Cursor keys" style="width: 45%;"></td>
+      <td>A page break is the boundary of the editable area between one page and another. To add a page break press <strong>Ctrl + Enter</strong>. To view page breaks you need to turn on non-printing <a href="#formatting-marks">formatting mark</a> <strong>Show/Hide ¶</strong>.</td>
     </tr>
     <tr>
       <td id="paste">Paste / Pasting</td>
@@ -859,14 +853,14 @@ active: glossary
         </thead>
         <tbody>
           <tr>
-            <td>Page break</td>
+            <td><a href="#page-break">Page break</a></td>
             <td style="text-align: center;">
               <img src="{{ '/assets/images/glossary/Page break marker.png' | url }}" alt="Page break marker in Word" style="width: 100%; display: block; margin: 0 auto;">
             </td>
             <td>Marks where a new page begins</td>
           </tr>
           <tr>
-            <td>Section break</td>
+            <td><a href="#section-break">Section break</a></td>
             <td style="text-align: center;">
               <img src="{{ '/assets/images/glossary/Section break marker.png' | url }}" alt="Section break marker in Word" style="width: 100%; display: block; margin: 0 auto;">
             </td>
@@ -1052,12 +1046,7 @@ active: glossary
     </tr>
     <tr>
       <td id="page-break">Page break</td>
-      <td>A page break is the boundary of the editable area between one page and another. To add a page break press Ctrl + Enter. To view page breaks you need to turn on the <a href="#paragraph marks">paragraph marks tool</a>.</td>
-    </tr>
-    <tr>
-      <td id="paragraph-marks">Paragraph marks / Show/Hide ¶</td>
-      <td>Paragraph marks (also called Show/Hide ¶) is a visibility toggle showing hidden layout and formatting markers in the document e.g., <a href="#page-break">page breaks</a> and <a href="#section-break">section breaks</a>. This can be useful to troubleshoot layout issues. The Paragraph marks tool can be found under Home > Paragradph.
-      <img class="border" src="{{ '/assets/imagesParagraph marks.png' | url }}" alt="Cursor keys" style="width: 45%;"></td>
+      <td>A page break is the boundary of the editable area between one page and another. To add a page break press <strong>Ctrl + Enter</strong>. To view page breaks you need to turn on non-printing <a href="#formatting-marks">formatting mark</a> <strong>Show/Hide ¶</strong>.</td>
     </tr>
     <tr>
       <td id="paste">Paste / Pasting</td>

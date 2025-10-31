@@ -42,7 +42,7 @@ active: word
 
 <h4>I can’t find the page break</h4>
 <p>That’s because they’re invisible by default. In order to see them you need to turn on formatting marks (also known as non-printing characters) which you can do via <strong>Home > Show/Hide ¶</strong>:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Page breaks/Show paragraph marks.png' | url }}"  alt="Show paragraph marks" style="width:33%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Page breaks/Show Hide non-printing formatting marks.png' | url }}"  alt="Show Hide non-printing formatting marks on ribbon in Word" style="width:33%; vertical-align:middle"></p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Page breaks/Page break 2 pages.png' | url }}"  alt="Page break highlighted across two pages" style="width:90%; vertical-align:middle"></p>
 
 <h2 id="insert-page-break">How do you add a page break?</h2>

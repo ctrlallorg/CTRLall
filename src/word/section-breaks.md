@@ -40,7 +40,7 @@ active: word
 
 <h2>I can’t find any section breaks</h2>
 That’s because they’re hidden by default. To make formatting marks like these visible go to <strong>Home > Show/Hide ¶</strong> and the section break will appear on the page.
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Show paragraph marks.png' | url }}"  alt="Home Show paragraph marks on ribbon in Word" style="width:33%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Show Hide non-printing formatting marks.png' | url }}"  alt="Home Show non-printing formatting markers on ribbon in Word" style="width:33%; vertical-align:middle"></p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break example.png' | url }}"  alt="Section break example over two pages in Word" style="width:90%; vertical-align:middle"></p>
 
 <h2 id="remove-section-break">How do you remove a section break</h2>
