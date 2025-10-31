@@ -70,4 +70,4 @@ This article explains the basics of altering pages and views in Microsoft Word.
 <p><strong>Size</strong> and <strong>Orientation</strong> are the most common tools used here:</p>
 
 <p><img class="thumbnail" src="{{ '/assets/images/word/Pages and Views/5 Orientation and Size.png' | url }}"  alt="Page Orientation and Size options in Word" style="height:50%; width:50%; vertical-align:middle"></p>
-
+</section>

@@ -55,7 +55,7 @@ active: word
 <h1>Formatting text</h1>
 
 <section class="section-light">
-On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting tools change the appearance and layout of your text and document; they make your content more readable, professional, and visually appealing. This article explains what each does.
+On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting tools change the appearance and layout of your text and document; they make your content more readable, professional, and visually appealing. This article explains what each one does.
 
 <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home tab on ribbon.png' | url }}"  alt="Home tab tools on ribbon in Word" style="width:75%; vertical-align:middle"></p>
 

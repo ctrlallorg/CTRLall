@@ -28,6 +28,8 @@
       <li><a href="{{ '/word/paragraph-options/' | url }}" class="{% if page.url == '/word/paragraph-options/' %}active{% endif %}">Paragraph options</a></li>
       <li><a href="{{ '/word/styles/' | url }}" class="{% if page.url == '/word/styles/' %}active{% endif %}">Styles</a></li>
       <li><a href="{{ '/word/indents/' | url }}" class="{% if page.url == '/word/indents/' %}active{% endif %}">Indents</a></li>
+      <li><a href="{{ '/word/page-breaks/' | url }}" class="{% if page.url == '/word/page-breaks/' %}active{% endif %}">Page breaks</a></li>
+      <li><a href="{{ '/word/section-breaks/' | url }}" class="{% if page.url == '/word/section-breaks/' %}active{% endif %}">Section breaks</a></li>
       <li><a href="{{ '/word/lists-fixing-number-lists/' | url }}" class="{% if page.url == '/word/lists-fixing-number-lists/' %}active{% endif %}">Lists: Fixing number lists</a></li>
       <li><a href="{{ '/word/lists-soft-hard-returns/' | url }}" class="{% if page.url == '/word/lists-soft-hard-returns/' %}active{% endif %}">Lists: Soft & hard returns</a></li>
       <li><a href="{{ '/word/tables/' | url }}" class="{% if page.url == '/word/tables/' %}active{% endif %}">Tables</a></li>
@@ -73,3 +75,13 @@
       <li><a href="{{ '/content-control/keyboard-shortcuts/#powerpoint-excel-keyboard-shortcuts' | url }}" class="{% if page.url == '/content-control/keyboard-shortcuts/#excel-keyboard-shortcuts' %}active{% endif %}">Excel Keyboard Shortcuts</a></li>
     </ul>
   </li>
+
+
+<!-- Glossary Section -->
+<li>
+  <a href="{{ '/glossary/' | url }}" class="nav-toggle {% if active == 'glossary' %}active expanded{% endif %}" data-section="glossary" aria-expanded="{% if active == 'glossary' %}true{% else %}false{% endif %}" aria-controls="nav-glossary">
+    Glossary <span class="arrow"></span>
+  </a>
+</li>
+
+

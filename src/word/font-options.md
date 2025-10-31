@@ -47,7 +47,7 @@ Word has a one-stop shop <strong>Font options</strong> window for editing all th
 
 <h2>Font</h2>
 <p>You'll first find yourself on the <strong>Font</strong> tab. More options can be found on the <a href="#Advanced-Font-Options">Advanced</a> tab.</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font options window.png' | url }}" alt="Font options in Word" style="display: inline; margin: auto; width: 50%;"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font options.png' | url }}" alt="Font options in Word" style="display: inline; margin: auto; width: 50%;"></p>
 <p>Take a look at the options to alter fonts. To see common examples look at this article: <a href="/word/formatting-text/">Formatting text</a>.</p>
   <table>
     <colgroup>
@@ -208,5 +208,6 @@ Word has a one-stop shop <strong>Font options</strong> window for editing all th
       </tr>
     </tbody>
    </table>
+   </section>
  
 

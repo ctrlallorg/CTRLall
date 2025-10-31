@@ -22,6 +22,8 @@ active: content-control
 
 <h1>Copying content</h1>
 
+<section class="section-light">
+
 <h2>Copy and paste</h2> 
 <p>Copying content attaches its information temporarily to the computer's <span class="glossary-hover" data-term="clipboard">clipboard</span>. This allows you to then <span class="glossary-hover" data-term="paste">paste</span> it elsewhere. Hence the phrase 'copy and paste'.</p>
 
@@ -39,3 +41,5 @@ then
 <img class="thumbnail border" src="{{ '/assets/images/content control/Copy and paste cell value.gif' | url }}"  alt="Copy and paste cell value" style="height:27%; width:27%; vertical-align:middle">
 
 <img class="thumbnail border" src="{{ '/assets/images/content control/Copy and paste file.gif' | url }}"  alt="Copy and paste file" style="height:100%; width:100%; vertical-align:middle">
+
+</section>

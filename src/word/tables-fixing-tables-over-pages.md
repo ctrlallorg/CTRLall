@@ -45,7 +45,7 @@ active: word
 
 <h1>Fixing tables over pages</h1>
 
-Tables extending across multiple pages can sometimes throw up a few headaches. Here's a few scenarios you might encounter and fixes for them. In this article:
+<p>Tables extending across multiple pages can sometimes throw up a few headaches. Here's a few scenarios you might encounter and fixes for them. In this article:</p>
 <ul style="list-style-type: circle;">
     <li><a href="#table-row-break">Table content splitting across pages</a></li>
     <li><a href="#table-content-fit-one-page">What if I need my content to stay on one page?</a></li>

@@ -96,18 +96,18 @@ active: word
       <tr>
         <td>Paste - Keep Source Formatting
         <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Keep Source Formatting.png' | url }}"  alt="Paste Keep Source Formatting icon" style="width:20%; vertical-align:middle"></div></td>
-        <td>Pastes the content bringing its existing formatting into the table. Think about whether you want external formatting brought into your table before choosing this option.</td>
+        <td>Pastes the content into the table retaining its existing formatting. Think about whether you want external formatting brought into your table before choosing this option.</td>
       </tr>
       <tr>
         <td>Paste - Merge Formatting
         <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Merge Formatting.png' | url }}"  alt="Paste Merge Formatting icon" style="width:20%; vertical-align:middle"></div></td>
-        <td>Content will take on the formatting on your table where you have selected cells or placed the <span class="glossary-hover" data-term="insertion-point">insertion point</span>.</td>
+        <td>Paste content into the table taking on the destination table's formatting.</td>
       </tr>
       <tr>
         <td>Paste - Picture
         <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Picture.png' | url }}"  alt="Paste Picture icon" style="width:20%; vertical-align:middle"></div></td>
-        <td><p>Pastes as an image.</p>
-        <p><u>Note</u>: An image can alter the table layout pushing columns and rows out.</p></td>
+        <td><p>Pastes content as an image.</p>
+        <p><u>Note</u>: Depending on the size images can alter the table layout pushing columns and rows out.</p></td>
       </tr>
       <tr>
         <td>Paste - Keep Text Only
@@ -121,34 +121,34 @@ active: word
       <tr>
         <td>Paste - Nest Table
         <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Paste Nest Table.png' | url }}"  alt="Paste Nest Table icon" style="width:20%; vertical-align:middle"></div></td>
-        <td>Pastes the table content as a table within a table.
-        <u>Note</u>: A word of warning, this can get messy, if using this choose what content you want to paste selectively, and consider which cell to paste it in with the <span class="glossary-hover" data-term="insertion-point">insertion point</span> beforehand. Less is more here as it will likely expand the destination table's columns and rows.</td>
+        <td><p>Pastes the table content as a table within a table.</p>
+        <p><u>Note</u>: A word of warning, this can get messy, if using this option choose what content you want to paste selectively, and consider which cell to paste it in with the <span class="glossary-hover" data-term="insertion-point">insertion point</span> beforehand. Less is more here as it will almost certainly expand the destination cell's column width and row height.</p></td>
       </tr>
       <tr>
         <td>Paste - Merge Table
         <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Paste Merge Table.png' | url }}"  alt="Paste Merge Table icon" style="width:20%; vertical-align:middle"></div></td>
-        <td><p>Generally I'd recommend not using this paste option within a table, or at least use it cautiously as it can be quite erratic pasting certain cells. Generally it pastes table content in the rows below where you've selected, overwriting the content in those cells, rather than 'merging' it.</p>
-        <p>If you select all columns in the desintation table and use this paste option, it will typically add the cut/copied table content as new columns on the left, subsequently pushing everything else far to the right and off the page. If you find your table in this situation and can't immediately <span class="glossary-hover" data-term="undo">undo</span> the damage see this article on how to fix it: <a href="/word/tables-fixing-tables-extending-offscreen/">Tables extending off the page</a>.</p></td>
+        <td><p>I'd recommend not using this paste option within a table, or at least use it cautiously as it can be quite erratic pasting certain cells. Generally it pastes copied/cut table cell content in the rows below where you've selected, overwriting the content in those cells rather than 'merging' it.</p>
+        <p>If you select all the columns in the destination table then use this option, it will typically add the cut/copied table content as new columns on the left, subsequently pushing everything else right and likely off the page. If you find your table in this situation and can't immediately <span class="glossary-hover" data-term="undo">undo</span> the damage see this article on how to fix it: <a href="/word/tables-fixing-tables-extending-offscreen/">Tables extending off the page</a>.</p></td>
       </tr>
       <tr>
         <td>Paste - Insert as New Rows
         <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Paste Insert as New Rows.png' | url }}"  alt="Paste Insert as New Rows icon" style="width:20%; vertical-align:middle"></div></td>
-        <td>Pastes content as new row(s) into a table below the row you pointed the <span class="glossary-hover" data-term="insertion-point">insertion point</span> at.</td>
+        <td>Pastes table content as new row(s) below the row you pointed the <span class="glossary-hover" data-term="insertion-point">insertion point</span> at.</td>
       </tr>
       <tr>
         <td>Paste - Insert as New Columns
         <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Paste Insert as New Columns.png' | url }}"  alt="Paste Insert as New Columns icon" style="width:20%; vertical-align:middle"></div></td>
-        <td>Pastes content as new column(s) into a table to the left of the column you pointed the <span class="glossary-hover" data-term="insertion-point">insertion point</span> at.</td>
+        <td>Pastes content as new column(s) left of the column you pointed the <span class="glossary-hover" data-term="insertion-point">insertion point</span> at.</td>
       </tr>
       <tr>
         <td>Paste - Overwrite Cells
         <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Paste Overwrite Cells.png' | url }}"  alt="Paste Overwrite Cells icon" style="width:20%; vertical-align:middle"></div></td>
-        <td>Pastes over the data in the table with the copied/cut table content. The table layout doesn't change but the data does.</td>
+        <td>Pastes over the data in the table with the copied/cut table content. The table layout doesn't change but the data does; the new data bring its formatting with it into the table.</td>
       </tr>
       <tr>
         <td>Paste - Keep Text Only
         <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Paste Keep Text Only.png' | url }}"  alt="Paste Keep Text Only icon" style="width:20%; vertical-align:middle"></div></td>
-        <td><p>Pastes table content without any formatting it originally had, just the character value.</p> <p><u>Note</u>: The content will not take on any formatting inside the destination table.</p></td>
+        <td><p>Pastes table content without any formatting it originally had, just the character value.</p> <p><u>Note</u>: The content will not take on any formatting in the destination table.</p></td>
       </tr>
       <tr>
       <tr style="background-color: #f0f0f0;">
@@ -169,7 +169,7 @@ active: word
       <tr>
         <td>Paste - Keep Text Only
         <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Paste Keep Text Only.png' | url }}"  alt="Paste Keep Text Only icon" style="width:20%; vertical-align:middle"></div></td>
-        <td>Pastes table content without table frame around it using <span class="glossary-hover" data-term="tab-stop">tabs</span> for columns and <span class="glossary-hover" data-term="hard-return">hard returns</span> for rows instead</p></td>
+        <td>Pastes table content without a table frame around it, content is instead structured by <span class="glossary-hover" data-term="tab-stop">tabs</span> for columns and <span class="glossary-hover" data-term="hard-return">hard returns</span> for rows.</p></td>
       </tr>
     </tbody>
 </table>

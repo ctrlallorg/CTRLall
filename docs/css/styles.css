@@ -218,19 +218,19 @@ h1 {
 
 h2 {
   margin: 2rem 0 0.25rem 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #333;
 }
 
 h3 {
   margin: 1rem 0 0.25rem 0;
-  font-size: 1.05rem;
+  font-size: 1.3rem;
   color: #333;
 }
 
 h4 {
   margin: 1rem 0 0.25rem 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #333;
   font-style: italic;
 }
@@ -282,6 +282,27 @@ img.border {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
+.figure {
+  text-align: center;
+}
+
+.figure img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.figcaption {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  text-align: center;
+  line-height: 1.4;
+  color: #444;
+}
+
 
 
 /* Hero Section */
@@ -729,6 +750,17 @@ table td {
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
+
+.nav-toggle {
+  color: #333;
+}
+
+.nav-toggle:hover,
+.nav-toggle:visited,
+.nav-toggle:focus {
+  color: #333;
+}
+
 
 /* ─── Adsbar ────────────────────────── */
 .adsbar-wrapper {

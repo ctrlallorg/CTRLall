@@ -103,3 +103,4 @@ There's more than one way to open a template. When opening a template file norma
 <p>Once edited as needed, save the template.</p> 
 
 <p>If you don't have access to the template file you can always save over a template file with a document via Save As settings. For more on saving files as different filetypes see <a href="/word/saving-and-save-as/">Saving and Save As.</a></p>
+</section>

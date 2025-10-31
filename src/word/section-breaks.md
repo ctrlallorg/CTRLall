@@ -1,0 +1,129 @@
+---
+title: Section breaks
+layout: layout.liquid
+permalink: /word/section-breaks/
+canonical: /word/section-breaks/
+description: Section breaks in Microsoft Word with clear steps, visuals, and animations.
+image: /assets/images/Ctrl All logo blue.svg
+asset_id: ctrlall-section-breaks-v1
+date: 2025-10-30
+last_modified: 2025-10-30
+tags:
+  - microsoft word
+  - section break
+  - document sections
+  - sections in a document
+  - section breaks in word
+  - how to insert section break
+  - how to remove section break
+  - how to delete section break
+  - word formatting tips
+  - word layout tools
+  - word document structure
+  - word pagination
+  - word section layout
+  - control page flow in word
+  - word tutorial
+  - word editing guide
+active: word
+---
+
+<h1>Section breaks</h1>
+<section class="section-light">
+<p>We’re in advanced territory here so proceed with caution. Section breaks can get extremely messy if you don’t configure them properly or if your document has several section breaks with unique formatting.</p> 
+<p>If you consider yourself a beginner to Word then you’re likely here looking for how to get rid of a section break, if so see here: <a href="#remove-section-break">How do you remove a section break?</a></p> 
+<p>Section breaks are similar to <a href="/word/page-breaks/">page breaks</a> but slightly more complex.</p>
+
+<h2>What is a section break?</h2>
+<p>Section breaks are a useful tool for advanced-level formatting of documents. They break up a document into sections to which you can then apply differing formatting, styles, headers and footers, page size, orientation and layout, and more, without affecting the rest of the document.</p> 
+<p>One common use for section breaks is when you need one or two pages to be landscape in a document of portrait pages, e.g. a report where you want to need to fit a large table or graph lengthways.</p>
+
+<h2>I can’t find any section breaks</h2>
+That’s because they’re hidden by default. To make formatting marks like these visible go to <strong>Home > Show/Hide ¶</strong> and the section break will appear on the page.
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Show paragraph marks.png' | url }}"  alt="Home Show paragraph marks on ribbon in Word" style="width:33%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break example.png' | url }}"  alt="Section break example over two pages in Word" style="width:90%; vertical-align:middle"></p>
+
+<h2 id="remove-section-break">How do you remove a section break</h2>
+<p>With formatting marks switched on (<strong>Home > Show/Hide ¶</strong>), locate the section break and either select it by dragging, or click just before it, then delete.</p>
+<p><u>Note</u>: The content will respond based on the type of section break you have and where the content was. For example if you had a 'Next Page' type section break content will shift up from the following page.</p>
+<p>However this is actually where things can get a bit tricky. If you have more than one section break in your document then the next section will take on any formatting the section after it has which could include anything e.g. all pages suddenly switch to landscape orientation. Typically if you’ve got a document laden with section breaks you may need to do some surgery removing certain section breaks or maybe even all of them and starting again with a clean slate.</p>
+
+<h2>How do you insert a section break?</h2>
+<p>Go to the <strong>Layout > Breaks</strong> drop down menu and you’ll see four section break options listed there.</p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Layout Breaks Section Breaks.png' | url }}"  alt="Layout Breaks Section Breaks on ribbon in Word" style="width:33%; vertical-align:middle"></p>
+<table class="word-tables-cursor-icons hover-table">
+    <colgroup>
+      <col style="width: 20%;">
+      <col style="width: 80%;">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Function</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Next Page</td>
+        <td>Inserts a section break on the next page. The new section will start on that next page.</td>
+      </tr>
+      <tr>
+        <td>Continuous</td>
+        <td>Inserts a section break where you’ve put the insertion point. This one’s a bit more finicky, so we’ll look into it a little more in depth below.</td>
+      </tr>
+      <tr>
+        <td>Even Page</td>
+        <td>Inserts a section break on the next even-numbered page.</td>
+      </tr>
+      <tr>
+        <td>Odd Page</td>
+        <td>Inserts a section break on the next odd-numbered page.</td>
+      </tr>
+    </tbody>
+</table>
+
+<p>Choose the one that’s right for you document. Typically you’ll use <strong>Next Page</strong>.</p>
+
+<h3>Continuous section breaks</h3>
+<p>Continuous section breaks are a little different, some features work immediately after the section break on the page, others work on the next page after it.</p>
+<h4>Features that apply immediately after a continuous section break (same page)</h4>
+<ul>
+    <li>Columns (change layout mid-page from single column to two-column layout)</li>
+    <li>Margins</li>
+    <li>Line numbering</li>
+    <li>Language settings</li>
+</ul>
+<figure class="figure">
+  <img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break continuous format immediately after.png' | url }}" alt="Section break continuous format immediately after in Word" style="width:90%; vertical-align:middle">
+  <figcaption class="figcaption">
+    Margins and line spacing altered on same page immediately after section
+  </figcaption>
+</figure>
+
+<h4>Features that apply from the next page after a continuous section break</h4>
+<ul>
+    <li>Page orientation (e.g. change to landscape)</li>
+    <li>Page size</li>
+    <li>Headers</li>
+    <li>Footers (e.g. page numbering)</li>
+    <li>Footnote and endnote layout (numbering, position)</li>
+    <li>Page backgrounds</li>
+    <li>Page borders</li>
+    <li>Document protection / editing restrictions</li>
+</ul>
+<p></p>
+
+<figure class="figure">
+ <img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break footers.png' | url }}"  alt="Section break footers in Word" style="width:90%; vertical-align:middle">
+  <figcaption class="figcaption">
+    Format of page number in new section changed from Arabic to Roman numerals
+  </figcaption>
+</figure>
+
+<figure class="figure">
+ <img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break headers.png' | url }}"  alt="Section break headers in Word" style="width:90%; vertical-align:middle">
+  <figcaption class="figcaption">
+    Differing headers due to separate sections
+  </figcaption>
+</figure>
+</section>

@@ -34,3 +34,4 @@ active: word
 <h2>I updated my chart in Excel but it hasn't updated in Word</h2>
 <p>Linked Excel charts in Word only update automatically if both the Word document and Excel workbook are open during the edit. If the Word file was closed when you made changes in Excel, the chart won't reflect those updates. Instead you need to refresh it manually: select the chart in Word, go to <strong>Chart Design</strong>, and click <strong>Refresh Data</strong>. After a moment it'll update to match the data you have in Excel.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Refresh%20data.png' | url }}" alt="Refresh chart data button on ribbon in Word" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
+</section>

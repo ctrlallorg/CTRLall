@@ -198,8 +198,93 @@ active: glossary
       <td>The look and feel of content. See this article on <a href="/word/formatting-text">Formatting text</a>.</td>
     </tr>
     <tr>
+      <td id="formatting-markers">Formatting markers</td>
+      <td>Formatting markers are layout-level controls that affect how content flows, appears or is divided in a document. They are non-printing characters that are invisible by default in Word; to make them visible select <strong>File > Show/Hide ¶</strong>. Formatting markers include:    
+      <table>
+        <colgroup>
+          <col style="width: 20%;">
+          <col style="width: 40%;">
+          <col style="width: 40%;">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Formatting Marker</th>
+            <th>Symbol when Show/Hide ¶ is on</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Page break</td>
+            <td style="text-align: center;">
+              <img src="{{ '/assets/images/glossary/Page break marker.png' | url }}" alt="Page break marker in Word" style="width: 100%; display: block; margin: 0 auto;">
+            </td>
+            <td>Marks where a new page begins</td>
+          </tr>
+          <tr>
+            <td>Section break</td>
+            <td style="text-align: center;">
+              <img src="{{ '/assets/images/glossary/Section break marker.png' | url }}" alt="Section break marker in Word" style="width: 100%; display: block; margin: 0 auto;">
+            </td>
+            <td>Indicates a change in formatting or layout</td>
+          </tr>
+          <tr>
+            <td>Hidden text</td>
+            <td style="text-align: center;">
+              <img src="{{ '/assets/images/glossary/Hidden text.png' | url }}" alt="Hidden text underline in Word" style="width: 65%; display: block; margin: 0 auto;">
+            </td>
+            <td>Shows text formatted as hidden</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><u>Note</u>: Paragraph marks (hard returns), line breaks (soft returns), spaces and tabs are <a href="#formatting-marks">formatting marks</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td id="formatting-marks">Formatting marks</td>
+      <td>Formatting marks are a category of non-printing characters that affect the the look and feel of content on the page. In Word they're invisible by default; to make them visible select <strong>File > Show/Hide ¶</strong>. Formatting marks include:
+      <table>  
+      <colgroup>
+        <col style="width: 40%;">
+        <col style="width: 20%;">
+        <col style="width: 40%;">
+      </colgroup>
+      <thead>
+          <tr>
+            <th>Formatting Mark</th>
+            <th>Symbol when Show/Hide ¶ is on</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Paragraph mark (<a href="#hard-return">hard return</a>)</td>
+           <td style="text-align: center;">¶</td>
+            <td>Indicates the end of a paragraph</td>
+          </tr>
+            <tr>
+            <td>Space</td>
+            <td style="text-align: center;">·</td>
+            <td>Shows individual spaces between words</td>
+          </tr>
+          <tr>
+            <td><a href="#tab-stop">Tab</a></td>
+            <td style="text-align: center;">→</td>
+            <td>Marks where a tab was inserted</td>
+          </tr>
+          <tr>
+            <td>Line break (<a href="#soft-return">soft return</a>)</td>
+            <td style="text-align: center;">↵</td>
+            <td>Shows a manual line break</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><u>Note</u>: Page breaks, section breaks and hidden text are not formatting marks, they are <a href="#formatting-markers">formatting markers</a>.</p>
+      </td>
+    </tr>
+    <tr>
       <td id="format-painter">Format Painter</td>
-      <td><p>A very useful tool that lets you copy the formatting of text to apply it on other text, like copy and paste but for formatting. See this article on <a href="/word/formatting-text">Formatting text</a>.</p><p><img src="{{ '/assets/images/glossary/Format painter icon.png' | url }}" alt="Format painter icon" style="width: 5%;"></p></td>
+      <td><p>A very useful tool that lets you copy the formatting of text to apply it on other text, like copy and paste but for formatting. See this article for more on <a href="/word/formatting-text">Formatting text</a>.</p><p><img src="{{ '/assets/images/glossary/Format painter icon.png' | url }}" alt="Format painter icon" style="width: 5%;"></p></td>
     </tr>
     <tr>
       <td id="gridlines">Gridlines</td>
@@ -229,6 +314,9 @@ active: glossary
       <td id="indent">Indent</td>
       <td>Space between a line of content and the <a href="#margin">margin</a>. You can add indents by pressing <strong>Tab</strong> or increase and decrease them via <strong>Home > Paragraph > Increase/Decrease Indent</strong>. The finer details of indents can be controlled by dragging indent markers on the horizontal <a href="#ruler">ruler</a>, see examples in this article: <a href="/word/indents">Indents</a>. It is also possible to drag the left margin or right margin beyond the margin of a page, known as a negative margin.</td>
     </tr>
+    <td id="indent-markers">Indent markers</td>
+        <td>Indent markers are found on the horizontal <a href="#ruler">ruler</a> when content is selected. Have a look at examples and interactivities in this article: <a href="/word/indents">Indents</a>.</td>
+      </tr>
     <tr>
       <td id="insertion-point">Insertion point</td>
       <td>
@@ -242,11 +330,18 @@ active: glossary
     <tr>
         <td id="kerning">Kerning</td>
         <td><p>Kerning is about adjusting the spacing between individual letters in a word to improve visual balance and readability. For example kerning may be used to bring adjacent letters like '<strong>A</strong>' and '<strong>V</strong>' closer together so they look evenly spaced. Kerning is key to typography in headlines, logos, and display type. If done poorly though kerning can lead to word being misinterpreted, e.g. if you put '<strong>r</strong>' and '<strong>n</strong>' to close together they can appear like an '<strong>m</strong>'.</p>
-        <p><img src="{{ '/assets/images/glossary/Kerning.png' | url }}"  alt="Kerning example" style="width:50%; height:auto; vertical-align:middle"></p></td>
+        <p><img src="{{ '/assets/images/word/Font options/Kerning examples.png' | url }}"  alt="Kerning example" style="width:50%; height:auto; vertical-align:middle"></p></td>
       </tr>
     <tr>
       <td id="left-indent">Left indent</td>
       <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls where a paragraph starts, or, in a list where both the bullet/number and content after starts. See examples in this article: <a href="/word/indents">Indents</a></td>
+    </tr>
+    <tr>
+      <td id="line-numbers">Line numbers</td>
+      <td><p>Line numbers are numbers against each line in a document, typically used in legal documentation, scripts and technical reviews. You can turn them on in Word via <strong>Layout</strong> then selecting an option from the <strong>Line numbers</strong> drop down menu.</p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/glossary/Line numbers.png' | url }}"  alt="Line numbers against text on page in Word" style="width:100%; height:auto; vertical-align:middle"></p>
+      <p><u>Note</u>: You can change where the numbers should and should not apply by 'suppressing' line numbers via <strong>Paragraph Options</strong> > <a href="/word/paragraph-options/#line-and-page-breaks">Line and Page Breaks</a>.</p>
+      </td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Locked%20anchor%20icon.png' | url }}">
       <td id="locked-anchor">Locked anchor</td>
@@ -305,6 +400,11 @@ active: glossary
     <tr>
       <td id="orientation">Orientation (MS Word)</td>
       <td>Which way up the document is: portrait or landscape. Alter the Orientation under the Layout tab on the <a href="#ribbon">ribbon</a>.</td>
+    </tr>
+    <tr>
+      <td id="orphan">Orphan</td>
+      <td><p>The first line of a paragraph that appears alone at the bottom of a page detached from the rest of the paragraph on the next page. The opposite of this is a <a href="#widow">widow</a>. Word prevents these by default but you can disable <a href="/word/paragraph-options/#widow-orphan-control">widow/orphan control</a> in the <strong>Line and Pages breaks</strong> tab in <strong>Paragraph Options</strong></p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Orphan.png' | url }}"  alt="Orphan line in Word" style="width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>
     <tr>
       <td id="page-break">Page break</td>
@@ -387,7 +487,7 @@ active: glossary
     </tr>      
     <tr>
       <td id="soft-return">Soft return</td>
-      <td>When typing pressing <strong>Shift + Enter</strong> will create a soft return that starts a new line which is still connected to the same paragraph before. In lists, a soft return will create a new line for the existing bullet/list number, see this article for examples: <a href="/word/lists-soft-hard-returns/">Lists: Soft and hard returns</a>. Another type of return is a <a href="#hard-return">hard return</a>.</td>
+      <td>When typing pressing <strong>Shift + Enter</strong> will create a soft return that starts a new line which is still connected to the same paragraph before known as a line break. In lists, a soft return will create a new line for the existing bullet/list number, see this article for examples: <a href="/word/lists-soft-hard-returns/">Lists: Soft and hard returns</a>. Another type of return is a <a href="#hard-return">hard return</a>.</td>
     </tr>
     <tr>
       <td id="sort">Sort</td>
@@ -403,11 +503,11 @@ active: glossary
     </tr>
     <tr>
       <td id="style">Style</td>
-      <td>A set of <a href="#attribute formatting">formatting attributes</a> saved which can be applied to text, e.g. a heading style, table of contents level style, attribution style etc. Styling reduces the amount of work you have to do styling multiple text by just applying the same style each time.</td>
+      <td>A set of <a href="#attribute-formatting">formatting attributes</a> saved which can be applied to text, e.g. a heading style, table of contents level style, attribution style etc. Styling reduces the amount of work you have to do styling multiple text by just applying the same style each time.</td>
     </tr>
     <tr>
       <td id="tab-stop">Tab stop / Tab (left, centre, right)</td>
-      <td>A tab is a preset location on the horizontal <a href="#ruler">ruler</a> that defines where the <a href="#insertion point">insertion point</a> or existing text will align to when you press the <strong>Tab</strong> key. Tabs are set by clicking onto the horizontal ruler or via the Tabs dialog box (Home > Paragraph > Tabs…).</td>
+      <td>A tab is a preset location on the horizontal <a href="#ruler">ruler</a> that defines where the <a href="#insertion point">insertion point</a> or existing text will align to when you press the <strong>Tab</strong> key. Tabs are set by clicking onto the horizontal ruler or via the Tabs dialog box (<strong>Home > Paragraph > Tabs</strong>).</td>
     </tr>
     <tr>
       <td id="table">Table</td>
@@ -458,6 +558,10 @@ active: glossary
     <tr>
       <td id="web-browser">Web browser</td>
       <td>A web browser is an <a href="#application">application</a> used to access and view websites on the internet.. Popular web browsers include Google Chrome, Microsoft Edge, Safari, Mozilla Firefox, and Opera.</td>
+    </tr>
+    <td id="widow">Widow</td>
+      <td><p>The last line of a paragraph that appears alone at the top of a new page detached from the rest of the paragraph on the page before. The opposite of this is an <a href="#orphan">orphan</a>. Word prevents these by default but you can disable <a href="/word/paragraph-options/#widow-orphan-control">widow/orphan control</a> in the <strong>Line and Pages breaks</strong> tab in <strong>Paragraph Options</strong></p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Widow.png' | url }}"  alt="Widow line in Word" style="width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>
     <tr>
       <td id="word-document">Word Document</td>
@@ -620,7 +724,7 @@ active: glossary
         <td>Known colloquially as an ‘app’, an application is software that helps user to perform particular tasks. For example <a href="#microsoft word">Microsoft Word</a> is a <a href="#word processing">word processing</a> app, Adobe Photoshop is an image editing app, Google Chrome and Microsoft Edge are web browser apps. You are currently using a web browser application to view this website.</td>
       </tr>
       <tr>
-        <td id="attribute">Attribute (formatting)</td>
+        <td id="attribute-formatting">Attribute (formatting)</td>
         <td>An attribute is a <a href="#formatting">formatting</a> characteristic that you can apply to text like bold, italic, <a href="#font">word processing</a>font</a> size, or colour.</td>
       </tr>
       <tr>
@@ -738,6 +842,92 @@ active: glossary
         <td>The look and feel of content. See this article on <a href="/word/formatting-text">Formatting text</a>.</td>
       </tr>
       <tr>
+      <td id="formatting-markers">Formatting markers</td>
+      <td>Formatting markers are layout-level controls that affect how content flows, appears or is divided in a document. They are non-printing characters that are invisible by default in Word; to make them visible select <strong>File > Show/Hide ¶</strong>. Formatting markers include:    
+      <table>
+        <colgroup>
+          <col style="width: 20%;">
+          <col style="width: 40%;">
+          <col style="width: 40%;">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Formatting Marker</th>
+            <th>Symbol when Show/Hide ¶ is on</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Page break</td>
+            <td style="text-align: center;">
+              <img src="{{ '/assets/images/glossary/Page break marker.png' | url }}" alt="Page break marker in Word" style="width: 100%; display: block; margin: 0 auto;">
+            </td>
+            <td>Marks where a new page begins</td>
+          </tr>
+          <tr>
+            <td>Section break</td>
+            <td style="text-align: center;">
+              <img src="{{ '/assets/images/glossary/Section break marker.png' | url }}" alt="Section break marker in Word" style="width: 100%; display: block; margin: 0 auto;">
+            </td>
+            <td>Indicates a change in formatting or layout</td>
+          </tr>
+          <tr>
+            <td>Hidden text</td>
+            <td style="text-align: center;">
+              <img src="{{ '/assets/images/glossary/Hidden text.png' | url }}" alt="Hidden text underline in Word" style="width: 65%; display: block; margin: 0 auto;">
+            </td>
+            <td>Shows text formatted as hidden</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><u>Note</u>: Paragraph marks (hard returns), line breaks (soft returns), spaces and tabs are <a href="#formatting-marks">formatting marks</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td id="formatting-marks">Formatting marks</td>
+      <td>Formatting marks are a category of non-printing characters that affect the the look and feel of content on the page. In Word they're invisible by default; to make them visible select <strong>File > Show/Hide ¶</strong>. Formatting marks include:
+      <table>  
+      <colgroup>
+        <col style="width: 40%;">
+        <col style="width: 20%;">
+        <col style="width: 40%;">
+      </colgroup>
+      <thead>
+          <tr>
+            <th>Formatting Mark</th>
+            <th>Symbol when Show/Hide ¶ is on</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Paragraph mark (<a href="#hard-return">hard return</a>)</td>
+           <td style="text-align: center;">¶</td>
+            <td>Indicates the end of a paragraph</td>
+          </tr>
+            <tr>
+            <td>Space</td>
+            <td style="text-align: center;">·</td>
+            <td>Shows individual spaces between words</td>
+          </tr>
+          <tr>
+            <td><a href="#tab-stop">Tab</a></td>
+            <td style="text-align: center;">→</td>
+            <td>Marks where a tab was inserted</td>
+          </tr>
+          <tr>
+            <td>Line break (<a href="#soft-return">soft return</a>)</td>
+            <td style="text-align: center;">↵</td>
+            <td>Shows a manual line break</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><u>Note</u>: Page breaks, section breaks and hidden text are not formatting marks, they are <a href="#formatting-markers">formatting markers</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <tr>
         <td id="format-painter">Format Painter</td>
         <td><p><img src="{{ '/assets/images/glossary/Format painter icon.png' | url }}" alt="Format painter icon" style="width: 5%; margin-left: 1rem;"></p><p>Format Painter is a very useful tool that lets you copy the formatting of text to apply it on other text, like copy and paste but for formatting. See more in this article about <a href="/word/formatting-text">formatting text</a>.</p>
        </td>
@@ -768,7 +958,10 @@ active: glossary
       </tr>
       <tr>
         <td id="indent">Indent</td>
-        <td>Space between a line of content and the <a href="#margin">margin</a>. You can add indents by pressing <strong>Tab</strong> or increase and decrease them via <strong>Home > Paragraph > Increase/Decrease Indent</strong>. The finer details of indents can be controlled by dragging indent markers on the horizontal <a href="#ruler">ruler</a>, see examples in this article: <a href="/word/indents">Indents</a>. It is also possible to drag the left margin or right margin beyond the margin of a page, known as a negative margin.</td>
+        <td>Space between a line of content and the <a href="#margin">margin</a>. You can add indents by pressing <strong>Tab</strong> or increase and decrease them via <strong>Home > Paragraph > Increase/Decrease Indent</strong>. The finer details of indents can be controlled by dragging <a href="#indent markers">indent markers</a> on the horizontal <a href="#ruler">ruler</a>, see examples in this article: <a href="/word/indents">Indents</a>. It is also possible to drag the left margin or right margin beyond the margin of a page, known as a negative margin.</td>
+      </tr>
+      <td id="indent-markers">Indent markers</td>
+        <td>Indent markers are found on the horizontal <a href="#ruler">ruler</a> when content is selected. Have a look at examples and interactivities in this article: <a href="/word/indents">Indents</a>.</td>
       </tr>
       <tr>
         <td id="insertion-point">Insertion point</td>
@@ -786,6 +979,13 @@ active: glossary
       </tr>
       <td id="left-indent">Left indent</td>
       <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls where a paragraph starts, or, in a list where both the bullet/number and content after starts. See examples in this article: <a href="/word/indents">Indents</a></td>
+    </tr>
+    <tr>
+      <td id="line-numbers">Line numbers</td>
+      <td><p>Line numbers are numbers against each line in a document, typically used in legal documentation, scripts and technical reviews. You can turn them on in Word via <strong>Layout</strong> then selecting an option from the <strong>Line numbers</strong> drop down menu.</p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/glossary/Line numbers.png' | url }}"  alt="Line numbers against text on page in Word" style="width:100%; height:auto; vertical-align:middle"></p>
+      <p><u>Note</u>: You can change where the numbers should and should not apply by 'suppressing' line numbers via <strong>Paragraph Options</strong> > <a href="/word/paragraph-options/#line-and-page-breaks">Line and Page Breaks</a>.</p>
+      </td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Locked%20anchor%20icon.png' | url }}">
       <td id="locked-anchor">Locked anchor</td>
@@ -844,6 +1044,11 @@ active: glossary
     <tr>
       <td id="orientation">Orientation (MS Word)</td>
       <td>Which way up the document is: portrait or landscape. Alter the Orientation under the Layout tab on the <a href="#ribbon">ribbon</a>.</td>
+    </tr>
+    <tr>
+      <td id="orphan">Orphan</td>
+      <td><p>The first line of a paragraph that appears alone at the bottom of a page detached from the rest of the paragraph on the next page. The opposite of this is a <a href="#widow">widow</a>. Word prevents these by default but you can disable <a href="/word/paragraph-options/#widow-orphan-control">widow/orphan control</a> in the <strong>Line and Pages breaks</strong> tab in <strong>Paragraph Options</strong></p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Orphan.png' | url }}"  alt="Orphan line in Word" style="width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>
     <tr>
       <td id="page-break">Page break</td>
@@ -926,7 +1131,7 @@ active: glossary
     </tr>   
     <tr>
       <td id="soft-return">Soft return</td>
-      <td>When typing pressing <strong>Shift + Enter</strong> will create a soft return that starts a new line which is still connected to the same paragraph before. In lists, a soft return will create a new line for the existing bullet/list number, see this article for examples: <a href="/word/lists-soft-hard-returns/">Lists: Soft and hard returns</a>. Another type of return is a <a href="#hard-return">hard return</a>.</td>
+      <td>When typing pressing <strong>Shift + Enter</strong> will create a soft return that starts a new line which is still connected to the same paragraph before known as a line break. In lists, a soft return will create a new line for the existing bullet/list number, see this article for examples: <a href="/word/lists-soft-hard-returns/">Lists: Soft and hard returns</a>. Another type of return is a <a href="#hard-return">hard return</a>.</td>
     </tr>
     <tr>
       <td id="sort">Sort</td>
@@ -942,11 +1147,11 @@ active: glossary
     </tr>
     <tr>
       <td id="style">Style</td>
-      <td>A set of <a href="#attribute formatting">formatting attributes</a> saved which can be applied to text, e.g. a heading style, table of contents level style, attribution style etc. Styling reduces the amount of work you have to do styling multiple text by just applying the same style each time.</td>
+      <td>A set of <a href="#attribute-formatting">formatting attributes</a> saved which can be applied to text, e.g. a heading style, table of contents level style, attribution style etc. Styling reduces the amount of work you have to do styling multiple text by just applying the same style each time.</td>
     </tr>
     <tr>
       <td id="tab-stop">Tab stop / Tab (left, centre, right)</td>
-      <td>A tab is a preset location on the horizontal <a href="#ruler">ruler</a> that defines where the <a href="#insertion point">insertion point</a> or existing text will align to when you press the <strong>Tab</strong> key. Tabs are set by clicking onto the horizontal ruler or via the Tabs dialog box (Home > Paragraph > Tabs…).</td>
+      <td>A tab is a preset location on the horizontal <a href="#ruler">ruler</a> that defines where the <a href="#insertion point">insertion point</a> or existing text will align to when you press the <strong>Tab</strong> key. Tabs are set by clicking onto the horizontal ruler or via the Tabs dialog box (<strong>Home > Paragraph > Tabs</strong>).</td>
     </tr>
     <tr>
       <td id="table">Table</td>
@@ -997,6 +1202,10 @@ active: glossary
     <tr>
       <td id="web-browser">Web browser</td>
       <td>A web browser is an <a href="#application">application</a> used to access and view websites on the internet. Popular web browsers include Google Chrome, Microsoft Edge, Safari, Mozilla Firefox, and Opera.</td>
+    </tr>
+    <td id="widow">Widow</td>
+      <td><p>The last line of a paragraph that appears alone at the top of a new page detached from the rest of the paragraph on the page before. The opposite of this is an <a href="#orphan">orphan</a>. Word prevents these by default but you can disable <a href="/word/paragraph-options/#widow-orphan-control">widow/orphan control</a> in the <strong>Line and Pages breaks</strong> tab in <strong>Paragraph Options</strong></p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Widow.png' | url }}"  alt="Widow line in Word" style="width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>
     <tr>
       <td id="word-document">Word Document</td>

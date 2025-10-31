@@ -25,8 +25,9 @@ active: content-control
 
 <h1>Moving content</h1>
 
-There are different ways to move content in Windows and Microsoft Office apps. The main methods are <strong>dragging</strong> and <strong>cut and paste</strong>.
+<section class="section-light">
 
+There are different ways to move content in Windows and Microsoft Office apps. The main methods are <strong>dragging</strong> and <strong>cut and paste</strong>.
 
 <h2>Drag and drop</h2> 
 Dragging, also referred to as 'drag and drop' or 'click and drag', is where you select a file or content holding down left click and move the mouse/mousepad to another location, then let go to 'drop'. 
@@ -74,3 +75,4 @@ then
 
 <p>Note also how it pastes content in the order it was cut not it's original position in the document; ('Apple' is at the end not the start).</p>
 
+</section>
