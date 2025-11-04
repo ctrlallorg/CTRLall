@@ -68,6 +68,10 @@ active: about
     <li><strong>Feedback & Requests</strong>: Your voice shapes this space — contribute ideas, tips, and needs.</li>
   </ul>
 
+  <h2>Language</h2>
+    <p>Use the toggle at the top if you want to switch between US AND UK/CA/AU/NZ English; Microsoft app options and labels are in US english by default to reflect the programs.</p>
+
+
   <h2>Get Started</h2>
   <div class="button-row">
     <ul>

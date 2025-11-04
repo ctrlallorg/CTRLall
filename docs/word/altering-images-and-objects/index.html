@@ -120,11 +120,19 @@
 
     </a>
   </div>
+
   <div class="topbar-right">
     <nav class="topnav">
       <a href="/about/" class="">About</a>
       <a href="/contact/" class="">Contact</a>
       <a href="#" class="dropbtn">Share</a>
+      <div class="locale-control">
+      <span class="locale-label">Language</span>
+      <label class="locale-toggle" aria-label="Spelling preference">
+        <input type="checkbox" id="locale-toggle" />
+        <span class="slider"></span>
+      </label>
+    </div>
     </nav>
   </div>
 </header>
@@ -176,8 +184,6 @@
       <li><a href="/word/objects/" class="">Objects</a></li>
       <li><a href="/word/objects-embedded-files/" class="">Objects: Embedded Files</a></li>
       <li><a href="/word/altering-images-and-objects/" class="active">Altering images and objects</a></li>
-      <li><a href="/coming-soon/" class="">Image and object issues</a></li>
-      <li><a href="/coming-soon/" class="">Editing charts</a></li>
       <li><a href="/content-control/keyboard-shortcuts/#word-keyboard-shortcuts" class="">Word Keyboard Shortcuts</a></li>
     </ul>
   </li>
@@ -188,11 +194,6 @@
       Excel <span class="arrow"></span>
     </button>
     <ul id="nav-excel" class="nav-level-2 ">
-      <li><a href="/coming-soon/" class="">Getting started with Excel</a></li>
-      <li><a href="/coming-soon/" class="">Selecting cells and values</a></li>
-      <li><a href="/coming-soon/" class="">Understanding formulas</a></li>
-      <li><a href="/coming-soon/" class="">Conditional formatting</a></li>
-      <li><a href="/coming-soon/" class="">Data validation</a></li>
       <li><a href="/content-control/keyboard-shortcuts/#excel-keyboard-shortcuts" class="">Excel Keyboard Shortcuts</a></li>
     </ul>
   </li>
@@ -203,11 +204,6 @@
       PowerPoint <span class="arrow"></span>
     </button>
     <ul id="nav-powerpoint" class="nav-level-2 ">
-      <li><a href="/coming-soon/" class="">Getting started with PowerPoint</a></li>
-      <li><a href="/coming-soon/" class="">Adjusting slides</a></li>
-      <li><a href="/coming-soon/" class="">Adding content to slides</a></li>
-      <li><a href="/coming-soon/" class="">Effect: fade on click</a></li>
-      <li><a href="/coming-soon/" class="">Presenter view</a></li>
       <li><a href="/content-control/keyboard-shortcuts/#powerpoint-excel-keyboard-shortcuts" class="">Excel Keyboard Shortcuts</a></li>
     </ul>
   </li>
@@ -389,36 +385,59 @@
     <aside class="adsbar-wrapper">
       <div style="height: 37px;"></div>
 
-<a href="https://ko-fi.com/ctrlall" class="support-cta-button" target="_blank">
-  <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="Ko-fi logo" class="kofi-logo">
+<a href="https://ko-fi.com/ctrlall" class="support-cta-button" target="_blank" rel="noopener noreferrer">
+  <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="Ko-fi logo" class="kofi-logo" loading="lazy">
   <span>Support us</span>
 </a>
 
 <div style="height: 10px;"></div>
 
-<div class="adsbar-content">
-  <!-- Example ad slot or widget -->
-  Sponsored
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-6596712504858429"
-       data-ad-slot="1234567890"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
+<div class="adsbar-content" style="width:100%; max-width:728px; margin:auto;">
+  <div class="ads-label" aria-hidden="true">Sponsored</div>
+  <div id="ad-wrapper" style="width:100%; min-width:300px;">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-6596712504858429"
+         data-ad-slot="1234567890"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+  </div>
 </div>
 
-<!-- All your page content above -->
+<noscript>
+  <div class="ad-fallback">Ad content not available. Please enable JavaScript.</div>
+</noscript>
 
 <script>
+  const wrapper = document.getElementById("ad-wrapper");
+  if (wrapper) {
+    const observer = new ResizeObserver((entries) => {
+      const width = entries[0].contentRect.width;
+      if (width > 0) {
+        observer.disconnect(); // Stop observing immediately
+        console.log("✅ Ad slot width:", width);
+        try {
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (e) {
+          console.error("❌ AdSense push failed:", e);
+        }
+      }
+    });
+    observer.observe(wrapper);
+  }
+
   function openKofiPopup(e) {
     e.preventDefault();
-    document.getElementById('kofi-popup').style.display = 'block';
+    const popup = document.getElementById('kofi-popup');
+    if (popup) popup.style.display = 'block';
   }
 
   function closeKofiPopup() {
-    document.getElementById('kofi-popup').style.display = 'none';
+    const popup = document.getElementById('kofi-popup');
+    if (popup) popup.style.display = 'none';
   }
 </script>
+
     </aside>
   </div>
 
@@ -482,9 +501,6 @@
   </script>
 
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
 
   <div id="glossary-tooltip" hidden></div>
 

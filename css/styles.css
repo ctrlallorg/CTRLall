@@ -148,6 +148,73 @@
   text-decoration: none; /* optional: removes underline */
 }
 
+/* ─── Toggle for us-uk en language ─────────────── */
+.locale-toggle {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 28px;
+}
+
+.locale-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.locale-control {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 8px 12px;
+  color: #d0d0d0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.locale-label {
+  margin-right: 0.25rem;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0;
+  right: 0; bottom: 0;
+  background-color: #ccc;
+  transition: 0.3s;
+  border-radius: 28px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "US";
+  height: 24px;
+  width: 24px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+input:checked + .slider {
+  background-color: #ccc;
+}
+
+input:checked + .slider:before {
+  transform: translateX(32px);
+  content: "🌍";
+  font-size: 18px;
+  line-height: 24px;
+}
+
+
 
 
 /* Tooltip for text with image */

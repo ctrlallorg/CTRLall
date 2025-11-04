@@ -58,18 +58,20 @@ active: index
     <img src="{{ '/assets/images/Ctrl%20All%20logo%20purple.svg' | url }}"  alt="CTRL All logo" style="width:300px">
 </div>
 
-
     <p style="color: #2c3e50;"><strong>Digital literacy with soul, clarity, and control.</strong></p>
      <br>
-  <p>Welcome to CTRL All — a space built for learners, creators, educators and troubleshooters who believe digital skills should be empowering, ethical, and open to everyone.</p> 
+  <p>Welcome to Ctrl All — a space built for learners, educators and troubleshooters of Microsoft Office applications.</p>
+</section>
+  <p>Digital skills should be empowering, ethical, and open to everyone. Where most help sites don't explain why, video tutorials are too long, and paid lessons are too expensive, this site aims to explain everything you need to know, no paywalls, no filler, no boundaries.</p> 
   <br>
   <p>© 2025 Ctrl All. All rights reserved.</p>
-</section>
+
 <section class="section-light">
   <h2>What's new?</h2>
   <ul>
+    <li>11 Nov 2025 - US-Other English Language toggle added for non-UI terms</li>
     <li>21 Oct 2025 - Glossary tooltips - hover over purple terms to see glossary tooltips at a glance</li>
     <li>News: <a href="https://microsoft.design/articles/fluid-forms-vibrant-colors/" target="_blank">Office 365 icons get a revamp</a></li>
-    <li>10 Oct 2025 - Glossary added</li>
+    <li>10 Oct 2025 - Glossary started, building as we go</li>
   </ul>
 </section>

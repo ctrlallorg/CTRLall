@@ -333,3 +333,65 @@ document.addEventListener('DOMContentLoaded', async () => {
     }, 150);
   });
 });
+
+ // ─── Locale Toggle + Spelling Variant Swap ─────────────────────────────
+(async function () {
+  const dictionary = await fetch("/assets/spellingVariants.json").then(res => res.json());
+
+  let saved = localStorage.getItem("locale");
+
+  // ─── Auto-reset if saved value is invalid ────────────────────────────
+  if (saved !== "us" && saved !== "gb") {
+    localStorage.removeItem("locale");
+    saved = null;
+  }
+
+  const lang = navigator.language?.toLowerCase();
+
+  const localeMap = {
+    "en-us": "us",
+    "en-gb": "gb",
+    "en-au": "gb",
+    "en-nz": "gb",
+    "en-ca": "gb",
+    "en-ie": "gb",
+    "en": "gb" // fallback for generic English
+  };
+
+  const browserLocale = localeMap[lang] || "gb";
+  const region = saved || browserLocale;
+
+  console.log("Detected browser language:", lang);
+  console.log("Resolved region:", region);
+
+  const toggle = document.getElementById("locale-toggle");
+  if (toggle) {
+    toggle.checked = region === "gb";
+
+    toggle.addEventListener("change", () => {
+      const newLocale = toggle.checked ? "gb" : "us";
+      localStorage.setItem("locale", newLocale);
+      location.reload();
+    });
+  }
+
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  while (walker.nextNode()) {
+    const node = walker.currentNode;
+    if (!node.nodeValue || node.parentNode.closest(".us-only")) continue;
+
+    const swapped = node.nodeValue.replace(/\b(\w+)\b/g, (word) => {
+      const entry = dictionary[word.toLowerCase()];
+      if (!entry || !entry[region]) return word;
+
+      const replacement = entry[region];
+      if (word === word.toUpperCase()) return replacement.toUpperCase();
+      if (word[0] === word[0].toUpperCase()) return replacement[0].toUpperCase() + replacement.slice(1);
+      return replacement;
+    });
+
+    if (swapped !== node.nodeValue) {
+      node.nodeValue = swapped;
+    }
+  }
+})();

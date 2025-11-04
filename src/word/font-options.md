@@ -94,8 +94,8 @@ Word has a one-stop shop <strong>Font options</strong> window for editing all th
         <span style="font-size: 3em;">size</span>.</td>
       </tr>
       <tr>
-        <td>Font color</td>
-        <td><p>Choose font colour from a palette. There are more options if you want to choose a more exact colour shade, right down to specific RGB, HSL or HEX colour models.</p>
+        <td>Font <span class="us-only">color</span></td>
+        <td><p>Choose the text's colour from a palette. There are more options if you want to choose a more exact colour shade, right down to specific RGB, HSL or HEX colour models.</p>
         <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font colour palette.png' | url }}" alt="Font colour palettes" style="display: inline; margin: auto; width: 100%;"></p></td>
       </tr>
       <tr>
@@ -104,7 +104,7 @@ Word has a one-stop shop <strong>Font options</strong> window for editing all th
         <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Underline style.png' | url }}" alt="Underline style drop down menu" style="display: inline; margin: auto; height: 100%;"></p></td>
       </tr>
       <tr>
-        <td>Underline color</td>
+        <td>Underline <span class="us-only">color</span></td>
         <td><p>Becomes enabled once an <strong>underline style</strong> is selected; as with font colour, pick from a palette of colours, or more exact colour shades or specify through RGB, HSL or HEX.</p>
         <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font colour palette.png' | url }}" alt="Font colour palettes" style="display: inline; margin: auto; width: 100%;"></p></td>
       </tr>

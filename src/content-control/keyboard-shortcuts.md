@@ -214,7 +214,7 @@ active: content-control
 </div>
 s
 
-<h2 id="excel keyboard shortcuts">Microsoft Excel shortcuts</h2>
+<h2 id="excel-keyboard-shortcuts">Microsoft Excel shortcuts</h2>
 <br>
 <table class="shortcut-tables-cursor-icons hover-table">
   <colgroup>

@@ -5,11 +5,19 @@
       {% include "ctrl-all-logo.svg" %}
     </a>
   </div>
+
   <div class="topbar-right">
     <nav class="topnav">
       <a href="{{ '/about/' | url }}" class="{% if active == 'about' %}active{% endif %}">About</a>
       <a href="{{ '/contact/' | url }}" class="{% if active == 'contact' %}active{% endif %}">Contact</a>
       <a href="#" class="dropbtn">Share</a>
+      <div class="locale-control">
+      <span class="locale-label">Language</span>
+      <label class="locale-toggle" aria-label="Spelling preference">
+        <input type="checkbox" id="locale-toggle" />
+        <span class="slider"></span>
+      </label>
+    </div>
     </nav>
   </div>
 </header>
