@@ -35,8 +35,8 @@ active: word
 <p>Section breaks are similar to <a href="/word/page-breaks/">page breaks</a> but slightly more complex.</p>
 
 <h2>What is a section break?</h2>
-<p>Section breaks are a useful tool for advanced-level formatting of documents. They break up a document into sections to which you can then apply differing formatting, styles, headers and footers, page size, orientation and layout, and more, without affecting the rest of the document.</p> 
-<p>One common use for section breaks is when you need one or two pages to be landscape in a document of portrait pages, e.g. a report where you want to need to fit a large table or graph lengthways.</p>
+<p>Section breaks allow for advanced-level formatting of documents; they divide a document up into sections to which you can then apply differing formatting, styles, headers and footers, page size, orientation and layout, and more, without affecting the rest of the document outside that section. </p> 
+<p>One common use for section breaks is when you need one or two pages to be landscape in a document of portrait pages, e.g. a report where you want to need to fit a large table, diagram or graph lengthways.</p>
 
 <h2>I can’t find any section breaks</h2>
 That’s because they’re hidden by default. To make formatting marks like these visible go to <strong>Home > Show/Hide ¶</strong> and the section break will appear on the page.

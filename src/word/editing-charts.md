@@ -29,9 +29,9 @@ active: word
 <section class="section-light">
 <h2>Editing chart data in Word</h2>
 <p>To edit the data select the chart, go to the <strong>Chart Design</strong> and then click <strong>Edit data</strong> which will open up an Excel window to edit and save. Note below how the Excel window has a yellow banner message about the data being linked to the original Excel spreadsheet; saving here updates both files.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Edit%20data.gif' | url }}" alt="Editing chart data in Word with excel interface" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Edit%20data.gif' | url }}" alt="Editing chart data in Word with excel interface" style="max-width: 100%; height: auto; display: inline;"></p>
 <!-- watermarking cuts off above video -->
 <h2>I updated my chart in Excel but it hasn't updated in Word</h2>
 <p>Linked Excel charts in Word only update automatically if both the Word document and Excel workbook are open during the edit. If the Word file was closed when you made changes in Excel, the chart won't reflect those updates. Instead you need to refresh it manually: select the chart in Word, go to <strong>Chart Design</strong>, and click <strong>Refresh Data</strong>. After a moment it'll update to match the data you have in Excel.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Refresh%20data.png' | url }}" alt="Refresh chart data button on ribbon in Word" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Refresh%20data.png' | url }}" alt="Refresh chart data button on ribbon in Word" style="max-width: 100%; height: auto; display: inline;"></p>
 </section>

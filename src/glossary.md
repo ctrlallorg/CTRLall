@@ -187,7 +187,9 @@ active: glossary
     </tr>
     <tr>
       <td id="footer">Footer</td>
-      <td>Content placed at the bottom of each page. Typically a page number exists in a footer. To access the footer space either double click in the <a href="#margin">margin</a> at the bottom of the page or go to Insert > Header & Footer > Footer.</td>
+      <td><p>Content placed at the bottom of each page to help the reader navigate, identify or understand the context of the page or document. Page numbers for example are usually found in a footer.</p> 
+      <p>To access the footer space either double click in the <a href="#margin">margin</a> at the bottom of the page or go to <strong>Insert > Header & Footer > Footer</strong>. See more here: <a href="/word/headers-and-footers/">Headers and Footers</a></p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Footer.png' | url }}" alt="Footer in Word" style="max-width: 100%; height: auto; display: block; margin: auto;"></p></td>
     </tr>
     <tr>
       <td id="font">Font</td>
@@ -298,9 +300,11 @@ active: glossary
       <td>When typing pressing <strong>Enter</strong> will create a hard return that starts a new paragraph. In lists, it will create a new bullet/list number, see <a href="/word/lists-soft-hard-returns/">Lists: Soft and hard returns</a> for examples. Another type of return is a <a href="#soft-return">soft return</a>.</td>
     </tr>
     <tr>
-      <td id="header">Header</td>
-      <td>Content placed at the top of each page. To access the header space either double click on the <a href="#margin">margin</a> at the top of the page or go to Insert > Header & Footer.</td>
-    </tr>
+        <td id="header">Header</td>
+        <td><p>Content placed at the top of each page to help the reader navigate, identify or understand the context of the page or document. For example a chapter/unit/section title might be something you find in a header.</p>
+        <p>To access the header space either double click on the <a href="#margin">margin</a> at the top of the page or go to <strong>Insert > Header & Footer > Header</strong>.</p>
+        <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Header.png' | url }}" alt="Header in Word" style="max-width: 100%; height: auto; display: block; margin: auto;"></p></td></td>
+      </tr>
     <tr>
       <td id="highlight-formatting">Highlight (<a href="#formatting">formatting</a>)</td>
       <td>The highlight tool can be found under Home > Font. It applies a highlight colour behind selected text.</td>
@@ -451,8 +455,10 @@ active: glossary
     </tr>
     <tr>
       <td id="ruler">Ruler</td>
-      <td>The horizontal and vertical rulers measure the physical size of the digitally presented page. It also allows you to alter the left <a href="#margin">margin</a>, right margin, <a href="#indent">indent</a> markers, and add tabs. The ruler is turned on via a checkbox under <strong>View > Show</strong>.</td>
-    </tr> 
+      <td><p>The horizontal and vertical rulers measure the physical size of the digitally presented page. It also allows you to alter the left <a href="#margin">margin</a>, right margin, <a href="#indent">indent</a> markers, and add <a href="#tab-stop">tab stops</a>. The ruler is turned on via a checkbox under <strong>View > Show</strong>.</p>
+      <p><img class="border" src="{{ '/assets/images/glossary/Horizontal ruler.png' | url }}" alt="Horizontal ruler in Word" style="display: block; margin-left: 0; width: 100%;"></p>
+      </td>
+    </tr>
     <tr>
       <td id="save">Save</td>
       <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}">Saving a file means storing the file's content in its current state onto your computer, cloud drive, or external device. You choose what it's called (the <a href="#filename">filename</a>) and where it's stored, allowing you to access it later. You also decide what format the file is saved as (the <a href="#filetype">filetype</a>); this is indicated by the <a href="#filename-extension">filename extension</a>. It's good practice to save frequently to avoid losing work due to crashes or power outages. Keyboard shortcut: <strong>Ctrl + S</strong>
@@ -460,11 +466,11 @@ active: glossary
     </tr>
     <tr>
       <td id="section">Section</td>
-      <td>Sections are parts of the document where you can change the layout to be different from the rest. This includes the ability to have different page orientation (portrait or landscape), headers and footers, page numbering and margins for example. You can apply <a href="#section-break">section breaks</a> to a document to create and control different sections in it.</td>
+      <td>Sections are parts of the document where you can change the layout to be different from the rest. This includes the ability to have different page orientation (portrait or landscape), <a href="#header">headers</a> and <a href="#footer">footers</a>, page numbering and <a href="#margin">margins</a> for example. You can apply <a href="#section-break">section breaks</a> to a document to create and control different sections in it. See more in this article: <a href="/word/section-breaks/">Section breaks</a></td>
     </tr>
     <tr>
       <td id="section-break">Section break</td>
-      <td>A section break creates a boundary between parts of a document into different <a href="#section">sections</a>, allowing different layout compared to the rest of the document.</td>
+      <td>A section break creates a boundary between parts of a document into different <a href="#section">sections</a>, allowing different layout compared to the rest of the document. See more in this article: <a href="/word/section-breaks/">Section breaks</a></td>
     </tr>
     <tr>
       <td id="select">Select / Selecting / Selection</td>
@@ -500,8 +506,8 @@ active: glossary
       <td>A set of <a href="#attribute-formatting">formatting attributes</a> saved which can be applied to text, e.g. a heading style, table of contents level style, attribution style etc. Styling reduces the amount of work you have to do styling multiple text by just applying the same style each time.</td>
     </tr>
     <tr>
-      <td id="tab-stop">Tab stop / Tab (left, centre, right)</td>
-      <td>A tab is a preset location on the horizontal <a href="#ruler">ruler</a> that defines where the <a href="#insertion point">insertion point</a> or existing text will align to when you press the <strong>Tab</strong> key. Tabs are set by clicking onto the horizontal ruler or via the Tabs dialog box (<strong>Home > Paragraph > Tabs</strong>).</td>
+      <td id="tab-stop">Tab stop</td>
+      <td>A tab stop (a.k.a. a 'tab')is a preset location on the horizontal <a href="#ruler">ruler</a> that defines where the <a href="#insertion point">insertion point</a> or existing text will align to when you press the <strong>Tab</strong> key. Tabs are set by clicking onto the horizontal ruler or via the Tabs dialog box (<strong>Home > Paragraph > Tabs</strong>).</td>
     </tr>
     <tr>
       <td id="table">Table</td>
@@ -824,9 +830,11 @@ active: glossary
         <td>A floating image is one that is able to move freely on the page independent of the text on it. This is set by layout options and wrapping. Floating images have an <a href="#anchor">anchor</a> which links them to a particular paragraph. See the different types of wrap options to make an image float here: <a href="/word/altering-images-and-objects/#layout-options">Layout options</a></td>
       </tr>
       <tr>
-        <td id="footer">Footer</td>
-        <td>Content placed at the bottom of each page. Typically a page number exists in a footer. To access the footer space either double click in the <a href="#margin">margin</a> at the bottom of the page or go to Insert > Header & Footer > Footer.</td>
-      </tr>
+      <td id="footer">Footer</td>
+      <td><p>Content placed at the bottom of each page to help the reader navigate, identify or understand the context of the page or document. Page numbers for example are usually found in a footer.</p> 
+      <p>To access the footer space either double click in the <a href="#margin">margin</a> at the bottom of the page or go to <strong>Insert > Header & Footer > Footer</strong>. See more here: <a href="/word/headers-and-footers/">Headers and Footers</a></p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Footer.png' | url }}" alt="Footer in Word" style="max-width: 100%; height: auto; display: block; margin: auto;"></p></td>
+    </tr>
       <tr>
         <td id="font">Font</td>
         <td>Font is the typographical design of the text. There are many different fonts you can choose from. Note: Some may not be appropriate for formal documents.</td>
@@ -940,7 +948,9 @@ active: glossary
       </tr>
       <tr>
         <td id="header">Header</td>
-        <td>Content placed at the top of each page. To access the header space either double click on the <a href="#margin">margin</a> at the top of the page or go to Insert > Header & Footer.</td>
+        <td><p>Content placed at the top of each page to help the reader navigate, identify or understand the context of the page or document. For example a chapter/unit/section title might be something you find in a header.</p>
+        <p>To access the header space either double click on the <a href="#margin">margin</a> at the top of the page or go to <strong>Insert > Header & Footer > Header</strong>.</p>
+        <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Header.png' | url }}" alt="Header in Word" style="max-width: 100%; height: auto; display: block; margin: auto;"></p></td></td>
       </tr>
       <tr>
         <td id="highlight-formatting">Highlight (<a href="#formatting">formatting</a>)</td>
@@ -1084,13 +1094,14 @@ active: glossary
     <tr>
       <td id="rotate-handle">Rotate handle</td>
       <td><p>When an image or object is selected it will have a selection frame around it which sometimes includes a rotate handle depending on what it is. You can hold left click and drag on the rotate handle clockwise or anti-clockwise to freely rotate the image/object as needed. See example here: <a href="/word/altering-images-and-objects/">Altering images, graphic visuals and some objects</a></p>
-      <p><img class="border" src="{{ '/assets/images/word/Images/Rotate%20handle.png' | url }}" alt="Rotate handle" style="display: block; margin-left: 0; width: 10%;">
-      </p>
+      <p><img class="border" src="{{ '/assets/images/word/Images/Rotate%20handle.png' | url }}" alt="Rotate handle" style="display: block; margin-left: 0; width: 10%;"></p>
       </td>
     </tr>
     <tr>
       <td id="ruler">Ruler</td>
-      <td>The horizontal and vertical rulers measure the physical size of the digitally presented page. It also allows you to alter the left <a href="#margin">margin</a>, right margin, <a href="#indent">indent</a> markers, and add tabs. The ruler is turned on via a checkbox under <strong>View > Show</strong>.</td>
+      <td><p>The horizontal and vertical rulers measure the physical size of the digitally presented page. It also allows you to alter the left <a href="#margin">margin</a>, right margin, <a href="#indent">indent</a> markers, and add <a href="#tab-stop">tab stops</a>. The ruler is turned on via a checkbox under <strong>View > Show</strong>.</p>
+      <p><img class="border" src="{{ '/assets/images/glossary/Horizontal ruler.png' | url }}" alt="Horizontal ruler in Word" style="display: block; margin-left: 0; width: 100%;"></p>
+      </td>
     </tr> 
     <tr>
       <td id="save">Save</td>
@@ -1099,11 +1110,11 @@ active: glossary
     </tr>
     <tr>
       <td id="section">Section</td>
-      <td>Sections are parts of the document where you can change the layout to be different from the rest. This includes the ability to have different page orientation (portrait or landscape), headers and footers, page numbering and margins for example. You can apply <a href="#section-break">section break</a> to a document to create and control different sections in it.</td>
+      <td>Sections are parts of the document where you can change the layout to be different from the rest. This includes the ability to have different page orientation (portrait or landscape), <a href="#header">headers</a> and <a href="#footer">footers</a>, page numbering and <a href="#margin">margins</a> for example. You can apply section breaks to a document to create and control different sections in it. See more in this article: <a href="/word/section-breaks/">Section breaks</a></td>
     </tr>
     <tr>
       <td id="section-break">Section break</td>
-      <td>A section break creates a boundary between parts of a document into different <a href="#section">sections</a>, allowing different layout compared to the rest of the document.</td>
+      <td>A section break creates a boundary between parts of a document into different <a href="#section">sections</a>, allowing different layout compared to the rest of the document. See more in this article: <a href="/word/section-breaks/">Section breaks</a></td>
     </tr>
     <tr>
       <td id="select">Select / Selecting / Selection</td>
@@ -1139,8 +1150,8 @@ active: glossary
       <td>A set of <a href="#attribute-formatting">formatting attributes</a> saved which can be applied to text, e.g. a heading style, table of contents level style, attribution style etc. Styling reduces the amount of work you have to do styling multiple text by just applying the same style each time.</td>
     </tr>
     <tr>
-      <td id="tab-stop">Tab stop / Tab (left, centre, right)</td>
-      <td>A tab is a preset location on the horizontal <a href="#ruler">ruler</a> that defines where the <a href="#insertion point">insertion point</a> or existing text will align to when you press the <strong>Tab</strong> key. Tabs are set by clicking onto the horizontal ruler or via the Tabs dialog box (<strong>Home > Paragraph > Tabs</strong>).</td>
+      <td id="tab-stop">Tab stop</td>
+      <td>A tab stop (a.k.a. a 'tab')is a preset location on the horizontal <a href="#ruler">ruler</a> that defines where the <a href="#insertion point">insertion point</a> or existing text will align to when you press the <strong>Tab</strong> key. Tabs are set by clicking onto the horizontal ruler or via the Tabs dialog box (<strong>Home > Paragraph > Tabs</strong>).</td>
     </tr>
     <tr>
       <td id="table">Table</td>
