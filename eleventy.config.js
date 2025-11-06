@@ -31,6 +31,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("ads.txt");
+  eleventyConfig.addPassthroughCopy("robots.txt");
+
 
   // ─── Template Formats ─────────────────────────────────────
   eleventyConfig.setTemplateFormats(["md", "11ty.md", "liquid", "html"]);
