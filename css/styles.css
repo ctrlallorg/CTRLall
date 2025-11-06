@@ -359,6 +359,7 @@ img.border {
 .image-row img {
   max-width: 48%;
   height: auto;
+  margin: 0; /* override inherited margin */
 }
 
 .figure {
