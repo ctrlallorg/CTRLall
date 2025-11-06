@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://ctrlall.org/</loc><priority>1.0</priority></url>
+  <url><loc>https://ctrlall.org/ads.txt</loc><priority>0.8</priority></url>
+  <url><loc>https://ctrlall.org/about</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/contact</loc><priority>0.6</priority></url>
+  <url><loc>https://ctrlall.org/glossary</loc><priority>0.6</priority></url>
+  <url><loc>https://ctrlall.org/content-control/copying-content</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/content-control/keyboard-shortcuts</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/content-control/moving-content</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/altering-images-and-objects</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/documents-vs-templates</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/editing-charts</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/font-options</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/formatting-text</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/getting-started-word</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/headers-and-footers</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/image-object-issues</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/images</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/indents</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/lists-fixing-number-lists</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/lists-soft-hard-returns</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/objects-embedded-files</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/objects</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/page-breaks</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/pages-and-views</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/paragraph-options</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/saving-and-save-as</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/section-breaks</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/selecting-text</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/styles</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/tables-fixing-tables-extending-offscreen</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/tables-fixing-tables-over-pages</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/tables-formatting</loc><priority>0.7</priority></url>
+  <url><loc>https://ctrlall.org/word/tables</loc><priority>0.7</priority></url>
+</urlset>
