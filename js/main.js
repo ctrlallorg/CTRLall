@@ -395,3 +395,96 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 })();
+
+  // ─── Search Bar Logic ─────────────────────────────
+
+console.log("Main.js loaded");
+
+const searchInput = document.getElementById('searchInput');
+const suggestionsList = document.getElementById('suggestions');
+let activeIndex = -1;
+let currentResults = [];
+
+// ─── Fetch and Filter Suggestions ─────────────────
+async function fetchSuggestions(query) {
+  try {
+    const response = await fetch('/search-index.json');
+    if (!response.ok) throw new Error("Failed to load search index");
+
+    const items = await response.json();
+    const lowerQuery = query.toLowerCase();
+
+    return items.filter(item => {
+      const inTitle = item.title.toLowerCase().includes(lowerQuery);
+      const inDesc = item.description.toLowerCase().includes(lowerQuery);
+      const inTags = item.tags.some(tag => tag.toLowerCase().includes(lowerQuery));
+      return inTitle || inDesc || inTags;
+    });
+  } catch (error) {
+    console.error("Search error:", error);
+    return [];
+  }
+}
+
+// ─── Highlight Matched Terms ──────────────────────
+function highlightMatch(text, query) {
+  const regex = new RegExp(`(${query})`, 'gi');
+  return text.replace(regex, '<mark>$1</mark>');
+}
+
+// ─── Render Suggestions ───────────────────────────
+function renderSuggestions(results, query) {
+  suggestionsList.innerHTML = '';
+  activeIndex = -1;
+  currentResults = results;
+
+  results.forEach((item, index) => {
+    const li = document.createElement('li');
+    li.innerHTML = highlightMatch(item.title, query);
+    li.setAttribute('data-index', index);
+    li.classList.add('suggestion-item');
+    li.onclick = () => window.location.href = item.permalink;
+    suggestionsList.appendChild(li);
+  });
+}
+
+// ─── Handle Input with Debounce ───────────────────
+let debounceTimer;
+searchInput.addEventListener('input', () => {
+  clearTimeout(debounceTimer);
+  const query = searchInput.value.trim();
+  if (query.length === 0) {
+    suggestionsList.innerHTML = '';
+    return;
+  }
+
+  debounceTimer = setTimeout(async () => {
+    const results = await fetchSuggestions(query);
+    renderSuggestions(results, query);
+  }, 200);
+});
+
+// ─── Keyboard Navigation ──────────────────────────
+searchInput.addEventListener('keydown', (e) => {
+  const items = suggestionsList.querySelectorAll('.suggestion-item');
+  if (items.length === 0) return;
+
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    activeIndex = (activeIndex + 1) % items.length;
+    updateActiveItem(items);
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    activeIndex = (activeIndex - 1 + items.length) % items.length;
+    updateActiveItem(items);
+  } else if (e.key === 'Enter' && activeIndex >= 0) {
+    e.preventDefault();
+    items[activeIndex].click();
+  }
+});
+
+function updateActiveItem(items) {
+  items.forEach(item => item.classList.remove('active'));
+  items[activeIndex].classList.add('active');
+  items[activeIndex].scrollIntoView({ block: 'nearest' });
+}

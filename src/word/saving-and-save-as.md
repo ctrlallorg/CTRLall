@@ -1,5 +1,5 @@
 ---
-title: Saving an Save As
+title: Saving and Save As
 layout: layout.liquid
 permalink: /word/saving-and-save-as/
 canonical: /word/saving-and-save-as/

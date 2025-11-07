@@ -11,13 +11,24 @@
       <a href="{{ '/about/' | url }}" class="{% if active == 'about' %}active{% endif %}">About</a>
       <a href="{{ '/contact/' | url }}" class="{% if active == 'contact' %}active{% endif %}">Contact</a>
       <a href="#" class="dropbtn">Share</a>
+
+      <!-- Language Toggle -->
       <div class="locale-control">
-      <span class="locale-label">Language</span>
-      <label class="locale-toggle" aria-label="Spelling preference">
-        <input type="checkbox" id="locale-toggle" />
-        <span class="slider"></span>
-      </label>
-    </div>
+        <span class="locale-label">Language</span>
+        <label class="locale-toggle" aria-label="Spelling preference">
+          <input type="checkbox" id="locale-toggle" />
+          <span class="slider"></span>
+        </label>
+      </div>
+
+
+      <!-- 🔍 Search Bar -->
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search..." autocomplete="off" />
+        <ul id="suggestions" class="suggestions-list"></ul>
+      </div>
+
+
     </nav>
   </div>
 </header>
