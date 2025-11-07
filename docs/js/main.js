@@ -334,20 +334,17 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 });
 
- // ─── Locale Toggle + Spelling Variant Swap ─────────────────────────────
+// ─── Locale Toggle + Spelling Variant Swap ─────────────────────────────
 (async function () {
-  const dictionary = await fetch("/assets/spellingVariants.json").then(res => res.json());
-
+  const dictionary = await fetch("https://ctrlall-api.onrender.com/api/spelling-variants").then(res => res.json());
   let saved = localStorage.getItem("locale");
 
-  // ─── Auto-reset if saved value is invalid ────────────────────────────
   if (saved !== "us" && saved !== "gb") {
     localStorage.removeItem("locale");
     saved = null;
   }
 
   const lang = navigator.language?.toLowerCase();
-
   const localeMap = {
     "en-us": "us",
     "en-gb": "gb",
@@ -355,7 +352,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     "en-nz": "gb",
     "en-ca": "gb",
     "en-ie": "gb",
-    "en": "gb" // fallback for generic English
+    "en": "gb"
   };
 
   const browserLocale = localeMap[lang] || "gb";
@@ -374,6 +371,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       location.reload();
     });
   }
+  
+console.log("Starting text swap...");
 
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
   while (walker.nextNode()) {
@@ -396,95 +395,114 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 })();
 
-  // ─── Search Bar Logic ─────────────────────────────
+  // ─── Search Bar Functionality ────────────────────────────────────────
+(function () {
+  console.log("Main.js loaded");
 
-console.log("Main.js loaded");
+  const searchInput = document.getElementById('searchInput');
+  const suggestionsList = document.getElementById('suggestions');
+  let activeIndex = -1;
+  let currentResults = [];
 
-const searchInput = document.getElementById('searchInput');
-const suggestionsList = document.getElementById('suggestions');
-let activeIndex = -1;
-let currentResults = [];
+  // ─── Fetch and Filter Suggestions ─────────────────
+  async function fetchSuggestions(query) {
+    try {
+      const response = await fetch('/search-index.json');
+      if (!response.ok) throw new Error("Failed to load search index");
 
-// ─── Fetch and Filter Suggestions ─────────────────
-async function fetchSuggestions(query) {
-  try {
-    const response = await fetch('/search-index.json');
-    if (!response.ok) throw new Error("Failed to load search index");
+console.log("Loaded dictionary:", dictionary);
+console.log("Using region:", region);
 
-    const items = await response.json();
-    const lowerQuery = query.toLowerCase();
 
-    return items.filter(item => {
-      const inTitle = item.title.toLowerCase().includes(lowerQuery);
-      const inDesc = item.description.toLowerCase().includes(lowerQuery);
-      const inTags = item.tags.some(tag => tag.toLowerCase().includes(lowerQuery));
-      return inTitle || inDesc || inTags;
-    });
-  } catch (error) {
-    console.error("Search error:", error);
-    return [];
+
+      const items = await response.json();
+      const lowerQuery = query.toLowerCase();
+
+      return items.filter(item => {
+        const inTitle = item.title.toLowerCase().includes(lowerQuery);
+        const inDesc = item.description.toLowerCase().includes(lowerQuery);
+        const inTags = item.tags.some(tag => tag.toLowerCase().includes(lowerQuery));
+        return inTitle || inDesc || inTags;
+      });
+    } catch (error) {
+      console.error("Search error:", error);
+      return [];
+    }
   }
-}
 
-// ─── Highlight Matched Terms ──────────────────────
-function highlightMatch(text, query) {
-  const regex = new RegExp(`(${query})`, 'gi');
-  return text.replace(regex, '<mark>$1</mark>');
-}
+  // ─── Highlight Matched Terms ──────────────────────
+  function highlightMatch(text, query) {
+    const regex = new RegExp(`(${query})`, 'gi');
+    return text.replace(regex, '<mark>$1</mark>');
+  }
 
-// ─── Render Suggestions ───────────────────────────
-function renderSuggestions(results, query) {
-  suggestionsList.innerHTML = '';
-  activeIndex = -1;
-  currentResults = results;
-
-  results.forEach((item, index) => {
-    const li = document.createElement('li');
-    li.innerHTML = highlightMatch(item.title, query);
-    li.setAttribute('data-index', index);
-    li.classList.add('suggestion-item');
-    li.onclick = () => window.location.href = item.permalink;
-    suggestionsList.appendChild(li);
-  });
-}
-
-// ─── Handle Input with Debounce ───────────────────
-let debounceTimer;
-searchInput.addEventListener('input', () => {
-  clearTimeout(debounceTimer);
-  const query = searchInput.value.trim();
-  if (query.length === 0) {
+  // ─── Render Suggestions ───────────────────────────
+  function renderSuggestions(results, query) {
     suggestionsList.innerHTML = '';
-    return;
+    activeIndex = -1;
+    currentResults = results;
+
+    results.forEach((item, index) => {
+      const li = document.createElement('li');
+      li.innerHTML = highlightMatch(item.title, query);
+      li.setAttribute('data-index', index);
+      li.classList.add('suggestion-item');
+      li.onclick = () => window.location.href = item.permalink;
+      suggestionsList.appendChild(li);
+    });
   }
 
-  debounceTimer = setTimeout(async () => {
-    const results = await fetchSuggestions(query);
-    renderSuggestions(results, query);
-  }, 200);
-});
+  // ─── Handle Input with Debounce + Locale Swap ─────
+  let debounceTimer;
+  searchInput.addEventListener('input', () => {
+    clearTimeout(debounceTimer);
+    const rawQuery = searchInput.value.trim();
+    if (rawQuery.length === 0) {
+      suggestionsList.innerHTML = '';
+      return;
+    }
 
-// ─── Keyboard Navigation ──────────────────────────
-searchInput.addEventListener('keydown', (e) => {
-  const items = suggestionsList.querySelectorAll('.suggestion-item');
-  if (items.length === 0) return;
+    // Convert spelling based on locale
+    const words = rawQuery.split(/\b/);
+    const converted = words.map(word => {
+      const entry = dictionary[word.toLowerCase()];
+      if (!entry || !entry[region]) return word;
 
-  if (e.key === 'ArrowDown') {
-    e.preventDefault();
-    activeIndex = (activeIndex + 1) % items.length;
-    updateActiveItem(items);
-  } else if (e.key === 'ArrowUp') {
-    e.preventDefault();
-    activeIndex = (activeIndex - 1 + items.length) % items.length;
-    updateActiveItem(items);
-  } else if (e.key === 'Enter' && activeIndex >= 0) {
-    e.preventDefault();
-    items[activeIndex].click();
+      const replacement = entry[region];
+      if (word === word.toUpperCase()) return replacement.toUpperCase();
+      if (word[0] === word[0].toUpperCase()) return replacement[0].toUpperCase() + replacement.slice(1);
+      return replacement;
+    });
+    const swappedQuery = converted.join("");
+
+    debounceTimer = setTimeout(async () => {
+      const results = await fetchSuggestions(swappedQuery);
+      renderSuggestions(results, swappedQuery);
+    }, 200);
+  });
+
+  // ─── Keyboard Navigation ──────────────────────────
+  searchInput.addEventListener('keydown', (e) => {
+    const items = suggestionsList.querySelectorAll('.suggestion-item');
+    if (items.length === 0) return;
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      activeIndex = (activeIndex + 1) % items.length;
+      updateActiveItem(items);
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      activeIndex = (activeIndex - 1 + items.length) % items.length;
+      updateActiveItem(items);
+    } else if (e.key === 'Enter' && activeIndex >= 0) {
+      e.preventDefault();
+      items[activeIndex].click();
+    }
+  });
+
+  function updateActiveItem(items) {
+    items.forEach(item => item.classList.remove('active'));
+    items[activeIndex].classList.add('active');
+    items[activeIndex].scrollIntoView({ block: 'nearest' });
   }
-});
-
-function updateActiveItem(items) {
-  items.forEach(item => item.classList.remove('active'));
-  items[activeIndex].classList.add('active');
-  items[activeIndex].scrollIntoView({ block: 'nearest' });
-}
+})();
