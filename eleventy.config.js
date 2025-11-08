@@ -29,12 +29,15 @@ module.exports = function(eleventyConfig) {
   // ─── Passthrough Copies ───────────────────────────────────
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("js");
-  eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy({ "assets": "assets" });
   eleventyConfig.addPassthroughCopy("ads.txt");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
+  eleventyConfig.addPassthroughCopy({ "assets/spellingVariants.json": "spellingVariants.json" });
 
-
+const fs = require("fs");
+const exists = fs.existsSync("assets/spellingVariants.json");
+console.log("📁 Dictionary file exists:", exists);
 
   // ─── Template Formats ─────────────────────────────────────
   eleventyConfig.setTemplateFormats(["md", "11ty.md", "liquid", "html"]);

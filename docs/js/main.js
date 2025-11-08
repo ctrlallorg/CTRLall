@@ -116,6 +116,8 @@ document.addEventListener("DOMContentLoaded", () => {
     footer.style.opacity = scrollBottom ? "1" : "0";
   });
 
+
+  
   // ─── GIF Tooltip on Table Row Hover ─────────
   const tooltip = document.getElementById("gif-tooltip");
   const tooltipImg = tooltip?.querySelector("img");
@@ -335,10 +337,29 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 // ─── Locale Toggle + Spelling Variant Swap ─────────────────────────────
-(async function () {
-  const dictionary = await fetch("https://ctrlall-api.onrender.com/api/spelling-variants").then(res => res.json());
-  let saved = localStorage.getItem("locale");
+document.addEventListener("DOMContentLoaded", async () => {
+  let dictionary = {};
+  try {
+    const res = await fetch("/assets/spellingVariants.json");
+    if (!res.ok) throw new Error(`Failed to load dictionary: ${res.status} ${res.statusText}`);
+    dictionary = await res.json();
+    console.log("✅ Dictionary loaded from /assets:", Object.keys(dictionary).slice(0, 10));
+  } catch (error) {
+    console.warn("⚠️ Fetch failed. Using fallback dictionary.", error);
+    dictionary = {
+      "colour": { "us": "color", "gb": "colour" },
+      "colours": { "us": "colors", "gb": "colours" },
+      "favourite": { "us": "favorite", "gb": "favourite" },
+      "favourites": { "us": "favorites", "gb": "favourites" },
+      "honour": { "us": "honor", "gb": "honour" },
+      "honours": { "us": "honors", "gb": "honours" }
+    };
+    console.log("✅ Fallback dictionary loaded:", Object.keys(dictionary).slice(0, 10));
+  }
 
+  window.dictionary = dictionary;
+
+  let saved = localStorage.getItem("locale");
   if (saved !== "us" && saved !== "gb") {
     localStorage.removeItem("locale");
     saved = null;
@@ -360,40 +381,70 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   console.log("Detected browser language:", lang);
   console.log("Resolved region:", region);
+  window.region = region;
+  console.log("🔎 Test swap:", dictionary["colour"]?.[region]);
 
   const toggle = document.getElementById("locale-toggle");
   if (toggle) {
     toggle.checked = region === "gb";
-
     toggle.addEventListener("change", () => {
       const newLocale = toggle.checked ? "gb" : "us";
+      console.log("Toggle changed →", newLocale);
       localStorage.setItem("locale", newLocale);
       location.reload();
     });
   }
-  
-console.log("Starting text swap...");
+
+  console.log("Starting text swap...");
 
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
   while (walker.nextNode()) {
     const node = walker.currentNode;
-    if (!node.nodeValue || node.parentNode.closest(".us-only")) continue;
+    const parent = node.parentNode;
 
-    const swapped = node.nodeValue.replace(/\b(\w+)\b/g, (word) => {
-      const entry = dictionary[word.toLowerCase()];
-      if (!entry || !entry[region]) return word;
+    if (!node.nodeValue?.trim()) continue;
+    if (parent && parent.closest(".us-only")) continue;
 
-      const replacement = entry[region];
-      if (word === word.toUpperCase()) return replacement.toUpperCase();
-      if (word[0] === word[0].toUpperCase()) return replacement[0].toUpperCase() + replacement.slice(1);
-      return replacement;
+    console.debug("🔍 Scanning node:", node.nodeValue);
+
+    const original = node.nodeValue;
+    const swapped = original.replace(/\b[\w]+(?:-[\w]+)*\b/g, (word) => {
+      // Split hyphenated words into parts
+      const parts = word.split("-");
+      const swappedParts = parts.map(part => {
+        const lower = part.toLowerCase();
+        const entry = dictionary[lower];
+        const replacement = entry?.[region];
+
+        if (!replacement) return part;
+
+        // Preserve case
+        if (part === part.toUpperCase()) return replacement.toUpperCase();
+        if (part[0] === part[0].toUpperCase()) return replacement[0].toUpperCase() + replacement.slice(1);
+        return replacement;
+      });
+
+      const result = swappedParts.join("-");
+      if (result !== word) {
+        console.debug(`✅ Replacing "${word}" → "${result}"`);
+      } else {
+        console.debug(`⛔ No dictionary match for "${word}"`);
+      }
+
+      return result;
     });
 
-    if (swapped !== node.nodeValue) {
+    if (swapped !== original) {
+      console.debug("✏️ Node updated:", swapped);
       node.nodeValue = swapped;
     }
   }
-})();
+
+  // Optional: debug overlay hook
+  // document.body.insertAdjacentHTML("beforeend", `<div style="position:fixed;bottom:0;left:0;background:#eee;padding:4px;font:12px monospace;">Region: ${region}</div>`);
+});
+
+
 
   // ─── Search Bar Functionality ────────────────────────────────────────
 (function () {

@@ -1,4 +1,0 @@
-flask
-spacy==3.8.7
-lemminflect
-gunicorn

@@ -62,6 +62,7 @@ active: index
      <br>
   <p>Welcome to Ctrl All — a space built for learners, educators and troubleshooters of Microsoft Office applications.</p>
 </section>
+
   <p>Digital skills should be empowering, ethical, and open to everyone. Where most help sites don't explain why, video tutorials are too long, and paid lessons are too expensive, this site aims to explain everything you need to know, no paywalls, no filler, no boundaries.</p> 
   <br>
   <p>© 2025 Ctrl All. All rights reserved.</p>
