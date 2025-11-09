@@ -19,11 +19,20 @@ tags:
   - beginner-friendly
   - new to windows
   - new to word
-  - examples
-  - fix issue
-  - solve problem
+  - never used word
+  - beginner in word
+  - beginner to word
+  - working examples in word
+  - demonstrations in word
+  - fix word issues
+  - fix issues in word
+  - solve word problems
+  - solve problems in word
+  - solve problems with word
   - get answers
   - no jargon
+  - no filler
+  - no paywalls
   - make sense
   - explain
   - free
@@ -31,14 +40,21 @@ tags:
   - accessible
   - teach yourself
   - self-taught
+  - learn word
   - learn microsoft word
+  - learning word
   - learning microsoft word
   - microsoft office basics
   - microsoft word basics
   - microsoft office for beginners
   - microsoft word for beginners
-  - help guide
-  - article
+  - help guides
+  - how to use word
+  - how to understand word
+  - understanding word
+  - understanding microsoft word
+  - help articles on word
+  - word articles
   - how to guide
   - about us
   - union education

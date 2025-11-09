@@ -10,22 +10,49 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - image
-  - picture
-  - resize
-  - rotate
-  - change color
-  - change colour
-  - icon
+  - images
+  - graphics
+  - visuals
+  - pictures
+  - icons
   - SmartArt
-  - chart
+  - charts
   - screenshot
   - WordArt
-  - edit object
-  - text box
-  - drawing canvas
-  - embedded file
-  - OLE object
+  - objects
+  - text boxes
+  - drawing canvases
+  - embedded files
+  - OLE objects
+  - edit an image
+  - edit images
+  - editing an image
+  - editing images
+  - alter an image
+  - alter images
+  - altering an image
+  - altering images
+  - change an image
+  - change images
+  - changing an image
+  - changing images
+  - redraw
+  - make smaller
+  - make bigger
+  - enlarge sizes
+  - reduce sizes
+  - resize an image
+  - resize images
+  - resizing an image
+  - resizing images
+  - rotate an image
+  - rotate images
+  - rotating an image
+  - rotating images
+  - change colors
+  - change colours
+  - move around
+  - wrapping
 active: word
 ---
 

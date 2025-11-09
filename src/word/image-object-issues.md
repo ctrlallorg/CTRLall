@@ -10,24 +10,40 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - image
-  - shape
-  - icon
-  - 3D model
-  - chart
+  - images
+  - graphics
+  - visuals
+  - pictures
+  - shapes
+  - icons
+  - 3D models
+  - charts
   - SmartArt
-  - chart
-  - screenshot
+  - screenshots
   - WordArt
-  - object
-  - text box
-  - embedded file
-  - OLE object
-  - drawing canvas
-  - issue
-  - problem
-  - stuck
-  - not working
+  - objects
+  - text boxes
+  - embedded files
+  - OLE objects
+  - drawing canvases
+  - image issues
+  - image errors
+  - image help
+  - image problems
+  - image stuck 
+  - image not working
+  - image help
+  - fix images
+  - fix an image
+  - object issues
+  - object errors
+  - object help
+  - object problems
+  - object stuck 
+  - object not working
+  - object help
+  - fix objects
+  - fix an object
   - how do i
 active: word
 ---

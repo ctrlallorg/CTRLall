@@ -10,9 +10,9 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - table
+  - tables
   - table layout
-  - row
+  - rows
   - row height
   - row distribution
   - skips to next page
@@ -22,7 +22,7 @@ tags:
   - shifts down
   - straddling both pages
   - table splits
-  - split table
+  - split tables
   - disappears
   - over the edge
   - over the page
@@ -31,12 +31,12 @@ tags:
   - top of page
   - merged row
   - fit on page
-  - issue
-  - problem
-  - error
+  - issues
+  - problems
+  - errors
   - broken
   - not working
-  - help
+  - helps
   - how do i
   - retrieve
   - get back

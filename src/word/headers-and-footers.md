@@ -10,17 +10,69 @@ date: 2025-11-13
 last_modified: 2025-11-13
 tags:
   - microsoft word
-  - header
-  - footer
+  - headers
+  - footers
+  - headers and footers
+  - headers & footers
+  - editing
+  - selecting
+  - unselecting
+  - remove
+  - removing
   - text at the top
-  - text at the bottom
-  - page number
-  - page reference
-  - date
-  - title
+  - content at the top
   - top text
+  - top content
+  - text at the bottom
+  - content at the bottom
   - bottom text
-  - letterhead
+  - bottom content
+  - different first pages
+  - different odd and even pages
+  - different odd & even pages
+  - different left and right pages
+  - different left & right pages
+  - recto
+  - verso
+  - quick part field
+  - tab stops
+  - page numbers
+  - page numbering
+  - total pages
+  - number of pages
+  - page references
+  - dates
+  - titles
+  - letterheads
+  - chapter names
+  - sections
+  - running heads
+  - short titles
+  - author names
+  - brand logos
+  - brand marks
+  - confidentiality tags
+  - classification tags
+  - confidential
+  - internal use only
+  - not for distribution
+  - document statuses
+  - drafts
+  - for review
+  - pending approval
+  - final
+  - document ID
+  - version numbers
+  - internal file path
+  - legal disclaimers
+  - terms of use
+  - copyright statements
+  - copyright notices
+  - source references
+  - shortlinks
+  - qr codes
+  - related resources
+  - contact information 
 active: word
 ---
 

@@ -10,9 +10,17 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - table
+  - tables
+  - format a table
+  - format tables
+  - formatting a table
+  - formatting tables
+  - style a table
+  - style tables
+  - styling a table
+  - styling tables
   - table layout
-  - row
+  - rows
   - row height
   - row distribution
   - adjust
@@ -22,6 +30,8 @@ tags:
   - remove paragraph spacing in a table
   - bullet list in table
   - number list in table
+  - bullet lists in table
+  - number lists in table
 active: word
 ---
 <h1>Tables: Formatting</h1>
@@ -173,7 +183,5 @@ active: word
       </tr>
     </tbody>
 </table>
-
-
 
 </section>

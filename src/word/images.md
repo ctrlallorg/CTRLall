@@ -10,21 +10,30 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - image
-  - shape
-  - icon
-  - 3D model
-  - chart
+  - insert an image
+  - insert images
+  - inserting an image
+  - inserting images
+  - add an image
+  - add images
+  - adding an image
+  - adding images
+  - place an image
+  - place images
+  - placing an image
+  - placing images
+  - graphics
+  - visuals
+  - pictures
+  - shapes
+  - icons
+  - 3D models
+  - charts
   - SmartArt
-  - chart
-  - screenshot
+  - screenshots
   - WordArt
-  - insert
   - image types
-  - types of image
-  - graphic
-  - visual
-  - picture
+  - types of images
 active: word
 ---
 

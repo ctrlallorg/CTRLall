@@ -2,12 +2,35 @@
 title: Contact us
 description: Contact us.
 layout: layout.liquid
-active: contact
 permalink: /contact/
 canonical: /contact/
 asset_id: ctrlall-contact-v1
 image: /assets/images/Ctrl All logo blue.svg
-keywords: Ctrl all, contact us, contact form, message, email, digital literacy, query, problem, request, user, individual, educator, education provider, library, librarian, community organisation, community organization, union, government, corporate, admin@ctrlall.org.
+date: 2025-10-26
+last_modified: 2025-10-26
+tags:
+  - ctrl all
+  - contact us
+  - contact form
+  - message
+  - email
+  - digital literacy
+  - query
+  - queries
+  - problems
+  - requests
+  - educators
+  - eduction providers
+  - library
+  - libraries
+  - librarian
+  - community organisations
+  - community organizations
+  - unions
+  - government
+  - corporate
+  - admin@ctrlall.org
+active: contact
 ---
 
 <section class="section-light">

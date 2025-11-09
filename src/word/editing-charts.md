@@ -11,14 +11,22 @@ last_modified: 2025-10-26
 tags:
   - microsoft word
   - microsoft excel
-  - chart
-  - insert chart
-  - import chart
+  - charts
+  - insert charts
+  - import charts
   - edit a chart
+  - editing charts
   - edit data
+  - editing data
   - update data
-  - spreadsheet
-  - table
+  - updating data
+  - chart data
+  - spreadsheets
+  - tables
+  - cells
+  - columns
+  - rows
+  - graphs
 active: word
 ---
 

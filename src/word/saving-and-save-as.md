@@ -16,6 +16,7 @@ tags:
   - back up
   - backup
   - save a copy
+  - save copies
   - computer
   - laptop
   - hard drive
@@ -24,13 +25,13 @@ tags:
   - machine
   - PC
   - file
-  - existing file
+  - existing files
   - save over
   - overwrite
-  - file type
-  - type of file
-  - document
-  - template
+  - file types
+  - type of files
+  - documents
+  - templates
   - docx
   - dotx
 active: word

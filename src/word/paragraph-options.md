@@ -21,18 +21,37 @@ tags:
   - spacing above and below
   - spread lines out
   - make lines tighter
+  - tighter line spacing
+  - tighter line spaces
+  - looser line spacing
+  - looser line spaces
+  - loosen line spacing
+  - loosen line spaces
+  - tightening line spacing
+  - tighten line spaces
+  - close up spacing
+  - close up spaces
+  - increase spacing
+  - increase spaces
   - tighter spacing
+  - tighter spaces
   - looser spacing
+  - looser spaces
   - loosen spacing
-  - tighten space
-  - close up space
-  - increase space
-  - indent
-  - indentation
-  - page break
-  - line break
-  - widow
-  - orphan
+  - loosen spaces
+  - tightening spacing
+  - tighten spaces
+  - close up spacing
+  - close up spaces
+  - increase spacing
+  - increase spaces
+  - indents
+  - indentations
+  - tab stops
+  - page breaks
+  - line breaks
+  - widows
+  - orphans
   - keep with next
   - keep lines together
   - page break before

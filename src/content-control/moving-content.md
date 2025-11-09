@@ -12,13 +12,15 @@ tags:
   - microsoft word
   - move content
   - move text
+  - moving text
   - keyboard shortcuts
-  - clipboard
+  - copy to clipboard
   - cut and paste
+  - cutting and pasting
   - drag and drop
+  - dragging and dropping
   - click and drag
-  - drag
-  - dragging
+  - clicking and dragging
 active: content-control
 ---
 

@@ -14,25 +14,25 @@ tags:
   - styles
   - styles gallery
   - quick styles gallery
-  - heading
-  - title
-  - top line
-  - headline
+  - headings
+  - titles
+  - top lines
+  - headlines
   - top text
   - big text
   - top part
   - start of the page
-  - main title
-  - page label
+  - main titles
+  - page labels
   - spacing
-  - white space
+  - white spaces
   - white area
-  - caption
-  - label
-  - name
+  - captions
+  - labels
+  - names
   - paragraph options
   - font options
-  - format
+  - formats
   - formatting
 active: word
 ---

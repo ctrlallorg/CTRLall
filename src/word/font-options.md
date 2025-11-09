@@ -12,31 +12,35 @@ tags:
   - microsoft word
   - font options
   - format text
-  - format sentence
-  - format paragraph
+  - format sentences
+  - format paragraphs
   - style text
   - style words
-  - style sentence
-  - style paragraph
-  - change font
+  - style sentences
+  - style paragraphs
+  - change fonts
   - align text
+  - font formats
+  - font styles
   - bold
-  - italic
+  - emboldneing
+  - italicising
   - underline
-  - bigger font
-  - smaller font
-  - font color
-  - font colour
+  - underlining
+  - bigger fonts
+  - smaller fonts
+  - font colors
+  - font colours
   - highlight
   - subscript
   - superscript
-  - change sentence case
+  - change sentence cases
   - lowercase
   - uppercase
   - all caps
-  - bullet list
-  - numbered list
-  - multilevel list
+  - bullet lists
+  - numbered lists
+  - multilevel lists
 active: word
 ---
 

@@ -10,12 +10,12 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - table
+  - tables
   - table layout
-  - column
+  - columns
   - column width
   - column distribution
-  - rogue column
+  - rogue columns
   - extending off screen
   - going off screen
   - disappears
@@ -25,11 +25,11 @@ tags:
   - can't control
   - gone
   - over the edge
-  - beyond the margin
-  - grey area
-  - issue
-  - problem
-  - error
+  - beyond the margins
+  - grey areas
+  - issues
+  - problems
+  - errors
   - broken
   - not working
   - help

@@ -23,14 +23,22 @@ tags:
   - how to open up word
   - open word app
   - make a document
+  - make documents
+  - new documents
+  - new files
   - create a document
   - create a docx
+  - opening word
+  - how to open word
   - how do i open word?
   - how to open a word document
   - how to open document
   - open a docx file
   - open a dotx file
   - open a doc file
+  - open a .docx file
+  - open a .dotx file
+  - open a .doc file
 active: word
 ---
 

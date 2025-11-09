@@ -10,19 +10,24 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - document
-  - template
+  - documents
+  - templates
   - save
   - save as
-  - file type
-  - type of file
-  - file format
-  - blueprint
-  - existing file
+  - file types
+  - type of files
+  - file formats
+  - blueprints
+  - new files
+  - new documents
+  - new templates
+  - existing files
+  - exsiting documents
+  - existing templates
   - edit a template
-  - docx
-  - dotx
-  - doc
+  - what is a dotx file?
+  - what is a dotx file?
+  - what is a doc file?
   - what is a .dotx file?
   - what is a .dotx file?
   - what is a .doc file?

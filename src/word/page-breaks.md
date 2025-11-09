@@ -10,21 +10,22 @@ date: 2025-10-30
 last_modified: 2025-10-30
 tags:
   - microsoft word
-  - page break
+  - inserting a page break
+  - inserting page breaks
   - jump to next page
   - shift to next page
   - move to next page
+  - page break in word
   - page breaks in word
+  - how to insert a page break
   - how to insert page break
   - word formatting tips
   - word layout tools
   - insert break between pages
-  - word document structure
-  - word pagination
-  - word page layout
+  - word document structures
+  - pagination
+  - page layouts
   - control page flow in word
-  - word tutorial
-  - word editing guide
 active: word
 ---
 

@@ -10,15 +10,15 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - list
-  - number list
-  - bullet list
+  - lists
+  - number lists
+  - bullet lists
   - bullets
-  - sequence
+  - sequences
   - sequential
-  - order
   - numerical
-  - number order
+  - list order
+  - list number order
   - in sync
   - synchronize
   - syncronized
@@ -27,9 +27,15 @@ tags:
   - separate
   - continue numbering
   - numbering value
-  - issue
-  - problem
-  - help
+  - list issues
+  - list problems
+  - list errors
+  - list help
+  - list stuck 
+  - list not working
+  - help with lists
+  - fix lists
+  - fix a list
   - how do i
 active: word
 ---

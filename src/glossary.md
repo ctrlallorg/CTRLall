@@ -29,7 +29,7 @@ tags:
   - file types explained
   - internet terms
   - software terms
-  - help guide
+  - help guides
   - educational resource
   - union education
   - library resource

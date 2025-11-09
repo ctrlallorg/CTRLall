@@ -10,18 +10,24 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - page
+  - pages
   - interface
   - screen area
   - zoom in
   - zoom out
+  - zooming
+  - zoom options
   - up close
   - make bigger
   - make smaller
   - reduce
+  - reducing
   - enlarge
+  - enlarging
   - increase
+  - increasing
   - scale
+  - scaling
   - fit on page
   - layout
   - screen size

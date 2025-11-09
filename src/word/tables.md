@@ -10,29 +10,37 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - table
+  - tables
   - table layout
-  - row
+  - rows
   - row height
-  - column
-  - column width
-  - increase column
-  - enlarge column
-  - expand column
-  - reduce column
+  - columns
+  - column widths
+  - increase a column
+  - increase columns
+  - enlarge a column
+  - enlarge columns
+  - expand a column
+  - expand columns
+  - reduce a column
+  - reduce columns
   - increase row height
-  - enlarge row
-  - expand row
-  - reduce row
+  - enlarge rows
+  - expand rows
+  - reduce rows
   - make narrower
-  - arrow
-  - cursor
-  - pointer
-  - mouse icon
-  - insert table
-  - edit table
-  - alter table
-  - modify table
+  - arrows
+  - cursors
+  - pointers
+  - mouse icons
+  - insert a table
+  - insert tables
+  - edit a table
+  - edit tables
+  - alter a table
+  - alter tables
+  - modify a table
+  - modify tables
 active: word
 ---
 

@@ -11,12 +11,13 @@ tags:
   - microsoft word
   - font options
   - format text
-  - format sentence
-  - format paragraph
+  - format sentences
+  - format paragraphs
+  - font style
   - style text
   - style words
-  - style sentence
-  - style paragraph
+  - style sentences
+  - style paragraphs
   - clipboard
   - copy
   - cut
@@ -28,25 +29,27 @@ tags:
   - change font
   - align text
   - bold
-  - italic
+  - emboldening
+  - italicising
   - underline
-  - bigger font
-  - smaller font
-  - font color
-  - font colour
+  - underlining
+  - bigger fonts
+  - smaller fonts
+  - font colors
+  - font colours
   - highlight
   - subscript
   - superscript
-  - change sentence case
+  - change sentence cases
   - capitals
   - lowercase
   - uppercase
   - all caps
-  - bullet list
-  - numbered list
-  - multilevel list
-  - indent
-  - tab
+  - bullet lists
+  - numbered lists
+  - multilevel lists
+  - indents
+  - tab stops
   - sort
   - line spacing
 active: word

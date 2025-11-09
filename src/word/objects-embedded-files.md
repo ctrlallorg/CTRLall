@@ -10,31 +10,51 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - external file
+  - OLE objects
+  - OLE framework
+  - Object Linking and Embedding
+  - insert a file into a word document
+  - inserting a file into a word document
+  - insert files into a word document
+  - inserting files into a word document
+  - embedded files
+  - embedding files
+  - attaching files to a word document
+  - external files
   - file attachment
-  - outside file
-  - other file
+  - outside files
+  - other files
+  - different files
   - another file
-  - in word document
-  - into word document
-  - inside word document
+  - file inside word document
   - attach to word document
+  - attach file to word document
+  - attach a file to word document
+  - attach files to word document
+  - attach to a word document
+  - attach a file to a word document
+  - attach file to a word document
+  - attach files to a word document
   - become part of the document
+  - become part of a document
   - microsoft excel
   - microsoft powerpoint
   - microsoft outlook
-  - email message
-  - zipped file
-  - audio file
-  - video file
-  - PDF
+  - email messages
+  - zipped files
+  - zip files
+  - 7z files
+  - audio files
+  - sound files
+  - video files
+  - PDFs
   - docx
   - xlsx
   - pptx
-  - msg
-  - zip
-  - mp3
-  - mp4
+  - msgs
+  - zips
+  - mp3s
+  - mp4s
 active: word
 ---
 

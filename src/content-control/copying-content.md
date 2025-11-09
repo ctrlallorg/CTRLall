@@ -11,12 +11,16 @@ last_modified: 2025-10-26
 tags:
   - microsoft word
   - copy content
+  - copying content
   - copy text
+  - copying text
   - duplicate content
   - duplicate text
+  - duplicating text
   - keyboard shortcuts
-  - clipboard
+  - copy to clipboard
   - copy and paste
+  - copying and pasting
 active: content-control
 ---
 

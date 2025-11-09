@@ -10,20 +10,21 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - indent
+  - indents
   - indenting
   - indentation
-  - indent marker
-  - tab
+  - indent markers
+  - tab stops
+  - tabs
   - move the first line
   - move rest of the paragraph
   - move text left and right
   - move text horizontally
-  - margin
-  - hanging indent
-  - first line indent
-  - left indent
-  - space
+  - margins
+  - hanging indents
+  - first line indents
+  - left indents
+  - spaces
   - spacing
 active: word
 ---

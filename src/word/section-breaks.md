@@ -10,21 +10,19 @@ date: 2025-10-30
 last_modified: 2025-10-30
 tags:
   - microsoft word
-  - section break
+  - section breaks
   - document sections
   - sections in a document
   - section breaks in word
-  - how to insert section break
-  - how to remove section break
-  - how to delete section break
+  - how to insert section breaks
+  - how to remove section breaks
+  - how to delete section breaks
   - word formatting tips
   - word layout tools
   - word document structure
   - word pagination
   - word section layout
   - control page flow in word
-  - word tutorial
-  - word editing guide
 active: word
 ---
 

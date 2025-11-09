@@ -10,9 +10,8 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - list
-  - number list
-  - bullet list
+  - number lists
+  - bullet lists
   - bullets
   - soft return
   - hard return
@@ -23,9 +22,15 @@ tags:
   - separate from list
   - connected
   - not connected
-  - issue
-  - problem
-  - help
+  - list issues
+  - list problems
+  - list errors
+  - list help
+  - list stuck 
+  - list not working
+  - help with lists
+  - fix lists
+  - fix a list
   - how do i
 active: word
 --- 

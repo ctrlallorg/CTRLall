@@ -13,11 +13,18 @@ tags:
   - select text
   - selecting text
   - click on
-  - choose
-  - highlight
+  - clicking on
+  - choose text
+  - choosing text
+  - highlight text
+  - highlighting text
+  - select a word
   - select words
+  - select a sentence
   - select sentence
+  - select a paragraph
   - select paragraph
+  - select a line
   - select line
 active: word
 ---

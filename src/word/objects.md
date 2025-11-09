@@ -10,12 +10,19 @@ date: 2025-10-26
 last_modified: 2025-10-26
 tags:
   - microsoft word
-  - object
-  - text box
-  - drawing canvas
-  - embedded file
-  - OLE object
-  - insert
+  - objects
+  - text boxes
+  - drawing canvases
+  - embedded files
+  - OLE objects
+  - adding
+  - inserting an object
+  - inserting objects
+  - place an object
+  - place objects
+  - placing an object
+  - placing objects
+  - equations
 active: word
 ---
 
