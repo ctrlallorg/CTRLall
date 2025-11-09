@@ -405,11 +405,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (!node.nodeValue?.trim()) continue;
     if (parent && parent.closest(".us-only")) continue;
 
-    console.debug("🔍 Scanning node:", node.nodeValue);
-
     const original = node.nodeValue;
     const swapped = original.replace(/\b[\w]+(?:-[\w]+)*\b/g, (word) => {
-      // Split hyphenated words into parts
       const parts = word.split("-");
       const swappedParts = parts.map(part => {
         const lower = part.toLowerCase();
@@ -417,8 +414,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         const replacement = entry?.[region];
 
         if (!replacement) return part;
-
-        // Preserve case
         if (part === part.toUpperCase()) return replacement.toUpperCase();
         if (part[0] === part[0].toUpperCase()) return replacement[0].toUpperCase() + replacement.slice(1);
         return replacement;
@@ -427,65 +422,40 @@ document.addEventListener("DOMContentLoaded", async () => {
       const result = swappedParts.join("-");
       if (result !== word) {
         console.debug(`✅ Replacing "${word}" → "${result}"`);
-      } else {
-        console.debug(`⛔ No dictionary match for "${word}"`);
       }
 
       return result;
     });
 
     if (swapped !== original) {
-      console.debug("✏️ Node updated:", swapped);
       node.nodeValue = swapped;
     }
   }
 
-  // Optional: debug overlay hook
-  // document.body.insertAdjacentHTML("beforeend", `<div style="position:fixed;bottom:0;left:0;background:#eee;padding:4px;font:12px monospace;">Region: ${region}</div>`);
+  // 🔁 Initialize search after dictionary and region are ready
+  if (typeof window.initSearch === "function") {
+    window.initSearch();
+  }
 });
 
-(function () {
-  console.log("Main.js loaded");
+// ─── Search Bar Logic ─────────────────────────────
+window.initSearch = function () {
+  console.log("🔍 Search initialized");
 
   const searchInput = document.getElementById("searchInput");
   const suggestionsList = document.getElementById("suggestions");
   let activeIndex = -1;
   let currentResults = [];
 
-  const dictionary = window.dictionary || {};
-  const region = window.region || "gb";
-
-  // ─── Locale-Aware Word Swapper ─────────────────────
-  function swapLocaleVariants(text, dictionary, region) {
-    return text.replace(/\b[\w]+(?:-[\w]+)*\b/g, (word) => {
-      const parts = word.split("-");
-      return parts
-        .map((part) => {
-          const lower = part.toLowerCase();
-          const replacement = dictionary[lower]?.[region];
-          if (!replacement) return part;
-          if (part === part.toUpperCase()) return replacement.toUpperCase();
-          if (part[0] === part[0].toUpperCase()) return replacement[0].toUpperCase() + replacement.slice(1);
-          return replacement;
-        })
-        .join("-");
-    });
-  }
-
-  // ─── Escape Regex Special Characters ───────────────
   function escapeRegExp(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   }
 
-  // ─── Highlight Matched Terms ──────────────────────
   function highlightMatch(text, query) {
-    const swapped = swapLocaleVariants(query, dictionary, region);
-    const variants = [query, swapped].filter((v, i, arr) => v && arr.indexOf(v) === i);
-    const regex = new RegExp(`(${variants.map(escapeRegExp).join("|")})`, "gi");
+    const regex = new RegExp(`(${escapeRegExp(query)})`, "gi");
     return text.replace(regex, "<mark>$1</mark>");
   }
 
-  // ─── Render Suggestions ───────────────────────────
   function renderSuggestions(results, query) {
     suggestionsList.innerHTML = "";
     activeIndex = -1;
@@ -513,7 +483,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
   }
 
-  // ─── Fetch and Filter Suggestions ─────────────────
   async function fetchSuggestions(query) {
     try {
       const response = await fetch("/search-index.json");
@@ -521,6 +490,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const items = await response.json();
 
       const lowerQuery = query.toLowerCase();
+
       return items.filter((item) =>
         Object.values(item).some((value) => {
           if (typeof value === "string") return value.toLowerCase().includes(lowerQuery);
@@ -534,7 +504,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }
 
-  // ─── Handle Input with Debounce ───────────────────
   let debounceTimer;
   searchInput.addEventListener("input", () => {
     clearTimeout(debounceTimer);
@@ -544,14 +513,12 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
 
-    const swappedQuery = swapLocaleVariants(rawQuery, dictionary, region);
     debounceTimer = setTimeout(async () => {
-      const results = await fetchSuggestions(swappedQuery);
+      const results = await fetchSuggestions(rawQuery);
       renderSuggestions(results, rawQuery);
     }, 200);
   });
 
-  // ─── Keyboard Navigation ──────────────────────────
   searchInput.addEventListener("keydown", (e) => {
     const items = suggestionsList.querySelectorAll(".suggestion-item");
     if (!items.length) return;
@@ -575,4 +542,4 @@ document.addEventListener("DOMContentLoaded", async () => {
     items[activeIndex].classList.add("active");
     items[activeIndex].scrollIntoView({ block: "nearest" });
   }
-})();
+};

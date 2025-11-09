@@ -26,6 +26,7 @@ tags:
   - bigger font
   - smaller font
   - font color
+  - font colour
   - highlight
   - subscript
   - superscript
