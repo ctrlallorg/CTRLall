@@ -444,116 +444,135 @@ document.addEventListener("DOMContentLoaded", async () => {
   // document.body.insertAdjacentHTML("beforeend", `<div style="position:fixed;bottom:0;left:0;background:#eee;padding:4px;font:12px monospace;">Region: ${region}</div>`);
 });
 
-
-
-  // ─── Search Bar Functionality ────────────────────────────────────────
 (function () {
   console.log("Main.js loaded");
 
-  const searchInput = document.getElementById('searchInput');
-  const suggestionsList = document.getElementById('suggestions');
+  const searchInput = document.getElementById("searchInput");
+  const suggestionsList = document.getElementById("suggestions");
   let activeIndex = -1;
   let currentResults = [];
+
+  const dictionary = window.dictionary || {};
+  const region = window.region || "gb";
+
+  // ─── Locale-Aware Word Swapper ─────────────────────
+  function swapLocaleVariants(text, dictionary, region) {
+    return text.replace(/\b[\w]+(?:-[\w]+)*\b/g, (word) => {
+      const parts = word.split("-");
+      return parts
+        .map((part) => {
+          const lower = part.toLowerCase();
+          const replacement = dictionary[lower]?.[region];
+          if (!replacement) return part;
+          if (part === part.toUpperCase()) return replacement.toUpperCase();
+          if (part[0] === part[0].toUpperCase()) return replacement[0].toUpperCase() + replacement.slice(1);
+          return replacement;
+        })
+        .join("-");
+    });
+  }
+
+  // ─── Escape Regex Special Characters ───────────────
+  function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  // ─── Highlight Matched Terms ──────────────────────
+  function highlightMatch(text, query) {
+    const swapped = swapLocaleVariants(query, dictionary, region);
+    const variants = [query, swapped].filter((v, i, arr) => v && arr.indexOf(v) === i);
+    const regex = new RegExp(`(${variants.map(escapeRegExp).join("|")})`, "gi");
+    return text.replace(regex, "<mark>$1</mark>");
+  }
+
+  // ─── Render Suggestions ───────────────────────────
+  function renderSuggestions(results, query) {
+    suggestionsList.innerHTML = "";
+    activeIndex = -1;
+    currentResults = results;
+
+    if (results.length === 0) {
+      suggestionsList.innerHTML = `<li class="no-results">No matches found for "${query}"</li>`;
+      return;
+    }
+
+    results.forEach((item, index) => {
+      const li = document.createElement("li");
+      li.innerHTML = `
+        <strong>${highlightMatch(item.title || "Untitled", query)}</strong>
+        <div class="suggestion-meta">${highlightMatch(item.description || "", query)}</div>
+      `;
+      li.classList.add("suggestion-item");
+      li.setAttribute("data-index", index);
+
+      const destination = item.permalink || item.url || "/";
+      console.log("🔗 Navigating to:", destination, item);
+      li.onclick = () => window.location.href = destination;
+
+      suggestionsList.appendChild(li);
+    });
+  }
 
   // ─── Fetch and Filter Suggestions ─────────────────
   async function fetchSuggestions(query) {
     try {
-      const response = await fetch('/search-index.json');
+      const response = await fetch("/search-index.json");
       if (!response.ok) throw new Error("Failed to load search index");
-
-console.log("Loaded dictionary:", dictionary);
-console.log("Using region:", region);
-
-
-
       const items = await response.json();
-      const lowerQuery = query.toLowerCase();
 
-      return items.filter(item => {
-        const inTitle = item.title.toLowerCase().includes(lowerQuery);
-        const inDesc = item.description.toLowerCase().includes(lowerQuery);
-        const inTags = item.tags.some(tag => tag.toLowerCase().includes(lowerQuery));
-        return inTitle || inDesc || inTags;
-      });
+      const lowerQuery = query.toLowerCase();
+      return items.filter((item) =>
+        Object.values(item).some((value) => {
+          if (typeof value === "string") return value.toLowerCase().includes(lowerQuery);
+          if (Array.isArray(value)) return value.some((v) => typeof v === "string" && v.toLowerCase().includes(lowerQuery));
+          return false;
+        })
+      );
     } catch (error) {
       console.error("Search error:", error);
       return [];
     }
   }
 
-  // ─── Highlight Matched Terms ──────────────────────
-  function highlightMatch(text, query) {
-    const regex = new RegExp(`(${query})`, 'gi');
-    return text.replace(regex, '<mark>$1</mark>');
-  }
-
-  // ─── Render Suggestions ───────────────────────────
-  function renderSuggestions(results, query) {
-    suggestionsList.innerHTML = '';
-    activeIndex = -1;
-    currentResults = results;
-
-    results.forEach((item, index) => {
-      const li = document.createElement('li');
-      li.innerHTML = highlightMatch(item.title, query);
-      li.setAttribute('data-index', index);
-      li.classList.add('suggestion-item');
-      li.onclick = () => window.location.href = item.permalink;
-      suggestionsList.appendChild(li);
-    });
-  }
-
-  // ─── Handle Input with Debounce + Locale Swap ─────
+  // ─── Handle Input with Debounce ───────────────────
   let debounceTimer;
-  searchInput.addEventListener('input', () => {
+  searchInput.addEventListener("input", () => {
     clearTimeout(debounceTimer);
     const rawQuery = searchInput.value.trim();
-    if (rawQuery.length === 0) {
-      suggestionsList.innerHTML = '';
+    if (!rawQuery) {
+      suggestionsList.innerHTML = "";
       return;
     }
 
-    // Convert spelling based on locale
-    const words = rawQuery.split(/\b/);
-    const converted = words.map(word => {
-      const entry = dictionary[word.toLowerCase()];
-      if (!entry || !entry[region]) return word;
-
-      const replacement = entry[region];
-      if (word === word.toUpperCase()) return replacement.toUpperCase();
-      if (word[0] === word[0].toUpperCase()) return replacement[0].toUpperCase() + replacement.slice(1);
-      return replacement;
-    });
-    const swappedQuery = converted.join("");
-
+    const swappedQuery = swapLocaleVariants(rawQuery, dictionary, region);
     debounceTimer = setTimeout(async () => {
       const results = await fetchSuggestions(swappedQuery);
-      renderSuggestions(results, swappedQuery);
+      renderSuggestions(results, rawQuery);
     }, 200);
   });
 
   // ─── Keyboard Navigation ──────────────────────────
-  searchInput.addEventListener('keydown', (e) => {
-    const items = suggestionsList.querySelectorAll('.suggestion-item');
-    if (items.length === 0) return;
+  searchInput.addEventListener("keydown", (e) => {
+    const items = suggestionsList.querySelectorAll(".suggestion-item");
+    if (!items.length) return;
 
-    if (e.key === 'ArrowDown') {
+    if (e.key === "ArrowDown") {
       e.preventDefault();
       activeIndex = (activeIndex + 1) % items.length;
       updateActiveItem(items);
-    } else if (e.key === 'ArrowUp') {
+    } else if (e.key === "ArrowUp") {
       e.preventDefault();
       activeIndex = (activeIndex - 1 + items.length) % items.length;
       updateActiveItem(items);
-    } else if (e.key === 'Enter' && activeIndex >= 0) {
+    } else if (e.key === "Enter" && activeIndex >= 0) {
       e.preventDefault();
       items[activeIndex].click();
     }
   });
 
   function updateActiveItem(items) {
-    items.forEach(item => item.classList.remove('active'));
-    items[activeIndex].classList.add('active');
-    items[activeIndex].scrollIntoView({ block: 'nearest' });
+    items.forEach((item) => item.classList.remove("active"));
+    items[activeIndex].classList.add("active");
+    items[activeIndex].scrollIntoView({ block: "nearest" });
   }
 })();
