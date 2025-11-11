@@ -55,6 +55,7 @@ tags:
   - keep with next
   - keep lines together
   - page break before
+  - outline levels
 active: word
 ---
 
@@ -93,8 +94,8 @@ Font options window for editing all things about a text's font. You can access F
 
 <p>Changing the outline level of a paragraph has the following affects in these areas:</p>
 <ul>
-    <li><p><strong>Table of Contents</strong>: Levels 1-3 will show up as headings in a table of contents which become links to the location of those headings in the document. You may have noticed applying the styles 'Heading 1', 'Heading 2' and 'Heading 3' on text make it appear in a TOC; this is because those styles have an outline level.</p>
-    <p><u>Note</u>: Level 4-9 won't show up on a TOC.</p>
+    <li><p><strong>Table of Contents</strong>: By default levels 1-3 will show up as headings in a table of contents which become links to the location of those headings in the document. You may have noticed applying the styles 'Heading 1', 'Heading 2' and 'Heading 3' on text make it appear in a TOC; this is because those styles have an outline level.</p>
+    <p><u>Note</u>: Level 4-9 won't show up on a TOC unless you explictly change it in Table of Content options.</p>
     <p><img class="thumbnail border" 
      src="{{ '/assets/images/word/Paragraph options/TOC with heading levels 1-3.png' | url }}" alt="Outline level Collapsed by default checkbox" style="width:60%; height:auto; vertical-align:middle; margin-bottom:2em;"></p></li>
     <li><p><strong>Navigation Pane</strong>: Levels show up as headings on the navigation pane which like a TOC you can click to go to its location in the document. Open it via <strong>View > Navigation pane</strong>.</p>

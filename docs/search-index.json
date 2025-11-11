@@ -960,7 +960,8 @@
       "orphans",
       "keep with next",
       "keep lines together",
-      "page break before"
+      "page break before",
+      "outline levels"
     ],
     "url": "/word/paragraph-options/"
   },

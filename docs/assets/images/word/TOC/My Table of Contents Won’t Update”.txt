@@ -1,0 +1,12 @@
+My Table of Contents Won’t Update”
+Problem: You add new headings, but TOC stays frozen. Fix:
+Right-click TOC → Update Field → Choose “Update entire table”.
+CTRL All overlay: Show how TOC links to heading styles and field codes.
+
+
+
+My headings won't appear in the TOC
+Check styling
+
+
+The ..................... between word and number

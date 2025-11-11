@@ -1,0 +1,8 @@
+My Heading Won’t Show Up in the Navigation Pane”
+Problem: You apply a heading style, but it doesn’t appear in the left-hand outline. Fix:
+
+Confirm it’s a built-in Heading 1/2/3 style — not a custom style with similar formatting.
+
+Check that the paragraph isn’t inside a text box or table (Word ignores those in the Nav Pane).
+
+CTRL All glossary toggle: Explain style hierarchy vs. visual formatting.
