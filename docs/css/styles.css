@@ -436,7 +436,7 @@ img.border {
   height: auto;
   display: block;
   border: 1px solid #ccc;
-  margin: 0.5rem auto 1.2rem auto; /* same centering logic */
+  margin: 0.5rem auto 1.2rem auto; /* centering logic */
 }
 
 
@@ -1017,6 +1017,7 @@ table td {
   cursor: pointer;
   margin: 10px 0;
   pointer-events: auto;
+  margin: 0.5rem auto 1.2rem auto; /* centering logic */
 }
 
 .modal {

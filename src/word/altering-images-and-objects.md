@@ -36,6 +36,18 @@ tags:
   - change images
   - changing an image
   - changing images
+  - edit an object
+  - edit objects
+  - editing an object
+  - editing objects
+  - alter an object
+  - alter objects
+  - altering an object
+  - altering objects
+  - change an object
+  - change objects
+  - changing an object
+  - changing objects
   - redraw
   - make smaller
   - make bigger
@@ -49,6 +61,14 @@ tags:
   - rotate images
   - rotating an image
   - rotating images
+  - resize an object
+  - resize objects
+  - resizing an object
+  - resizing objects
+  - rotate an object
+  - rotate objects
+  - rotating an object
+  - rotating objects
   - change colors
   - change colours
   - move around

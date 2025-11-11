@@ -57,19 +57,21 @@ active: about
   <h1>About us</h1>
 
   <h2>Why Ctrl All?</h2>
-  <p>Digital literacy isn’t just knowing which buttons to press — it’s understanding the system, navigating it with confidence, and helping others do the same. Ctrl All is built by a union member, educator, and open-source advocate who believes in legacy, clarity, and community. This space is designed to be inspectable, reproducible, and empowering.</p>
+  <p>Digital literacy isn’t just knowing which buttons to press — it’s understanding the system, navigating it with confidence, and helping others do the same. 
+  
+  Ctrl All is built by an open-source advocate who believes in clarity, confidence, and control. This space is to empower anyone, new or experienced with Microsoft Office, who’s stuck or wants to go further.</p>
 
   <h2>What You'll Find Here</h2>
-  <p>Whether you're troubleshooting a stubborn spreadsheet, teaching others to navigate tech, or rebuilding workflows from the ground up, Ctrl All gives you the tools to take back control. No gatekeeping. No jargon. Just clear, modular guidance and community-powered learning.</p>
+  <p>Whether you're troubleshooting a problem in a Word document, can't find a tool, or just want to understand how an option works, Ctrl All gives you all the knowledge you need to achieve it. All jargon and terms explained. No bloated filler content for clicks. No gatekeeping paywalls. Just clear, modular guidance and demonstration-led self-paced learning.</p>
 
   <ul>
     <li><strong>Guides & Tutorials</strong>: Step-by-step walkthroughs for real-world digital tasks.</li>
-    <li><strong>Reusable Resources</strong>: Tools and templates designed for clarity and remixability.</li>
+    <li><strong>Reusable Resources (to come)</strong>: Tools and templates designed for clarity and remixability.</li>
     <li><strong>Feedback & Requests</strong>: Your voice shapes this space — contribute ideas, tips, and needs.</li>
   </ul>
 
   <h2>Language</h2>
-    <p>Use the toggle at the top if you want to switch between US AND UK/CA/AU/NZ English; Microsoft app options and labels are in US english by default to reflect the programs.</p>
+    <p>Use the toggle at the top if you want to switch between US and UK/CA/AU/NZ English; Microsoft app options and labels remain in US english by default to reflect the programs.</p>
 
 
   <h2>Get Started</h2>
