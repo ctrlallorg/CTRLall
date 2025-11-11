@@ -6,7 +6,7 @@ canonical: /about/
 description: About us.
 image: /assets/images/Ctrl All logo blue.svg
 asset_id: ctrlall-about-v1
-date: 2025-10-26
+date: 2025-11-11
 last_modified: 2025-10-26
 tags:
   - ctrl all
@@ -14,41 +14,76 @@ tags:
   - digital education
   - digital skills
   - computing basics
-  - tech terms explained
-  - plain language tech
-  - beginner-friendly
-  - new to windows
-  - new to word
-  - examples
-  - fix issue
-  - solve problem
-  - get answers
-  - no jargon
-  - make sense
-  - explain
-  - free
-  - no paywalls
-  - accessible
-  - teach yourself
-  - self-taught
   - learn microsoft word
   - learning microsoft word
   - microsoft office basics
   - microsoft word basics
   - microsoft office for beginners
   - microsoft word for beginners
-  - help guide
-  - article
-  - how to guide
+  - Word tips and tricks
+  - Excel tips and tricks
+  - Windows tips and tricks
+  - new to windows
+  - new to word
+  - tech terms explained
+  - plain language tech
+  - beginner-friendly
+  - fix issue
+  - solve problem
+  - get answers
+  - no jargon
+  - jargon explained
+  - explains tech jargon
+  - technical terms explained
+  - explains computer terms
+  - make sense of computer jargon
+  - explains in laymans terms
+  - explaining in laymans terms
+  - written in plain english
+  - no filler
+  - no clickbait
+  - no paywalls
+  - no gatekeeping
+  - open to anyone
+  - open to everyone
+  - open to everybody
+  - annotated image examples
+  - animated GIF examples
+  - animated GIF demonstrations
+  - demonstration-led learning
+  - free education
+  - free learning
+  - free lessons
+  - self-led learning
+  - self-led education
+  - self-led lessons
+  - self-led steps
+  - self-taught learning
+  - self-taught education
+  - self-taught lessons
+  - self-taught steps
+  - easy to follow steps
+  - step-by-step learning
+  - step by step education
+  - accessible
+  - teach yourself
+  - help guides
+  - help articles
+  - how to guides
   - about us
-  - union education
   - library digital skills
   - library resource
   - library training
+  - library learning
+  - library education
   - glossary of computer terms
+  - index of computer terms
   - educational resource
+  - union education
   - corporate office education
-  - computing basics
+  - community resource
+  - community education
+  - community learning
 active: about
 ---
 
@@ -57,12 +92,12 @@ active: about
   <h1>About us</h1>
 
   <h2>Why Ctrl All?</h2>
-  <p>Digital literacy isn’t just knowing which buttons to press — it’s understanding the system, navigating it with confidence, and helping others do the same. 
+  <p>Digital literacy isn’t just knowing which buttons to press — it’s understanding the system, navigating it with confidence, and helping others do the same.</p>
   
-  Ctrl All is built by an open-source advocate who believes in clarity, confidence, and control. This space is to empower anyone, new or experienced with Microsoft Office, who’s stuck or wants to go further.</p>
+  <p>Ctrl All is built by an open-source advocate who believes in clarity, confidence, and control. This space empowers anyone — whether you're new to Microsoft Office or an experienced user — to get unstuck or to go one step further.</p>
 
   <h2>What You'll Find Here</h2>
-  <p>Whether you're troubleshooting a problem in a Word document, can't find a tool, or just want to understand how an option works, Ctrl All gives you all the knowledge you need to achieve it. All jargon and terms explained. No bloated filler content for clicks. No gatekeeping paywalls. Just clear, modular guidance and demonstration-led self-paced learning.</p>
+  <p>Whether you're troubleshooting an issue, need to find a tool or option, or just want to understand how something works, Ctrl All gives you the knowledge you need to make that happen. All jargon and terms explained. No bloated filler content for clicks. No gatekeeping paywalls. Just clear, modular guidance and demonstration-led, self-paced learning.</p>
 
   <ul>
     <li><strong>Guides & Tutorials</strong>: Step-by-step walkthroughs for real-world digital tasks.</li>
