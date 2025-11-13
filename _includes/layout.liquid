@@ -51,13 +51,19 @@
 
   <meta name="google-adsense-account" content="ca-pub-6596712504858429">
 
+  {% if page.url == '/coming-soon/' %}
+  <meta name="robots" content="noindex">
+  {% endif %}
+
+
   <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div id="portrait-warning">This website is better experienced in landscape mode.</div>
 
+  {% include "mobile-overlay.liquid" %}
+  
   <noscript>
     <div class="noscript-warning">JavaScript is required for full site functionality.</div>
   </noscript>

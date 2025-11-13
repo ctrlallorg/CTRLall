@@ -177,16 +177,23 @@ if (
 }
 
 
-  // ─── Mobile Orientation Overlay ─────────────
-  function checkOrientation() {
-    const overlay = document.getElementById("portrait-overlay");
-    if (overlay) {
-      overlay.style.display = window.innerHeight > window.innerWidth ? "flex" : "none";
-    }
+// ─── Mobile  Overlay ─────────────
+// Show overlay if screen width is below threshold (e.g., 768px)
+window.addEventListener("load", () => {
+  if (window.innerWidth < 768) {
+    document.getElementById("mobileOverlay").style.display = "flex";
   }
+});
 
-  window.addEventListener("resize", checkOrientation);
-  window.addEventListener("load", checkOrientation);
+// Optional: also listen for resize
+window.addEventListener("resize", () => {
+  if (window.innerWidth < 768) {
+    document.getElementById("mobileOverlay").style.display = "flex";
+  } else {
+    document.getElementById("mobileOverlay").style.display = "none";
+  }
+});
+
 
 // ─── Modal Image Preview ─────────────────────
 const modal = document.getElementById("imageModal");
@@ -437,7 +444,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     window.initSearch();
   }
 });
-
 // ─── Search Bar Logic ─────────────────────────────
 window.initSearch = function () {
   console.log("🔍 Search initialized");
@@ -447,15 +453,18 @@ window.initSearch = function () {
   let activeIndex = -1;
   let currentResults = [];
 
+  // Escape regex special characters
   function escapeRegExp(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   }
 
+  // Highlight matching query text
   function highlightMatch(text, query) {
     const regex = new RegExp(`(${escapeRegExp(query)})`, "gi");
     return text.replace(regex, "<mark>$1</mark>");
   }
 
+  // Render suggestions
   function renderSuggestions(results, query) {
     suggestionsList.innerHTML = "";
     activeIndex = -1;
@@ -469,7 +478,7 @@ window.initSearch = function () {
     results.forEach((item, index) => {
       const li = document.createElement("li");
       li.innerHTML = `
-        <strong>${highlightMatch(item.title || "Untitled", query)}</strong>
+        ${highlightMatch(item.title || "Untitled", query)}
         <div class="suggestion-meta">${highlightMatch(item.description || "", query)}</div>
       `;
       li.classList.add("suggestion-item");
@@ -477,12 +486,17 @@ window.initSearch = function () {
 
       const destination = item.permalink || item.url || "/";
       console.log("🔗 Navigating to:", destination, item);
-      li.onclick = () => window.location.href = destination;
+      li.onclick = () => {
+        window.location.href = destination;
+      };
 
       suggestionsList.appendChild(li);
     });
+
+    suggestionsList.style.display = "block";
   }
 
+  // Fetch suggestions from index
   async function fetchSuggestions(query) {
     try {
       const response = await fetch("/search-index.json");
@@ -504,12 +518,14 @@ window.initSearch = function () {
     }
   }
 
+  // Debounce input
   let debounceTimer;
   searchInput.addEventListener("input", () => {
     clearTimeout(debounceTimer);
     const rawQuery = searchInput.value.trim();
     if (!rawQuery) {
       suggestionsList.innerHTML = "";
+      suggestionsList.style.display = "none";
       return;
     }
 
@@ -519,6 +535,7 @@ window.initSearch = function () {
     }, 200);
   });
 
+  // Keyboard navigation
   searchInput.addEventListener("keydown", (e) => {
     const items = suggestionsList.querySelectorAll(".suggestion-item");
     if (!items.length) return;
@@ -537,9 +554,18 @@ window.initSearch = function () {
     }
   });
 
+  // Update active suggestion
   function updateActiveItem(items) {
     items.forEach((item) => item.classList.remove("active"));
     items[activeIndex].classList.add("active");
     items[activeIndex].scrollIntoView({ block: "nearest" });
   }
+
+  // Hide suggestions when clicking outside
+  document.addEventListener("click", (event) => {
+    if (!searchInput.contains(event.target) && !suggestionsList.contains(event.target)) {
+      suggestionsList.innerHTML = "";
+      suggestionsList.style.display = "none";
+    }
+  });
 };

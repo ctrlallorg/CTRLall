@@ -1,5 +1,10 @@
 [
   {
+    "title": "",
+    "tags": [],
+    "url": "/test/"
+  },
+  {
     "title": "About Ctrl All",
     "tags": [
       "ctrl all",
@@ -1069,6 +1074,29 @@
       "formatting"
     ],
     "url": "/word/styles/"
+  },
+  {
+    "title": "Table of contents",
+    "tags": [
+      "microsoft word",
+      "insert custom table of contents",
+      "insert a custom table of contents",
+      "inserting a custom table of contents",
+      "edit custom table of contents",
+      "edit a custom table of contents",
+      "update custom table of contents",
+      "update a custom table of contents",
+      "updating custom table of contents",
+      "updating a custom table of contents",
+      "headings",
+      "page numbers",
+      "page numbering",
+      "hyperlinks",
+      "links",
+      "TOC",
+      "How a table of contents works in Word"
+    ],
+    "url": "/word/table-of-contents-custom/"
   },
   {
     "title": "Table of contents",
