@@ -9,6 +9,9 @@ asset_id: ctrlall-headers-and-footers-v1
 date: 2025-11-13
 last_modified: 2025-11-13
 tags:
+  - ctrlall.org
+  - ctrlall
+  - ctrl all
   - microsoft word
   - headers
   - footers

@@ -9,6 +9,9 @@ asset_id: ctrlall-saving-and-save-as-v1
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:
+  - ctrlall.org
+  - ctrlall
+  - ctrl all
   - microsoft word
   - save
   - save as

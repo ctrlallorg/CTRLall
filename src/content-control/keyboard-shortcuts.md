@@ -7,6 +7,9 @@ description: Keyboard shortcuts in Windows and Microsoft Office with tooltip vis
 image: /assets/images/Ctrl All logo blue.svg
 asset_id: ctrlall-keyboard-shortcuts-v1
 tags:
+  - ctrlall.org
+  - ctrlall
+  - ctrl all
   - windows
   - microsoft word
   - microsoft excel

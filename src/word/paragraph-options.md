@@ -9,6 +9,9 @@ asset_id: ctrlall-paragraph-options-v1
 date: 2025-10-26
 last_modified: 2025-10-30
 tags:
+  - ctrlall.org
+  - ctrlall
+  - ctrl all
   - microsoft word
   - paragraph options
   - format paragraph

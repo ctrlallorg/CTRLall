@@ -9,6 +9,9 @@ asset_id: ctrlall-page-breaks-v1
 date: 2025-10-30
 last_modified: 2025-10-30
 tags:
+  - ctrlall.org
+  - ctrlall
+  - ctrl all
   - microsoft word
   - inserting a page break
   - inserting page breaks

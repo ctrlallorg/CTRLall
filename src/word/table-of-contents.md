@@ -9,6 +9,9 @@ asset_id: ctrlall-table-of-contents-v1
 date: 2025-11-13
 last_modified: 2025-11-12
 tags:
+  - ctrlall.org
+  - ctrlall
+  - ctrl all
   - microsoft word
   - insert table of contents
   - insert a table of contents

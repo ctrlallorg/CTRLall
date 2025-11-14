@@ -9,6 +9,9 @@ asset_id: ctrlall-table-of-contents-custom-v1
 date: 2025-11-12
 last_modified: 2025-11-12
 tags:
+  - ctrlall.org
+  - ctrlall
+  - ctrl all
   - microsoft word
   - insert custom table of contents
   - insert a custom table of contents
@@ -162,7 +165,7 @@ active: word
         </div>`,
       "toc-modify-tooltip-3": `
         <div class="rich-tooltip">
-          <p>Modify the TOC style as needed, this will bring up the style formatting dialog to adjust font, spacing, tab setting etc.</p>
+          <p>Modify the TOC style as needed, this will bring up the style formatting dialog to adjust font, spacing, tab setting etc. See formatting options</p>
         </div>`,
       "toc-modify-tooltip-4": `
         <div class="rich-tooltip">

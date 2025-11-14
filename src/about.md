@@ -9,6 +9,8 @@ asset_id: ctrlall-about-v1
 date: 2025-11-11
 last_modified: 2025-10-26
 tags:
+  - ctrlall.org
+  - ctrlall
   - ctrl all
   - digital literacy
   - digital education

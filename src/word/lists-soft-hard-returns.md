@@ -9,6 +9,9 @@ asset_id: ctrlall-lists-soft-hard-returns-v1
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:
+  - ctrlall.org
+  - ctrlall
+  - ctrl all
   - microsoft word
   - number lists
   - bullet lists

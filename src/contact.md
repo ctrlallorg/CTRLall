@@ -9,6 +9,8 @@ image: /assets/images/Ctrl All logo blue.svg
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:
+  - ctrlall.org
+  - ctrlall
   - ctrl all
   - contact us
   - contact form

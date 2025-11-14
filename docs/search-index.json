@@ -1,12 +1,9 @@
 [
   {
-    "title": "",
-    "tags": [],
-    "url": "/test/"
-  },
-  {
     "title": "About Ctrl All",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
       "ctrl all",
       "digital literacy",
       "digital education",
@@ -88,6 +85,8 @@
   {
     "title": "Contact us",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
       "ctrl all",
       "contact us",
       "contact form",
@@ -115,6 +114,8 @@
   {
     "title": "Glossary",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
       "ctrl all",
       "glossary",
       "glossary of computer terms",
@@ -145,6 +146,8 @@
   {
     "title": "CTRL All",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
       "ctrl all",
       "digital literacy",
       "digital education",
@@ -203,114 +206,11 @@
     "url": "/"
   },
   {
-    "title": "Getting started with Microsoft Word",
-    "tags": [
-      "microsoft word",
-      "what is word",
-      "get started with word",
-      "new to word",
-      "starting with word",
-      "word for beginner",
-      "never used word",
-      "not used word before",
-      "how do you use word",
-      "what do you do in word",
-      "how does word work",
-      "how to open up word",
-      "open word app",
-      "make a document",
-      "make documents",
-      "new documents",
-      "new files",
-      "create a document",
-      "create a docx",
-      "opening word",
-      "how to open word",
-      "how do i open word?",
-      "how to open a word document",
-      "how to open document",
-      "open a docx file",
-      "open a dotx file",
-      "open a doc file",
-      "open a .docx file",
-      "open a .dotx file",
-      "open a .doc file"
-    ],
-    "url": "/word/getting-started-word/"
-  },
-  {
-    "title": "Tables: Fixing tables extending off the page",
-    "tags": [
-      "microsoft word",
-      "tables",
-      "table layout",
-      "columns",
-      "column width",
-      "column distribution",
-      "rogue columns",
-      "extending off screen",
-      "going off screen",
-      "disappears",
-      "disappeared",
-      "can't see",
-      "invisible",
-      "can't control",
-      "gone",
-      "over the edge",
-      "beyond the margins",
-      "grey areas",
-      "issues",
-      "problems",
-      "errors",
-      "broken",
-      "not working",
-      "help",
-      "how do i",
-      "retrieve",
-      "get back"
-    ],
-    "url": "/word/tables-fixing-tables-extending-offscreen/"
-  },
-  {
-    "title": "Tables: Fixing tables over pages",
-    "tags": [
-      "microsoft word",
-      "tables",
-      "table layout",
-      "rows",
-      "row height",
-      "row distribution",
-      "skips to next page",
-      "extends off page",
-      "goes to next page",
-      "shifts to next page",
-      "shifts down",
-      "straddling both pages",
-      "table splits",
-      "split tables",
-      "disappears",
-      "over the edge",
-      "over the page",
-      "jumps down",
-      "repeat header row",
-      "top of page",
-      "merged row",
-      "fit on page",
-      "issues",
-      "problems",
-      "errors",
-      "broken",
-      "not working",
-      "helps",
-      "how do i",
-      "retrieve",
-      "get back"
-    ],
-    "url": "/word/tables-fixing-tables-over-pages/"
-  },
-  {
     "title": "Copying content",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "copy content",
       "copying content",
@@ -329,6 +229,9 @@
   {
     "title": "Moving content",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "move content",
       "move text",
@@ -345,22 +248,11 @@
     "url": "/content-control/moving-content/"
   },
   {
-    "title": "Keyboard Shortcuts",
-    "tags": [
-      "windows",
-      "microsoft word",
-      "microsoft excel",
-      "keyboard shortcut",
-      "hotkey",
-      "keyboard shortcuts",
-      "keys",
-      "buttons"
-    ],
-    "url": "/content-control/keyboard-shortcuts/"
-  },
-  {
     "title": "Altering images and objects",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "images",
       "graphics",
@@ -431,6 +323,9 @@
   {
     "title": "Documents vs Templates",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "documents",
       "templates",
@@ -457,6 +352,9 @@
   {
     "title": "Editing charts",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "microsoft excel",
       "charts",
@@ -481,6 +379,9 @@
   {
     "title": "Font options",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "font options",
       "format text",
@@ -519,6 +420,9 @@
   {
     "title": "Formatting text",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "font options",
       "format text",
@@ -567,8 +471,50 @@
     "url": "/word/formatting-text/"
   },
   {
+    "title": "Getting started with Microsoft Word",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "microsoft word",
+      "what is word",
+      "get started with word",
+      "new to word",
+      "starting with word",
+      "word for beginner",
+      "never used word",
+      "not used word before",
+      "how do you use word",
+      "what do you do in word",
+      "how does word work",
+      "how to open up word",
+      "open word app",
+      "make a document",
+      "make documents",
+      "new documents",
+      "new files",
+      "create a document",
+      "create a docx",
+      "opening word",
+      "how to open word",
+      "how do i open word?",
+      "how to open a word document",
+      "how to open document",
+      "open a docx file",
+      "open a dotx file",
+      "open a doc file",
+      "open a .docx file",
+      "open a .dotx file",
+      "open a .doc file"
+    ],
+    "url": "/word/getting-started-word/"
+  },
+  {
     "title": "Headers and Footers",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "headers",
       "footers",
@@ -639,6 +585,9 @@
   {
     "title": "Image and object issues",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "images",
       "graphics",
@@ -679,6 +628,9 @@
   {
     "title": "Images and graphic visuals",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "insert an image",
       "insert images",
@@ -710,6 +662,9 @@
   {
     "title": "Indents",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "indents",
       "indenting",
@@ -733,6 +688,9 @@
   {
     "title": "Lists: Fixing number lists",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "lists",
       "number lists",
@@ -767,6 +725,9 @@
   {
     "title": "Lists: Soft & hard returns",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "number lists",
       "bullet lists",
@@ -796,6 +757,9 @@
   {
     "title": "Embedded files",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "OLE objects",
       "OLE framework",
@@ -848,6 +812,9 @@
   {
     "title": "Objects",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "objects",
       "text boxes",
@@ -868,6 +835,9 @@
   {
     "title": "Page breaks",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "inserting a page break",
       "inserting page breaks",
@@ -891,6 +861,9 @@
   {
     "title": "Pages and Views",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "pages",
       "interface",
@@ -924,6 +897,9 @@
   {
     "title": "Paragraph options",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "paragraph options",
       "format paragraph",
@@ -973,6 +949,9 @@
   {
     "title": "Saving and Save As",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "save",
       "save as",
@@ -1004,6 +983,9 @@
   {
     "title": "Section breaks",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "section breaks",
       "document sections",
@@ -1024,6 +1006,9 @@
   {
     "title": "Selecting text",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "select text",
       "selecting text",
@@ -1047,6 +1032,9 @@
   {
     "title": "Styles",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "styling",
       "styles",
@@ -1078,6 +1066,9 @@
   {
     "title": "Table of contents",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "insert custom table of contents",
       "insert a custom table of contents",
@@ -1101,6 +1092,9 @@
   {
     "title": "Table of contents",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "insert table of contents",
       "insert a table of contents",
@@ -1122,8 +1116,87 @@
     "url": "/word/table-of-contents/"
   },
   {
+    "title": "Tables: Fixing tables extending off the page",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "microsoft word",
+      "tables",
+      "table layout",
+      "columns",
+      "column width",
+      "column distribution",
+      "rogue columns",
+      "extending off screen",
+      "going off screen",
+      "disappears",
+      "disappeared",
+      "can't see",
+      "invisible",
+      "can't control",
+      "gone",
+      "over the edge",
+      "beyond the margins",
+      "grey areas",
+      "issues",
+      "problems",
+      "errors",
+      "broken",
+      "not working",
+      "help",
+      "how do i",
+      "retrieve",
+      "get back"
+    ],
+    "url": "/word/tables-fixing-tables-extending-offscreen/"
+  },
+  {
+    "title": "Tables: Fixing tables over pages",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "microsoft word",
+      "tables",
+      "table layout",
+      "rows",
+      "row height",
+      "row distribution",
+      "skips to next page",
+      "extends off page",
+      "goes to next page",
+      "shifts to next page",
+      "shifts down",
+      "straddling both pages",
+      "table splits",
+      "split tables",
+      "disappears",
+      "over the edge",
+      "over the page",
+      "jumps down",
+      "repeat header row",
+      "top of page",
+      "merged row",
+      "fit on page",
+      "issues",
+      "problems",
+      "errors",
+      "broken",
+      "not working",
+      "helps",
+      "how do i",
+      "retrieve",
+      "get back"
+    ],
+    "url": "/word/tables-fixing-tables-over-pages/"
+  },
+  {
     "title": "Tables: Formatting",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "tables",
       "format a table",
@@ -1153,6 +1226,9 @@
   {
     "title": "Tables",
     "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
       "microsoft word",
       "tables",
       "table layout",
@@ -1187,5 +1263,22 @@
       "modify tables"
     ],
     "url": "/word/tables/"
+  },
+  {
+    "title": "Keyboard Shortcuts",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "windows",
+      "microsoft word",
+      "microsoft excel",
+      "keyboard shortcut",
+      "hotkey",
+      "keyboard shortcuts",
+      "keys",
+      "buttons"
+    ],
+    "url": "/content-control/keyboard-shortcuts/"
   }
 ]
