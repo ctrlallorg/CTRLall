@@ -67,7 +67,7 @@ active: word
 <section class="section-light">
 <p>The <strong>Paragraph options</strong> window let you determine all the layout of a paragraph in terms of spacing, indentation, alignment and more.</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Paragraph options menus.png' | url }}"  alt="Menus to find paragraph options in Word" style="width:60%; height:auto; vertical-align:middle">
+<img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Paragraph Options menus.png' | url }}"  alt="Menus to find paragraph options in Word" style="width:60%; height:auto; vertical-align:middle">
 
 Font options window for editing all things about a text's font. You can access Font options in various ways. The simplest is to select text and <strong>right click</strong> then select <strong>Font</strong>, or on the <strong>Home > Font</strong> section of the ribbon click the <strong>bottom right corner button</strong>, but you might also access it through other menus like the <strong>Format</strong> drop down when creating or modifying a style:
 
