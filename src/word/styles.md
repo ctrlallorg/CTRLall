@@ -91,7 +91,7 @@ active: word
 
 <!-- Custom TOC > Options... tooltip overlay -->
   <div class="overlay-container">
-    <img src="/assets/images/word/styles/Create New Style options.png" alt="Create New Style options" class="base-image">
+    <img src="/assets/images/word/Styles/Create New Style options.png" alt="Create New Style options" class="base-image">
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-1" style="top:66px; left:158px;"></div>
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-2" style="top:90px; left:158px;"></div>
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-3" style="top:114px; left:158px;"></div>
