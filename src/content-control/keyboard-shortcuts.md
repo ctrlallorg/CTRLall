@@ -297,4 +297,9 @@ s
     </tr>
 </tbody>
 </table>
+
+<div id="tooltip">
+  <img src="" alt="Tooltip preview">
+</div>
+
 </section>

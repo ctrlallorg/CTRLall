@@ -112,7 +112,7 @@ To create a table, select the <strong>Insert</strong> tab on the ribbon, then se
     </tbody>
   </table>
 
-  <div id="gif-tooltip">
+  <div id="tooltip">
     <img src="" alt="Tooltip preview">
   </div>
 

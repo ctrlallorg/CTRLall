@@ -118,29 +118,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   
-  // ─── GIF Tooltip on Table Row Hover ─────────
-  const tooltip = document.getElementById("gif-tooltip");
-  const tooltipImg = tooltip?.querySelector("img");
+  // ─── Tooltip on Table Row Hover ─────────
+const tooltip = document.getElementById("tooltip");
+const tooltipImg = tooltip?.querySelector("img");
 
-  if (tooltip && tooltipImg) {
-    document.querySelectorAll(".tooltip-row").forEach((row) => {
-      row.addEventListener("mouseenter", () => {
-        const gifSrc = row.getAttribute("data-gif");
-        tooltipImg.src = gifSrc;
-        tooltip.style.display = "block";
-      });
-
-      row.addEventListener("mousemove", (e) => {
-        tooltip.style.left = e.pageX + 15 + "px";
-        tooltip.style.top = e.pageY + 15 + "px";
-      });
-
-      row.addEventListener("mouseleave", () => {
-        tooltip.style.display = "none";
-        tooltipImg.src = "";
-      });
+if (tooltip && tooltipImg) {
+  document.querySelectorAll(".tooltip-row").forEach((row) => {
+    row.addEventListener("mouseenter", () => {
+      const gifSrc = row.getAttribute("data-gif");
+      tooltipImg.src = gifSrc;
+      tooltip.style.display = "block";
     });
-  }
+
+    row.addEventListener("mousemove", (e) => {
+      tooltip.style.left = e.pageX + 15 + "px";
+      tooltip.style.top = e.pageY + 15 + "px";
+    });
+
+    row.addEventListener("mouseleave", () => {
+      tooltip.style.display = "none";
+      tooltipImg.src = "";
+    });
+  });
+}
+
 
 // Keyboard shortcut image alt description automation
 // ─── Scoped Alt Text Injection for Keyboard Shortcut Tooltips ─────────

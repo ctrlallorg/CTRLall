@@ -608,30 +608,8 @@ table td {
   position: relative;
   display: inline-block;
 }
-
-.section-light table.tooltip-gif {
-  display: none;
-  position: absolute;
-  top: 100%; /* below the icon */
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 10;
-  background: #fff;
-  padding: 5px;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-}
-
-.tooltip-wrapper:hover .tooltip-gif {
-  display: block;
-}
-
-
-.section-light table.tooltip-row:hover .tooltip-gif {
-  display: block;
-}
-
-#gif-tooltip {
+/* Floating tooltip container controlled by JS */
+#tooltip {
   position: absolute;
   display: none;
   z-index: 9999;
@@ -644,11 +622,12 @@ table td {
   transition: opacity 0.2s ease;
 }
 
-#gif-tooltip img {
+#tooltip img {
   max-width: 120%;
   height: auto;
   display: block;
 }
+
 
 .preload-images {
   position: absolute;
