@@ -49,13 +49,20 @@
   background-color: #2c3e50;
 }
 
+/* ─── Prevent text wrapping on topbar links ─────────── */
+.topnav .dropbtn {
+  white-space: nowrap;   /* Force text to stay on one line */
+  flex-shrink: 0;        /* Prevent flexbox from squashing it */
+}
+
+
 /* ─── Topbar search bar ──────────────────── */
 
 .search-wrapper {
   position: relative;
   display: block;
-  max-width: none;
-  width: 400px !important; /* Force width */
+  width: 100%;         /* fills available space */
+  max-width: 400px;    /* caps size on desktop */
   z-index: 9999;
 }
 
@@ -897,15 +904,8 @@ table td {
   flex-direction: row;
   align-items: stretch;
   min-height: calc(100vh - 60px); /* Adjust for topbar height */
-}
-
-.layout-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  min-height: calc(100vh - 60px);
-  position: relative;
   z-index: 1;
+  position: relative;
 }
 
 
@@ -915,7 +915,10 @@ table td {
   overflow-y: auto;
   margin-left: 280px; /* match sidebar width */
   transition: margin-left 0.3s ease;
+  min-width: 0; /* allow flex item to shrink properly */
+  overflow-x: auto; /* if an inner element overflows, show scroll rather than clip */
 }
+
 
 .sidebar-wrapper {
   position: fixed;
@@ -929,7 +932,6 @@ table td {
   transition: width 0.3s ease;
   z-index: 999;
 }
-
 
 /* ─── Sidebar Collapse Behavior ──────────────────── */
 .sidebar-wrapper.collapsed {
@@ -979,8 +981,8 @@ table td {
   border-left: 1px solid #ddd;
   padding: 15px;
   overflow-y: auto;
-
-  /* Add stacking context and lower z-index */
+  flex: 0 0 180px; /* reserve 180px in flex layout */
+  width: 180px;    /* keep for clarity */
   position: relative;
   z-index: 10;
 }
@@ -997,6 +999,23 @@ table td {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .layout-wrapper {
+    flex-direction: column; /* stop reserving side columns */
+  }
+
+  .sidebar-wrapper {
+    width: 0;              /* collapsed by default */
+  }
+
+  .content-wrapper {
+    margin-left: 0;        /* remove desktop offset */
+  }
+
+  .adsbar-wrapper {
+    display: none;         /* remove the right adsbar entirely */
+  }
+}
 
 
 
