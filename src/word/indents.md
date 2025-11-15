@@ -92,8 +92,8 @@ With the <span class="glossary-hover" data-term="insertion-point">insertion poin
     <span id="hangingVal">0.00</span> cm
 
     <label for="leftIndent"><img src="{{ '/assets/images/word/Indents/Left Indent.png' | url }}" alt="Left indent" style="display: inline; padding-top: 0.5em; padding-right: 0.5em; height:5%; width: 5%;"> <strong>Left indent</strong> (Move all pargraph text together):</label>
-    <input type="range" id="leftIndent" min="0" max="5" step="0.25" value="1.27" oninput="updateIndent()">
-    <span id="leftVal">1.27</span> cm 
+    <input type="range" id="leftIndent" min="0" max="5" step="0.25" value="0.00" oninput="updateIndent()">
+    <span id="leftVal">0.00</span> cm 
 
   </div>
 
