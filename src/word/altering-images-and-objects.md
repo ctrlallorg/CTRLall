@@ -253,4 +253,8 @@ active: word
 
 <img class="thumbnail border" src="{{ '/assets/images/word/Images/Lock anchor example.png' | url }}" alt="Locked Anchor indicated in margin for an image with square wrap" style="display: inline; width: 50%;">
 
+<div id="tooltip">
+  <img src="" alt="Tooltip preview">
+</div>
+
 </section>
