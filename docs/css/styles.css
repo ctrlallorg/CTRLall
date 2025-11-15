@@ -1007,15 +1007,16 @@ table td {
   }
 
   .sidebar-wrapper {
-    width: 0;              /* collapsed by default */
+    width: 280px; /* allow expansion */
   }
-
+  .sidebar-wrapper.collapsed {
+    width: 0;     /* collapsed state */
+  }
   .content-wrapper {
-    margin-left: 0;        /* remove desktop offset */
+    margin-left: 0; /* no offset when collapsed */
   }
-
   .adsbar-wrapper {
-    display: none;         /* remove the right adsbar entirely */
+    display: none;  /* adsbar hidden on mobile */
   }
 }
 
