@@ -990,12 +990,14 @@ table td {
   color: #333;
 }
 
-/* Optional: hide on small screens */
-@media (max-width: 768px) {
+/* Hide adsbar on all phones (portrait + landscape) */
+@media only screen and (max-width: 1024px) {
   .adsbar-wrapper {
     display: none;
   }
 }
+
+
 
 
 /* ─── Utility & Accessibility ────────────────────── */
