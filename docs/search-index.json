@@ -258,11 +258,12 @@
       "get started with powerpoint",
       "new to powerpoint",
       "starting with powerpoint",
-      "powerpoint for beginner",
+      "powerpoint for beginners",
       "never used powerpoint",
       "not used powerpoint before",
-      "how do you use powerpoint",
       "what do you do in powerpoint",
+      "how do you use powerpoint",
+      "how do you use a powerpoint",
       "how does powerpoint work",
       "how to open up powerpoint",
       "open powerpoint app",
@@ -288,9 +289,15 @@
       "open a ppt file",
       "open a .pptx file",
       "open a .potx file",
-      "open a .ppt file"
+      "open a .ppt file",
+      "open pptx file",
+      "open potx file",
+      "open ppt file",
+      "open .pptx file",
+      "open .potx file",
+      "open .ppt file"
     ],
-    "url": "/powerpoint/getting-started-with-powerpoint/"
+    "url": "/powerpoint/getting-started-powerpoint/"
   },
   {
     "title": "Altering images and objects",
@@ -526,7 +533,7 @@
       "get started with word",
       "new to word",
       "starting with word",
-      "word for beginner",
+      "word for beginners",
       "never used word",
       "not used word before",
       "how do you use word",
@@ -550,7 +557,13 @@
       "open a doc file",
       "open a .docx file",
       "open a .dotx file",
-      "open a .doc file"
+      "open a .doc file",
+      "open docx file",
+      "open dotx file",
+      "open doc file",
+      "open .docx file",
+      "open .dotx file",
+      "open .doc file"
     ],
     "url": "/word/getting-started-word/"
   },

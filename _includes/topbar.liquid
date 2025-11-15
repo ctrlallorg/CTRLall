@@ -12,6 +12,12 @@
       <a href="{{ '/contact/' | url }}" class="{% if active == 'contact' %}active{% endif %}">Contact</a>
       <a href="#" class="dropbtn">Share this page</a>
 
+      <!-- 🔍 Search Bar -->
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search..." autocomplete="off" />
+        <ul id="suggestions" class="suggestions-list"></ul>
+      </div>
+
       <!-- Language Toggle -->
       <div class="locale-control">
         <span class="locale-label">Language</span>
@@ -20,14 +26,6 @@
           <span class="slider"></span>
         </label>
       </div>
-
-
-      <!-- 🔍 Search Bar -->
-      <div class="search-wrapper">
-        <input type="text" id="searchInput" placeholder="Search..." autocomplete="off" />
-        <ul id="suggestions" class="suggestions-list"></ul>
-      </div>
-
 
     </nav>
   </div>

@@ -16,7 +16,7 @@ tags:
   - get started with word
   - new to word
   - starting with word
-  - word for beginner
+  - word for beginners
   - never used word
   - not used word before
   - how do you use word
@@ -42,6 +42,12 @@ tags:
   - open a .docx file
   - open a .dotx file
   - open a .doc file
+  - open docx file
+  - open dotx file
+  - open doc file
+  - open .docx file
+  - open .dotx file
+  - open .doc file
 active: word
 ---
 

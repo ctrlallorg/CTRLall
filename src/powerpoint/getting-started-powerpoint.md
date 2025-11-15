@@ -1,11 +1,11 @@
 ---
 title: Getting started with Microsoft PowerPoint
 layout: layout.liquid
-permalink: /powerpoint/getting-started-with-powerpoint/
-canonical: /powerpoint/getting-started-with-powerpoint/
+permalink: /powerpoint/getting-started-powerpoint/
+canonical: /powerpoint/getting-started-powerpoint/
 description: Getting started with Microsoft PowerPoint, an introduction with clear steps, visuals, and animations.
 image: /assets/images/Ctrl All logo blue.svg
-asset_id: ctrlall-getting-started-with-powerpoint-v1
+asset_id: ctrlall-getting-started-powerpoint-v1
 date: 2025-11-15
 last_modified: 2025-11-15
 tags:
@@ -17,12 +17,12 @@ tags:
   - get started with powerpoint
   - new to powerpoint
   - starting with powerpoint
-  - powerpoint for beginner
+  - powerpoint for beginners
   - never used powerpoint
   - not used powerpoint before
-  - how do you use powerpoint
   - what do you do in powerpoint
   - how do you use powerpoint
+  - how do you use a powerpoint
   - how does powerpoint work
   - how to open up powerpoint
   - open powerpoint app
@@ -49,6 +49,12 @@ tags:
   - open a .pptx file
   - open a .potx file
   - open a .ppt file
+  - open pptx file
+  - open potx file
+  - open ppt file
+  - open .pptx file
+  - open .potx file
+  - open .ppt file
 active: powerpoint
 ---
 
@@ -61,11 +67,11 @@ active: powerpoint
 If you're new to Microsoft Powerpoint ('Powerpoint' for short) this article where to start from the ground up. In this article we'll explore:</p>
 
 <ul>
-<li><a href="#Powerpoint-version">What version of Powerpoint do I have?</a></li>
-<li><a href="#open-Powerpoint-app">Opening Microsoft Powerpoint app</a></li>
-<li><a href="#create-new-Powerpoint-doc">Creating a new powerpoint presentation</a></li>
-<li><a href="#open-Powerpoint-doc">Opening an existing Powerpoint powerpoint presentation file</a></li>
-<li><a href="#Powerpoint-interface">The main interface</a></li>
-<li><a href="#close-Powerpoint-doc">Closing a powerpoint presentation</a></li>
-<li><a href="#close-Powerpoint-app">Closing the app</a></li>
+<li><a href="">What version of Powerpoint do I have?</a></li>
+<li><a href="">Opening Microsoft Powerpoint app</a></li>
+<li><a href="">Creating a new powerpoint presentation</a></li>
+<li><a href="">Opening an existing Powerpoint file</a></li>
+<li><a href="">The main interface</a></li>
+<li><a href="">Closing a powerpoint</a></li>
+<li><a href="">Closing the app</a></li>
 </ul>

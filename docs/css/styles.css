@@ -36,10 +36,11 @@
 .topnav a,
 .dropbtn {
   text-decoration: none;
+  display: inline-block;
   color: #d0d0d0;
   font-weight: 400;
   font-size: 1rem;
-  padding: 8px 12px;
+  padding: 6px 10px;
   transition: color 0.2s ease, background-color 0.2s ease;
 }
 
@@ -61,8 +62,9 @@
 .search-wrapper {
   position: relative;
   display: block;
+  flex: 0 1 auto;        /* allow it to shrink if needed */
+  max-width: 250px;      /* smaller cap than 400px */
   width: 100%;         /* fills available space */
-  max-width: 400px;    /* caps size on desktop */
   z-index: 9999;
 }
 
@@ -139,7 +141,7 @@ mark {
 .topbar-right {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 12px;
   flex-wrap: nowrap;
 }
 
@@ -274,7 +276,7 @@ mark {
 .locale-control {
   display: flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: 6px;
   padding: 8px 12px;
   color: #d0d0d0;
   font-size: 1rem;
