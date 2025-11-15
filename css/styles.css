@@ -450,6 +450,23 @@ img.border {
   margin: 0.5rem auto 1.2rem auto; /* centering logic */
 }
 
+img.left {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.5rem 0 1.2rem 0; /* top, right, bottom, left */
+}
+
+img.border-left {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #ccc;
+  margin: 0.5rem 0 1.2rem 0; /* no auto centering */
+}
+
+
+
 
 .image-row {
   display: flex;

@@ -81,6 +81,7 @@ active: word
  <header class="topbar"></header>
 
   <!-- First tooltip overlay -->
+<p>
   <div class="overlay-container">
     <img src="/assets/images/word/TOC/Custom TOC options.png" alt="TOC Options Dialog" class="base-image">
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="tooltip-1" style="top:214px; left:-10px;"></div>
@@ -90,7 +91,8 @@ active: word
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="tooltip-5" style="top:325px; left:233px;"></div>
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="tooltip-6" style="top:349px; left:175px;"></div>
   </div>
-
+</p>
+<p>
   <!-- Second tooltip overlay -->
   <div class="overlay-container">
     <img src="/assets/images/word/TOC/TOC options.png" alt="TOC Options Dialog" class="base-image">
@@ -100,7 +102,7 @@ active: word
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-4" style="top:297px; left:0px;"></div>
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-5" style="top:105px; left:240px;"></div>
   </div>
-
+</p>
   <!-- Global tooltip layer -->
   <div id="tooltip-layer"></div>
 

@@ -40,10 +40,10 @@ active: glossary
 ---
 
 <div class="preload-images" hidden>
-  <img src="/assets/images/word/Images/Anchor%20icon.png" alt="Anchor icon: Links image to a specific paragraph.">
+  <img src="/assets/images/word/Images/Anchor icon.png" alt="Anchor icon: Links image to a specific paragraph.">
   <img src="/assets/images/keyboard shortcuts/Ctrl+C.png" alt="Ctrl + C shortcut: Copy selected content to clipboard.">
   <img src="/assets/images/keyboard shortcuts/Ctrl+X.png" alt="Ctrl + X shortcut: Cut selected content to clipboard.">
-  <img src="/assets/images/word/Images/Locked%20anchor%20icon.png" alt="Locked anchor icon: Fixes image to a paragraph without reassignment.">
+  <img src="/assets/images/word/Images/Locked anchor icon.png" alt="Locked anchor icon: Fixes image to a paragraph without reassignment.">
   <img src="/assets/images/keyboard shortcuts/Ctrl+V.png" alt="Ctrl + V shortcut: Paste content from clipboard.">
   <img src="/assets/images/keyboard shortcuts/Ctrl+S.png" alt="Ctrl + S shortcut: Save the current file.">
   <img src="/assets/images/keyboard shortcuts/Ctrl+Y.png" alt="Ctrl + Y shortcut: Repeat the last action.">
@@ -67,7 +67,7 @@ active: glossary
     <tr>
       <td id="adjustment-handles">Adjustment handles</td>
       <td><p>For certain images and graphic visuals when selected a selection frame appears around it including a yellow dot called an adjustment handle. These let you adjust the inner or outer dimensions of that image/graphic. Not to be confused with <a href="#sizing-handles">sizing handles</a>, for more information and examples see here: <a href="/word/altering-images-and-objects/">Altering images and objects</a></p>
-      <p><img src="{{ '/assets/images/word/Images/Adjustment%20handle.png' | url }}" alt="Sizing handles" style="display: block; margin-left: 0; width: 20%;"></p></td>
+      <p><img src="{{ '/assets/images/word/Images/Adjustment handle.png' | url }}" alt="Sizing handles" style="display: block; margin-left: 0; width: 20%;"></p></td>
     </tr>
     <tr>
       <td id="alignment">Alignment</td>
@@ -75,7 +75,7 @@ active: glossary
     </tr>
     <tr>
       <td id="anchor">Anchor</td>
-      <td class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Anchor%20icon.png' | url }}"><a href="#floating-image">Floating images</a> are associated with (or 'anchored' to) a certain paragraph indicated by a small blue anchor in the left margin. If the image is moved far enough up/down the page Word reassigns the anchor to another paragraph. If the paragraph it is anchored to is moved then the image will move with it. It is also possible to <a href="#locked-anchor">lock an anchor</a> to a paragraph. See more here: <a href="/word/altering-images-and-objects/#anchoring">Anchoring</a>. </td>
+      <td class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Anchor icon.png' | url }}"><a href="#floating-image">Floating images</a> are associated with (or 'anchored' to) a certain paragraph indicated by a small blue anchor in the left margin. If the image is moved far enough up/down the page Word reassigns the anchor to another paragraph. If the paragraph it is anchored to is moved then the image will move with it. It is also possible to <a href="#locked-anchor">lock an anchor</a> to a paragraph. See more here: <a href="/word/altering-images-and-objects/#anchoring">Anchoring</a>. </td>
     </tr>
     <tr>
       <td id="application">Application / App</td>
@@ -348,7 +348,7 @@ active: glossary
       <p><u>Note</u>: You can change where the numbers should and should not apply by 'suppressing' line numbers via <strong>Paragraph Options</strong> > <a href="/word/paragraph-options/#line-and-page-breaks">Line and Page Breaks</a>.</p>
       </td>
     </tr>
-    <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Locked%20anchor%20icon.png' | url }}">
+    <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Locked anchor icon.png' | url }}">
       <td id="locked-anchor">Locked anchor</td>
       <td>When a <a href="#floating-image">floating image</a> is moved far enough up and down a page its <a href="#anchor">anchor</a> will eventually be reassigned to another paragraph. However anchors can be locked to one particular paragraph regardess of where the image is moved to afterwards. This option is in the image's <a href="/word/altering-images-and-objects/#layout-options">Layout options</a>, see an example here: <a href="/word/images/#locked-anchor">Locked anchor</a></td>
     </tr>
@@ -396,7 +396,7 @@ active: glossary
       <td>OLE object (embedded file)</td>
       <td><p>An OLE object uses Micrsoft's OLE (Object Linking and Embedding) framework to allow an <a href="#application">application</a> to display content from an external file, e.g. on a page in <a href="#microsoft-word">Word</a>. OLE objects can be linked to their source with updates in real time or be embedded as a static standalone copy.</p>
       <p>A full tutorial to OLE objects can be found here: <a href="/word/objects-embedded-files/">Embedded files (OLE objects)</a></p>
-      <p><img class="thumbnail" src="{{ '/assets/images/word/Objects%20Embedded%20files/OLE%20object.png' | url }}" alt="Insert embedded file" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p></td>
+      <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object.png' | url }}" alt="Insert embedded file" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p></td>
     </tr>
     <tr>
       <td id="OS">Operating System (OS)</td>
@@ -451,7 +451,7 @@ active: glossary
     <tr>
       <td id="rotate-handle">Rotate handle</td>
       <td><p>When an image or object is selected it will have a selection frame around it which sometimes includes a rotate handle depending on what it is. You can hold left click and drag on the rotate handle clockwise or anti-clockwise to freely rotate the image/object as needed. See example here: <a href="/word/altering-images-and-objects/">Altering images, graphic visuals and some objects</a></p>
-      <p><img class="border" src="{{ '/assets/images/word/Images/Rotate%20handle.png' | url }}" alt="Rotate handle" style="display: block; margin-left: 0; width: 10%;">
+      <p><img class="border" src="{{ '/assets/images/word/Images/Rotate handle.png' | url }}" alt="Rotate handle" style="display: block; margin-left: 0; width: 10%;">
       </p>
       </td>
     </tr>
@@ -485,7 +485,7 @@ active: glossary
     <tr>
       <td id="sizing-handles">Sizing handles</td>
       <td><p>When an image or object is selected a selection frame appears around it with dots known as sizing handles. These let you resize the image/object. See examples here: <a href="/word/altering-images-and-objects/">Altering images and objects</a></p>
-      <p><img src="{{ '/assets/images/word/Images/Sizing%20handles.png' | url }}" alt="Sizing handles" style="display: block; margin-left: 0; width: 20%;"></p></td>
+      <p><img src="{{ '/assets/images/word/Images/Sizing handles.png' | url }}" alt="Sizing handles" style="display: block; margin-left: 0; width: 20%;"></p></td>
     </tr>      
     <tr>
       <td id="soft-return">Soft return</td>
@@ -711,7 +711,7 @@ active: glossary
       <tr>
         <td id="adjustment-handles" aria-label="Adjustment handles: yellow dot used to reshape images in Word">Adjustment handles</td>
         <td><p>For certain images and graphic visuals when selected a selection frame appears around it including a yellow dot called an adjustment handle. These let you adjust the inner or outer dimensions of that image/graphic. Not to be confused with <a href="#sizing-handles">sizing handles</a>, for more information and examples see here: <a href="/word/altering-images-and-objects/">Altering images and objects</a></p>
-        <p><img src="{{ '/assets/images/word/Images/Adjustment%20handle.png' | url }}" alt="Yellow adjustment handle dot used to reshape images in Word" style="display: block; margin-left: 0; width: 20%;"></p></td>
+        <p><img src="{{ '/assets/images/word/Images/Adjustment handle.png' | url }}" alt="Yellow adjustment handle dot used to reshape images in Word" style="display: block; margin-left: 0; width: 20%;"></p></td>
       </tr>
       <tr>
         <td id="alignment">Alignment</td>
@@ -719,7 +719,7 @@ active: glossary
       </tr>
       <tr>
         <td id="anchor">Anchor</td>
-        <td class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Anchor%20icon.png' | url }}"><a href="#floating-image">Floating images</a> are associated with (or 'anchored' to) a certain paragraph indicated by a small blue anchor in the left margin. If the image is moved far enough up/down the page Word reassigns the anchor to another paragraph. If the paragraph it is anchored to is moved then the image will move with it. It is also possible to <a href="#locked-anchor">lock an anchor</a> to a paragraph. See more here: <a href="/word/images/#anchoring">Anchoring</a>. </td>
+        <td class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Anchor icon.png' | url }}"><a href="#floating-image">Floating images</a> are associated with (or 'anchored' to) a certain paragraph indicated by a small blue anchor in the left margin. If the image is moved far enough up/down the page Word reassigns the anchor to another paragraph. If the paragraph it is anchored to is moved then the image will move with it. It is also possible to <a href="#locked-anchor">lock an anchor</a> to a paragraph. See more here: <a href="/word/images/#anchoring">Anchoring</a>. </td>
       </tr>
       <tr>
         <td id="application">Application / App</td>
@@ -993,7 +993,7 @@ active: glossary
       <p><u>Note</u>: You can change where the numbers should and should not apply by 'suppressing' line numbers via <strong>Paragraph Options</strong> > <a href="/word/paragraph-options/#line-and-page-breaks">Line and Page Breaks</a>.</p>
       </td>
     </tr>
-    <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Locked%20anchor%20icon.png' | url }}">
+    <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Locked anchor icon.png' | url }}">
       <td id="locked-anchor">Locked anchor</td>
       <td>When a <a href="#floating-image">floating image</a> is moved far enough up and down a page its <a href="#anchor">anchor</a> will eventually be reassigned to another paragraph. However anchors can be locked to one particular paragraph regardess of where the image is moved to afterwards. This option is in the image's <a href="/word/altering-images-and-objects/#layout-options">Layout options</a>, see an example here: <a href="/word/images/#locked-anchor">Locked anchor</a></td>
     </tr>
@@ -1041,7 +1041,7 @@ active: glossary
       <td>OLE object (embedded file)</td>
       <td><p>An OLE object uses Micrsoft's OLE (Object Linking and Embedding) framework to allow an <a href="#application">application</a> to display content from an external file, e.g. on a page in <a href="#microsoft-word">Word</a>. OLE objects can be linked to their source with updates in real time or be embedded as a static standalone copy.</p>
       <p>A full tutorial to OLE objects can be found here: <a href="/word/objects-embedded-files/">Embedded files (OLE objects)</a></p>
-      <p><img class="thumbnail" src="{{ '/assets/images/word/Objects%20Embedded%20files/OLE%20object.png' | url }}" alt="Insert embedded file" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p></td>
+      <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/OLE object.png' | url }}" alt="Insert embedded file" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p></td>
     </tr>
     <tr>
       <td id="OS">Operating System (OS)</td>
@@ -1096,7 +1096,7 @@ active: glossary
     <tr>
       <td id="rotate-handle">Rotate handle</td>
       <td><p>When an image or object is selected it will have a selection frame around it which sometimes includes a rotate handle depending on what it is. You can hold left click and drag on the rotate handle clockwise or anti-clockwise to freely rotate the image/object as needed. See example here: <a href="/word/altering-images-and-objects/">Altering images, graphic visuals and some objects</a></p>
-      <p><img class="border" src="{{ '/assets/images/word/Images/Rotate%20handle.png' | url }}" alt="Rotate handle" style="display: block; margin-left: 0; width: 10%;"></p>
+      <p><img class="border" src="{{ '/assets/images/word/Images/Rotate handle.png' | url }}" alt="Rotate handle" style="display: block; margin-left: 0; width: 10%;"></p>
       </td>
     </tr>
     <tr>
@@ -1129,7 +1129,7 @@ active: glossary
     <tr>
       <td id="sizing-handles">Sizing handles</td>
       <td><p>When an image or object is selected a selection frame appears around it with dots known as sizing handles. These let you resize the image/object. See examples here: <a href="/word/altering-images-and-objects/">Altering images and objects</a></p>
-      <p><img src="{{ '/assets/images/word/Images/Sizing%20handles.png' | url }}" alt="Sizing handles" style="display: block; margin-left: 0; width: 20%;"></p></td>
+      <p><img src="{{ '/assets/images/word/Images/Sizing handles.png' | url }}" alt="Sizing handles" style="display: block; margin-left: 0; width: 20%;"></p></td>
     </tr>   
     <tr>
       <td id="soft-return">Soft return</td>

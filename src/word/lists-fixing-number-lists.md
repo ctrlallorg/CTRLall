@@ -52,7 +52,7 @@ active: word
 
 <p>In the example snip below we have a numbered lists extending over headings which we want to all be connected together. <u>Note</u>: Some are connected, some are not.</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Non-sequential number list issue example in Word.png' | url }}" alt="Number list issue example" width="450">
+<img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Number list issue example.png' | url }}" alt="Number list issue example" width="450">
 
 To have all these numbers run sequentially together, right click the number that is not following on from the last and select <strong>Continue Numbering</strong> from the menu.
 
@@ -62,10 +62,10 @@ You can also set a custom number for a numbered list to start on via <strong>Set
 
 <img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Right click menu Set Number Value.png' | url }}" alt="Right click menu Set Number Value" width="250">
 <br>
-<img class="thumbnail" src="{{ '/assets/images/word/Lists fixing number lists/Set Number Value options in Word.png' | url }}" alt="Set Number Value options" width="225">
+<img class="thumbnail" src="{{ '/assets/images/word/Lists fixing number lists/Set Number Value options.png' | url }}" alt="Set Number Value options in Word" width="225">
 <br>
 Once done you should see the numbered lists continuing on as appropriate (Note: the numbers below the last heading that were sequential will adapt accordingly):
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Number list sequence fixed.png' | url }}" alt="Number list issue example fixed" width="450">
+<img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Number list issue example fixed.png' | url }}" alt="Number list sequence issue example fixed" width="450">
 
 </section>

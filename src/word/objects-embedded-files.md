@@ -205,7 +205,7 @@ You can embed a file in a Word document as an OLE object.
       <tr>
         <td style="vertical-align: top;">
         <p>Before talking about which checkbox to check, the easiest way to embed a file with an icon is to just simply drag and drop an existing file icon into your open Word document and it'll embed itself on the page wherever your insertion point was when you dropped it.</p>
-        <p><img class="thumbnail" src="{{ '/assets/images/word/Objects/Insert%20embedded%20file.gif' | url }}" alt="Insert embedded file in Word" style="max-width: 100%; height: auto; display: inline;"></p>
+        <p><img class="thumbnail" src="{{ '/assets/images/word/Objects/Insert embedded file.gif' | url }}" alt="Insert embedded file in Word" style="max-width: 100%; height: auto; display: inline;"></p>
         <p>But if you want to do it via Insert > Object, in this window check <strong>Display as icon</strong>, then click <strong>OK</strong>:</p>
         <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object Create from file embedded icon.png' | url }}" alt="Insert Object Create from file embedded icon" style="max-width: 100%; height: auto; display: block;"></p>
         </td>

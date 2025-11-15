@@ -73,7 +73,7 @@ active: index
 
 <section class="hero">
     <div style="display: block; margin: 0 auto; width: fit-content;">
-    <img src="{{ '/assets/images/Ctrl%20All%20logo%20purple.svg' | url }}"  alt="CTRL All logo" style="width:300px">
+    <img src="{{ '/assets/images/Ctrl All logo purple.svg' | url }}"  alt="CTRL All logo" style="width:300px">
 </div>
 
     <p style="color: #2c3e50;"><strong>Digital literacy with soul, clarity, and control.</strong></p>

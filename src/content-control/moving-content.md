@@ -76,7 +76,7 @@ then
 </ol>
 <p>Take a look. It can be pretty useful if you want to extract multiple elements from somewhere at once, especially if where you're pasting to involves a lot of scrolling. Consider using this when building a summary, an appendix, compiling quotes or reorganising sections of a document.</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/content control/Spike%20example.gif' | url }}"  alt="Cutting and pasting multiple content from one location to another with the spike function" style="height:50%; width:auto%; vertical-align:middle">
+<img class="thumbnail border" src="{{ '/assets/images/content control/Spike example.gif' | url }}"  alt="Cutting and pasting multiple content from one location to another with the spike function" style="height:50%; width:auto%; vertical-align:middle">
 
 <p>Note also how it pastes content in the order it was cut not it's original position in the document; ('Apple' is at the end not the start).</p>
 
