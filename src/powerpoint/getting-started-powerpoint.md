@@ -62,16 +62,31 @@ active: powerpoint
 <h1>Getting started with Microsoft Powerpoint</h1>
 
 <section class="section-light">
-<p>Microsoft Powerpoint is slideshow presentation editing <span class="glossary-hover" data-term="application">application</span> primarily considered the office standard for office presentations globally. It typically comes as part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> suite, a package of several Microsoft applications, such as Word for word processing, Outlook for emails and Excel for spreadsheets.
+<p>Microsoft Powerpoint is slideshow presentation <span class="glossary-hover" data-term="application">application</span> used worldwide for professional and educational presentation It comes as part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> suite, a package of several Microsoft applications like <span class="glossary-hover" data-term="microsoft-word">Word</span> for word processing, <span class="glossary-hover" data-term="microsoft-outlook">Outlook</span> for emails and <span class="glossary-hover" data-term="microsoft-excel">Excel</span> for spreadsheets.
 
-If you're new to Microsoft Powerpoint ('Powerpoint' for short) this article where to start from the ground up. In this article we'll explore:</p>
+If you're new to Microsoft Powerpoint ('Powerpoint' for short, slideshow presentations made are commonly just referred to as 'powerpoints' as well) this article starts from the ground up. In this article we'll explore:</p>
 
 <ul>
-<li><a href="">What version of Powerpoint do I have?</a></li>
-<li><a href="">Opening Microsoft Powerpoint app</a></li>
-<li><a href="">Creating a new powerpoint presentation</a></li>
-<li><a href="">Opening an existing Powerpoint file</a></li>
-<li><a href="">The main interface</a></li>
-<li><a href="">Closing a powerpoint</a></li>
-<li><a href="">Closing the app</a></li>
+<li><a href="#powerpoint-version">What version of Powerpoint do I have??</a></li>
+<li><a href="#open-powerpoint-app">Opening Microsoft Powerpoint app</a></li>
+<li><a href="#create-new-powerpoint-doc">Creating a new powerpoint presentation</a></li>
+<li><a href="#open-powerpoint-doc">Opening an existing Powerpoint file</a></li>
+<li><a href="#powerpoint-interface">The main interface</a></li>
+<li><a href="#close-powerpoint">Closing a powerpoint</a></li>
+<li><a href="#close-powerpoint-app">Closing the app</a></li>
 </ul>
+
+
+<h2 id="powerpoint-version">What version of Powerpoint do I have?</h2>
+
+<h2 id="open-powerpoint-app">Opening Microsoft Powerpoint app</h2>
+
+<h2 id="create-new-powerpoint-do">Creating a new powerpoint presentation</h2>
+
+<h2 id="open-powerpoint-doc">Opening an existing Powerpoint file</h2>
+
+<h2 id="powerpoint-interface">The main interface</h2>
+
+<h2 id="close-powerpoint">Closing a powerpoint</h2>
+
+<h2 id="close-powerpoint-app">Closing the app</h2>

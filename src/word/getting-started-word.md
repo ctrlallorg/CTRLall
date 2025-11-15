@@ -55,7 +55,7 @@ active: word
 <h1>Getting started with Microsoft Word</h1>
 
 <section class="section-light">
-<p>Microsoft Word is <span class="glossary-hover" data-term="word-processing">word processing</span> <span class="glossary-hover" data-term="application">application</span> primarily considered the office standard for word processing globally. It typically comes as part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> suite, a package of several Microsoft applications, such as Outlook for emails and Excel for spreadsheets.
+<p>Microsoft Word is <span class="glossary-hover" data-term="word-processing">word processing</span> <span class="glossary-hover" data-term="application">application</span> primarily considered the office standard for word processing globally. It comes as part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> suite, a package of several Microsoft applications, such as Outlook for emails and Excel for spreadsheets.
 
 If you're new to Microsoft Word ('Word' for short), then chances are you're new to a lot of things in Windows. This article is for starting off with the absolute basics; in this article we'll explore:</p>
 
