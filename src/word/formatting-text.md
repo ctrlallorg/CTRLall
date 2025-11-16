@@ -63,10 +63,10 @@ active: word
 <section class="section-light">
 On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting tools change the appearance and layout of your text and document; they make your content more readable, professional, and visually appealing. This article explains what each one does.
 
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home tab on ribbon.png' | url }}"  alt="Home tab tools on ribbon in Word" style="width:75%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home tab on ribbon.png' | url }}"  alt="Home tab tools on ribbon in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2>Clipboard tools</h2>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Clipboard.png' | url }}"  alt="Home Clipboard tools on ribbon in Word" style="width:40%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Clipboard.png' | url }}"  alt="Home Clipboard tools on ribbon in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h4>Cut, copy and paste</h4> 
 <p>These are tools to copy and/or move content.</p>
@@ -89,35 +89,35 @@ On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting 
     <tbody>
       <tr>
         <td>Paste - Keep Source Formatting
-        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Keep Source Formatting.png' | url }}"  alt="Paste Keep Source Formatting icon" style="width:20%; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Keep Source Formatting.png' | url }}"  alt="Paste Keep Source Formatting icon" style="max-width:50px; width:100%; height:auto; vertical-align:middle"></div></td>
         <td>Pastes the content bringing its inherent formatting to your document. This may not always be something you want.</td>
       </tr>
       <tr>
         <td>Paste - Merge Formatting
-        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Merge Formatting.png' | url }}"  alt="Paste Merge Formatting icon" style="width:20%; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Merge Formatting.png' | url }}"  alt="Paste Merge Formatting icon" style="max-width:50px; width:100%; height:auto; vertical-align:middle"></div></td>
         <td>Content will take on the formatting on your document where you have placed the <span class="glossary-hover" data-term="insertion-point">insertion point</span>.</td>
       </tr>
       <tr>
         <td>Paste - Picture
-        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Picture.png' | url }}"  alt="Paste Picture icon" style="width:20%; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Picture.png' | url }}"  alt="Paste Picture icon" style="max-width:50px; width:100%; height:auto; vertical-align:middle"></div></td>
         <td>Pastes as an image. Useful if you need a snapshot of content that you don't want altered.</td>
       </tr>
       <tr>
         <td>Paste - Keep Text Only
-        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Keep Text Only.png' | url }}"  alt="Paste Keep Text Only icon" style="width:20%; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Keep Text Only.png' | url }}"  alt="Paste Keep Text Only icon" style="max-width:50px; width:100%; height:auto; vertical-align:middle"></div></td>
         <td>Pastes text without any formatting it originally had. This is especially useful when copying text from elsewhere like another document or a webpage.</td>
       </tr>
     </tbody>
   </table>
 
 <h4>Format Painter</h4> 
-<img class="thumbnail left" src="{{ '/assets/images/word/Formatting text/Format painter icon.png' | url }}"  alt="Format painter icon" style=" width:5%; vertical-align:middle"> 
+<img class="thumbnail left" src="{{ '/assets/images/word/Formatting text/Format painter icon.png' | url }}"  alt="Format painter icon" style="max-width:50px; width:100%; height:auto; vertical-align:middle"> 
 <p>This is a useful tool which applies formatting from selected formatted text to other text. This is much faster to apply the same custom formatting elsewhere.</p>
 <u>Note</u>: For headings you should use Styles (see further below), the format painter can then be used to apply a heading's heading style onto other text.
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Format painter example.gif' | url }}"  alt="Example of format painter being used to style text" style="height:60%; width:60%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Format painter example.gif' | url }}"  alt="Example of format painter being used to style text" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2>Font tools</h2>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="width:80%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middlee"></p>
 <table>
 <colgroup>
       <col style="width: 20%;">
@@ -181,7 +181,7 @@ On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting 
 <p>Click the bottom right corner button and you can bring up further <a href="/word/font-options/">Font options</a>.</p>
 
 <h2>Paragraph</h2>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Paragraph.png' | url }}"  alt="Home Paragraph tools on ribbon in Word" style="width:75%; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Paragraph.png' | url }}"  alt="Home Paragraph tools on ribbon in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <table>
 <colgroup>

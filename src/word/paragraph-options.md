@@ -67,7 +67,7 @@ active: word
 <section class="section-light">
 <p>The <strong>Paragraph options</strong> window let you determine all the layout of a paragraph in terms of spacing, indentation, alignment and more.</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Paragraph Options menus.png' | url }}"  alt="Menus to find paragraph options in Word" style="width:60%; height:auto; vertical-align:middle">
+<img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Paragraph Options menus.png' | url }}"  alt="Menus to find paragraph options in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
 
 Font options window for editing all things about a text's font. You can access Font options in various ways. The simplest is to select text and <strong>right click</strong> then select <strong>Font</strong>, or on the <strong>Home > Font</strong> section of the ribbon click the <strong>bottom right corner button</strong>, but you might also access it through other menus like the <strong>Format</strong> drop down when creating or modifying a style:
 
@@ -79,7 +79,7 @@ Font options window for editing all things about a text's font. You can access F
     <li><a href="#spacing">Spacing</a></li>
 </ul>
 <p>For <strong>Line and Page Breaks</strong> tab options <a href="#line-and-page-breaks">here</a>.</p>
-<img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Indents and Spacing.png' | url }}"  alt="Paragraph Options Indents and Spacing" style="width:40%; height:auto; vertical-align:middle">
+<img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Indents and Spacing.png' | url }}"  alt="Paragraph Options Indents and Spacing" style="max-width:500px; width:100%; height:auto; vertical-align:middle">
 
 <h3 id="alignment">Alignment</h3>
 <p>Alters the <span class="glossary-hover" data-term="alignment">alignment</span> of the paragraph with the standard options: <strong>Left</strong>, <strong>Center</strong>, <strong>Right</strong>, <strong>Justified</strong>.</p>
@@ -92,7 +92,7 @@ Font options window for editing all things about a text's font. You can access F
     <img class="thumbnail border" 
      src="{{ '/assets/images/word/Paragraph options/Outline levels.png' | url }}"  
      alt="Outline levels dropdown menu in Paragraph Options in Word" 
-     style="width:33%; height:auto; vertical-align:middle; margin-bottom:2em;">
+     style="max-width:350px; width:100%; height:auto; vertical-align:middlemargin-bottom:2em;">
 </ul>
 
 <p>Changing the outline level of a paragraph has the following affects in these areas:</p>
@@ -100,32 +100,31 @@ Font options window for editing all things about a text's font. You can access F
     <li><p><strong>Table of Contents</strong>: By default levels 1-3 will show up as headings in a table of contents which become links to the location of those headings in the document. You may have noticed applying the styles 'Heading 1', 'Heading 2' and 'Heading 3' on text make it appear in a TOC; this is because those styles have an outline level.</p>
     <p><u>Note</u>: Level 4-9 won't show up on a TOC unless you explictly change it in Table of Content options.</p>
     <p><img class="thumbnail border" 
-     src="{{ '/assets/images/word/Paragraph options/TOC with heading levels 1-3.png' | url }}" alt="Outline level Collapsed by default checkbox" style="width:60%; height:auto; vertical-align:middle; margin-bottom:2em;"></p></li>
+     src="{{ '/assets/images/word/Paragraph options/TOC with heading levels 1-3.png' | url }}" alt="Outline level Collapsed by default checkbox" style="max-width:700px; width:100%; height:auto; vertical-align:middlemargin-bottom:2em;"></p></li>
     <li><p><strong>Navigation Pane</strong>: Levels show up as headings on the navigation pane which like a TOC you can click to go to its location in the document. Open it via <strong>View > Navigation pane</strong>.</p>
-    <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Navigation pane on ribbon.png' | url }}"  alt="Navigation pane on ribbon in Word" style="width:17%; height:auto; vertical-align:middle"></p>
-    <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Navigation pane with heading levels 1-4.png' | url }}"  alt="Navigation pane with heading levels 1-4" style="width:33%; height:auto; vertical-align:middle; margin-bottom:2em;"></p></li>
+    <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Navigation pane on ribbon.png' | url }}"  alt="Navigation pane on ribbon in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+    <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Navigation pane with heading levels 1-4.png' | url }}"  alt="Navigation pane with heading levels 1-4" style="max-width:400px; width:100%; height:auto; vertical-align:middle; margin-bottom:2em;"></p></li>
     <li><p><strong>Outline View</strong>: If you switch to <strong>View > Outline</strong>, paragraphs with different outline levels appear as collapsible headings or body text, they are indented differently based on what you choose.</p>
-    <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Outline view with heading levels 1-4.png' | url }}"  alt="Outline view with heading levels 1-4" style="width:60%; height:auto; vertical-align:middle; margin-bottom:2em;"></p></li>
+    <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Outline view with heading levels 1-4.png' | url }}"  alt="Outline view with heading levels 1-4" style="max-width:700px; width:100%; height:auto; vertical-align:middle; margin-bottom:2em;"></p></li>
 </ul>
 
 <h3>Collapsed by default</h3>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Outline level Collapsed by default checkbox.png' | url }}"  alt="Outline level Collapsed by default checkbox" style="width:33%; height:auto; vertical-align:middle"></p>
 <p>The 'collapsed by default' checkbox to the right affects whether the paragraph or heading is collapsed or expanded in the Outline View and the Navigation Pane. <u>Note</u>: It doesn't affect the content on the printed page or a Table of Contents (TOC).</p>
-
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Outline level Collapsed by default checkbox.png' | url }}"  alt="Outline level Collapsed by default checkbox" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h3 id="indentation">Indentation</h3>
 <p>Here you can alter the <span class="glossary-hover" data-term="indent">indentation</span> of the paragraph. For more on indentation see the <a href="/word/Indents/">Indents</a> article and try out the interactive examples showing how to modify indents via <span class="glossary-hover" data-term="indent-markers">indent markers</span> on the horizontal <span class="glossary-hover" data-term="ruler">ruler</span>.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation options.png' | url }}"  alt="Indentation options in Paragraph Options in Word" style="width:40%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation options.png' | url }}"  alt="Indentation options in Paragraph Options in Word" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h4>Left and Right</h4>
 <p>Literally applies indents on a paragraph from the left or from the right.</p>
 
 <h4>Mirror indents</h4>
 <p>Checking the <strong>Mirror indents</strong> checkbox below changes the <strong>Left</strong> and <strong>Right</strong> options to <strong>Inside</strong> and <strong>Outside</strong>.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation Mirror intents.png' | url }}"  alt="Indentation Mirror intents option checkbox in Paragraph Options in Word" style="width:40%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation Mirror intents.png' | url }}"  alt="Indentation Mirror intents option checkbox in Paragraph Options in Word" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>These are to do with the layout of margins for paragraphs on opposite facing pages, for when you're holding a double sided report, book or magazine open. Use this if you want paragraph indents mirroring each other on opposite pages in terms of being indented closer to the spine where the pages meet ('inside') or further from the spine towards the outer edge of the pages ('outside').</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation Inside and Outside 2.png' | url }}"  alt="Indentation Inside and Outside on opposite facing pages in Word" style="width:75%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation Inside and Outside 2.png' | url }}"  alt="Indentation Inside and Outside on opposite facing pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h4>Special / By</h4>
 <p>Use the <strong>Speciai</strong> drop down menu if you specifically want to change the <span class="glossary-hover" data-term="first-line-indent">First line indent</span> or <span class="glossary-hover" data-term="hanging-indent">Hanging indent</span>. Once selected you can alter how much to indent by with the <strong>By</strong> field. More on these different indent types is explained with interactive examples here: <a href="/word/Indents/">Indents</a>.</p>

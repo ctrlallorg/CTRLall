@@ -123,6 +123,21 @@ sidebarLinks.forEach((link) => {
   });
 });
 
+// ─── Collapse Sidebar on Outside Click (Mobile Only) ────────────────
+document.addEventListener("click", (event) => {
+  if (window.innerWidth <= 1024) {
+    const clickedInsideSidebar = sidebarWrapper.contains(event.target);
+    const clickedToggleBtn = toggleBtn.contains(event.target);
+
+    if (!clickedInsideSidebar && !clickedToggleBtn) {
+      sidebarWrapper.classList.add("collapsed");
+      toggleBtn.setAttribute("aria-expanded", "false");
+      localStorage.setItem("sidebarCollapsed", true);
+    }
+  }
+});
+
+
 
   // ─── Footer Fade-In on Scroll ───────────────
   const footer = document.querySelector(".site-footer");
