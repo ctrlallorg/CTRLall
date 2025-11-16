@@ -61,7 +61,7 @@ active: word
 <h1>Formatting text</h1>
 
 <section class="section-light">
-On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting tools change the appearance and layout of your text and document; they make your content more readable, professional, and visually appealing. This article explains what each one does.
+<p>Formatting tools change the appearance and layout of your text and document; they make your content more readable, professional, and visually appealing. They can be found on the <strong>Home</strong> tab of the <span class="glossary-hover" data-term="ribbon">ribbon</span>. This article explains what each one does.</p>
 
 <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home tab on ribbon.png' | url }}"  alt="Home tab tools on ribbon in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
@@ -164,7 +164,11 @@ On the <strong>Home</strong> tab of the ribbon are formatting tools. Formatting 
     </tr>
     <tr>
       <td>Change case</td>
-      <td style="text-transform: uppercase;">Lorem ipsum dolor sit amet.</td>
+      <td>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem Ipsum Dolor Sit Amet.</p>
+      <p>LOREM IPSUM DOLOR SIT AMET.</p>
+      </td>
     </tr>
     <tr>
      <td>Subscript</td>

@@ -94,7 +94,7 @@ There are a few versions of Microsoft Word:
       </tr>
       <tr>
         <td>Word 2021</td>
-        <td>One-time purchase version included in Office 2021 suite.</td>
+        <td>One-time purchase version included in Office 2021 suite, doesn't include continuous updates.</td>
       </tr>
       <tr>
         <td>Word 2019</td>
@@ -125,7 +125,8 @@ There are a few versions of Microsoft Word:
         <u>Desktop app (Windows or Mac)</u> – Open Word, go to <strong>File</strong> > <strong>Account</strong> (or <strong>Help</strong> in older versions). Look under <strong>Product Information</strong> or click <strong>About Word</strong>. You’ll see something like Microsoft 365 Apps for enterprise, Word 2021, or Word 2016.
     </li>
     <li>
-        <u>In a web browser</u> – If you're using Word in a browser it’s likely the free <strong>Word for the web</strong> (formerly Word Online). To confirm, click your <strong>profile icon</strong> > <strong>Settings</strong> > <strong>About</strong>. If it says 'Word for the web' then you’re using the free Word Online version. However, if you're accessing Word through a Microsoft 365 subscription (e.g., via work, school or uni), you may still be using a premium version in the browser.
+        <p><u>In a web browser</u> – If you're using Word in a browser it’s likely the free <strong>Word for the web</strong> (formerly Word Online). To confirm, click your <strong>profile icon</strong> > <strong>Settings</strong> > <strong>About</strong>. If it says 'Word for the web' then you’re using the free Word Online version.</p>
+        <p>If you're accessing Word through a Microsoft 365 subscription you may use premium features enabled in the browser.</p>
     </li>
     <li>
         <u>Mobile (iOS/Android)</u> – If you're using the Word app on a phone or tablet, you're using <strong>Word Mobile</strong>. Tap your <strong>profile icon</strong> or <strong>settings</strong> gear, then look for <strong>About</strong> to see version details.
@@ -160,8 +161,30 @@ There are a few versions of Microsoft Word:
 If you have Word document or template file to work from you don't need to open the Word app first. Simply <strong>double click</strong> on the file icon (or <strong>left click</strong> it to select it and press <strong>Enter</strong>) and it will open in Word.
 
 A word document icon looks like this depending on where you're viewing it:
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Doc icon 1.png' | url }}"  alt="Large word doc icon" style="max-width:100px; width:100%; height:auto; vertical-align:middle"></p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Doc icon 2.png' | url }}"  alt="Small doc icon" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+<table>
+    <colgroup>
+      <col style="width: 50%;">
+      <col style="width: 50%;">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Word for Office 365</th>
+        <th>Word 2021 and similar older versions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Doc icon 1 365.png' | url }}"  alt="Word file icon" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></td>
+        <td><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Doc icon 1.png' | url }}"  alt="Word file icon" style="max-width:100px; width:100%; height:auto; vertical-align:middle"></td>
+      </tr>
+      <tr>
+        <td><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Doc icon 2 365.png' | url }}"  alt="Word file icon" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></td>
+        <td><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Doc icon 2.png' | url }}"  alt="Word file icon" style="max-width:175px; width:100%; height:auto; vertical-align:middle"></td>
+      </tr>
+    </tbody>
+</table>
+
+
 
 
 <h2 id="word-interface">The main interface</h2>
@@ -194,7 +217,18 @@ A quicker way is to use the keyboard shortcut holding down <strong>Ctrl</strong>
 <p><img class="thumbnail left" src="{{ '/assets/images/keyboard shortcuts/Ctrl+W.png' | url }}"  alt="Ctrl + W shortcut: Close the document (keeping the application open)" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2 id="close-word-app">Close Word app</h2>
-<p>You can close Word by pressing the red <strong>✖</strong> button in the far right corner on the <span class="glossary-hover" data-term="quick-access-toolbar">Quick Access Toolbar</span>. If you have made any unsaved edits Word will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
-<div style="height:150px;"></div>
+<p>You can close Word by pressing the <strong>✖</strong> button in the far right corner on the <span class="glossary-hover" data-term="quick-access-toolbar">Quick Access Toolbar</span>. If you have made any unsaved edits Word will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
 
+<h1>Where to now?</h1>
+<p>Now you know how to get set up with the Word application and understand the main interface, you might want to explore these articles depending on what you need:</p>
+
+<ul>
+  <li><a href="/word/selecting-text">How to select text in Word</a></li>
+  <li><a href="/word/saving-and-save-as">How to save</a></li>
+  <li><a href="/word/documents-vs-templates">The difference between documents and templates</a></li>
+  <li><a href="/word/formatting-text">How to change the formatting (look) of text</a></li>
+  <li><a href="/word/images/">How to insert images and graphic visuals</a></li>
+</ul>
+
+<p>Otherwise feel free to use the side menu or type what you're after in the search bar.</p>
 </section>
