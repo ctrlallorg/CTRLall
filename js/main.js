@@ -109,6 +109,21 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // ─── Collapse Sidebar on Link Click (Mobile Only) ────────────────
+const sidebarLinks = document.querySelectorAll(".sidebar-wrapper a");
+
+sidebarLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    // Check if viewport is mobile size
+    if (window.innerWidth <= 1024) {
+      sidebarWrapper.classList.add("collapsed");
+      toggleBtn.setAttribute("aria-expanded", "false");
+      localStorage.setItem("sidebarCollapsed", true);
+    }
+  });
+});
+
+
   // ─── Footer Fade-In on Scroll ───────────────
   const footer = document.querySelector(".site-footer");
   window.addEventListener("scroll", () => {
