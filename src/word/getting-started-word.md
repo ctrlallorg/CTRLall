@@ -48,6 +48,8 @@ tags:
   - open .docx file
   - open .dotx file
   - open .doc file
+  - word demonstrations
+  - word examples
 active: word
 ---
 
@@ -192,7 +194,7 @@ A quicker way is to use the keyboard shortcut holding down <strong>Ctrl</strong>
 <p><img class="thumbnail" src="{{ '/assets/images/keyboard shortcuts/Ctrl+W.png' | url }}"  alt="Ctrl + W shortcut: Close the document (keeping the application open)" style="width:20%; vertical-align:middle"></p>
 
 <h2 id="close-word-app">Close Word app</h2>
-<p>You can close Word by pressing the X button in the far right corner on the <span class="glossary-hover" data-term="quick-access-toolbar">Quick Access Toolbar</span>. If you have made any unsaved edits Word will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
+<p>You can close Word by pressing the red <strong>✖</strong> button in the far right corner on the <span class="glossary-hover" data-term="quick-access-toolbar">Quick Access Toolbar</span>. If you have made any unsaved edits Word will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
 <div style="height:150px;"></div>
 
 </section>

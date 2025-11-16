@@ -24,11 +24,30 @@ tags:
   - updating a custom table of contents
   - headings
   - page numbers
+  - table of contents page numbers
+  - TOC page numbers
   - page numbering
-  - hyperlinks
-  - links
-  - TOC
+  - table of contents page numbering
+  - TOC page numbering
+  - table of contents hyperlinks
+  - TOC hyperlinks
+  - table of contents links
+  - TOC links
+  - How does a table of contents work in Word
   - How a table of contents works in Word
+  - heading styles
+  - TOC styles
+  - table of contents styles
+  - default table of contents
+  - default TOC
+  - automated table of contents
+  - automated TOC
+  - automatic table of contents
+  - automatic TOC
+  - manual table of contents
+  - manual TOC
+  - custom table of contents
+  - custom TOC
 active: word
 ---
 

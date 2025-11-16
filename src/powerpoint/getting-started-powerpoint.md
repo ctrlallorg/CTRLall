@@ -55,6 +55,8 @@ tags:
   - open .pptx file
   - open .potx file
   - open .ppt file
+  - powerpoint demonstrations
+  - powerpoint examples
 active: powerpoint
 ---
 
@@ -67,7 +69,7 @@ active: powerpoint
 If you're new to Microsoft Powerpoint ('Powerpoint' for short, slideshow presentations made are commonly just referred to as 'powerpoints' as well) this article starts from the ground up. In this article we'll explore:</p>
 
 <ul>
-<li><a href="#powerpoint-version">What version of Powerpoint do I have??</a></li>
+<li><a href="#powerpoint-version">What version of Powerpoint do I have?</a></li>
 <li><a href="#open-powerpoint-app">Opening Microsoft Powerpoint app</a></li>
 <li><a href="#create-new-powerpoint-doc">Creating a new powerpoint presentation</a></li>
 <li><a href="#open-powerpoint-doc">Opening an existing Powerpoint file</a></li>
@@ -78,15 +80,29 @@ If you're new to Microsoft Powerpoint ('Powerpoint' for short, slideshow present
 
 
 <h2 id="powerpoint-version">What version of Powerpoint do I have?</h2>
+<p></p>
 
 <h2 id="open-powerpoint-app">Opening Microsoft Powerpoint app</h2>
+<p></p>
 
 <h2 id="create-new-powerpoint-do">Creating a new powerpoint presentation</h2>
+<p></p>
 
 <h2 id="open-powerpoint-doc">Opening an existing Powerpoint file</h2>
+<p></p>
 
 <h2 id="powerpoint-interface">The main interface</h2>
+<p></p>
+
+Start Screen: Choose a blank presentation or a template.
+Ribbon Interface: Tabs like Home, Insert, Design, and Animations organize tools.
+Slides Pane: Shows the order of your slides.
+Main Canvas: Where you design and edit each slide.
 
 <h2 id="close-powerpoint">Closing a powerpoint</h2>
+<p></p>
 
 <h2 id="close-powerpoint-app">Closing the app</h2>
+<p>You can close PowerPoint by pressing the red <strong>✖</strong> button in the far right corner on the <span class="glossary-hover" data-term="quick-access-toolbar">Quick Access Toolbar</span>. If you have made any unsaved edits PowerPoint will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
+<div style="height:150px;"></div>
+<p></p>

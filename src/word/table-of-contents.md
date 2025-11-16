@@ -29,6 +29,20 @@ tags:
   - links
   - TOC
   - How a table of contents works in Word
+  - heading styles
+  - TOC styles
+  - table of contents styles
+  - heading styles
+  - default table of contents
+  - default TOC
+  - automated table of contents
+  - automated TOC
+  - automatic table of contents
+  - automatic TOC
+  - manual table of contents
+  - manual TOC
+  - custom table of contents
+  - custom TOC
 active: word
 ---
 
