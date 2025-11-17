@@ -295,9 +295,12 @@ Then <strong>Save As</strong></p>
     <ins class="adsbygoogle"
          style="display:block"
          data-ad-client="ca-pub-6596712504858429"
-         data-ad-slot="1234567890"
+         data-ad-slot="5978194952"
          data-ad-format="auto"
          data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
   </div>
 </div>
 
@@ -306,23 +309,6 @@ Then <strong>Save As</strong></p>
 </noscript>
 
 <script>
-  const wrapper = document.getElementById("ad-wrapper");
-  if (wrapper) {
-    const observer = new ResizeObserver((entries) => {
-      const width = entries[0].contentRect.width;
-      if (width > 0) {
-        observer.disconnect(); // Stop observing immediately
-        console.log("✅ Ad slot width:", width);
-        try {
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        } catch (e) {
-          console.error("❌ AdSense push failed:", e);
-        }
-      }
-    });
-    observer.observe(wrapper);
-  }
-
   function openKofiPopup(e) {
     e.preventDefault();
     const popup = document.getElementById('kofi-popup');
