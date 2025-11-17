@@ -136,18 +136,17 @@ There are a few versions of Microsoft Word:
 <p><u>Note</u>: For the purpose of demonstration here all the examples are using Microsoft Office 365.</p>
 
 <h2 id="open-word-app">Opening the Microsoft Word app</h2>
-<h4>UPDATE OCTOBER 2025: Microsoft recently updated all Office 365 icons, we'll be refreshing these screenshots soon. <a href="https://microsoft.design/articles/fluid-forms-vibrant-colors/" target="_blank">Read more here</a>.</h4>
 <p>The first thing to do is to find the application to open it. The blue Word application icon is typically 'pinned' to your taskbar on the bottom of your screen like this:</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Word app on taskbar.png' | url }}"  alt="Where to find the Microsoft Word app on the taskbar" style="max-width:550px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Word app on taskbar.png' | url }}"  alt="Where to find the Microsoft Word app on the taskbar" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>If you don't see it you can <strong>left click</strong> in the <strong>search bar</strong> and type in 'word':</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 1.png' | url }}"  alt="Searching for the Word app with the taskbar search bar" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 1.png' | url }}"  alt="Searching for the Word app with the taskbar search bar" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>Word will then appear in search results above. You can click on either of these two highlighted buttons below to open the application:</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 2.png' | url }}"  alt="Taskbar search results for Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 2.png' | url }}"  alt="Taskbar search results for Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <strong>Tip</strong>: Once you've opened the app, <strong>right click</strong> on the blue Word app icon and select <strong>Pin to taskbar</strong> from the menu. Pinning the Word app to the taskbar will make it stay there after you close it:
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Pin Word app taskbar.png' | url }}"  alt="Pin Word app to the taskbar" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Pin Word app taskbar.png' | url }}"  alt="Pin Word app to the taskbar" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
 
 
@@ -158,34 +157,14 @@ There are a few versions of Microsoft Word:
 
 
 <h2 id="open-word-doc">Opening an existing Word document file</h2>
-If you have Word document or template file to work from you don't need to open the Word app first. Simply <strong>double click</strong> on the file icon (or <strong>left click</strong> it to select it and press <strong>Enter</strong>) and it will open in Word.
+<p>Word files will have the Word app icon. The Microsoft Office icons have changeed over the years with the latest revamp happening in 2025, so depending on what version of Word you have they'll look like one of these below. For Mac users icons might looks like <a href="https://www.reddit.com/r/FrutigerAero/comments/1ckjclj/office_icons_through_the_years_2k8_was_the_fa/" target="_blank">this.</a></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Word icon history.png' | url }}"  alt="Word file icons history" style="width:100%; height:auto; vertical-align:middle"></p>
 
-A word document icon looks like this depending on where you're viewing it:
-<table>
-    <colgroup>
-      <col style="width: 50%;">
-      <col style="width: 50%;">
-    </colgroup>
-    <thead>
-      <tr>
-        <th>Word for Office 365</th>
-        <th>Word 2021 and similar older versions</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Doc icon 1 365.png' | url }}"  alt="Word file icon" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></td>
-        <td><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Doc icon 1.png' | url }}"  alt="Word file icon" style="max-width:100px; width:100%; height:auto; vertical-align:middle"></td>
-      </tr>
-      <tr>
-        <td><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Doc icon 2 365.png' | url }}"  alt="Word file icon" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></td>
-        <td><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Doc icon 2.png' | url }}"  alt="Word file icon" style="max-width:175px; width:100%; height:auto; vertical-align:middle"></td>
-      </tr>
-    </tbody>
-</table>
-
-
-
+<p>If you have Word document or template file to work from you don't need to open the Word app first. Simply <strong>double click</strong> on the file icon (or <strong>left click</strong> it to select it and press <strong>Enter</strong>) and it will open in Word. File icons look like this depending on the folder view:</p>
+<div class="image-row">
+  <img class="thumbnail left" src="{{ '/assets/images/word/Getting started with Word/Doc icon 1 365.png' | url }}" alt="Word file icon" style="max-width:75px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail left" src="{{ '/assets/images/word/Getting started with Word/Doc icon 2 365.png' | url }}" alt="Word file icon" style="max-width:175px; width:100%; height:50%; vertical-align:middle">
+</div>
 
 <h2 id="word-interface">The main interface</h2>
 <p> This is the main Word interface you work from. It's made of different sections which we'll go through top to bottom.</p>
@@ -210,8 +189,8 @@ The bar at the bottom of the window shows details about the document such as the
 
 <h2 id="close-word-doc">Closing a document</h2>
 You can close the current document but still keep the Word application open by clicking <strong>File > Close</strong>:
-<p><img class="thumbnail border left" src="{{ '/assets/images/word/Getting started with Word/File.png' | url }}"  alt="File button top left" style="max-width:150px; width:100%; height:auto; vertical-align:middle"></p>
-<p><img class="thumbnail border left" src="{{ '/assets/images/word/Getting started with Word/Close document.png' | url }}"  alt="Close document button under File" style="max-width:150px; width:100%; height:auto; vertical-align:middlee"></p>
+<p><img class="thumbnail border left" src="{{ '/assets/images/word/Getting started with Word/File.png' | url }}"  alt="File button top left" style="max-width:175px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border left" src="{{ '/assets/images/word/Getting started with Word/Close document.png' | url }}"  alt="Close document button under File" style="max-width:175px; width:100%; height:auto; vertical-align:middlee"></p>
 
 A quicker way is to use the keyboard shortcut holding down <strong>Ctrl</strong> and then pressing <strong>W</strong>:
 <p><img class="thumbnail left" src="{{ '/assets/images/keyboard shortcuts/Ctrl+W.png' | url }}"  alt="Ctrl + W shortcut: Close the document (keeping the application open)" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>

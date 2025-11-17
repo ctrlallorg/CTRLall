@@ -13,21 +13,42 @@ tags:
   - ctrlall
   - ctrl all
   - microsoft word
-  - save
   - save as
-  - saving
   - back up
   - backup
+  - save document
+  - save a document
+  - saving document
+  - saving a document
+  - save a word document
+  - saving a word document
+  - saving word document
+  - save template
+  - save a template
+  - saving template
+  - saving a template
+  - save a word template
+  - saving word template
+  - saving a word template
   - save a copy
-  - save copies
-  - computer
-  - laptop
-  - hard drive
-  - cloud
-  - online
-  - machine
-  - PC
-  - file
+  - save copies  
+  - saving copies
+  - save to computer
+  - saving to computer
+  - save to laptop
+  - saving to laptop
+  - save to hard drive
+  - saving to hard drive
+  - save to cloud
+  - saving to cloud
+  - save online
+  - saving online
+  - save to machine
+  - saving to machine
+  - save to PC
+  - saving to PC
+  - save files
+  - saving files
   - existing files
   - save over
   - overwrite
@@ -37,6 +58,10 @@ tags:
   - templates
   - docx
   - dotx
+  - doc
+  - .docx
+  - .dotx
+  - .doc
 active: word
 ---
 

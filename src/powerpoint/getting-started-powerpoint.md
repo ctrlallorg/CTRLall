@@ -155,30 +155,15 @@ Tip: Once you've opened the app, right click on the app icon and select <strong>
 
 
 <h2 id="open-powerpoint">Opening an existing Powerpoint file</h2>
-<p>PowerPoint file icons looks like these depending on what app version you have; <strong>double click</strong> on them to open them.</p>
+<p>PowerPoint files will have the PowerPoint app icon. The Microsoft Office icons have changed over the years with the latest revamp happening in 2025, so depending on what version of PowerPoint you have they'll look like one of these below. For Mac users icons might looks like <a href="https://www.reddit.com/r/FrutigerAero/comments/1ckjclj/office_icons_through_the_years_2k8_was_the_fa/" target="_blank">this.</a></p>
+<p><img class="thumbnail" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/PowerPoint icon history.png' | url }}"  alt="PowerPoint file icon history" style="width:100%; height:auto; vertical-align:middle"></p>
 
- <table>
-    <colgroup>
-      <col style="width: 50%;">
-      <col style="width: 50%;">
-    </colgroup>
-    <thead>
-      <tr>
-        <th>PowerPoint for Office 365</th>
-        <th>PowerPoint 2021 and similar older versions</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><img class="thumbnail" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/PowerPoint file 1.png' | url }}"  alt="PowerPoint file icon" style="max-width:100px; width:100%; height:auto; vertical-align:middle"></td>
-        <td>Icon to come</td>
-      </tr>
-      <tr>
-        <td><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/PowerPoint file 2.png' | url }}"  alt="PowerPoint file icon" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></td>
-        <td>Icon to come</td>
-      </tr>
-    </tbody>
-</table>
+
+<p>If you have PowerPoint document or template file to work from you don't need to open the PowerPoint app first. Simply <strong>double click</strong> on the file icon (or <strong>left click</strong> it to select it and press <strong>Enter</strong>) and it will open in PowerPoint. File icons look like this depending on the folder view:</p>
+<div class="image-row">
+  <img class="thumbnail left" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/PowerPoint file 1.png' | url }}" alt="PowerPoint file icon" style="max-width:100px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail left" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/PowerPoint file 2.png' | url }}" alt="PowerPoint file icon" style="max-width:175px; width:100%; height:50%; vertical-align:middle">
+</div>
 
 <h2 id="powerpoint-interface">The main interface</h2>
 <p>This is the main interface of the PowerPoint app. We'll break it down in sections top to bottom.</p>
