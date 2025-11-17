@@ -367,9 +367,6 @@ That’s because they’re hidden by default. To make formatting marks like thes
          data-ad-slot="5978194952"
          data-ad-format="auto"
          data-full-width-responsive="true"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
   </div>
 </div>
 
@@ -378,6 +375,16 @@ That’s because they’re hidden by default. To make formatting marks like thes
 </noscript>
 
 <script>
+  // Initialize AdSense only after the page has fully loaded
+  window.addEventListener('load', function() {
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      console.log("✅ AdSense ad initialized after window load");
+    } catch (e) {
+      console.error("❌ AdSense push failed:", e);
+    }
+  });
+
   function openKofiPopup(e) {
     e.preventDefault();
     const popup = document.getElementById('kofi-popup');
