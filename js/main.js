@@ -600,3 +600,14 @@ window.initSearch = function () {
     }
   });
 };
+
+// Ensure AdSense ad renders only after layout is ready
+window.addEventListener('load', function() {
+  try {
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    console.log("✅ AdSense ad initialized after window load");
+  } catch (e) {
+    console.error("❌ AdSense push failed:", e);
+  }
+});
+
