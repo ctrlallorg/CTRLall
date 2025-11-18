@@ -1,6 +1,6 @@
 ---
 title: CTRL All
-description: Ctrl All - A digital literacy hub built on clarity, ethics, and open-source empowerment.
+description: Ctrl All - Digital literacy with soul, clarity, and control.
 layout: layout.liquid
 permalink: /
 canonical: /index/

@@ -4,7 +4,6 @@ layout: layout.liquid
 permalink: /content-control/moving-content/
 canonical: /content-control/moving-content/
 description: Moving content in Microsoft Word with clear steps, visuals, and animations.
-image: /assets/images/Ctrl All logo blue.svg
 asset_id: ctrlall-moving-content-v1
 date: 2025-10-26
 last_modified: 2025-10-26
