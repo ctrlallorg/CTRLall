@@ -4,7 +4,7 @@ layout: layout.liquid
 permalink: /word/font-options/
 canonical: /word/font-options/
 description: Style font for words, sentences, and paragraphs in Microsoft Word with clear steps, visuals, and animations.
-image: /assets/images/Ctrl All logo blue.svg
+image: /assets/images/Ctrl All logo og.png
 asset_id: ctrlall-font-options-v1
 date: 2025-10-26
 last_modified: 2025-10-26

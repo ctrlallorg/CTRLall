@@ -4,7 +4,8 @@ layout: layout.liquid
 permalink: /word/getting-started-word/
 canonical: /word/getting-started-word/
 description: Getting started with Microsoft Word, an introduction with clear steps, visuals, and animations.
-casset_id: ctrlall-getting-started-word-v1
+image: /assets/images/Ctrl All logo og.png
+asset_id: ctrlall-getting-started-word-v1
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:
@@ -157,7 +158,7 @@ There are a few versions of Microsoft Word:
 
 
 <h2 id="open-word-doc">Opening an existing Word document file</h2>
-<p>Word files will have the Word app icon. The Microsoft Office icons have changeed over the years with the latest revamp happening in 2025, so depending on what version of Word you have they'll look like one of these below. For Mac users icons might looks like <a href="https://www.reddit.com/r/FrutigerAero/comments/1ckjclj/office_icons_through_the_years_2k8_was_the_fa/" target="_blank">this.</a></p>
+<p>Word files will have the Word app icon. The Microsoft Office icons have changed over the years with the latest revamp happening in 2025, so depending on what version of Word you have they'll look like one of these below. For Mac users icons might looks like <a href="https://www.reddit.com/r/FrutigerAero/comments/1ckjclj/office_icons_through_the_years_2k8_was_the_fa/" target="_blank">this.</a></p>
 <p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Word icon history.png' | url }}"  alt="Word file icons history" style="width:100%; height:auto; vertical-align:middle"></p>
 
 <p>If you have Word document or template file to work from you don't need to open the Word app first. Simply <strong>double click</strong> on the file icon (or <strong>left click</strong> it to select it and press <strong>Enter</strong>) and it will open in Word. File icons look like this depending on the folder view:</p>

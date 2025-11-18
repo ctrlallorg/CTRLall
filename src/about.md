@@ -4,7 +4,7 @@ layout: layout.liquid
 permalink: /about/
 canonical: /about/
 description: About us.
-image: /assets/images/Ctrl All logo blue.svg
+image: /assets/images/Ctrl All logo og.png
 asset_id: ctrlall-about-v1
 date: 2025-11-11
 last_modified: 2025-10-26

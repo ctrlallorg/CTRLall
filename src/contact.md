@@ -5,7 +5,7 @@ layout: layout.liquid
 permalink: /contact/
 canonical: /contact/
 asset_id: ctrlall-contact-v1
-image: /assets/images/Ctrl All logo blue.svg
+image: /assets/images/Ctrl All logo og.png
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:

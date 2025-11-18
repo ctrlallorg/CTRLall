@@ -4,7 +4,7 @@ layout: layout.liquid
 permalink: /word/images/
 canonical: /word/images/
 description: A guide on everything about images and graphic visuals in Microsoft Word with clear steps, visuals, and animations.
-image: /assets/images/Ctrl All logo blue.svg
+image: /assets/images/Ctrl All logo og.png
 asset_id: ctrlall-images-v1
 date: 2025-10-26
 last_modified: 2025-10-26

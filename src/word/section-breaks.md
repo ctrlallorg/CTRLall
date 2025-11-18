@@ -4,7 +4,7 @@ layout: layout.liquid
 permalink: /word/section-breaks/
 canonical: /word/section-breaks/
 description: Section breaks in Microsoft Word with clear steps, visuals, and animations.
-image: /assets/images/Ctrl All logo blue.svg
+image: /assets/images/Ctrl All logo og.png
 asset_id: ctrlall-section-breaks-v1
 date: 2025-10-30
 last_modified: 2025-10-30
