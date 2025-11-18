@@ -4,7 +4,6 @@ layout: layout.liquid
 permalink: /word/lists-fixing-number-lists/
 canonical: /word/lists-fixing-number-lists/
 description: How to fix number list issues in Microsoft Word with clear steps, visuals, and animations.
-image: /assets/images/Ctrl All logo og.png
 asset_id: ctrlall-lists-fixing-number-lists-v1
 date: 2025-10-26
 last_modified: 2025-10-26

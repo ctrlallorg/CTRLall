@@ -5,7 +5,6 @@ layout: layout.liquid
 permalink: /
 canonical: /index/
 asset_id: index-v1.0
-image: /assets/images/Ctrl All logo og.png
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:

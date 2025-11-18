@@ -4,7 +4,6 @@ layout: layout.liquid
 permalink: /word/editing-charts/
 canonical: /word/editing-charts/
 description: Editing charts in Mirosoft Word with clear steps, visuals, and animations. .
-image: /assets/images/Ctrl All logo og.png
 asset_id: ctrlall-editing-charts-v1
 date: 2025-10-26
 last_modified: 2025-10-26

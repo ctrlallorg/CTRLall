@@ -4,7 +4,6 @@ layout: layout.liquid
 permalink: /word/getting-started-word/
 canonical: /word/getting-started-word/
 description: Getting started with Microsoft Word, an introduction with clear steps, visuals, and animations.
-image: /assets/images/Ctrl All logo og.png
 asset_id: ctrlall-getting-started-word-v1
 date: 2025-10-26
 last_modified: 2025-10-26

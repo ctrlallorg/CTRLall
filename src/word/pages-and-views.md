@@ -4,7 +4,6 @@ layout: layout.liquid
 permalink: /word/pages-and-views/
 canonical: /word/pages-and-views/
 description: Altering pages and views in Microsoft Word with clear steps, visuals, and animations.
-image: /assets/images/Ctrl All logo og.png
 asset_id: ctrlall-pages-and-views-v1
 date: 2025-10-26
 last_modified: 2025-10-26

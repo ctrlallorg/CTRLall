@@ -4,7 +4,6 @@ layout: layout.liquid
 permalink: /word/headers-and-footers/
 canonical: /word/headers-and-footers/
 description: Understanding headers and footers in Microsoft Word. Help with clear steps, visuals, and animations.
-image: /assets/images/Ctrl All logo og.png
 asset_id: ctrlall-headers-and-footers-v1
 date: 2025-11-13
 last_modified: 2025-11-13

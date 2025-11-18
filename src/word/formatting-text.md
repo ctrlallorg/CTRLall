@@ -4,7 +4,6 @@ layout: layout.liquid
 permalink: /word/formatting-text/
 canonical: /modules/formatting-text.html
 description: Style words, sentences, and paragraphs in Word with clear steps, visuals, and animations.
-image: /assets/images/Ctrl All logo og.png
 asset_id: ctrlall-formatting-text-v1"
 date: 2025-10-26
 last_modified: 2025-10-26

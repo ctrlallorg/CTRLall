@@ -4,7 +4,6 @@ layout: layout.liquid
 permalink: /word/indents/
 canonical: /word/indents/
 description: Indents in Microsoft Word with clear steps, visuals, and animations.
-image: /assets/images/Ctrl All logo og.png
 asset_id: ctrlall-indents-v1
 date: 2025-10-26
 last_modified: 2025-10-26

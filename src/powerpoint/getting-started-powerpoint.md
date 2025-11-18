@@ -4,7 +4,6 @@ layout: layout.liquid
 permalink: /powerpoint/getting-started-powerpoint/
 canonical: /powerpoint/getting-started-powerpoint/
 description: Getting started with Microsoft PowerPoint, an introduction with clear steps, visuals, and animations.
-image: /assets/images/Ctrl All logo og.png
 asset_id: ctrlall-getting-started-powerpoint-v1
 date: 2025-11-15
 last_modified: 2025-11-15
