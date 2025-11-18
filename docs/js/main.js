@@ -207,23 +207,31 @@ if (
   }
 }
 
+// ─── Device Detection Helper ────────────────
+function isMobileOrTablet() {
+  // Matches common mobile/tablet identifiers in the user agent
+  return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+}
 
-// ─── Mobile  Overlay ─────────────
-// Show overlay if screen width is below threshold (e.g., 768px)
-window.addEventListener("load", () => {
-  if (window.innerWidth < 768) {
-    document.getElementById("mobileOverlay").style.display = "flex";
-  }
-});
+// ─── Mobile Overlay ────────────────
+// Show overlay only if device is mobile/tablet AND orientation is portrait
+function toggleMobileOverlay() {
+  const overlay = document.getElementById("mobileOverlay");
+  if (!overlay) return; // guard against missing element
 
-// Optional: also listen for resize
-window.addEventListener("resize", () => {
-  if (window.innerWidth < 768) {
-    document.getElementById("mobileOverlay").style.display = "flex";
+  const isPortrait = window.matchMedia("(orientation: portrait)").matches;
+
+  if (isMobileOrTablet() && isPortrait) {
+    overlay.style.display = "flex";
   } else {
-    document.getElementById("mobileOverlay").style.display = "none";
+    overlay.style.display = "none";
   }
-});
+}
+
+window.addEventListener("load", toggleMobileOverlay);
+window.addEventListener("resize", toggleMobileOverlay);
+window.addEventListener("orientationchange", toggleMobileOverlay);
+
 
 
 // ─── Modal Image Preview ─────────────────────

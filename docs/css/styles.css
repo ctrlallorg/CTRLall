@@ -978,15 +978,15 @@ table td {
 
 /* ─── Adsbar ────────────────────────── */
 .adsbar-wrapper {
-  width: 180px;
   background-color: #f5f5f5;
   border-left: 1px solid #ddd;
   padding: 15px;
   overflow-y: auto;
-  flex: 0 0 180px; /* reserve 180px in flex layout */
   width: 180px;    /* keep for clarity */
   position: relative;
   z-index: 10;
+  width: 180px;
+  flex: 0 0 180px;
 }
 
 .adsbar-content {
@@ -994,30 +994,12 @@ table td {
   color: #333;
 }
 
-/* Hide adsbar on all phones (portrait + landscape) */
-@media only screen and (max-width: 1024px) {
-  .adsbar-wrapper {
-    display: none;
-  }
+.spacer-60 {
+  height: 60px;
 }
 
-@media only screen and (max-width: 1024px) {
-  .layout-wrapper {
-    flex-direction: column; /* stop reserving side columns */
-  }
-
-  .sidebar-wrapper {
-    width: 280px; /* allow expansion */
-  }
-  .sidebar-wrapper.collapsed {
-    width: 0;     /* collapsed state */
-  }
-  .content-wrapper {
-    margin-left: 0; /* no offset when collapsed */
-  }
-  .adsbar-wrapper {
-    display: none;  /* adsbar hidden on mobile */
-  }
+.spacer-20 {
+  height: 20px;
 }
 
 
