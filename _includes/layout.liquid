@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>{{ title }} – CTRL All</title>
+  <title>{{ title }} – Ctrl All</title>
 
   {% if page.canonical %}
     <link rel="canonical" href="{{ page.canonical }}">
@@ -12,14 +12,14 @@
 
   <meta name="ctrlall-source" content="{{ page.asset_id }}">
   <meta name="description" content="{{ description | default: 'Empowering learners with open-source tools and ethical guidance.' }}">
-  <meta name="author" content="Steve Williams – CTRL All">
+  <meta name="author" content="Steve Williams – Ctrl All">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="robots" content="index, follow">
 
   {% assign page_image = image | default: "/assets/images/Ctrl All logo blue.svg" %}
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ title }} – CTRL All">
+  <meta property="og:title" content="{{ title }} – Ctrl All">
   <meta property="og:description" content="{{ description }}">
   <meta property="og:image" content="https://stevewilliams87.github.io/CTRLall/assets/images/Ctrl%20All%20logo%20og.png">
   <meta property="og:url" content="{{ page.url }}">
@@ -34,11 +34,11 @@
     "image": "{{ page_image | url }}",
     "author": {
       "@type": "Organization",
-      "name": "CTRL All"
+      "name": "Ctrl All"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "CTRL All",
+      "name": "Ctrl All",
       "logo": {
         "@type": "ImageObject",
         "url": "{{ '/assets/logo.png' | url }}"
@@ -164,6 +164,6 @@
 
   <div id="glossary-tooltip" hidden></div>
 
-  <!-- CTRL All asset ID: {{ page.asset_id }} -->
+  <!-- Ctrl All asset ID: {{ page.asset_id }} -->
 </body>
 </html>
