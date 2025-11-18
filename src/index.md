@@ -6,7 +6,7 @@ permalink: /
 canonical: /index/
 asset_id: index-v1.0
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2025-11-18
 tags:
   - ctrlall.org
   - ctrlall

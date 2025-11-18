@@ -410,15 +410,24 @@
 </noscript>
 
 <script>
-  // Initialize AdSense only after the page has fully loaded
+  // Initialize AdSense only once, after the page has fully loaded
+
   window.addEventListener('load', function() {
-    try {
-      (adsbygoogle = window.adsbygoogle || []).push({});
-      console.log("✅ AdSense ad initialized after window load");
-    } catch (e) {
-      console.error("❌ AdSense push failed:", e);
-    }
+    setTimeout(function() {
+      const adWrapper = document.getElementById('ad-wrapper');
+      if (adWrapper && adWrapper.offsetWidth > 0) {
+        try {
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          console.log("✅ AdSense ad initialized after layout delay");
+        } catch (e) {
+          console.error("❌ AdSense push failed:", e);
+        }
+      } else {
+        console.warn("⚠️ Ad wrapper still has no width, ad not pushed");
+      }
+    }, 300); // wait 300ms after load
   });
+
 
   function openKofiPopup(e) {
     e.preventDefault();
