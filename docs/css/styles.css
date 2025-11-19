@@ -891,8 +891,10 @@ table td {
   font-size: 0.9rem;
   position: relative;
   z-index: 1001;
+  opacity: 0; /* default hidden */
   transition: opacity 0.3s ease;
 }
+
 
 .site-footer a {
   text-decoration: none;
@@ -912,7 +914,6 @@ table td {
   height: auto;
   vertical-align: middle;
 }
-
 
 
 .noscript-warning {
