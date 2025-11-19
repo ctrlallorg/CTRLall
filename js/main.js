@@ -139,12 +139,21 @@ document.addEventListener("click", (event) => {
 
 
 
-  // ─── Footer Fade-In on Scroll ───────────────
-  const footer = document.querySelector(".site-footer");
-  window.addEventListener("scroll", () => {
-    const scrollBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight;
-    footer.style.opacity = scrollBottom ? "1" : "0";
-  });
+// ─── Footer Fade-In on Scroll ───────────────
+const footer = document.querySelector(".site-footer");
+
+window.addEventListener("scroll", () => {
+  const scrollPosition = window.innerHeight + window.scrollY;
+  const pageHeight = document.documentElement.scrollHeight;
+
+  // Show footer only when scrolled to bottom
+  if (scrollPosition >= pageHeight) {
+    footer.style.opacity = "1";
+  } else {
+    footer.style.opacity = "0";
+  }
+});
+
 
 
   
