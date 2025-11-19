@@ -474,9 +474,6 @@ img.border-left {
   margin: 0.5rem 0 1.2rem 0; /* no auto centering */
 }
 
-
-
-
 .image-row {
   display: flex;
   gap: 1em; /* space between images */
@@ -489,6 +486,27 @@ img.border-left {
   height: auto;
   margin: 0; /* override inherited margin */
 }
+
+.image-adjacent img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.image-adjacent img:not(:last-child) {
+  margin-right: 2em;
+}
+
+.image-adjacent a {
+  display: inline-block;
+  margin-right: 2em;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.image-adjacent a:last child {
+  margin-right: 0
+}
+
 
 .figure {
   text-align: center;

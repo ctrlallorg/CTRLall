@@ -85,6 +85,9 @@ tags:
   - community resource
   - community education
   - community learning
+  - social media
+  - facebook
+  - linkedin
 active: about
 ---
 
@@ -113,11 +116,21 @@ active: about
   <h2>Get Started</h2>
   <div class="button-row">
     <ul>
-      <li>Browse Tutorials from the left menu</li>
+      <li>Browse Tutorials from the menu (toggle button top left)</li>
       <li><a href="/contact/" class="action-button">Request a Topic</a></li>
       <li><a href="/contact/" class="action-button">Got a Tip?</a> Share what you know.</li>
     </ul>
   </div>
+
+  <h2>Find us on social media</h2>
+<div class=image-adjacent>
+  <a href="https://www.facebook.com/profile.php?id=61583244572128">
+  <img class="thumbnail" src="{{ '/assets/images/topbar/facebook.png' | url }}"  alt="Facebook icon" style="max-width:100px; width:100%; height:auto; vertical-align:middle">
+  </a>
+  <a href="https://www.linkedin.com/company/ctrl-all-org/posts/">
+  <img class="thumbnail" src="{{ '/assets/images/topbar/linkedin.png' | url }}"  alt="LinkedIn icon" style="max-width:100px; width:100%; height:auto; vertical-align:middle">
+  </a>
+</div>
 
   <h2>Copyright & Licensing</h2>
   <p>All content is © Ctrl All 2025. Educational use is encouraged with attribution. For other uses — including commercial, derivative, or syndication — please <a href="/contact/">get in touch</a>.</p>
