@@ -52,31 +52,32 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // ─── Share Dropdown Behavior ────────────────
-  const dropbtn = document.querySelector(".dropbtn");
-  const dropdown = document.getElementById("share-dropdown");
+ const dropbtn = document.querySelector(".dropbtn");
+const dropdown = document.getElementById("share-dropdown");
 
-  if (dropbtn && dropdown) {
-    dropbtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      const isVisible = dropdown.style.display === "block";
-      dropdown.style.display = isVisible ? "none" : "flex";
-      dropdown.style.position = "fixed";
-      dropdown.style.top = "60px";
-      dropdown.style.left = "50%";
-      dropdown.style.transform = "translateX(-50%)";
-      dropdown.style.flexDirection = "row";
-      dropdown.style.gap = "12px";
-      dropdown.style.alignItems = "center";
-      dropdown.style.animation = isVisible ? "" : "fadeIn 0.2s ease-out";
-    });
+if (dropbtn && dropdown) {
+  // Toggle dropdown on button click
+  dropbtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    const isVisible = dropdown.style.display === "flex";
+    dropdown.style.display = isVisible ? "none" : "flex";
 
-    document.addEventListener("click", (e) => {
-      if (!dropdown.contains(e.target) && !dropbtn.contains(e.target)) {
-        dropdown.style.display = "none";
-        dropdown.style.animation = "";
-      }
-    });
-  }
+    // trigger fade-in animation only when showing
+    if (!isVisible) {
+      dropdown.style.animation = "fadeInDown 0.2s ease-out";
+    } else {
+      dropdown.style.animation = "";
+    }
+  });
+
+  // Close dropdown when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!dropdown.contains(e.target) && !dropbtn.contains(e.target)) {
+      dropdown.style.display = "none";
+      dropdown.style.animation = "";
+    }
+  });
+}
 
   // ─── Sidebar Nested Toggle ──────────────────
   document.querySelectorAll(".nav-toggle").forEach((button) => {
@@ -155,10 +156,6 @@ if (footer) {
   });
 }
 
-
-
-
-  
   // ─── Tooltip on Table Row Hover ─────────
 const tooltip = document.getElementById("tooltip");
 const tooltipImg = tooltip?.querySelector("img");

@@ -6,11 +6,39 @@
     </a>
   </div>
 
-  <div class="topbar-right">
-    <nav class="topnav">
-      <a href="{{ '/about/' | url }}" class="{% if active == 'about' %}active{% endif %}">About</a>
-      <a href="{{ '/contact/' | url }}" class="{% if active == 'contact' %}active{% endif %}">Contact</a>
+<div class="topbar-right">
+  <nav class="topnav">
+    <a href="{{ '/about/' | url }}" class="{% if active == 'about' %}active{% endif %}">About</a>
+    <a href="{{ '/contact/' | url }}" class="{% if active == 'contact' %}active{% endif %}">Contact</a>
+    <div class="share-container">
       <a href="#" class="dropbtn">Share this page</a>
+      <div id="share-dropdown" class="dropdown-content">
+        <a href="javascript:void(0)" onclick="copyPageLink(this)" style="position:relative;">
+          🔗Copy Link <span class="copy-tooltip">Copied!</span>
+        </a>
+        <a href="javascript:void(0)" onclick="emailCurrentPage(event)">📧Email this page</a>
+
+        <a id="linkedin-share" target="_blank"
+           href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url }}&title={{ page.title }}&summary=Check%20this%20out:%20{{ page.url }}">
+          <img src="{{ '/assets/images/topbar/linkedin.png' | url }}" alt="Linkedin">
+        </a>
+
+        <a id="facebook-share" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url }}">
+          <img src="{{ '/assets/images/topbar/facebook.png' | url }}" alt="Facebook">
+        </a>
+        <a id="reddit-share" target="_blank" href="https://www.reddit.com/submit?url={{ page.url }}&title=CTRL%20All">
+          <img src="{{ '/assets/images/topbar/reddit.png' | url }}" alt="Reddit">
+        </a>
+        <a id="bluesky-share" target="_blank" href="https://bsky.app/intent/compose?text=CTRL%20All%20{{ page.url }}">
+          <img src="{{ '/assets/images/topbar/bluesky.png' | url }}" alt="Bluesky">
+        </a>
+        <a id="threads-share" target="_blank" href="https://www.threads.net/intent/post?text=CTRL%20All%20{{ page.url }}">
+          <img src="{{ '/assets/images/topbar/threads.png' | url }}" alt="Threads">
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
 
       <!-- 🔍 Search Bar -->
       <div class="search-wrapper">
@@ -27,6 +55,6 @@
         </label>
       </div>
 
-    </nav>
-  </div>
+
+
 </header>

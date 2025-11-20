@@ -144,30 +144,40 @@ mark {
   gap: 12px;
   flex-wrap: nowrap;
 }
-
 /* ─── Topbar Share Dropdown ───────────────────────────── */
+
+
 #share-dropdown {
-  display: flex;
-  justify-content: flex-end;
+  position: absolute;
+  top: 100%;   /* directly below the button */
+  left: 0;
+  display: none;
   flex-wrap: wrap;
   align-items: center;
   gap: 12px;
   padding: 12px;
-  margin-right: 20px;
+  margin-top: 8px;
   background: #fff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   max-width: 100%;
+  animation: fadeInDown 0.2s ease-out;
+  padding: 12px;
+  min-width: 550px;
 }
 
 #share-dropdown a {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 4px 8px;
-  background: transparent;
-  color: inherit;
+  padding: 8px 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6c757d;              /* <-- grey text */
   text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 #share-dropdown a:hover {
@@ -190,18 +200,45 @@ mark {
   display: inline-block;
 }
 
+.share-container {
+  position: relative; /* anchor point */
+  display: inline-block;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px); /* start slightly above */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);     /* settle in place */
+  }
+}
+
+
+/* ─── Dropdown Fade-In Animation ──────────────── */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px); /* start slightly above */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);     /* settle in place */
+  }
+}
+
 .logo-link svg {
   display: block;
   height: 40px;
   width: auto;
 }
 
-
 /* ─── glossary ──────────────── */
 :target {
-  scroll-margin-top: 70px; /* or whatever height your top bar is */
+  scroll-margin-top: 70px; /* adjust for top bar height */
 }
-
 
 /* ─── Dropdown Fade-In Animation ──────────────── */
 @keyframes fadeIn {
@@ -215,19 +252,6 @@ mark {
   }
 }
 
-#share-dropdown a {
-  all: unset;
-  display: block;
-  padding: 10px 16px;
-  color: c;
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-  text-decoration: none !important;
-
-}
 
 /* Topbar */
   

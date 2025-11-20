@@ -138,11 +138,39 @@
     </a>
   </div>
 
-  <div class="topbar-right">
-    <nav class="topnav">
-      <a href="/about/" class="">About</a>
-      <a href="/contact/" class="">Contact</a>
+<div class="topbar-right">
+  <nav class="topnav">
+    <a href="/about/" class="">About</a>
+    <a href="/contact/" class="">Contact</a>
+    <div class="share-container">
       <a href="#" class="dropbtn">Share this page</a>
+      <div id="share-dropdown" class="dropdown-content">
+        <a href="javascript:void(0)" onclick="copyPageLink(this)" style="position:relative;">
+          🔗Copy Link <span class="copy-tooltip">Copied!</span>
+        </a>
+        <a href="javascript:void(0)" onclick="emailCurrentPage(event)">📧Email this page</a>
+
+        <a id="linkedin-share" target="_blank"
+           href="https://www.linkedin.com/shareArticle?mini=true&url=/word/styles/&title=&summary=Check%20this%20out:%20/word/styles/">
+          <img src="/assets/images/topbar/linkedin.png" alt="Linkedin">
+        </a>
+
+        <a id="facebook-share" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=/word/styles/">
+          <img src="/assets/images/topbar/facebook.png" alt="Facebook">
+        </a>
+        <a id="reddit-share" target="_blank" href="https://www.reddit.com/submit?url=/word/styles/&title=CTRL%20All">
+          <img src="/assets/images/topbar/reddit.png" alt="Reddit">
+        </a>
+        <a id="bluesky-share" target="_blank" href="https://bsky.app/intent/compose?text=CTRL%20All%20/word/styles/">
+          <img src="/assets/images/topbar/bluesky.png" alt="Bluesky">
+        </a>
+        <a id="threads-share" target="_blank" href="https://www.threads.net/intent/post?text=CTRL%20All%20/word/styles/">
+          <img src="/assets/images/topbar/threads.png" alt="Threads">
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
 
       <!-- 🔍 Search Bar -->
       <div class="search-wrapper">
@@ -159,8 +187,8 @@
         </label>
       </div>
 
-    </nav>
-  </div>
+
+
 </header>
 
   </header>
@@ -509,29 +537,6 @@ There are further options you can modify a style with though. Locate the style i
     </aside>
   </div>
 
-
-  <div id="share-dropdown" class="dropdown-content">
-    <a href="javascript:void(0)" onclick="copyPageLink(this)" style="position:relative;">
-      🔗Copy Link <span class="copy-tooltip">Copied!</span>
-    </a>
-    <a href="javascript:void(0)" onclick="emailCurrentPage(event)">📧Email this page</a>
-    <a id="linkedin-share" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=/word/styles/">
-      <img src="/assets/images/topbar/linkedin.png" alt="Linkedin">
-    </a>
-    <a id="facebook-share" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=/word/styles/">
-      <img src="/assets/images/topbar/facebook.png" alt="Facebook">
-    </a>
-    <a id="reddit-share" target="_blank" href="https://www.reddit.com/submit?url=/word/styles/&title=CTRL%20All">
-      <img src="/assets/images/topbar/reddit.png" alt="Reddit">
-    </a>
-    <a id="bluesky-share" target="_blank" href="https://bsky.app/intent/compose?text=CTRL%20All%20/word/styles/">
-      <img src="/assets/images/topbar/bluesky.png" alt="Bluesky">
-    </a>
-    <a id="threads-share" target="_blank" href="https://www.threads.net/intent/post?text=CTRL%20All%20/word/styles/">
-      <img src="/assets/images/topbar/threads.png" alt="Threads">
-    </a>
-  </div>
-
   <div id="imageModal" class="modal">
     <span class="close">&times;</span>
     <img id="modalImage" class="modal-content" src="" alt="">
@@ -551,8 +556,6 @@ There are further options you can modify a style with though. Locate the style i
     </div>
   </footer>
 
-
-
   <script src="/js/main.js"></script>
   <script>
     function copyPageLink(el) {
@@ -571,7 +574,7 @@ There are further options you can modify a style with though. Locate the style i
     function emailCurrentPage(event) {
       event.preventDefault();
       const subject = "Check out this page";
-      const body = "Here's a link I wanted to share with you:\n\n" + window.location.href;
+      const body = "Try this page from Ctrl All:\n\n" + window.location.href;
       const mailtoLink = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       window.location.href = mailtoLink;
     }
