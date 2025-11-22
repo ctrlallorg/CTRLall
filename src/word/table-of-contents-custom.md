@@ -4,7 +4,7 @@ layout: layout.liquid
 permalink: /word/table-of-contents-custom/
 canonical: /word/table-of-contents-custom/
 description: A guide to tables of contents in Microsoft Word with clear steps, visuals, and animations.
-asset_id: ctrlall-table-of-contents-custom-v1
+asset_id: ctrlall-word-table-of-contents-custom-v1
 date: 2025-11-12
 last_modified: 2025-11-12
 tags:

@@ -4,7 +4,7 @@ layout: layout.liquid
 permalink: /word/saving-and-save-as/
 canonical: /word/saving-and-save-as/
 description: Saving an Save As in Microsoft Word with clear steps, visuals, and animations.
-asset_id: ctrlall-saving-and-save-as-v1
+asset_id: ctrlall-word-saving-and-save-as-v1
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:
@@ -15,20 +15,30 @@ tags:
   - save as
   - back up
   - backup
-  - save document
+  - save documents
   - save a document
-  - saving document
+  - saving documents
   - saving a document
   - save a word document
   - saving a word document
-  - saving word document
-  - save template
+  - saving word documents
+  - save a word doc 
+  - save word docs
+  - saving a word doc
+  - saving word docs  
+  - save templates
   - save a template
-  - saving template
+  - saving templates
   - saving a template
   - save a word template
-  - saving word template
+  - saving word templates
   - saving a word template
+  - saving as templates
+  - saving as a template
+  - save as a word template
+  - saving as word templates
+  - saving as a word template
+
   - save a copy
   - save copies  
   - saving copies
@@ -53,6 +63,7 @@ tags:
   - overwrite
   - file types
   - type of files
+  - save as type
   - documents
   - templates
   - docx

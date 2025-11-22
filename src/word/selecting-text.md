@@ -4,7 +4,7 @@ layout: layout.liquid
 permalink: /word/selecting-text/
 canonical: /word/selecting-text/
 description: Select words, sentences, and paragraphs in Microsoft Word with clear steps, visuals, and animations.
-asset_id: ctrlall-selecting-text-v1 
+asset_id: ctrlall-word-selecting-text-v1 
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:

@@ -4,7 +4,7 @@ layout: layout.liquid
 permalink: /word/tables-formatting/
 canonical: /word/tables-formatting/
 description: Style tables in Word with clear steps, visuals, and animations.
-asset_id: ctrlall-tables-formatting-v1
+asset_id: ctrlall-word-tables-formatting-v1
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:

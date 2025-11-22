@@ -4,7 +4,7 @@ layout: layout.liquid
 permalink: /word/image-object-issues/
 canonical: /word/image-object-issues/
 description: How to fix issues with images and objects in Microsoft Word, help with clear steps, visuals, and animations.
-asset_id: ctrlall-image-object-issues-v1
+asset_id: ctrlall-word-image-object-issues-v1
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:

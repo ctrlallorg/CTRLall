@@ -4,7 +4,7 @@ layout: layout.liquid
 permalink: /word/objects-embedded-files/
 canonical: /word/objects-embedded-files/
 description: Embed and link external files in a Microsoft Word document with clear steps, visuals, and animations.
-asset_id: ctrlall-objects-embedded-files-v1
+asset_id: ctrlall-word-objects-embedded-files-v1
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:

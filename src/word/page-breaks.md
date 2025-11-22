@@ -4,7 +4,7 @@ layout: layout.liquid
 permalink: /word/page-breaks/
 canonical: /word/page-breaks/
 description: Page breaks in Microsoft Word with clear steps, visuals, and animations.
-asset_id: ctrlall-page-breaks-v1
+asset_id: ctrlall-word-page-breaks-v1
 date: 2025-10-30
 last_modified: 2025-10-30
 tags:

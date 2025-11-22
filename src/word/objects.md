@@ -4,7 +4,7 @@ layout: layout.liquid
 permalink: /word/objects/
 canonical: /word/objects/
 description: A guide on everything about objects in Microsoft Word with clear steps, visuals, and animations.
-asset_id: ctrlall-objects-v1
+asset_id: ctrlall-word-objects-v1
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:
