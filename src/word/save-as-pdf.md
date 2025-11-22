@@ -79,30 +79,19 @@ active: word
 <p>It's easy to save as a PDF. Click on <strong>File</strong> in the top right of the screen first:
 <img class="thumbnail left" src="{{ '/assets/images/word/Save as PDF/File.png' | url }}"  alt="File button on ribbon in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
 
-<p>This will bring up the <i>File</i> screen. Here you'll see <strong>Save as Adobe PDF</strong>, which will then ask you where to save as a PDF.</p> 
-<p><u>Note</u>: This option can be flimsy and not work, especially if you're using a work computer with certain IT department configurations or restrictions. If you find that this button doesn't work for you <a href="#use-save-as">click here</a>.</p>
+<p>This will bring up the <i>File</i> screen.
 
-<img class="thumbnail left" src="{{ '/assets/images/word/Save as PDF/File Save as a PDF.png' | url }}"  alt="File Save as a PDF in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
+<p><u>Note</u>: If you can see <i>Save as Adobe PDF</i> button on the left pane, it means you've got Adobe Acrobat or Adobe Acrobat Pro installed at some point (perhaps bundled with another Adobe product or added by your IT department). If you have Adobe Acrobat the button gives you trial version access where you can create '1 PDF for free every 30 days'; if you have Acrobat Pro the feature is unlimited. If you have Adobe Reader or no Adobe products you won't see this option.</p>
 
-<p>A <strong>Save As</strong> browser window pops up. This is where you enter the <span class="glossary-hover" data-term="filename">File name</span>, type of file and a location to save it to. Enter in the <strong>File name</strong> then click on <strong>Save as type</strong> beneath it:</p>
-<img class="thumbnail left" src="{{ '/assets/images/word/Save as PDF/Save As browse window.png' | url }}"  alt="Save As browse window in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
-
-<p>A drop down menu appears with different file formats to select. <strong>PDF</strong> is found about half way down, click that:</p>
-<img class="thumbnail left" src="{{ '/assets/images/word/Save as PDF/Save As browse window PDF.png' | url }}"  alt="Save As browse window selecting PDF in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
-
-<p>Once you've selected PDF, browse for the location you want to save it to. <u>Note</u>: There are bookmarked locations such as the Desktop to the left which you can use (you may need to find them by scrolling).</p>
-<p>Once you've chosen a location to save to, click <strong>Save</strong> on the window (bottom right).</p>
-
-<h2 id="use-save-as">Save As route</h2>
 <p>You can save a PDF via the <strong>File > Save As</strong>.</p>
 <img class="thumbnail left" src="{{ '/assets/images/word/Save as PDF/File Save As.png' | url }}"  alt="File Save As in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
 
-<p>This will bring up options of locations to save to the right. A simple way to choose where you want to save is to <strong>double click</strong> on <strong>This PC</strong> in the first column, and a <i>Save As</i> browser window will appear.</p>
+<p>This will bring up options of locations to save to the right. A simple way to choose where you want to save is to <strong>double click</strong> on <strong>This PC</strong> and a <i>Save As</i> browser window will then appear (see snip below).</p>
 <p><u>Note</u>: Instead of this you can also use the two fields top right to enter the <span class="glossary-hover" data-term="filename" style="font-weight:bold;">File name</span>
  and <span class="glossary-hover" data-term="filename" style="font-weight:bold;">Type of file</span> and choose a location by clicking the location field above them with the <i>Save As</i> browser window. In the example below the location field says 'OneDrive - Personal'.</p>
 <img class="thumbnail left" src="{{ '/assets/images/word/Save as PDF/File Save As 2.png' | url }}"  alt="File Save As options in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle">
 
-<p>In the <i>Save As</i> browser window enter in the <span class="glossary-hover" data-term="filename">File name</span> and the click on <strong>Save as type</strong> beneath it:</p>
+<p>In the <i>Save As</i> browser window enter in the <span class="glossary-hover" data-term="filename" style="font-weight:bold;">File name</span> and the click on <strong>Save as type</strong> beneath it to decide the <span class="glossary-hover" data-term="filetype">file type</span>:</p>
 <img class="thumbnail left" src="{{ '/assets/images/word/Save as PDF/Save As browse window.png' | url }}"  alt="Save As browse window in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
 
 <p>The menu that drops down shows the different file formats you can save in and you'll see <strong>PDF</strong> in there about mid-way, so now select that:</p>
