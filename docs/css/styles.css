@@ -415,7 +415,7 @@ p {
 
 h1 {
   color: #452c50;
-  margin-top: 2em;
+  margin-top: 0.75em;
 }
 
 h2 {
@@ -729,6 +729,70 @@ table td {
 }
 
 
+/* Difficulty toggle in navbar */
+
+.difficulty-toggle {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 1rem 0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.difficulty-toggle button {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #f0f0f0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.difficulty-toggle button.active {
+  background: #2c3e50; /* default accent for Intermediate */
+  color: #fff;
+}
+
+/* Override for Beginner active state */
+#beginner-toggle.active {
+  background: #2d6a4f;   /* same green as badge text */
+  color: #fff;
+}
+
+
+.difficulty-wrapper {
+  margin: 2rem 0;
+}
+
+.difficulty {
+  margin-bottom: 1rem;
+}
+
+.article-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: 0.25rem 0 0.5rem 0;
+}
+
+
+.article-badge.beginner {
+  background: #d4f4dd;
+  color: #2d6a4f;
+}
+
+.article-badge.intermediate {
+  background: #e0e7ff;
+  color: #2c3e50;
+}
+
+.article-badge.intermediate-only {
+  background: #fde2e2;
+  color: #2c3e50;
+}
 
 
 /* Table row hover highlight style */

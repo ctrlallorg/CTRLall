@@ -1,3 +1,9 @@
+<div class="difficulty-toggle">
+  <button id="beginner-toggle">Beginner</button>
+  <button id="intermediate-toggle">Intermediate</button>
+</div>
+
+
 <ul class="nav-level-1">
 
   <!-- Content Control Section -->
@@ -18,7 +24,14 @@
       Word <span class="arrow"></span>
     </button>
     <ul id="nav-word" class="nav-level-2 {% if active == 'word' %}show{% endif %}">
-      <li><a href="{{ '/word/getting-started-word/' | url }}" class="{% if page.url == '/word/getting-started-word/' %}active{% endif %}">Getting started with Word</a></li>
+      <li>
+        <a href="{{ '/word/getting-started-word/' | url }}"
+          class="{% if page.url == '/word/getting-started-word/' %}active{% endif %}"
+          data-beginner="Getting started with Word"
+          data-intermediate="Setting up Word">
+          Getting started with Word
+        </a>
+      </li>
       <li><a href="{{ '/word/documents-vs-templates/' | url }}" class="{% if page.url == '/word/documents-vs-templates/' %}active{% endif %}">Documents vs Templates</a></li>
       <li><a href="{{ '/word/pages-and-views/' | url }}" class="{% if page.url == '/word/pages-and-views/' %}active{% endif %}">Pages and views</a></li>
       <li><a href="{{ '/word/saving-and-save-as/' | url }}" class="{% if page.url == '/word/saving-and-save-as/' %}active{% endif %}">Saving and Save As</a></li>
@@ -65,10 +78,10 @@
     </button>
     <ul id="nav-powerpoint" class="nav-level-2 {% if active == 'powerpoint' %}show{% endif %}">
       <li><a href="{{ '/powerpoint/getting-started-powerpoint/' | url }}" class="{% if page.url == '/powerpoint/getting-started-powerpoint/' %}active{% endif %}">Getting started with PowerPoint</a></li>
+      <li><a href="{{ '/powerpoint/saving-and-save-as/' | url }}" class="{% if page.url == '/powerpoint/saving-and-save-as/' %}active{% endif %}">Saving and Save As</a></li>
       <li><a href="{{ '/content-control/keyboard-shortcuts/#powerpoint-excel-keyboard-shortcuts' | url }}" class="{% if page.url == '/content-control/keyboard-shortcuts/#excel-keyboard-shortcuts' %}active{% endif %}">Excel Keyboard Shortcuts</a></li>
     </ul>
   </li>
-
 
 <!-- Glossary Section -->
 <li>
@@ -78,3 +91,4 @@
 </li>
 
 
+<script src="main.js"></script>

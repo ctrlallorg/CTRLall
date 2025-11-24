@@ -196,7 +196,13 @@
   <div class="layout-wrapper">
     <nav class="sidebar-wrapper">
       <div id="navbar-content" class="navbar-collapse">
-        <ul class="nav-level-1">
+        <div class="difficulty-toggle">
+  <button id="beginner-toggle">Beginner</button>
+  <button id="intermediate-toggle">Intermediate</button>
+</div>
+
+
+<ul class="nav-level-1">
 
   <!-- Content Control Section -->
   <li>
@@ -216,7 +222,14 @@
       Word <span class="arrow"></span>
     </button>
     <ul id="nav-word" class="nav-level-2 show">
-      <li><a href="/word/getting-started-word/" class="">Getting started with Word</a></li>
+      <li>
+        <a href="/word/getting-started-word/"
+          class=""
+          data-beginner="Getting started with Word"
+          data-intermediate="Setting up Word">
+          Getting started with Word
+        </a>
+      </li>
       <li><a href="/word/documents-vs-templates/" class="">Documents vs Templates</a></li>
       <li><a href="/word/pages-and-views/" class="active">Pages and views</a></li>
       <li><a href="/word/saving-and-save-as/" class="">Saving and Save As</a></li>
@@ -263,10 +276,10 @@
     </button>
     <ul id="nav-powerpoint" class="nav-level-2 ">
       <li><a href="/powerpoint/getting-started-powerpoint/" class="">Getting started with PowerPoint</a></li>
+      <li><a href="/powerpoint/saving-and-save-as/" class="">Saving and Save As</a></li>
       <li><a href="/content-control/keyboard-shortcuts/#powerpoint-excel-keyboard-shortcuts" class="">Excel Keyboard Shortcuts</a></li>
     </ul>
   </li>
-
 
 <!-- Glossary Section -->
 <li>
@@ -276,7 +289,7 @@
 </li>
 
 
-
+<script src="main.js"></script>
       </div>
     </nav>
 

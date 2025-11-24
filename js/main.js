@@ -616,3 +616,55 @@ window.initSearch = function () {
     }
   });
 };
+
+
+
+// ───  Difficulty Toggle ─────────────────────────────
+function setView(view, isIntermediateOnly = false) {
+  if (!isIntermediateOnly) {
+    localStorage.setItem('preferredView', view);
+  } else {
+    view = 'intermediate';
+  }
+
+  // Show/hide article versions
+  const beginnerContent = document.querySelector('.beginner-version');
+  const intermediateContent = document.querySelector('.intermediate-version');
+  if (beginnerContent && intermediateContent) {
+    beginnerContent.style.display = (view === 'beginner') ? 'block' : 'none';
+    intermediateContent.style.display = (view === 'intermediate') ? 'block' : 'none';
+  }
+
+  // Update badge
+  const badge = document.getElementById('article-badge');
+  if (badge) {
+    badge.className = 'article-badge ' + (isIntermediateOnly ? 'intermediate-only' : view);
+    badge.textContent = isIntermediateOnly
+      ? '⚡ Intermediate Only'
+      : (view === 'beginner' ? '⭐ Beginner Level' : '⚡ Intermediate Level');
+  }
+
+  // Update toggle buttons
+  const beginnerBtn = document.getElementById('beginner-toggle');
+  const intermediateBtn = document.getElementById('intermediate-toggle');
+  if (beginnerBtn && intermediateBtn) {
+    beginnerBtn.classList.toggle('active', view === 'beginner');
+    intermediateBtn.classList.toggle('active', view === 'intermediate');
+    beginnerBtn.disabled = isIntermediateOnly;
+  }
+
+  // Update nav link labels
+  document.querySelectorAll('a[data-beginner]').forEach(link => {
+    link.textContent = (view === 'beginner') ? link.dataset.beginner : link.dataset.intermediate;
+  });
+}
+
+window.onload = function() {
+  const savedView = localStorage.getItem('preferredView') || 'beginner';
+  setView(savedView);
+
+  const beginnerBtn = document.getElementById('beginner-toggle');
+  const intermediateBtn = document.getElementById('intermediate-toggle');
+  if (beginnerBtn) beginnerBtn.onclick = () => setView('beginner');
+  if (intermediateBtn) intermediateBtn.onclick = () => setView('intermediate');
+};
