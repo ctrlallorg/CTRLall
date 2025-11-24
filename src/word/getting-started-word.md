@@ -55,7 +55,7 @@ active: word
 
 <article class="difficulty-wrapper">
 <!-- Badge -->
-<div id="article-badge" class="article-badge beginner">⭐ Beginner View</div>
+<div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
   <!-- Beginner version -->
   <div class="difficulty beginner-version">
     <h1>Getting started with Microsoft Word</h1>
