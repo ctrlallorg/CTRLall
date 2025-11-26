@@ -109,18 +109,28 @@ active: about
     <li><strong>Feedback & Requests</strong>: Your voice shapes this space — contribute ideas, tips, and needs.</li>
   </ul>
 
-  <h2>Language</h2>
-    <p>Use the toggle at the top if you want to switch between US and UK/CA/AU/NZ English; Microsoft app options and labels remain in US english by default to reflect the programs.</p>
-
-
   <h2>Get Started</h2>
-  <div class="button-row">
-    <ul>
-      <li>Browse Tutorials from the menu (toggle button top left)</li>
-      <li><a href="/contact/" class="action-button">Request a Topic</a></li>
-      <li><a href="/contact/" class="action-button">Got a Tip?</a> Share what you know.</li>
-    </ul>
-  </div>
+  <p>Click the toggle in the top left corner to bring up a side menu of tutorials to browse:</p>
+  <img class="thumbnail left" src="{{ '/assets/images/about/Menu toggle.png' | url }}"  alt="Ctrl All menu toggle" style="max-width:50px; width:100%; height:auto; vertical-align:middle">
+    <h3>Difficulty</h3>
+      <p>In the menu you'll also have a choice of Beginner and Intermediate dfficulty levels:</p>
+      <ul>
+        <li>If you're a beginner who's new to everything this site is set up for beginners by default.<img class="thumbnail left" src="{{ '/assets/images/about/Beginner.png' | url }}"  alt="Ctrl All Beginner difficulty toggle" style="max-width:260px; width:100%; height:auto; vertical-align:middle"></li>
+        <li>If you are familiar with Office apps and understand their basic terminology then switch to the Intermediate setting for more advanced content.<img class="thumbnail left" src="{{ '/assets/images/about/Intermediate.png' | url }}"  alt="Ctrl All Intermediate difficulty toggle" style="max-width:260px; width:100%; height:auto; vertical-align:middle"></li>
+      </ul>
+    <h3>Language</h3>
+      <p>Language on this site is optimised between US-English and non-US English. Use the toggle on the top bar if you want to switch between US and UK/CA/AU/NZ English.</p>
+      <img class="thumbnail left" src="{{ '/assets/images/about/Language.png' | url }}"  alt="Ctrl All English language toggle" style="max-width:150px; width:100%; height:auto; vertical-align:middle">
+      <p><u>Note</u>: The options and labels found in the Microsoft Office remain in US english by default to reflect the programs accurately.</p>
+    <h3>What now?</h3>
+      <p></p>
+      <div class="button-row">
+        <ul>
+          <li>Go ahead and explore the articles for what you need.</li>
+          <li><a href="/contact/" class="action-button">Request a topic for an article</a></li>
+          <li><a href="/contact/" class="action-button">Got a Tip?</a> Share what you know.</li>
+        </ul>
+      </div>
 
   <h2>Find us on social media</h2>
 <div class=image-adjacent>
@@ -136,6 +146,9 @@ active: about
   <p>All content is © Ctrl All 2025. Educational use is encouraged with attribution. For other uses — including commercial, derivative, or syndication — please <a href="/contact/">get in touch</a>.</p>
 
   <h2>About Ads</h2>
-  <p>Ctrl All may include ads to help cover hosting costs and support the creation of free educational content. We aim to keep ads minimal, relevant, and never intrusive. This site is built on trust, not tracking — and we’ll never sell your data or compromise your experience for clicks.</p>
+  <p>Ctrl All may include ads to help cover hosting costs and support the creation of free educational content. We aim to keep ads minimal, relevant, and never intrusive. This site is built on trust, not tracking — and we’ll never sell your data or compromise your experience for clicks. For more please view our <a href="/privacy-policy/">Privacy Policy</a>.</p>
+
+  <h2>Privacy Policy</h2>
+  <p>View our <a href="/privacy-policy/">Privacy Policy</a>.</p>
 </section>
 
