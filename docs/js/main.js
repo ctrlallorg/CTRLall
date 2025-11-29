@@ -178,27 +178,28 @@ if (tooltip && tooltipImg) {
     });
 
     row.addEventListener("mousemove", (e) => {
-      // default position to the right/below cursor
       let left = e.pageX + 15;
       let top = e.pageY + 15;
 
-      // measure tooltip after it's visible
+      // force reflow so offsetWidth/Height are accurate
       const tooltipWidth = tooltip.offsetWidth;
       const tooltipHeight = tooltip.offsetHeight;
 
-      // if it would overflow right edge, flip to left
+      // flip horizontally if overflowing
       if (left + tooltipWidth > window.innerWidth) {
         left = e.pageX - tooltipWidth - 15;
       }
+      // clamp if still overflowing
+      if (left + tooltipWidth > window.innerWidth) {
+        left = window.innerWidth - tooltipWidth - 10;
+      }
+      if (left < 10) left = 10;
 
-      // if it would overflow bottom edge, flip above
+      // flip vertically if overflowing
       if (top + tooltipHeight > window.innerHeight) {
         top = e.pageY - tooltipHeight - 15;
       }
-
-      // clamp so it never goes negative
-      if (left < 0) left = 10;
-      if (top < 0) top = 10;
+      if (top < 10) top = 10;
 
       tooltip.style.left = left + "px";
       tooltip.style.top = top + "px";
@@ -211,6 +212,7 @@ if (tooltip && tooltipImg) {
     });
   });
 }
+
 
 
 // Keyboard shortcut image alt description automation
