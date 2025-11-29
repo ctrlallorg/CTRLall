@@ -1257,6 +1257,11 @@ table td {
   z-index: 10000;
   pointer-events: auto; /* ← allow interaction inside tooltip */
 }
+.rich-tooltip {
+     /* adjustable */
+  word-wrap: break-word;
+  white-space: normal;
+}
 
 .hotspot:hover + .rich-tooltip,
 .rich-tooltip:hover {

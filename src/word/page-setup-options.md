@@ -324,7 +324,7 @@ active: word
         </div>`
     };
 
-    document.querySelectorAll('.rich-tooltip-trigger').forEach(trigger => {
+  document.querySelectorAll('.rich-tooltip-trigger').forEach(trigger => {
   const id = trigger.dataset.tooltipId;
   const layer = document.getElementById('tooltip-layer');
 
@@ -343,7 +343,21 @@ active: word
     const rect = trigger.getBoundingClientRect();
     tooltip.style.position = 'fixed';
     tooltip.style.top = `${rect.top + (rect.height / 2)}px`;
-    tooltip.style.left = `${rect.right + 10}px`;
+
+    const tooltipWidth = 400; // keep your preferred width
+    let left = rect.right + 10;
+
+    // clamp if it would overflow right edge
+    if (left + tooltipWidth > window.innerWidth) {
+      left = window.innerWidth - tooltipWidth - 10;
+      // ensure it still sits to the right of the hotspot
+      if (left < rect.left + 10) {
+        left = rect.left + 10;
+      }
+    }
+
+    tooltip.style.width = tooltipWidth + "px";
+    tooltip.style.left = `${left}px`;
     tooltip.style.display = 'block';
 
     // add to layer
@@ -370,5 +384,4 @@ active: word
     }
   });
 });
-
-  </script>
+</script>
