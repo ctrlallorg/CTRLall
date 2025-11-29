@@ -194,6 +194,7 @@ active: word
         </div>`
     };
 
+
 document.querySelectorAll('.rich-tooltip-trigger').forEach(trigger => {
   const id = trigger.dataset.tooltipId;
   const layer = document.getElementById('tooltip-layer');
@@ -217,13 +218,19 @@ document.querySelectorAll('.rich-tooltip-trigger').forEach(trigger => {
     const tooltipWidth = 400; // keep your preferred width
     let left = rect.right + 10;
 
-    // clamp if it would overflow right edge
+    // ensure it sits to the right of the hotspot
+    if (left < rect.left + 10) {
+      left = rect.left + 10;
+    }
+
+    // final clamp so it never overflows right edge
     if (left + tooltipWidth > window.innerWidth) {
       left = window.innerWidth - tooltipWidth - 10;
-      // ensure it still sits to the right of the hotspot
-      if (left < rect.left + 10) {
-        left = rect.left + 10;
-      }
+    }
+
+    // also clamp left edge if needed
+    if (left < 10) {
+      left = 10;
     }
 
     tooltip.style.width = tooltipWidth + "px";
@@ -255,4 +262,5 @@ document.querySelectorAll('.rich-tooltip-trigger').forEach(trigger => {
   });
 });
 </script>
+
 
