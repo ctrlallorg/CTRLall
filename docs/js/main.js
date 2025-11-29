@@ -178,27 +178,25 @@ if (tooltip && tooltipImg) {
     });
 
     row.addEventListener("mousemove", (e) => {
+      // default position to the right/below cursor
       let left = e.pageX + 15;
       let top = e.pageY + 15;
 
-      // force reflow so offsetWidth/Height are accurate
       const tooltipWidth = tooltip.offsetWidth;
       const tooltipHeight = tooltip.offsetHeight;
 
-      // flip horizontally if overflowing
+      // snap left if overflowing right edge
       if (left + tooltipWidth > window.innerWidth) {
         left = e.pageX - tooltipWidth - 15;
       }
-      // clamp if still overflowing
-      if (left + tooltipWidth > window.innerWidth) {
-        left = window.innerWidth - tooltipWidth - 10;
-      }
-      if (left < 10) left = 10;
 
-      // flip vertically if overflowing
+      // snap above if overflowing bottom edge
       if (top + tooltipHeight > window.innerHeight) {
         top = e.pageY - tooltipHeight - 15;
       }
+
+      // basic clamps so it never goes offscreen entirely
+      if (left < 10) left = 10;
       if (top < 10) top = 10;
 
       tooltip.style.left = left + "px";
