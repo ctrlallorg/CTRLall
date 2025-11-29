@@ -104,7 +104,63 @@ active: word
   </div>
 
 
-  <!-- Global tooltip layer -->
+  
+
+<p>Bottom left is a <strong>Format</strong> button which provides more options. Here's what each one let's you do:</p>
+
+<p><img class="thumbnail" src="{{ '/assets/images/word/Styles/Create New Style options Format.png' | url }}" alt="Format button bottom left of Create New Style from Formatting options window" style="display: inline; width: 84%;"></p>
+
+<li><a href="/word/font-options/">Font</a></li>
+<li><a href="/word/paragraph-options/">Paragraph</a></li>
+
+  <!-- New pages to create-->
+
+<li><a href="">Tabs</a></li>
+<li><a href="">Border</a></li>
+<li><a href="">Language</a></li>
+<li><a href="">Frame</a></li>
+<li><a href="">Numbering</a></li>
+<li><a href="">Shortcut key</a></li>
+<li><a href="">Text Effects</a></li>
+
+
+
+
+<h2>Adding a style to the Styles gallery</h2>
+<p>To manually add a style to the Styles gallery bring up the Styles list (bottom right corner button on Styles section of the Ribbon), then <strong>right click</strong> on the style and select <strong>Add to Style Gallery</strong>:</p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Styles/New style add to gallery.png' | url }}" alt="New style add to gallery" style="display: inline; width: 33%;">  <img class="border" src="{{ '/assets/images/word/Styles/New style added to gallery.png' | url }}" alt="New style added to gallery" style="display: inline; width: 45%;"></p>
+
+
+
+
+<h2 id="modify-style">Modifying a style</h2>
+<h4>Update a style based on selected text</h4>
+<p>The quickest way to modify a style is to format some text (typically the target text with the chosen style already applied) and manually format it, then <strong>right click</strong> on that style in the Styles gallery or the Styles list and select <strong>Update [Style] to Match Selection</strong>. The style will then update to that formatting and apply it throughout the document. It's a little like the <span class="glossary-hover" data-term="format-painter">format painter</span> but en masse.</p>
+<p><img class="border" src="{{ '/assets/images/word/Styles/Update style to match selection.gif' | url }}" alt="Update style to match selection" style="display: inline; width: 100%;"></p>
+
+<h4>Modifying style options</h4>
+There are further options you can modify a style with though. Locate the style in the Styles gallery or the Styles list, <strong>right click</strong> it and select <strong>Modify</strong>.
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Styles/Modify style Styles gallery.png' | url }}" alt="Modify style Styles gallery" style="display: inline; width: 41%;">   <img class="border" src="{{ '/assets/images/word/Styles/Modify style from list.png' | url }}" alt="Modify style from list" style="display: inline; width: 35%;"></p>
+<p>A dialog box  with multiple options appears to modify the style with.</p>
+<img class="thumbnail border" src="{{ '/assets/images/word/Styles/Modify style options.png' | url }}" alt="Modify style options" style="display: inline; width: 95%;"></p>
+<ul>
+    <li><a href="/word/font-options/">Font</a></li>
+    <li><a href="/word/paragraph-options/">Paragraph</a></li>
+
+<!-- New pages to create-->
+    
+    <li><a href="">Tabs</a></li>
+    <li><a href="">Border</a></li>
+    <li><a href="">Language</a></li>
+    <li><a href="">Frame</a></li>
+    <li><a href="">Numbering</a></li>
+    <li><a href="">Shortcut key</a></li>
+    <li><a href="">Text Effects</a></li>
+
+</ul>
+</section>
+
+<!-- Global tooltip layer -->
   <div id="tooltip-layer"></div>
 
   <!-- Tooltip logic -->
@@ -218,57 +274,3 @@ document.querySelectorAll('.rich-tooltip-trigger').forEach(trigger => {
   });
 });
 </script>
-
-<p>Bottom left is a <strong>Format</strong> button which provides more options. Here's what each one let's you do:</p>
-
-<p><img class="thumbnail" src="{{ '/assets/images/word/Styles/Create New Style options Format.png' | url }}" alt="Format button bottom left of Create New Style from Formatting options window" style="display: inline; width: 84%;"></p>
-
-<li><a href="/word/font-options/">Font</a></li>
-<li><a href="/word/paragraph-options/">Paragraph</a></li>
-
-  <!-- New pages to create-->
-
-<li><a href="">Tabs</a></li>
-<li><a href="">Border</a></li>
-<li><a href="">Language</a></li>
-<li><a href="">Frame</a></li>
-<li><a href="">Numbering</a></li>
-<li><a href="">Shortcut key</a></li>
-<li><a href="">Text Effects</a></li>
-
-
-
-
-<h2>Adding a style to the Styles gallery</h2>
-<p>To manually add a style to the Styles gallery bring up the Styles list (bottom right corner button on Styles section of the Ribbon), then <strong>right click</strong> on the style and select <strong>Add to Style Gallery</strong>:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Styles/New style add to gallery.png' | url }}" alt="New style add to gallery" style="display: inline; width: 33%;">  <img class="border" src="{{ '/assets/images/word/Styles/New style added to gallery.png' | url }}" alt="New style added to gallery" style="display: inline; width: 45%;"></p>
-
-
-
-
-<h2 id="modify-style">Modifying a style</h2>
-<h4>Update a style based on selected text</h4>
-<p>The quickest way to modify a style is to format some text (typically the target text with the chosen style already applied) and manually format it, then <strong>right click</strong> on that style in the Styles gallery or the Styles list and select <strong>Update [Style] to Match Selection</strong>. The style will then update to that formatting and apply it throughout the document. It's a little like the <span class="glossary-hover" data-term="format-painter">format painter</span> but en masse.</p>
-<p><img class="border" src="{{ '/assets/images/word/Styles/Update style to match selection.gif' | url }}" alt="Update style to match selection" style="display: inline; width: 100%;"></p>
-
-<h4>Modifying style options</h4>
-There are further options you can modify a style with though. Locate the style in the Styles gallery or the Styles list, <strong>right click</strong> it and select <strong>Modify</strong>.
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Styles/Modify style Styles gallery.png' | url }}" alt="Modify style Styles gallery" style="display: inline; width: 41%;">   <img class="border" src="{{ '/assets/images/word/Styles/Modify style from list.png' | url }}" alt="Modify style from list" style="display: inline; width: 35%;"></p>
-<p>A dialog box  with multiple options appears to modify the style with.</p>
-<img class="thumbnail border" src="{{ '/assets/images/word/Styles/Modify style options.png' | url }}" alt="Modify style options" style="display: inline; width: 95%;"></p>
-<ul>
-    <li><a href="/word/font-options/">Font</a></li>
-    <li><a href="/word/paragraph-options/">Paragraph</a></li>
-
-<!-- New pages to create-->
-    
-    <li><a href="">Tabs</a></li>
-    <li><a href="">Border</a></li>
-    <li><a href="">Language</a></li>
-    <li><a href="">Frame</a></li>
-    <li><a href="">Numbering</a></li>
-    <li><a href="">Shortcut key</a></li>
-    <li><a href="">Text Effects</a></li>
-
-</ul>
-</section>
