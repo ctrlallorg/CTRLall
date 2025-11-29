@@ -95,8 +95,8 @@ active: word
             <p>When you start Word you'll see a emnu screen. To start a brand new document click the highlighted option <strong>Blank document</strong>. There are also many different <a href="/glossary/#template">templates</a> you can choose from here as well.</p>
             <p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/New document.png' | url }}"  alt="The first screen interface you see when Word opens" style="width:100%; height:auto; vertical-align:middle"></p>
           <h2 id="open-word-doc">How to open a Word file</h2>
-            <p>Word files have their own blue icon with a 'W'. To open one, find the file on your computer and double‑click it.</p>
-            <p>If you find double‑clicking tricky you can click the file once to highlight it, then press the <strong>Enter</strong> key on your keyboard instead.</p>
+            <p>Word files have their own blue icon with a 'W'. To open one, find the file on your computer and <strong>double click</strong> it.</p>
+            <p>If you find double clicking tricky you can click the file once to highlight it, then press the <strong>Enter</strong> key on your keyboard instead.</p>
             <p>The file will open in Word automatically.</p>
             <div class="image-row">
               <img class="thumbnail left" src="{{ '/assets/images/word/Getting started with Word/Doc icon 1 365.png' | url }}" alt="Word file icon" style="max-width:75px; width:100%; height:auto; vertical-align:middle">
@@ -198,6 +198,7 @@ active: word
        <p>Now you know how to get set up with the Word application and understand the main interface, you might want to explore these articles depending on what you need:</p>
         <ul>
           <li><a href="/word/selecting-text">How to select text in Word</a></li>
+          <li><a href="/word/pages-and-views">Pages and view options</a></li>
           <li><a href="/word/saving-and-save-as">How to save</a></li>
            <li><a href="/word/documents-vs-templates">The difference between documents and templates</a></li>
           <li><a href="/word/formatting-text">How to change the formatting (look) of text</a></li>

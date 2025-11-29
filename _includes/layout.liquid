@@ -55,11 +55,10 @@
   <meta name="robots" content="noindex">
   {% endif %}
 
-
   <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
-<!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-LHDJ9W7GWZ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -67,8 +66,6 @@
     gtag('js', new Date());
     gtag('config', 'G-LHDJ9W7GWZ');
   </script>
-
-
 </head>
 
 <body>
@@ -95,6 +92,19 @@
       <div class="content">
         <section id="main-content">
           {{ content }}
+
+          {% if image and hotspots %}
+          <div class="overlay-container">
+            <img src="{{ image.src }}" alt="Hotspot image" class="base-image">
+            {% for spot in hotspots %}
+              <div class="hotspot rich-tooltip-trigger"
+                   data-tooltip-id="{{ spot.tooltip }}"
+                   style="top:{{ spot.top | pxToPercent: 'height', image }}%; 
+                          left:{{ spot.left | pxToPercent: 'width', image }}%;">
+              </div>
+            {% endfor %}
+          </div>
+          {% endif %}
         </section>
       </div>
     </main>
@@ -110,13 +120,10 @@
   </div>
 
   <footer class="site-footer">
-  
-    
     <div class="social-icons image-adjacent">
-    <a href="/privacy-policy/">Privacy Policy</a>
-      © 2025 Ctrl All. All rights reserved. For reuse or licensing inquiries, please 
+      <a href="/privacy-policy/">Privacy Policy</a>
+      © 2025 Ctrl All. All rights reserved. For reuse or licensing inquiries 
       <a href="{{ '/contact/' | url }}">contact us</a>
-
       <a href="https://www.facebook.com/profile.php?id=61583244572128" target="_blank" aria-label="Facebook">
         <img src="{{ '/assets/images/topbar/facebook.png' | url }}" alt="Facebook icon">
       </a>

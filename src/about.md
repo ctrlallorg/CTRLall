@@ -90,6 +90,7 @@ tags:
   - linkedin
 active: about
 ---
+<body data-no-difficulty="true">
 
 
 <section class="section-light">
@@ -117,9 +118,11 @@ active: about
       <ul>
         <li>If you're a beginner who's new to everything this site is set up for beginners by default.<img class="thumbnail left" src="{{ '/assets/images/about/Beginner.png' | url }}"  alt="Ctrl All Beginner difficulty toggle" style="max-width:260px; width:100%; height:auto; vertical-align:middle"></li>
         <li>If you are familiar with Office apps and understand their basic terminology then switch to the Intermediate setting for more advanced content.<img class="thumbnail left" src="{{ '/assets/images/about/Intermediate.png' | url }}"  alt="Ctrl All Intermediate difficulty toggle" style="max-width:260px; width:100%; height:auto; vertical-align:middle"></li>
+        <u>Note</u>: Some topics are Intermediate level only as the content is too advanced for beginners. You'll see the Beginner option greyed out:
+        <img class="thumbnail left" src="{{ '/assets/images/about/Intermediate only.png' | url }}"  alt="Ctrl All Intermediate only difficulty toggle" style="max-width:260px; width:100%; height:auto; vertical-align:middle">  
       </ul>
     <h3>Language</h3>
-      <p>Language on this site is optimised between US-English and non-US English. Use the toggle on the top bar if you want to switch between US and UK/CA/AU/NZ English.</p>
+      <p>Language on this site is optimised between US-English and non-US English. Use the toggle on the top bar if you want to switch between US and UK/CA/AU/NZ English. By default this will be based on your web browser settings.</p>
       <img class="thumbnail left" src="{{ '/assets/images/about/Language.png' | url }}"  alt="Ctrl All English language toggle" style="max-width:150px; width:100%; height:auto; vertical-align:middle">
       <p><u>Note</u>: The options and labels found in the Microsoft Office remain in US english by default to reflect the programs accurately.</p>
     <h3>What now?</h3>
@@ -134,11 +137,11 @@ active: about
 
   <h2>Find us on social media</h2>
 <div class=image-adjacent>
-  <a href="https://www.facebook.com/profile.php?id=61583244572128">
-  <img class="thumbnail" src="{{ '/assets/images/topbar/facebook.png' | url }}"  alt="Facebook icon" style="max-width:100px; width:100%; height:auto; vertical-align:middle">
+  <a href="https://www.facebook.com/profile.php?id=61583244572128" target="_blank" >
+  <img src="{{ '/assets/images/topbar/facebook.png' | url }}"  alt="Facebook icon" style="max-width:75px; width:100%; height:auto; vertical-align:middle">
   </a>
-  <a href="https://www.linkedin.com/company/ctrl-all-org/posts/">
-  <img class="thumbnail" src="{{ '/assets/images/topbar/linkedin.png' | url }}"  alt="LinkedIn icon" style="max-width:100px; width:100%; height:auto; vertical-align:middle">
+  <a href="https://www.linkedin.com/company/ctrl-all-org/posts/" target="_blank" >
+  <img src="{{ '/assets/images/topbar/linkedin.png' | url }}"  alt="LinkedIn icon" style="max-width:75px; width:100%; height:auto; vertical-align:middle">
   </a>
 </div>
 

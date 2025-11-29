@@ -21,6 +21,7 @@ tags:
   - privacy policy
 active: privacy-policy
 ---
+<body data-no-difficulty="true">
 
 <section class="section-light">
     <h1>Privacy Policy</h1>

@@ -88,19 +88,19 @@ active: word
 
 <p>You'll then see the window of property and formatting options for the new style. Here you can edit:
 
-<!-- Custom TOC > Options... tooltip overlay -->
+<!-- Styles formatting options tooltip overlay -->
   <div class="overlay-container">
-    <img src="/assets/images/word/Styles/Create New Style options.png" alt="Create New Style options" class="base-image">
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-1" style="top:66px; left:158px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-2" style="top:90px; left:158px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-3" style="top:114px; left:158px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-4" style="top:138px; left:158px;"></div>
+    <img src="/assets/images/word/Styles/Create New Style options.png" alt="Create New Style options" class="base-image" data-width="528" data-height="543">
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-1" style="top:62px; left:158px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-2" style="top:85px; left:158px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-3" style="top:108px; left:158px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-4" style="top:131px; left:158px;"></div>
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-5" style="top:187px; left:400px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-6" style="top:260px; left:30px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-7" style="top:420px; left:310px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-8" style="top:466px; left:3px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-9" style="top:466px; left:156px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-10" style="top:486px; left:3px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-6" style="top:250px; left:30px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-7" style="top:405px; left:310px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-8" style="top:447px; left:3px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-9" style="top:447px; left:156px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="Style-formatting-options-tooltip-10" style="top:464px; left:3px;"></div>
   </div>
 
 

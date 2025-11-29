@@ -33,6 +33,7 @@ tags:
   - admin@ctrlall.org
 active: contact
 ---
+<body data-no-difficulty="true">
 
 <section class="section-light">
 <h1>Contact us</h1>

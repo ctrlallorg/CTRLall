@@ -27,6 +27,7 @@ tags:
   - control page flow in word
 active: word
 ---
+<body data-intermediate-only="true">
 
 <h1>Section breaks</h1>
 <section class="section-light">

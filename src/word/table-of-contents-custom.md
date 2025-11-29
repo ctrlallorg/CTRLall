@@ -49,6 +49,7 @@ tags:
   - custom TOC
 active: word
 ---
+<body data-intermediate-only="true">
 
 <h1>Custom table of contents</h1>
 
@@ -71,24 +72,24 @@ active: word
 
   <!-- Custom TOC tooltip overlay -->
   <div class="overlay-container">
-    <img src="/assets/images/word/TOC/Custom TOC options.png" alt="TOC Options Dialog" class="base-image">
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-1" style="top:214px; left:-10px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-2" style="top:232px; left:-10px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-3" style="top:214px; left:250px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-4" style="top:254px; left:255px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-5" style="top:325px; left:233px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-6" style="top:349px; left:175px;"></div>
+    <img src="/assets/images/word/TOC/Custom TOC options.png" alt="TOC Options Dialog" class="base-image" data-width="519" data-height="464">
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-1" style="top:203px; left: 12px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-2" style="top:222px; left:12px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-3" style="top:203px; left:268px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-4" style="top:242px; left:233px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-5" style="top:308px; left:209px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-6" style="top:331px; left:152px;"></div>
   </div>
 
 <h3 id="custom-toc-options">Options</h3>
   <!-- Custom TOC > Options... tooltip overlay -->
   <div class="overlay-container">
-    <img src="/assets/images/word/TOC/TOC options.png" alt="TOC Options Dialog" class="base-image">
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-1" style="top:60px; left:0px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-2" style="top:247px; left:0px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-3" style="top:267px; left:0px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-4" style="top:297px; left:0px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-5" style="top:105px; left:240px;"></div>
+    <img src="/assets/images/word/TOC/TOC options.png" alt="TOC Options Dialog" class="base-image" data-width="369" data-height="321">
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-1" style="top:55px; left:20px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-2" style="top:230px; left:20px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-3" style="top:248px; left:20px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-4" style="top:278px; left:60px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-5" style="top:100px; left:240px;"></div>
   </div>
 
   <h4 id="table-entry-fields">Table entry fields</h4>
@@ -107,13 +108,13 @@ active: word
 
 <h4 id="modify-toc-options">Modify...</h4>
 <p><strong>Modify</strong> allows you to change the formatting of the 'TOC' styles, for each TOC level you can customise the font, indentation, leader dots, and spacing.</p>
-<!-- Custom TOC > Options... tooltip overlay -->
+<!-- TOC modify options... tooltip overlay -->
   <div class="overlay-container">
-    <img src="/assets/images/word/TOC/TOC modify options.png" alt="Custom TOC Modify Dialog" class="base-image">
+    <img src="/assets/images/word/TOC/TOC modify options.png" alt="Custom TOC Modify Dialog" class="base-image" data-width="312" data-height="391">
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-modify-tooltip-1" style="top:140px; left:100px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-modify-tooltip-2" style="top:115px; left:220px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-modify-tooltip-3" style="top:265px; left:220px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-modify-tooltip-4" style="top:315px; left:-5px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-modify-tooltip-2" style="top:108px; left:220px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-modify-tooltip-3" style="top:249px; left:280px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-modify-tooltip-4" style="top:295px; left:-5px;"></div>
   </div>
 
 
@@ -173,7 +174,7 @@ active: word
         <div class="rich-tooltip">
           <p>Type in the TOC level for the style. The TOC level sets where the style appears in the table of contents in terms of indentation. Lower numbers show as higher‑level entries; higher numbers indent further as sub‑entries.</p>
         </div>`,
-        "toc-modify-tooltip-1": `
+      "toc-modify-tooltip-1": `
         <div class="rich-tooltip">
           <p>This list shows the TOC 1-9 styles which need explaining a little. Each one of these TOC styles formats entries at the matching <strong>TOC level</strong> which you set in the <strong>Options...</strong> window. The styles assigned there are mapped to TOC levels, and TOC styles control how those levels will look in the table of contents.</p>    
         </div>`,

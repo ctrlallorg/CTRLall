@@ -183,7 +183,7 @@ Font options window for editing all things about a text's font. You can access F
       </tr>
       <tr>
         <td><strong>Multiple</strong></td>
-        <td>Sets spacing as a multiplier of single spacing (e.g., 1.15, 1.75). It adjusts dynamically with font size.<img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Line spacing multiple 3.png' | url }}"  alt="Line spacing Multiple 3" style="width:100%; height:auto; vertical-align:middle"></td>
+        <td>Sets spacing as a multiplier of single spacing (e.g., 1.15, 1.75). It adjusts dynamically with font size.<img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Line spacing Multiple 3.png' | url }}"  alt="Line spacing Multiple 3" style="width:100%; height:auto; vertical-align:middle"></td>
         <td>Corporate documents, professional reports, books, magazines where visual balance matters.</td>
       </tr>
       </tbody>

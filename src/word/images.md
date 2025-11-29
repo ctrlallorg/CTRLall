@@ -138,7 +138,7 @@ active: word
 
 
 
-<p>In the example below I've selected and inserted a photo from my laptop of my dog Buckley. As you can see, due to the high resolution (detail) of the photo it's quite large and takes up most of the A4 page, so I'll want to resize it to be smaller. Everything on how to alter images can be found in this article: <a href="/word/altering-images-and-objects/">Altering images and objects</a>.</p>
+<p>In the example below I've selected and inserted a photo from my laptop of my dog. As you can see, due to the high resolution (detail) of the photo it's quite large and takes up most of the A4 page, so I'll want to resize it to be smaller. Everything on how to alter images can be found in this article: <a href="/word/altering-images-and-objects/">Altering images and objects</a>.</p>
 
 <img class="thumbnail" src="{{ '/assets/images/word/Images/Picture inserted.png' | url }}" alt="Inserted image of a dog with selection frame around it in Word" style="display: inline; height: 50%; width: 50%;">
 

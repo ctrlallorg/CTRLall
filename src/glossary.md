@@ -37,6 +37,7 @@ tags:
   - digital education
 active: glossary
 ---
+<body data-no-difficulty="true">
 
 <div class="preload-images" hidden>
   <img src="/assets/images/word/Images/Anchor icon.png" alt="Anchor icon: Links image to a specific paragraph.">
@@ -286,11 +287,20 @@ active: glossary
     </tr>
     <tr>
       <td id="format-painter">Format Painter</td>
-      <td><p>A very useful tool that lets you copy the formatting of text to apply it on other text, like copy and paste but for formatting. See this article for more on <a href="/word/formatting-text">Formatting text</a>.</p><p><img src="{{ '/assets/images/glossary/Format painter icon.png' | url }}" alt="Format painter icon" style="width: 5%;"></p></td>
+      <td><p>A very useful tool that lets you copy the formatting of text to apply it on other text, like copy and paste but for formatting. See this article for more on <a href="/word/formatting-text">Formatting text</a>.</p><p><img src="{{ '/assets/images/glossary/Format painter icon.png' | url }}" alt="Format painter icon" style="width: 5%;"></p>
+      </td>
     </tr>
     <tr>
       <td id="gridlines">Gridlines</td>
       <td>The invisible structure of a <a href="#table">table</a> that shows the outline of the rows and columns. This helps visualise the table even if no <a href="#table border">borders</a> are applied (Note: gridlines are not printed, only borders are). The <strong>View Gridlines</strong> option is found via Table Layout (which only appears when the <a href="#insertion point">insertion point</a> is inside a table) > Table.</td>
+    </tr>
+    <tr>
+      <td id="gutter">Gutter / Guttering</td>
+      <td><p>Guttering is extra space added to the left side or top margin to allow for physical binding of a document. It's purpose is to ensure content on the page remains visible and isn't swalled up by physical binding when it's applied to the pages (e.g. a book spine, stapling, or hole‑punching).
+     </p>
+     <p>In Word, guttering can be edited in the <strong>Page setup</strong> dialog which is detailed in this article: <a href="/word/page-setup-options/">Page setup options</a></p>
+     <p><img class="thumbnail" src="{{ '/assets/images/glossary/Gutter.png' | url }}"  alt="Guttering options" style="max-width:375px; width:100%; height:auto; vertical-align:middle">
+      </p></td>
     </tr>
     <tr>
       <td id="hanging-indent">Hanging indent</td>
@@ -939,6 +949,14 @@ active: glossary
         <td id="gridlines">Gridlines</td>
         <td>The invisible structure of a <a href="#table">table</a> that shows the outline of the rows and columns. This helps visualise the table even if no <a href="#table border">borders</a> are applied (Note: gridlines are not printed, only borders are). The <strong>View Gridlines</strong> option is found via Table Layout (which only appears when the <a href="#insertion point">insertion point</a> is inside a table) > Table.</td>
       </tr>
+      <tr>
+      <td id="gutter">Gutter / Guttering</td>
+      <td><p>Guttering is extra space added to the left side or top margin to allow for physical binding of a document. It's purpose is to ensure content on the page remains visible and isn't swalled up by physical binding when it's applied to the pages (e.g. a book spine, stapling, or hole‑punching).
+     </p>
+     <p>In Word, guttering can be edited in the <strong>Page setup</strong> dialog which is detailed in this article: <a href="/word/page-setup-options/">Page setup options</a></p>
+     <p><img class="thumbnail" src="{{ '/assets/images/glossary/Gutter.png' | url }}"  alt="Guttering options" style="max-width:375px; width:100%; height:auto; vertical-align:middle">
+      </p></td>
+    </tr>
       <tr>
         <td id="hanging-indent">Hanging indent</td>
         <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls the position of all lines in a paragraph except for the first line. See examples in this article: <a href="/word/indents">Indents</a></td>

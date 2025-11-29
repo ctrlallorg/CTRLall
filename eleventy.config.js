@@ -2,6 +2,7 @@ const { Liquid } = require("liquidjs");
 const path = require("path");
 const markdownIt = require("markdown-it");
 const fs = require("fs");
+const { JSDOM } = require("jsdom");
 
 module.exports = function (eleventyConfig) {
   console.log("✅ Eleventy config loaded");
@@ -50,6 +51,45 @@ module.exports = function (eleventyConfig) {
     fs.writeFileSync(outputPath, JSON.stringify(index, null, 2));
     console.log(`🔍 Search index written to ${outputPath}`);
     return index;
+  });
+
+  // ─── Hotspot Transform: px → % ───────────────────────────
+  eleventyConfig.addTransform("hotspotPercent", function (content, outputPath) {
+    if (outputPath && outputPath.endsWith(".html")) {
+      const dom = new JSDOM(content);
+      const document = dom.window.document;
+
+      const images = document.querySelectorAll(".overlay-container img.base-image");
+      images.forEach(img => {
+        const width = parseInt(img.getAttribute("data-width"), 10);
+        const height = parseInt(img.getAttribute("data-height"), 10);
+
+        if (!width || !height) return;
+
+        const hotspots = img.parentNode.querySelectorAll(".hotspot");
+        hotspots.forEach(hs => {
+          const style = hs.getAttribute("style");
+          if (style) {
+            const topMatch = style.match(/top:(\d+)px/);
+            const leftMatch = style.match(/left:(\d+)px/);
+
+            if (topMatch) {
+              const px = parseInt(topMatch[1], 10);
+              const percent = (px / height) * 100;
+              hs.style.top = percent + "%";
+            }
+            if (leftMatch) {
+              const px = parseInt(leftMatch[1], 10);
+              const percent = (px / width) * 100;
+              hs.style.left = percent + "%";
+            }
+          }
+        });
+      });
+
+      return dom.serialize();
+    }
+    return content;
   });
 
   // ─── Directory & Template Setup ──────────────────────────

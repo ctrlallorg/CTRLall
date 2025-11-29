@@ -17,6 +17,9 @@ tags:
   - backup
   - save PDFs
   - save a PDF
+  - how to save a PDF
+  - how to save as a PDF
+  - how to save PDF
   - save PDF
   - save as a PDF
   - save as PDF

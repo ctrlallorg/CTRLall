@@ -95,29 +95,69 @@ active: word
 
  <header class="topbar"></header>
 
-  <!-- First tooltip overlay -->
-<p>
+  <!-- Custom TOC tooltip overlay -->
   <div class="overlay-container">
-    <img src="/assets/images/word/TOC/Custom TOC options.png" alt="TOC Options Dialog" class="base-image">
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="tooltip-1" style="top:214px; left:-10px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="tooltip-2" style="top:232px; left:-10px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="tooltip-3" style="top:214px; left:250px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="tooltip-4" style="top:254px; left:255px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="tooltip-5" style="top:325px; left:233px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="tooltip-6" style="top:349px; left:175px;"></div>
+    <img src="/assets/images/word/TOC/Custom TOC options.png" alt="TOC Options Dialog" class="base-image" data-width="519" data-height="464">
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-1" style="top:203px; left: 12px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-2" style="top:222px; left:12px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-3" style="top:203px; left:268px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-4" style="top:242px; left:233px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-5" style="top:308px; left:209px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-6" style="top:331px; left:152px;"></div>
   </div>
 </p>
 <p>
-  <!-- Second tooltip overlay -->
+   <!-- Custom TOC > Options... tooltip overlay -->
   <div class="overlay-container">
-    <img src="/assets/images/word/TOC/TOC options.png" alt="TOC Options Dialog" class="base-image">
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-1" style="top:60px; left:0px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-2" style="top:247px; left:0px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-3" style="top:267px; left:0px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-4" style="top:297px; left:0px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-5" style="top:105px; left:240px;"></div>
+    <img src="/assets/images/word/TOC/TOC options.png" alt="TOC Options Dialog" class="base-image" data-width="369" data-height="321">
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-1" style="top:55px; left:20px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-2" style="top:230px; left:20px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-3" style="top:248px; left:20px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-4" style="top:278px; left:60px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-options-tooltip-5" style="top:100px; left:240px;"></div>
   </div>
 </p>
+
+<h4>Table entry fields</h4>
+<p>They are a legacy option but if you need to add in something custom to a table of contents then you can set content to have a TC field. To insert a TC field directly:
+<p><img class="thumbnail" src="{{ '/assets/images/word/TOC/Mark TOC entry.png' | url }}"  alt="Mark Table of Contents Entry dialog in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
+<ol>
+  <li>Press <strong>Alt + Shift + O</strong> which brings up the the Mark table of Contents Entry dialog.</li>
+  <li>Decide on entry text to appear in the TOC.</li>
+  <li>If necessary choose the Table identifier, the default for a single TOC is 'C'. It's possible to  assign to a different custom TOC with a different identifier letter, e.g. a TOC for appendices.</li>
+  <li>Choose a TOC level.</li>
+  <li>Click <strong>Mark</strong> to apply. Formatting marks will then appear showing you the TC field code.</li>
+</ol>
+<p>Here's an example where I've selected the text beforehand which then becomes the text to include in the TOC:</p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/TC field.gif' | url }}"  alt="Custom TC field in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
+<p>Once inserted, update the custom TOC to include the new TC field.</p>
+
+<h4>Modify...</h4>
+<p><strong>Modify</strong> allows you to change the formatting of the 'TOC' styles, for each TOC level you can customise the font, indentation, leader dots, and spacing.</p>
+<!-- TOC modify options... tooltip overlay -->
+  <div class="overlay-container">
+    <img src="/assets/images/word/TOC/TOC modify options.png" alt="Custom TOC Modify Dialog" class="base-image" data-width="312" data-height="391">
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-modify-tooltip-1" style="top:140px; left:100px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-modify-tooltip-2" style="top:108px; left:220px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-modify-tooltip-3" style="top:249px; left:280px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="toc-modify-tooltip-4" style="top:295px; left:-5px;"></div>
+  </div>
+
+
+
+<h2 id="delete-toc">Deleting a table of contents</h2>
+<p>Either go to <strong>References > Table of contents > Remove table of contents</strong> or delete the TOC on the page manually with <strong>backspace</strong> or <strong>delete</strong>.</p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/Remove TOC.png' | url }}"  alt="Remove table of contents on ribbon in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle;"></p>
+
+
+
+<h2 id="update-toc">Updating a table of contents</h2>
+<p>To come</p>
+<!-- ask copilot to explain some features -->
+
+
+</section>
+
   <!-- Global tooltip layer -->
   <div id="tooltip-layer"></div>
 
@@ -173,6 +213,22 @@ active: word
       "toc-options-tooltip-5": `
         <div class="rich-tooltip">
           <p>Type in the TOC level for the style. The TOC level sets where the style appears in the table of contents in terms of indentation. Lower numbers show as higher‑level entries; higher numbers indent further as sub‑entries.</p>
+        </div>`,
+      "toc-modify-tooltip-1": `
+        <div class="rich-tooltip">
+          <p>This list shows the TOC 1-9 styles which need explaining a little. Each one of these TOC styles formats entries at the matching <strong>TOC level</strong> which you set in the <strong>Options...</strong> window. The styles assigned there are mapped to TOC levels, and TOC styles control how those levels will look in the table of contents.</p>    
+        </div>`,
+     "toc-modify-tooltip-2": `
+        <div class="rich-tooltip">
+          <p>Ignore these <strong>New</strong> and <strong>Delete</strong> buttons, they're legacy leftovers from older versions of Word. In modern Word you can’t add or remove TOC styles — Word always provides TOC 1-9. That’s why these buttons are permanently greyed out.</p>
+        </div>`,
+      "toc-modify-tooltip-3": `
+        <div class="rich-tooltip">
+          <p>Modify the TOC style as needed, this will bring up the style formatting dialog to adjust font, spacing, tab setting etc. See formatting options</p>
+        </div>`,
+      "toc-modify-tooltip-4": `
+        <div class="rich-tooltip">
+          <p>This pane lists all the formatting currently applied to the style.</p>
         </div>`
     };
 
@@ -224,36 +280,3 @@ active: word
 });
 
   </script>
-
-
-<h4>Table entry fields</h4>
-<p>They are a legacy option but if you need to add in something custom to a table of contents then you can set content to have a TC field. To insert a TC field directly:
-<p><img class="thumbnail" src="{{ '/assets/images/word/TOC/Mark TOC entry.png' | url }}"  alt="Mark Table of Contents Entry dialog in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
-<ol>
-  <li>Press <strong>Alt + Shift + O</strong> which brings up the the Mark table of Contents Entry dialog.</li>
-  <li>Decide on entry text to appear in the TOC.</li>
-  <li>If necessary choose the Table identifier, the default for a single TOC is 'C'. It's possible to  assign to a different custom TOC with a different identifier letter, e.g. a TOC for appendices.</li>
-  <li>Choose a TOC level.</li>
-  <li>Click <strong>Mark</strong> to apply. Formatting marks will then appear showing you the TC field code.</li>
-</ol>
-<p>Here's an example where I've selected the text beforehand which then becomes the text to include in the TOC:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/TC field.gif' | url }}"  alt="Custom TC field in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
-<p>Once inserted, update the custom TOC to include the new TC field.</p>
-
-<h4>Modify...</h4>
-<p><strong>Modify</strong> allows you to change the formatting of the 'TOC' styles, for each TOC level you can customise the font, indentation, leader dots, and spacing.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/TOC modify options.png' | url }}"  alt="Custom Table of contents modify options in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle"></p>
-
-
-
-<h2 id="delete-toc">Deleting a table of contents</h2>
-<p>Either go to <strong>References > Table of contents > Remove table of contents</strong> or delete the TOC on the page manually with <strong>backspace</strong> or <strong>delete</strong>.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/Remove TOC.png' | url }}"  alt="Remove table of contents on ribbon in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle;"></p>
-
-
-
-<h2 id="update-toc">Updating a table of contents</h2>
-<p>To come</p>
-<!-- ask copilot to explain some features -->
-
-</section>
