@@ -166,7 +166,7 @@ if (tooltip && tooltipImg) {
       const gifSrc = row.getAttribute("data-gif");
       tooltipImg.src = gifSrc;
 
-      // optional: apply per-row style overrides
+      // optional per-row style overrides
       const gifStyle = row.getAttribute("data-gif-style");
       if (gifStyle) {
         tooltipImg.setAttribute("style", gifStyle);
@@ -178,21 +178,27 @@ if (tooltip && tooltipImg) {
     });
 
     row.addEventListener("mousemove", (e) => {
-      const tooltipWidth = tooltip.offsetWidth;
-      const tooltipHeight = tooltip.offsetHeight;
-
+      // default position to the right/below cursor
       let left = e.pageX + 15;
       let top = e.pageY + 15;
 
-      // if it would overflow right edge, shift left
+      // measure tooltip after it's visible
+      const tooltipWidth = tooltip.offsetWidth;
+      const tooltipHeight = tooltip.offsetHeight;
+
+      // if it would overflow right edge, flip to left
       if (left + tooltipWidth > window.innerWidth) {
         left = e.pageX - tooltipWidth - 15;
       }
 
-      // if it would overflow bottom edge, shift up
+      // if it would overflow bottom edge, flip above
       if (top + tooltipHeight > window.innerHeight) {
         top = e.pageY - tooltipHeight - 15;
       }
+
+      // clamp so it never goes negative
+      if (left < 0) left = 10;
+      if (top < 0) top = 10;
 
       tooltip.style.left = left + "px";
       tooltip.style.top = top + "px";
@@ -205,7 +211,6 @@ if (tooltip && tooltipImg) {
     });
   });
 }
-
 
 
 // Keyboard shortcut image alt description automation
