@@ -673,6 +673,7 @@ table td {
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   padding: 5px;
   max-width: 400px;
+  width: auto;
   transition: opacity 0.2s ease;
 }
 
@@ -1243,7 +1244,7 @@ table td {
   opacity: 1;
 }
 
-/* ─── Rich tooltip (injected via JS) ────────────────────────── */
+/* ─── Hotspot Rich tooltip (injected via JS) ────────────────────────── */
 .rich-tooltip {
   position: fixed;
   display: none;
@@ -1320,6 +1321,7 @@ table td {
 #glossary-tooltip {
   position: absolute;
   max-width: 500px;
+  width: auto;
   background: #fff;
   border: 1px solid #ccc;
   padding: 1em;

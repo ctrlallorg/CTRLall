@@ -156,7 +156,7 @@ if (footer) {
   });
 }
 
-  // ─── Tooltip on Table Row Hover ─────────
+// ─── Tooltip on Table Row Hover ─────────
 const tooltip = document.getElementById("tooltip");
 const tooltipImg = tooltip?.querySelector("img");
 
@@ -165,20 +165,47 @@ if (tooltip && tooltipImg) {
     row.addEventListener("mouseenter", () => {
       const gifSrc = row.getAttribute("data-gif");
       tooltipImg.src = gifSrc;
+
+      // optional: apply per-row style overrides
+      const gifStyle = row.getAttribute("data-gif-style");
+      if (gifStyle) {
+        tooltipImg.setAttribute("style", gifStyle);
+      } else {
+        tooltipImg.removeAttribute("style");
+      }
+
       tooltip.style.display = "block";
     });
 
     row.addEventListener("mousemove", (e) => {
-      tooltip.style.left = e.pageX + 15 + "px";
-      tooltip.style.top = e.pageY + 15 + "px";
+      const tooltipWidth = tooltip.offsetWidth;
+      const tooltipHeight = tooltip.offsetHeight;
+
+      let left = e.pageX + 15;
+      let top = e.pageY + 15;
+
+      // if it would overflow right edge, shift left
+      if (left + tooltipWidth > window.innerWidth) {
+        left = e.pageX - tooltipWidth - 15;
+      }
+
+      // if it would overflow bottom edge, shift up
+      if (top + tooltipHeight > window.innerHeight) {
+        top = e.pageY - tooltipHeight - 15;
+      }
+
+      tooltip.style.left = left + "px";
+      tooltip.style.top = top + "px";
     });
 
     row.addEventListener("mouseleave", () => {
       tooltip.style.display = "none";
       tooltipImg.src = "";
+      tooltipImg.removeAttribute("style");
     });
   });
 }
+
 
 
 // Keyboard shortcut image alt description automation
