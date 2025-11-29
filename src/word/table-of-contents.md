@@ -99,7 +99,7 @@ active: word
   <div class="overlay-container">
     <img src="/assets/images/word/TOC/Custom TOC options.png" alt="TOC Options Dialog" class="base-image" data-width="519" data-height="464">
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-1" style="top:203px; left: 12px;"></div>
-    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-2" style="top:222px; left:12px;"></div>
+    <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-2" style="top:222px; left: 12px;"></div>
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-3" style="top:203px; left:268px;"></div>
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-4" style="top:242px; left:233px;"></div>
     <div class="hotspot rich-tooltip-trigger" data-tooltip-id="custom-toc-tooltip-5" style="top:308px; left:209px;"></div>
@@ -164,33 +164,33 @@ active: word
   <!-- Tooltip logic -->
   <script>
     const tooltips = {
-      "tooltip-1": `
+      "custom-toc-tooltip-1": `
         <div class="rich-tooltip">
           <p><img class="thumbnail border" src="/assets/images/word/TOC/Show page numbers.png" alt="Show page numbers"></p>
           <p>Will show page numbers. By default, this also aligns them right. Turn this off to show only the headings.</p>
         </div>`,
-      "tooltip-2": `
+      "custom-toc-tooltip-2": `
         <div class="rich-tooltip">
           <p><img class="thumbnail border" src="/assets/images/word/TOC/Right align page numbers.png" alt="Right align page numbers"></p>
           <p>Page numbers are right aligned by default. For short entries or digital documents, left alignment may be suitable.</p>
         </div>`,
-      "tooltip-3": `
+      "custom-toc-tooltip-3": `
         <div class="rich-tooltip">
           <p>This option adds a hyperlink to the content in the document. Its name refers to the web view, which is only relevant when saving as HTML.</p>
           <p>In Word’s default view, links activate with <strong>Ctrl + click</strong>. In PDFs, they work with a simple click.</p>
           <p><u>Note</u>: To remove page numbers, uncheck <strong>Show page numbers</strong> to the left.</p>
         </div>`,
-      "tooltip-4": `
+      "custom-toc-tooltip-4": `
         <div class="rich-tooltip">
           <p><img class="thumbnail border" src="/assets/images/word/TOC/Tab leader.png" alt="Tab leader TOC menu in Word"></p>
           <p>Tab leaders are the lines between the text and the page number. Choose the style you prefer.</p>
         </div>`,
-      "tooltip-5": `
+      "custom-toc-tooltip-5": `
         <div class="rich-tooltip">
           <p><img class="thumbnail border" src="/assets/images/word/TOC/TOC formats.png" alt="Table of contents formats in Word"></p>
           <p>Pre-made TOC designs like Classic, Modern, or Simple. The preview updates when selected.</p>
         </div>`,
-      "tooltip-6": `
+      "custom-toc-tooltip-6": `
         <div class="rich-tooltip">
           <p>Set how many heading levels to include in the TOC. The default is Headings 1–3.</p>
         </div>`,
