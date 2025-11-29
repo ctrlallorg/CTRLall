@@ -351,7 +351,6 @@ document.addEventListener('DOMContentLoaded', checkOrientation);
     });
   }
 });
-
 // ─── Glossary tooltip ───────────────
 document.addEventListener('DOMContentLoaded', async () => {
   const response = await fetch('/glossary');
@@ -392,8 +391,23 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
 
         const rect = el.getBoundingClientRect();
-        tooltip.style.top = `${rect.bottom + window.scrollY}px`;
-        tooltip.style.left = `${rect.left + window.scrollX}px`;
+
+        // default position: below term, aligned left
+        let top = rect.bottom + window.scrollY;
+        let left = rect.left + window.scrollX;
+
+        // measure tooltip after content is set
+        tooltip.style.display = 'block'; // ensure it's measurable
+        const tooltipWidth = tooltip.offsetWidth;
+
+        // if it would overflow right edge, snap to right-align with term
+        if (left + tooltipWidth > window.innerWidth) {
+          left = rect.right + window.scrollX - tooltipWidth;
+          if (left < 10) left = 10; // clamp so it doesn't go off left edge
+        }
+
+        tooltip.style.top = `${top}px`;
+        tooltip.style.left = `${left}px`;
         tooltip.hidden = false;
       }
     });
@@ -421,6 +435,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }, 150);
   });
 });
+
 
 // ─── Locale Toggle + Spelling Variant Swap ─────────────────────────────
 document.addEventListener("DOMContentLoaded", async () => {
