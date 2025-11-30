@@ -236,7 +236,8 @@ Font options window for editing all things about a text's font. You can access F
       <tr>
         <td><strong>Suppress line numbers</strong></td>
         <td><p>This requires <span class="glossary-hover" data-term="line-numbers">line numbers</span> to be turned on which can be done via <strong>Layout</strong> > <strong>Line numbers</strong> drop down menu. This options lets you suspend line numbers for a paragraph. This is commonly used in legal documents, scripts and technical reviews.</p>
-        <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Suppress line numbers.png' | url }}"  alt="Line numbering supressed on page in Word" style="width:100%; height:auto; vertical-align:middle"></p></td>
+        <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Suppress line numbers.png' | url }}"  alt="Line numbering supressed on page in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p></td>
+        
       </tr>
       <tr>
         <td><strong>Don't hyphenate</strong></td>
