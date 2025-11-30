@@ -128,6 +128,7 @@ active: word
             <p>You can close the Word application by pressing the <strong>✖</strong> button in the top right corner. If you have made any unsaved edits Word will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
       <h2 id="word-version">What version of Word do I have?</h2>
       <p>There are a few versions of Microsoft Word:</p>
+      <div class="table-wrapper">
         <table>
             <colgroup>
               <col style="width: 20%;">
@@ -170,6 +171,7 @@ active: word
               </tr>
               </tbody>
         </table>
+      </div>
         <p>To find out what version of Microsoft Word you're using, try these steps:</p>
         <ul> 
             <li>
@@ -225,6 +227,7 @@ active: word
       </ul>
       <h2 id="word-version-int">Word versions</h2>
         <p>There are a few versions of Microsoft Word:</p>
+        <div class="table-wrapper">
         <table>
             <colgroup>
               <col style="width: 20%;">
@@ -267,6 +270,7 @@ active: word
               </tr>
               </tbody>
         </table>
+        </div>
         <p>To find out what version of Microsoft Word you're using, try these steps:</p>
         <ul> 
             <li>

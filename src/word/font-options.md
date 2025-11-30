@@ -149,6 +149,7 @@ active: word
   <p>You'll first find yourself on the <strong>Font</strong> tab. More options can be found on the <a href="#Advanced-Font-Options">Advanced</a> tab.</p>
   <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font options.png' | url }}" alt="Font options in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
   <p>Take a look at the options to alter fonts. To see common examples look at this article: <a href="/word/formatting-text/">Formatting text</a>.</p>
+  <div class="table-wrapper">
     <table>
       <colgroup>
         <col style="width: 20%;">
@@ -218,11 +219,12 @@ active: word
         </tr>
       </tbody>
     </table>
-
+    </div>
   <h2 id="Advanced-Font-Options">Advanced Font Options</h2>
   <p>The Advanced tab gives you some more specific options to style font as needed.</p>
   <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font Advanced options.png' | url }}" alt="Advanced Font options in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
   <p>Hover over each row below for an example of what each option lets you do:</p>
+  <div class="table-wrapper">
     <table class="word-tables-cursor-icons hover-table">
       <colgroup>
         <col style="width: 20%;">
@@ -308,6 +310,7 @@ active: word
         </tr>
       </tbody>
     </table>
+    </div>
     </section>
  </div>
 </article>

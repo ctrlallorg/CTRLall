@@ -44,62 +44,64 @@ active: word
 <section class="section-light">
 <h2>Types of Images/Graphic visuals in Word</h2>
 <p>Under the <strong>Insert</strong> tab on the ribbon are options to add images and graphic visuals into your document. Here's a quick gloss over what each of them are. Click the links to see how to insert them.</p>
+<div class="table-wrapper">
 <table>
-<thead>
-<tr>
-<th>Image/Visual<br>graphic type</th>
-<th>Definition</th>
-<th>Examples/Types/Categories</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="#image-insert">Pictures/images</a></td>
-<td>Standard image files inserted from your device or online.</td>
-<td>.JPG, .PNG, .BMP, .GIF, etc</td>
-</tr>
-<tr>
-<td><a href="#image-insert-shape-icon-model">Shapes</a></td>
-<td>Shapes from Word's built-in library that can be edited and customised, and some typed into.</td>
-<td>Lines, arrows, rectangles, basic shapes, flowchart shapes and callouts (speech/thought bubbles)</td>
-</tr>
-<tr>
-<td><a href="#image-insert-shape-icon-model">Icons</a></td>
-<td>Scalable and editable vector icons from Word’s built-in Stock Images library.</td>
-<td>A huge range of categories, to name a few (this is not exhaustive): Process, Communication, Business, Medical, Commerce, Tools and Building, Analytics; Education, Security and Justice, Signs and Symbols, Accessibility, Music...there's a lot.</td>
-</tr>
-<tr>
-<td><a href="#image-insert-shape-icon-model">3D Models</a></td>
-<td>3D models inserted from Word’s 3D model feature or imported from your device</td>
-<td>Another huge range of categories to search/choose from, e.g. avatars, characters, industrial, medical, tools, landscaping, animals, 3D shapes and icons, animated models and more.</td>
-</tr>
-<tr>
-<td><a href="#image-insert-smartart">SmartArt</a></td>
-<td>Diagrammatic visuals with editable text</td>
-<td>Various different types of editable diagrams including lists, Processes, Cycles, Hierarchies, Relationships, Matrices, Pyramids and Pictures.</td>
-</tr>
-<tr>
-<td><a href="#image-insert-chart">Charts</a></td>
-<td>Inserted via Word or linked from a chart in <span class="glossary-hover" data-term="microsoft-excel">Excel</span>.</td>
-<td>Several different chart varieties e.g column, line, pie, bar, area, scatter, radar, treemap, histogram, box and whisker, waterfall, funnel and more.</td>
-</tr>
-<tr>
-<td><a href="#image-insert-screenshot">Screenshots</a></td>
-<td>Inserts a screenshot of a current application window or alternatively take a screen clip.</td>
-<td>Word gives you the option to insert a screenshot of any open window (i.e. one that is not minimised). Alternatively you can choose to take a screen clip to screenshot a selected area.</td>
-</tr>
-<tr>
-<td><a href="#image-insert-WordArt">WordArt</a></td>
-<td>Stylised text treated as a visual object. This is an old feature of Word Gen X and Millennials  will remember well from the 90s.</td>
-<td>Multiple choices from a modest gallery of styles.</td>
-</tr>
-<tr>
-<td>Grouped visuals</td>
-<td>Any combination of the above grouped together.</td>
-<td>Take your pick.</td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th>Image/Visual<br>graphic type</th>
+      <th>Definition</th>
+      <th>Examples/Types/Categories</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#image-insert">Pictures/images</a></td>
+      <td>Standard image files inserted from your device or online.</td>
+      <td>.JPG, .PNG, .BMP, .GIF, etc</td>
+    </tr>
+    <tr>
+      <td><a href="#image-insert-shape-icon-model">Shapes</a></td>
+      <td>Shapes from Word's built-in library that can be edited and customised, and some typed into.</td>
+      <td>Lines, arrows, rectangles, basic shapes, flowchart shapes and callouts (speech/thought bubbles)</td>
+    </tr>
+    <tr>
+      <td><a href="#image-insert-shape-icon-model">Icons</a></td>
+      <td>Scalable and editable vector icons from Word’s built-in Stock Images library.</td>
+      <td>A huge range of categories, to name a few (this is not exhaustive): Process, Communication, Business, Medical, Commerce, Tools and Building, Analytics; Education, Security and Justice, Signs and Symbols, Accessibility, Music...there's a lot.</td>
+    </tr>
+    <tr>
+      <td><a href="#image-insert-shape-icon-model">3D Models</a></td>
+      <td>3D models inserted from Word’s 3D model feature or imported from your device</td>
+      <td>Another huge range of categories to search/choose from, e.g. avatars, characters, industrial, medical, tools, landscaping, animals, 3D shapes and icons, animated models and more.</td>
+    </tr>
+    <tr>
+      <td><a href="#image-insert-smartart">SmartArt</a></td>
+      <td>Diagrammatic visuals with editable text</td>
+      <td>Various different types of editable diagrams including lists, Processes, Cycles, Hierarchies, Relationships, Matrices, Pyramids and Pictures.</td>
+    </tr>
+    <tr>
+      <td><a href="#image-insert-chart">Charts</a></td>
+      <td>Inserted via Word or linked from a chart in <span class="glossary-hover" data-term="microsoft-excel">Excel</span>.</td>
+      <td>Several different chart varieties e.g column, line, pie, bar, area, scatter, radar, treemap, histogram, box and whisker, waterfall, funnel and more.</td>
+    </tr>
+    <tr>
+      <td><a href="#image-insert-screenshot">Screenshots</a></td>
+      <td>Inserts a screenshot of a current application window or alternatively take a screen clip.</td>
+      <td>Word gives you the option to insert a screenshot of any open window (i.e. one that is not minimised). Alternatively you can choose to take a screen clip to screenshot a selected area.</td>
+    </tr>
+    <tr>
+      <td><a href="#image-insert-WordArt">WordArt</a></td>
+      <td>Stylised text treated as a visual object. This is an old feature of Word Gen X and Millennials  will remember well from the 90s.</td>
+      <td>Multiple choices from a modest gallery of styles.</td>
+    </tr>
+    <tr>
+      <td>Grouped visuals</td>
+      <td>Any combination of the above grouped together.</td>
+      <td>Take your pick.</td>
+    </tr>
+  </tbody>
 </table>
+</div>
 
 <h2 id="image-insert">Inserting pictures/images</h2>
 <p>You can insert images into a document from different sources via <strong>Insert > Pictures</strong>:</p>
@@ -112,6 +114,7 @@ active: word
 
 
 <p>Depending on which you choose you'll get either a window to browse your computer for an image, or a gallery to search and choose an image from:
+<div class="table-wrapper">
   <table class="no-border">
     <colgroup>
       <col style="width: 20%;">
@@ -132,7 +135,7 @@ active: word
       </tr>
     </tbody>
   </table>
-
+</div>
 <p>After you've selected an image and pressed <strong>Insert</strong> it will appear on the page. Where it appears on the page is determined by where you had the <span class="glossary-hover" data-term="insertion-point">insertion point</span> and how large the image is.</p>
 
 
@@ -145,6 +148,7 @@ active: word
 
 <h2 id="image-insert-shape-icon-model">Inserting shapes, icons and 3D models</h2>
 <p>Alongside images you can also insert shapes, icons and 3D models into a document.
+<div class="table-wrapper">
 <table>
   <colgroup>
     <col style="width: 33%;">
@@ -164,6 +168,7 @@ active: word
         <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Insert 3D models.png' | url }}" alt="Insert 3D models from Insert on ribbon in Word" style="display: block; height: 100%; width: 100%;"></td>
       </tbody>
 </table>
+</div>
 
 <h3>Shapes</h3>
 <p>There is a huge library of shapes to choose from.</p> 

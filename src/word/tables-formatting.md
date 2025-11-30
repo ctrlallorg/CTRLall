@@ -54,7 +54,8 @@ active: word
 <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table cell alignment of text examples.gif' | url }}"  alt="Demonstration of table cell alignment in Word" style="height:50%; width:50%; vertical-align:middle">
 
 <h2 id="table-borders">Table borders</h2> 
-<p>You can choose whether to have table borders visible or not via options in <strong>Table Design > Borders</strong> drop down. The example below shows how these options work on a table that's been fully selected (hover over and click top left square): </p> 
+<p>You can choose whether to have table borders visible or not via options in <strong>Table Design > Borders</strong> drop down. The example below shows how these options work on a table that's been fully selected (hover over and click top left square):</p>
+<div class="table-wrapper"> 
 <table class="no-border">
     <colgroup>
       <col style="width: 20%;">
@@ -66,7 +67,7 @@ active: word
         <td><img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table border line edit.gif' | url }}"  alt="Demonstration of table border lines being edited in Word" style="height:100%; width:100%; vertical-align:middle"></td>
       </tr>
 </table>
-
+</div>
 <h2 id="table-shading">Table shading</h2> 
 <p>You can colour the background of cell with the <strong>Shading</strong> colour palette via <strong>Table Design > Shading</strong>:</p> 
 <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table shading edit.gif' | url }}"  alt="Demonstration of table background colour shading being edited in Word" style="height:75%; width:75%; vertical-align:middle">
@@ -88,7 +89,8 @@ active: word
   <li><u>Cut</u>: see <a href="/content-control/moving-content/#cut-and-paste" target="_blank">Moving content</a></li>
   <li><u>Copy</u>: see <a href="/content-control/copying-content/" target="_blank">Copying content</a></li>
   <li><u>Paste</u>: depending on what content you've cut or copied, and where you are pasting, you'll see different paste options in and around tables:</li>
-  </ul>
+</ul>
+<div class="table-wrapper">
 <table>
   <colgroup>
       <col style="width: 30%;">
@@ -185,5 +187,5 @@ active: word
       </tr>
     </tbody>
 </table>
-
+</div>
 </section>

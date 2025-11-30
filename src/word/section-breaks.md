@@ -52,6 +52,7 @@ That’s because they’re hidden by default. To make formatting marks like thes
 <h2>How do you insert a section break?</h2>
 <p>Go to the <strong>Layout > Breaks</strong> drop down menu and you’ll see four section break options listed there.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Layout Breaks Section Breaks.png' | url }}"  alt="Layout Breaks Section Breaks on ribbon in Word" style="width:33%; vertical-align:middle"></p>
+<div class="table-wrapper">
 <table class="word-tables-cursor-icons hover-table">
     <colgroup>
       <col style="width: 20%;">
@@ -82,7 +83,7 @@ That’s because they’re hidden by default. To make formatting marks like thes
       </tr>
     </tbody>
 </table>
-
+</div>
 <p>Choose the one that’s right for you document. Typically you’ll use <strong>Next Page</strong>.</p>
 
 <h3>Continuous section breaks</h3>

@@ -84,6 +84,7 @@ You can embed a file in a Word document as an OLE object.
 <p>You need to decide what is needed for your document. Do you need the external content/data displayed to be live? If so you'll want it linked. Or is the document complete, signed off, in a finished draft state for example and you need to display a copy of that specific version? If so you'll want it embedded.</p>
 
 <h2>Factors to consider</h2>
+<div class="table-wrapper">
  <table class="section-light">
     <colgroup>
       <col style="width: 50%;">
@@ -117,9 +118,11 @@ You can embed a file in a Word document as an OLE object.
         </td>
       </tr>
     </tbody>
- </table>
+  </table>
+ </div>
 <br>
 <h4>That's a lot of info, let's refresh:</h4>
+<div class="table-wrapper">
  <table>
     <colgroup>
       <col style="width: 20%;">
@@ -166,7 +169,7 @@ You can embed a file in a Word document as an OLE object.
       </tr>
     </tbody>
  </table>
-
+</div>
 <h2>What files can I insert into an OLE object?</h2>
 <ul>
     <li>Word - linked or embedded, icon or visual content</li>
@@ -188,7 +191,7 @@ You can embed a file in a Word document as an OLE object.
 <td><p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object Create from file.png' | url }}" alt="Insert Object option Create from file" style="max-width: 100%; height: auto; display: inline;"></p></td>
 
 <p>Those two little checkboxes affect whether it will be displayed as an icon or visual content and whether it will be linked or embedded within this document:</p>
-
+<div class="table-wrapper">
 <table>
     <colgroup>
       <col style="width: 50%;">
@@ -215,7 +218,8 @@ You can embed a file in a Word document as an OLE object.
       </tr>
     </tbody>
 </table>
-
+</div>
+<div class="table-wrapper">
 <table>
     <colgroup>
       <col style="width: 50%;">
@@ -240,9 +244,9 @@ You can embed a file in a Word document as an OLE object.
       </tr>
     </tbody>
 </table>
-
+</div>
 <p>Once inserted OLE objects look like this:</p>
-
+<div class="table-wrapper">
 <table>
     <colgroup>
       <col style="width: 50%;">
@@ -265,7 +269,9 @@ You can embed a file in a Word document as an OLE object.
       </tr>
     </tbody>
 </table>
+</div>
 <h4>What does each filetype look like?</h4>
+<div class="table-wrapper">
 <table>
     <colgroup>
         <col style="width: 15%;">
@@ -333,7 +339,7 @@ You can embed a file in a Word document as an OLE object.
      </tr>
     </tbody>
 </table>
-
+</div>
 
 
 <h2>Opening an OLE object</h2>

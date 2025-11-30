@@ -59,23 +59,24 @@ active: word
 <p>Let's apply a hard and soft return just before the 'Warning' to see the difference:</p>
 
 <img class="thumbnail border" src="{{ '/assets/images/word/Lists soft and hard returns/Soft-Hard return in list example edit.png' | url }}" alt="Soft-Hard return in list example in Word" width="550">
-
-<table>
-  <colgroup>
-    <col style="width: 50%">
-    <col style="width: 50%">
-  </colgroup>
-  <thead>
-    <tr>
-      <th>With a hard return = becomes the next step</th>
-      <th>With a soft return = continues step but on a new line</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img class="thumbnail" src="{{ '/assets/images/word/Lists soft and hard returns/Soft-Hard return in list example - Hard return.png' | url }}" alt="Hard return in a list in Word" width="450"></td>
-      <td><img class="thumbnail" src="{{ '/assets/images/word/Lists soft and hard returns/Soft-Hard return in list example - Soft return.png' | url }}" alt="Soft return in a list in Word" width="450"></td>
-    </tr>
-</tbody>
-</table>
+<div class="table-wrapper">
+  <table>
+    <colgroup>
+      <col style="width: 50%">
+      <col style="width: 50%">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>With a hard return = becomes the next step</th>
+        <th>With a soft return = continues step but on a new line</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img class="thumbnail" src="{{ '/assets/images/word/Lists soft and hard returns/Soft-Hard return in list example - Hard return.png' | url }}" alt="Hard return in a list in Word" width="450"></td>
+        <td><img class="thumbnail" src="{{ '/assets/images/word/Lists soft and hard returns/Soft-Hard return in list example - Soft return.png' | url }}" alt="Soft return in a list in Word" width="450"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 </section>

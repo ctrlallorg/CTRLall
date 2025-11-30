@@ -282,6 +282,8 @@ active: word
   <p>When an image or object is inserted it is automatically selected with a <strong>selection frame</strong> around it. The selection frame has points around the image called <strong>sizing handles</strong> used to resize it as needed. Some will also have a <strong>rotate handle</strong> icon to rotate your image/shape freely.</p>
   <p>Your cursor icon changes depending on where you hover it, indicating available actions you can do by <span class="glossary-hover" data-term="drag">clicking and dragging</span>.</p>
   <p>Hover over the table rows below to see an example of each in action:</p>
+
+  <div class="table-wrapper">
   <table class="word-images-cursor-icons hover-table">
       <colgroup>
         <col style="width: 35%;">
@@ -327,10 +329,12 @@ active: word
         </tr>
       </tbody>
       </table>
+      </div>
       <h3 id="layout-options">Layout options</h3>
       <p>When the image/shape is selected you'll also see a small box top right, click this to see the layout options which include several <strong>wrapping</strong> styles. Wrapping is where the image/object can move between, above or below the text rather than in line with it. Wrapping can greatly improve your document's layout, readability and aesthetics.</p>
       <img class="thumbnail" src="{{ '/assets/images/word/Images/Layout options.png' | url }}" alt="Layout options menu on a selected image" style="display: inline; width: 50%;">
       <p>Hover over the rows below to see how text acts around the image/shape each option:</p>
+      <div class="table-wrapper">
       <table class="word-images-cursor-icons hover-table">
       <colgroup>
         <col style="width: 20%;">
@@ -373,9 +377,10 @@ active: word
         </tr>
         </tbody>
         </table>
+        </div>
 
   <p>When you select one of the text wrapping options two other options become active to choose from. Hover over below to see how each work:</p> 
-
+  <div class="table-wrapper">
   <table class="word-images-cursor-icons hover-table">
       <colgroup>
         <col style="width: 20%;">
@@ -398,6 +403,7 @@ active: word
         </tr>
       </tbody>
   </table>
+  </div>
 
 
   <h3 id="anchoring">Anchoring</h3>

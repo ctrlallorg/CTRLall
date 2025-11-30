@@ -58,7 +58,7 @@ To create a table, select the <strong>Insert</strong> tab on the ribbon, then se
   <div style="margin: 2rem 0rem 1rem; text-align: left;">
     <p><strong>Hover over a row to see that function in action.</strong></p>
   </div>
-
+<div class="table-wrapper">
   <table class="word-tables-cursor-icons hover-table">
     <colgroup>
       <col style="width: 17%;">
@@ -110,6 +110,7 @@ To create a table, select the <strong>Insert</strong> tab on the ribbon, then se
       </tr>
     </tbody>
   </table>
+</div>
 
   <div id="tooltip">
     <img src="" alt="Tooltip preview">

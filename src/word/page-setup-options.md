@@ -83,6 +83,7 @@ active: word
 </ul>
 
 <p>If you need others, here are all the paper size options available from the dropdown menu:</p>
+<div class="table-wrapper">
 <table>
     <tbody>
       <tr>
@@ -131,6 +132,7 @@ active: word
       </tr>
     </tbody>
 </table>
+</div>
 <br>
 
 <h4>Print options (Word Options > Display)</h4>

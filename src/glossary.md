@@ -52,6 +52,7 @@ active: glossary
 
 <h1>Glossary</h1>
 <!-- CTRL All glossary v1.0 -->
+<div class="table-wrapper">
 <table class="hover-table">
     <colgroup>
       <col style="width: 20%;">
@@ -712,6 +713,7 @@ active: glossary
     </tr>
   </tbody>
 </table>
+</div>
 <p><a href="#top">Back to top</a></p>
 
 <div id="glossary-templates" hidden>

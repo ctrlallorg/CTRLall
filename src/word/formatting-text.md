@@ -282,6 +282,7 @@ active: word
     <li><u>Copy</u>: see <a href="/content-control/copying-content/" target="_blank">Copying content</a></li>
     <li><u>Paste</u>: depending on what content you've cut or copied you'll see different icon options, for text it's generally these four:</li>
   </ul>
+  <div class="table-wrapper">
   <table>
     <colgroup>
         <col style="width: 35%;">
@@ -316,6 +317,7 @@ active: word
         </tr>
       </tbody>
     </table>
+    </div>
 
   <h4>Format Painter</h4> 
   <img class="thumbnail left" src="{{ '/assets/images/word/Formatting text/Format painter icon.png' | url }}"  alt="Format painter icon" style="max-width:50px; width:100%; height:auto; vertical-align:middle"> 
@@ -325,6 +327,7 @@ active: word
 
   <h2>Font tools</h2>
   <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middlee"></p>
+  <div class="table-wrapper">
   <table>
   <colgroup>
         <col style="width: 20%;">
@@ -387,13 +390,13 @@ active: word
       </tr>
     </tbody>
   </table>
-
+  </div>
 
   <p>Click the bottom right corner button and you can bring up further <a href="/word/font-options/">Font options</a>.</p>
 
   <h2>Paragraph</h2>
   <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Paragraph.png' | url }}"  alt="Home Paragraph tools on ribbon in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
-
+  <div class="table-wrapper">
   <table>
   <colgroup>
         <col style="width: 20%;">
@@ -482,6 +485,7 @@ active: word
       </tr>
     </tbody>
   </table>
+  </div>
   </section>
 
 <h1>Where to now?</h1>

@@ -33,37 +33,38 @@ active: word
 <section class="section-light">
 <h2>Types of Objects in Word</h2>
 <p>Under the <strong>Insert</strong> tab on the ribbon you can add various objects into your document. Here's a quick gloss over what each of them are. Click the links to see how to insert them.</p>
-<table>
-<thead>
-<tr>
-<th>Object type</th>
-<th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="#object-text-box">Text boxes</a></td>
-<td>Text boxes sound like what they are, they are portable wrappable and formattable containers you can add text into as well as other content.</td>
-</tr>
-<tr>
-<td><a href="#object-equation">Equations</a></td>
-<td>Equations are created within a field object inserted into the document.</td>
-</tr>
-<tr>
-<td><a href="#object-embedded-files">Embedded files (OLE objects)</a></td>
-<td>You can import other files directly onto the page in your document.</td>
-</tr>
-<tr>
-<td><a href="#object-drawing-canvas">Drawing canvas</a></td>
-<td>A container that groups text boxes, images and graphic elements together.</td>
-</tr>
-<tr>
-<td>Grouped objects</td>
-<td>Any combination of the above grouped together.</td>
-</tr>
-</tbody>
-</table>
-
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Object type</th>
+        <th>Definition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="#object-text-box">Text boxes</a></td>
+        <td>Text boxes sound like what they are, they are portable wrappable and formattable containers you can add text into as well as other content.</td>
+      </tr>
+      <tr>
+        <td><a href="#object-equation">Equations</a></td>
+        <td>Equations are created within a field object inserted into the document.</td>
+      </tr>
+      <tr>
+        <td><a href="#object-embedded-files">Embedded files (OLE objects)</a></td>
+        <td>You can import other files directly onto the page in your document.</td>
+      </tr>
+      <tr>
+        <td><a href="#object-drawing-canvas">Drawing canvas</a></td>
+        <td>A container that groups text boxes, images and graphic elements together.</td>
+      </tr>
+      <tr>
+        <td>Grouped objects</td>
+        <td>Any combination of the above grouped together.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 <h2 id="object-text-box">Inserting text boxes</h2>
 <p>Text boxes are exactly what they sound like. When you insert a text box onto the page you can enter text into it, change the size, position, style and format of the text box as needed. You can also insert images into them.</p>
 <p>The quickest way to insert a text box is via <strong>Insert > Shapes</strong> - it's the top left option under the <strong>Basic shapes</strong> category. There are templated text boxes you can use too which are found under the <strong>Insert > Text boxes</strong> menu on the ribbon.</p>

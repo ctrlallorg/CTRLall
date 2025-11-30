@@ -108,7 +108,7 @@ active: word
   <p><img class="thumbnail left" src="{{ '/assets/images/word/Borders and shading/Page border options.png' | url }}" alt="Page border options in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
 
   <p>Let's unpack this section by section.</p>
-
+  <div class="table-wrapper">
   <table class="no-border">
     <tbody>
         <tr>
@@ -133,6 +133,7 @@ active: word
         </tr>
     </tbody>
   </table>
+  </div>
                 
 <h4>Custom continued</h4>
 <p><u>Note</u>: If your page has a <strong>Box</strong>, <strong>Shadow</strong> or <strong>3D</strong> border already or if you've even selected one of those option in the window, the <strong>Custom</strong> option will pick up those styles. They may not be the ones you want. In order to style each side individually from here you'll need to click each styled side twice, first to unselect it, then again to apply the style you want.</p>

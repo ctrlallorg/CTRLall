@@ -4,7 +4,7 @@ layout: layout.liquid
 permalink: /word/indents/
 canonical: /word/indents/
 description: Indents in Microsoft Word with clear steps, visuals, and animations.
-asset_id: ctrlall-indents-v1
+asset_id: ctrlall-word-indents-v1
 date: 2025-10-26
 last_modified: 2025-10-26
 tags:
@@ -52,7 +52,7 @@ With the <span class="glossary-hover" data-term="insertion-point">insertion poin
 <p><img class="border" src="{{ '/assets/images/word/Indents/Paragraph indent markers on ruler.png' | url }}" alt="Paragraph and indent markers on ruler in Word" style="display: inline; height:100%; width: 100%;"></p>
 
 <p>Here's what each of the indent markers do when working with paragraphs:</p>
-
+<div class="table-wrapper">
 <table class="no-border">
     <colgroup>
       <col style="width: 20%;">
@@ -71,7 +71,7 @@ With the <span class="glossary-hover" data-term="insertion-point">insertion poin
         <td><strong>Left Indent</strong> - Moves both the above indents together, shifting the entire paragraph left or right.
       </tr>
 </table>
-
+</div>
 <p><img class="border" src="{{ '/assets/images/word/Indents/Paragraph indent marker adjust example.gif' | url }}" alt="Demonstration adjusting paragraph and indent markers" style="display: inline; height:100%; width: 100%;"></p>
 
 
@@ -128,7 +128,7 @@ With the <span class="glossary-hover" data-term="insertion-point">insertion poin
 When it comes to bullet and number lists, the indent markers work slightly differently. They're not aligned like in paragraphs and this is to do with the different functions they have for lists.
 
 <p><img class="border" src="{{ '/assets/images/word/Indents/List indent markers on ruler.png' | url }}" alt="Lists and indent markers on ruler in Word" style="display: inline; height:50%; width: 50%;"></p>
-
+<div class="table-wrapper">
 <table class="no-border">
     <colgroup>
       <col style="width: 20%;">
@@ -147,7 +147,7 @@ When it comes to bullet and number lists, the indent markers work slightly diffe
         <td><strong>Left Indent</strong> - Moves both the above indents together, shifting both the bullet/number and line/paragraph left or right.
       </tr>
 </table>
-
+</div>
 <p>Here's a simple example adjusting the bullet and spacing on a single sub-bullet. Typically you'd  adjust all the sub-bullets together, in which case you'd select them all first then drag the indent markers as needed.</p>
 
 <p><img class="border" src="{{ '/assets/images/word/Indents/List indent marker adjust example.gif' | url }}" alt="Demontration adjusting list indent marker" style="display: inline; height:50%; width: 50%;"></p>
@@ -224,7 +224,7 @@ When it comes to bullet and number lists, the indent markers work slightly diffe
 <img class="thumbnail border" src="{{ '/assets/images/word/Indents/Table list default indent.png' | url }}" alt="Table list default indents in Word" style="display: inline; height:80%; width: 80%;">
 
 <p>Since it's a list the indent markers will work based on that, but because we're inside a table there's another marker called a <strong>Column boundary marker</strong> to be aware of too:</p>
-
+<div class="table-wrapper">
 <table class="no-border">
     <colgroup>
       <col style="width: 20%;">
@@ -247,7 +247,7 @@ When it comes to bullet and number lists, the indent markers work slightly diffe
         <td><strong>Column boundary marker</strong> - Marks the position of a column border in a multi-column table, you can also drag this to adjust the column width. </td>
       </tr>
 </table>
-
+</div>
 <p>Here's a trick to neaten up bullets/numbers in lists:</p> 
 <p>Adjust the <strong>First line indent</strong> dragging it right to reduce the space between the bullet/number and the content, then drag the <strong>Left indent</strong> to the left to bring everything closer to the column border. Take a look:</p>
 

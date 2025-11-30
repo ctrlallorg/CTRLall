@@ -142,6 +142,7 @@ Font options window for editing all things about a text's font. You can access F
 <h4>Line spacing</h4>
 <p>Click the <strong>Line spacing</strong> drop down menu for different types of line spacing, some of which you can specify in points in the <strong>At</strong> field. Here's each option explained with examples further below:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Spacing line spacing.png' | url }}"  alt="Line spacing option in Paragraph Options in Word" style="width:40%; height:auto; vertical-align:middle"></p>
+<div class="table-wrapper">
 <table>
     <colgroup>
       <col style="width: 10%;">
@@ -188,7 +189,7 @@ Font options window for editing all things about a text's font. You can access F
       </tr>
       </tbody>
 </table>
-
+</div>
 <p>Here's them altogther for easier comparison:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Line spacing examples.png' | url }}"  alt="Line spacing examples in Word" style="width:70%; height:auto; vertical-align:middle"></p>
 
@@ -197,6 +198,7 @@ Font options window for editing all things about a text's font. You can access F
 <h2 id="line-and-page-breaks">Line and Page Breaks</h2>
 <p>The <strong>Line and Page Breaks</strong> tab has options to control how text flows across lines and pages. These are useful for managing layout in long documents keeping content together, avoiding awkward breaks, and managing layout in long documents.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Line and Page Breaks.png' | url }}"  alt="Paragraph Options Line and Page Breaks" style="width:40%; height:auto; vertical-align:middle"></p>
+<div class="table-wrapper">
 <table>
     <colgroup>
       <col style="width: 10%;">
@@ -250,4 +252,5 @@ Font options window for editing all things about a text's font. You can access F
 -      </tr>
     </tbody>
 </table>
+</div>
 </section>

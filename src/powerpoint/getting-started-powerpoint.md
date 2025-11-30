@@ -82,6 +82,7 @@ active: powerpoint
 
 
   <h2 id="powerpoint-version">What version of Powerpoint do I have?</h2>
+  <div class="table-wrapper">
   <table>
       <colgroup>
         <col style="width: 20%;">
@@ -124,6 +125,7 @@ active: powerpoint
         </tr>
         </tbody>
   </table>
+  </div>
 
   <p>To check what version you have try the following:</p>
 
@@ -242,6 +244,8 @@ active: powerpoint
 
 
   <h2 id="powerpoint-version">What version of Powerpoint do I have?</h2>
+
+  <div class="table-wrapper">
   <table>
       <colgroup>
         <col style="width: 20%;">
@@ -284,6 +288,7 @@ active: powerpoint
         </tr>
         </tbody>
   </table>
+  </div>
 
   <p>To check what version you have try the following:</p>
 

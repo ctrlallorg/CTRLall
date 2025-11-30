@@ -645,6 +645,25 @@ table td {
   height: auto;                /* Ensures row height adapts to content */
 }
 
+/* Wrap tables in a scrollable container */
+.table-wrapper {
+  overflow-x: visible; /* default for desktop/laptop */
+}
+
+/* Mobile breakpoint: enable horizontal scroll */
+@media (max-width: 768px) {
+  .table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* smooth iOS scroll */
+  }
+
+  .table-wrapper table {
+    min-width: 600px; /* adjust based on how many columns you need visible */
+    table-layout: auto; /* let columns size naturally instead of fixed % */
+  }
+}
+
+
 .section-light th:first-child,
 .section-light td:first-child {
   white-space: normal;

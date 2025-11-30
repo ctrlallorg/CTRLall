@@ -81,6 +81,7 @@ active: word
   <br>
   <h2>Microsoft Word Filename extensions:</h2>
   <p>You'll have noticed in those two examples above that files have an suffix on the filename like <strong>.docx</strong>. Here's what they mean:</p>
+  <div class="table-wrapper">
   <table>
       <colgroup>
         <col style="width: 15%;">
@@ -112,6 +113,7 @@ active: word
           </tr>
       </tbody>
   </table>
+  </div>
   <br>
   <h2>Old file formats 97-2003</h2>
   <p>If you come across a <strong>.doc</strong> file then it's quite old as it would have been saved using an older version of Word before 2003. You can still open these in Word fine, but be careful not to save a document as a .doc as that can lead to commpatibility issues later. It's always best practice to save in the new modern format <strong>.docx</strong>.</p>
@@ -159,7 +161,7 @@ active: word
 
   <br>
   <h2>Microsoft Word Filename extensions:</h2>
-
+  <div class="table-wrapper">
   <table>
       <colgroup>
         <col style="width: 15%;">
@@ -186,6 +188,7 @@ active: word
           </tr>
       </tbody>
   </table>
+  </div>
   <br>
   <h2>Old file formats 97-2003</h2>
   <p>The old format (.doc) doesn’t have all of the features and capabilities of the new format (.docx). Usually older documents are saved in this format as they were saved when using an older version of Microsoft Word (97-2003).</p>

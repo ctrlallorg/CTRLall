@@ -202,6 +202,7 @@ Here's a breakdown of everything this article covers:
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Inserting a quick part field.gif' | url }}" alt="Inserting a quick part field in Word" style="max-width: 100%; height: auto; display: block;"></p>
 
 <h3>Common Quick Part Fields for Headers and Footers</h3>
+<div class="table-wrapper">
 <table>
 <colgroup>
       <col style="width: 20%;">
@@ -260,4 +261,5 @@ Here's a breakdown of everything this article covers:
     </tr>
   </tbody>
 </table>
+</div>
 
