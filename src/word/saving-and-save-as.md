@@ -132,7 +132,7 @@ In the browser window that appears decide on the file name, the filetype (the dr
 <p><img class="thumbnail left" src="{{ '/assets/images/word/Saving and Save as/Options save.png' | url }}"  alt="Save As browse window in Word" style="max-width:280px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>With the Save Options you'll see two fields for default locations, one for Word documents and one for Word templates. Copy in the folder path you want and click <strong>OK</strong> to change it.</p>
-<p><img class="thumbnail left" src="{{ '/assets/images/word/Saving and Save as/Options Save Options.png' | url }}"  alt="Save As browse window in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail left" src="{{ '/assets/images/word/Saving and Save as/Options save options.png' | url }}"  alt="Save As browse window in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
 
 </section>

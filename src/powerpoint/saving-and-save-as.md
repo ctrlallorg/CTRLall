@@ -75,7 +75,7 @@ active: powerpoint
   <ol type="a">
   <li><strong>Save the existing presentation</strong> (<u>Note</u>: if it has already been saved previously you ‘overwrite’ the file with changes made). Either press <strong>Ctrl + S</strong> or click the <strong>Save</strong> button at the top left of the Quick Access Toolbar.</p>
 
-  <img class="thumbnail left" src="{{ '/assets/images/powerpoint/Saving and Save as/Save on QAT.png' | url }}"  alt="Save button on quick access toolbar in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail left" src="{{ '/assets/images/powerpoint/Saving and Save As/Save on QAT.png' | url }}"  alt="Save button on quick access toolbar in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle">
 
   </li>
 

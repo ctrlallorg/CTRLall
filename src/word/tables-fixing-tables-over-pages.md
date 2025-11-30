@@ -103,7 +103,7 @@ Now instead of content overflowing the whole row moves down to the next page ins
 <p>Click on that header row, then <strong>right click</strong> and select <strong>Table properties</strong>.</p>
 
 <img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Table properties.png' | url }}"  alt="Table Properties option on right click menu in Word" style="height:30%; width:30%; vertical-align:middle">
-s
+
 <p>In Table Properties under <strong>Row</strong> check the option <strong>Repeat as header row at the top of each page</strong>, then click <strong>OK</strong>.</p> 
     <p><u>Note</u>: If the option is greyed out for you that means you’ve clicked on/selected another row that’s not the header row.</p>
 

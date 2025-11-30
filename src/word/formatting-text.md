@@ -249,8 +249,6 @@ active: word
       </tr>
     </tbody>
   </table>
-  </section>
-</div>
 
 <h1>Where to now?</h1>
 <p>Now you've got the basics of formatting tools try experimenting with them on text in a document, it's the best way to learn how they work. For more font and paragraph options take a look at these articles:<p>
@@ -259,6 +257,11 @@ active: word
   <li><a href="/word/paragraph-options/">Paragraph options</a></li>
   <li><a href="/word/styles/">Styles</a> (for headings)</li>
 </ul>
+
+  </section>
+</div>
+
+
 
 <!-- Intermediate version -->
 <div class="difficulty intermediate-version" style="display:none;">

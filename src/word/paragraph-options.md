@@ -126,7 +126,7 @@ Font options window for editing all things about a text's font. You can access F
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation Inside and Outside 2.png' | url }}"  alt="Indentation Inside and Outside on opposite facing pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h4>Special / By</h4>
-<p>Use the <strong>Speciai</strong> drop down menu if you specifically want to change the <span class="glossary-hover" data-term="first-line-indent">First line indent</span> or <span class="glossary-hover" data-term="hanging-indent">Hanging indent</span>. Once selected you can alter how much to indent by with the <strong>By</strong> field. More on these different indent types is explained with interactive examples here: <a href="/word/Indents/">Indents</a>.</p>
+<p>Use the <strong>Special</strong> drop down menu if you specifically want to change the <span class="glossary-hover" data-term="first-line-indent">First line indent</span> or <span class="glossary-hover" data-term="hanging-indent">Hanging indent</span>. Once selected you can alter how much to indent by with the <strong>By</strong> field. More on these different indent types is explained with interactive examples here: <a href="/word/Indents/">Indents</a>.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation Special and By options.png' | url }}"  alt="Indentation Special and By options in Paragraph Options in Word" style="width:40%; height:auto; vertical-align:middle"></p>
 
 <h3 id="spacing">Spacing</h3>
