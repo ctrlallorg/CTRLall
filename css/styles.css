@@ -658,15 +658,18 @@ table td {
   }
 
   .table-wrapper table {
-    table-layout: auto;   /* let columns size naturally */
-    min-width: 800px;     /* force table wider than phone viewport */
+    display: block;        /* break out of shrink-to-fit */
+    width: auto;           /* stop forcing 100% */
+    min-width: 900px;      /* wider than phone viewport */
+    table-layout: auto;    /* let content decide widths */
   }
 
   .table-wrapper th,
   .table-wrapper td {
-    white-space: nowrap;  /* prevent text from breaking into vertical strips */
+    white-space: nowrap;   /* prevent vertical word breaks */
   }
 }
+
 
 .section-light th:first-child,
 .section-light td:first-child {
