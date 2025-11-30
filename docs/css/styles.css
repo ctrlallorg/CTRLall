@@ -654,15 +654,19 @@ table td {
 @media (max-width: 768px) {
   .table-wrapper {
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch; /* smooth iOS scroll */
+    -webkit-overflow-scrolling: touch;
   }
 
   .table-wrapper table {
-    min-width: 600px; /* adjust based on how many columns you need visible */
-    table-layout: auto; /* let columns size naturally instead of fixed % */
+    table-layout: auto;   /* let columns size naturally */
+    min-width: 800px;     /* force table wider than phone viewport */
+  }
+
+  .table-wrapper th,
+  .table-wrapper td {
+    white-space: nowrap;  /* prevent text from breaking into vertical strips */
   }
 }
-
 
 .section-light th:first-child,
 .section-light td:first-child {
