@@ -29,7 +29,6 @@
 .topnav {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
 }
 
 /* ─── Navigation Links ────────────────────────── */
@@ -207,6 +206,7 @@ mark {
 .share-container {
   position: relative; /* anchor point */
   display: inline-block;
+  margin-right: 0.5rem; /* adds space to the right */
 }
 
 @keyframes fadeInDown {
