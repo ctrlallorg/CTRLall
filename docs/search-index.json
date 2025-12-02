@@ -262,6 +262,48 @@
     "url": "/all/autosave-not-working/"
   },
   {
+    "title": "Copying content",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "microsoft word",
+      "copy content",
+      "copying content",
+      "copy text",
+      "copying text",
+      "duplicate content",
+      "duplicate text",
+      "duplicating text",
+      "keyboard shortcuts",
+      "copy to clipboard",
+      "copy and paste",
+      "copying and pasting"
+    ],
+    "url": "/content-control/copying-content/"
+  },
+  {
+    "title": "Moving content",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "microsoft word",
+      "move content",
+      "move text",
+      "moving text",
+      "keyboard shortcuts",
+      "copy to clipboard",
+      "cut and paste",
+      "cutting and pasting",
+      "drag and drop",
+      "dragging and dropping",
+      "click and drag",
+      "clicking and dragging"
+    ],
+    "url": "/content-control/moving-content/"
+  },
+  {
     "title": "Getting started with Microsoft PowerPoint",
     "tags": [
       "ctrlall.org",
@@ -1673,5 +1715,22 @@
       "modify tables"
     ],
     "url": "/word/tables/"
+  },
+  {
+    "title": "Keyboard Shortcuts",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "windows",
+      "microsoft word",
+      "microsoft excel",
+      "keyboard shortcut",
+      "hotkey",
+      "keyboard shortcuts",
+      "keys",
+      "buttons"
+    ],
+    "url": "/content-control/keyboard-shortcuts/"
   }
 ]
