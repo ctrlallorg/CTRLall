@@ -381,7 +381,10 @@
 <h1>Glossary</h1>
 <!-- CTRL All glossary v1.0 -->
 <div class="table-wrapper">
-<table class="hover-table">
+<div id="tooltip">
+    <img>
+</div>
+<table class="hover-table word-images-cursor-icons hover-table">
     <colgroup>
       <col style="width: 20%;">
       <col style="width: 80%;">
@@ -396,15 +399,18 @@
     <tr>
       <td id="adjustment-handles">Adjustment handles</td>
       <td><p>For certain images and graphic visuals when selected a selection frame appears around it including a yellow dot called an adjustment handle. These let you adjust the inner or outer dimensions of that image/graphic. Not to be confused with <a href="#sizing-handles">sizing handles</a>, for more information and examples see here: <a href="/word/altering-images-and-objects/">Altering images and objects</a></p>
-      <p><img src="/assets/images/word/Images/Adjustment handle.png" alt="Sizing handles" style="display: block; margin-left: 0; width: 20%;"></p></td>
+      <p><img src="/assets/images/word/Images/Adjustment handle.png" alt="Sizing handles" style="display: block; max-width:100px; width:100%; height:auto; vertical-align:middle">
+      </p></td>
     </tr>
     <tr>
       <td id="alignment">Alignment</td>
       <td>Where the text sits in the editable area. Four alignment options are available: Left, centre, right and justified. Justified is when the text is aligned to both the right and left <a href="#margin">margins</a>, creating spaces between words so the paragraph takes up all the space between the margins. You may have seen this in some physical newspapers which justify text in their columns.</td>
     </tr>
     <tr>
-      <td id="anchor">Anchor</td>
-      <td class="tooltip-row" data-gif="/assets/images/word/Images/Anchor icon.png"><a href="#floating-image">Floating images</a> are associated with (or 'anchored' to) a certain paragraph indicated by a small blue anchor in the left margin. If the image is moved far enough up/down the page Word reassigns the anchor to another paragraph. If the paragraph it is anchored to is moved then the image will move with it. It is also possible to <a href="#locked-anchor">lock an anchor</a> to a paragraph. See more here: <a href="/word/altering-images-and-objects/#anchoring">Anchoring</a>. </td>
+      <td id="anchor">Anchor</td>   
+        <td><p><a href="#floating-image">Floating images</a> are associated with (or 'anchored' to) a certain paragraph indicated by a small blue anchor in the left margin. If the image is moved far enough up/down the page Word reassigns the anchor to another paragraph. If the paragraph it is anchored to is moved then the image will move with it.</p>
+        <p><img src="/assets/images/word/Images/Anchor icon.png" alt="Anchor icon in Word" style="display: block; max-width:40px; width:100%; height:auto; vertical-align:middle"></p>
+        <p>It is also possible to <a href="#locked-anchor">lock an anchor</a> to a paragraph. See more here: <a href="/word/altering-images-and-objects/#anchoring">Anchoring</a>.</p></td>
     </tr>
     <tr>
       <td id="application">Application / App</td>
@@ -454,7 +460,7 @@
         <li><u>Office clipboard</u>: this clipboard works within MS Office apps only, storing up to 24 items which means you can copy multiple content (up to 24 at once) to paste them later. The Office clipboard keeps this information until you close the app.</li>
       </ul>
         Press the bottom right corner of Home &gt; Clipboard in an MS Office application to see and select on the clipboard to paste.
-        <img class="border" src="/assets/images/glossary/Office Clipboard.png" alt="Cursor keys" style="width: 15%;"></td>
+        <img class="border" src="/assets/images/glossary/Office Clipboard.png" alt="Cursor keys" style="display: block; max-width:90px; width:100%; height:auto; vertical-align:middle"></td>
     </tr>
     <tr>
       <td id="colour-palette">Colour palette</td>
@@ -471,12 +477,12 @@
     <tr>
       <td id="cursor">Cursor / Pointer</td>
       <td>The cursor, also known as the pointer, is the arrow or symbol where your mouse or mousepad is currently pointing. It is used to select system files, menus, buttons, objects and content. In applications the cursor icon can change for different actions.
-      <img src="/assets/images/glossary/Cursor arrow icon.png" alt="Cursor keys" style="width: 4%; margin-left: 1rem;"></td>
+      <img src="/assets/images/glossary/Cursor arrow icon.png" alt="Cursor keys" style="display: block; max-width:30px; width:100%; height:auto; vertical-align:middle"></td>
     </tr>
     <tr>
       <td id="cursor-keys">Cursor keys</td>
       <td>The up, down, left and right buttons on your keyboard.
-      <img class="border" src="/assets/images/keyboard shortcuts/Cursor keys.png" alt="Cursor keys" style="width: 30%;">
+      <img class="border" src="/assets/images/keyboard shortcuts/Cursor keys.png" alt="Cursor keys" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle">
       </td>
     </tr>
     <tr>
@@ -502,7 +508,7 @@
     </tr><tr>
       <td id="filename-extension">Filename extension</td>
       <td>A suffix at the end of the filename after a full stop/period which indicates a file's filetype. E.g. a Word document will have the filename extension <strong>.docx</strong> while a Excel workbook will have <strong>.xlsx</strong>. 
-      <img src="/assets/images/glossary/File extension.png" alt="File extension" style="height:75%; width:100%; vertical-align:middle">
+      <img src="/assets/images/glossary/File extension.png" alt="File extension" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle">
       </td>
     </tr>
     <tr>
@@ -520,7 +526,7 @@
       <td id="footer">Footer</td>
       <td><p>Content placed at the bottom of each page to help the reader navigate, identify or understand the context of the page or document. Page numbers for example are usually found in a footer.</p> 
       <p>To access the footer space either double click in the <a href="#margin">margin</a> at the bottom of the page or go to <strong>Insert &gt; Header &amp; Footer &gt; Footer</strong>. See more here: <a href="/word/headers-and-footers/">Headers and Footers</a></p>
-      <p><img class="thumbnail border" src="/assets/images/word/Headers and Footers/Footer.png" alt="Footer in Word" style="max-width: 100%; height: auto; display: block; margin: auto;"></p></td>
+      <p><img class="thumbnail border" src="/assets/images/word/Headers and Footers/Footer.png" alt="Footer in Word" style="display: block; max-width:650px; width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>
     <tr>
       <td id="font">Font</td>
@@ -549,21 +555,21 @@
         <tbody>
           <tr><td><a href="#page-break">Page break</a></td>
             <td style="text-align: center;">
-              <img src="/assets/images/glossary/Page break marker.png" alt="Page break marker in Word" style="width: 100%; display: block; margin: 0 auto;">
+              <img src="/assets/images/glossary/Page break marker.png" alt="Page break marker in Word" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle">
             </td>
             <td>Marks where a new page begins</td>
           </tr>
           <tr>
             <td><a href="#section-break">Section break</a></td>
             <td style="text-align: center;">
-              <img src="/assets/images/glossary/Section break marker.png" alt="Section break marker in Word" style="width: 100%; display: block; margin: 0 auto;">
+              <img src="/assets/images/glossary/Section break marker.png" alt="Section break marker in Word" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle">
             </td>
             <td>Indicates a change in formatting or layout</td>
           </tr>
           <tr>
             <td>Hidden text</td>
             <td style="text-align: center;">
-              <img src="/assets/images/glossary/Hidden text.png" alt="Hidden text underline in Word" style="width: 65%; display: block; margin: 0 auto;">
+              <img src="/assets/images/glossary/Hidden text.png" alt="Hidden text underline in Word" style="display: block; max-width:150px; width:100%; height:auto; vertical-align:middle">
             </td>
             <td>Shows text formatted as hidden</td>
           </tr>
@@ -616,7 +622,7 @@
     </tr>
     <tr>
       <td id="format-painter">Format Painter</td>
-      <td><p>A very useful tool that lets you copy the formatting of text to apply it on other text, like copy and paste but for formatting. See this article for more on <a href="/word/formatting-text">Formatting text</a>.</p><p><img src="/assets/images/glossary/Format painter icon.png" alt="Format painter icon" style="width: 5%;"></p>
+      <td><p>A very useful tool that lets you copy the formatting of text to apply it on other text, like copy and paste but for formatting. See this article for more on <a href="/word/formatting-text">Formatting text</a>.</p><p><img src="/assets/images/glossary/Format painter icon.png" style="display: block; max-width:30px; width:100%; height:auto; vertical-align:middle"></p>
       </td>
     </tr>
     <tr>
@@ -643,7 +649,7 @@
         <td id="header">Header</td>
         <td><p>Content placed at the top of each page to help the reader navigate, identify or understand the context of the page or document. For example a chapter/unit/section title might be something you find in a header.</p>
         <p>To access the header space either double click on the <a href="#margin">margin</a> at the top of the page or go to <strong>Insert &gt; Header &amp; Footer &gt; Header</strong>.</p>
-        <p><img class="thumbnail border" src="/assets/images/word/Headers and Footers/Header.png" alt="Header in Word" style="max-width: 100%; height: auto; display: block; margin: auto;"></p></td>
+        <p><img class="thumbnail border" src="/assets/images/word/Headers and Footers/Header.png" alt="Header in Word" style="display: block; max-width:650px; width:100%; height:auto; vertical-align:middle"></p></td>
       </tr>
     <tr>
       <td id="highlight-formatting">Highlight (<a href="#formatting">formatting</a>)</td>
@@ -665,15 +671,15 @@
       <td>
         A flashing vertical line in an editable area that indicates where you are about to type or edit on the page. You can move this by clicking elsewhere with the <a href="#cursor">cursor</a> or moving it with <a href="#cursor keys">cursor keys</a> on your keyboard.<br>
         <div style="display: flex; gap: 1em; align-items: flex-start;">
-          <img class="border" src="/assets/images/glossary/Insertion point example 1.gif" alt="Insertion point example" style="width: 25%;">
-          <img class="border" src="/assets/images/glossary/Insertion point example 2.gif" alt="Insertion point in a text box example" style="width: 25%;">
+          <img class="border" src="/assets/images/glossary/Insertion point example 1.gif" alt="Insertion point example" style="display: block; max-width:150px; width:100%; height:auto; vertical-align:middle">
+          <img class="border" src="/assets/images/glossary/Insertion point example 2.gif" alt="Insertion point in a text box example" style="display: block; max-width:150px; width:100%; height:auto; vertical-align:middle">
         </div>
       </td>
     </tr>
     <tr>
         <td id="kerning">Kerning</td>
         <td><p>Kerning is about adjusting the spacing between individual letters in a word to improve visual balance and readability. For example kerning may be used to bring adjacent letters like '<strong>A</strong>' and '<strong>V</strong>' closer together so they look evenly spaced. Kerning is key to typography in headlines, logos, and display type. If done poorly though kerning can lead to word being misinterpreted, e.g. if you put '<strong>r</strong>' and '<strong>n</strong>' to close together they can appear like an '<strong>m</strong>'.</p>
-        <p><img src="/assets/images/word/Font options/Kerning examples.png" alt="Kerning example" style="width:50%; height:auto; vertical-align:middle"></p></td>
+        <p><img src="/assets/images/word/Font options/Kerning examples.png" alt="Kerning example" style="display: block; max-width:275px; width:100%; height:auto; vertical-align:middle"></p></td>
       </tr>
     <tr>
       <td id="left-indent">Left indent</td>
@@ -682,7 +688,7 @@
     <tr>
       <td id="line-numbers">Line numbers</td>
       <td><p>Line numbers are numbers against each line in a document, typically used in legal documentation, scripts and technical reviews. You can turn them on in Word via <strong>Layout</strong> then selecting an option from the <strong>Line numbers</strong> drop down menu.</p>
-      <p><img class="thumbnail border" src="/assets/images/glossary/Line numbers.png" alt="Line numbers against text on page in Word" style="width:100%; height:auto; vertical-align:middle"></p>
+      <p><img class="thumbnail border" src="/assets/images/glossary/Line numbers.png" alt="Line numbers against text on page in Word" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
       <p><u>Note</u>: You can change where the numbers should and should not apply by 'suppressing' line numbers via <strong>Paragraph Options</strong> &gt; <a href="/word/paragraph-options/#line-and-page-breaks">Line and Page Breaks</a>.</p>
       </td>
     </tr>
@@ -734,7 +740,7 @@
       <td>OLE object (embedded file)</td>
       <td><p>An OLE object uses Micrsoft's OLE (Object Linking and Embedding) framework to allow an <a href="#application">application</a> to display content from an external file, e.g. on a page in <a href="#microsoft-word">Word</a>. OLE objects can be linked to their source with updates in real time or be embedded as a static standalone copy.</p>
       <p>A full tutorial to OLE objects can be found here: <a href="/word/objects-embedded-files/">Embedded files (OLE objects)</a></p>
-      <p><img class="thumbnail" src="/assets/images/word/Objects Embedded files/OLE object.png" alt="Insert embedded file" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p></td>
+      <p><img class="thumbnail border" src="/assets/images/word/Objects Embedded files/Embedded file OLE object wrap.png" alt="Insert embedded file" style="display: block; max-width:550px; width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>
     <tr>
       <td id="OS">Operating System (OS)</td>
@@ -747,7 +753,7 @@
     <tr>
       <td id="orphan">Orphan</td>
       <td><p>The first line of a paragraph that appears alone at the bottom of a page detached from the rest of the paragraph on the next page. The opposite of this is a <a href="#widow">widow</a>. Word prevents these by default but you can disable <a href="/word/paragraph-options/#widow-orphan-control">widow/orphan control</a> in the <strong>Line and Pages breaks</strong> tab in <strong>Paragraph Options</strong></p>
-      <p><img class="thumbnail border" src="/assets/images/word/Paragraph options/Orphan.png" alt="Orphan line in Word" style="width:100%; height:auto; vertical-align:middle"></p></td>
+      <p><img class="thumbnail border" src="/assets/images/word/Paragraph options/Orphan.png" alt="Orphan line in Word" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>
     <tr>
       <td id="page-break">Page break</td>
@@ -772,7 +778,7 @@
     <tr>
       <td id="quick-styles">Quick Styles</td>
       <td>Styles available in a visual gallery under Home &gt; Styles that you can access and apply to text easily and quickly for frequent use. You can customise the gallery to include other styles as needed.
-      <img class="border" src="/assets/images/glossary/Quick styles.png" alt="Cursor keys" style="width: 35%;"></td>
+      <img class="border" src="/assets/images/glossary/Quick styles.png" alt="Cursor keys" style="display: block; max-width:350px; width:100%; height:auto; vertical-align:middle"></td>
     </tr>
     <tr>
       <td id="redo">Redo</td>
@@ -789,14 +795,14 @@
     <tr>
       <td id="rotate-handle">Rotate handle</td>
       <td><p>When an image or object is selected it will have a selection frame around it which sometimes includes a rotate handle depending on what it is. You can hold left click and drag on the rotate handle clockwise or anti-clockwise to freely rotate the image/object as needed. See example here: <a href="/word/altering-images-and-objects/">Altering images, graphic visuals and some objects</a></p>
-      <p><img class="border" src="/assets/images/word/Images/Rotate handle.png" alt="Rotate handle" style="display: block; margin-left: 0; width: 10%;">
+      <p><img class="border" src="/assets/images/word/Images/Rotate handle.png" alt="Rotate handle" style="display: block; max-width:75px; width:100%; height:auto; vertical-align:middle">
       </p>
       </td>
     </tr>
     <tr>
       <td id="ruler">Ruler</td>
       <td><p>The horizontal and vertical rulers measure the physical size of the digitally presented page. It also allows you to alter the left <a href="#margin">margin</a>, right margin, <a href="#indent">indent</a> markers, and add <a href="#tab-stop">tab stops</a>. The ruler is turned on via a checkbox under <strong>View &gt; Show</strong>.</p>
-      <p><img class="border" src="/assets/images/glossary/Horizontal ruler.png" alt="Horizontal ruler in Word" style="display: block; margin-left: 0; width: 100%;"></p>
+      <p><img class="border" src="/assets/images/glossary/Horizontal ruler.png" alt="Horizontal ruler in Word" style="display: block; max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
       </td>
     </tr>
     <tr>
@@ -823,7 +829,7 @@
     <tr>
       <td id="sizing-handles">Sizing handles</td>
       <td><p>When an image or object is selected a selection frame appears around it with dots known as sizing handles. These let you resize the image/object. See examples here: <a href="/word/altering-images-and-objects/">Altering images and objects</a></p>
-      <p><img src="/assets/images/word/Images/Sizing handles.png" alt="Sizing handles" style="display: block; margin-left: 0; width: 20%;"></p></td>
+      <p><img src="/assets/images/word/Images/Sizing handles.png" alt="Sizing handles" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>      
     <tr>
       <td id="soft-return">Soft return</td>
@@ -872,7 +878,7 @@
     <tr>
       <td id="toggle">Toggle</td>
       <td>A button that lets you switch between one of two options with a single click. For example <a href="#autosave">Autosave</a> in MS Office apps:
-      <img src="/assets/images/glossary/Toggle example.png" alt="Select cell arrow" style="display: block; margin-left: 0; width: 20%;">
+      <img src="/assets/images/glossary/Toggle example.png" alt="Select cell arrow" style="display: block; max-width:125px; width:100%; height:auto; vertical-align:middle">
       </td>
     </tr>
     <tr>
@@ -901,7 +907,7 @@
     </tr>
     <tr><td id="widow">Widow</td>
       <td><p>The last line of a paragraph that appears alone at the top of a new page detached from the rest of the paragraph on the page before. The opposite of this is an <a href="#orphan">orphan</a>. Word prevents these by default but you can disable <a href="/word/paragraph-options/#widow-orphan-control">widow/orphan control</a> in the <strong>Line and Pages breaks</strong> tab in <strong>Paragraph Options</strong></p>
-      <p><img class="thumbnail border" src="/assets/images/word/Paragraph options/Widow.png" alt="Widow line in Word" style="width:100%; height:auto; vertical-align:middle"></p></td>
+      <p><img class="thumbnail border" src="/assets/images/word/Paragraph options/Widow.png" alt="Widow line in Word" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>
     <tr>
       <td id="word-document">Word Document</td>
@@ -915,130 +921,6 @@
       <td id="wrap">Wrap / Wrapping (images/objects)</td>
       <td>Wrapping for images and objects refers to how text flows around or interacts with visual elements like images, shapes, icons, 3D models or charts, or objects like a text box, within a document. It greatly affects readability, general layout and aesthetics. Wrapping can be controlled by an image/object's layout options, more detail and examples on this can be found here: <a href="/word/altering-images-and-objects/#layout-options">Layout options</a>.</td>
     </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
   </tbody>
 </table>
 </div>
@@ -1049,7 +931,7 @@
       <tbody><tr>
         <td id="adjustment-handles" aria-label="Adjustment handles: yellow dot used to reshape images in Word">Adjustment handles</td>
         <td><p>For certain images and graphic visuals when selected a selection frame appears around it including a yellow dot called an adjustment handle. These let you adjust the inner or outer dimensions of that image/graphic. Not to be confused with <a href="#sizing-handles">sizing handles</a>, for more information and examples see here: <a href="/word/altering-images-and-objects/">Altering images and objects</a></p>
-        <p><img src="/assets/images/word/Images/Adjustment handle.png" alt="Yellow adjustment handle dot used to reshape images in Word" style="display: block; margin-left: 0; width: 20%;"></p></td>
+        <p><img src="/assets/images/word/Images/Adjustment handle.png" alt="Yellow adjustment handle dot used to reshape images in Word" style="display: block; max-width:100px; width:100%; height:auto; vertical-align:middle"></p></td>
       </tr>
       <tr>
         <td id="alignment">Alignment</td>
@@ -1057,7 +939,9 @@
       </tr>
       <tr>
         <td id="anchor">Anchor</td>
-        <td class="tooltip-row" data-gif="/assets/images/word/Images/Anchor icon.png"><a href="#floating-image">Floating images</a> are associated with (or 'anchored' to) a certain paragraph indicated by a small blue anchor in the left margin. If the image is moved far enough up/down the page Word reassigns the anchor to another paragraph. If the paragraph it is anchored to is moved then the image will move with it. It is also possible to <a href="#locked-anchor">lock an anchor</a> to a paragraph. See more here: <a href="/word/images/#anchoring">Anchoring</a>. </td>
+        <td><p><a href="#floating-image">Floating images</a> are associated with (or 'anchored' to) a certain paragraph indicated by a small blue anchor in the left margin. If the image is moved far enough up/down the page Word reassigns the anchor to another paragraph. If the paragraph it is anchored to is moved then the image will move with it.</p>
+        <p><img src="/assets/images/word/Images/Anchor icon.png" alt="Anchor icon in Word" style="display: block; max-width:75px; width:100%; height:auto; vertical-align:middle"></p>
+        <p>It is also possible to <a href="#locked-anchor">lock an anchor</a> to a paragraph. See more here: <a href="/word/altering-images-and-objects/#anchoring">Anchoring</a>.</p></td>
       </tr>
       <tr>
         <td id="application">Application / App</td>
@@ -1107,7 +991,7 @@
           <li><u>Office clipboard</u>: this clipboard works within MS Office apps only, storing up to 24 items which means you can copy multiple content (up to 24 at once) to paste them later. The Office clipboard keeps this information until you close the app.</li>
         </ul>
           Press the bottom right corner of Home &gt; Clipboard in an MS Office application to see and select on the clipboard to paste.
-          <img class="border" src="/assets/images/glossary/Office Clipboard.png" alt="Cursor keys"></td>
+          <img class="border" src="/assets/images/glossary/Office Clipboard.png" alt="Cursor keys" style="display: block; max-width:90px; width:100%; height:auto; vertical-align:middle"></td>
       </tr>
       <tr>
         <td id="colour-palette">Colour palette</td>
@@ -1124,12 +1008,12 @@
       <tr>
         <td id="cursor">Cursor / Pointer</td>
         <td>The cursor, also known as the pointer, is the arrow or symbol where your mouse or mousepad is currently pointing. It is used to select system files, menus, buttons, objects and content. In applications the cursor icon can change for different actions.
-        <img src="/assets/imagesCursor arrow icon.png" alt="Cursor keys" style="width: 4%; margin-left: 1rem;"></td>
+        <img src="/assets/imagesCursor arrow icon.png" alt="Cursor keys" style="display: block; max-width:30px; width:100%; height:auto; vertical-align:middle"></td>
       </tr>
       <tr>
         <td id="cursor-keys">Cursor keys</td>
         <td>The up, down, left and right buttons on your keyboard.
-        <img class="border" src="/assets/images/keyboard shortcuts/Cursor keys.png" alt="Cursor keys" style="width: 30%;">
+        <img class="border" src="/assets/images/keyboard shortcuts/Cursor keys.png" alt="Cursor keys" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle">
         </td>
       </tr>
       <tr>
@@ -1155,7 +1039,7 @@
       </tr><tr>
         <td id="filename-extension">Filename extension</td>
         <td>A suffix at the end of the filename after a full stop/period which indicates a file's filetype. E.g. a Word document will have the filename extension <strong>.docx</strong> while a Excel workbook will have <strong>.xlsx</strong>. 
-        <img src="/assets/images/glossary/File extension.png" alt="File extension" style="height:100%; width:100%; vertical-align:middle">
+        <img src="/assets/images/glossary/File extension.png" alt="File extension" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle">
         </td>
       </tr>
       <tr>
@@ -1171,9 +1055,9 @@
       </tr>
       <tr>
       <td id="footer">Footer</td>
-      <td><p>Content placed at the bottom of each page to help the reader navigate, identify or understand the context of the page or document. Page numbers for example are usually found in a footer.</p> 
-      <p>To access the footer space either double click in the <a href="#margin">margin</a> at the bottom of the page or go to <strong>Insert &gt; Header &amp; Footer &gt; Footer</strong>. See more here: <a href="/word/headers-and-footers/">Headers and Footers</a></p>
-      <p><img class="thumbnail border" src="/assets/images/word/Headers and Footers/Footer.png" alt="Footer in Word" style="max-width: 100%; height: auto; display: block; margin: auto;"></p></td>
+        <td><p>Content placed at the bottom of each page to help the reader navigate, identify or understand the context of the page or document. Page numbers for example are usually found in a footer.</p> 
+        <p>To access the footer space either double click in the <a href="#margin">margin</a> at the bottom of the page or go to <strong>Insert &gt; Header &amp; Footer &gt; Footer</strong>. See more here: <a href="/word/headers-and-footers/">Headers and Footers</a></p>
+        <p><img class="thumbnail border" src="/assets/images/word/Headers and Footers/Footer.png" alt="Footer in Word" style="display: block; max-width:650px; width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>
       <tr>
         <td id="font">Font</td>
@@ -1203,21 +1087,21 @@
           <tr>
             <td><a href="#page-break">Page break</a></td>
             <td style="text-align: center;">
-              <img src="/assets/images/glossary/Page break marker.png" alt="Page break marker in Word" style="width: 100%; display: block; margin: 0 auto;">
+              <img src="/assets/images/glossary/Page break marker.png" alt="Page break marker in Word" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle">
             </td>
             <td>Marks where a new page begins</td>
           </tr>
           <tr>
             <td><a href="#section-break">Section break</a></td>
             <td style="text-align: center;">
-              <img src="/assets/images/glossary/Section break marker.png" alt="Section break marker in Word" style="width: 100%; display: block; margin: 0 auto;">
+              <img src="/assets/images/glossary/Section break marker.png" alt="Section break marker in Word" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle">
             </td>
             <td>Indicates a change in formatting or layout</td>
           </tr>
           <tr>
             <td>Hidden text</td>
             <td style="text-align: center;">
-              <img src="/assets/images/glossary/Hidden text.png" alt="Hidden text underline in Word" style="width: 65%; display: block; margin: 0 auto;">
+              <img src="/assets/images/glossary/Hidden text.png" alt="Hidden text underline in Word" style="display: block; max-width:150px; width:100%; height:auto; vertical-align:middle">
             </td>
             <td>Shows text formatted as hidden</td>
           </tr>
@@ -1271,7 +1155,8 @@
     <tr>
       </tr><tr>
         <td id="format-painter">Format Painter</td>
-        <td><p><img src="/assets/images/glossary/Format painter icon.png" alt="Format painter icon" style="width: 5%; margin-left: 1rem;"></p><p>Format Painter is a very useful tool that lets you copy the formatting of text to apply it on other text, like copy and paste but for formatting. See more in this article about <a href="/word/formatting-text">formatting text</a>.</p>
+        <td><p><img src="/assets/images/glossary/Format painter icon.png" alt="Format painter icon" style="display: block; max-width:30px; width:100%; height:auto; vertical-align:middle"></p>
+        <p>Format Painter is a very useful tool that lets you copy the formatting of text to apply it on other text, like copy and paste but for formatting. See more in this article about <a href="/word/formatting-text">formatting text</a>.</p>
        </td>
       </tr>
       <tr>
@@ -1298,7 +1183,7 @@
         <td id="header">Header</td>
         <td><p>Content placed at the top of each page to help the reader navigate, identify or understand the context of the page or document. For example a chapter/unit/section title might be something you find in a header.</p>
         <p>To access the header space either double click on the <a href="#margin">margin</a> at the top of the page or go to <strong>Insert &gt; Header &amp; Footer &gt; Header</strong>.</p>
-        <p><img class="thumbnail border" src="/assets/images/word/Headers and Footers/Header.png" alt="Header in Word" style="max-width: 100%; height: auto; display: block; margin: auto;"></p></td>
+        <p><img class="thumbnail border" src="/assets/images/word/Headers and Footers/Header.png" alt="Header in Word" style="display: block; max-width:650px; width:100%; height:auto; vertical-align:middle"></p></td>
       </tr>
       <tr>
         <td id="highlight-formatting">Highlight (<a href="#formatting">formatting</a>)</td>
@@ -1320,14 +1205,14 @@
         <td>
           <p>A flashing vertical line in an editable area that indicates where you are about to type or edit on the page. You can move this by clicking elsewhere with the <a href="#cursor">cursor</a> or moving it with <a href="#cursor-keys">cursor keys</a> on your keyboard.</p>
           <div style="display: flex; gap: 1em;">
-            <img src="/assets/images/glossary/Insertion point example 1.gif" style="width: 25%;">
-            <img src="/assets/images/glossary/Insertion point example 2.gif" style="width: 25%;">
+            <img src="/assets/images/glossary/Insertion point example 1.gif" style="display: block; max-width:150px; width:100%; height:auto; vertical-align:middle">
+            <img src="/assets/images/glossary/Insertion point example 2.gif" style="display: block; max-width:150px; width:100%; height:auto; vertical-align:middle">
           </div>
       </td>
       </tr><tr>
         <td id="kerning">Kerning</td>
         <td><p>Kerning is about adjusting the spacing between individual letters in a word to improve visual balance and readability. For example kerning may be used to bring adjacent letters like '<strong>A</strong>' and '<strong>V</strong>' closer together so they look evenly spaced. Kerning is key to typography in headlines, logos, and display type. If done poorly though kerning can lead to word being misinterpreted, e.g. if you put '<strong>r</strong>' and '<strong>n</strong>' to close together they can appear like an '<strong>m</strong>'.</p>
-        <p><img src="/assets/images/glossary/Kerning.png" alt="Kerning example" style="height:100%; width:100%; vertical-align:middle"></p></td>
+        <p><img src="/assets/images/glossary/Kerning.png" alt="Kerning example" style="display: block; max-width:275px; width:100%; height:auto; vertical-align:middle"></p></td>
       </tr>
       <tr><td id="left-indent">Left indent</td>
       <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls where a paragraph starts, or, in a list where both the bullet/number and content after starts. See examples in this article: <a href="/word/indents">Indents</a></td>
@@ -1335,7 +1220,7 @@
     <tr>
       <td id="line-numbers">Line numbers</td>
       <td><p>Line numbers are numbers against each line in a document, typically used in legal documentation, scripts and technical reviews. You can turn them on in Word via <strong>Layout</strong> then selecting an option from the <strong>Line numbers</strong> drop down menu.</p>
-      <p><img class="thumbnail border" src="/assets/images/glossary/Line numbers.png" alt="Line numbers against text on page in Word" style="width:100%; height:auto; vertical-align:middle"></p>
+      <p><img class="thumbnail border" src="/assets/images/glossary/Line numbers.png" alt="Line numbers against text on page in Word" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
       <p><u>Note</u>: You can change where the numbers should and should not apply by 'suppressing' line numbers via <strong>Paragraph Options</strong> &gt; <a href="/word/paragraph-options/#line-and-page-breaks">Line and Page Breaks</a>.</p>
       </td>
     </tr>
@@ -1387,7 +1272,7 @@
       <td>OLE object (embedded file)</td>
       <td><p>An OLE object uses Micrsoft's OLE (Object Linking and Embedding) framework to allow an <a href="#application">application</a> to display content from an external file, e.g. on a page in <a href="#microsoft-word">Word</a>. OLE objects can be linked to their source with updates in real time or be embedded as a static standalone copy.</p>
       <p>A full tutorial to OLE objects can be found here: <a href="/word/objects-embedded-files/">Embedded files (OLE objects)</a></p>
-      <p><img class="thumbnail" src="/assets/images/word/Objects Embedded files/OLE object.png" alt="Insert embedded file" style="max-width: 100%; height: auto; display: inline; margin: auto;"></p></td>
+      <p><img class="thumbnail" src="/assets/images/word/Objects Embedded files/OLE object.png" alt="Insert embedded file" style="display: block; max-width:550px; width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>
     <tr>
       <td id="OS">Operating System (OS)</td>
@@ -1400,7 +1285,7 @@
     <tr>
       <td id="orphan">Orphan</td>
       <td><p>The first line of a paragraph that appears alone at the bottom of a page detached from the rest of the paragraph on the next page. The opposite of this is a <a href="#widow">widow</a>. Word prevents these by default but you can disable <a href="/word/paragraph-options/#widow-orphan-control">widow/orphan control</a> in the <strong>Line and Pages breaks</strong> tab in <strong>Paragraph Options</strong></p>
-      <p><img class="thumbnail border" src="/assets/images/word/Paragraph options/Orphan.png" alt="Orphan line in Word" style="width:100%; height:auto; vertical-align:middle"></p></td>
+      <p><img class="thumbnail border" src="/assets/images/word/Paragraph options/Orphan.png" alt="Orphan line in Word" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>
     <tr>
       <td id="page-break">Page break</td>
@@ -1425,7 +1310,7 @@
     <tr>
       <td id="quick-styles">Quick Styles</td>
       <td>Styles available in a visual gallery under Home &gt; Styles that you can access and apply to text easily and quickly for frequent use. You can customise the gallery to include other styles as needed.
-      <img class="border" src="/assets/imagesQuick styles.png" alt="Cursor keys" style="width: 35%;"></td>
+      <img class="border" src="/assets/imagesQuick styles.png" alt="Cursor keys" style="display: block; max-width:350px; width:100%; height:auto; vertical-align:middle"></td>
     </tr>
     <tr>
       <td id="redo">Redo</td>
@@ -1442,13 +1327,13 @@
     <tr>
       <td id="rotate-handle">Rotate handle</td>
       <td><p>When an image or object is selected it will have a selection frame around it which sometimes includes a rotate handle depending on what it is. You can hold left click and drag on the rotate handle clockwise or anti-clockwise to freely rotate the image/object as needed. See example here: <a href="/word/altering-images-and-objects/">Altering images, graphic visuals and some objects</a></p>
-      <p><img class="border" src="/assets/images/word/Images/Rotate handle.png" alt="Rotate handle" style="display: block; margin-left: 0; width: 10%;"></p>
+      <p><img class="border" src="/assets/images/word/Images/Rotate handle.png" alt="Rotate handle" style="display: block; max-width:75px; width:100%; height:auto; vertical-align:middle"></p>
       </td>
     </tr>
     <tr>
       <td id="ruler">Ruler</td>
       <td><p>The horizontal and vertical rulers measure the physical size of the digitally presented page. It also allows you to alter the left <a href="#margin">margin</a>, right margin, <a href="#indent">indent</a> markers, and add <a href="#tab-stop">tab stops</a>. The ruler is turned on via a checkbox under <strong>View &gt; Show</strong>.</p>
-      <p><img class="border" src="/assets/images/glossary/Horizontal ruler.png" alt="Horizontal ruler in Word" style="display: block; margin-left: 0; width: 100%;"></p>
+      <p><img class="border" src="/assets/images/glossary/Horizontal ruler.png" alt="Horizontal ruler in Word" style="display: block; max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
       </td>
     </tr> 
     <tr>
@@ -1475,7 +1360,7 @@
     <tr>
       <td id="sizing-handles">Sizing handles</td>
       <td><p>When an image or object is selected a selection frame appears around it with dots known as sizing handles. These let you resize the image/object. See examples here: <a href="/word/altering-images-and-objects/">Altering images and objects</a></p>
-      <p><img src="/assets/images/word/Images/Sizing handles.png" alt="Sizing handles" style="display: block; margin-left: 0; width: 20%;"></p></td>
+      <p><img src="/assets/images/word/Images/Sizing handles.png" alt="Sizing handles" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>   
     <tr>
       <td id="soft-return">Soft return</td>
@@ -1524,7 +1409,7 @@
     <tr>
       <td id="toggle">Toggle</td>
       <td>A button that lets you switch between one of two options with a single click. For example <a href="#autosave">Autosave</a> in MS Office apps:
-      <img src="/assets/images/glossary/Toggle example.png" alt="Select cell arrow" style="display: block; margin-left: 0; width: 20%;">
+      <img src="/assets/images/glossary/Toggle example.png" alt="Select cell arrow" style="display: block; max-width:125px; width:100%; height:auto; vertical-align:middle">
       </td>
     </tr>
     <tr>
@@ -1553,7 +1438,7 @@
     </tr>
     <tr><td id="widow">Widow</td>
       <td><p>The last line of a paragraph that appears alone at the top of a new page detached from the rest of the paragraph on the page before. The opposite of this is an <a href="#orphan">orphan</a>. Word prevents these by default but you can disable <a href="/word/paragraph-options/#widow-orphan-control">widow/orphan control</a> in the <strong>Line and Pages breaks</strong> tab in <strong>Paragraph Options</strong></p>
-      <p><img class="thumbnail border" src="/assets/images/word/Paragraph options/Widow.png" alt="Widow line in Word" style="width:100%; height:auto; vertical-align:middle"></p></td>
+      <p><img class="thumbnail border" src="/assets/images/word/Paragraph options/Widow.png" alt="Widow line in Word" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>
     <tr>
       <td id="word-document">Word Document</td>

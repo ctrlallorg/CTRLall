@@ -99,10 +99,15 @@ active: word
     <li><a href="/word/objects/#object-embedded-files">Embedded files (OLE objects)</a></li>
     <li><a href="/word/objects/#object-drawing-canvas">Drawing canvas</a></li>
   </ul>
+
   <h2 id="alter-image-object">Altering images and objects</h2>
-  <p>When an image or object is inserted it is automatically selected with a <strong>selection frame</strong> around it. The selection frame has points around the image called <strong>sizing handles</strong> used to resize it as needed. Some will also have a <strong>rotate handle</strong> icon to rotate your image/shape freely.</p>
+  <p>When an image or object is inserted it is automatically selected with a <strong>selection frame</strong> around it. The selection frame has white dots around the image called <strong>sizing handles</strong> used to resize it as needed. Some will also have a <strong>rotate handle</strong> icon to rotate your image/shape freely.</p>
   <p>Your cursor icon changes depending on where you hover it, indicating available actions you can do by <span class="glossary-hover" data-term="drag">clicking and dragging</span>.</p>
   <p>Hover over the table rows below to see an example of each in action:</p>
+
+  <div id="tooltip">
+  <img />
+</div>
   <table class="word-images-cursor-icons hover-table">
       <colgroup>
         <col style="width: 35%;">

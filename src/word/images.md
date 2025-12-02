@@ -46,6 +46,11 @@ active: word
 <p>Under the <strong>Insert</strong> tab on the ribbon are options to add images and graphic visuals into your document. Here's a quick gloss over what each of them are. Click the links to see how to insert them.</p>
 <div class="table-wrapper">
 <table>
+  <colgroup>
+        <col style="width: 15%;">
+        <col style="width: 40%;">
+        <col style="width: 45%;">
+      </colgroup>
   <thead>
     <tr>
       <th>Image/Visual<br>graphic type</th>

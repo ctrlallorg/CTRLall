@@ -80,6 +80,7 @@
 
 
 .suggestions-list {
+  display: none;  
   position: absolute;
   top: 100%;
   left: 0;
@@ -95,6 +96,8 @@
   padding: 0;
   margin: 0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-top: none; /* remove double border */
+  margin-top: -1px; /* overlap border with input */
 }
 
 
@@ -607,7 +610,6 @@ blockquote {
 .section-light {
   width: 100%;
   background-color: #ffffff;
-  padding: 1rem;
 }
 
 .section-light table {
@@ -652,7 +654,7 @@ table td {
 }
 
 .table-wrapper table {
-  min-width: 900px;          /* force wider than content column */
+  min-width: 680px;          /* force wider than content column */
   table-layout: auto;
 }
 
@@ -674,23 +676,31 @@ table td {
   position: relative;
   display: inline-block;
 }
+
 /* Floating tooltip container controlled by JS */
 #tooltip {
   position: absolute;
-  display: none;
+  display: none;           /* hidden by default */
   z-index: 9999;
-  pointer-events: none;
+  pointer-events: auto;    /* allow hover/click if needed */
   background: #fff;
   border: 1px solid #ccc;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   padding: 5px;
   max-width: 400px;
   width: auto;
+  opacity: 0;              /* start invisible */
   transition: opacity 0.2s ease;
 }
 
+/* When JS shows tooltip, add a class */
+#tooltip.visible {
+  display: block;
+  opacity: 1;
+}
+
 #tooltip img {
-  max-width: 120%;
+  max-width: 100%;         /* keep image inside tooltip */
   height: auto;
   display: block;
 }
@@ -1046,7 +1056,6 @@ table td {
 
 .content-wrapper {
   flex: 1;
-  padding: 20px;
   overflow-y: auto;
   margin-left: 280px; /* match sidebar width */
   transition: margin-left 0.3s ease;

@@ -164,7 +164,9 @@ if (tooltip && tooltipImg) {
   document.querySelectorAll(".tooltip-row").forEach((row) => {
     row.addEventListener("mouseenter", () => {
       const gifSrc = row.getAttribute("data-gif");
-      tooltipImg.src = gifSrc;
+      if (gifSrc) {
+        tooltipImg.src = gifSrc;
+      }
 
       // optional per-row style overrides
       const gifStyle = row.getAttribute("data-gif-style");
@@ -174,7 +176,8 @@ if (tooltip && tooltipImg) {
         tooltipImg.removeAttribute("style");
       }
 
-      tooltip.style.display = "block";
+      // show tooltip with fade-in
+      tooltip.classList.add("visible");
     });
 
     row.addEventListener("mousemove", (e) => {
@@ -204,12 +207,14 @@ if (tooltip && tooltipImg) {
     });
 
     row.addEventListener("mouseleave", () => {
-      tooltip.style.display = "none";
+      // hide tooltip with fade-out
+      tooltip.classList.remove("visible");
       tooltipImg.src = "";
       tooltipImg.removeAttribute("style");
     });
   });
 }
+
 
 
 
@@ -370,6 +375,36 @@ document.addEventListener('DOMContentLoaded', async () => {
   let isHoveringTerm = false;
   let isHoveringTooltip = false;
 
+  function showTooltip(content, rect) {
+    tooltip.innerHTML = content;
+
+    // Patch glossary links inside tooltip
+    tooltip.querySelectorAll('a[href^="#"]').forEach(link => {
+      const hash = link.getAttribute('href');
+      link.setAttribute('href', `/glossary/${hash}`);
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    });
+
+    tooltip.style.display = 'block';
+
+    const tooltipWidth = tooltip.offsetWidth;
+    let top = rect.bottom + window.scrollY;
+    let left = rect.left + window.scrollX;
+
+    if (left + tooltipWidth > window.innerWidth) {
+      left = rect.right + window.scrollX - tooltipWidth;
+      if (left < 10) left = 10;
+    }
+
+    tooltip.style.top = `${top}px`;
+    tooltip.style.left = `${left}px`;
+  }
+
+  function hideTooltip() {
+    tooltip.style.display = 'none';
+  }
+
   document.querySelectorAll('.glossary-hover').forEach(el => {
     const term = el.dataset.term;
 
@@ -380,44 +415,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       const definitionCell = row?.nextElementSibling;
 
       if (row && definitionCell) {
-        tooltip.innerHTML = definitionCell.innerHTML;
-
-        // Patch glossary links inside tooltip
-        tooltip.querySelectorAll('a[href^="#"]').forEach(link => {
-          const hash = link.getAttribute('href');
-          link.setAttribute('href', `/glossary/${hash}`);
-          link.setAttribute('target', '_blank');
-          link.setAttribute('rel', 'noopener noreferrer');
-        });
-
-        const rect = el.getBoundingClientRect();
-
-        // default position: below term, aligned left
-        let top = rect.bottom + window.scrollY;
-        let left = rect.left + window.scrollX;
-
-        // measure tooltip after content is set
-        tooltip.style.display = 'block'; // ensure it's measurable
-        const tooltipWidth = tooltip.offsetWidth;
-
-        // if it would overflow right edge, snap to right-align with term
-        if (left + tooltipWidth > window.innerWidth) {
-          left = rect.right + window.scrollX - tooltipWidth;
-          if (left < 10) left = 10; // clamp so it doesn't go off left edge
-        }
-
-        tooltip.style.top = `${top}px`;
-        tooltip.style.left = `${left}px`;
-        tooltip.hidden = false;
+        showTooltip(definitionCell.innerHTML, el.getBoundingClientRect());
       }
     });
 
     el.addEventListener('mouseleave', () => {
       isHoveringTerm = false;
       setTimeout(() => {
-        if (!isHoveringTerm && !isHoveringTooltip) {
-          tooltip.hidden = true;
-        }
+        if (!isHoveringTerm && !isHoveringTooltip) hideTooltip();
       }, 150);
     });
   });
@@ -429,12 +434,18 @@ document.addEventListener('DOMContentLoaded', async () => {
   tooltip.addEventListener('mouseleave', () => {
     isHoveringTooltip = false;
     setTimeout(() => {
-      if (!isHoveringTerm && !isHoveringTooltip) {
-        tooltip.hidden = true;
-      }
+      if (!isHoveringTerm && !isHoveringTooltip) hideTooltip();
     }, 150);
   });
+
+  // Click outside to dismiss
+  document.addEventListener('click', (event) => {
+    const isClickInsideTerm = event.target.closest('.glossary-hover');
+    const isClickInsideTooltip = tooltip.contains(event.target);
+    if (!isClickInsideTerm && !isClickInsideTooltip) hideTooltip();
+  });
 });
+
 
 
 // ─── Locale Toggle + Spelling Variant Swap ─────────────────────────────

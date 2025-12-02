@@ -42,7 +42,9 @@ active: word
 
 <h1>Styles</h1>
 
-<p>In this article:</p>
+<section class="section-light">
+
+<p>A style is a reusable set of <span class="glossary-hover" data-term="formatting">formatting</span> attributes like font, font size, colour, spacing, and alignment, which can be applied to text or objects. In this article we'll explore:</p>
 <ul>
     <li><a href="#why-styles">Why do Styles matter?</a></li>
     <li><a href="#styles-gallery">Styles gallery</a></li>
@@ -50,9 +52,6 @@ active: word
     <li><a href="#create-style">Creating a style</a></li>
     <li><a href="#modify-style">Modifying a style</a></li>
 </ul>
-
-<section class="section-light">
-<p>A style is a reusable set of <span class="glossary-hover" data-term="formatting">formatting</span> attributes — font, size, colour, spacing, and alignment — which can be applied to text or objects.</p>
 
 <h2 id="why-styles">Why do Styles matter?</h2>
 <ul>
