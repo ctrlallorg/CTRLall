@@ -99,11 +99,11 @@ Here's a breakdown of everything this article covers:
 
 <p>Nearly every professional multi-page document will have a header and/or footer. Headers are found at the top of the page, footers at the bottom. They're used to state certain properties about a document page to help users navigate, identify and/or understand its context.</p>
 
-<p><figure><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Header example.png' | url }}" alt="Example header at the top of the page" style="max-width: 100%; height: auto; display: block;">
+<p><figure><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Header example.png' | url }}" alt="Example header at the top of the page" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
 <figcaption class="figcaption">Example header at the top of the page (in grey)</figcaption>
 </figure></p>
 
-<p><figure><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Footer example.png' | url }}" alt="Example footer at the bottom of the page<" style="max-width: 100%; height: auto; display: block;">
+<p><figure><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Footer example.png' | url }}" alt="Example footer at the bottom of the page<" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
 <figcaption class="figcaption">Example footer at the bottom of the page (in grey)</figcaption>
 </figure></p>
 
@@ -141,39 +141,39 @@ Here's a breakdown of everything this article covers:
 
 <h2 id="edit-header-footer">How to edit headers and footers</h2>
 <p>There's two ways to edit them; either go to <strong>Insert > Header & Footer</strong>, or the much faster method is to <strong>double click</strong> on the top or bottom margin area.</p> 
-<div class="image-row">
-  <img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Insert Header footer buttons.png' | url }}" alt="Header and Footer in ribbon in Word">
-  <img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Insert Header footer buttons small.png' | url }}" alt="Header and Footer in ribbon in Word on a smaller screen">
+<div class="image-adjacent">
+  <img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Insert Header footer buttons.png' | url }}" alt="Header and Footer in ribbon in Word" style="max-width:175px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Insert Header footer buttons small.png' | url }}" alt="Header and Footer in ribbon in Word on a smaller screen" style="max-width:140px; width:100%; height:auto; vertical-align:middle">
 </div>
-<img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Selecting a footer.gif' | url }}" alt="Demonstration of double clicking margin to activate footer in Word" style="max-width: 75%; height: auto; display: block;">
+<img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Selecting a footer.gif' | url }}" alt="Demonstration of double clicking margin to activate footer in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
 
 
 <p>Once selected the header or footer appears with a dotted line and tag as shown above. These tags come into play with different options selected for the first page and when applying <span class="glossary-hover" data-term="section">section breaks</span>. You can now type and insert content.</p>
 
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Header.png' | url }}" alt="Header in Word" style="max-width: 100%; height: auto; display: block;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Header.png' | url }}" alt="Header in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Footer.png' | url }}" alt="Footer in Word" style="max-width: 100%; height: auto; display: block;">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Footer.png' | url }}" alt="Footer in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
 </p>
 
 <h2 id="unselect-header-footer">Unselect a header and footer</h2>
 <p>When finished editing <strong>double click</strong> on the main section of the page or from the ribbon select <strong>Header & Footer > Close header and footer</strong></p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Close header and footer.png' | url }}" alt="Close Header and Footer option on ribbon in Word" style="max-width: 100%; height: auto; display: block;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Close header and footer.png' | url }}" alt="Close Header and Footer option on ribbon in Word" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2 id="remove-header-footer">How to remove headers and footers</h2>
 <p>You don't need to have a header or footer selected to delete it. Go to <strong>Insert</strong> on the ribbon and select either <strong>Header</strong> or <strong>Footer</strong>, then select the <strong>Remove Header</strong> / <strong>Remove Footer</strong> option at the bottom of the menu.</p> 
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Insert header footer menus remove.png' | url }}" alt="Insert header footer menus remove on ribbon in Word" style="max-width: 100%; height: auto; display: block;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Insert header footer menus remove.png' | url }}" alt="Insert header footer menus remove on ribbon in Word" style="max-width:750px; width:100%; height:auto; vertical-align:middle"></p>
 <p>Alternatively, if you have the header/footer selected, you can select the same delete options from the <strong>Header & Footer > Header/Footer</strong>.</p>
 
 <h2 id="header-footer-tab-stops">Aligning content in headers and footers with tab stops</h2>
 <p>While editing you may have noticed two of the <span class="glossary-hover" data-term="tab-stop">tab stops</span> symbols on the horizontal <span class="glossary-hover" data-term="ruler">ruler</span> there. there's actually three, one's hidden on the left by the indent markers.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Header tab stops.png' | url }}" alt="Header tab stops on ruler in Word" style="max-width: 100%; height: auto; display: block;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Header tab stops.png' | url }}" alt="Header tab stops on ruler in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 <p>They have different symbols there for left, centre and right aligned tab stops. You can press the <strong>Tab</strong> key to move the <span class="glossary-hover" data-term="insertion-point">insertion point</span> between tab stops left to right. This way you can have content aligned differently on the same line.</p>
 
 <h2 id="header-footer-different-first-page">Different headers and footers for first pages</h2> 
 <p>If your document has a cover page then you'll want to separate it from the headers and footers in the rest of the document, sometimes just for the sake of keeping the first page's header and footer blank. To differentiate the first page from the others select the header/footer and then from <strong>Header & Footer</strong> on the ribbon check the <strong>Different first page</strong> checkbox.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Different first page.png' | url }}" alt="Different first page on ribbon in Word" style="max-width: 100%; height: auto; display: block;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Different first page.png' | url }}" alt="Different first page on ribbon in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 <p>On the first page you'll see the tag change to <strong>First page Header</strong> appear. You can now edit that first page separately as you need to.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Different first page example.png' | url }}" alt="Different first page example in Word" style="max-width: 100%; height: auto; display: block;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Different first page example.png' | url }}" alt="Different first page example in Word" style="max-width:575px; width:100%; height:auto; vertical-align:middle"></p>
 
 
 <h2 id="header-footer-different-odd-even-pages">Different headers and footers for left & right (odd & even) pages</h2>
@@ -186,20 +186,20 @@ Here's a breakdown of everything this article covers:
 
 <h2 id="header-footer-quick-part-field">Inserting automated quick part fields</h2>
 <p>Quick part fields are particularly useful to insert data that dynamically updates within the document. A simple example of this is a page number; Word makes it easy to add a page number via <strong>Insert > Page Number</strong> and once inserted if you select the page number itself it will highlight dark grey. This is because it's a field, one which changes with each page increasing the number by one.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Page number field.png' | url }}" alt="Page number field selected in Word" style="max-width: 100%; height: auto; display: block;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Page number field.png' | url }}" alt="Page number field selected in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>But what if you also want to show the number of pages e.g. '1 of 7'? You'll need to add another quick part field to do it. Let's take a look at how it's done.</p>
 
 <p>In our example above we've already added a page number to the footer. I'm going to add 'of' after it with spaces either side, and then go to <strong>Header & Footer > Quick Parts > Field</strong></p>
 
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Quick parts field.png' | url }}" alt="Quick parts field on ribbon in Word" style="max-width: 100%; height: auto; display: block;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Quick parts field.png' | url }}" alt="Quick parts field on ribbon in Word" style="max-width:260px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>This brings up a <strong>Field</strong> window with the left menu hosting all different sorts of fields available. It's worth having a look through for anything you might need as it's quite extensive, a description of each one is found at the bottom of the window.</p> 
 <p>In my case I need <i>NumPages</i>. I have the option to choose different formats and can then press <strong>OK</strong></p>.
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Field window.png' | url }}" alt="Field window in Word" style="max-width: 100%; height: auto; display: block;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Field window.png' | url }}" alt="Field window in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>Here's it all from start to finish:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Inserting a quick part field.gif' | url }}" alt="Inserting a quick part field in Word" style="max-width: 100%; height: auto; display: block;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Inserting a quick part field.gif' | url }}" alt="Inserting a quick part field in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h3>Common Quick Part Fields for Headers and Footers</h3>
 <div class="table-wrapper">

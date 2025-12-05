@@ -68,22 +68,22 @@ active: word
     <li>Title, Subtitle</li>
     <li>Emphasis, Quote, Strong, Reference</li>
 </ul>
-<img class="thumbnail" src="{{ '/assets/images/word/Styles/Styles gallery.png' | url }}" alt="Styles gallery on ribbon in Word" style="display: inline; width: 50%;">
+<img class="thumbnail" src="{{ '/assets/images/word/Styles/Styles gallery.png' | url }}" alt="Styles gallery on ribbon in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle">
 <br>
 <p>They’re stored as part of a <strong>style set</strong>, which defines the look and feel of a document (fonts, spacing, colours, etc.). You can change between style sets on the <strong>Design</strong> tab of the ribbon, but rarely anyone switches between these. What the majority of Word users do is just use the styles of the default style set 'Basic (Elegant)', and in some cases modify those styles or create their own. </p>
 
 <h2 id="apply-style">Applying a style</h2>
 <p>Set the <span class="glossary-hover" data-term="insertion-point">insertion point</span> against a paragraph then select a style from the Styles gallery to change the text's formatting to that style. In some existing documents and templates you may have several styles which aren't on the Styles gallery, instead you can view a list of all styles in the document.</p>
 <p>Click on the bottom right corner square of the Styles section on the ribbon to bring up a list of styles.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Styles/Styles list.png' | url }}" alt="Bottom right Styles list button on ribbon in Word" style="display: inline; width: 50%;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Styles/Styles list.png' | url }}" alt="Bottom right Styles list button on ribbon in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
 <p> It's normally displayed as a popped out window at first, you can double click the header to make it snap to the side as a pane. From here with the insertion point on the intended text click on the style in the list to apply it.</p>
-<p><img  class="thumbnail border" src="{{ '/assets/images/word/Styles/Styles list pane.png' | url }}" alt="Styles list pane in Word" style="display: inline; width: 30%;"></p>
+<p><img  class="thumbnail border" src="{{ '/assets/images/word/Styles/Styles list pane.png' | url }}" alt="Styles list pane in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2 id="create-style">Creating a style</h2>
 <p>Creating a style is easy. On the Styles list click the <strong>bottom left A+ button</strong>. This will create a new style and gives you options to customise how it looks.</p>
-<p><img class="border" src="{{ '/assets/images/word/Styles/Create a style Styles list.png' | url }}" alt="Create a style button on Styles list pane in Word" style="display: inline; width: 30%;"></p>
+<p><img class="border" src="{{ '/assets/images/word/Styles/Create a style Styles list.png' | url }}" alt="Create a style button on Styles list pane in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle"></p>
 <p><u>Note</u>: Another way is via the Styles gallery clicking <strong>Create a Style</strong> which will prompt you to decide the a name first. Make sure to click <strong>Modify</strong> so you can decide determine its formatting otherwise clicking <strong>OK</strong> will just add a new style to the list based on the 'Normal' style, which you'll then just want to modify anyway:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Styles/Create a style Styles gallery.png' | url }}" alt="Create a style button on Styles gallery in Word and and modify option" style="display: inline; width: 75%;"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Styles/Create a style Styles gallery.png' | url }}" alt="Create a style button on Styles gallery in Word and and modify option" style="max-width:650px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>You'll then see the window of property and formatting options for the new style. Here you can edit:
 
@@ -107,7 +107,7 @@ active: word
 
 <p>Bottom left is a <strong>Format</strong> button which provides more options. Here's what each one let's you do:</p>
 
-<p><img class="thumbnail" src="{{ '/assets/images/word/Styles/Create New Style options Format.png' | url }}" alt="Format button bottom left of Create New Style from Formatting options window" style="display: inline; width: 84%;"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Styles/Create New Style options Format.png' | url }}" alt="Format button bottom left of Create New Style from Formatting options window" style="max-width:650px; width:100%; height:auto; vertical-align:middle"></p>
 
 <li><a href="/word/font-options/">Font</a></li>
 <li><a href="/word/paragraph-options/">Paragraph</a></li>
@@ -124,24 +124,27 @@ active: word
 
 
 
-
 <h2>Adding a style to the Styles gallery</h2>
 <p>To manually add a style to the Styles gallery bring up the Styles list (bottom right corner button on Styles section of the Ribbon), then <strong>right click</strong> on the style and select <strong>Add to Style Gallery</strong>:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Styles/New style add to gallery.png' | url }}" alt="New style add to gallery" style="display: inline; width: 33%;">  <img class="border" src="{{ '/assets/images/word/Styles/New style added to gallery.png' | url }}" alt="New style added to gallery" style="display: inline; width: 45%;"></p>
-
+<div class="image-adjacent">
+  <img class="thumbnail left" src="{{ '/assets/images/word/Styles/New style add to gallery.png' | url }}"  alt="New style add to gallery" style="max-width:225px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail left" src="{{ '/assets/images/word/Styles/New style added to gallery.png' | url }}"  alt="New style added to gallery" style="max-width:400px; width:100%; height:auto; vertical-align:middle">
+</div>
 
 
 
 <h2 id="modify-style">Modifying a style</h2>
 <h4>Update a style based on selected text</h4>
 <p>The quickest way to modify a style is to format some text (typically the target text with the chosen style already applied) and manually format it, then <strong>right click</strong> on that style in the Styles gallery or the Styles list and select <strong>Update [Style] to Match Selection</strong>. The style will then update to that formatting and apply it throughout the document. It's a little like the <span class="glossary-hover" data-term="format-painter">format painter</span> but en masse.</p>
-<p><img class="border" src="{{ '/assets/images/word/Styles/Update style to match selection.gif' | url }}" alt="Update style to match selection" style="display: inline; width: 100%;"></p>
+<p><img class="border" src="{{ '/assets/images/word/Styles/Update style to match selection.gif' | url }}" alt="Update style to match selection" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h4>Modifying style options</h4>
 There are further options you can modify a style with though. Locate the style in the Styles gallery or the Styles list, <strong>right click</strong> it and select <strong>Modify</strong>.
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Styles/Modify style Styles gallery.png' | url }}" alt="Modify style Styles gallery" style="display: inline; width: 41%;">   <img class="border" src="{{ '/assets/images/word/Styles/Modify style from list.png' | url }}" alt="Modify style from list" style="display: inline; width: 35%;"></p>
-<p>A dialog box  with multiple options appears to modify the style with.</p>
-<img class="thumbnail border" src="{{ '/assets/images/word/Styles/Modify style options.png' | url }}" alt="Modify style options" style="display: inline; width: 95%;"></p>
+
+<div class="image-adjacent">
+  <img class="thumbnail left" src="{{ '/assets/images/word/Styles/Modify style Styles gallery.png' | url }}"  alt="Modify style Styles gallery"" style="max-width:300px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail left" src="{{ '/assets/images/word/Styles/Modify style from list.png' | url }}"  alt="Modify style from list" style="max-width:300px; width:100%; height:auto; vertical-align:middle">
+</div>
 <ul>
     <li><a href="/word/font-options/">Font</a></li>
     <li><a href="/word/paragraph-options/">Paragraph</a></li>

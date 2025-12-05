@@ -26,7 +26,7 @@ active: content-control
 
 <h2 id="windows-keyboard-shortcuts">Windows shortcuts</h2>
 <p>Note: Some Windows shortcuts use the <strong>Windows</strong> key which looks like this:</p>
-<p><img src="{{ '/assets/images/keyboard shortcuts/Windows key on keyboard.png' | url }}"  alt="Windows key on keyboard" style="height:33%; width:33%; vertical-align:middle"></p>
+<p><img src="{{ '/assets/images/keyboard shortcuts/Windows key on keyboard.png' | url }}"  alt="Windows key on keyboard" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
 
 <div class="preload-images">
   <img src="/assets/images/keyboard shortcuts/Win+D.png" alt="Windows + D shortcut: Shows the desktop (minimise all windows)">

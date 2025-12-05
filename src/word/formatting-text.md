@@ -72,15 +72,15 @@ active: word
 
   <h2>Clipboard tools</h2>
   <p>These tools are to do with copying and moving content such as a cut, copy and paste.</p>
-  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Clipboard.png' | url }}"  alt="Home Clipboard tools on ribbon in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Clipboard.png' | url }}"  alt="Home Clipboard tools on ribbon in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h4>Cut, copy and paste</h4> 
   <p>These are tools to copy and/or move content.</p>
   <ul>
     <li><u>Cut</u>: This removes the content from the page and places it on the <strong>clipboard</strong> which acts as Word's short term memory. You can then <strong>paste</strong> it elsewhere. It's a way of moving content around your document.</li>
-    <p><img class="thumbnail" src="{{ '/assets/images/content%20control/Cut%20and%20paste%20text.gif' | url }}"  alt="Cut and paste demonstration in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
+    <p><img class="thumbnail border" src="{{ '/assets/images/content control/Cut and paste text.gif' | url }}"  alt="Cut and paste demonstration in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
     <li><u>Copy</u>: This copies the content to the <strong>clipboard</strong> so you can <strong>paste</strong> it elsewhere, letting you duplicate it.</li>
-    <p><img class="thumbnail" src="{{ '/assets/images/content%20control/Copy%20and%20paste%20text.gif' | url }}"  alt="Copy and paste demonstration in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
+    <p><img class="thumbnail border" src="{{ '/assets/images/content control/Copy and paste text.gif' | url }}"  alt="Copy and paste demonstration in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
     <li><u>Paste</u>: This duplicates content copied to the clipboard by cutting or copying it first. There are different types of paste options depending on what you cut or copy which are explored more in the Intermediate version of thi article.</li>
 
   <h4>Format Painter</h4> 
@@ -91,7 +91,7 @@ active: word
 
   <h2>Font tools</h2>
   <p>The tools help format your text in various ways, take a look at the examples below.</p>
-  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middlee"></p>
+  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middlee"></p>
   <table>
   <colgroup>
         <col style="width: 20%;">
@@ -159,7 +159,7 @@ active: word
 
   <h2 id="paragraph-tools">Paragraph</h2>
   <p>Paragraph formatting tools let you change the look of content on the page. Take a look at the examples below.</p>
-  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Paragraph.png' | url }}"  alt="Home Paragraph tools on ribbon in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Paragraph.png' | url }}"  alt="Home Paragraph tools on ribbon in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle"></p>
 
   <table>
   <colgroup>
@@ -273,7 +273,7 @@ active: word
   <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home tab on ribbon.png' | url }}"  alt="Home tab tools on ribbon in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h2>Clipboard tools</h2>
-  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Clipboard.png' | url }}"  alt="Home Clipboard tools on ribbon in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Clipboard.png' | url }}"  alt="Home Clipboard tools on ribbon in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h4>Cut, copy and paste</h4> 
   <p>These are tools to copy and/or move content.</p>
@@ -326,7 +326,7 @@ active: word
   <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Format painter example.gif' | url }}"  alt="Example of format painter being used to style text" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h2>Font tools</h2>
-  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middlee"></p>
+  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middlee"></p>
   <div class="table-wrapper">
   <table>
   <colgroup>
@@ -395,7 +395,7 @@ active: word
   <p>Click the bottom right corner button and you can bring up further <a href="/word/font-options/">Font options</a>.</p>
 
   <h2>Paragraph</h2>
-  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Paragraph.png' | url }}"  alt="Home Paragraph tools on ribbon in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Paragraph.png' | url }}"  alt="Home Paragraph tools on ribbon in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle"></p>
   <div class="table-wrapper">
   <table>
   <colgroup>

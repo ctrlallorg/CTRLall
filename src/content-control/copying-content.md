@@ -35,17 +35,17 @@ active: content-control
 
 <p>You can use the keyboard shortcut:</p>
 <ol>
-    <li><strong>Ctrl + C</strong> to copy<img src="{{ '/assets/images/keyboard shortcuts/Ctrl+C.png' | url }}" alt="Ctrl and C" style="height:25%; width:25%; vertical-align:middle"></li>
+    <li><strong>Ctrl + C</strong> to copy<img src="{{ '/assets/images/keyboard shortcuts/Ctrl+C.png' | url }}" alt="Ctrl and C" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></li>
 then
-    <li><strong>Ctrl + V</strong> to paste<img src="{{ '/assets/images/keyboard shortcuts/Ctrl+V.png' | url }}" alt="Ctrl and V" style="height:25%; width:25%; vertical-align:middle"></li>
+    <li><strong>Ctrl + V</strong> to paste<img src="{{ '/assets/images/keyboard shortcuts/Ctrl+V.png' | url }}" alt="Ctrl and V" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></li>
 </ol>
 
 
 
-<img class="thumbnail border" src="{{ '/assets/images/content control/Copy and paste text.gif' | url }}"  alt="Dragging text" style="height:80%; width:80%; vertical-align:middle"> 
+<img class="thumbnail border" src="{{ '/assets/images/content control/Copy and paste text.gif' | url }}"  alt="Dragging text" style="max-width:600px; width:100%; height:auto; vertical-align:middle"> 
 
-<img class="thumbnail border" src="{{ '/assets/images/content control/Copy and paste cell value.gif' | url }}"  alt="Copy and paste cell value" style="height:27%; width:27%; vertical-align:middle">
+<img class="thumbnail border" src="{{ '/assets/images/content control/Copy and paste cell value.gif' | url }}"  alt="Copy and paste cell value" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
 
-<img class="thumbnail border" src="{{ '/assets/images/content control/Copy and paste file.gif' | url }}"  alt="Copy and paste file" style="height:100%; width:100%; vertical-align:middle">
+<img class="thumbnail border" src="{{ '/assets/images/content control/Copy and paste file.gif' | url }}"  alt="Copy and paste file" style="max-width:800px; width:100%; height:auto; vertical-align:middle">
 
 </section>

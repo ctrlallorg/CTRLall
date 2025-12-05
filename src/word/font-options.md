@@ -53,10 +53,10 @@ active: word
 
   <section class="section-light">
   Word has a one-stop shop <strong>Font options</strong> window for formatting (editing the look of) all a text's font. First, select the text you want to change first then either <strong>right click</strong> and select <strong>Font</strong> from the menu, or on the <strong>Home > Font</strong> section of the ribbon click the <strong>bottom right corner button</strong>.
-  <img class="thumbnail border" src="{{ '/assets/images/word/Font options/Font options menus-beg.png' | url }}"  alt="Different ways to open the Font options menus" style="max-width:800px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail border" src="{{ '/assets/images/word/Font options/Font options menus-beg.png' | url }}"  alt="Different ways to open the Font options menus" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
 
   <p>The font options windows pops up and with the <strong>Font</strong> tab showing. More options can be found on the <a href="#Advanced-Font-Options">Advanced</a> tab which are explained in the Intermediate version of this article.</p>
-  <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font options.png' | url }}" alt="Font options in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font options.png' | url }}" alt="Font options in Word" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
   <p>Take a look at the options to alter fonts.</p>
     <table>
       <colgroup>
@@ -105,7 +105,7 @@ active: word
         <tr>
           <td>Font <span class="us-only">color</span></td>
           <td><p>Choose the text's colour from a palette. There are more options if you want to choose a more exact colour shade.</p>
-          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font colour palette.png' | url }}" alt="Font colour palettes" style="display: inline; max-width:900px; width:100%; height:auto; vertical-align:middle"></p></td>
+          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font colour palette.png' | url }}" alt="Font colour palettes" style="display: inline; max-width:700px; width:100%; height:auto; vertical-align:middle"></p></td>
         </tr>
         <tr>
           <td>Underline style</td>
@@ -115,14 +115,14 @@ active: word
         <tr>
           <td>Underline <span class="us-only">color</span></td>
           <td><p>If you've selected an <strong>underline style</strong> then you can choose its colour too.</p>
-          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font colour palette.png' | url }}" alt="Font colour palettes" style="display: inline; max-width:900px; width:100%; height:auto; vertical-align:middle"></p></td>
+          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font colour palette.png' | url }}" alt="Font colour palettes" style="display: inline; max-width:700px; width:100%; height:auto; vertical-align:middle"></p></td>
         </tr>
         <tr>
           <td>Effects</td>
           <td><p>Apply effects to the text, including <strong>strikethrough</strong> which draws a line through the text, <strong>subscript</strong> and <strong>superscript</strong> for formulas and equations, the ability to make text <strong>hidden</strong>.
-          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Effects.png' | url }}" alt="Examples of different Font effects in Word" style="display: inline; max-width:750px; width:100%; height:auto; vertical-align:middle"></p>
+          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Effects.png' | url }}" alt="Examples of different Font effects in Word" style="display: inline; max-width:675px; width:100%; height:auto; vertical-align:middle"></p>
           <p><u>Note</u>: Hidden text can be viewed via <strong>Show/Hide ¶</strong>.</p>
-          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Hidden text.png' | url }}" alt="Hidden text made visible in Word" style="display: inline;max-width:575px; width:100%; height:auto; vertical-align:middle"></p>
+          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Hidden text.png' | url }}" alt="Hidden text made visible in Word" style="display: inline; max-width:485px; width:100%; height:auto; vertical-align:middle"></p>
           </td>
         </tr>
       </tbody>
@@ -143,11 +143,11 @@ active: word
 
   <section class="section-light">
   The <strong>Font options</strong> window provides multiple font format options for selected text. You can access Font options in various ways; the simpliest is to select text and <strong>right click</strong> then select <strong>Font</strong>, or on the <strong>Home > Font</strong> section of the ribbon click the <strong>bottom right corner button</strong>, but you might also access it through other menus like the <strong>Format</strong> drop down when creating or modifying a style:
-  <img class="thumbnail border" src="{{ '/assets/images/word/Font options/Font options menus-int.png' | url }}"  alt="Different ways to open the Font options menus" style="max-width:800px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail border" src="{{ '/assets/images/word/Font options/Font options menus-int.png' | url }}"  alt="Different ways to open the Font options menus" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
 
   <h2>Font</h2>
   <p>You'll first find yourself on the <strong>Font</strong> tab. More options can be found on the <a href="#Advanced-Font-Options">Advanced</a> tab.</p>
-  <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font options.png' | url }}" alt="Font options in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font options.png' | url }}" alt="Font options in Word" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
   <p>Take a look at the options to alter fonts. To see common examples look at this article: <a href="/word/formatting-text/">Formatting text</a>.</p>
   <div class="table-wrapper">
     <table>
@@ -197,7 +197,7 @@ active: word
         <tr>
           <td>Font <span class="us-only">color</span></td>
           <td><p>Choose the text's colour from a palette. There are more options if you want to choose a more exact colour shade, right down to specific RGB, HSL or HEX colour models.</p>
-          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font colour palette.png' | url }}" alt="Font colour palettes" style="display: inline; max-width:900px; width:100%; height:auto; vertical-align:middle"></p></td>
+          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font colour palette.png' | url }}" alt="Font colour palettes" style="display: inline; max-width:90700px0px; width:100%; height:auto; vertical-align:middle"></p></td>
         </tr>
         <tr>
           <td>Underline style</td>
@@ -207,14 +207,14 @@ active: word
         <tr>
           <td>Underline <span class="us-only">color</span></td>
           <td><p>Becomes enabled once an <strong>underline style</strong> is selected; as with font colour, pick from a palette of colours, or more exact colour shades or specify through RGB, HSL or HEX.</p>
-          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font colour palette.png' | url }}" alt="Font colour palettes" style="display: inline; max-width:900px; width:100%; height:auto; vertical-align:middle"></p></td>
+          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font colour palette.png' | url }}" alt="Font colour palettes" style="display: inline; max-width:700px; width:100%; height:auto; vertical-align:middle"></p></td>
         </tr>
         <tr>
           <td>Effects</td>
           <td><p>Apply effects to the text, including the ability to make text <strong>hidden</strong>.
-          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Effects.png' | url }}" alt="Examples of different Font effects in Word" style="display: inline; max-width:750px; width:100%; height:auto; vertical-align:middle"></p>
+          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Effects.png' | url }}" alt="Examples of different Font effects in Word" style="display: inline; max-width:675px; width:100%; height:auto; vertical-align:middle"></p>
           <p><u>Note</u>: Hidden text can be viewed via <strong>Show/Hide ¶</strong>.</p>
-          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Hidden text.png' | url }}" alt="Hidden text made visible in Word" style="display: inline;max-width:575px; width:100%; height:auto; vertical-align:middle"></p>
+          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Hidden text.png' | url }}" alt="Hidden text made visible in Word" style="display: inline; max-width:485px; width:100%; height:auto; vertical-align:middle"></p>
           </td>
         </tr>
       </tbody>

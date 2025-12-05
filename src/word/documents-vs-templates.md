@@ -69,7 +69,8 @@ active: word
     <li>Then select <strong>Properties</strong>.
     <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Right click properties.png' | url }}"  alt="Right click properties" style="max-width:400px; width:100%; height:auto; vertical-align:middle">
     <p>The file's <strong>type of file</strong> will be shown at the top.</p>
-    <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Properties.png' | url }}"  alt="File properties window" style="max-width:400px; width:100%; height:auto; vertical-align:middle">
+    <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Properties.png' | url }}"  alt="File properties window" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></li>
+   </ol>
 
   <p>If viewing files in a window in the 'Details' view which shows columns of data:</p>
   <ol>
@@ -138,7 +139,7 @@ active: word
 
   <p><strong>Template</strong>: Templates are preset files which serve as a starting point for creating new documents with consistent <span class="glossary-hover" data-term="formatting">formatting</span>, styles and layout. Open a template and you'll be given a document to edit based on that template's attributes, so you're not editing the template itself. Templates are meant to be reused without being overwritten. If you need to edit a template see here: <a href="#edit-template">How do you edit a template?</a>.</p>
 
-  <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Template opened as document.png' | url }}"  alt="New Word document created from a Word template" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Templates to documents diagram.png' | url }}"  alt="Diagram of documents creating from templates in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle">
 
   <h2>How to tell them apart</h2>
   <p>Rule number one: don't go by the filename. Many people get caught out by this. Just because a file is named ‘template’ doesn't mean it is one. The filename is just the name that someone has chosen to give the file.</p>
@@ -149,15 +150,21 @@ active: word
 
   <p>The top file reads ‘Report Template' but is actually a document, not a template. You can tell whether a Word file is a template or a document in the following ways:</p>
 
-  <p>If viewing files in the 'Details' view in a window:</p>
+  <p>If you're viewing a file as a large icon like in a folder or on your desktop:</p>
+    <ol>
+      <li><strong>Right click</strong> on it</li>
+      <li>Then select <strong>Properties</strong>.
+      <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Right click properties.png' | url }}"  alt="Right click properties" style="max-width:400px; width:100%; height:auto; vertical-align:middle">
+      <p>The file's <strong>type of file</strong> will be shown at the top.</p>
+      <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Properties.png' | url }}"  alt="File properties window" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></li>
+    </ol>
+
+  <p>If viewing files in a window in the 'Details' view which shows columns of data:</p>
   <ol>
-      <li>In the <strong>Name</strong> column look at the <strong>filename extension</strong> after the full stop.</li>
+      <li>Look at the <strong>Name</strong> column look at the <strong>filename extension</strong> after the full stop at the end.</li>
       <li>Look at the <strong>Type</strong> column.</li>
   </ol>
-
   <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Example files highlighted.png' | url }}"  alt="Difference between a document and template shown in the file extensions and Type column" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
-
-
 
   <br>
   <h2>Microsoft Word Filename extensions:</h2>
@@ -186,6 +193,11 @@ active: word
           <td>.doc</td>
           <td>Word Document (old format 97-2003)</td>
           </tr>
+          </tr>
+          <tr>
+          <td>.dot</td>
+          <td>Word Template (old format 97-2003)</td>
+          </tr>
       </tbody>
   </table>
   </div>
@@ -201,11 +213,11 @@ active: word
   <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Open template as a template.png' | url }}"  alt="Opening a Word template as a template via the right click menu" style="max-width:400px; width:100%; height:auto; vertical-align:middle">
 
   <p>You can tell it has opened as a template by the file extension at the top:</p>
-  <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Template opened as template.png' | url }}"  alt="Opened Word template title showing dotx fie extension" style="max-width:600px; width:100%; height:auto; vertical-align:middlee">
+  <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Template opened as template.png' | url }}"  alt="Opened Word template title showing dotx fie extension" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
 
   <p>Once edited as needed, save the template.</p> 
 
-  <p>If you don't have access to the template file you can always save over a template file with a document via Save As settings. For more on saving files as different filetypes see <a href="/word/saving-and-save-as/">Saving and Save As.</a></p>
+  <p>If you don't have access to the original template file, you can always use the document and save over a template file  via <strong>Save As</strong> settings. For more on saving files as different filetypes see <a href="/word/saving-and-save-as/">Saving and Save As.</a></p>
   </section>
 </div>
 </article>

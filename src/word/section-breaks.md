@@ -41,8 +41,8 @@ active: word
 
 <h2>I can’t find any section breaks</h2>
 That’s because they’re hidden by default. To make formatting marks like these visible go to <strong>Home > Show/Hide ¶</strong> and the section break will appear on the page.
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Show Hide non-printing formatting marks.png' | url }}"  alt="Home Show non-printing formatting markers on ribbon in Word" style="width:33%; vertical-align:middle"></p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break example.png' | url }}"  alt="Section break example over two pages in Word" style="width:90%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Show Hide non-printing formatting marks.png' | url }}"  alt="Home Show non-printing formatting markers on ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break example.png' | url }}"  alt="Section break example over two pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2 id="remove-section-break">How do you remove a section break</h2>
 <p>With formatting marks switched on (<strong>Home > Show/Hide ¶</strong>), locate the section break and either select it by dragging, or click just before it, then delete.</p>
@@ -51,7 +51,7 @@ That’s because they’re hidden by default. To make formatting marks like thes
 
 <h2>How do you insert a section break?</h2>
 <p>Go to the <strong>Layout > Breaks</strong> drop down menu and you’ll see four section break options listed there.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Layout Breaks Section Breaks.png' | url }}"  alt="Layout Breaks Section Breaks on ribbon in Word" style="width:33%; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Layout Breaks Section Breaks.png' | url }}"  alt="Layout Breaks Section Breaks on ribbon in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle"></p>
 <div class="table-wrapper">
 <table class="word-tables-cursor-icons hover-table">
     <colgroup>
@@ -96,7 +96,7 @@ That’s because they’re hidden by default. To make formatting marks like thes
     <li>Language settings</li>
 </ul>
 <figure class="figure">
-  <img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break continuous format immediately after.png' | url }}" alt="Section break continuous format immediately after in Word" style="width:90%; vertical-align:middle">
+  <img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break continuous format immediately after.png' | url }}" alt="Section break continuous format immediately after in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle">
   <figcaption class="figcaption">
     Margins and line spacing altered on same page immediately after section
   </figcaption>
@@ -116,14 +116,14 @@ That’s because they’re hidden by default. To make formatting marks like thes
 <p></p>
 
 <figure class="figure">
- <img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break footers.png' | url }}"  alt="Section break footers in Word" style="width:90%; vertical-align:middle">
+ <img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break footers.png' | url }}"  alt="Section break footers in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
   <figcaption class="figcaption">
     Format of page number in new section changed from Arabic to Roman numerals
   </figcaption>
 </figure>
 
 <figure class="figure">
- <img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break headers.png' | url }}"  alt="Section break headers in Word" style="width:90%; vertical-align:middle">
+ <img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break headers.png' | url }}"  alt="Section break headers in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
   <figcaption class="figcaption">
     Differing headers due to separate sections
   </figcaption>

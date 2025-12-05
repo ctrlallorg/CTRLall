@@ -47,7 +47,7 @@ active: word
   <h1>Pages and Views</h1>
 
   <section class="section-light">
-  This article explains the basics of altering pages and views in Word. 
+  <p>This article explains the basics of altering pages and views in Word.</p> 
 
   <h2>View tab</h2>
   <p>Under the <strong>View</strong> tab you have several options to zoom and have choose where one or more pages are shown on screen.</p>
@@ -110,22 +110,22 @@ active: word
   <h2>View tab</h2>
   <p>Under the View tab you have several options to zoom and have choose where one or more pages are shown on screen.</p>
 
-  <p><img class="thumbnail border left" src="{{ '/assets/images/word/Pages and Views/Zoom on Ribbon.png' | url }}"  alt="View tab with zoom options on Ribbon in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border left" src="{{ '/assets/images/word/Pages and Views/Zoom on Ribbon.png' | url }}"  alt="View tab with zoom options on Ribbon in Word" style="max-width:275px; width:100%; height:auto; vertical-align:middle"></p>
   <br>
   <h3>Zoom</h3>
   <p>Before looking at the <strong>Zoom</strong> options under <strong>View</strong>, the fastest and easiest way to zoom in and out is via </strong>Ctrl + sliding mouse wheel up/down</strong>. This is what I use and recommend.</p>
   <p>Second preference is the zoom slider on the status bar in the far bottom right corner. Following this there are also some useful shortcuts to be aware of:</p>
   <ul>
-    <li><strong>Ctrl and +</strong> to zoom in <img class="thumbnail left" src="{{ '/assets/images/keyboard shortcuts/Ctrl++.png' | url }}" alt="Ctrl and + shortcut: Zoom in"  style="max-width:200px; width:100%; height:auto; vertical-align:middle"></li>
-    <li><strong>Ctrl and -</strong> to zoom out<img class="thumbnail left"  src="{{ '/assets/images/keyboard shortcuts/Ctrl+-.png' | url }}" alt="Ctrl and - shortcut: Zoom out"  style="max-width:200px; width:100%; height:auto; vertical-align:middle"></li>
+    <li><strong>Ctrl and +</strong> to zoom in <img class="thumbnail left" src="{{ '/assets/images/keyboard shortcuts/Ctrl++.png' | url }}" alt="Ctrl and + shortcut: Zoom in" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></li>
+    <li><strong>Ctrl and -</strong> to zoom out<img class="thumbnail left"  src="{{ '/assets/images/keyboard shortcuts/Ctrl+-.png' | url }}" alt="Ctrl and - shortcut: Zoom out" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></li>
     <li><strong>Ctrl + 0 (zero)</strong> will reset zoom level to 100%<img class="thumbnail left"  src="{{ '/assets/images/keyboard shortcuts/Ctrl+0.png' | url }}" alt="Ctrl + 0 shortcut: reset zoom level"  style="max-width:200px; width:100%; height:auto; vertical-align:middle"></li>
   </ul>
  
   <h4>Page views</h4>
   <p><strong>One page</strong> view: One page shown no matter how much you zoom in or out.</p>
-  <p><img class="thumbnail border" src="{{ '/assets/images/word/Pages and Views/One Page.png' | url }}"  alt="One page view in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Pages and Views/One Page.png' | url }}"  alt="One page view in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
   <p><strong>Multiple pages</strong> view: At higher zoom level shows multiple pages side by side which can be useful for longer structual editing. If you zoom into a page, the view will snap to a one page view to show more detail. On zooming out again it will show multiple pages.</p>
-  <p><img class="thumbnail border" src="{{ '/assets/images/word/Pages and Views/Multiple Pages.png' | url }}"  alt="Mulitple pages view in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Pages and Views/Multiple Pages.png' | url }}"  alt="Mulitple pages view in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h2>Layout tab</h2>
   <p>Under <strong>Layout</strong> you can change the <strong>size</strong> and <strong>orientation</strong> of a page. You can also alter margins, columns and other specific layout options like <strong>breaks</strong>, <strong>hyphenation</strong> and <strong>line numbers</strong>.</p>
