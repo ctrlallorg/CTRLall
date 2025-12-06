@@ -6,7 +6,11 @@ canonical: /word/table-of-contents-custom/
 description: A guide to tables of contents in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-table-of-contents-custom-v1
 date: 2025-11-12
-last_modified: 2025-11-12
+last_modified: 2025-12-06
+difficultyLevels:
+  - level: Intermediate
+    description: "Explores custom tables of contents for intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall

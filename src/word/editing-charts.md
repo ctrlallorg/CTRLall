@@ -6,7 +6,11 @@ canonical: /word/editing-charts/
 description: Editing charts in Mirosoft Word with clear steps, visuals, and animations. .
 asset_id: ctrlall-word-editing-charts-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2025-12-06
+difficultyLevels:
+  - level: Intermediate
+    description: "Explores editing inserted excel charts within Word for intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall

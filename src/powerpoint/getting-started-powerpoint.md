@@ -368,7 +368,7 @@ active: powerpoint
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/File Close.png' | url }}"  alt="in PowerPoint" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h2 id="close-powerpoint-app">Closing the app</h2>
-  <p>You can close PowerPoint by pressing the red <strong>✖</strong> button in the far right corner on the <span class="glossary-hover" data-term="quick-access-toolbar">Quick Access Toolbar</span>. If you have made any unsaved edits PowerPoint will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
+  <p>You can close PowerPoint by pressing the <strong>✖</strong> button in the far right corner on the <span class="glossary-hover" data-term="quick-access-toolbar">Quick Access Toolbar</span>. If you have made any unsaved edits PowerPoint will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
 
   <h1>Where to now?</h1>
   <p>Now you know how to get set up with the PowerPoint and understand its interface, try some of these articles depending on what you need:</p>

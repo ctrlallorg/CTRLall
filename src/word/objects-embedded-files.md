@@ -6,7 +6,11 @@ canonical: /word/objects-embedded-files/
 description: Embed and link external files in a Microsoft Word document with clear steps, visuals, and animations.
 asset_id: ctrlall-word-objects-embedded-files-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2025-12-06
+difficultyLevels:
+  - level: Intermediate
+    description: "Explores advanced topic of embedding and linking external OLE objects in a Word document for intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall

@@ -6,7 +6,11 @@ canonical: /word/tables-fixing-tables-extending-offscreen/
 description: How to fix tables that are extending offscreen Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-tables-fixing-tables-extending-offscreen-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2025-12-06
+difficultyLevels:
+  - level: Intermediate
+    description: "Explores amending table issues with advanced solutions for intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall

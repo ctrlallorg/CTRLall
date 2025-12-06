@@ -6,7 +6,11 @@ canonical: /word/tables-fixing-tables-over-pages/
 description: How to alter tables extending over pages Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-tables-fixing-tables-over-pages-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2025-12-06
+difficultyLevels:
+  - level: Intermediate
+    description: "Explores amending table issues over pages with advanced solutions for intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall

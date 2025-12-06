@@ -6,7 +6,14 @@ canonical: /word/pages-and-views/
 description: Altering pages and views in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-pages-and-views-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2025-12-06
+difficultyLevels:
+  - level: Beginner
+    description: "Introduces basic interface, pages and view options of Microsoft Word for beginners with clear visual cues."
+    urlSuffix: "#beginner"
+  - level: Intermediate
+    description: "Explores interface, page and view options with more advanced knowledge for intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall
@@ -40,11 +47,13 @@ tags:
   - rotate page
 active: word
 ---
-<article class="difficulty-wrapper">
+
+<h1>Pages and Views</h1>
+
+<article class="difficulty-wrapper" role="article" aria-label="Pages and Views tutorial with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
 <!-- Beginner version -->
-<div class="difficulty beginner-version">
-  <h1>Pages and Views</h1>
+<div class="difficulty beginner-version"  aria-label="Beginner introduction to Microsoft Word interface and basic page and view options">
 
   <section class="section-light">
   <p>This article explains the basics of altering pages and views in Word.</p> 
@@ -101,8 +110,7 @@ active: word
 
 
 <!-- Intermediate version -->
-<div class="difficulty intermediate-version" style="display:none;">
-  <h1>Pages and Views</h1>
+<div class="difficulty intermediate-version" aria-label="Intermediate article exploring advanced page and view options in Word" style="display:none;">
 
   <section class="section-light">
   This article explains the basics of altering pages and views in Microsoft Word. 

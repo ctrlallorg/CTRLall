@@ -7,6 +7,10 @@ description: How to fix number list issues in Microsoft Word with clear steps, v
 asset_id: ctrlall-word-lists-fixing-number-lists-v1
 date: 2025-10-26
 last_modified: 2025-10-26
+difficultyLevels:
+  - level: Intermediate
+    description: "Explores advanced modification of numbering in number lists at an intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall

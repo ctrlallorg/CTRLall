@@ -6,7 +6,8 @@ permalink: /privacy-policy/
 canonical: /privacy-policy/
 asset_id: privacy-policy-v1.0
 date: 2025-11-26
-last_modified: 2025-11-26
+last_modified: 2025-12-06
+type: privacy
 tags:
   - ctrlall.org
   - ctrlall

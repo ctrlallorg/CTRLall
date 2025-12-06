@@ -6,7 +6,14 @@ canonical: /word/font-options/
 description: Style font for words, sentences, and paragraphs in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-font-options-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2025-12-06
+difficultyLevels:
+  - level: Beginner
+    description: "Introduces basic Font Options in Microsoft Word for beginners with clear visual cues."
+    urlSuffix: "#beginner"
+  - level: Intermediate
+    description: "Explores advanced Font Options in Microsoft Word for intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall
@@ -45,11 +52,12 @@ tags:
   - multilevel lists
 active: word
 ---
-<article class="difficulty-wrapper">
+<h1>Font options</h1>
+
+<article class="difficulty-wrapper" role="article" aria-label="Font Options tutorial with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
 <!-- Beginner version -->
-<div class="difficulty beginner-version">
-  <h1>Font options</h1>
+<div class="difficulty beginner-version"  aria-label="Beginner introduction to basic Font Options in Word">
 
   <section class="section-light">
   Word has a one-stop shop <strong>Font options</strong> window for formatting (editing the look of) all a text's font. First, select the text you want to change first then either <strong>right click</strong> and select <strong>Font</strong> from the menu, or on the <strong>Home > Font</strong> section of the ribbon click the <strong>bottom right corner button</strong>.
@@ -138,7 +146,7 @@ active: word
 </div>
 
 <!-- Intermediate version -->
-<div class="difficulty intermediate-version" style="display:none;">
+<div class="difficulty intermediate-version" aria-label="Intermediate article exploring advanced Font Options" style="display:none;">
   <h1>Font options</h1>
 
   <section class="section-light">

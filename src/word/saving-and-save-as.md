@@ -6,7 +6,14 @@ canonical: /word/saving-and-save-as/
 description: Saving an Save As in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-saving-and-save-as-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2025-12-06
+difficultyLevels:
+  - level: Beginner
+    description: "Introduces basic concept of saving in Microsoft Word for beginners with clear visual cues."
+    urlSuffix: "#beginner"
+  - level: Intermediate
+    description: "Explores advanced saving options in Word for intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall
@@ -38,7 +45,6 @@ tags:
   - save as a word template
   - saving as word templates
   - saving as a word template
-
   - save a copy
   - save copies  
   - saving copies
@@ -75,12 +81,12 @@ tags:
 active: word
 ---
 
-<article class="difficulty-wrapper">
+<h1>Saving and Save As</h1>
+
+<article class="difficulty-wrapper" role="article" aria-label="Article on saving in Word with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
 <!-- Beginner version -->
-<div class="difficulty beginner-version">
-
-<h1>Saving and Save As</h1>
+<div class="difficulty beginner-version"  aria-label="Beginner introduction to saving in Word">
 
 <section class="section-light">
 
@@ -131,9 +137,7 @@ In the browser window that appears decide on the <strong>file name</strong>, the
 </div>
 
 <!-- Intermediate version -->
-<div class="difficulty intermediate-version" style="display:none;">
-
-<h1>Saving and Save As</h1>
+<div class="difficulty intermediate-version" aria-label="Intermediate article exploring advanced save options in Word" style="display:none;">
 
 <section class="section-light">
 <p>When you have a document file open, once edited you can do one of the following:</p>

@@ -24,18 +24,50 @@
   <meta property="og:image" content="https://stevewilliams87.github.io/CTRLall/assets/images/Ctrl-All-logo-og.png">
   <meta property="og:url" content="{{ page.url }}">
 
+  {% if page.difficultyLevels %}
+  {% for diff in page.difficultyLevels %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LearningResource",
+      "name": "{{ title | escape }}",
+      "headline": "{{ title | escape }}",
+      "description": "{{ description | escape }} {{ diff.description }}",
+      "url": "{{ page.url }}{{ diff.urlSuffix }}",
+      "image": "{{ page_image | url }}",
+      "educationalLevel": "{{ diff.level }}",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Ctrl All",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ '/assets/logo.png' | url }}"
+        }
+      }
+      {% if date %}, "datePublished": "{{ date }}"{% endif %}
+      {% if last_modified %}, "dateModified": "{{ last_modified }}"{% endif %}
+    }
+    </script>
+  {% endfor %}
+{% else %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Article",
+    {% case page.type %}
+      {% when "about" %}
+        "@type": "AboutPage",
+      {% when "contact" %}
+        "@type": "ContactPage",
+      {% when "privacy" %}
+        "@type": "PrivacyPolicy",
+      {% else %}
+        "@type": "WebPage",
+    {% endcase %}
+    "name": "{{ title | escape }}",
     "headline": "{{ title | escape }}",
     "description": "{{ description | escape }}",
     "url": "{{ page.url }}",
     "image": "{{ page_image | url }}",
-    "author": {
-      "@type": "Organization",
-      "name": "Ctrl All"
-    },
     "publisher": {
       "@type": "Organization",
       "name": "Ctrl All",
@@ -48,6 +80,8 @@
     {% if last_modified %}, "dateModified": "{{ last_modified }}"{% endif %}
   }
   </script>
+{% endif %}
+
 
   <meta name="google-adsense-account" content="ca-pub-6596712504858429">
 

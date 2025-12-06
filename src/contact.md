@@ -6,7 +6,8 @@ permalink: /contact/
 canonical: /contact/
 asset_id: ctrlall-contact-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2025-12-06
+type: contact
 tags:
   - ctrlall.org
   - ctrlall

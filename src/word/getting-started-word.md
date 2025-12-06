@@ -6,7 +6,14 @@ canonical: /word/getting-started-word/
 description: Getting started with Microsoft Word, an introduction with clear steps, visuals, and animations.
 asset_id: ctrlall-word-getting-started-word-v1
 date: 2025-11-17
-last_modified: 2025-10-26
+last_modified: 2025-12-06
+difficultyLevels:
+  - level: Beginner
+    description: "Introduces Microsoft Word to beginners with clear visual cues."
+    urlSuffix: "#beginner"
+  - level: Intermediate
+    description: "Setting up Microsoft Word with advanced topic knowledge for intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall
@@ -61,16 +68,15 @@ tags:
   - word examples
 active: word
 ---
-
-<article class="difficulty-wrapper">
-<!-- Badge -->
+<h1>Getting started with Microsoft Word</h1>
+<p>If you’re new to Word, you might also be new to using Windows. This article guide is made for beginners using Word on a computer. If you're already a little familiar with Word try the Intermediate version of this article (use the toggle in the side menu).</p>
+<article class="difficulty-wrapper" role="article" aria-label="An introduction to Microsoft Word with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
-  <!-- Beginner version -->
-  <div class="difficulty beginner-version">
-    <h1>Getting started with Microsoft Word</h1>
+<!-- Beginner version -->
+<div class="difficulty beginner-version"  aria-label="Beginner introduction to Microsoft Word">
     <section class="section-light">
       <p>Microsoft Word (often just called 'Word') is a program for writing and editing documents. It’s the most common <span class="glossary-hover" data-term="application">application</span> ('app' for short) for <span class="glossary-hover" data-term="word-processing">word processing</span> around the world. Word is part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> package which also includes other programs like Outlook for email and Excel for spreadsheets.</p>
-      <p>If you’re new to Word, you might also be new to using Windows. This guide is made for beginners. We’ll go step by step through the basics, including:</p>
+      <p>In this article we'll go step by step through the basics, including:</p>
       <ul>
         <li><a href="#open-word-app">How to open Microsoft Word</a></li>
         <li><a href="#create-new-word-doc">How to create a new Word document</a></li>
@@ -208,17 +214,17 @@ active: word
         </ul>
         <p>Otherwise feel free to use the side menu or type what you're after in the search bar.</p>
     </section>
-  </div>
+</div>
 
-  <!-- Intermediate version -->
-  <div class="difficulty intermediate-version" style="display:none;">
-    <h1>Setting up Word</h1>
+<!-- Intermediate version -->
+<div class="difficulty intermediate-version" aria-label="Intermediate article exploring setting up Microsoft Word with advanced topic discussion." style="display:none;">
+  <p>You are probably already a little familiar with Word. If not try the beginner version of this article (use the toggle in the side menu).</p>
+    <h2>Setting up Word</h2>
     <section class="section-light">
-      <p>Microsoft Word is an <span class="glossary-hover" data-term="application">application</span> primarily considered the office standard for word processing globally. It typically comes part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> suite which includes other apps like Outlook for emails, Excel for spreadsheets ad PowerPoint for slideshow presentations.</p>
-      <p>In this article we'll explore:</p>
+      <p>This article explores everything about getting set up with Word:</p>
       <ul>
         <li><a href="#word-version-int">Word versions<a></li>
-        <li><a href="#open-word-app-int">The Microsoft Word app</a></li>
+        <li><a href="#open-word-app-int">The Word app</a></li>
         <li><a href="#create-new-word-doc-int">Creating a new document</a></li>
         <li><a href="#open-word-doc-int">Opening existing Word files</a></li>
         <li><a href="#word-interface-int">The main interface</a></li>

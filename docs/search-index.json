@@ -278,7 +278,10 @@
       "keyboard shortcuts",
       "copy to clipboard",
       "copy and paste",
-      "copying and pasting"
+      "copying and pasting",
+      "copy multiple content",
+      "copy multiple files",
+      "copy multiple text"
     ],
     "url": "/content-control/copying-content/"
   },
@@ -299,7 +302,11 @@
       "drag and drop",
       "dragging and dropping",
       "click and drag",
-      "clicking and dragging"
+      "clicking and dragging",
+      "the spike",
+      "move multiple content",
+      "move multiple files",
+      "move multiple text"
     ],
     "url": "/content-control/moving-content/"
   },

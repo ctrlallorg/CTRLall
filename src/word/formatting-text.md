@@ -6,7 +6,14 @@ canonical: /modules/formatting-text.html
 description: Style words, sentences, and paragraphs in Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-formatting-text-v1"
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2025-12-06
+difficultyLevels:
+  - level: Beginner
+    description: "Introduces formatting text in Microsoft Word to beginners with clear visual cues."
+    urlSuffix: "#beginner"
+  - level: Intermediate
+    description: "Explores advanced formatting of text in Microsoft Word for intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall
@@ -58,12 +65,12 @@ tags:
 active: word
 ---
 
-<article class="difficulty-wrapper">
+<h1>Formatting text</h1>
+
+<article class="difficulty-wrapper" role="article" aria-label="Formatting text in Word tutorial with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
 <!-- Beginner version -->
-<div class="difficulty beginner-version">
-
-  <h1>Formatting text</h1>
+<div class="difficulty beginner-version"  aria-label="Beginner introduction to concepts of formatting text in Word">
 
   <section class="section-light">
   <p>Formatting means changing the appearance and layout of your text and document. Formatting tools are found on the <strong>Home</strong> tab of the <span class="glossary-hover" data-term="ribbon">ribbon</span> and are there to help you make your content more readable. This article explains what each one does.</p>
@@ -264,10 +271,9 @@ active: word
 
 
 <!-- Intermediate version -->
-<div class="difficulty intermediate-version" style="display:none;">
-  <h1>Formatting text</h1>
+<div class="difficulty intermediate-version" aria-label="Intermediate article exploring advanced options to format text" style="display:none;">
 
-  <section class="section-light">
+<section class="section-light">
   <p>Formatting tools change the appearance and layout of your text and document; they make your content more readable, professional, and visually appealing. They can be found on the <strong>Home</strong> tab of the <span class="glossary-hover" data-term="ribbon">ribbon</span>. This article explains what each one does.</p>
 
   <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home tab on ribbon.png' | url }}"  alt="Home tab tools on ribbon in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>

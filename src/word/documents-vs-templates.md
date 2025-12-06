@@ -6,7 +6,14 @@ canonical: /word/documents-vs-templates/
 description: Understand the difference between a document and a template in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-documents-vs-templates-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2025-12-06
+difficultyLevels:
+  - level: Beginner
+    description: "Introduces concept of Microsoft Word documents and templates to beginners with clear visual cues."
+    urlSuffix: "#beginner"
+  - level: Intermediate
+    description: "Explores Word documents and templates with more advanced knowledge for intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall
@@ -35,12 +42,12 @@ tags:
   - what is a .doc file?
 active: word
 ---
-<article class="difficulty-wrapper">
+<h1>Documents vs Templates</h1>
+
+<article class="difficulty-wrapper" role="article" aria-label="Tutorial introducing Microsoft Word documents and templates beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
 <!-- Beginner version -->
-<div class="difficulty beginner-version">
-
-  <h1>Documents vs Templates</h1>
+<div class="difficulty beginner-version"  aria-label="Beginner introduction to Microsoft Word documents and templates">
 
   <section class="section-light">
   <h2>What's the difference?</h2>
@@ -128,8 +135,7 @@ active: word
 </div>
 
 <!-- Intermediate version -->
-<div class="difficulty intermediate-version" style="display:none;">
-  <h1>Documents vs Templates</h1>
+<div class="difficulty intermediate-version" aria-label="Intermediate article exploring advanced topics of documents and templates" style="display:none;">
 
   <section class="section-light">
   <h2>What's the difference?</h2>

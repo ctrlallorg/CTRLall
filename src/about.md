@@ -6,7 +6,8 @@ canonical: /about/
 description: About us.
 asset_id: ctrlall-about-v1
 date: 2025-11-11
-last_modified: 2025-10-26
+last_modified: 2025-12-06
+type: about
 tags:
   - ctrlall.org
   - ctrlall

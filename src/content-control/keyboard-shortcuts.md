@@ -5,6 +5,7 @@ permalink: /content-control/keyboard-shortcuts/
 canonical: /content-control/keyboard-shortcuts/
 description: Keyboard shortcuts in Windows and Microsoft Office with tooltip visuals.
 asset_id: ctrlall-keyboard-shortcuts-v1
+type: keyboard-shortcuts
 tags:
   - ctrlall.org
   - ctrlall

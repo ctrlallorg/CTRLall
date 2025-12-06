@@ -6,7 +6,11 @@ canonical: /word/lists-soft-hard-returns/
 description: Hard and soft returns in number lists and bullet lists in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-lists-soft-hard-returns-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2025-12-06
+difficultyLevels:
+  - level: Intermediate
+    description: "Explores editing of soft and hard returns in number lists at an intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall

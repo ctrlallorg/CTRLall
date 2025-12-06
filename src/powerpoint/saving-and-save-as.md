@@ -81,7 +81,7 @@ active: powerpoint
 
   <p><strong>OR</strong></p>
 
-  <li><strong>Save as a new document or a different <span class="glossary-hover" data-term="filetype">filetype</span></strong> (e.g. a template or PDF) using <strong>File > Save As.</strong></li>
+  <li><strong>Save as a new document or a different <span class="glossary-hover" data-term="filetype"><strong>filetype</strong></span></strong> (e.g. a template or PDF) using <strong>File > Save As.</strong></li>
 
   Select <strong>File</strong>
   <img class="thumbnail left" src="{{ '/assets/images/powerpoint/Saving and Save as/File.png' | url }}"  alt="File tab button on ribbon in Word" style="max-width:175px; width:100%; height:auto; vertical-align:middle">

@@ -7,6 +7,10 @@ description: Section breaks in Microsoft Word with clear steps, visuals, and ani
 asset_id: ctrlall-word-section-breaks-v1
 date: 2025-10-30
 last_modified: 2025-10-30
+difficultyLevels:
+  - level: Intermediate
+    description: "Explores advanced topic of section breaks and related options in detail for intermediate level."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall
