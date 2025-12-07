@@ -64,6 +64,9 @@ tags:
 active: word
 ---
 
+<!-- Intermediate only -->
+<body data-intermediate-only="true">
+
 
 <h1>Embedded files (OLE objects)</h1>
 

@@ -262,55 +262,6 @@
     "url": "/all/autosave-not-working/"
   },
   {
-    "title": "Copying content",
-    "tags": [
-      "ctrlall.org",
-      "ctrlall",
-      "ctrl all",
-      "microsoft word",
-      "copy content",
-      "copying content",
-      "copy text",
-      "copying text",
-      "duplicate content",
-      "duplicate text",
-      "duplicating text",
-      "keyboard shortcuts",
-      "copy to clipboard",
-      "copy and paste",
-      "copying and pasting",
-      "copy multiple content",
-      "copy multiple files",
-      "copy multiple text"
-    ],
-    "url": "/content-control/copying-content/"
-  },
-  {
-    "title": "Moving content",
-    "tags": [
-      "ctrlall.org",
-      "ctrlall",
-      "ctrl all",
-      "microsoft word",
-      "move content",
-      "move text",
-      "moving text",
-      "keyboard shortcuts",
-      "copy to clipboard",
-      "cut and paste",
-      "cutting and pasting",
-      "drag and drop",
-      "dragging and dropping",
-      "click and drag",
-      "clicking and dragging",
-      "the spike",
-      "move multiple content",
-      "move multiple files",
-      "move multiple text"
-    ],
-    "url": "/content-control/moving-content/"
-  },
-  {
     "title": "Getting started with Microsoft PowerPoint",
     "tags": [
       "ctrlall.org",
@@ -422,6 +373,55 @@
       ".ppt"
     ],
     "url": "/powerpoint/saving-and-save-as/"
+  },
+  {
+    "title": "Copying content",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "microsoft word",
+      "copy content",
+      "copying content",
+      "copy text",
+      "copying text",
+      "duplicate content",
+      "duplicate text",
+      "duplicating text",
+      "keyboard shortcuts",
+      "copy to clipboard",
+      "copy and paste",
+      "copying and pasting",
+      "copy multiple content",
+      "copy multiple files",
+      "copy multiple text"
+    ],
+    "url": "/content-control/copying-content/"
+  },
+  {
+    "title": "Moving content",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "microsoft word",
+      "move content",
+      "move text",
+      "moving text",
+      "keyboard shortcuts",
+      "copy to clipboard",
+      "cut and paste",
+      "cutting and pasting",
+      "drag and drop",
+      "dragging and dropping",
+      "click and drag",
+      "clicking and dragging",
+      "the spike",
+      "move multiple content",
+      "move multiple files",
+      "move multiple text"
+    ],
+    "url": "/content-control/moving-content/"
   },
   {
     "title": "Altering images and objects",
@@ -987,8 +987,7 @@
       "how do i add line numbering",
       "legal documents",
       "scripts",
-      "playscripts",
-      "null"
+      "playscripts"
     ],
     "url": "/word/line-numbers/"
   },
@@ -1192,6 +1191,7 @@
       "screen area",
       "zoom in",
       "zoom out",
+      "zoom 100%",
       "zooming",
       "zoom options",
       "up close",
@@ -1212,7 +1212,19 @@
       "orientation",
       "landscape",
       "portrait",
-      "rotate page"
+      "rotate page",
+      "hyphenation options",
+      "hyphenate words",
+      "hyphenate document",
+      "line numbers",
+      "line numbering",
+      "page breaks",
+      "section breaks",
+      "Layout tab",
+      "Layout view",
+      "single page",
+      "many pages",
+      "multiple pages"
     ],
     "url": "/word/pages-and-views/"
   },
@@ -1254,7 +1266,7 @@
       "loosen spaces",
       "tightening spacing",
       "tighten spaces",
-      "indents",
+      "adding indents",
       "indentations",
       "tab stops",
       "page breaks",

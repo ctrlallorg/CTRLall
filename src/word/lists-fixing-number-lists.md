@@ -6,7 +6,7 @@ canonical: /word/lists-fixing-number-lists/
 description: How to fix number list issues in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-lists-fixing-number-lists-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2025-12-06
 difficultyLevels:
   - level: Intermediate
     description: "Explores advanced modification of numbering in number lists at an intermediate level."
@@ -45,6 +45,9 @@ tags:
   - how do i
 active: word
 ---
+
+<!-- Intermediate only -->
+<body data-intermediate-only="true">
 
 
 <h1>Fixing number lists</h2>

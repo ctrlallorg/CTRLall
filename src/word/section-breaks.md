@@ -6,7 +6,7 @@ canonical: /word/section-breaks/
 description: Section breaks in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-section-breaks-v1
 date: 2025-10-30
-last_modified: 2025-10-30
+last_modified: 2025-12-06
 difficultyLevels:
   - level: Intermediate
     description: "Explores advanced topic of section breaks and related options in detail for intermediate level."
@@ -31,6 +31,7 @@ tags:
   - control page flow in word
 active: word
 ---
+<!-- Intermediate only -->
 <body data-intermediate-only="true">
 
 <h1>Section breaks</h1>

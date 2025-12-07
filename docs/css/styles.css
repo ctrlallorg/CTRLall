@@ -844,6 +844,14 @@ table td {
   word-break: break-word;    /* Breaks long words if needed */
 }
 
+/* Special class for justified table cells */
+td.justified {
+  text-align: justify;
+  text-justify: inter-word;   /* optional: improves spacing */
+  text-align-last: justify;   /* optional: stretches the last line */
+  width: 250px;               /* force wrapping if needed */
+}
+
 
 /* Centered Intro Block */
 .center-text {

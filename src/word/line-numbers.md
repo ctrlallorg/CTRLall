@@ -5,8 +5,13 @@ permalink: /word/line-numbers/
 canonical: /word/line-numbers/
 description: Line numbers in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-line-numbers-v1
-date: 2025-10-26
-last_modified: 2025-10-26
+date: 2025-12-07
+last_modified: 2025-12-07
+difficultyLevels:
+  - level: Intermediate
+    description: "Explores line numbers in Word at an intermediate level."
+    urlSuffix: "#intermediate"
+
 tags:
   - ctrlall.org
   - ctrlall
@@ -29,7 +34,6 @@ tags:
   - legal documents
   - scripts
   - playscripts
-  - 
 active: word
 ---
 

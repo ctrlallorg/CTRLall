@@ -49,6 +49,10 @@ tags:
 active: word
 ---
 
+<!-- Intermediate only -->
+<body data-intermediate-only="true">
+
+
 <h1>Fixing tables over pages</h1>
 
 <p>Tables extending across multiple pages can sometimes throw up a few headaches. Here's a few scenarios you might encounter and fixes for them. In this article:</p>

@@ -9,7 +9,7 @@ date: 2025-10-26
 last_modified: 2025-12-06
 difficultyLevels:
   - level: Intermediate
-    description: "Explores amending table issues with advanced solutions for intermediate level."
+    description: "Explores amending table issues extending offscreen with advanced solutions for intermediate level."
     urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
@@ -44,6 +44,10 @@ tags:
   - get back
 active: word
 ---
+
+<!-- Intermediate only -->
+<body data-intermediate-only="true">
+
 
 <h1>Fixing tables extending off the page</h1>
 

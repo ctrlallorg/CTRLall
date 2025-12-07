@@ -53,6 +53,7 @@ tags:
   - custom TOC
 active: word
 ---
+<!-- Intermediate only -->
 <body data-intermediate-only="true">
 
 <h1>Custom table of contents</h1>

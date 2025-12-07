@@ -36,6 +36,7 @@ tags:
 active: word
 ---
 
+<!-- Intermediate only -->
 <body data-intermediate-only="true">
 
 <h1>Editing Charts</h1>
