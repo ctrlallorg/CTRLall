@@ -142,8 +142,8 @@ active: word
 There are further options you can modify a style with though. Locate the style in the Styles gallery or the Styles list, <strong>right click</strong> it and select <strong>Modify</strong>.
 
 <div class="image-adjacent">
-  <img class="thumbnail left" src="{{ '/assets/images/word/Styles/Modify style Styles gallery.png' | url }}"  alt="Modify style Styles gallery"" style="max-width:300px; width:100%; height:auto; vertical-align:middle">
-  <img class="thumbnail left" src="{{ '/assets/images/word/Styles/Modify style from list.png' | url }}"  alt="Modify style from list" style="max-width:300px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail border left" src="{{ '/assets/images/word/Styles/Modify style Styles gallery.png' | url }}"  alt="Modify style Styles gallery"" style="max-width:325px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail border left" src="{{ '/assets/images/word/Styles/Modify style from list.png' | url }}"  alt="Modify style from list" style="max-width:280px; width:100%; height:auto; vertical-align:middle">
 </div>
 <ul>
     <li><a href="/word/font-options/">Font</a></li>

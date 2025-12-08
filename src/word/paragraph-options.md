@@ -80,7 +80,7 @@ active: word
 
   <h2>Indents and Spacing</h2>
 
-  <h3 id="alignment">Alignment</h3>
+  <h3 id="alignment-beg">Alignment</h3>
   <p>Here you change the paragraph text's alignment to either <strong>Left</strong>, <strong>Center</strong>, <strong>Right</strong> and <strong>Justified</strong>.</p>
   
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Indents and Spacing Alignment.png' | url }}"  alt="Paragraph Options Indents and Spacing Alignment" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
@@ -111,13 +111,13 @@ active: word
       </tr>
     </table>
 
-  <h3 id="outline-level">Outline level</h3>
+  <h3 id="outline-level-beg">Outline level</h3>
   <p>Outline levels are a little trickier to understand and are explored in the intermediate version of this article. The main gist of this is whether you want Word to treat the paragraph or line at a higher level than normal text ('body text') like as a heading at 'level 1' or 'level 2' above the test. These levels are picked up by things like a table of contents in Word.</p>
   <p>See the Intermediate version for more on this.</p>
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Indents and Spacing Outline Level.png' | url }}"  alt="Paragraph Options Indents and Spacing Outline Level" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
 
-  <h3 id="indentation">Indentation</h3>
+  <h3 id="indentation-beg">Indentation</h3>
   <p>Indentation is the space between the content and the page margin. To move text or other content further away from the margin inward on the page you add 'indents'. Typically you can do this by pressing tab though for a beginner that can get messy. This is an easier way for you to apply indentation to paragraphs.
 
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Indents and Spacing Indentation.png' | url }}"  alt="Paragraph Options Indents and Spacing Indentation" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
@@ -126,7 +126,7 @@ active: word
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Home Paragraph Increase Decrease Indents.png' | url }}"  alt="Home Paragraph Increase Decrease Indents" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
   
   <p>Use <strong>Left</strong> and <strong>Right</strong> to choose how far from the left and right margins the paragraph should be indented. Here's an example of them in action:</p>
-  <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indents example.png' | url }}"  alt="Indents example in Word" style="max-width:7600px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indents example.png' | url }}"  alt="Indents example in Word" style="max-width:760px; width:100%; height:auto; vertical-align:middle"></p>
 
   <p>For more on indentation see the <a href="/word/Indents/">Indents</a> article and try out the interactive examples showing how to modify indents via <span class="glossary-hover" data-term="indent-markers">indent markers</span> on the horizontal <span class="glossary-hover" data-term="ruler">ruler</span>.</p>
 
