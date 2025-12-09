@@ -384,7 +384,70 @@ input:checked + .slider:before {
   margin: 0;
 }
 
+#intIndentSVG {
+  display: block;       /* keep it as a block element */
+  max-width: 600px;     /* limit how wide it can grow */
+  width: 100%;          /* scale responsively within that max */
+}
 
+.indent-svg {
+  max-width: 600px;
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+
+.indent-svg text {
+  white-space: normal; /* allow wrapping */
+}
+
+
+.indent-demo {
+  flex: 1 1 0;        /* allow shrink in flex context */
+  min-width: 0;       /* override min-content width */
+  max-width: 700px;   /* cap width */
+  width: 100%;        /* fill available space */
+  overflow-x: auto;   /* scroll inside if needed */
+  display: block;
+}
+
+.indent-demo svg {
+  width: 100%;      /* respect parent width */
+  max-width: 700px;
+  height: auto;          /* keep aspect ratio */
+  display: block;
+}
+
+.indent-demo svg,
+.indent-controls .control-row {
+  overflow-x: auto; /* scroll only inside these */
+}
+
+.indent-controls,
+.indent-controls .control-row {
+  max-width: 700px;      /* cap each row */
+  width: auto;
+}
+
+.indent-demo,
+.indent-controls,
+.indent-controls .control-row,
+.indent-demo svg {
+  max-width: 700px;   /* cap width */
+  width: 100%;        /* scale responsively */
+  min-width: 0;       /* allow shrink */
+  overflow-x: auto;   /* scroll inside if needed */
+}
+
+
+
+.intermediate-version {
+  width: 100%;        /* fill parent flex space */
+  max-width: 690px;   /* same cap as .content */
+  min-width: 0;       /* allow shrink in flex context */
+  box-sizing: border-box;
+  overflow-x: auto;   /* scroll inside if needed */
+}
 
 
 /* Tooltip for text with image */
@@ -1097,25 +1160,63 @@ td.justified {
 
 /* ─── Layout Structure ───────────────────────────── */
 .layout-wrapper {
+  position: relative;
   display: flex;
+  flex-wrap: nowrap;   /* keep items side by side */
   flex-direction: row;
-  align-items: stretch;
+  align-items: flex-start;
   min-height: calc(100vh - 60px); /* Adjust for topbar height */
   z-index: 1;
-  position: relative;
   padding-top: 30px;
+  
 }
-
 
 .content-wrapper {
-  flex: 1;
+  flex: 1 1 auto;      /* allow grow and shrink */
+  margin-left: 0;        /* remove manual offset */
   overflow-y: auto;
-  margin-left: 280px; /* match sidebar width */
   transition: margin-left 0.3s ease;
-  min-width: 0; /* allow flex item to shrink properly */
-  overflow-x: auto; /* if an inner element overflows, show scroll rather than clip */
+  overflow-x: hidden;   /* prevent horizontal scroll */
+  width: 100%;          /* fill all available space */
+  max-width: none;      /* remove the 690px cap */
+  min-width: 0;
 }
 
+/* Force shrink on all direct children of content-wrapper */
+.content-wrapper > * {
+  min-width: 0;          /* critical for flex shrink */
+  max-width: 100%;       /* don’t let child overflow parent */
+  overflow-x: auto;      /* scroll inside child, not inflate parent */
+  white-space: normal;   /* allow wrapping instead of unbreakable line */
+}
+
+.content {
+  max-width: none;   
+  width: 100%;       /* fill all available space */
+}
+
+
+.main-column {
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;   /* reserve sidebar */
+  margin-right: 20px;   /* space between content and adsbar */
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* Neutralize Markdown wrappers */
+.content-wrapper pre,
+.content-wrapper code {
+  white-space: normal;   /* allow wrapping */
+  max-width: 100%;       /* don’t inflate width */
+  overflow-x: auto;      /* scroll inside, not inflate parent */
+}
+
+/* Force shrink on all direct children */
+.content-wrapper > * {
+  min-width: 0;          /* critical for flex shrink */
+}
 
 .sidebar-wrapper {
   position: fixed;
@@ -1173,15 +1274,18 @@ td.justified {
 
 /* ─── Adsbar ────────────────────────── */
 .adsbar-wrapper {
+  position: fixed;
+  right: 0;
+  top: 0;          /* anchor to the very top of viewport */
+  bottom: 0;       /* anchor to the bottom of viewport */
+  width: 200px;    /* hard width */
+  flex: 0 0 200px; /* lock width in flex */
+  box-sizing: border-box;
   background-color: #f5f5f5;
   border-left: 1px solid #ddd;
-  padding: 10px;
+  padding: 0;
   overflow-y: auto;
-  width: 180px;   /* total width including padding + border */
-  box-sizing: border-box;    /* critical: keeps total width at 180px */
-  position: relative;
-  z-index: 10;
-  flex: 0 0 180px;
+  scrollbar-gutter: stable;
 }
 
 .adsbar-content {

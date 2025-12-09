@@ -218,9 +218,9 @@ function updateIndent() {
 </div>
 
 
-  <svg id="indentSVG" width="800" height="100" xmlns="http://www.w3.org/2000/svg">
+  <svg id="indentSVG" class="indent-svg" height="75" xmlns="http://www.w3.org/2000/svg">
     <text id="bullet" x="50" y="40" font-size="14px" font-family="Inter, system-ui, sans-serif" fill="#333">•</text>
-    <text id="text" x="70" y="40" font-size="14px" font-family="Inter, system-ui, sans-serif" fill="#333">
+    <text id="text" x="70" y="40" font-size="14px" textLength="520" font-family="Inter, system-ui, sans-serif" fill="#333">
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
     </text>
   </svg>
@@ -279,8 +279,8 @@ function updateSvgIndent() {
   <div class="table-wrapper">
   <table class="no-border">
       <colgroup>
-        <col style="width: 20%;">
-        <col style="width: 80%;">
+        <col style="width: 10%;">
+        <col style="width: 90%;">
       </colgroup>
       <tbody>
         <tr>
@@ -318,6 +318,149 @@ function updateSvgIndent() {
 
  <section class="section-light">
 
+  <!-- Intermediate Indent marker paragraph interactivity -->
+<section class="indent-demo" style="background-color:#FFF8E1; padding:40px;">
+  <h3>Intermediate: Indent Markers and paragraphs</h3>
+  <p>Adjust the sliders to see how the different indent markers interact with a paragraph of text.</p>
+
+  <div class="indent-controls" style="margin-bottom:1em;">
+    <div class="control-row">
+      <label for="intFirstLineIndent">
+        <img src="{{ '/assets/images/word/Indents/First line indent.png' | url }}" alt="First line indent">
+        <span><strong>First line indent</strong> (Move first line of text):</span>
+      </label>
+      <input type="range" id="intFirstLineIndent" min="0" max="5" step="0.25" value="0">
+      <span id="intFirstLineVal">0.00</span> cm
+    </div>
+
+    <div class="control-row">
+      <label for="intHangingIndent">
+        <img src="{{ '/assets/images/word/Indents/Hanging Indent.png' | url }}" alt="Hanging indent">
+        <span><strong>Hanging indent</strong> (Move all text except first line):</span>
+      </label>
+      <input type="range" id="intHangingIndent" min="0" max="5" step="0.25" value="0">
+      <span id="intHangingVal">0.00</span> cm
+    </div>
+
+    <div class="control-row">
+      <label for="intLeftIndent">
+        <img src="{{ '/assets/images/word/Indents/Left Indent.png' | url }}" alt="Left indent">
+        <span><strong>Left indent</strong> (Move all paragraph text together):</span>
+      </label>
+      <input type="range" id="intLeftIndent" min="0" max="5" step="0.25" value="0">
+      <span id="intLeftVal">0.00</span> cm
+    </div>
+  </div>
+
+  <p id="intDemoText" style="max-width:300px;">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa…
+  </p>
+</section>
+
+<script>
+function updateIntIndent() {
+  const left = parseFloat(document.getElementById('intLeftIndent').value);
+  const first = parseFloat(document.getElementById('intFirstLineIndent').value);
+  const hanging = parseFloat(document.getElementById('intHangingIndent').value);
+
+  document.getElementById('intLeftVal').textContent = left.toFixed(2);
+  document.getElementById('intFirstLineVal').textContent = first.toFixed(2);
+  document.getElementById('intHangingVal').textContent = hanging.toFixed(2);
+
+  const text = document.getElementById('intDemoText');
+
+  text.style.marginLeft = left + 'cm';
+  text.style.paddingLeft = hanging + 'cm';
+  text.style.textIndent = (first - hanging) + 'cm';
+}
+</script>
+
+
+<!-- Intermediate Indent marker bullet list interactivity -->
+<section class="indent-demo" style="background-color:#FFF8E1; padding:40px;">
+  <h3>Intermediate: Indent markers and bullet lists</h3>
+  <p>Adjust the sliders to see how the different indent markers interact with bullet/number lists.</p>
+
+  <div class="indent-controls">
+    <div class="control-row">
+      <label for="intSvgFirstLineIndent">
+        <img src="{{ '/assets/images/word/Indents/First line indent.png' | url }}" alt="First line indent">
+        <span><strong>First line indent</strong> (moves bullet):</span>
+      </label>
+      <input type="range" id="intSvgFirstLineIndent" min="0" max="5" step="0.25" value="0">
+      <span id="intSvgFirstLineVal">0.00</span> cm
+    </div>
+
+    <div class="control-row">
+      <label for="intSvgHangingIndent">
+        <img src="{{ '/assets/images/word/Indents/Hanging Indent.png' | url }}" alt="Hanging indent">
+        <span><strong>Hanging indent</strong> (moves text):</span>
+      </label>
+      <input type="range" id="intSvgHangingIndent" min="0" max="5" step="0.25" value="0">
+      <span id="intSvgHangingVal">0.00</span> cm
+    </div>
+
+    <div class="control-row">
+      <label for="intSvgLeftIndent">
+        <img src="{{ '/assets/images/word/Indents/Left Indent.png' | url }}" alt="Left indent">
+        <span><strong>Left indent</strong> (moves both together):</span>
+      </label>
+      <input type="range" id="intSvgLeftIndent" min="0" max="5" step="0.25" value="0">
+      <span id="intSvgLeftVal">0.00</span> cm
+    </div>
+  </div>
+
+<svg id="intIndentSVG"
+     class="indent-svg"
+     viewBox="0 0 600 75"
+     width="600"
+     height="75"
+     preserveAspectRatio="xMinYMin meet"
+     xmlns="http://www.w3.org/2000/svg">
+  <text id="intBullet"
+        x="50" y="40"
+        font-size="14px"
+        font-family="Inter, system-ui, sans-serif"
+        fill="#333">•</text>
+  <text id="intText"
+        x="70" y="40"
+        font-size="14px"
+        font-family="Inter, system-ui, sans-serif"
+        fill="#333">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+  </text>
+</svg>
+
+</section>
+
+<script>
+function updateIntSvgIndent() {
+  const cmToPx = 37.8;
+
+  const leftIndent = parseFloat(document.getElementById("intSvgLeftIndent").value);
+  const firstLineIndent = parseFloat(document.getElementById("intSvgFirstLineIndent").value);
+  const hangingIndent = parseFloat(document.getElementById("intSvgHangingIndent").value);
+
+  document.getElementById("intSvgLeftVal").textContent = leftIndent.toFixed(2);
+  document.getElementById("intSvgFirstLineVal").textContent = firstLineIndent.toFixed(2);
+  document.getElementById("intSvgHangingVal").textContent = hangingIndent.toFixed(2);
+
+  const baseX = 50 + leftIndent * cmToPx;
+  const bulletX = baseX + firstLineIndent * cmToPx;
+  let textX = baseX + hangingIndent * cmToPx;
+
+  const minGap = 0.7 * cmToPx;
+  const gap = textX - bulletX;
+
+  if (gap < minGap) {
+    const steps = Math.ceil((minGap - gap) / minGap);
+    textX += steps * minGap;
+  }
+
+  document.getElementById("intBullet").setAttribute("x", bulletX);
+  document.getElementById("intText").setAttribute("x", textX);
+}
+</script>
 
  </section>
 
@@ -339,4 +482,21 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   updateSvgIndent();
 });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+  // Intermediate paragraph demo
+  ["intLeftIndent","intFirstLineIndent","intHangingIndent"].forEach(id =>
+    document.getElementById(id).addEventListener("input", updateIntIndent)
+  );
+  updateIntIndent();
+
+  // Intermediate bullet list demo
+  ["intSvgLeftIndent","intSvgFirstLineIndent","intSvgHangingIndent"].forEach(id =>
+    document.getElementById(id).addEventListener("input", updateIntSvgIndent)
+  );
+  updateIntSvgIndent();
+});
+
 </script>
