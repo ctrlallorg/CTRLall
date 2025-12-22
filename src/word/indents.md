@@ -51,7 +51,7 @@ active: word
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Home Paragraph Increase Decrease Indents.png' | url }}"  alt="Home Paragraph Increase Decrease Indents" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h3>Indenting with Paragraph Options</h3>
-  <p>For beginners one feature to consider is the <strong>Paragraph Options</strong> which allow you to apply left and right indentation to a selected paragraph(s) or every paragraph in the document, see here for more: <a href="/word/paragraph-options/#indentation-beg">Paragraph Options - Indentation</a>.</p>
+  <p>For beginners one feature to consider is the <strong>Paragraph Options</strong> which allow you to apply left and right indentation to a selected paragraph(s), see here for more: <a href="/word/paragraph-options/#indentation-beg">Paragraph Options - Indentation</a>.</p>
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Indents and Spacing Indentation.png' | url }}"  alt="Paragraph Options Indents and Spacing Indentation" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h3>Indenting with the ruler</h3>
@@ -261,10 +261,6 @@ function updateSvgIndent() {
 }
 </script>
 
-    
-  </section>
-
-
   <h4>If you want to be precise</h4>
   <p>Word gives you the option to specify the measurements exactly if you need to. Just <strong>right click</strong> on the bullet/number and select <strong>Adjust list indents</strong> and you'll be able to adjust in detail as you need it:</p>
 
@@ -316,11 +312,49 @@ function updateSvgIndent() {
 <!-- Intermediate version -->
 <div class="difficulty intermediate-version" aria-label="Intermediate article exploring altering images" style="display:none;">
 
- <section class="section-light">
+<section class="section-light">
+
+  <p>You may already know how to create a left indent by pressing <strong>Tab</strong> or that you can use <strong>Home > Paragraph > Increase/Decrease Indent</strong> buttons to increase and decrease indents within the margins. But there are other ways to do this as well.</p>
+  <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Home Paragraph Increase Decrease Indents.png' | url }}"  alt="Home Paragraph Increase Decrease Indents" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+
+  <h3>Indenting with Paragraph Options</h3>
+  <p>Going to <strong>Paragraph Options</strong> via <strong>Home > Paragraph > bottom right corner button</strong> lets you apply left and right indentation to a selected paragraph(s), or, if you don't select, see here for more: <a href="/word/paragraph-options/#indentation">Paragraph Options - Indentation</a>.</p>
+  <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Indents and Spacing Indentation.png' | url }}"  alt="Paragraph Options Indents and Spacing Indentation" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
+
+  <h3>Indenting with the ruler</h3>
+  <p>You can also adjust indents with <strong>indent markers</strong> on the <strong>ruler</strong> tool. You'll first need to enable to the ruler; go to <strong>View > Show</strong> and check <strong>Ruler</strong> and you'll see vertical and horizontal rulers appear on the screen.</p>
+  <p><img class="thumbnail left" src="{{ '/assets/images/word/Indents/Ruler.png' | url }}" alt="Ruler tool checkbox on ribbon in Word" style="max-width:175px; width:100%; height:auto; vertical-align:middle"></p>
+  Make sure your <span class="glossary-hover" data-term="insertion-point">insertion point</span> is pointed on the paragraph first. On the horizontal ruler above the page you'll see three indent markers clumped together on the left like this:
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Indents/Paragraph indent markers on ruler.png' | url }}" alt="Paragraph and indent markers on ruler in Word" style="display: inline; max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
+
+  <p>Each of these indent markers have different jobs when working with paragraphs:</p>
+
+  <div class="table-wrapper">
+  <table class="no-border">
+      <colgroup>
+        <col style="width: 10%;">
+        <col style="width: 90%;">
+      </colgroup>
+      <tbody>
+        <tr>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/First line indent.png' | url }}" alt="Fire line indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><strong>First line indent</strong> - Controls where the first line of the paragraph begins.</td>
+        </tr>
+        <tr>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Hanging indent.png' | url }}" alt="Hanging indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><strong>Hanging Indent</strong> - Controls where all lines except the first line begin.
+        <tr>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Left indent.png' | url }}" alt="Left indent rectangle icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><strong>Left Indent</strong> - Moves both the above indents together, shifting the entire paragraph left or right.
+        </tr>
+  </table>
+  </div>
+  <p>Here's a demonstration of all of them in action:</p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Indents/Paragraph indent marker adjust example.gif' | url }}" alt="Demonstration adjusting paragraph and indent markers" style="display: inline; max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
   <!-- Intermediate Indent marker paragraph interactivity -->
-<section class="indent-demo" style="background-color:#FFF8E1; padding:40px;">
-  <h3>Intermediate: Indent Markers and paragraphs</h3>
+<section class="indent-demo" style="background-color:#EBFFFF; padding:40px;">
+  <h3>Try it out: Indent Markers and paragraphs</h3>
   <p>Adjust the sliders to see how the different indent markers interact with a paragraph of text.</p>
 
   <div class="indent-controls" style="margin-bottom:1em;">
@@ -375,10 +409,42 @@ function updateIntIndent() {
 }
 </script>
 
+ 
+ <h2 id="lists-and-indents">Lists and indents</h2>
+
+ <p>For bullet lists and number lists the indent markers have different behaviours. You'll notice if you select a list item that the indent marker are not aligned like with paragraphs.</p>
+
+ <p><img class="thumbnail border" src="{{ '/assets/images/word/Indents/List indent markers on ruler.png' | url }}" alt="Lists and indent markers on ruler in Word" style="display: inline; max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
+
+<p>Here's what the indent markers do on lists:</p>
+
+  <div class="table-wrapper">
+  <table class="no-border">
+      <colgroup>
+        <col style="width: 10%;">
+        <col style="width: 90%;">
+      </colgroup>
+      <tbody>
+        <tr>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/First line indent.png' | url }}" alt="First line indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><strong>First line indent</strong> - Controls where bullet/number begins.</td>
+        </tr>
+        <tr>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Hanging indent.png' | url }}" alt="Hanging indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><strong>Hanging Indent</strong> - Controls where the text begins after the bullet.
+        <tr>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Left indent.png' | url }}" alt="Left indent rectangular icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><strong>Left Indent</strong> - Moves both the above indents together, shifting both the bullet/number and line/paragraph left or right.
+        </tr>
+  </table>
+  </div>
+
+ <p>See the example below altering a single sub-bullet. Typically you'd want to adjust all the sub-bullets at once, in which case select them all first before altering the indent markers as needed.</p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Indents/List indent marker adjust example.gif' | url }}" alt="Demontration adjusting list indent marker" style="display: inline; max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 
 <!-- Intermediate Indent marker bullet list interactivity -->
-<section class="indent-demo" style="background-color:#FFF8E1; padding:40px;">
-  <h3>Intermediate: Indent markers and bullet lists</h3>
+<section class="indent-demo" style="background-color:#EBFFFF; padding:40px;">
+  <h3>Try it out: Indent markers and bullet lists</h3>
   <p>Adjust the sliders to see how the different indent markers interact with bullet/number lists.</p>
 
   <div class="indent-controls">
@@ -430,8 +496,21 @@ function updateIntIndent() {
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
   </text>
 </svg>
-
 </section>
+
+<h2 id="table-lists-and-indents">Table lists and indents</h2>
+  <p>Number lists and bullet lists inside tables have a default spacing jutting out from the column border. It's not entirely desirable if you're limited for space with the columns and content you need to include. Indent markers are a good way to fix this.</p>
+  <img class="thumbnail border" src="{{ '/assets/images/word/Indents/Table list default indent.png' | url }}" alt="Table list default indents in Word" style="display: inline; max-width:600px; width:100%; height:auto; vertical-align:middle">
+
+  <p><strong><i>Try this:</i></strong></p>
+  <p>Drag the <strong>First line indent</strong> right so the bullet/number is closer to the content, then drag the <strong>Left indent</strong> left to bring everything closer to the column border. Here's an example:</p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Indents/Table list indent marker adjust example.gif' | url }}" alt="Demonstration adjusting table list indent marker" style="display: inline; max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+  
+  <p>Because we're inside a table another feature appears on the ruler called the <strong>Column boundary marker</strong>. This let you drag the column boundary as needed all content follows suit.</p>
+
+  <p><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Column boundary marker.png' | url }}" alt="Column boundary marker hatch icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></p>
+
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Indents/Column boundary marker adjust example.gif' | url }}" alt="Demonstration adjusting column boundary marker" style="display: inline; max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <script>
 function updateIntSvgIndent() {
@@ -462,8 +541,7 @@ function updateIntSvgIndent() {
 }
 </script>
 
- </section>
-
+</section>
 </div>
 </article>
 
