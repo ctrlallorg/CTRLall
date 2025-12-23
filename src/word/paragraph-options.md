@@ -7,6 +7,13 @@ description: Edit paragraph and line spacing, indentation and page/line breaks i
 asset_id: ctrlall-word-paragraph-options-v1
 date: 2025-10-26
 last_modified: 2025-10-30
+difficultyLevels:
+  - level: Beginner
+    description: "Introduces the bacis of paragraph options with clear visual cues."
+    urlSuffix: "#beginner"
+  - level: Intermediate
+    description: "Expands on paragraph options with advanced options explained."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall

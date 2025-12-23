@@ -1188,6 +1188,7 @@ td.justified {
   max-width: 100%;       /* don’t let child overflow parent */
   overflow-x: auto;      /* scroll inside child, not inflate parent */
   white-space: normal;   /* allow wrapping instead of unbreakable line */
+  margin-right: 20px;   /* space between content and adsbar */
 }
 
 .content {
@@ -1199,10 +1200,10 @@ td.justified {
 .main-column {
   display: flex;
   flex-direction: row;
-  margin-left: 250px;   /* reserve sidebar */
-  margin-right: 20px;   /* space between content and adsbar */
+  margin-left: 240px;   /* reserve sidebar */
   flex: 1 1 auto;
   min-width: 0;
+  transition: margin-left 0.3s ease;
 }
 
 /* Neutralize Markdown wrappers */
@@ -1240,10 +1241,11 @@ td.justified {
   display: none;
 }
 
-/* Use layout-wrapper context to reset margin */
-.layout-wrapper .sidebar-wrapper.collapsed ~ .content-wrapper {
+/* When sidebar collapses, let main-column slide left */
+.layout-wrapper .sidebar-wrapper.collapsed ~ .main-column {
   margin-left: 0;
 }
+
 
 /* ─── Sidebar Toggle Button ──────────────────────── */
 .sidebar-toggle,
@@ -1389,7 +1391,7 @@ td.justified {
   width: 0;
   height: 0;
   overflow: visible; /* ← allow tooltip to escape */
-  display: contents; /* ← removes layout box entirely */
+  display: block;
 }
 
 

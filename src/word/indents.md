@@ -7,6 +7,13 @@ description: Indents in Microsoft Word with clear steps, visuals, and animations
 asset_id: ctrlall-word-indents-v1
 date: 2025-10-26
 last_modified: 2025-10-26
+difficultyLevels:
+  - level: Beginner
+    description: "Introduces indentation basics with clear visual cues and interactivities."
+    urlSuffix: "#beginner"
+  - level: Intermediate
+    description: "Expands on indentation basics with advanced indenting techniques."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall
