@@ -119,6 +119,9 @@ active: word
   </table>
 </div>
 
+<h2>Deleting tables</h2>
+<p>Select the whole table by clicking into it and pressing the top left square then press <strong>Delete</strong></p>
+
 <div id="tooltip">
   <img src="" alt="Tooltip preview">
 </div>
