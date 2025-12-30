@@ -95,6 +95,13 @@ active: word
 
   <p>Once applied it'll look like this:</p>
   <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table borders colour beg 4.png' | url }}"  alt="Applied table border line colour in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
+
+  <h2>Table styles</h2>
+  <p>There are some preset table styles you can choose from to apply to your table. Just select the table (just click anywhere within it, you don't need to select the whole table), then under <strong>Table Design</strong> select a style from the <strong>Table Styles gallery</strong> on the ribbon.</p>
+  <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table styles beg.gif' | url }}"  alt="Demonstration apply table styles in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
+  <p><u>Note</u>: If you click the arrow to the right of the <strong>Table Styles gallery</strong> it will show a menu with more options to choose from.</p>
+
+
 </section>
 
 </div>
