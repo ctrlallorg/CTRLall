@@ -56,8 +56,6 @@ active: word
   <ul style="list-style-type: circle;">
       <li><a href="#table-shading-beg">Table shading</a></li>
       <li><a href="#table-borders-beg">Table borders</a></li>
-      <li><a href="#remove-paragraph-spacing-from-table-beg">Remove paragraph spacing in a table</a></li>
-      <li><a href="#lists-in-tables-beg">Bullet/Number lists in tables</a></li>
   </ul>
 
   <h4>I want my content to be at the bottom or middle of cells, not fixed the top.</h4>
