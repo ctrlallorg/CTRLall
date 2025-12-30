@@ -75,7 +75,7 @@
     <div class="noscript-warning">JavaScript is required for full site functionality.</div>
   </noscript>
 
-  <header class="topbar">
+<header class="topbar">
     <button id="navbar-toggle" class="sidebar-toggle" aria-label="Toggle sidebar">☰</button>
     <header class="topbar">
   <div class="topbar-left">
@@ -149,7 +149,13 @@
 
   </header>
 
+<!-- PAGE CONTAINER WRAPPER (includes adsbar with sidebar and main column) -->
+<div class="page-container">
+
+  <!-- LAYOUT WRAPPER -->
   <div class="layout-wrapper">
+
+    <!-- FIXED LEFT SIDEBAR -->
     <nav class="sidebar-wrapper">
       <div id="navbar-content" class="navbar-collapse">
         <div class="difficulty-toggle">
@@ -270,6 +276,11 @@
         </a>
       </li>
       <li>
+        <a href="/word/tables-fixing-table-image-problems/" class="" data-beginner="Tables: Fixing image problems" data-intermediate="Tables: Fixing image problems">
+          Tables: Fixing image problems
+        </a>
+      </li>
+      <li>
         <a href="/word/tables-fixing-tables-extending-offscreen/" class="" data-beginner="Tables: Fixing tables extending offscreen" data-intermediate="Tables: Fixing tables extending offscreen">
           Tables: Fixing tables extending offscreen
         </a>
@@ -366,7 +377,7 @@
       </ul></div>
     </nav>
 
-    <!-- Group content + adsbar together -->
+    <!-- MAIN CONTENT COLUMN -->
     <div class="main-column">
       <main class="content-wrapper">
         <div class="content">
@@ -383,7 +394,7 @@
 </ul>
 <h2 id="table-cell-alignment">Table cell alignment</h2> 
 <p>Align content vertically and horizontally in the table cell via Table <strong>Layout &gt; Alignment</strong>:</p>
-<img class="thumbnail border" src="/assets/images/word/Tables formatting/Table cell alignment of text examples.gif" alt="Demonstration of table cell alignment in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle">
+<img class="thumbnail border" src="/assets/images/word/Tables formatting/Table cell alignment of text examples.gif" alt="Demonstration of table cell alignment in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle">
 <h2 id="table-borders">Table borders</h2> 
 <p>You can choose whether to have table borders visible or not via options in <strong>Table Design &gt; Borders</strong> drop down. The example below shows how these options work on a table that's been fully selected (hover over and click top left square):</p>
 <div class="table-wrapper"> 
@@ -403,15 +414,15 @@
 <p>You can colour the background of cell with the <strong>Shading</strong> colour palette via <strong>Table Design &gt; Shading</strong>:</p> 
 <img class="thumbnail border" src="/assets/images/word/Tables formatting/Table shading edit.gif" alt="Demonstration of table background colour shading being edited in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle">
 <p>The example above is applying shading to a whole table but you might want to apply shading to just the header row like this:</p>
-<img src="/assets/images/word/Tables formatting/Header row shading.png" alt="Table header row shaded grey in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
+<img class="thumbnail border" src="/assets/images/word/Tables formatting/Header row shading.png" alt="Table header row shaded grey in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
 <h2 id="remove-paragraph-spacing-from-table">Remove paragraph spacing in a table</h2> 
 <p>If you're coping a table from other Word document, Excel or a web browser it can come across with unwanted paragraph spacing. To remove this go to the <strong>Home &gt; Paragraph options (bottom right corner button)</strong> and remove spacing 'points' as needed. Typically it's spacing after that needs reducing. Take a look:</p> 
 <img class="thumbnail border" src="/assets/images/word/Tables formatting/Remove paragraph spacing from table.gif" alt="Demonstration removing paragraph spacing from a table in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
 <h2 id="lists-in-tables">Bullet/Number lists in tables</h2> 
 <p>You might find when applying a bullet list or number list to a table that the default indent Word applies isn't ideal in such a contrained space, see a quick fix here involving indent markers on the horizontal ruler: <a href="/word/indents/#table-lists-and-indents">Table lists and indents</a>.</p>
 <img class="thumbnail border" src="/assets/images/word/Indents/Table list default indent.png" alt="List in a table selected with default indent marker positions in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle">
-<h4>Cut, copy and paste tables</h4> 
-<p>When it comes to pasting tables you get some different pasting options. Firs there's a referesher on cut, copy and paste if you need it:</p>
+<p><hw>Cut, copy and paste tables</hw></p>
+<p>When it comes to pasting tables you get some different pasting options. First there's a referesher on cut, copy and paste if you need it:</p>
 <ul>
   <li><u>Cut</u>: see <a href="/content-control/moving-content/#cut-and-paste" target="_blank">Moving content</a></li>
   <li><u>Copy</u>: see <a href="/content-control/copying-content/" target="_blank">Copying content</a></li>
@@ -432,7 +443,7 @@
     <tbody>
       <tr style="background-color: #f0f0f0;">
         <td colspan="2"><strong>Pasting non-table content into a table</strong>
-        <div style="text-align: center;"><img class="thumbnail" src="/assets/images/word/Tables formatting/Pasting non-table content into table options.png" alt="Pasting non-table content into table option icons" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail border left" src="/assets/images/word/Tables formatting/Pasting non-table content into table options.png" alt="Pasting non-table content into table option icons" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></div></td>
       </tr>
       <tr>
         <td>Paste - Keep Source Formatting
@@ -457,7 +468,7 @@
       </tr>
       <tr style="background-color: #f0f0f0;">
         <td colspan="2"><strong>Pasting cut/copied table content into a table</strong>
-        <div style="text-align: center;"><img class="thumbnail" src="/assets/images/word/Tables formatting/Pasting table content into table options.png" alt="Pasting table content into table option icons" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail border left" src="/assets/images/word/Tables formatting/Pasting table content into table options.png" alt="Pasting table content into table option icons" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></div></td>
       </tr>
       <tr>
         <td>Paste - Nest Table
@@ -494,7 +505,7 @@
       <tr>
       </tr><tr style="background-color: #f0f0f0;">
       <td colspan="2"><strong>Pasting cut/copied table content directly underneath a table</strong>
-        <div style="text-align: center;"><img class="thumbnail" src="/assets/images/word/Tables formatting/Pasting table content beneath table options.png" alt="Pasting table content beneath table option icons" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail border left" src="/assets/images/word/Tables formatting/Pasting table content beneath table options.png" alt="Pasting table content beneath table option icons" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></div></td>
       </tr><tr>
         <td>Paste - Keep Original Table Formatting
         <div style="text-align: center;"><img class="thumbnail" src="/assets/images/word/Tables formatting/Paste Keep Original Table Formatting.png" alt="Paste Keep Original Table Formatting icon" style="max-width:40px; width:100%; height:auto; vertical-align:middle"></div></td>
@@ -521,9 +532,13 @@
           </section>
         </div>
       </main>
+    </div>
 
-      <aside class="adsbar-wrapper">
-        <div class="spacer-30"></div>
+  </div>
+
+  <!-- FIXED RIGHT ADSBAR (MUST BE OUTSIDE layout-wrapper) -->
+  <aside class="adsbar-wrapper">
+    <div class="spacer-30"></div>
 
 <a href="https://ko-fi.com/ctrlall" class="support-cta-button" target="_blank" rel="noopener noreferrer" aria-label="Support CTRL All on Ko-fi">
   <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="Ko-fi logo" class="kofi-logo" loading="lazy">
@@ -576,15 +591,21 @@
   }
 </script>
 
-      </aside>
-    </div>
-  </div>
+  </aside>
 
+<!-- Closing Page container div -->
+</div>   
+
+  <!-- IMAGE MODAL -->
   <div id="imageModal" class="modal">
     <span class="close">×</span>
     <img id="modalImage" class="modal-content" src="" alt="">
   </div>
 
+
+
+
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="social-icons image-adjacent">
       <a href="/privacy-policy/">Privacy Policy</a>

@@ -458,6 +458,11 @@ active: glossary
       <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+Y.png' | url }}">Option to repeat the last action. The opposite of <a href="#undo">undo</a>. Keyboard shortcut: <strong>Ctrl + Y</strong></td>
     </tr>
     <tr>
+      <td id="resize">Resize / Resizing</td>
+      <td>Resizing is changing the size of an image or object like a text box. This is done by selecting the image/object and then clicking and dragging the sizing handles i.e. the dots around it when selected. See more here: <a href="/word/altering-images-and-objects/#alter-image-object">Altering images and objects</a>.
+      <img class="border" src="{{ '/assets/images/glossary/Resize image.gif' | url }}" alt="Resizing an image in Word" style="display: block; max-width:350px; width:100%; height:auto; vertical-align:middle"></td>
+    </tr>
+    <tr>
       <td id="ribbon">Ribbon</td>
       <td>The bar across the top containing all the tools to edit your document. Tools are organised by tabs.</td>
     </tr>
@@ -989,6 +994,11 @@ active: glossary
     <tr>
       <td id="redo">Redo</td>
       <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+Y.png' | url }}">Option to repeat the last action. The opposite of <a href="#undo">undo</a>. Keyboard shortcut: <strong>Ctrl + Y</strong></td>
+    </tr>
+    <tr>
+      <td id="resize">Resize / Resizing</td>
+      <td>Resizing is changing the size of an image or object like a text box. This is done by selecting the image/object and then clicking and dragging the sizing handles i.e. the dots around it when selected. See more here: <a href="/word/altering-images-and-objects/#alter-image-object">Altering images and objects</a>.
+      <img class="border" src="{{ '/assets/images/glossary/Resize image.gif' | url }}" alt="Resizing an image in Word" style="display: block; max-width:350px; width:100%; height:auto; vertical-align:middle"></td>
     </tr>
     <tr>
       <td id="ribbon">Ribbon</td>

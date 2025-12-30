@@ -75,7 +75,7 @@
     <div class="noscript-warning">JavaScript is required for full site functionality.</div>
   </noscript>
 
-  <header class="topbar">
+<header class="topbar">
     <button id="navbar-toggle" class="sidebar-toggle" aria-label="Toggle sidebar">☰</button>
     <header class="topbar">
   <div class="topbar-left">
@@ -149,7 +149,13 @@
 
   </header>
 
+<!-- PAGE CONTAINER WRAPPER (includes adsbar with sidebar and main column) -->
+<div class="page-container">
+
+  <!-- LAYOUT WRAPPER -->
   <div class="layout-wrapper">
+
+    <!-- FIXED LEFT SIDEBAR -->
     <nav class="sidebar-wrapper">
       <div id="navbar-content" class="navbar-collapse">
         <div class="difficulty-toggle">
@@ -270,6 +276,11 @@
         </a>
       </li>
       <li>
+        <a href="/word/tables-fixing-table-image-problems/" class="" data-beginner="Tables: Fixing image problems" data-intermediate="Tables: Fixing image problems">
+          Tables: Fixing image problems
+        </a>
+      </li>
+      <li>
         <a href="/word/tables-fixing-tables-extending-offscreen/" class="" data-beginner="Tables: Fixing tables extending offscreen" data-intermediate="Tables: Fixing tables extending offscreen">
           Tables: Fixing tables extending offscreen
         </a>
@@ -366,7 +377,7 @@
       </ul></div>
     </nav>
 
-    <!-- Group content + adsbar together -->
+    <!-- MAIN CONTENT COLUMN -->
     <div class="main-column">
       <main class="content-wrapper">
         <div class="content">
@@ -451,9 +462,13 @@ Then <strong>Save As</strong></p>
           </section>
         </div>
       </main>
+    </div>
 
-      <aside class="adsbar-wrapper">
-        <div class="spacer-30"></div>
+  </div>
+
+  <!-- FIXED RIGHT ADSBAR (MUST BE OUTSIDE layout-wrapper) -->
+  <aside class="adsbar-wrapper">
+    <div class="spacer-30"></div>
 
 <a href="https://ko-fi.com/ctrlall" class="support-cta-button" target="_blank" rel="noopener noreferrer" aria-label="Support CTRL All on Ko-fi">
   <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="Ko-fi logo" class="kofi-logo" loading="lazy">
@@ -506,15 +521,21 @@ Then <strong>Save As</strong></p>
   }
 </script>
 
-      </aside>
-    </div>
-  </div>
+  </aside>
 
+<!-- Closing Page container div -->
+</div>   
+
+  <!-- IMAGE MODAL -->
   <div id="imageModal" class="modal">
     <span class="close">×</span>
     <img id="modalImage" class="modal-content" src="" alt="">
   </div>
 
+
+
+
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="social-icons image-adjacent">
       <a href="/privacy-policy/">Privacy Policy</a>

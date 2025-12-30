@@ -440,16 +440,6 @@ input:checked + .slider:before {
 }
 
 
-
-.intermediate-version {
-  width: 100%;        /* fill parent flex space */
-  max-width: 690px;   /* same cap as .content */
-  min-width: 0;       /* allow shrink in flex context */
-  box-sizing: border-box;
-  overflow-x: auto;   /* scroll inside if needed */
-}
-
-
 /* Tooltip for text with image */
 .text-tooltip {
   position: relative;
@@ -714,27 +704,14 @@ blockquote {
   background-color: #ffffff;
 }
 
-.section-light table {
+/* Table styling */
+table {
   width: 100%;
-  table-layout: fixed; /* Forces colgroup widths */
   border-collapse: collapse;
+  table-layout: fixed; /* keeps columns inside container */
 }
 
-.section-light th,
-.section-light td {
-  padding: 5px;
-  border: 1px solid #ccc;
-  text-align: left;
-  vertical-align: middle;
-  font-size: 1rem;
-  white-space: normal;         /* Allows wrapping */
-  word-break: break-word;      /* Breaks long words */
-  overflow-wrap: break-word;   /* Ensures wrapping for long words */
-  overflow: visible;           /* Allows content to expand vertically */
-  height: auto;                /* Ensures row height adapts to content */
-}
-
-
+/* Table cells */
 table th,
 table td {
   padding: 5px;
@@ -742,42 +719,60 @@ table td {
   text-align: left;
   vertical-align: middle;
   font-size: 1rem;
-  white-space: normal;         /* Allows wrapping */
-  word-break: break-word;      /* Breaks long words */
-  overflow-wrap: break-word;   /* Ensures wrapping for long words */
-  overflow: visible;           /* Allows content to expand vertically */
-  height: auto;                /* Ensures row height adapts to content */
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  height: auto;
 }
 
-/* Wrap tables in a scrollable container */
+/* Scroll wrapper */
 .table-wrapper {
+  max-width: 100%;            /* critical containment */
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
 
+/* Table inside wrapper */
 .table-wrapper table {
-  min-width: 680px;          /* force wider than content column */
-  table-layout: auto;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;               /* allows shrinking */
+  table-layout: fixed;
 }
 
+/* Mobile: allow horizontal scroll */
+@media (max-width: 600px) {
+  .table-wrapper table {
+    min-width: 650px;
+  }
+}
 
-.section-light th:first-child,
-.section-light td:first-child {
+/* Optional: first column override */
+table th:first-child,
+table td:first-child {
   white-space: normal;
 }
 
-.section-light th {
+/* Optional: header background */
+table th {
   background-color: #f5f5f5;
 }
 
-.section-light table.shortcut-tables-cursor-icons td:nth-child(3) {
+/* Optional: special cases */
+table.shortcut-tables-cursor-icons td:nth-child(3) {
   text-align: center !important;
 }
 
-.section-light table.tooltip-wrapper {
+.tooltip-wrapper {
   position: relative;
-  display: inline-block;
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
+  padding-right: 4px; /* makes right border visible */
 }
+
+
 
 /* Floating tooltip container controlled by JS */
 #tooltip {
@@ -1159,26 +1154,41 @@ td.justified {
 
 
 /* ─── Layout Structure ───────────────────────────── */
-.layout-wrapper {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  display: grid;
+  grid-template-columns: 1fr 200px; /* content | adsbar */
+  width: 100%;
+  min-height: calc(100vh - 60px);
   position: relative;
+  gap: 0;                 /* ensure no grid gap */
+  padding: 0;             /* ensure no padding */
+  margin: 0;              /* ensure no margin */
+  box-sizing: border-box; /* ensure sizing is correct */
+}
+
+
+.layout-wrapper {
   display: flex;
-  flex-wrap: nowrap;   /* keep items side by side */
   flex-direction: row;
+  flex-wrap: nowrap;
   align-items: flex-start;
-  min-height: calc(100vh - 60px); /* Adjust for topbar height */
-  z-index: 1;
+  position: relative;
   padding-top: 30px;
-  
+  box-sizing: border-box;
 }
 
 .content-wrapper {
-  flex: 1 1 auto;      /* allow grow and shrink */
-  margin-left: 0;        /* remove manual offset */
+  margin-left: 0;
   overflow-y: auto;
+  overflow-x: hidden;
   transition: margin-left 0.3s ease;
-  overflow-x: hidden;   /* prevent horizontal scroll */
-  width: 100%;          /* fill all available space */
-  max-width: none;      /* remove the 690px cap */
+  width: 100%;
+  max-width: none;
   min-width: 0;
 }
 
@@ -1189,6 +1199,7 @@ td.justified {
   overflow-x: auto;      /* scroll inside child, not inflate parent */
   white-space: normal;   /* allow wrapping instead of unbreakable line */
   margin-right: 20px;   /* space between content and adsbar */
+  box-sizing: border-box;
 }
 
 .content {
@@ -1196,15 +1207,15 @@ td.justified {
   width: 100%;       /* fill all available space */
 }
 
-
 .main-column {
-  display: flex;
-  flex-direction: row;
-  margin-left: 240px;   /* reserve sidebar */
-  flex: 1 1 auto;
-  min-width: 0;
+  margin-left: 280px; /* match sidebar width */
   transition: margin-left 0.3s ease;
 }
+
+body.sidebar-collapsed .main-column {
+  margin-left: 60px; /* match collapsed width */
+}
+
 
 /* Neutralize Markdown wrappers */
 .content-wrapper pre,
@@ -1221,15 +1232,15 @@ td.justified {
 
 .sidebar-wrapper {
   position: fixed;
-  top: 60px;
   left: 0;
+  top: 60px;
   width: 280px;
   height: calc(100vh - 60px);
+  transition: width 0.3s ease;
   background-color: #f9f9f9;
   border-right: 1px solid #ddd;
-  overflow-y: auto;
-  transition: width 0.3s ease;
   z-index: 999;
+  overflow-y: auto;
 }
 
 /* ─── Sidebar Collapse Behavior ──────────────────── */
@@ -1273,27 +1284,26 @@ td.justified {
   color: #333;
 }
 
-
 /* ─── Adsbar ────────────────────────── */
 .adsbar-wrapper {
+  grid-column: 2;
   position: fixed;
   right: 0;
-  top: 0;          /* anchor to the very top of viewport */
-  bottom: 0;       /* anchor to the bottom of viewport */
-  width: 200px;    /* hard width */
-  flex: 0 0 200px; /* lock width in flex */
-  box-sizing: border-box;
+  top: 0;
+  width: 200px;
+  height: 100vh;
   background-color: #f5f5f5;
   border-left: 1px solid #ddd;
-  padding: 0;
-  overflow-y: auto;
-  scrollbar-gutter: stable;
+  box-sizing: border-box; /* prevents borders from expanding width */
+  margin-top: 30px;   /* adjust for topbar height */
 }
 
 .adsbar-content {
   font-size: 14px;
   color: #333;
 }
+
+.adsbar-wrapper::-webkit-scrollbar { display: none; }
 
 #ads-wrapper,
 .adsbygoogle {
@@ -1373,7 +1383,7 @@ td.justified {
 .overlay-container {
   position: relative;
   display: inline-block;
-  z-index: 10000; /* higher than adsbar-wrapper */
+  z-index: 999; /* higher than adsbar-wrapper */
 }
 
 .base-image {

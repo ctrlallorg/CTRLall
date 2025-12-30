@@ -51,7 +51,7 @@ active: word
 
 <h2 id="table-cell-alignment">Table cell alignment</h2> 
 <p>Align content vertically and horizontally in the table cell via Table <strong>Layout > Alignment</strong>:</p>
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table cell alignment of text examples.gif' | url }}"  alt="Demonstration of table cell alignment in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle">
+<img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table cell alignment of text examples.gif' | url }}"  alt="Demonstration of table cell alignment in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle">
 
 <h2 id="table-borders">Table borders</h2> 
 <p>You can choose whether to have table borders visible or not via options in <strong>Table Design > Borders</strong> drop down. The example below shows how these options work on a table that's been fully selected (hover over and click top left square):</p>
@@ -72,7 +72,7 @@ active: word
 <p>You can colour the background of cell with the <strong>Shading</strong> colour palette via <strong>Table Design > Shading</strong>:</p> 
 <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table shading edit.gif' | url }}"  alt="Demonstration of table background colour shading being edited in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle">
 <p>The example above is applying shading to a whole table but you might want to apply shading to just the header row like this:</p>
-<img src="{{ '/assets/images/word/Tables formatting/Header row shading.png' | url }}"  alt="Table header row shaded grey in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
+<img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Header row shading.png' | url }}"  alt="Table header row shaded grey in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
 
 <h2 id="remove-paragraph-spacing-from-table">Remove paragraph spacing in a table</h2> 
 <p>If you're coping a table from other Word document, Excel or a web browser it can come across with unwanted paragraph spacing. To remove this go to the <strong>Home > Paragraph options (bottom right corner button)</strong> and remove spacing 'points' as needed. Typically it's spacing after that needs reducing. Take a look:</p> 
@@ -83,8 +83,8 @@ active: word
 
 <img class="thumbnail border" src="{{ '/assets/images/word/Indents/Table list default indent.png' | url }}"  alt="List in a table selected with default indent marker positions in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle">
 
-<h4>Cut, copy and paste tables</h4> 
-<p>When it comes to pasting tables you get some different pasting options. Firs there's a referesher on cut, copy and paste if you need it:</p>
+<hw>Cut, copy and paste tables</hw> 
+<p>When it comes to pasting tables you get some different pasting options. First there's a referesher on cut, copy and paste if you need it:</p>
 <ul>
   <li><u>Cut</u>: see <a href="/content-control/moving-content/#cut-and-paste" target="_blank">Moving content</a></li>
   <li><u>Copy</u>: see <a href="/content-control/copying-content/" target="_blank">Copying content</a></li>
@@ -105,7 +105,7 @@ active: word
     <tbody>
       <tr style="background-color: #f0f0f0;">
         <td colspan="2"><strong>Pasting non-table content into a table</strong>
-        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Pasting non-table content into table options.png' | url }}"  alt="Pasting non-table content into table option icons" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail border left" src="{{ '/assets/images/word/Tables formatting/Pasting non-table content into table options.png' | url }}"  alt="Pasting non-table content into table option icons" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></div></td>
       </tr>
       <tr>
         <td>Paste - Keep Source Formatting
@@ -130,7 +130,7 @@ active: word
       </tr>
       <tr style="background-color: #f0f0f0;">
         <td colspan="2"><strong>Pasting cut/copied table content into a table</strong>
-        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Pasting table content into table options.png' | url }}"  alt="Pasting table content into table option icons" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail border left" src="{{ '/assets/images/word/Tables formatting/Pasting table content into table options.png' | url }}"  alt="Pasting table content into table option icons" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></div></td>
       </tr>
       <tr>
         <td>Paste - Nest Table
@@ -167,7 +167,7 @@ active: word
       <tr>
       <tr style="background-color: #f0f0f0;">
       <td colspan="2"><strong>Pasting cut/copied table content directly underneath a table</strong>
-        <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Pasting table content beneath table options.png' | url }}"  alt="Pasting table content beneath table option icons" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></div></td>
+        <div style="text-align: center;"><img class="thumbnail border left" src="{{ '/assets/images/word/Tables formatting/Pasting table content beneath table options.png' | url }}"  alt="Pasting table content beneath table option icons" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></div></td>
       <tr>
         <td>Paste - Keep Original Table Formatting
         <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Paste Keep Original Table Formatting.png' | url }}"  alt="Paste Keep Original Table Formatting icon" style="max-width:40px; width:100%; height:auto; vertical-align:middle"></div></td>

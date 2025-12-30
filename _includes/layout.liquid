@@ -105,19 +105,25 @@
     <div class="noscript-warning">JavaScript is required for full site functionality.</div>
   </noscript>
 
-  <header class="topbar">
+<header class="topbar">
     <button id="navbar-toggle" class="sidebar-toggle" aria-label="Toggle sidebar">☰</button>
     {% include "topbar.liquid" %}
   </header>
 
+<!-- PAGE CONTAINER WRAPPER (includes adsbar with sidebar and main column) -->
+<div class="page-container">
+
+  <!-- LAYOUT WRAPPER -->
   <div class="layout-wrapper">
+
+    <!-- FIXED LEFT SIDEBAR -->
     <nav class="sidebar-wrapper">
       <div id="navbar-content" class="navbar-collapse">
         {% include "navbar.liquid", page: page %}
       </div>
     </nav>
 
-    <!-- Group content + adsbar together -->
+    <!-- MAIN CONTENT COLUMN -->
     <div class="main-column">
       <main class="content-wrapper">
         <div class="content">
@@ -139,18 +145,28 @@
           </section>
         </div>
       </main>
-
-      <aside class="adsbar-wrapper">
-        {% include "adsbar.liquid" %}
-      </aside>
     </div>
+
   </div>
 
+  <!-- FIXED RIGHT ADSBAR (MUST BE OUTSIDE layout-wrapper) -->
+  <aside class="adsbar-wrapper">
+    {% include "adsbar.liquid" %}
+  </aside>
+
+<!-- Closing Page container div -->
+</div>   
+
+  <!-- IMAGE MODAL -->
   <div id="imageModal" class="modal">
     <span class="close">&times;</span>
     <img id="modalImage" class="modal-content" src="" alt="">
   </div>
 
+
+
+
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="social-icons image-adjacent">
       <a href="/privacy-policy/">Privacy Policy</a>

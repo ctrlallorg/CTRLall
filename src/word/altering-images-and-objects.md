@@ -128,7 +128,7 @@ active: word
       </thead>
       <tbody>
         <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Resize image.gif' | url }}">
-          <td>Hover over sizing handles<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Sizing handles.png' | url }}" alt="Sizing handles indicated on an image's selection frame" style="max-width:175px; width:100%; height:auto; vertical-align:middle"></p></td>
+          <td><strong>Resize</strong>: Hover over sizing handles<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Sizing handles.png' | url }}" alt="Sizing handles indicated on an image's selection frame" style="max-width:175px; width:100%; height:auto; vertical-align:middle"></p></td>
           <td>Hover over sizing handles and you'll see a two-way arrow indicating what direction you can resize in (i.e. horizonal, vertical or diagonal). Click and drag on the sizing handles to resize; drag inward to reduce the size; drag outward to increase the size.</td>
           <td>
           <img class="thumbnail" src="{{ '/assets/images/word/Images/Resize arrow diagonal.png' | url }}" alt="Resize arrow diagonal" style="max-width:50px; width:100%; height:auto; vertical-align:middle">
@@ -137,22 +137,22 @@ active: word
           </td>
         </tr>
         <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Rotate image.gif' | url }}">
-          <td>Hover over the rotate handle<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Rotate handle.png' | url }}" alt="Rotate handle on an image's selection frame" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></p></td>
+          <td><strong>Rotate</strong>: Hover over the rotate handle<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Rotate handle.png' | url }}" alt="Rotate handle on an image's selection frame" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></p></td>
           <td><p>Hover over the rotate handle and you cursor icon will change to a rotation icon. Click and drag clockwise or anti-clockwise to rotate the image.</p></td>
           <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Rotate arrow.png' | url }}" alt="Rotate arrow" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></td>
         </tr>
         <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Move image.gif' | url }}">
-          <td>Hover anywhere over the image/shape</td>
+          <td><strong>Move</strong>: Hover anywhere over the image/shape</td>
           <td><p>Hover over the image/shape, then when the cursor icon changes to a four-way arrow you can click and drag to move it.</p> <p><u>Note</u>: By default images sit alongside the text sharing a line with it; this restricts how and where you move it (shown in the animation). You can move images more freely so they 'float' above, below or amongst text as you move them around; this is changed by <a href="#layout-options">Layout options</a>.</p></td>
           <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Move arrow grey background.png' | url }}" alt="Move arrow" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></td>
         </tr>
         <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Adjustment handle example.gif' | url }}">
-          <td>(Shapes only) Hover over adjustment handle<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Adjustment handle.png' | url }}" alt="Adjustment handle on an shape's selection frame" style="max-width:125px; width:100%; height:auto; vertical-align:middle"></p></td>
+          <td><strong>(Shapes only) Alter</strong>: Hover over adjustment handle<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Adjustment handle.png' | url }}" alt="Adjustment handle on an shape's selection frame" style="max-width:125px; width:100%; height:auto; vertical-align:middle"></p></td>
           <td><p>Shapes may have a yellow circle called an adjustment handle. Hover over it and when the cursor icon changes to a different white arrow you can then click and drag to alter the internal dimensions of the shape like the angle, curve, width or custom geometry tweaks.</p></td>
           <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Adjustment handle cursor arrow.png' | url }}" alt="Move arrow" style="max-width:50px; width:100%; height:auto; vertical-align:middle"></td>
         </tr>
         <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Rotate 3D model example.gif' | url }}">
-          <td>(3D Models only) Hover over the central rotate handle<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Rotate 3D model handle.png' | url }}" alt="Rotate handle on a selected 3D model" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></p></td>
+          <td><strong>(3D Models only) Rotate</strong>: Hover over the central rotate handle<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Rotate 3D model handle.png' | url }}" alt="Rotate handle on a selected 3D model" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></p></td>
           <td><p>This is for 3D models only. Hover over the 3D model and when the cursor icon changes to the rotate icon you can then click and drag to rotate the model around anyway.</p></td>
           <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Rotate arrow.png' | url }}" alt="Move arrow" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></td>
         </tr>
@@ -294,7 +294,7 @@ active: word
       <tbody>
         <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Resize image.gif' | url }}">
           <td>
-            <p>Hover over sizing handles<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Sizing handles.png' | url }}" alt="Sizing handles indicated on an image's selection frame" style="max-width:175px; width:100%; height:auto; vertical-align:middle"></p></td>
+            <p><strong>Resize</strong>: Hover over sizing handles<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Sizing handles.png' | url }}" alt="Sizing handles indicated on an image's selection frame" style="max-width:175px; width:100%; height:auto; vertical-align:middle"></p></td>
             <td>Click and drag the sizing handles (horizonal, vertical or diagonal) to resize; drag inward to reduce the size, drag outward to increase the size.</p>
             <p>A note on proportions when resizing:
             <ul>
@@ -312,22 +312,22 @@ active: word
           </td>
         </tr>
         <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Rotate image.gif' | url }}">
-          <td>Hover over the rotate handle<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Rotate handle.png' | url }}" alt="Rotate handle on an image's selection frame" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></p></td>
+          <td><strong>Rotate</strong>: Hover over the rotate handle<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Rotate handle.png' | url }}" alt="Rotate handle on an image's selection frame" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></p></td>
           <td><p>Click and drag the rotate handle clockwise or anti-clockwise to rotate the image.</p> <p>Alternatively you can also use the <strong>Layout Options</strong> or <strong>Picture Format</strong> tab for precise rotation like 90° or flip horizontal/vertical.</p></td>
           <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Rotate arrow.png' | url }}" alt="Rotate arrow" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></td>
         </tr>
         <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Move image.gif' | url }}">
-          <td>Hover anywhere over the image/shape</td>
-          <td><p>Hover anywhere over the image/shape and the cursor changes to a four-way arrow. Click and drag to move the image around.</p> <p><u>Note</u>: By default images fit within the text sharing a line with it which will restrict how and where you move it. To move images more freely you can change its <a href="layout-options-int">layout options</a> so it 'floats' above, below or amongst text.</p></td>
+          <td><strong>Move</strong>: Hover anywhere over the image/shape</td>
+          <td><p><strong>Move</strong>: Hover anywhere over the image/shape and the cursor changes to a four-way arrow. Click and drag to move the image around.</p> <p><u>Note</u>: By default images fit within the text sharing a line with it which will restrict how and where you move it. To move images more freely you can change its <a href="layout-options-int">layout options</a> so it 'floats' above, below or amongst text.</p></td>
           <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Move arrow grey background.png' | url }}" alt="Move arrow" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></td>
         </tr>
         <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Adjustment handle example.gif' | url }}">
-          <td>(Shapes only) Hover over adjustment handle<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Adjustment handle.png' | url }}" alt="Adjustment handle on an shape's selection frame" style="max-width:125px; width:100%; height:auto; vertical-align:middle"></p></td>
+          <td><strong>(Shapes only) Alter</strong>: Hover over adjustment handle<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Adjustment handle.png' | url }}" alt="Adjustment handle on an shape's selection frame" style="max-width:125px; width:100%; height:auto; vertical-align:middle"></p></td>
           <td><p>Depending on the shape sometimes you'll see a yellow circle called an adjustment handle which you can click and drag to alter the internal dimensions of the shape like the angle, curve, width, tail length or custom geometry tweaks.</p></td>
           <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Adjustment handle cursor arrow.png' | url }}" alt="Move arrow" style="max-width:50px; width:100%; height:auto; vertical-align:middle"></td>
         </tr>
         <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Images/Rotate 3D model example.gif' | url }}">
-          <td>(3D Models only) Hover over the central rotate handle<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Rotate 3D model handle.png' | url }}" alt="Rotate handle on a selected 3D model" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></p></td>
+          <td><strong>(3D Models only) Rotate</strong>: Hover over the central rotate handle<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Rotate 3D model handle.png' | url }}" alt="Rotate handle on a selected 3D model" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></p></td>
           <td><p>This applies to 3D models only; clicking and dragging the central rotate icon lets you rotate the model around on a Y and Z axis.</p></td>
           <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Rotate arrow.png' | url }}" alt="Move arrow" style="max-width:75px; width:100%; height:auto; vertical-align:middle"></td>
         </tr>
