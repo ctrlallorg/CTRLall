@@ -99,6 +99,7 @@ active: word
   <h2>Font tools</h2>
   <p>The tools help format your text in various ways, take a look at the examples below.</p>
   <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middlee"></p>
+  <div class="tooltip-wrapper">
   <table>
   <colgroup>
         <col style="width: 20%;">
@@ -161,6 +162,7 @@ active: word
       </tr>
     </tbody>
   </table>
+  </div>
 
   <p>You can click the <strong>bottom right corner button</strong> to bring up further <a href="/word/font-options/" target="_blank">Font options</a>.</p>
 
@@ -168,6 +170,7 @@ active: word
   <p>Paragraph formatting tools let you change the look of content on the page. Take a look at the examples below.</p>
   <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Paragraph.png' | url }}"  alt="Home Paragraph tools on ribbon in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle"></p>
 
+  <div class="tooltip-wrapper">
   <table>
   <colgroup>
         <col style="width: 20%;">
@@ -254,6 +257,7 @@ active: word
       </tr>
     </tbody>
   </table>
+  </div>
 
 <h1>Where to now?</h1>
 <p>Now you've got the basics of formatting tools try experimenting with them on text in a document, it's the best way to learn how they work. For more font and paragraph options take a look at these articles:<p>

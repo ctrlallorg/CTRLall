@@ -6,7 +6,7 @@ canonical: /word/tables-formatting/
 description: Style tables in Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-tables-formatting-v1
 date: 2025-10-26
-last_modified: 2025-12-31
+last_modified: 2026-01-04
 difficultyLevels:
   - level: Beginner
     description: "Introduces formatting and styleing tables with clear visual cues."
@@ -56,10 +56,14 @@ active: word
   <ul style="list-style-type: circle;">
       <li><a href="#table-shading-beg">Table shading</a></li>
       <li><a href="#table-borders-beg">Table borders</a></li>
+      <li><a href="#table-styles-beg">Table styles</a></li>
   </ul>
 
   <h4>I want my content to be at the bottom or middle of cells, not fixed the top.</h4>
   <p>This is changed by altering the <strong>table cell alignment</strong> which is explored in the intermediate version of this article.</p>
+
+  <h4>My copied text has line spacing I want to get rid of</h4>
+  <p>Take a look at the intermediate version of this article in the section <i>Remove Paragraph Spacing from Table</i>.</p>
 
   <h2 id="table-shading-beg">Table shading</h2>
   <p>You can colour in the background of your table easily. First select the cells you want to colour by clicking and dragging on them. In this example I've selected the header row.</p>
@@ -96,11 +100,12 @@ active: word
   <p>Once applied it'll look like this:</p>
   <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table borders colour beg 4.png' | url }}"  alt="Applied table border line colour in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
 
-  <h2>Table styles</h2>
-  <p>There are some preset table styles you can choose from to apply to your table. Just select the table (just click anywhere within it, you don't need to select the whole table), then under <strong>Table Design</strong> select a style from the <strong>Table Styles gallery</strong> on the ribbon.</p>
-  <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table styles beg.gif' | url }}"  alt="Demonstration apply table styles in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
+  <h2 id="table-styles-beg">Table styles</h2>
+  <p>There are some preset table styles you can choose from to apply to your table. Just select the table (just click anywhere within it, you don't need to select the whole table), then under <strong>Table Design</strong> select a style from the <strong>Table Styles gallery</strong> on the ribbon. You can hover over the styles to see what your table will look like in that style. Click on a style to apply it.</p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table styles beg.gif' | url }}"  alt="Demonstration apply table styles in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
   <p><u>Note</u>: If you click the arrow to the right of the <strong>Table Styles gallery</strong> it will show a menu with more options to choose from.</p>
-
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Styles Gallery expand button.png' | url }}"  alt="Styles Gallery expand button on ribbon in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Styles Gallery expanded.png' | url }}"  alt="Styles Gallery expanded in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
 
 </section>
 

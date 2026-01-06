@@ -373,7 +373,6 @@ function updateSvgIndent() {
       <input type="range" id="intFirstLineIndent" min="0" max="5" step="0.25" value="0">
       <span id="intFirstLineVal">0.00</span> cm
     </div>
-
     <div class="control-row">
       <label for="intHangingIndent">
         <img src="{{ '/assets/images/word/Indents/Hanging Indent.png' | url }}" alt="Hanging indent">
@@ -382,7 +381,6 @@ function updateSvgIndent() {
       <input type="range" id="intHangingIndent" min="0" max="5" step="0.25" value="0">
       <span id="intHangingVal">0.00</span> cm
     </div>
-
     <div class="control-row">
       <label for="intLeftIndent">
         <img src="{{ '/assets/images/word/Indents/Left Indent.png' | url }}" alt="Left indent">

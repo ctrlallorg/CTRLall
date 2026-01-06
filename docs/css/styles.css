@@ -769,7 +769,7 @@ table.shortcut-tables-cursor-icons td:nth-child(3) {
   max-width: 100%;
   overflow-x: auto;
   box-sizing: border-box;
-  padding-right: 4px; /* makes right border visible */
+  padding-right: 4px; /* makes right border visible */  
 }
 
 
@@ -1179,6 +1179,7 @@ body {
   align-items: flex-start;
   position: relative;
   padding-top: 30px;
+  padding-right: 30px;
   box-sizing: border-box;
 }
 
@@ -1208,7 +1209,7 @@ body {
 }
 
 .main-column {
-  margin-left: 280px; /* match sidebar width */
+  margin-left: 250px; /* match sidebar width */
   transition: margin-left 0.3s ease;
 }
 

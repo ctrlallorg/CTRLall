@@ -74,11 +74,11 @@ active: word
 
   <h2>View tab</h2>
   <p>Under the <strong>View</strong> tab you have several options to zoom and have choose whether to have one or more pages shown on screen.</p>
-  <p><img class="thumbnail border left" src="{{ '/assets/images/word/Pages and Views/Zoom on Ribbon.png' | url }}"  alt="View tab with zoom options on Ribbon in Word" style="max-width:275px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border left" src="{{ '/assets/images/word/Pages and Views/Zoom on Ribbon.png' | url }}"  alt="View tab with zoom options on Ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h3>Zoom</h3>
   <p>The first option to talk about is <strong>Zoom</strong>. But instead of clicking on the button above within <strong>View > Zoom</strong>, let's look at the zoom scroller as it's quicker to use; it's found in the bottom right of the screen on the <strong>status bar</strong> discussed in the <a href="/word/getting-started-word/">Getting started with Word</a> article.</p>
-  <p><img class="thumbnail border left" src="{{ '/assets/images/word/Pages and Views/Zoom slider.png' | url }}"  alt="Zoom slider on statu bar in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border left" src="{{ '/assets/images/word/Pages and Views/Zoom slider.png' | url }}"  alt="Zoom slider on statu bar in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
   <p>There are other ways to zoom as well:</p>
   <ul>
       <li>If you're using a mouse, the fastest way, and <u>the way I'd recommend zooming</u> for ease, is to hold down <strong>Ctrl + slide the mouse wheel up</strong> to zoom in and <strong>Ctrl + slide the mouse wheel down</strong> to zoom out. If you don't have a mouse some laptop mousepads offer this function, normally down one side of the mousepad.</li>
@@ -93,8 +93,8 @@ active: word
 
   <h3>Zoom options</h3>
   <p>You can find zoom options by clicking on the <strong>percentage</strong> on the right of the zoom scroller (found bottom right of the screen), or by clicking the <strong>Zoom</strong> button under <strong>View > Zoom</strong> shown above.</p>
-  <img class="thumbnail border left" src="{{ '/assets/images/word/Pages and Views/Zoom options via slider.png' | url }}"  alt="Zoom options via zoom scroller in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle">
-  <img class="thumbnail border left" src="{{ '/assets/images/word/Pages and Views/Zoom on Ribbon Zoom option.png' | url }}"  alt="View tab Zoom options on Ribbon in Word" style="max-width:275px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail border left" src="{{ '/assets/images/word/Pages and Views/Zoom options via slider.png' | url }}"  alt="Zoom options via zoom scroller in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail border left" src="{{ '/assets/images/word/Pages and Views/Zoom on Ribbon Zoom option.png' | url }}"  alt="View tab Zoom options on Ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle">
 
 
 
@@ -110,10 +110,10 @@ active: word
 
   <h2>Layout tab</h2>
   <p>Under <strong>Layout</strong> you can change the <strong>size</strong> and <strong>orientation</strong> of a page. You can also alter <strong>margins</strong>, <strong>columns</strong> and apply other tools like <strong>hyphenation</strong> page breaks and section breaks which are a little more advanced.</p>
-  <p><img class="thumbnail border" src="{{ '/assets/images/word/Pages and Views/Layout Page Setup.png' | url }}"  alt="Layout tab options on ribbon in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Pages and Views/Layout Page Setup.png' | url }}"  alt="Layout tab options on ribbon in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
 
   <p><strong>Size</strong> and <strong>Orientation</strong> are the most common tools you 'll use here:</p>
-  <p><img class="thumbnail" src="{{ '/assets/images/word/Pages and Views/Orientation and Size.png' | url }}"  alt="Page Orientation and Size options in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail" src="{{ '/assets/images/word/Pages and Views/Orientation and Size.png' | url }}"  alt="Page Orientation and Size options in Word" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h1>Where to now?</h1>
     <ul>

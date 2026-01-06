@@ -6,7 +6,14 @@ canonical: /word/images/
 description: A guide on everything about images and graphic visuals in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-images-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2026-01-04
+difficultyLevels:
+  - level: Beginner
+    description: "Introduces image basics with clear visual cues."
+    urlSuffix: "#beginner"
+  - level: Intermediate
+    description: "Expands on image basics with advanced information and options."
+    urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
   - ctrlall
@@ -41,11 +48,102 @@ active: word
 
 <h1>Images and graphic visuals</h1>
 
+<article class="difficulty-wrapper" role="article" aria-label="Images insertion tutorial with beginner and intermediate versions">
+<div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
+<!-- Beginner version -->
+<div class="difficulty beginner-version"  aria-label="Beginner introduction to inserting images">
+
+<section class="section-light">
+<p>Word has several options for inserting images and graphic visuals. Here's a quick look at each type you can insert:</p>
+
+<div class="tooltip-wrapper" style="margin: 2rem 0rem 1rem; text-align: left;">
+  <table>
+  <colgroup>
+        <col style="width: 20%;">
+        <col style="width: 80%;">
+      </colgroup>
+  <thead>
+    <tr>
+      <th>Image/Visual<br>graphic type</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Images/Pictures</td>
+      <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Picture inserted.png' | url }}" alt="Inserted image of a dog with selection frame around it in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></td>
+    </tr>
+    <tr>
+      <td>Shapes</td>
+      <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Typing inside shape.png' | url }}" alt="Shape with text in Word" style="max-width:100px; width:100%; height:auto; vertical-align:middle"></td>
+    </tr>
+    <tr>
+      <td>Icons</td>
+      <td><img class="thumbnail" src="{{ '/assets/images/word/Images/Icon examples.png' | url }}" alt="Icon examples in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle"></td>
+    </tr>
+    <tr>
+      <td>3D Models</td>
+      <td><img class="thumbnail" src="{{ '/assets/images/word/Images/3D model examples.png' | url }}" alt="3D model examples in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle"></td>
+    </tr>
+</table>
+</div>
+<p>You can also insert WordArt, SmartArt, charts and screenshots; these are explored in the intermediate version of this article.</p>
+
+<h2>Inserting images/pictures</h2>
+<p>You can insert images stored on your device, choose from Word's own library, or search for images online using the Bing search engine. To find these options go to the <strong>Insert</strong> tab on the ribbon, then select <strong>Pictures</strong>.</p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Insert images.png' | url }}" alt="Insert pictures on ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
+<p><u>Note</u>: If you have a Microsoft 365 subscription you'll also see an option to generate an image by Microsoft Copilot AI.</p>
+<h3>Inserting images/pictures from your device</h3>
+<p>You'll most likely want to insert an image file you already have. To do this first select where you want the image to appear (indicated by the <span class="glossary-hover" data-term="insertion-point">insertion point</span> after you've clicked), then go to the <strong>Insert</strong> tab on the ribbon, and select <strong>Pictures > Insert from Device</strong>:</p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Insert images from this device.png' | url }}" alt="Insert pictures from this device on ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
+<p>This opens up an <strong>Insert Picture</strong> browse window to find and choose the image file to insert into your document. There are common shortcuts on the side pane such as <strong>Desktop</strong> and <strong>Downloads</strong> to help you navigate to the file. Once located, select the image file to insert by clicking on it once, then click the <strong>Insert</strong> button at the bottom of the window.</p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Images/From device.png' | url }}" alt="Insert pictures from this device on ribbon in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle"></p>
+<p>The image will now appear on the page. Depending on the size of the file you may need to <a href="/word/altering-images-and-objects/#resize">resize it</a>. In the example below the image has a high resolution (quality) so it takes up a lot of space.</p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Picture inserted.png' | url }}" alt="Insert pictures from this device on ribbon in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
+
+<h2>Inserting shapes</h2>
+<p>Word has many different shapes you can insert. Some allow you to type text inside them too. To insert a shape go to <strong>Insert > Shapes</strong>. A large drop down menu will appear with shapes to choose from.</p>
+<img class="thumbnail" src="{{ '/assets/images/word/Images/Insert shapes.png' | url }}" alt="Insert icons from Insert on ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Insert shapes options.png' | url }}" alt="Insert shapes menu on ribbon in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle"></p>
+<p>Click on one and your mouse cursor icon changes to a crosshair.</p>
+<p><img class="thumbnail left" src="{{ '/assets/images/word/Images/Shapes cursor crosshair.png' | url }}" alt="Insert shapes menu on ribbon in Word" style="max-width:50px; width:100%; height:auto; vertical-align:middle"></p>
+<p>From here you can either <strong>single left click</strong> to insert the shape at a default size or <strong>hold click and drag</strong> to drag out the shape to a custom size.</p>
+<p>Single click for a default size:</p>
+<p><img class="thumbnail left" src="{{ '/assets/images/word/Images/Shape single click.gif' | url }}"  alt="" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
+<p>Or click and drag a shape to the size you want:</p>
+<p><img class="thumbnail left" src="{{ '/assets/images/word/Images/Shape click and drag.gif' | url }}"  alt="" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
+
+
+<p>Once inserted you can alter shapes in their position, colour, size and some let you type inside them. To edit and alter shapes see this article: <a href="/word/altering-images-and-objects/">Altering images and objects</a>.</p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Typing inside shape.png' | url }}" alt="Typing inside a shape" style="max-width:115px; width:100%; height:auto; vertical-align:middle"></p>
+
+<h2>Inserting icons</h2>
+<p>Insert an icon via <strong>Insert > Icons</strong>:</p>
+<img class="thumbnail" src="{{ '/assets/images/word/Images/Insert icons.png' | url }}" alt="Insert icons from Insert on ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle">
+<p>This brings up a window with icons to choose from.</p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Stock images gallery.png' | url }}" alt="Stock images icon gallery in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle"></p>
+<p>Once inserted you can colour and resize icons. To see how to do this look at this article: <a href="/word/altering-images-and-objects/">Altering images and objects</a>.</p>
+
+<h2>Inserting 3D Models</h2>
+<p>Insert a 3D Model via <strong>Insert > 3D Models</strong>:</p>
+<img class="thumbnail" src="{{ '/assets/images/word/Images/Insert 3D models.png' | url }}" alt="Insert 3D models from Insert on ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle">
+<p>This brings up a window with 3D Models to choose from. Some of them are animated as well.</p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Images/3D models.png' | url }}" alt="3D models gallery in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+<p>You can move, resize and rotate 3D Models, as well as rotate some of them on an X-axis (left/right) and Y-axis (up/down). To learn how to do this take a look at this article: <a href="/word/altering-images-and-objects/">Altering images and objects</a>.</p>
+
+
+</section>
+
+</div>
+
+<!-- Intermediate version -->
+<div class="difficulty intermediate-version" aria-label="Intermediate article exploring inserting images and options" style="display:none;">
+
 <section class="section-light">
 <h2>Types of Images/Graphic visuals in Word</h2>
 <p>Under the <strong>Insert</strong> tab on the ribbon are options to add images and graphic visuals into your document. Here's a quick gloss over what each of them are. Click the links to see how to insert them.</p>
-<div class="table-wrapper">
-<table>
+<div class="tooltip-wrapper">
+  <table>
   <colgroup>
         <col style="width: 15%;">
         <col style="width: 40%;">
@@ -110,11 +208,12 @@ active: word
 
 <h2 id="image-insert">Inserting pictures/images</h2>
 <p>You can insert images into a document from different sources via <strong>Insert > Pictures</strong>:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Ribbon images.png' | url }}" alt="Insert picture images menu on ribbon in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Insert images.png' | url }}" alt="Insert picture images menu on ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
 <ul>
-    <li><strong>From Device</strong> - choose from local image files stored on your computer.</li>
-    <li><strong>Stock Images</strong> - choose from online images part of Microsoft's curated royalty-free images.</li>
-    <li><strong>Online Pictures</strong> - search and select images found online via Bing image search online. Keep in mind that licensing usage for these images may vary.</li>
+    <li><strong>From Device...</strong> - choose from local image files stored on your computer.</li>
+    <li><strong>Generate an Image...</strong> - generate an AI image with Microsoft Copilot.</li>
+    <li><strong>Stock Images...</strong> - choose from online images part of Microsoft's curated royalty-free images.</li>
+    <li><strong>Online Pictures...</strong> - search and select images found online via Bing image search online. Keep in mind that licensing usage for these images may vary.</li>
 </ul>
 
 
@@ -219,7 +318,7 @@ active: word
 <p>Select <strong>Insert</strong> > <strong>Screenshot</strong> to see a thumbnail gallery of windows that you have open. (<u>Note</u>: it won't show any minimised windows.)</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Screenshot.png' | url }}" alt="Screenshot menu on ribbon in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
 <p>Click on one and a screenshot of it will be inserted into your document wherever your insertion point was:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Screenshot inserted.png' | url }}" alt="Screenshot inserted with selection frame showing" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Screenshot inserted.png' | url }}" alt="Screenshot inserted with selection frame showing" .style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 <p>Alternatively you can choose <strong>screen clip</strong> which allows you to drag and select a certain area of the screen to screenshot, this will then appear in the document for you.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Screen clipping inserted.gif' | url }}" alt="Screen clipping taken and inserted onto page in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 <p><u>Note</u>: A quicker way to take a screen clip anytime in Windows is with the keyboard shortcut <strong>Windows + Shift + S</strong>.</p>
@@ -231,3 +330,5 @@ active: word
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Wordart inserted.png' | url }}" alt="WordArt inserted onto page" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 
 </section>
+</div>
+</article>
