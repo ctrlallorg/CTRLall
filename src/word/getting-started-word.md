@@ -68,13 +68,14 @@ tags:
   - word examples
 active: word
 ---
-<h1>Getting started with Microsoft Word</h1>
-<p>If you’re new to Word, you might also be new to using Windows. This article guide is made for beginners using Word on a computer. If you're already a little familiar with Word try the Intermediate version of this article (use the toggle in the side menu).</p>
 <article class="difficulty-wrapper" role="article" aria-label="An introduction to Microsoft Word with beginner and intermediate versions">
-<div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
+<h1>Getting started with Microsoft Word</h1>
+<p>If you’re new to Word, you might also be new to using Windows. The beginner article guide is made for beginners using Word on a computer. If you're already a little familiar with Word try the Intermediate version of this article using the beginner/intermediate toggle in the side menu (click the top left button to open the side menu if it's not already open).
+
 <!-- Beginner version -->
+<div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
 <div class="difficulty beginner-version"  aria-label="Beginner introduction to Microsoft Word">
-    <section class="section-light">
+  <section class="section-light">
       <p>Microsoft Word (often just called 'Word') is a program for writing and editing documents. It’s the most common <span class="glossary-hover" data-term="application">application</span> ('app' for short) for <span class="glossary-hover" data-term="word-processing">word processing</span> around the world. Word is part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> package which also includes other programs like Outlook for email and Excel for spreadsheets.</p>
       <p>In this article we'll go step by step through the basics, including:</p>
       <ul>
@@ -95,7 +96,7 @@ active: word
           <p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 1.png' | url }}"  alt="Searching for the Word app with the taskbar search bar" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
           <p>Word will then appear in search results above. You can click on either of these two highlighted buttons below to open Word:</p>
           <p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 2.png' | url }}"  alt="Taskbar search results for Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
-          <strong>Tip</strong>: Once you've opened the app, <strong>right click</strong> on the blue Word app icon and select <strong>Pin to taskbar</strong> from the menu. Pinning the Word app to the taskbar will make it stay there after you close it:
+          <strong>Tip</strong>: Once you've opened the app, <strong>right click</strong> on the blue Word app icon and select <strong>Pin to taskbar</strong> from the menu. Pinning the Word app to the taskbar will make it stay there after you close it, making iteasier and quicker to access next time:
           <p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Pin Word app taskbar.png' | url }}"  alt="Pin Word app to the taskbar" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
           <h2 id="create-new-word-doc">How to create a new Word document</h2>
             <p>When you start Word you'll see a emnu screen. To start a brand new document click the highlighted option <strong>Blank document</strong>. There are also many different <a href="/glossary/#template">templates</a> you can choose from here as well.</p>
@@ -218,7 +219,7 @@ active: word
 
 <!-- Intermediate version -->
 <div class="difficulty intermediate-version" aria-label="Intermediate article exploring setting up Microsoft Word with advanced topic discussion." style="display:none;">
-  <p>You are probably already a little familiar with Word. If not try the beginner version of this article (use the toggle in the side menu).</p>
+  <p>You are probably already a little familiar with Word. If not try the beginner version of this article (use the beginner/intermediate toggle in the side menu).</p>
     <h2>Setting up Word</h2>
     <section class="section-light">
       <p>This article explores everything about getting set up with Word:</p>
