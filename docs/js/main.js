@@ -356,6 +356,133 @@ document.addEventListener('DOMContentLoaded', checkOrientation);
     });
   }
 });
+
+    
+// ─────────────────────────────────────────────────────────────
+// Difficulty system: beginner / intermediate toggle
+// ─────────────────────────────────────────────────────────────
+
+// 1) URL override — store only
+(function () {
+  const params = new URLSearchParams(window.location.search);
+  const urlDifficulty = params.get("difficulty");
+
+  if (urlDifficulty === "beginner" || urlDifficulty === "intermediate") {
+    localStorage.setItem("preferredView", urlDifficulty);
+  }
+})();
+
+// 2) Page flags
+const isIntermediateOnly = document.body.dataset.intermediateOnly === "true";
+const isNoDifficulty = document.body.dataset.noDifficulty === "true";
+
+// 3) Determine initial view
+const savedView = localStorage.getItem("preferredView") || "beginner";
+const initialView = isIntermediateOnly ? "intermediate" : savedView;
+
+// 4) Difficulty controller
+function setView(view, isIntermediateOnlyArg = false, isNoDifficultyArg = false) {
+  let effectiveView = view;
+
+  // Enforce intermediate-only
+  if (isIntermediateOnlyArg) {
+    effectiveView = "intermediate";
+  }
+
+  // Persist preference only when allowed
+  if (!isIntermediateOnlyArg && !isNoDifficultyArg) {
+    localStorage.setItem("preferredView", effectiveView);
+  }
+
+  const beginner = document.querySelector(".beginner-version");
+  const intermediate = document.querySelector(".intermediate-version");
+
+  // ─── Show/hide versions with CSS only ─────────────────────
+  if (beginner) {
+    beginner.style.display = effectiveView === "beginner" ? "block" : "none";
+  }
+  if (intermediate) {
+    intermediate.style.display = effectiveView === "intermediate" ? "block" : "none";
+  }
+
+  // ─── Update badge ─────────────────────────────
+  const badge = document.getElementById("article-badge");
+  if (badge) {
+    if (isNoDifficultyArg) {
+      badge.className = "article-badge disabled";
+      badge.textContent = "ℹ️ No Difficulty Toggle";
+    } else if (isIntermediateOnlyArg) {
+      badge.className = "article-badge intermediate-only";
+      badge.textContent = "⚡ Intermediate Only";
+    } else {
+      badge.className = "article-badge " + effectiveView;
+      badge.textContent =
+        effectiveView === "beginner"
+          ? "⭐ Beginner Level"
+          : "⚡ Intermediate Level";
+    }
+  }
+
+  // ─── Update toggle buttons ─────────────────────────────
+  const beginnerBtn = document.getElementById("beginner-toggle");
+  const intermediateBtn = document.getElementById("intermediate-toggle");
+
+  if (beginnerBtn && intermediateBtn) {
+    if (isNoDifficultyArg) {
+      beginnerBtn.classList.remove("active");
+      intermediateBtn.classList.remove("active");
+      beginnerBtn.disabled = true;
+      intermediateBtn.disabled = true;
+      beginnerBtn.title = "Difficulty toggle not available on this page";
+      intermediateBtn.title = "Difficulty toggle not available on this page";
+    } else {
+      beginnerBtn.disabled = false;
+      intermediateBtn.disabled = false;
+      beginnerBtn.removeAttribute("title");
+      intermediateBtn.removeAttribute("title");
+
+      beginnerBtn.classList.toggle("active", effectiveView === "beginner");
+      intermediateBtn.classList.toggle(
+        "active",
+        effectiveView === "intermediate"
+      );
+
+      if (isIntermediateOnlyArg) {
+        beginnerBtn.disabled = true;
+        beginnerBtn.title = "This page is Intermediate level only";
+      }
+    }
+  }
+
+  // ─── Update nav labels ─────────────────────────────
+  if (!isNoDifficultyArg) {
+    document.querySelectorAll("a[data-beginner]").forEach((link) => {
+      link.textContent =
+        effectiveView === "beginner"
+          ? link.dataset.beginner
+          : link.dataset.intermediate;
+    });
+  }
+}
+
+// 5) Initial render
+setView(initialView, isIntermediateOnly, isNoDifficulty);
+
+// 6) Toggle listeners
+document
+  .getElementById("beginner-toggle")
+  ?.addEventListener("click", () => {
+    setView("beginner", isIntermediateOnly, isNoDifficulty);
+  });
+
+document
+  .getElementById("intermediate-toggle")
+  ?.addEventListener("click", () => {
+    setView("intermediate", isIntermediateOnly, isNoDifficulty);
+  });
+
+
+
 // ─── Glossary tooltip ───────────────
 document.addEventListener('DOMContentLoaded', async () => {
   const response = await fetch('/glossary');
@@ -549,6 +676,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     window.initSearch();
   }
 });
+
 // ─── Search Bar Logic ─────────────────────────────
 window.initSearch = function () {
   console.log("🔍 Search initialized");
@@ -672,89 +800,4 @@ window.initSearch = function () {
       suggestionsList.style.display = "none";
     }
   });
-};
-
-// ─── Difficulty Toggle ─────────────────────────────
-function setView(view, isIntermediateOnly = false, isNoDifficulty = false) {
-  if (!isIntermediateOnly && !isNoDifficulty) {
-    localStorage.setItem('preferredView', view);
-  } else if (isIntermediateOnly) {
-    view = 'intermediate';
-  }
-
-  // Show/hide article versions
-  const beginnerContent = document.querySelector('.beginner-version');
-  const intermediateContent = document.querySelector('.intermediate-version');
-  if (!isNoDifficulty && beginnerContent && intermediateContent) {
-    beginnerContent.style.display = (view === 'beginner') ? 'block' : 'none';
-    intermediateContent.style.display = (view === 'intermediate') ? 'block' : 'none';
-  }
-
-  // Update badge
-  const badge = document.getElementById('article-badge');
-  if (badge) {
-    if (isNoDifficulty) {
-      badge.className = 'article-badge disabled';
-      badge.textContent = 'ℹ️ No Difficulty Toggle';
-    } else {
-      badge.className = 'article-badge ' + (isIntermediateOnly ? 'intermediate-only' : view);
-      badge.textContent = isIntermediateOnly
-        ? '⚡ Intermediate Only'
-        : (view === 'beginner' ? '⭐ Beginner Level' : '⚡ Intermediate Level');
-    }
-  }
-
-  // Update toggle buttons
-  const beginnerBtn = document.getElementById('beginner-toggle');
-  const intermediateBtn = document.getElementById('intermediate-toggle');
-  if (beginnerBtn && intermediateBtn) {
-    if (isNoDifficulty) {
-      beginnerBtn.classList.remove('active');
-      intermediateBtn.classList.remove('active');
-      beginnerBtn.disabled = true;
-      intermediateBtn.disabled = true;
-      beginnerBtn.title = 'Difficulty toggle not available on this page';
-      intermediateBtn.title = 'Difficulty toggle not available on this page';
-    } else {
-      beginnerBtn.classList.toggle('active', view === 'beginner');
-      intermediateBtn.classList.toggle('active', view === 'intermediate');
-
-      if (isIntermediateOnly) {
-        beginnerBtn.disabled = true;
-        beginnerBtn.title = 'This page is Intermediate level only';
-        intermediateBtn.disabled = false;
-        intermediateBtn.removeAttribute('title');
-      } else {
-        beginnerBtn.disabled = false;
-        intermediateBtn.disabled = false;
-        beginnerBtn.removeAttribute('title');
-        intermediateBtn.removeAttribute('title');
-      }
-    }
-  }
-
-  // Update nav link labels only if not a no-difficulty page
-  if (!isNoDifficulty) {
-    document.querySelectorAll('a[data-beginner]').forEach(link => {
-      link.textContent = (view === 'beginner') ? link.dataset.beginner : link.dataset.intermediate;
-    });
-  }
-}
-
-window.onload = function() {
-  const isIntermediateOnly = document.body.dataset.intermediateOnly === "true";
-  const isNoDifficulty = document.body.dataset.noDifficulty === "true";
-
-  const savedView = localStorage.getItem('preferredView') || 'beginner';
-  const initialView = isIntermediateOnly ? 'intermediate' : savedView;
-
-  setView(initialView, isIntermediateOnly, isNoDifficulty);
-
-  const beginnerBtn = document.getElementById('beginner-toggle');
-  const intermediateBtn = document.getElementById('intermediate-toggle');
-
-  if (!isIntermediateOnly && !isNoDifficulty) {
-    if (beginnerBtn) beginnerBtn.onclick = () => setView('beginner');
-    if (intermediateBtn) intermediateBtn.onclick = () => setView('intermediate');
-  }
 };

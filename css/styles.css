@@ -852,6 +852,9 @@ table.shortcut-tables-cursor-icons td:nth-child(3) {
 }
 
 
+/* ───────────────────────────────────────────────
+   Difficulty Toggle Container
+   ─────────────────────────────────────────────── */
 .difficulty-toggle {
   display: flex;
   border: 1px solid #ccc;
@@ -860,25 +863,34 @@ table.shortcut-tables-cursor-icons td:nth-child(3) {
   margin: 1rem 0;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+  background: #f0f0f0;
 }
 
+/* Buttons */
 .difficulty-toggle button {
   flex: 1;
   padding: 0.5rem 1rem;
   border: none;
-  background: #f0f0f0;
+  background: transparent;
   cursor: pointer;
   font-weight: bold;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
+/* Hover (only when enabled) */
+.difficulty-toggle button:not(:disabled):hover {
+  background: #e4e4e4;
+}
+
+/* Active state (Intermediate default) */
 .difficulty-toggle button.active {
-  background: #2c3e50; /* default accent for Intermediate */
+  background: #2c3e50;
   color: #fff;
 }
 
-/* Override for Beginner active state */
+/* Beginner active override */
 #beginner-toggle.active {
-  background: #2d6a4f;   /* same green as badge text */
+  background: #2d6a4f;
   color: #fff;
 }
 
@@ -889,32 +901,44 @@ table.shortcut-tables-cursor-icons td:nth-child(3) {
   cursor: not-allowed;
 }
 
-
-
+/* ───────────────────────────────────────────────
+   Badge Styles
+   ─────────────────────────────────────────────── */
 .article-badge {
   display: inline-block;
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
   font-weight: bold;
   margin: 1rem 0 0.5rem 0;
+  font-size: 0.9rem;
 }
 
-
+/* Beginner badge */
 .article-badge.beginner {
   background: #d4f4dd;
   color: #2d6a4f;
 }
 
+/* Intermediate badge */
 .article-badge.intermediate {
   background: #e0e7ff;
   color: #2c3e50;
 }
 
+/* Intermediate-only badge */
 .article-badge.intermediate-only {
   background: #fde2e2;
   color: #2c3e50;
 }
 
+/* Disabled badge */
+.article-badge.disabled {
+  background: #e0e0e0;
+  color: #888;
+}
+
+
+/* Tables */
 
 /* Table row hover highlight style */
 .hover-table tbody tr:hover {
