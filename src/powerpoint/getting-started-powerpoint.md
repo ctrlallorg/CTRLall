@@ -61,13 +61,14 @@ active: powerpoint
 <h1>Getting started with Microsoft Powerpoint</h1>
 
 <article class="difficulty-wrapper" role="article" aria-label="An introduction to Microsoft PowerPoint with beginner and intermediate versions">
-If you’re new to PowerPoint, start with the beginner article. If you're already a little familiar with PowerPoint try the Intermediate version of this article using the toggle in the side menu (click the top left button to open the side menu).
 
 <!-- Beginner version -->
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
 <div class="difficulty beginner-version"  aria-label="Beginner introduction to Microsoft PowerPoint">
 
   <section class="section-light">
+  <p>If you’re new to PowerPoint read on. If you're already a little familiar with PowerPoint try the <a href="?difficulty=intermediate">intermediate version</a> of this article.</p>
+
   <p>Microsoft Powerpoint is slideshow presentation <span class="glossary-hover" data-term="application">application</span> used worldwide for professional and educational presentation. It comes as part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> suite, a package of several Microsoft applications like <span class="glossary-hover" data-term="microsoft-PowerPoint">PowerPoint</span> for creating and presenting slideshows, <span class="glossary-hover" data-term="microsoft-outlook">Outlook</span> for emails and <span class="glossary-hover" data-term="microsoft-excel">Excel</span> for spreadsheets.
 
   If you're new to Microsoft Powerpoint ('Powerpoint' for short, slideshow presentations made are commonly just referred to as 'PowerPoints' / 'PPTs' as well) this article starts from the ground up. In this article we'll explore:</p>
@@ -94,9 +95,9 @@ If you’re new to PowerPoint, start with the beginner article. If you're alread
 
 
 
-  <h2 id="create-new-powerpoin-beg">How to create a new PowerPoint presentation</h2>
+  <h2 id="create-new-powerpoint-beg">How to create a new PowerPoint presentation</h2>
   <p>When the PowerPoint app loads up you get the screen shown below. Click <strong>Blank Presentation</strong> up the top to get started. This will create a brand new blank presentation for you to edit.</p>
-  <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/New presentation.png' | url }}"  alt="" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/New presentation.png' | url }}"  alt="PowerPoint start screen showing Blank Presentation option" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
 
   <h2 id="open-powerpoint-beg">How to open a PowerPoint file</h2>
@@ -226,7 +227,7 @@ If you’re new to PowerPoint, start with the beginner article. If you're alread
 
 <!-- Intermediate version -->
 <div class="difficulty intermediate-version" aria-label="Intermediate article introducing Microsoft PowerPoint with greater depth for intermediate-level users" style="display:none;">
-  <p>This article is for those who are already a little familiar with PowerPoint. If you're brand new to PowerPoint, try the beginner version of this article using the beginner/intermediate toggle in the side menu (click the top left button to open the side menu if it's not already open).</p>
+  <p>This article is for those who are already a little familiar with PowerPoint. If you're brand new to PowerPoint try the <a href="?difficulty=beginner">beginner version</a> of this article.</p>
 
   <section class="section-light">
   <p>You've probably heard of Powerpoint before or seen a PowerPoint presentation at some time. PowerPoint is slideshow presentation <span class="glossary-hover" data-term="application">application</span> used globally for creating slideshows. It's part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> suite.
@@ -318,7 +319,7 @@ If you’re new to PowerPoint, start with the beginner article. If you're alread
 
   <h2 id="create-new-powerpoint">Create a new PowerPoint presentation</h2>
   <p>When the PowerPoint app loads up you get the screen shown below. Click <strong>Blank Presentation</strong> up the top to get started.</p>
-  <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/New presentation.png' | url }}"  alt="" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/New presentation.png' | url }}"  alt="PowerPoint start screen showing Blank Presentation option" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
 
   <h2 id="open-powerpoint">Opening an existing PowerPoint file</h2>

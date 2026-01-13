@@ -120,7 +120,7 @@ Then <strong>Save As</strong></p>
 
 In the browser window that appears decide on the <strong>file name</strong>, the file type (<strong>Save as file</strong> — the dropdown menu gives a large list of options) and the <strong>location</strong> to save it.
 
-<p><u>Note</u>: If you are saving as a different file type choose the file type before the location as Word can divert to a different default folder location for some file types. To change the default folder ocation see the Intermediate version of this article.</p>
+<p><u>Note</u>: If you are saving as a different file type choose the file type before the location as Word can divert to a different default folder location for some file types. To change the default folder ocation see the <a href="?difficulty=intermediate">intermediate version</a> of this article.</p>
 
 <p><img class="thumbnail left" src="{{ '/assets/images/word/Saving and Save as/Browse window.png' | url }}"  alt="Save As browse window in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 

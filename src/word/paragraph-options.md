@@ -119,8 +119,8 @@ active: word
     </table>
 
   <h3 id="outline-level-beg">Outline level</h3>
-  <p>Outline levels are a little trickier to understand and are explored in the intermediate version of this article. The main gist of this is whether you want Word to treat the paragraph or line at a higher level than normal text ('body text') like as a heading at 'level 1' or 'level 2' above the test. These levels are picked up by things like a table of contents in Word.</p>
-  <p>See the Intermediate version for more on this.</p>
+  <p>Outline levels are a little trickier to understand and are explored in the <a href="?difficulty=intermediate">intermediate version</a> of this article. The main gist of this is whether you want Word to treat the paragraph or line at a higher level than normal text ('body text') like as a heading at 'level 1' or 'level 2' above the test. These levels are picked up by things like a table of contents in Word.</p>
+  <p>See the <a href="?difficulty=intermediate">intermediate version</a> of this article for more on this.</p>
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Indents and Spacing Outline Level.png' | url }}"  alt="Paragraph Options Indents and Spacing Outline Level" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
 
@@ -169,7 +169,7 @@ active: word
   </table>
   </div>
   <br>
-  <p>More detail and examples are shown in the Intermediate version of this article if you want to know more. The Intermediate version also explores the second tab <strong>Line and Page Breaks</strong>.</p>
+  <p>More detail and examples are shown in the <a href="?difficulty=intermediate">intermediate version</a> of this article if you want to know more. The Intermediate version also explores the second tab <strong>Line and Page Breaks</strong>.</p>
 
 </section>
 </div>

@@ -118,8 +118,8 @@ active: word
 
   <h1>Where to now?</h1>
   <ul>
-  <li><strong>Embedded files (OLE objects)</strong>: Word lets you embedded other files into a Word document. These are known as OLE objects. You can essentially embed content from another file on the page or the file icon to be able to open it up. This is explored in the intermediate version of this article.</li>
-  <li><strong>Drawing canvas</strong>: A drawing canvas is a container which groups together images, graphic visuals and even text boxes in a locked area. This is also explored in the intermediate version of this article.</li>
+  <li><strong>Embedded files (OLE objects)</strong>: Word lets you embedded other files into a Word document. These are known as OLE objects. You can essentially embed content from another file on the page or the file icon to be able to open it up. This is explored in the <a href="?difficulty=intermediate">intermediate version</a> of this article.</li>
+  <li><strong>Drawing canvas</strong>: A drawing canvas is a container which groups together images, graphic visuals and even text boxes in a locked area. This is also explored in the <a href="?difficulty=intermediate">intermediate version</a> of this article.</li>
   </ul>
 
   </section>

@@ -98,7 +98,7 @@ active: word
 
 
 
-  <p>There are a range of zoom options letting you choose how to display the page(s). 100% is the standard zoom level for editing. Here you can choose between options to zoom via a <strong>percentage</strong> or to the <strong>page width</strong> or to see the <strong>whole page</strong>. I wouldn't recommend using <strong>Many pages</strong> unless you're looking for a page that is easily recognisable viewed alongside multiple pages. This option is explored in the intermediate version of this article if you want to understand it better. <strong>Text width</strong> as well is very zoomed in and not ideal for editing a document at length.</p>
+  <p>There are a range of zoom options letting you choose how to display the page(s). 100% is the standard zoom level for editing. Here you can choose between options to zoom via a <strong>percentage</strong> or to the <strong>page width</strong> or to see the <strong>whole page</strong>. I wouldn't recommend using <strong>Many pages</strong> unless you're looking for a page that is easily recognisable viewed alongside multiple pages. This option is explored in the <a href="?difficulty=intermediate">intermediate version</a> of this article if you want to understand it better. <strong>Text width</strong> as well is very zoomed in and not ideal for editing a document at length.</p>
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Pages and Views/Zoom.png' | url }}"  alt="Zoom tool options in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h3>One Page and Multiple Pages</h3>  

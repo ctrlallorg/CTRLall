@@ -87,7 +87,7 @@ active: word
     </tr>
 </table>
 </div>
-<p>You can also insert WordArt, SmartArt, charts and screenshots; these are explored in the intermediate version of this article.</p>
+<p>You can also insert WordArt, SmartArt, charts and screenshots; these are explored in the <a href="?difficulty=intermediate">intermediate version</a> of this article.</p>
 
 <h2>Inserting images/pictures</h2>
 <p>You can insert images stored on your device, choose from Word's own library, or search for images online using the Bing search engine. To find these options go to the <strong>Insert</strong> tab on the ribbon, then select <strong>Pictures</strong>.</p>

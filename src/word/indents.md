@@ -47,21 +47,31 @@ active: word
 
 <section class="section-light">
 
-  <h3>Indenting</h3>
+  <p>Here's what this article covers about indents:</p>
+    <ul>
+      <li><a href="#indenting">Indenting</a></li>
+      <li><a href="#indent-ribbon">Indenting from the ribbon</a></li>
+      <li><a href="#indent-paragraph-options">Indenting with Paragraph Options</a></li>
+      <li><a href="#indent-ruler">Indenting with the ruler</a></li>
+      <li><a href="#lists-and-indents">Lists and indents</a></li>
+      <li><a href="#table-lists-and-indents">Table lists and indents</a></li>
+    </ul>
+
+  <h3 id="indenting">Indenting</h3>
 
   <p>Indents are spaces between content and the margin space on the page. Increasing an indent moves content further inward away from the page margin and decreasing moves it toward the mergin. The quickest way to apply an indent to a line or paragraph is set the <span class="glossary-hover" data-term="insertion-point">insertion point</span> to the left of the line and press the <strong>Tab</strong> button on your keyboard.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Indents/Indent example.png' | url }}" alt="An indented paragraph" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
   <p>To remove an indent simply delete them with <strong>backspace</strong> key.</p>
 
-  <h3>Indenting from the ribbon</h3>
+  <h3 id="indent-ribbon">Indenting from the ribbon</h3>
   <p>There are two buttons under <strong>Home > Paragraph > Increase/Decrease Indent</strong> which we looked at in the <a href="/word/formatting-text">Formatting text</a> article, which allow you to increase or decrease an indent:</p>
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Home Paragraph Increase Decrease Indents.png' | url }}"  alt="Home Paragraph Increase Decrease Indents" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
-  <h3>Indenting with Paragraph Options</h3>
+  <h3 id="indent-paragraph-options">Indenting with Paragraph Options</h3>
   <p>For beginners one feature to consider is the <strong>Paragraph Options</strong> which allow you to apply left and right indentation to a selected paragraph(s), see here for more: <a href="/word/paragraph-options/#indentation-beg">Paragraph Options - Indentation</a>.</p>
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Indents and Spacing Indentation.png' | url }}"  alt="Paragraph Options Indents and Spacing Indentation" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 
-  <h3>Indenting with the ruler</h3>
+  <h3 id="indent-ruler">Indenting with the ruler</h3>
   <p>You can also adjust indents with <strong>indent markers</strong> on the <strong>ruler</strong> tool. You'll first need to enable to the ruler; go to <strong>View > Show</strong> and check <strong>Ruler</strong> and you'll see vertical and horizontal rulers appear on the screen.</p>
   <p><img class="thumbnail left" src="{{ '/assets/images/word/Indents/Ruler.png' | url }}" alt="Ruler tool checkbox on ribbon in Word" style="max-width:175px; width:100%; height:auto; vertical-align:middle"></p>
   Make sure your <span class="glossary-hover" data-term="insertion-point">insertion point</span> is pointed on the paragraph first. On the horizontal ruler above the page you'll see three indent markers clumped together on the left like this:
@@ -321,14 +331,22 @@ function updateSvgIndent() {
 
 <section class="section-light">
 
+  <p>Here's what this article covers about indents:</p>
+    <ul>
+      <li><a href="#indent-paragraph-options-int">Indenting with Paragraph Options</a></li>
+      <li><a href="#indent-ruler-int">Indenting with the ruler</a></li>
+      <li><a href="#lists-and-indents-int">Lists and indents</a></li>
+      <li><a href="#table-lists-and-indents-int">Table lists and indents</a></li>
+    </ul>
+
   <p>You may already know how to create a left indent by pressing <strong>Tab</strong> or that you can use <strong>Home > Paragraph > Increase/Decrease Indent</strong> buttons to increase and decrease indents within the margins. But there are other ways to do this as well.</p>
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Home Paragraph Increase Decrease Indents.png' | url }}"  alt="Home Paragraph Increase Decrease Indents" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
-  <h3>Indenting with Paragraph Options</h3>
+  <h3 id="indent-paragraph-options-int">Indenting with Paragraph Options</h3>
   <p>Going to <strong>Paragraph Options</strong> via <strong>Home > Paragraph > bottom right corner button</strong> lets you apply left and right indentation to a selected paragraph(s), or, if you don't select, see here for more: <a href="/word/paragraph-options/#indentation">Paragraph Options - Indentation</a>.</p>
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Indents and Spacing Indentation.png' | url }}"  alt="Paragraph Options Indents and Spacing Indentation" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 
-  <h3>Indenting with the ruler</h3>
+  <h3 id="indent-ruler-int"">Indenting with the ruler</h3>
   <p>You can also adjust indents with <strong>indent markers</strong> on the <strong>ruler</strong> tool. You'll first need to enable to the ruler; go to <strong>View > Show</strong> and check <strong>Ruler</strong> and you'll see vertical and horizontal rulers appear on the screen.</p>
   <p><img class="thumbnail left" src="{{ '/assets/images/word/Indents/Ruler.png' | url }}" alt="Ruler tool checkbox on ribbon in Word" style="max-width:175px; width:100%; height:auto; vertical-align:middle"></p>
   Make sure your <span class="glossary-hover" data-term="insertion-point">insertion point</span> is pointed on the paragraph first. On the horizontal ruler above the page you'll see three indent markers clumped together on the left like this:
@@ -415,7 +433,7 @@ function updateIntIndent() {
 </script>
 
  
- <h2 id="lists-and-indents">Lists and indents</h2>
+ <h2 id="lists-and-indents-int">Lists and indents</h2>
 
  <p>For bullet lists and number lists the indent markers have different behaviours. You'll notice if you select a list item that the indent marker are not aligned like with paragraphs.</p>
 
@@ -503,7 +521,7 @@ function updateIntIndent() {
 </svg>
 </section>
 
-<h2 id="table-lists-and-indents">Table lists and indents</h2>
+<h2 id="table-lists-and-indents-int">Table lists and indents</h2>
   <p>Number lists and bullet lists inside tables have a default spacing jutting out from the column border. It's not entirely desirable if you're limited for space with the columns and content you need to include. Indent markers are a good way to fix this.</p>
   <img class="thumbnail border" src="{{ '/assets/images/word/Indents/Table list default indent.png' | url }}" alt="Table list default indents in Word" style="display: inline; max-width:600px; width:100%; height:auto; vertical-align:middle">
 

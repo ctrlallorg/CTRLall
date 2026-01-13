@@ -468,18 +468,27 @@ function setView(view, isIntermediateOnlyArg = false, isNoDifficultyArg = false)
 // 5) Initial render
 setView(initialView, isIntermediateOnly, isNoDifficulty);
 
-// 6) Toggle listeners
-document
-  .getElementById("beginner-toggle")
-  ?.addEventListener("click", () => {
-    setView("beginner", isIntermediateOnly, isNoDifficulty);
-  });
+// ─────────────────────────────────────────────────────────────
+// 6) Toggle listeners + URL cleanup
+// ─────────────────────────────────────────────────────────────
 
-document
-  .getElementById("intermediate-toggle")
-  ?.addEventListener("click", () => {
-    setView("intermediate", isIntermediateOnly, isNoDifficulty);
-  });
+function cleanDifficultyParam() {
+  if (window.location.search.includes("difficulty")) {
+    const cleanUrl = window.location.pathname;
+    window.history.replaceState({}, "", cleanUrl);
+  }
+}
+
+document.getElementById("beginner-toggle")?.addEventListener("click", () => {
+  setView("beginner", isIntermediateOnly, isNoDifficulty);
+  cleanDifficultyParam();
+});
+
+document.getElementById("intermediate-toggle")?.addEventListener("click", () => {
+  setView("intermediate", isIntermediateOnly, isNoDifficulty);
+  cleanDifficultyParam();
+});
+
 
 
 

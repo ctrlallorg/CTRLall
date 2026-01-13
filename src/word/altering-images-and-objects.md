@@ -158,7 +158,11 @@ active: word
         </tr>
       </tbody>
       </table>
-      
+    <p>The following is discussed in the <a href="?difficulty=intermediate">intermediate version</a> of this article:</p>
+    <ul>
+      <li><a href="?difficulty=intermediate#layout-options-int">Layout options (wrapping)</a></li>
+      <li><a href="?difficulty=intermediate#anchoring-int">Anchoring</a></li>
+    </ul>
   </section>
 </div>
 

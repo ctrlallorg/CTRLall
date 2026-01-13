@@ -59,7 +59,7 @@ active: word
   
   <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Templates to documents diagram.png' | url }}"  alt="Diagram of documents creating from templates in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle">
 
-  <p>Templates are designed to be reused to make 'templated' documents without the template itself being altered. It is possible to edit a template but as a beginner you're likely not going to need to do this. If you do need to edit a template this is explored in the Intermediate version of this article.</p>
+  <p>Templates are designed to be reused to make 'templated' documents without the template itself being altered. It is possible to edit a template but as a beginner you're likely not going to need to do this. If you do need to edit a template this is explored in the <a href="?difficulty=intermediate">intermediate version</a> of this article.</p>
 
   <h2>How to tell documents and templates apart</h2>
   <p>As a rule don’t rely on the name of a file (a.k.a. the filename) itself saying ‘template’ to determine whether a file is a template. This catches a lot of people out. The filename is just the name that someone has chosen to give the file.</p>

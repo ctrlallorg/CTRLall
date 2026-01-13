@@ -60,10 +60,10 @@ active: word
   </ul>
 
   <h4>I want my content to be at the bottom or middle of cells, not fixed the top.</h4>
-  <p>This is changed by altering the <strong>table cell alignment</strong> which is explored in the intermediate version of this article.</p>
+  <p>This is changed by altering the <strong>table cell alignment</strong> which is explored in the <a href="?difficulty=intermediate">intermediate version</a> of this article.</p>
 
   <h4>My copied text has line spacing I want to get rid of</h4>
-  <p>Take a look at the intermediate version of this article in the section <i>Remove Paragraph Spacing from Table</i>.</p>
+  <p>Take a look at the <a href="?difficulty=intermediate">intermediate version</a> of this article in the section <i>Remove Paragraph Spacing from Table</i>.</p>
 
   <h2 id="table-shading-beg">Table shading</h2>
   <p>You can colour in the background of your table easily. First select the cells you want to colour by clicking and dragging on them. In this example I've selected the header row.</p>
@@ -157,7 +157,7 @@ active: word
   <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Remove paragraph spacing from table.gif' | url }}"  alt="Demonstration removing paragraph spacing from a table in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
 
   <h2 id="lists-in-tables">Bullet/Number lists in tables</h2> 
-  <p>You might find when applying a bullet list or number list to a table that the default indent Word applies isn't ideal in such a contrained space, see a quick fix here involving indent markers on the horizontal ruler: <a href="/word/indents/#table-lists-and-indents">Table lists and indents</a>.</p>
+  <p>You might find when applying a bullet list or number list to a table that the default indent Word applies isn't ideal in such a contrained space, see a quick fix here involving indent markers on the horizontal ruler: <a href="/word/indents/?difficulty=intermediate#table-lists-and-indents-int">Table lists and indents</a>.</p>
 
   <img class="thumbnail border" src="{{ '/assets/images/word/Indents/Table list default indent.png' | url }}"  alt="List in a table selected with default indent marker positions in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle">
 

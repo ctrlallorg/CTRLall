@@ -70,12 +70,13 @@ active: word
 ---
 <article class="difficulty-wrapper" role="article" aria-label="An introduction to Microsoft Word with beginner and intermediate versions">
 <h1>Getting started with Microsoft Word</h1>
-<p>If you’re new to Word, you might also be new to using Windows. The beginner article guide is made for beginners using Word on a computer. If you're already a little familiar with Word try the Intermediate version of this article using the beginner/intermediate toggle in the side menu (click the top left button to open the side menu if it's not already open).
+
 
 <!-- Beginner version -->
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
 <div class="difficulty beginner-version"  aria-label="Beginner introduction to Microsoft Word">
   <section class="section-light">
+     <p>If you’re new to Word, you might also be new to using Windows. This article guide is for those brand new to Word. If you're already a little familiar with Word try the <a href="?difficulty=intermediate">intermediate version</a> of this article.
       <p>Microsoft Word (often just called 'Word') is a program for writing and editing documents. It’s the most common <span class="glossary-hover" data-term="application">application</span> ('app' for short) for <span class="glossary-hover" data-term="word-processing">word processing</span> around the world. Word is part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> package which also includes other programs like Outlook for email and Excel for spreadsheets.</p>
       <p>In this article we'll go step by step through the basics, including:</p>
       <ul>
@@ -219,7 +220,7 @@ active: word
 
 <!-- Intermediate version -->
 <div class="difficulty intermediate-version" aria-label="Intermediate article exploring setting up Microsoft Word with advanced topic discussion." style="display:none;">
-  <p>You are probably already a little familiar with Word. If not try the beginner version of this article (use the beginner/intermediate toggle in the side menu).</p>
+  <p>You are probably already a little familiar with Word. If not try the <a href="?difficulty=beginner">beginner version</a> of this article.</p>
     <h2>Setting up Word</h2>
     <section class="section-light">
       <p>This article explores everything about getting set up with Word:</p>

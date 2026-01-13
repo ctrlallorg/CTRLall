@@ -88,7 +88,7 @@ active: word
     <p><img class="thumbnail border" src="{{ '/assets/images/content control/Cut and paste text.gif' | url }}"  alt="Cut and paste demonstration in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
     <li><u>Copy</u>: This copies the content to the <strong>clipboard</strong> so you can <strong>paste</strong> it elsewhere, letting you duplicate it.</li>
     <p><img class="thumbnail border" src="{{ '/assets/images/content control/Copy and paste text.gif' | url }}"  alt="Copy and paste demonstration in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
-    <li><u>Paste</u>: This duplicates content copied to the clipboard by cutting or copying it first. There are different types of paste options depending on what you cut or copy which are explored more in the Intermediate version of thi article.</li>
+    <li><u>Paste</u>: This duplicates content copied to the clipboard by cutting or copying it first. There are different types of paste options depending on what you cut or copy which are explored more in the <a href="?difficulty=intermediate">intermediate version</a> of this article.</li>
 
   <h4>Format Painter</h4> 
   <img class="thumbnail left" src="{{ '/assets/images/word/Formatting text/Format painter icon.png' | url }}"  alt="Format painter icon" style="max-width:50px; width:100%; height:auto; vertical-align:middle"> 

@@ -104,7 +104,7 @@ active: word
 
 <h1>Where to now?</h1>
 <ul>
-  <li>More on tables of contents are explored in the intermediate version of this article such as:</li>
+  <li>More on tables of contents are explored in the <a href="?difficulty=intermediate">intermediate version</a> of this article such as:</li>
   <ul>
   <li>Table of content options</li>
   <li>Table entry fields - 'TC' fields - to add anything into a TOC</li>

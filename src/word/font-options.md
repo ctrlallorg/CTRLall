@@ -63,7 +63,7 @@ active: word
   Word has a one-stop shop <strong>Font options</strong> window for formatting (editing the look of) all a text's font. First, select the text you want to change first then either <strong>right click</strong> and select <strong>Font</strong> from the menu, or on the <strong>Home > Font</strong> section of the ribbon click the <strong>bottom right corner button</strong>.
   <img class="thumbnail border" src="{{ '/assets/images/word/Font options/Font options menus-beg.png' | url }}"  alt="Different ways to open the Font options menus" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
 
-  <p>The font options windows pops up and with the <strong>Font</strong> tab showing. More options can be found on the <a href="#Advanced-Font-Options">Advanced</a> tab which are explained in the Intermediate version of this article.</p>
+  <p>The font options windows pops up and with the <strong>Font</strong> tab showing. More options can be found on the <a href="#Advanced-Font-Options">Advanced</a> tab which are explained in the <a href="?difficulty=intermediate">intermediate version</a> of this article.</p>
   <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font options.png' | url }}" alt="Font options in Word" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
   <p>Take a look at the options to alter fonts.</p>
     <table>
@@ -140,7 +140,7 @@ active: word
   If you're looking for alignment that comes under paragraph options (<strong>Home > Paragraph</strong>), see here for more: <a href="/word/formatting-text/#paragraph-tools" target="_blank">Formatting text</a>.</p>
 
   <h2 id="Advanced-Font-Options">Advanced Font Options</h2>
-  <p>The Advanced tab gives you some more specific options to style font as needed. This is slightly more complex and is detailed in the Intermediate version of this article. Click Intermediate to see more.</p>
+  <p>The Advanced tab gives you some more specific options to style font as needed. This is slightly more complex and is detailed in the <a href="?difficulty=intermediate">intermediate version</a> of this article. Click Intermediate to see more.</p>
  
  </section>
 </div>

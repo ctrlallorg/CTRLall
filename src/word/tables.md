@@ -58,18 +58,27 @@ active: word
 <!-- Beginner version -->
 <div class="difficulty beginner-version"  aria-label="Beginner introduction to tables">
 
+<p>Here's what this article about tables covers:</p>
+  <ul>
+    <li><a href="#create-table">Creating tables</a></li>
+    <li><a href="#delete table">Deleting tables</a></li>
+    <li><a href="#image-table-resize">Adding data into a table</a></li>
+    <li><a href="#add-rows-columns">Add new table rows or columns</a></li>
+    <li><a href="#alter-table">Altering tables</a></li>
+  </ul>
+
 <section class="section-light">
-<h2>Creating tables</h2>
+<h2 id="create-table">Creating tables</h2>
 <p>To create a table, select the <strong>Insert</strong> tab on the ribbon, then select <strong>Table</strong>. This will bring up a menu with a grid which you can choose how many columns and rows you want the table to have:</p>
 <p><img class="thumbnail border left" src="{{ '/assets/images/word/Tables/Insert table.png' | url }}" alt="Insert table menu in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle"></p>
 <p>Here's it in action:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables/Insert table.gif' | url }}" alt="Insert table menu in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
-<h2>Deleting tables</h2>
+<h2 id="delete table">Deleting tables</h2>
 <p>Select the whole table by clicking into it and pressing the top left square then press <strong>Delete</strong> or <strong>Backspace</strong>.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables/Delete table.gif' | url }}" alt="Delete menu demonstration in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
-<h2>Adding data into a table</h2>
+<h2 id="image-table-resize">Adding data into a table</h2>
 <p>It's pretty simple to enter content into a table. Just click into the cell you want and type or paste the content you want to go there. Here's an example of the 3x3 table above filled in with text.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables/Table example beg.png' | url }}" alt="Example adding data to table with insertion point showing in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
@@ -80,14 +89,13 @@ active: word
 <p>This happens often, answer here: <a href="/word/tables-fixing-table-image-problems/#image-changed-cell-size">Image has changed my cell size (column width / row height)</a>.</p>
 
 <h4>I want my content/text to sit at the bottom or centre of a cell not the top</h4>
-<p>That's altered via <strong>cell alignment</strong> options. By default table content is aligned top left.
+<p>That's altered via <strong>cell alignment</strong> options. By default table content is aligned top left.</p>
 <ul>
   <li>For text go here: <a href="/word/tables-formatting/#table-cell-alignment">Table cell alignment</a></li>
   <li>For images go here: <a href="/word/tables-fixing-table-image-problems/#image-cell-alignment">Image doesn't align properly in the cell</a></li>
-<ul>
-</p>
+</ul>
 
-<h2>How to add a new table row or column</h2>
+<h2 id="add-rows-columns">How to add a new table row or column</h2>
 <p>With the table selected you see the <strong>Table Layout</strong> tab appear on the ribbon. On this tab you'll find options to insert rows and columns. It matters where you have the <span class="glossary-hover" data-term="insertion-point">insertion point</span> in the table as that is where the new row will be inserted above or below it, same goes for inserting a column to the left or the right.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables/Table Layout Insert rows and columns.png' | url }}" alt="Table Layout Insert rows and columns on ribbon in Word" style="max-width:575px; width:100%; height:auto; vertical-align:middle"></p>
 <p>Here's those options in action:</p>
@@ -96,7 +104,7 @@ active: word
 <p><u>Note</u>: A quicker way to add a row below is to point the <span class="glossary-hover" data-term="insertion-point">insertion point</span> at the end of the bottom right cell (after any content) and press <strong>Tab</strong>.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables/Add new row.gif' | url }}" alt="Add new table row demonstration in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
-<h2>Altering tables</h2>
+<h2 id="alter-table">Altering tables</h2>
   <p>Altering tables is straightforward once you know how. Depending on where you hover the cursor the cursor icon will change for different tools to adjust the table or content within.</p>
   
   <p><strong>Hover over a row to see that function in action.</strong></p>
@@ -155,6 +163,13 @@ active: word
   </table>
 </div>
 
+<p>Here's some more features on tables covered in the <a href="?difficulty=intermediate">intermediate version</a> of this article:</p>
+<ul>
+  <li><a href="?difficulty=intermediate#split-table-int">Splitting tables</a></li>
+  <li><a href="?difficulty=intermediate#distribute-columns-evenly-int">Distributing Columns Evenly</a></li>
+  <li><a href="?difficulty=intermediate#autofit-int">Autofitting tables to the window or content</a></li>
+</ul>
+
 <h1>Where to now?</h1>
 <ul>
 <li>Have a look at <a href="/word/tables-formatting/">Tables: Formatting</a>:</p>
@@ -171,7 +186,6 @@ active: word
       <li><a href="tables-fixing-tables-extending-offscreen">Fixing tables that have gone off the page</a></li>
       <li><a href="tables-fixing-tables-over-pages">Fixing tables over pages</a></li>
   </ul>
-<li>Splitting tables: This is explored in the intermediate version of this article.</li>
 </ul>
 
 </section>
@@ -183,7 +197,19 @@ active: word
 
 <section class="section-light">
 
-  <h2>Creating tables</h2>
+  <p>Here's what this article about tables covers:</p>
+  <ul>
+    <li><a href="#create-table-int">Creating tables</a></li>
+    <li><a href="#delete table-int">Deleting tables</a></li>
+    <li><a href="#image-table-resize-int">Adding data into a table</a></li>
+    <li><a href="#add-rows-columns-int">Add new table rows or columns</a></li>
+    <li><a href="#alter-table-int">Altering tables</a></li>
+    <li><a href="#split-table-int">Splitting tables</a></li>
+    <li><a href="#distribute-columns-evenly-int">Distributing Columns Evenly</a></li>
+    <li><a href="#autofit-int">Autofitting tables to the window or content</a></li>
+  </ul>
+
+  <h2 id="create-table-int">Creating tables</h2>
   <p>You likely know how to create a table via <strong>Insert > Table</strong> on the ribbon and using the menu grid to choose how many columns and rows for the table:</p>
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Tables/Insert table.png' | url }}" alt="Insert table menu in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle"></p>
   <p>The grid is limited to 7x6. If you need something outside this click <strong>Insert Table</strong> below it.</p>
@@ -201,7 +227,7 @@ active: word
   </div>
 
 
-  <h2>Deleting tables</h2>
+  <h2 id="delete table-int">Deleting tables</h2>
   <p>It's tempting to drag ver the table to select it, but this can be problematic if you table runs over more than one page. Instead select the whole table by clicking into it, press the top left square then delete:</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables/Delete table.gif' | url }}" alt="Delete menu demonstration in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
@@ -217,7 +243,7 @@ active: word
   <p>For images more specifically go here: <a href="/word/tables-fixing-table-image-problems/#image-cell-alignment">Image doesn't align properly in the cell</a></p>
  
 
-  <h2>Add new table rows or columns</h2>
+  <h2 id="add-rows-columns-int">Add new table rows or columns</h2>
   <h3>Add new rows</h3>
   <p><u>Note</u>: If you're just looking to add a new row below a table, set your <span class="glossary-hover" data-term="insertion-point">insertion point</span> in the bottom right cell (after any content), then press <strong>Tab</strong>.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables/Add new row.gif' | url }}" alt="Add new table row demonstration in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
@@ -230,7 +256,7 @@ active: word
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables/Add new column int.png' | url }}" alt="Add new table column from right click menu in Word" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables/Right click menu Insert column left.gif' | url }}" alt="Add new table column from right click menu demonstration in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p> 
  
-  <h2>Altering tables</h2>
+  <h2 id="alter-table-int">Altering tables</h2>
     <p>To alter a table you need to move the cursor to certain sections of the table; the cursor icon changes depending on where you place it.</p>
     <p><strong>Hover over a row to see that function in action.</strong></p>
   <div class="tooltip-wrapper" style="margin: 2rem 0rem 1rem; text-align: left;">
@@ -287,15 +313,47 @@ active: word
     </table>
   </div>
 
+  <h2 id="split-table-int">Splitting tables</h2>
+  <p>If you need to separate a table into two tables at a certain point Word allows you to do this with the <strong>Split Table</strong> function.</p>
+  <ol>
+    <li>Navigate to where you want the table separated and click on the row you want to be the first row of the next table.</li>
+    <li>Go to <strong>Table Layout > Split Table</strong></li>
+    <img class="thumbnail border" src="{{ '/assets/images/word/Tables/Split Table.png' | url }}" alt="Split Table option on ribbon in Word" style="max-width:375px; width:100%; height:auto; vertical-align:middle">
+  </ol>
+  <p>The table will now split with a space between them. Here's a demonstration:</p>
+  <img class="thumbnail border" src="{{ '/assets/images/word/Tables/Split Table.gif' | url }}" alt="Demonstration of splitting a table in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
+
+  <h2 id="distribute-columns-evenly-int">Distributing Columns Evenly</h2>
+  <p>If your table columns look a little disjointed you can have all the column widths spaced equally. To do this select the whole table then right click. From the right click menu select <strong>Distribute Columns Evenly</strong>:</p>
+  <img class="thumbnail border" src="{{ '/assets/images/word/Tables/Distribute Columns Evenly example 1.png' | url }}" alt="Example table with columns not distributed evenly in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail border" src="{{ '/assets/images/word/Tables/Distribute Columns Evenly.png' | url }}" alt="Distribute Columns Evenly option on right click menu in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
+  <p>The columns will now distribute evenly:</p>
+  <img class="thumbnail border" src="{{ '/assets/images/word/Tables/Distribute Columns Evenly example 2.png' | url }}" alt="Table with columns distributed evenly in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
+  <p><u>Note</u>: You can also do this for rows with the <strong>Distribute Rows Evenly</strong> option on the right click menu.</p>
+
+  <h2 id="autofit-int">Autofit</h2>
+  <h3>Autofit Window</h3>
+  <p>If your table has had the end margin edited and you want the table to span the whole editable area on the page Word has an option called <strong>Autofit Window</strong> that can help. Click anywhere on the table and go to <strong>Table Layout > Autofit > Autofit Window</strong>:</p>
+  <img class="thumbnail border" src="{{ '/assets/images/word/Tables/Autofit window example 1.png' | url }}" alt="Example table not spanning editable area on page in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail border" src="{{ '/assets/images/word/Tables/Autofit window.png' | url }}" alt="Autofit Window option on ribbon in Word" style="max-width:275px; width:100%; height:auto; vertical-align:middle">
+  <p>The table will now be 'autofitted' to span the whole editable area:</p>
+  <img class="thumbnail border" src="{{ '/assets/images/word/Tables/Autofit window example 2.png' | url }}" alt="Table autofitted to window in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle">
+  <h3>Autofit Contents</h3>
+  <p>If you want your column widths to match the length of the content then click anywhere in the table and go to <strong>Table Layout > Autofit > Autofit Contents</strong>:</p>
+  <img class="thumbnail border" src="{{ '/assets/images/word/Tables/Autofit Contents example 1.png' | url }}" alt="Example table with content spanning editable area on page in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail border" src="{{ '/assets/images/word/Tables/Autofit Contents.png' | url }}" alt="Autofit Contents option on ribbon in Word" style="max-width:275px; width:100%; height:auto; vertical-align:middle">
+  <p>The table columns will now adjust width based on the content in the cells:</p>
+  <img class="thumbnail border" src="{{ '/assets/images/word/Tables/Autofit Contents example 2.png' | url }}" alt="Table autofitted to contents in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle">
+
   <h1>Where to now?</h1>
   <ul>
   <li>Have a look at <a href="/word/tables-formatting/">Tables: Formatting</a>:</p>
     <ul style="list-style-type: circle;">
-        <li><a href="#table-cell-alignment">Table cell alignment</a></li>
-        <li><a href="#table-borders">Table borders</a></li>
-        <li><a href="#table-shading">Table shading</a></li>
-        <li><a href="#remove-paragraph-spacing-from-table">Remove paragraph spacing in a table</a></li>
-        <li><a href="#lists-in-tables">Bullet/Number lists in tables</a></li>
+        <li><a href="/word/tables-formatting/#table-cell-alignment">Table cell alignment</a></li>
+        <li><a href="/word/tables-formatting/#table-borders">Table borders</a></li>
+        <li><a href="/word/tables-formatting/#table-shading">Table shading</a></li>
+        <li><a href="/word/tables-formatting/#remove-paragraph-spacing-from-table">Remove paragraph spacing in a table</a></li>
+        <li><a href="/word/indents/#table-lists-and-indents-int">Adjusting indents on bullet lists and number lists in tables</a></li>
     </ul>
   </li>
   <li>Table gone wrong? Try these fixes:</li>
@@ -303,7 +361,6 @@ active: word
         <li><a href="tables-fixing-tables-extending-offscreen">Fixing tables that have gone off the page</a></li>
         <li><a href="tables-fixing-tables-over-pages">Fixing tables over pages</a></li>
     </ul>
-  <li>Splitting tables: This is explored in the intermediate version of this article.</li>
   </ul>
 
   <div id="tooltip">
