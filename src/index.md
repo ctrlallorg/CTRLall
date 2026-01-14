@@ -90,7 +90,8 @@ active: index
 <section class="section-light">
   <h2>What's new?</h2>
   <ul>
-    <li>14 Jan 2026 - <a href="https://gadgetbond.com/microsoft-word-hyperlink-easy-insertion/" target="_blank">Microsoft making it easier to add hyperlinks to text</a></li>
+    <li>News: <a href="https://gadgetbond.com/microsoft-word-hyperlink-easy-insertion/" target="_blank">Microsoft making it easier to add hyperlinks to text</a></li>
+    <li>Try out the difficulty toggle at the top of the navigation pane. If you're completely new go with <strong>Beginner</strong>, if you're a little familiar already try <strong>Intermediate</strong></li>
     <li>12 Dec 2025 - Hotspots available for menu images, hover over them to see an explanation and/or example.</li>
     <li>10 Dec 2025 - Search bar now available up the top, type in what you're looking for to see relevant pages.</li>
     <li>11 Nov 2025 - US-Other English Language toggle added for non-UI terms.</li>
