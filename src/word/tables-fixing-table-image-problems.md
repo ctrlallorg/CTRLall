@@ -60,7 +60,7 @@ active: word
   <li><a href="#image-too-big-for-cell">Image doesn't fit inside the cell</a></li>
   <li><a href="#image-cell-alignment">Image doesn't align properly in the cell</a></li>
   <li><a href="#image-pushing-table-over-pages">Image pushes table across pages</a></li>
-S</ul>
+</ul>
 
 <h2 id="image-changed-cell-size">Image has changed my cell size (column width / row height)</h2>
 <p>This is pretty normal. An image pasted into a table cell that's larger than the cell's width will expand it. Typically the cell's column expands the most and row height with it. This can leave your table looking a bit skewed.</p>
