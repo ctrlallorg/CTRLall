@@ -71,7 +71,7 @@ active: powerpoint
 
   <p>Microsoft Powerpoint is slideshow presentation <span class="glossary-hover" data-term="application">application</span> used worldwide for professional and educational presentation. It comes as part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> suite, a package of several Microsoft applications like <span class="glossary-hover" data-term="microsoft-PowerPoint">PowerPoint</span> for creating and presenting slideshows, <span class="glossary-hover" data-term="microsoft-outlook">Outlook</span> for emails and <span class="glossary-hover" data-term="microsoft-excel">Excel</span> for spreadsheets.
 
-  If you're new to Microsoft Powerpoint ('Powerpoint' for short, slideshow presentations made are commonly just referred to as 'PowerPoints' / 'PPTs' as well) this article starts from the ground up. In this article we'll explore:</p>
+  If you're new to Microsoft PowerPoint ('PowerPoint' for short, slideshow presentations made are commonly just referred to as 'PowerPoints' / 'PPTs' as well) this article starts from the ground up. In this article we'll explore:</p>
 
   <ul>
   <li><a href="#open-powerpoint-app-beg">How to open Microsoft Powerpoint</a></li>

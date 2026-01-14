@@ -357,7 +357,6 @@ document.addEventListener('DOMContentLoaded', checkOrientation);
   }
 });
 
-    
 // ─────────────────────────────────────────────────────────────
 // Difficulty system: beginner / intermediate toggle
 // ─────────────────────────────────────────────────────────────
@@ -397,12 +396,21 @@ function setView(view, isIntermediateOnlyArg = false, isNoDifficultyArg = false)
   const beginner = document.querySelector(".beginner-version");
   const intermediate = document.querySelector(".intermediate-version");
 
-  // ─── Show/hide versions with CSS only ─────────────────────
+  // Ensure both wrappers have the .difficulty class
+  if (beginner) beginner.classList.add("difficulty");
+  if (intermediate) intermediate.classList.add("difficulty");
+
+  // ─── Control BOTH display and animation ─────────────────────
   if (beginner) {
-    beginner.style.display = effectiveView === "beginner" ? "block" : "none";
+    const showBeg = effectiveView === "beginner";
+    beginner.style.display = showBeg ? "block" : "none";
+    beginner.classList.toggle("visible", showBeg);
   }
+
   if (intermediate) {
-    intermediate.style.display = effectiveView === "intermediate" ? "block" : "none";
+    const showInt = effectiveView === "intermediate";
+    intermediate.style.display = showInt ? "block" : "none";
+    intermediate.classList.toggle("visible", showInt);
   }
 
   // ─── Update badge ─────────────────────────────
