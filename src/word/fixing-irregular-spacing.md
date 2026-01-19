@@ -88,6 +88,10 @@ Active: word
 <ul>
   <li><a href="#irregular-line-spacing">Irregular line spacing in text</a></li>
   <li><a href="#irregular-spacing-words">Irregular spacing between words</a></li>
+  <li><a href="#remove-multiple-blank lines">Remove multiple blank lines</a></li>
+  <li><a href="#remove-duplicate-punctuation">Remove duplicate punctuation</a></li>
+  <li><a href="#hyphens-en-dashes-em-dashes">Hyphens, en dashes and em dashes</a></li>
+  <li><a href="#replace-unspaced-hyphens-with-spaced-hyphens">Replacing unspaced hyphens with spaced hyphens</a></li>
 </ul>
 
 <h2 id="irregular-line-spacing">Irregular line spacing in text</h2>
@@ -120,11 +124,101 @@ Active: word
   <li>
     <p>In the <strong>Replace with</strong> field: add a single space.</p>
     <p>(So we're taking any white space and replacing it with a uniform single space.)</p>
-    <p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Irregular spacing between words Find and Replace.png' | url }}" alt="Find and Replace dialog box in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+    <p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Irregular spacing between words Find and Replace.png' | url }}" alt="Irregular spacing between words Find and Replace" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
   </li>
   <li>Then hit <strong>Replace All</strong>.</li>
 </ol>
 
 <p>The spacing will now be fixed. Here's it in action:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Fix irregular spacing between words.gif' | url }}" alt="Demonstration fixing irregular spacing between words with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+
+
+
+<h2 id="remove-multiple-blank lines">Remove multiple blank lines</h2>
+<p>Sometimes you might find multiple blank lines irregularly through inherited formatting when pasting or a lack of housekeeping in a document. You may also find this in older documents as a previously common but now outdated rule used to be doing a double return after each paragraph. Whatever the situation there's a wildcard you can use to reduce multiple blanks lines to just one.</p>
+
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Fix multiple paragraph marks example.png' | url }}" alt="Example of multiple paragraph marks in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+<ol>
+  <li>Select the area in your document with the paragraphs and spaces that needs fixing, or if you need the whole document fixed click anywhere click anywhere selecting nothing in particular.</li>
+  <li>Open up <strong>Find and Replace</strong> with <strong>Ctrl + H</strong>.</li>
+  <li>
+    <p>In the <strong>Find what</strong> field: type <strong>^13{2,}</strong><p>
+    <p>(<strong>^13</strong> means paragraph mark or a <span class="glossary-hover" data-term="hard-return">hard return</span> while <strong>{2,}</strong> means two or more repetitions).</p>
+  </li>
+  <li>
+    <p>In the <strong>Replace with</strong> field: type <strong>^p</strong></p>
+    <p>(<strong>^p</strong> is standard code for a paragraph mark. So why use ^13 above? It's Word being...Word. Both mean the same thing and normally you'd use ^p, but Word doesn't let you use ^p in the 'Find what' field so we use ^13 instead.)</p>
+  </li>
+  <li>
+  <p>Click the <strong>More > ></strong> button bottom left which brings up more options, then check <strong>Use wildcards</strong>.</p>
+    <p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Fix multiple paragraph marks Find and Replace.png' | url }}" alt="" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+  </li>
+  <li>Lastly click <strong>Replace All</strong>.</li>
+</ol>
+<p>Now all the multiple paragraph marks are reduced to just one per standard digital formatting. Here's a demonstration of the above:</p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Fix multiple paragraph marks.gif' | url }}" alt="Demonstration fixing multiple paragraph marks with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+
+<h2 id="hyphens-en-dashes-em-dashes">Hyphens, en dashes and em dashes</h2>
+<p>Hyphens are something everyone uses casually but you may need to replace them with en dashes or em dashes. Let's look at the wildcard codes involved:</p>
+<div class="tooltip-wrapper" style="margin: 2rem 0rem 1rem; text-align: left;">
+  <table class="table-center">
+    <colgroup>
+      <col style="width: 33%;">
+      <col style="width: 33%;">
+      <col style="width: 33%;">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Character</th>
+        <th>Example</th>
+        <th>Wildcard code</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Hyphen (unspaced)</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>en dash (unspaced)</td>
+        <td>–</td>
+        <td>^=</td>
+      </tr>
+      <tr>
+        <td>em dash (unspaced)</td>
+        <td>—</td>
+        <td>^+</td>
+      </tr>
+      <tr>
+        <td>Spaced hyphen</td>
+        <td>"&nbsp;-&nbsp;"</td>
+        <td>&lt;space&gt;-&lt;space&gt;</td>
+      </tr>
+      <tr>
+        <td>Spaced en dash</td>
+        <td>"&nbsp;–&nbsp;"</td>
+        <td>&lt;space&gt;^=&lt;space&gt;</td>
+      </tr>
+      <tr>
+        <td>Spaced em dash</td>
+        <td>"&nbsp;–&nbsp;"</td>
+        <td>&lt;space&gt;^+&lt;space&gt;</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p>Using the above you can use <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>) to replace what you have with what you need.</p>
+
+<h3 id="replace-unspaced-hyphens-with-spaced-hyphens">Replacing unspaced hyphens with spaced hyphens</h3>
+<p>Before adding spaces around hyphens, you need to be careful. Word’s wildcard engine can’t tell the difference between a hyphen inside a hyphenated compound word (like <em>long-term</em> or <em>mother-in-law</em>) and a hyphen that should be spaced (<em>word - word</em>). If you blindly replace every hyphen with a spaced hyphen, you’ll break those compound words.</p>
+<p>So what do we do here?</p>
+<p>If you’re 100% certain your document has no hyphenated compound words then spacing all hyphens is safe to do. Use <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>) to replace hyphens with spaced hyphens using the code above.</li></p>
+<h4>What if all the hyphens in the document have no spaces?</h4>
+<p>If your document has no spaced hyphens at all then Word sees every hyphen like <i>letter-hyphen-letter</i> and can't distinguish compounds from mistakes. This involves some surgery, finding the compound words first, replacing all hyphens with spaced hyphens, then fixing the words after:</p>
+<ol>
+  <li>Using the <strong>Find</strong> tool (<strong>Ctrl + F</strong>) search for a single hyphen.</li>
+  <li>Click the <strong>Results</strong> tab, look down the list for compound words and make a note of them. If there are too many instances of hyphens to list them in Results, click back to <strong>Headings</strong> and press <strong>Enter</strong> to cycle through each of the hyphens in your document, noting down the compound words.</li>
+  <li>When you have all the compound words noted down use <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>) to replace hyphens with spaced hyphens.</li>
+  <li>Then repair the hyphenated words with <strong>Find and Replace</strong>, replacing broken compound words (<i>long - term</i>) with the correct syntax (<i>long-term</i>).</li>
 </section>
