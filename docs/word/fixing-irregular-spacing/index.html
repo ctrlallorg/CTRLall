@@ -397,6 +397,7 @@
   <li><a href="#irregular-spacing-words">Irregular spacing between words</a></li>
   <li><a href="#remove-multiple-blank lines">Remove multiple blank lines</a></li>
   <li><a href="#remove-duplicate-punctuation">Remove duplicate punctuation</a></li>
+  <li><a href="#remove-space-before-punctuation">Remove spaces before punctuation</a></li>
   <li><a href="#hyphens-en-dashes-em-dashes">Hyphens, en dashes and em dashes</a></li>
   <li><a href="#replace-unspaced-hyphens-with-spaced-hyphens">Replacing unspaced hyphens with spaced hyphens</a></li>
 </ul>
@@ -457,6 +458,20 @@
 </ol>
 <p>Now all the multiple paragraph marks are reduced to just one per standard digital formatting. Here's a demonstration of the above:</p>
 <p><img class="thumbnail border" src="/assets/images/word/Irregular spacing/Fix multiple paragraph marks.gif" alt="Demonstration fixing multiple paragraph marks with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+<h2 id="remove-space-before-punctuation">Remove spaces before punctuation</h2>
+<p>This is less common but you may sometimes find typing errors where a space has been added before punctuation such as <strong>. , : ; ?</strong> or <strong>!</strong></p>
+<p><img class="thumbnail border" src="/assets/images/word/Irregular spacing/Spaces before punctuation example.png" alt="Example of spaces before punctuation in a paragraph in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+<p>There's a wildcard to get rid of these for all the above punctuation marks:</p>
+<ol>
+  <li>Go to <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>).</li>
+  <li>In the <strong>Find what</strong> field: type a literal <strong>space</strong> and then <strong>([.,;:\?\!])</strong></li>
+  <p>(This is basically grouping all the punctuation types.)</p>
+  <li>
+  <p>In the <strong>Replace with</strong> field: type <strong>\1</strong></p>
+  <p>(The <strong>\1</strong> means whatever was captured in the set of parentheses. So by replacing it just what was in the brackets, the space we added before is not included and effectively elimated.)</p>
+  </li>
+</ol>
+<p><img class="thumbnail border" src="/assets/images/word/Irregular spacing/Spaces before punctuation demonstration.gif" alt="Demonstration fixing spaces before punctuation in a paragraph with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 <h2 id="hyphens-en-dashes-em-dashes">Hyphens, en dashes and em dashes</h2>
 <p>Hyphens are something everyone uses casually but you may need to replace them with en dashes or em dashes. Let's look at the wildcard codes involved:</p>
 <div class="tooltip-wrapper" style="margin: 2rem 0rem 1rem; text-align: left;">
@@ -508,17 +523,38 @@
   </table>
 </div>
 <p>Using the above you can use <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>) to replace what you have with what you need.</p>
-<h3 id="replace-unspaced-hyphens-with-spaced-hyphens">Replacing unspaced hyphens with spaced hyphens</h3>
+<h3 id="replace-unspaced-hyphens-with-spaced-hyphens">Warning: replacing unspaced hyphens with spaced hyphens</h3>
 <p>Before adding spaces around hyphens, you need to be careful. Word’s wildcard engine can’t tell the difference between a hyphen inside a hyphenated compound word (like <em>long-term</em> or <em>mother-in-law</em>) and a hyphen that should be spaced (<em>word - word</em>). If you blindly replace every hyphen with a spaced hyphen, you’ll break those compound words.</p>
 <p>So what do we do here?</p>
 <p>If you’re 100% certain your document has no hyphenated compound words then spacing all hyphens is safe to do. Use <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>) to replace hyphens with spaced hyphens using the code above.</p>
-<h4>What if all the hyphens in the document have no spaces?</h4>
-<p>If your document has no spaced hyphens at all then Word sees every hyphen like <i>letter-hyphen-letter</i> and can't distinguish compounds from mistakes. This involves some surgery, finding the compound words first, replacing all hyphens with spaced hyphens, then fixing the words after:</p>
+<ol>
+  <li>Go to <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>).</li>
+  <li>In the <strong>Find what</strong> field: <strong>-</strong></li>
+  <li>In the <strong>Replace with</strong> field: type <strong>&lt;space&gt;-&lt;space&gt;</strong></li>
+</ol>
+<h4>What if I have compound words throughout my document and I need to space all hyphens?</h4>
+<p>If your document has compound words and all hyphens are unspaced then Word sees every hyphen like <i>letter-hyphen-letter</i>; it can't distinguish hyphens within compound words from hyphens between whole words. This example below is just one paragraph but if you've got this happening several times over a multi-page document you've got yourself a problem.</p>
+<p><img class="thumbnail border" src="/assets/images/word/Irregular spacing/Compound words and unspaced hyphens.png" alt="Example of Compound words and unspaced hyphens in a paragraph in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+<p>This does involves some surgery: you need to find all the compound words in your document first, make a note of them, then replace all hyphens with spaced hyphens, then fix the compounds words after.</p>
+<p><u>Note</u>: There's a few corners of the internet claiming to solve this with particularly clever wildcard code but it either doesn't work or misses what we're trying to achieve. The method below is <u>guaranteed</u> to fix this problem despite being a bit laborious:</p>
 <ol>
   <li>Using the <strong>Find</strong> tool (<strong>Ctrl + F</strong>) search for a single hyphen.</li>
   <li>Click the <strong>Results</strong> tab, look down the list for compound words and make a note of them. If there are too many instances of hyphens to list them in Results, click back to <strong>Headings</strong> and press <strong>Enter</strong> to cycle through each of the hyphens in your document, noting down the compound words.</li>
-  <li>When you have all the compound words noted down use <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>) to replace hyphens with spaced hyphens.</li>
-  <li>Then repair the hyphenated words with <strong>Find and Replace</strong>, replacing broken compound words (<i>long - term</i>) with the correct syntax (<i>long-term</i>).</li>
+  <li>When you have all the compound words noted down use <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>) to replace hyphens with spaced hyphens:
+  <ul>
+    <li>Find what: <strong>-</strong></li>
+    <li>Replace with: <strong>&lt;space&gt;-&lt;space&gt;</strong></li>
+  </ul>
+  </li>
+  <li><p>Then repair the hyphenated words with <strong>Find and Replace</strong>, replacing broken compound words (<i>long - term</i>) with the correct syntax (<i>long-term</i>).</p>
+  <p>e.g.:</p>
+  <ul>
+    <li>Find what: <strong>long - term</strong></li>
+    <li>Replace with: <strong>long-term</strong></li>
+  </ul>
+  </li>
+<p>Here's a small demonstration of it all:</p>
+<p><img class="thumbnail border" src="/assets/images/word/Irregular spacing/Compound words and unspaced hyphens.gif" alt="Example of Compound words and unspaced hyphens in a paragraph in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 </ol></section>
 
             
