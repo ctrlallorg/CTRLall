@@ -262,55 +262,6 @@
     "url": "/all/autosave-not-working/"
   },
   {
-    "title": "Copying content",
-    "tags": [
-      "ctrlall.org",
-      "ctrlall",
-      "ctrl all",
-      "microsoft word",
-      "copy content",
-      "copying content",
-      "copy text",
-      "copying text",
-      "duplicate content",
-      "duplicate text",
-      "duplicating text",
-      "keyboard shortcuts",
-      "copy to clipboard",
-      "copy and paste",
-      "copying and pasting",
-      "copy multiple content",
-      "copy multiple files",
-      "copy multiple text"
-    ],
-    "url": "/content-control/copying-content/"
-  },
-  {
-    "title": "Moving content",
-    "tags": [
-      "ctrlall.org",
-      "ctrlall",
-      "ctrl all",
-      "microsoft word",
-      "move content",
-      "move text",
-      "moving text",
-      "keyboard shortcuts",
-      "copy to clipboard",
-      "cut and paste",
-      "cutting and pasting",
-      "drag and drop",
-      "dragging and dropping",
-      "click and drag",
-      "clicking and dragging",
-      "the spike",
-      "move multiple content",
-      "move multiple files",
-      "move multiple text"
-    ],
-    "url": "/content-control/moving-content/"
-  },
-  {
     "title": "Getting started with Microsoft PowerPoint",
     "tags": [
       "ctrlall.org",
@@ -422,6 +373,55 @@
       ".ppt"
     ],
     "url": "/powerpoint/saving-and-save-as/"
+  },
+  {
+    "title": "Copying content",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "microsoft word",
+      "copy content",
+      "copying content",
+      "copy text",
+      "copying text",
+      "duplicate content",
+      "duplicate text",
+      "duplicating text",
+      "keyboard shortcuts",
+      "copy to clipboard",
+      "copy and paste",
+      "copying and pasting",
+      "copy multiple content",
+      "copy multiple files",
+      "copy multiple text"
+    ],
+    "url": "/content-control/copying-content/"
+  },
+  {
+    "title": "Moving content",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "microsoft word",
+      "move content",
+      "move text",
+      "moving text",
+      "keyboard shortcuts",
+      "copy to clipboard",
+      "cut and paste",
+      "cutting and pasting",
+      "drag and drop",
+      "dragging and dropping",
+      "click and drag",
+      "clicking and dragging",
+      "the spike",
+      "move multiple content",
+      "move multiple files",
+      "move multiple text"
+    ],
+    "url": "/content-control/moving-content/"
   },
   {
     "title": "Altering images and objects",
@@ -1682,6 +1682,34 @@
       "custom TOC"
     ],
     "url": "/word/table-of-contents/"
+  },
+  {
+    "title": "Tables:  Convert text to tables",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "microsoft word",
+      "how to convert text to table",
+      "converting text to table",
+      "how to turn text into table",
+      "turning text in table",
+      "how to turn text into a table",
+      "turning text into a table",
+      "how to change text into a table",
+      "how to change text into tables",
+      "text formatting",
+      "text issues",
+      "table issues",
+      "table format",
+      "table content issues",
+      "table content format",
+      "tables",
+      "rows",
+      "columns",
+      "delimiters"
+    ],
+    "url": "/word/tables-convert-text-to-tables/"
   },
   {
     "title": "Tables: Fixing table image problems",
