@@ -55,6 +55,7 @@ active: word
       <li><a href="#indent-ruler">Indenting with the ruler</a></li>
       <li><a href="#lists-and-indents">Lists and indents</a></li>
       <li><a href="#table-lists-and-indents">Table lists and indents</a></li>
+      <li><a href="#tab-stops">Tab stops</a></li>
     </ul>
 
   <h3 id="indenting">Indenting</h3>
@@ -322,6 +323,12 @@ function updateSvgIndent() {
 
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Indents/Column boundary marker adjust example.gif' | url }}" alt="Demonstration adjusting column boundary marker" style="display: inline; max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
+  <h2 id="tab-stops">Tab stops</h2>
+  <p>You can set custom points on the horizontal ruler called <strong>tab stops</strong> that control where the <span class="glossary-hover" data-term="insertion-point">insertion point</span> jumps to when you press the <strong>Tab</strong> key. Rather than relying on Word's default half-inch jumps can create custom alignments in your document.</p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Indents/0.75 inch tab.png' | url }}" alt="0.75 inch tab on horizontal ruler in Word" style="display: inline; max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
+  
+  <p>Tab stops carry their own alignment ( type—left, centre, right, decimal, or bar) which you can set via Tabs options.</p> 
+
 </section>
 </div>
 
@@ -563,6 +570,11 @@ function updateIntSvgIndent() {
   document.getElementById("intText").setAttribute("x", textX);
 }
 </script>
+
+<h2>Tab stops</h2>
+<p>You can set custom points on the horizontal ruler called <strong>tab stops</strong> that control where the insertion point jumps to when you press the Tab key. This is useful rather of relying on Words default half-inch jumps, as you can create consistent alignment in your document.</p>
+<p>Tab stops carry their own alignment ( type—left, centre, right, decimal, or bar) which you can set via Tabs options.</p> 
+
 
 </section>
 </div>
