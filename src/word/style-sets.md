@@ -1,17 +1,32 @@
 ---
 title: Styles
 layout: layout.liquid
-permalink: /word/styles/
-canonical: /word/styles/
-description: Applying and editing styles in Microsoft Word with clear steps, visuals, and animations.
-asset_id: ctrlall-word-styles-v1
-date: 2025-10-26
-last_modified: 2025-10-26
+permalink: /word/style-sets/
+canonical: /word/style-sets/
+description: Applying and editing style sets in Microsoft Word with clear steps, visuals, and animations.
+asset_id: ctrlall-word-style-sets-v1
+date: 2026-02-24
+last_modified: 2026-02-24
+difficultyLevels:
+  - level: Intermediate
+    description: "Explores advanced modification of numbering in number lists at an intermediate level."
+    urlSuffix: "#intermediate"
+
 tags:
   - ctrlall.org
   - ctrlall
   - ctrl all
   - microsoft word
+  - style sets
+  - group styles together
+  - group of styles
+  - save styles
+  - save style set
+  - save a style set
+  - saving styles
+  - saving style set
+  - saving a style set 
+  - global template
   - styling
   - styles
   - styles gallery
@@ -39,8 +54,9 @@ tags:
 active: word
 ---
 
+<h1>Style sets</h1>
 
-<h1>Styles</h1>
+
 
 <section class="section-light">
 

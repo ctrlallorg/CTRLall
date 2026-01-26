@@ -97,23 +97,13 @@ active: about
 <section class="section-light">
   <h1>About us</h1>
 
-  <h2>Why Ctrl All?</h2>
-  <p>Digital literacy isn’t just knowing which buttons to press — it’s understanding the system, navigating it with confidence, and helping others do the same.</p>
-  
+  <p>Digital literacy isn’t just knowing which buttons to press — it’s understanding the system, navigating it with confidence, and helping others do the same. Digital skills should be empowering, ethical, and open to everyone.</p>
+
+  <p>Where most help sites don't explain why, video tutorials are too long, and paid lessons are too expensive, this site aims to explain everything you need to know, no paywalls, no filler, no boundaries. </p>
+
   <p>Ctrl All is built by an open-source advocate who believes in clarity, confidence, and control. This space empowers anyone — whether you're new to Microsoft Office or an experienced user — to get unstuck or to go one step further.</p>
 
-  <h2>What You'll Find Here</h2>
-  <p>Whether you're troubleshooting an issue, need to find a tool or option, or just want to understand how something works, Ctrl All gives you the knowledge you need to make that happen. All jargon and terms explained. No bloated filler content for clicks. No gatekeeping paywalls. Just clear, modular guidance and demonstration-led, self-paced learning.</p>
-
-  <ul>
-    <li><strong>Guides & Tutorials</strong>: Step-by-step walkthroughs for real-world digital tasks.</li>
-    <li><strong>Reusable Resources (to come)</strong>: Tools and templates designed for clarity and remixability.</li>
-    <li><strong>Feedback & Requests</strong>: Your voice shapes this space — contribute ideas, tips, and needs.</li>
-  </ul>
-
   <h2>Get Started</h2>
-  <p>Click the toggle in the top left corner to bring up a side menu of tutorials to browse:</p>
-  <img class="thumbnail left" src="{{ '/assets/images/about/Menu toggle.png' | url }}"  alt="Ctrl All menu toggle" style="max-width:50px; width:100%; height:auto; vertical-align:middle">
     <h3>Difficulty</h3>
       <p>In the menu for some articles you'll also have a choice of <strong>Beginner</strong> and <strong>Intermediate</strong> difficulty levels:</p>
       <ul>
@@ -131,6 +121,15 @@ active: about
       <div class="button-row">
         <ul>
           <li>Go ahead and explore the articles for what you need.</li>
+          <li><a href="/contact/" class="action-button">Request a topic for an article</a></li>
+          <li><a href="/contact/" class="action-button">Got a Tip?</a> Share what you know.</li>
+        </ul>
+      </div>
+
+  <h2>Get started</h2>
+      <div class="button-row">
+        <ul>
+          <li>Browse a topic from the side menu. You can expand or collapse the side menu by clicking the toggle in the top left corner: <img class="thumbnail left" src="{{ '/assets/images/about/Menu toggle.png' | url }}"  alt="Ctrl All menu toggle" style="max-width:50px; width:100%; height:auto; vertical-align:middle"></li>
           <li><a href="/contact/" class="action-button">Request a topic for an article</a></li>
           <li><a href="/contact/" class="action-button">Got a Tip?</a> Share what you know.</li>
         </ul>

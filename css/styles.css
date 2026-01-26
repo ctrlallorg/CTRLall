@@ -673,7 +673,7 @@ blockquote {
   line-height: 1.6;
 }
 
-
+/* Index page */
 /* Hero Section */
 .hero {
   background-color: #ffffff;
@@ -696,6 +696,82 @@ blockquote {
   margin: 0 auto;
 }
 
+/* Get started button*/
+.get-started {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.start-button {
+  display: inline-block;
+  background: #2c3e50; /* Microsoft blue */
+  color: #fff;
+  padding: 0.9rem 1.6rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.start-button:hover {
+  background: #005fa3;
+}
+
+a.start-button {
+  color: #fff !important;
+}
+
+
+/* Feature tutorials */
+.featured-tutorials {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.featured-tutorials h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.tutorial-card {
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.tutorial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.tutorial-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.tutorial-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.tutorial-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
 
 
 /* Section Light */

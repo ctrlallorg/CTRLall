@@ -324,7 +324,7 @@ function updateSvgIndent() {
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Indents/Column boundary marker adjust example.gif' | url }}" alt="Demonstration adjusting column boundary marker" style="display: inline; max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h2 id="tab-stops">Tab stops</h2>
-  <p>You can set custom points on the horizontal ruler called <strong>tab stops</strong> that control where the <span class="glossary-hover" data-term="insertion-point">insertion point</span> jumps to when you press the <strong>Tab</strong> key. Rather than relying on Word's default half-inch jumps can create custom alignments in your document.</p>
+  <p>You can set custom alignment points on the horizontal ruler called <strong>tab stops</strong> that control where the <span class="glossary-hover" data-term="insertion-point">insertion point</span> jumps to when you press the <strong>Tab</strong> key. This is much better than rather than relying on Word's default half-inch jumps or default left-centre-right alignment. Here's how to create custom alignments in your document using tab stops.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Indents/0.75 inch tab.png' | url }}" alt="0.75 inch tab on horizontal ruler in Word" style="display: inline; max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
   
   <p>Tab stops carry their own alignment ( type—left, centre, right, decimal, or bar) which you can set via Tabs options.</p> 
