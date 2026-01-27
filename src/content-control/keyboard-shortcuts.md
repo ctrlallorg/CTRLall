@@ -215,7 +215,7 @@ active: content-control
   <img src="/assets/images/keyboard shortcuts/Ctrl++.png" alt="Ctrl + + shortcut: Zoom in">
   <img src="/assets/images/keyboard shortcuts/Ctrl+-.png" alt="Ctrl + - shortcut: Zoom out">
 </div>
-s
+
 
 <h2 id="excel-keyboard-shortcuts">Microsoft Excel shortcuts</h2>
 <br>
