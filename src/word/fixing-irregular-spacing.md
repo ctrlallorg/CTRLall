@@ -98,23 +98,23 @@ Active: word
 <h2 id="irregular-line-spacing">Irregular line spacing in text</h2>
 <p>If you ever have a document with irregular line spacing in your text usually this is either Word applying paragraph formatting you don't want or if it's pasted text it may have brought some external formatting over with it.</p>
 <p>The quickest tool to fix it is <strong>Format Painter</strong>. Here's an the example of some non-matching text which I've coloured blue:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Irregular line spacing from pasted text.png' | url }}" alt="Example of irregular line spacing in paragraphs in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Irregular line spacing from pasted text.png' | url }}" alt="Example of irregular line spacing in paragraphs in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 <p>Here's how it works:</p>
 <ol>
   <li>First, click on the text you want it to look like (i.e. the formatting that you will apply to the text with irregular line spacing).</li>
   <li>
   <p>Then select the <strong>Format Painter</strong> tool on the ribbon via <strong>Home > Clipboard</strong>, it's the one with the paintbrush icon:</p>
-  <p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Format painter.png' | url }}" alt="Format painter tool on ribbon in Word" style="max-width:175px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Format painter.png' | url }}" alt="Format painter tool on ribbon in Word" style="max-width:175px; width:100%; height:auto; vertical-align:middle"></p>
   </li>
   <li>Once selected, drag over the text with spacing you want to fix and it will format it accordingly.</li>
 </ol>
 <p>Here's an example of it:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Fix irregular line spacing from pasted text.gif' | url }}" alt="Demonstration fixing irregular line spacing with format painter in Word" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Fix irregular line spacing from pasted text.gif' | url }}" alt="Demonstration fixing irregular line spacing with format painter in Word" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2 id="irregular-spacing-words">Irregular spacing between words</h2>
 <p>If you ever get text with irregular spacing between words like this below it could be some formatting issues with the file or even pasted text that's brought along odd formatting with it.</p>
 <p> Luckily there's a nice <strong>Find and Replace</strong> trick to fix it all in one go.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Irregular spacing between words.png' | url }}" alt="Example of irregular spacing between words in a paragraph in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Irregular spacing between words.png' | url }}" alt="Example of irregular spacing between words in a paragraph in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle"></p>
 <ol>
   <li>Select the paragraph(s) affected, then open up the <strong>Find and Replace</strong> tool with <strong>Ctrl + H</strong>.</li>
   <li>
@@ -125,20 +125,20 @@ Active: word
   <li>
     <p>In the <strong>Replace with</strong> field: add a single space.</p>
     <p>(So we're taking any white space and replacing it with a uniform single space.)</p>
-    <p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Irregular spacing between words Find and Replace.png' | url }}" alt="Irregular spacing between words Find and Replace" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+    <p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Irregular spacing between words Find and Replace.png' | url }}" alt="Irregular spacing between words Find and Replace" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
   </li>
   <li>Then hit <strong>Replace All</strong>.</li>
 </ol>
 
 <p>The spacing will now be fixed. Here's it in action:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Fix irregular spacing between words.gif' | url }}" alt="Demonstration fixing irregular spacing between words with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Fix irregular spacing between words.gif' | url }}" alt="Demonstration fixing irregular spacing between words with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 
 
 <h2 id="remove-multiple-blank lines">Remove multiple blank lines</h2>
 <p>Sometimes you might find multiple blank lines irregularly through inherited formatting when pasting or a lack of housekeeping in a document. You may also find this in older documents as a previously common but now outdated rule used to be doing a double return after each paragraph. Whatever the situation there's a wildcard you can use to reduce multiple blanks lines to just one.</p>
 
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Fix multiple paragraph marks example.png' | url }}" alt="Example of multiple paragraph marks in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Fix multiple paragraph marks example.png' | url }}" alt="Example of multiple paragraph marks in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 <ol>
   <li>Select the area in your document with the paragraphs and spaces that needs fixing, or if you need the whole document fixed click anywhere click anywhere selecting nothing in particular.</li>
   <li>Open up <strong>Find and Replace</strong> with <strong>Ctrl + H</strong>.</li>
@@ -152,16 +152,16 @@ Active: word
   </li>
   <li>
   <p>Click the <strong>More > ></strong> button bottom left which brings up more options, then check <strong>Use wildcards</strong>.</p>
-    <p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Fix multiple paragraph marks Find and Replace.png' | url }}" alt="" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+    <p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Fix multiple paragraph marks Find and Replace.png' | url }}" alt="" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
   </li>
   <li>Lastly click <strong>Replace All</strong>.</li>
 </ol>
 <p>Now all the multiple paragraph marks are reduced to just one per standard digital formatting. Here's a demonstration of the above:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Fix multiple paragraph marks.gif' | url }}" alt="Demonstration fixing multiple paragraph marks with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Fix multiple paragraph marks.gif' | url }}" alt="Demonstration fixing multiple paragraph marks with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2 id="remove-space-before-punctuation">Remove spaces before punctuation</h2>
 <p>This is less common but you may sometimes find typing errors where a space has been added before punctuation such as <strong>. , : ; ?</strong> or <strong>!</strong></p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Spaces before punctuation example.png' | url }}" alt="Example of spaces before punctuation in a paragraph in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Spaces before punctuation example.png' | url }}" alt="Example of spaces before punctuation in a paragraph in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 <p>There's a wildcard to get rid of these for all the above punctuation marks:</p>
 <ol>
   <li>Go to <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>).</li>
@@ -172,7 +172,7 @@ Active: word
   <p>(The <strong>\1</strong> means whatever was captured in the set of parentheses. So by replacing it just what was in the brackets, the space we added before is not included and effectively elimated.)</p>
   </li>
 </ol>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Spaces before punctuation demonstration.gif' | url }}" alt="Demonstration fixing spaces before punctuation in a paragraph with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Spaces before punctuation demonstration.gif' | url }}" alt="Demonstration fixing spaces before punctuation in a paragraph with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2 id="hyphens-en-dashes-em-dashes">Hyphens, en dashes and em dashes</h2>
 <p>Hyphens are something everyone uses casually but you may need to replace them with en dashes or em dashes. Let's look at the wildcard codes involved:</p>
@@ -237,7 +237,7 @@ Active: word
 </ol>
 <h4>What if I have compound words throughout my document and I need to space all hyphens?</h4>
 <p>If your document has compound words and all hyphens are unspaced then Word sees every hyphen like <i>letter-hyphen-letter</i>; it can't distinguish hyphens within compound words from hyphens between whole words. This example below is just one paragraph but if you've got this happening several times over a multi-page document you've got yourself a problem.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Compound words and unspaced hyphens.png' | url }}" alt="Example of Compound words and unspaced hyphens in a paragraph in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Compound words and unspaced hyphens.png' | url }}" alt="Example of Compound words and unspaced hyphens in a paragraph in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 <p>This does involves some surgery: you need to find all the compound words in your document first, make a note of them, then replace all hyphens with spaced hyphens, then fix the compounds words after.</p>
 <p><u>Note</u>: There's a few corners of the internet claiming to solve this with particularly clever wildcard code but it either doesn't work or misses what we're trying to achieve. The method below is <u>guaranteed</u> to fix this problem despite being a bit laborious:</p>
 <ol>
@@ -257,5 +257,5 @@ Active: word
   </ul>
   </li>
 <p>Here's a small demonstration of it all:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Irregular spacing/Compound words and unspaced hyphens.gif' | url }}" alt="Example of Compound words and unspaced hyphens in a paragraph in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Compound words and unspaced hyphens.gif' | url }}" alt="Example of Compound words and unspaced hyphens in a paragraph in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 </section>

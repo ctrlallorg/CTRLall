@@ -53,11 +53,12 @@ active: glossary
 
 <h1>Glossary</h1>
 <!-- CTRL All glossary v1.0 -->
-<div class="table-wrapper">
+
 <div id="tooltip">
     <img />
 </div>
-<table class="hover-table word-images-cursor-icons hover-table">
+<div class="tooltip-wrapper" style="margin: 2rem 0rem 1rem; text-align: left;">
+  <table class="hover-table word-images-cursor-icons hover-table">
     <colgroup>
       <col style="width: 20%;">
       <col style="width: 80%;">
@@ -180,13 +181,13 @@ active: glossary
     <tr>
     <tr>
       <td id="filename-extension">Filename extension</td>
-      <td>A suffix at the end of the filename after a full stop/period which indicates a file's filetype. E.g. a Word document will have the filename extension <strong>.docx</strong> while a Excel workbook will have <strong>.xlsx</strong>. 
+      <td>A suffix at the end of the filename after a full stop/period which indicates a file's file type. E.g. a Word document will have the filename extension <strong>.docx</strong> while a Excel workbook will have <strong>.xlsx</strong>. 
       <img src="{{ '/assets/images/glossary/File extension.png' | url }}"  alt="File extension" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle">
       </td>
     </tr>
     <tr>
-      <td id="filetype">Filetype</td>
-      <td>The format a file is <a href="#save">saved</a> in, such as a document, image or video. When viewing files in the details view of a window the filetypes are shown in a <strong>Type</strong> column. The filetype is also indicated by the <a href="#filename-extension">Filename extension</a>.</td>
+      <td id="filetype">File type</td>
+      <td>The format a file is <a href="#save">saved</a> in, such as a document, image or video. When viewing files in the details view of a window the file types are shown in a <strong>Type</strong> column. The file type is also indicated by the <a href="#filename-extension">Filename extension</a>.</td>
     <tr>
       <td id="first-line-indent">First-line indent</td>
       <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls either where the first line of a paragraph starts or a bullet/number starts in a list. See examples in this article: <a href="/word/indents">Indents</a></td>
@@ -485,7 +486,7 @@ active: glossary
     </tr>
     <tr>
       <td id="save">Save</td>
-      <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}">Saving a file means storing the file's content in its current state onto your computer, cloud drive, or external device. You choose what it's called (the <a href="#filename">filename</a>) and where it's stored, allowing you to access it later. You also decide what format the file is saved as (the <a href="#filetype">filetype</a>); this is indicated by the <a href="#filename-extension">filename extension</a>. It's good practice to save frequently to avoid losing work due to crashes or power outages. Keyboard shortcut: <strong>Ctrl + S</strong>
+      <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}">Saving a file means storing the file's content in its current state onto your computer, cloud drive, or external device. You choose what it's called (the <a href="#filename">filename</a>) and where it's stored, allowing you to access it later. You also decide what format the file is saved as (the <a href="#filetype">file type</a>); this is indicated by the <a href="#filename-extension">filename extension</a>. It's good practice to save frequently to avoid losing work due to crashes or power outages. Keyboard shortcut: <strong>Ctrl + S</strong>
       </td>
     </tr>
     <tr>
@@ -602,6 +603,7 @@ active: glossary
   </tbody>
 </table>
 </div>
+
 <p><a href="#top">Back to top</a></p>
 
 <div id="glossary-templates" hidden>
@@ -717,13 +719,13 @@ active: glossary
       <tr>
       <tr>
         <td id="filename-extension">Filename extension</td>
-        <td>A suffix at the end of the filename after a full stop/period which indicates a file's filetype. E.g. a Word document will have the filename extension <strong>.docx</strong> while a Excel workbook will have <strong>.xlsx</strong>. 
+        <td>A suffix at the end of the filename after a full stop/period which indicates a file's file type. E.g. a Word document will have the filename extension <strong>.docx</strong> while a Excel workbook will have <strong>.xlsx</strong>. 
         <img src="{{ '/assets/images/glossary/File extension.png' | url }}"  alt="File extension" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle">
         </td>
       </tr>
       <tr>
-        <td id="filetype">Filetype</td>
-        <td>The format a file is <a href="#save">saved</a> in, such as a document, image or video. When viewing files in the details view of a window the filetypes are shown in a <strong>Type</strong> column. The filetype is also indicated by the <a href="#filename-extension">Filename extension</a>.</td>
+        <td id="filetype">File type</td>
+        <td>The format a file is <a href="#save">saved</a> in, such as a document, image or video. When viewing files in the details view of a window the file types are shown in a <strong>Type</strong> column. The file type is also indicated by the <a href="#filename-extension">Filename extension</a>.</td>
       <tr>
         <td id="first-line-indent">First-line indent</td>
         <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls either where the first line of a paragraph starts or a bullet/number starts in a list. See examples in this article: <a href="/word/indents">Indents</a></td>
@@ -1022,7 +1024,7 @@ active: glossary
     </tr> 
     <tr>
       <td id="save">Save</td>
-      <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}">Saving a file means storing the file's content in its current state onto your computer, cloud drive, or external device. You choose what it's called (the <a href="#filename">filename</a>) and where it's stored, allowing you to access it later. You also decide what format the file is saved as (the <a href="#filetype">filetype</a>); this is indicated by the <a href="#filename-extension">filename extension</a>. It's good practice to save frequently to avoid losing work due to crashes or power outages. Keyboard shortcut: <strong>Ctrl + S</strong>
+      <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}">Saving a file means storing the file's content in its current state onto your computer, cloud drive, or external device. You choose what it's called (the <a href="#filename">filename</a>) and where it's stored, allowing you to access it later. You also decide what format the file is saved as (the <a href="#filetype">file type</a>); this is indicated by the <a href="#filename-extension">filename extension</a>. It's good practice to save frequently to avoid losing work due to crashes or power outages. Keyboard shortcut: <strong>Ctrl + S</strong>
       </td>
     </tr>
     <tr>
