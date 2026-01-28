@@ -131,8 +131,8 @@ then
 
 <h4>How to use the spike</h4>
 <ol>
-    <li>Select some content then Press <strong>Shift + F3</strong> to cut it. This copies it to the spike's memory (note: not the clipboard).</p>
-    <p><u>Note</u>: If you have a <strong>Fn</strong> button on your keyboard like mine you may need to press that before F3, in which case you'll be pressing <strong>Shift + Fn + F3</strong>.</p>
+    <li>Select some content then Press <strong>Ctrl + F3</strong> to cut it. This copies it to the spike's memory (note: not the clipboard).</p>
+    <p><u>Note</u>: If you have a <strong>Fn</strong> button on your keyboard like mine you may need to press that before F3, in which case you'll be pressing <strong>Ctrl + Fn + F3</strong>.</p>
     <p><img class="thumbnail left" src="{{ '/assets/images/keyboard shortcuts/TheSpikeCtrl+F3.png' | url }}"  alt="Keyboard shortcut buttons Ctrl and F3 or Ctrl and Function and F3 to cut to the spike" style="max-width:315px; width:100%; height:auto; vertical-align:middle"></p></li>
     <li>Select other content and repeat to cut more content to the spike.</li>
     <li>Select where you want to paste and then press <strong>Ctrl + Shift + F3</strong> (or <strong>Ctrl + Shift + Fn + F3</strong>) to paste all the content from the spike.
