@@ -575,10 +575,13 @@ function updateIntSvgIndent() {
 <p>You can set custom points on the horizontal ruler called <strong>tab stops</strong> that control where the insertion point jumps to when you press the Tab key. This is useful rather of relying on Words default half-inch jumps, as you can create consistent alignment in your document.</p>
 <p>Tab stops carry their own alignment ( type—left, centre, right, decimal, or bar) which you can set via Tabs options.</p> 
 
-
 </section>
 </div>
 </article>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>
 
 <!-- Initialize both indent marker interactivities -->
 <script>

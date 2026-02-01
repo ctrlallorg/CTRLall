@@ -258,4 +258,9 @@ Active: word
   </li>
 <p>Here's a small demonstration of it all:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Compound words and unspaced hyphens.gif' | url }}" alt="Example of Compound words and unspaced hyphens in a paragraph in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+
 </section>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

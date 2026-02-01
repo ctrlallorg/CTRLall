@@ -163,7 +163,10 @@ active: word
   <p>This brings up the <strong>Borders and Shading</strong> dialog showing the <strong>Page Border</strong> tab. Hover over each option for what they do and examples.</p>
   <p><img class="thumbnail left" src="{{ '/assets/images/word/Borders and shading/Page border options.png' | url }}" alt="Page border options in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
 
-  <p></p>
   </section>
 </div>
 </article> 
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

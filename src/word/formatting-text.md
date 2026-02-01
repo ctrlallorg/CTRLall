@@ -503,5 +503,10 @@ active: word
   <li><a href="/word/paragraph-options/">Paragraph options</a></li>
   <li><a href="/word/styles/">Styles</a> (for headings)</li>
 </ul>
+
 </div>
 </article>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

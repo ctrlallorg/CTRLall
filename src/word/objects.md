@@ -193,7 +193,12 @@ active: word
   <p><img class="thumbnail" src="{{ '/assets/images/word/Objects/Drawing canvas menu.png' | url }}" alt="Drawing canvas option from Shapes menu on ribbon in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle"></p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Objects/Drawing canvas example.gif' | url }}" alt="Demonstration of object moved in a drawing canvas" style="max-width:650px; width:100%; height:auto; vertical-align:middle"></p>
   <!-- GIF of visuals moving around restricted to edge of the drawing canvas -->
+
   </section>
 
 </div>
 </article>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

@@ -213,7 +213,7 @@ You can embed a file in a Word document as an OLE object.
     <tbody>
       <tr>
         <td style="vertical-align: top;">
-        <p>Before talking about which checkbox to check, the easiest way to embed a file with an icon is to just simply drag and drop an existing file icon into your open Word document and it'll embed itself on the page wherever your insertion point was when you dropped it.</p>
+        <p>Before talking about which checkbox to check, the easiest way to embed a file with an icon is to just simply drag and drop an existing file icon into your open Word document and it'll embed itself on the page wherever your <span class="glossary-hover" data-term="insertion-point">insertion point</span> was when you dropped it.</p>
         <p><img class="thumbnail" src="{{ '/assets/images/word/Objects/Insert embedded file.gif' | url }}" alt="Insert embedded file in Word" style="max-width: 100%; height: auto; display: inline;"></p>
         <p>But if you want to do it via Insert > Object, in this window check <strong>Display as icon</strong>, then click <strong>OK</strong>:</p>
         <p><img class="thumbnail" src="{{ '/assets/images/word/Objects Embedded files/Insert Object Create from file embedded icon.png' | url }}" alt="Insert Object Create from file embedded icon" style="max-width: 100%; height: auto; display: block;"></p>
@@ -371,5 +371,9 @@ You can embed a file in a Word document as an OLE object.
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Embedded file OLE object wrap settings.png' | url }}" alt="Format object wrap options and advanced options" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
 <p>Here's the Top and Bottom wrapping style applied with some added 'distance from text' spacing top and bottom:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Objects Embedded files/Embedded file OLE object wrap.png' | url }}" alt="Embedded file icon in a paragraph with top and bottom wrapping" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+
 </section>
 
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

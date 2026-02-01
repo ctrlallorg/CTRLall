@@ -134,3 +134,7 @@ That’s because they’re hidden by default. To make formatting marks like thes
   </figcaption>
 </figure>
 </section>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

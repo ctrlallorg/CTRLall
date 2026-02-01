@@ -75,3 +75,7 @@ Once done you should see the numbered lists continuing on as appropriate (Note: 
 <img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Number list issue example fixed.png' | url }}" alt="Number list sequence issue example fixed" style="max-width:450px; width:100%; height:auto; vertical-align:middle">
 
 </section>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

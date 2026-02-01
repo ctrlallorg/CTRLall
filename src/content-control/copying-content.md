@@ -107,8 +107,11 @@ then
 <img class="thumbnail border" src="{{ '/assets/images/content control/Multiple select copy and paste Ctrl Word.gif' | url }}"  alt="Copy and paste multiple text using Ctrl in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
 <img class="thumbnail border" src="{{ '/assets/images/content control/Multiple select copy and paste Ctrl Excel.gif' | url }}"  alt="Copy and paste multiple cells using Ctrl in Excel" style="max-width:300px; width:100%; height:auto; vertical-align:middle">
 <img class="thumbnail border" src="{{ '/assets/images/content control/Multiple select copy and paste Ctrl.gif' | url }}"  alt="Copy and paste multiple file using Ctrl" style="max-width:800px; width:100%; height:auto; vertical-align:middle">
-
 </section>
 
 </div>
 </article>
+
+<div class="article-share">
+  {% include "share-menu.liquid" %}
+</div>

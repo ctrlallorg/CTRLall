@@ -471,6 +471,74 @@ input:checked + .slider:before {
   height: auto;
 }
 
+/* ─── Article Footer Share Menu ───────────────────────── */
+
+.article-share .share-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
+/* Main share panel */
+.article-share .share-panel {
+  position: relative; /* no need for absolute if always visible */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  margin-top: 8px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+
+/* Links inside the share panel */
+.article-share .share-panel a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6c757d;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.article-share .share-panel a:hover {
+  background-color: #eaeaea;
+  color: #2c3e50;
+}
+
+/* Social icons */
+.article-share .share-panel img,
+.article-share .share-panel svg,
+.article-share .share-panel i {
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin: 0;
+}
+
+/* Tooltip span */
+.article-share .share-panel a span {
+  line-height: 1;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+
+
+.article-share .dropdown-content a span {
+  line-height: 1;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+
 /* Base Reset and Typography */
 * {
   box-sizing: border-box;

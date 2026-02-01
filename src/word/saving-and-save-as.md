@@ -198,3 +198,7 @@ In the browser window that appears decide on the file name, the file type (the d
 </section>
 </div>
 </article>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

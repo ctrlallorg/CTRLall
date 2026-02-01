@@ -9,7 +9,7 @@ date: 2025-10-26
 last_modified: 2025-10-30
 difficultyLevels:
   - level: Beginner
-    description: "Introduces the bacis of paragraph options with clear visual cues."
+    description: "Introduces the bacics of paragraph options with clear visual cues."
     urlSuffix: "#beginner"
   - level: Intermediate
     description: "Expands on paragraph options with advanced options explained."
@@ -369,4 +369,6 @@ active: word
   </div>
   </section>
 
-
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

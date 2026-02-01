@@ -41,3 +41,9 @@ active: word
 
 <section class="section-light">
 <p>More to come</p>
+
+</section>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

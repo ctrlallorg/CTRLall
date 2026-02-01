@@ -606,6 +606,10 @@ active: glossary
 
 <p><a href="#top">Back to top</a></p>
 
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>
+
 <div id="glossary-templates" hidden>
   <template id="tooltip-glossary">
     <table>

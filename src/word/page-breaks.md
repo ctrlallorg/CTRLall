@@ -70,8 +70,6 @@ active: word
 <p>Once the page break is deleted, content from the next page will shift back like this:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Page breaks/Deleting page break.gif' | url }}"  alt="Demonstration deleting page break in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
-
-
 </section>
 
 </div>
@@ -118,6 +116,13 @@ active: word
   <li><strong>Line breaks (<span class="glossary-hover" data-term="soft-return">soft return</span>)</strong> – Moves text to the next line without start a new paragraph.</li>
   <li><strong>Column breaks</strong> – These are used in multi-column layouts to shift content to the next column.</li>
   </ul>
+
+
+
   </section>
 </div>
 </article>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

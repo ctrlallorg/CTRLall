@@ -70,3 +70,6 @@ active: powerpoint
 <ul>
   <li>C:\Users\<u>YourUserID</u>\Desktop</li>
 </ul>
+<div class="article-share">
+  {% include "share-menu.liquid" %}
+</div>

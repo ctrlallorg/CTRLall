@@ -224,6 +224,11 @@ active: word
   <p>Once edited as needed, save the template.</p> 
 
   <p>If you don't have access to the original template file, you can always use the document and save over a template file  via <strong>Save As</strong> settings. For more on saving files as different filetypes see <a href="/word/saving-and-save-as/">Saving and Save As.</a></p>
+ 
   </section>
 </div>
 </article>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

@@ -63,3 +63,7 @@ Wrapping styles and anchor points confuse users trying to layer content.
 <p></p>
 
 </section>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

@@ -159,8 +159,11 @@ active: word
   <p>Now the comments won't appear in the PDF:</p>
   <img class="thumbnail border" src="{{ '/assets/images/word/Save as PDF/Comments 3.png' | url }}"  alt="Adobe PDF without comments" style="max-width:775px; width:100%; height:auto; vertical-align:middle">
 
-
   </section>
 
 </div>
 </article>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

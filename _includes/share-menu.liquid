@@ -1,0 +1,30 @@
+<div class="share-container">
+  <p>Found this useful? Share it with others.</p>
+  <div class="share-panel">
+    <a href="javascript:void(0)" onclick="copyPageLink(this)" style="position:relative;">
+      🔗Copy Link <span class="copy-tooltip">Copied!</span>
+    </a>
+    <a href="javascript:void(0)" onclick="emailCurrentPage(event)">📧Email this page</a>
+
+    <a id="linkedin-share" target="_blank"
+       href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url }}&title={{ page.title }}&summary=Check%20this%20out:%20{{ page.url }}">
+      <img src="{{ '/assets/images/topbar/linkedin.png' | url }}" alt="Linkedin">
+    </a>
+
+    <a id="facebook-share" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url }}">
+      <img src="{{ '/assets/images/topbar/facebook.png' | url }}" alt="Facebook">
+    </a>
+
+    <a id="reddit-share" target="_blank" href="https://www.reddit.com/submit?url={{ page.url }}&title=CTRL%20All">
+      <img src="{{ '/assets/images/topbar/reddit.png' | url }}" alt="Reddit">
+    </a>
+
+    <a id="bluesky-share" target="_blank" href="https://bsky.app/intent/compose?text=CTRL%20All%20{{ page.url }}">
+      <img src="{{ '/assets/images/topbar/bluesky.png' | url }}" alt="Bluesky">
+    </a>
+
+    <a id="threads-share" target="_blank" href="https://www.threads.net/intent/post?text=CTRL%20All%20{{ page.url }}">
+      <img src="{{ '/assets/images/topbar/threads.png' | url }}" alt="Threads">
+    </a>
+  </div>
+</div>

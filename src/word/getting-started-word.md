@@ -76,7 +76,7 @@ active: word
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
 <div class="difficulty beginner-version"  aria-label="Beginner introduction to Microsoft Word">
   <section class="section-light">
-     <p>If you’re new to Word, you might also be new to using Windows. This article guide is for those brand new to Word. If you're already a little familiar with Word try the <a href="?difficulty=intermediate">intermediate version</a> of this article.
+     <p>If you’re new to Word, you might also be new to using Windows. This article guide is for those brand new to Word. If you're already a little familiar with Word try the <a href="?difficulty=intermediate">intermediate version</a> of this article.</p>
       <p>Microsoft Word (often just called 'Word') is a program for writing and editing documents. It’s the most common <span class="glossary-hover" data-term="application">application</span> ('app' for short) for <span class="glossary-hover" data-term="word-processing">word processing</span> around the world. Word is part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> package which also includes other programs like Outlook for email and Excel for spreadsheets.</p>
       <p>In this article we'll go step by step through the basics, including:</p>
       <ul>
@@ -347,7 +347,12 @@ active: word
           <li><a href="/word/images">How to insert images and graphic visuals</a></li>
         </ul>
         <p>Otherwise feel free to use the side menu or type what you're after in the search bar.</p>
-    </section>
-  </div>
 
+  </section>
+
+</div>
 </article>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

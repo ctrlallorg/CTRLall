@@ -372,6 +372,10 @@ active: word
 </div>
 </article>
 
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>
+
 <div id="tooltip">
     <img />
   </div> 

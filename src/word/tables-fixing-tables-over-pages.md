@@ -160,3 +160,8 @@ Now instead of content overflowing the whole row moves down to the next page ins
 <img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Complex header row example.png' | url }}"  alt="Complex header and subheading rows example in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
 <img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Complex header row example across pages.png' | url }}"  alt="Complex header and subheading rows example across pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle">
 
+</section>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

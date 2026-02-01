@@ -162,6 +162,10 @@ There are further options you can modify a style with though. Locate the style i
 </ul>
 </section>
 
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>
+
 <!-- Global tooltip layer -->
   <div id="tooltip-layer"></div>
 

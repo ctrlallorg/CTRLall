@@ -319,7 +319,12 @@ active: word
       </tbody>
     </table>
     </div>
-    </section>
+
+  </section>
  </div>
 </article>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>
 

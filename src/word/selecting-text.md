@@ -92,9 +92,11 @@ For selecting punctuation at the end of a sentence sometimes it's easier to <str
   <p>This can be quite handy. Hold down <strong>Ctrl</strong> and select multiple content that isn't next to each other. You can use this to cut and paste or copy and paste elsewhere, see <a href="/content-control/copying-content/">copying content</a> and <a href="/content-control/moving-content/">moving content</a> for examples.</p>
   <img class="thumbnail border" src="{{ '/assets/images/word/Selecting text/Select text Ctrl.gif' | url }}" alt="Selecting multiple non-adjacent text with Ctrl in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
 
-
-
  </section>
 
 </div>
 </article>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

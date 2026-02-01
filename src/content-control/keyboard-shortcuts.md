@@ -303,3 +303,7 @@ active: content-control
 </div>
 
 </section>
+
+<div class="article-share">
+  {% include "share-menu.liquid" %}
+</div>

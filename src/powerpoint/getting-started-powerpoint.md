@@ -379,7 +379,11 @@ active: powerpoint
     <li>More articles on PowerPoint to come</li>
   </ul>
 
-  <br>
   </section>
+  
 </div>
 </article>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>

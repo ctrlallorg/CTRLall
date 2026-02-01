@@ -82,6 +82,10 @@ active: word
 
 </section>
 
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>
+
 <!-- Global tooltip layer -->
   <div id="tooltip-layer"></div>
 

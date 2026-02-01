@@ -143,7 +143,12 @@ then
 <img class="thumbnail border" src="{{ '/assets/images/content control/Spike example.gif' | url }}"  alt="Cutting and pasting multiple content from one location to another with the spike function" style="max-width:300px; width:100%; height:auto; vertical-align:middle">
 
 <p>Note also how it pastes content in the order it was cut not it's original position in the document; ('Apple' is at the end not the start).</p>
+
 </section>
 
 </div>
 </article>
+
+<div class="article-share">
+  {% include "share-menu.liquid" %}
+</div>
