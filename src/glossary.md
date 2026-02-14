@@ -354,10 +354,15 @@ active: glossary
         <td id="kerning">Kerning</td>
         <td><p>Kerning is about adjusting the spacing between individual letters in a word to improve visual balance and readability. For example kerning may be used to bring adjacent letters like '<strong>A</strong>' and '<strong>V</strong>' closer together so they look evenly spaced. Kerning is key to typography in headlines, logos, and display type. If done poorly though kerning can lead to word being misinterpreted, e.g. if you put '<strong>r</strong>' and '<strong>n</strong>' to close together they can appear like an '<strong>m</strong>'.</p>
         <p><img src="{{ '/assets/images/word/Font options/Kerning examples.png' | url }}"  alt="Kerning example" style="display: block; max-width:275px; width:100%; height:auto; vertical-align:middle"></p></td>
+    </tr>
+    <tr>
+        <td id="leader">Leader</td>
+        <td>Leaders are a filler pattern that appears between one point and a <a href="#tab-stop">tab stop</a>. When pressing tab Word will add the leader in automatically. You'll most likely recognise leaders from a table of contents but they're also using in forms, menus and other lists. See examples further below.</p>
+        <p><img src="{{ '/assets/images/glossary/Leader examples.png' | url }}"  alt="Leader examples" style="display: block; max-width:500px; width:100%; height:auto; vertical-align:middle"></p></td>
       </tr>
     <tr>
       <td id="left-indent">Left indent</td>
-      <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls where a paragraph starts, or, in a list where both the bullet/number and content after starts. See examples in this article: <a href="/word/indents">Indents</a></td>
+      <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls where the whole paragraph starts, or, in a list where both the bullet/number and content after starts. See examples in this article: <a href="/word/indents">Indents</a></td>
     </tr>
     <tr>
       <td id="line-numbers">Line numbers</td>
@@ -532,7 +537,7 @@ active: glossary
     </tr>
     <tr>
       <td id="tab-stop">Tab stop</td>
-      <td>A tab stop (a.k.a. a 'tab')is a preset location on the horizontal <a href="#ruler">ruler</a> that defines where the <a href="#insertion point">insertion point</a> or existing text will align to when you press the <strong>Tab</strong> key. Tabs are set by clicking onto the horizontal ruler or via the Tabs dialog box (<strong>Home > Paragraph > Tabs</strong>).</td>
+      <td>A tab stop (a.k.a. a 'tab') is a preset location on the horizontal <a href="#ruler">ruler</a> that defines where the <a href="#insertion point">insertion point</a> or existing text will align to when you press the <strong>Tab</strong> key. Tabs are set by clicking onto the horizontal ruler or via the Tabs dialog box (<strong>Home > Paragraph > Tabs</strong>).</td>
     </tr>
     <tr>
       <td id="table">Table</td>
@@ -899,8 +904,13 @@ active: glossary
         <td><p>Kerning is about adjusting the spacing between individual letters in a word to improve visual balance and readability. For example kerning may be used to bring adjacent letters like '<strong>A</strong>' and '<strong>V</strong>' closer together so they look evenly spaced. Kerning is key to typography in headlines, logos, and display type. If done poorly though kerning can lead to word being misinterpreted, e.g. if you put '<strong>r</strong>' and '<strong>n</strong>' to close together they can appear like an '<strong>m</strong>'.</p>
         <p><img src="{{ '/assets/images/glossary/Kerning.png' | url }}"  alt="Kerning example" style="display: block; max-width:275px; width:100%; height:auto; vertical-align:middle"></p></td>
       </tr>
+      <tr>
+        <td id="leader">Leader</td>
+        <td>Leaders are a filler pattern that appears between one point and a <a href="#tab-stop">tab stop</a>. When pressing tab Word will add the leader in automatically. You'll most likely recognise leaders from a table of contents but they're also using in forms, menus and other lists. See examples further below.</p>
+        <p><img src="{{ '/assets/images/glossary/Leader examples.png' | url }}"  alt="Leader examples" style="display: block; max-width:500px; width:100%; height:auto; vertical-align:middle"></p></td>
+      </tr>
       <td id="left-indent">Left indent</td>
-      <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls where a paragraph starts, or, in a list where both the bullet/number and content after starts. See examples in this article: <a href="/word/indents">Indents</a></td>
+      <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls where the whole paragraph starts, or, in a list where both the bullet/number and content after starts. See examples in this article: <a href="/word/indents">Indents</a></td>
     </tr>
     <tr>
       <td id="line-numbers">Line numbers</td>
@@ -1074,7 +1084,7 @@ active: glossary
     </tr>
     <tr>
       <td id="tab-stop">Tab stop</td>
-      <td>A tab stop (a.k.a. a 'tab')is a preset location on the horizontal <a href="#ruler">ruler</a> that defines where the <a href="#insertion point">insertion point</a> or existing text will align to when you press the <strong>Tab</strong> key. Tabs are set by clicking onto the horizontal ruler or via the Tabs dialog box (<strong>Home > Paragraph > Tabs</strong>).</td>
+      <td>A tab stop (a.k.a. a 'tab') is a preset location on the horizontal <a href="#ruler">ruler</a> that defines where the <a href="#insertion point">insertion point</a> or existing text will align to when you press the <strong>Tab</strong> key. Tabs are set by clicking onto the horizontal ruler or via the Tabs dialog box (<strong>Home > Paragraph > Tabs</strong>).</td>
     </tr>
     <tr>
       <td id="table">Table</td>

@@ -373,14 +373,13 @@ active: powerpoint
 
   <h1>Where to now?</h1>
   <p>Now you know how to get set up with the PowerPoint and understand its interface, try some of these articles depending on what you need:</p>
-
-  <ul>
+    <ul>
     <li><a href="/powerpoint/saving-and-save-as/">How to save</a></li>
     <li>More articles on PowerPoint to come</li>
   </ul>
 
   </section>
-  
+
 </div>
 </article>
 

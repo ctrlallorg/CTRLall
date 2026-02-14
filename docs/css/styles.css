@@ -661,19 +661,18 @@ img.border-left {
   display: inline-block;  /* keeps it inline with text */
   vertical-align: middle; /* aligns nicely with text baseline */
 }
-
-
 .image-row {
   display: flex;
-  gap: 1em; /* space between images */
-  justify-content: center; /* optional: center the row */
-  flex-wrap: wrap; /* allows stacking on small screens */
+  gap: 1em;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start; /* prevents vertical stretching */
 }
 
 .image-row img {
-  max-width: 48%;
   height: auto;
-  margin: 0; /* override inherited margin */
+  width: auto;
+  flex: 0 0 auto; /* prevents flexbox from stretching */
 }
 
 .image-adjacent img {
