@@ -24,6 +24,11 @@ tags:
   - format sentences
   - format paragraphs
   - font style
+  - text style change
+  - change text style
+  - changing text style
+  - change text look
+  - change look of text
   - style text
   - style words
   - style sentences

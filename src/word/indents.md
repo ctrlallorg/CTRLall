@@ -372,7 +372,7 @@ function updateSvgIndent() {
   </ul>
 
   <h3 id="indent-paragraph-options-int">Indenting with Paragraph Options</h3>
-  <p>Going to <strong>Paragraph Options</strong> via <strong>Home > Paragraph > bottom right corner button</strong> lets you apply left and right indentation to a selected paragraph(s), or, if you don't select, see here for more: <a href="/word/paragraph-options/#indentation">Paragraph Options - Indentation</a>.</p>
+  <p>Going to <strong>Paragraph Options</strong> via <strong>Home > Paragraph > bottom right corner button</strong> lets you apply left and right indentation to one or more selected paragraph(s), or, the whole document if you select everything (<strong>Ctrl + A</strong>). See here for a guide to all the options: <a href="/word/paragraph-options/#indentation">Paragraph Options - Indentation</a>.</p>
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Indents and Spacing Indentation.png' | url }}"  alt="Paragraph Options Indents and Spacing Indentation" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h3 id="indent-ruler-int">Indenting with the ruler</h3>

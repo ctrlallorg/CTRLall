@@ -1212,6 +1212,60 @@ td.justified {
   font-weight: 600;
 }
 
+/* Softer arrow for Level 2 category toggles */
+.nav-level-2 > li > .nav-toggle .arrow {
+  border-color: #999; /* softer grey */
+  opacity: 0.7;       /* subtle, less dominant */
+}
+
+/* Optional: even softer when expanded */
+.nav-level-2 > li > .nav-toggle.expanded .arrow {
+  border-color: #666;
+  opacity: 0.9;
+}
+
+
+.nav-level-3 {
+  display: none;
+}
+
+.nav-level-3.show {
+  display: block;
+}
+
+
+.nav-level-3 li {
+  margin: 0.25rem 0;
+}
+
+.nav-level-3 a {
+  display: block;
+  padding: 2px 0;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.nav-level-3 a:hover {
+  color: #452c50;
+  text-decoration: none;
+}
+
+.nav-level-3 a.active {
+  color: #452c50;
+  font-weight: 600;
+}
+
+/* Level 3 toggle should look like a Level 2 link */
+.level-3-toggle {
+  padding: 2px 0;        /* matches .nav-level-2 a */
+  font-weight: 400;      /* same as Level 2 */
+  font-size: 1rem;       /* same as Level 2 */
+  color: #333;           /* same as Level 2 */
+}
+
+
 .nav-toggle {
   background: none;
   border: none;
@@ -1422,6 +1476,7 @@ body.sidebar-collapsed .main-column {
   border-right: 1px solid #ddd;
   z-index: 999;
   overflow-y: auto;
+  overflow-x: visible;
 }
 
 /* ─── Sidebar Collapse Behavior ──────────────────── */

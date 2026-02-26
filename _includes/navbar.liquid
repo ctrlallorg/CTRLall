@@ -19,274 +19,338 @@
     </ul>
   </li>
 
-  <!-- Word Section -->
-  <li>
-    <button class="nav-toggle {% if active == 'word' %}active expanded{% endif %}" data-section="word" aria-expanded="{% if active == 'word' %}true{% else %}false{% endif %}" aria-controls="nav-word">
-      Word <span class="arrow"></span>
-    </button>
-    <ul id="nav-word" class="nav-level-2 {% if active == 'word' %}show{% endif %}">
-      <li>
-        <a href="{{ '/word/getting-started-word/' | url }}"
-          class="{% if page.url == '/word/getting-started-word/' %}active{% endif %}"
-          data-beginner="Getting started with Word"
-          data-intermediate="Getting started with Word">
-          Getting started with Word
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/documents-vs-templates/' | url }}"
-          class="{% if page.url == '/word/documents-vs-templates/' %}active{% endif %}"
-          data-beginner="Documents vs Templates"
-          data-intermediate="Documents vs Templates">
-          Documents vs Templates
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/pages-and-views/' | url }}"
-          class="{% if page.url == '/word/pages-and-views/' %}active{% endif %}"
-          data-beginner="Pages and views"
-          data-intermediate="Pages and views">
-          Pages and views
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/saving-and-save-as/' | url }}"
-          class="{% if page.url == '/word/saving-and-save-as/' %}active{% endif %}"
-          data-beginner="Saving and Save As"
-          data-intermediate="Saving and Save As">
-          Saving and Save As
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/save-as-pdf/' | url }}"
-          class="{% if page.url == '/word/save-as-pdf/' %}active{% endif %}"
-          data-beginner="Save as PDF"
-          data-intermediate="Save as PDF">
-          Save as PDF
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/selecting-text/' | url }}"
-          class="{% if page.url == '/word/selecting-text/' %}active{% endif %}"
-          data-beginner="Selecting text"
-          data-intermediate="Selecting text">
-          Selecting text
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/formatting-text/' | url }}"
-          class="{% if page.url == '/word/formatting-text/' %}active{% endif %}"
-          data-beginner="Formatting text"
-          data-intermediate="Formatting text">
-          Formatting text
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/fixing-irregular-spacing/' | url }}"
-          class="{% if page.url == '/word/fixing-irregular-spacing/' %}active{% endif %}"
-          data-beginner="Fixing irregular spacing"
-          data-intermediate="Fixing irregular spacing">
-          Fixing irregular spacing
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/font-options/' | url }}"
-          class="{% if page.url == '/word/font-options/' %}active{% endif %}"
-          data-beginner="Font options"
-          data-intermediate="Font options">
-          Font options
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/paragraph-options/' | url }}"
-          class="{% if page.url == '/word/paragraph-options/' %}active{% endif %}"
-          data-beginner="Paragraph options"
-          data-intermediate="Paragraph options">
-          Paragraph options
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/styles/' | url }}"
-          class="{% if page.url == '/word/styles/' %}active{% endif %}"
-          data-beginner="Styles"
-          data-intermediate="Styles">
-          Styles
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/tab-stops/' | url }}"
-          class="{% if page.url == '/word/tab-stops/' %}active{% endif %}"
-          data-beginner="Tab stops"
-          data-intermediate="Tab stops">
-          Tab stops
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/indents/' | url }}"
-          class="{% if page.url == '/word/indents/' %}active{% endif %}"
-          data-beginner="Indents"
-          data-intermediate="Indents">
-          Indents
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/page-breaks/' | url }}"
-          class="{% if page.url == '/word/page-breaks/' %}active{% endif %}"
-          data-beginner="Page breaks"
-          data-intermediate="Page breaks">
-          Page breaks
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/section-breaks/' | url }}"
-          class="{% if page.url == '/word/section-breaks/' %}active{% endif %}"
-          data-beginner="Section breaks"
-          data-intermediate="Section breaks">
-          Section breaks
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/headers-and-footers/' | url }}"
-          class="{% if page.url == '/word/headers-and-footers/' %}active{% endif %}"
-          data-beginner="Headers and Footers"
-          data-intermediate="Headers and Footers">
-          Headers and Footers
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/lists-fixing-number-lists/' | url }}"
-          class="{% if page.url == '/word/lists-fixing-number-lists/' %}active{% endif %}"
-          data-beginner="Lists: Fixing number lists"
-          data-intermediate="Lists: Fixing number lists">
-          Lists: Fixing number lists
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/lists-soft-hard-returns/' | url }}"
-          class="{% if page.url == '/word/lists-soft-hard-returns/' %}active{% endif %}"
-          data-beginner="Lists: Soft & hard returns"
-          data-intermediate="Lists: Soft & hard returns">
-          Lists: Soft & hard returns
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/tables/' | url }}"
-          class="{% if page.url == '/word/tables/' %}active{% endif %}"
-          data-beginner="Tables"
-          data-intermediate="Tables">
-          Tables
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/tables-formatting/' | url }}"
-          class="{% if page.url == '/word/tables-formatting/' %}active{% endif %}"
-          data-beginner="Tables: Formatting"
-          data-intermediate="Tables: Formatting">
-          Tables: Formatting
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/tables-fixing-table-image-problems/' | url }}"
-          class="{% if page.url == '/word/tables-fixing-table-image-problems/' %}active{% endif %}"
-          data-beginner="Tables: Fixing image problems"
-          data-intermediate="Tables: Fixing image problems">
-          Tables: Fixing image problems
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/tables-fixing-tables-extending-offscreen/' | url }}"
-          class="{% if page.url == '/word/tables-fixing-tables-extending-offscreen/' %}active{% endif %}"
-          data-beginner="Tables: Fixing tables extending offscreen"
-          data-intermediate="Tables: Fixing tables extending offscreen">
-          Tables: Fixing tables extending offscreen
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/tables-fixing-tables-over-pages/' | url }}"
-          class="{% if page.url == '/word/tables-fixing-tables-over-pages/' %}active{% endif %}"
-          data-beginner="Tables: Fixing tables over pages"
-          data-intermediate="Tables: Fixing tables over pages">
-          Tables: Fixing tables over pages
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/tables-convert-text-to-tables/' | url }}"
-          class="{% if page.url == '/word/tables-convert-text-to-tables/' %}active{% endif %}"
-          data-beginner="Tables: Convert text to tables"
-          data-intermediate="Tables: Convert text to tables">
-          Tables: Convert text to tables
-        </a>
-      </li>
+<!-- Word Section -->
+<li>
+  <button class="nav-toggle {% if active == 'word' %}active expanded{% endif %}"
+          data-section="word"
+          aria-expanded="{% if active == 'word' %}true{% else %}false{% endif %}"
+          aria-controls="nav-word">
+    Word <span class="arrow"></span>
+  </button>
 
-      <li>
-        <a href="{{ '/word/images/' | url }}"
-          class="{% if page.url == '/word/images/' %}active{% endif %}"
-          data-beginner="Images"
-          data-intermediate="Images">
-          Images
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/objects/' | url }}"
-          class="{% if page.url == '/word/objects/' %}active{% endif %}"
-          data-beginner="Objects"
-          data-intermediate="Objects">
-          Objects
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/objects-embedded-files/' | url }}"
-          class="{% if page.url == '/word/objects-embedded-files/' %}active{% endif %}"
-          data-beginner="Objects: Embedded Files"
-          data-intermediate="Objects: Embedded Files">
-          Objects: Embedded Files
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/altering-images-and-objects/' | url }}"
-          class="{% if page.url == '/word/altering-images-and-objects/' %}active{% endif %}"
-          data-beginner="Altering images and objects"
-          data-intermediate="Altering images and objects">
-          Altering images and objects
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/table-of-contents/' | url }}"
-          class="{% if page.url == '/word/table-of-contents/' %}active{% endif %}"
-          data-beginner="Table of contents"
-          data-intermediate="Table of contents">
-          Table of contents
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/table-of-contents-custom/' | url }}"
-          class="{% if page.url == '/word/table-of-contents-custom/' %}active{% endif %}"
-          data-beginner="Custom table of contents"
-          data-intermediate="Custom table of contents">
-          Custom table of contents
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/editing-charts/' | url }}"
-          class="{% if page.url == '/word/editing-charts/' %}active{% endif %}"
-          data-beginner="Editing charts"
-          data-intermediate="Editing charts">
-          Editing charts
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/word/page-setup-options/' | url }}"
-          class="{% if page.url == '/word/page-setup-options/' %}active{% endif %}"
-          data-beginner="Page setup options"
-          data-intermediate="Page setup options">
-          Page setup options
-        </a>
-      </li>
-      <li><a href="{{ '/content-control/keyboard-shortcuts/#word-keyboard-shortcuts' | url }}" class="{% if page.url == '/content-control/keyboard-shortcuts/#word-keyboard-shortcuts' %}active{% endif %}">Word Keyboard Shortcuts</a></li>
-    </ul>
-  </li>
+  <ul id="nav-word" class="nav-level-2 {% if active == 'word' %}show{% endif %}">
 
-  
+    <!-- Standalone Level 2 Articles -->
+    <li>
+      <a href="{{ '/word/getting-started-word/' | url }}"
+         class="{% if page.url == '/word/getting-started-word/' %}active{% endif %}">
+        Getting started with Word
+      </a>
+    </li>
+
+    <li>
+      <a href="{{ '/word/documents-vs-templates/' | url }}"
+         class="{% if page.url == '/word/documents-vs-templates/' %}active{% endif %}">
+        Documents vs templates
+      </a>
+    </li>
+
+    <li>
+      <a href="{{ '/word/pages-and-views/' | url }}"
+         class="{% if page.url == '/word/pages-and-views/' %}active{% endif %}">
+        Pages and Views
+      </a>
+    </li>
+
+    <li>
+      <a href="{{ '/word/saving-and-save-as/' | url }}"
+         class="{% if page.url == '/word/saving-and-save-as/' %}active{% endif %}">
+        Saving and Save As
+      </a>
+    </li>
+
+    <li>
+      <a href="{{ '/word/save-as-pdf/' | url }}"
+         class="{% if page.url == '/word/save-as-pdf/' %}active{% endif %}">
+        Save as PDF
+      </a>
+    </li>
+
+    <li>
+      <a href="{{ '/word/selecting-text/' | url }}"
+         class="{% if page.url == '/word/selecting-text/' %}active{% endif %}">
+        Selecting text
+      </a>
+    </li>
+
+    <li>
+      <a href="{{ '/word/formatting-text/' | url }}"
+         class="{% if page.url == '/word/formatting-text/' %}active{% endif %}">
+        Formatting text
+      </a>
+    </li>
+
+
+    <!-- TEXT & PARAGRAPH FORMATTING -->
+    <li>
+      <button 
+        class="nav-toggle level-3-toggle
+          {% if page.url == '/word/tab-stops/' 
+             or page.url == '/word/indents/' 
+             or page.url == '/word/fixing-irregular-spacing/' 
+             or page.url == '/word/font-options/' 
+             or page.url == '/word/paragraph-options/' %}
+            expanded
+          {% endif %}"
+        aria-expanded="{% if page.url == '/word/tab-stops/' 
+             or page.url == '/word/indents/' 
+             or page.url == '/word/fixing-irregular-spacing/' 
+             or page.url == '/word/font-options/' 
+             or page.url == '/word/paragraph-options/' %}
+            true
+          {% else %}
+            false
+          {% endif %}">
+        Text & Paragraph Formatting <span class="arrow"></span>
+      </button>
+
+      <ul class="nav-level-3
+          {% if page.url == '/word/tab-stops/' 
+             or page.url == '/word/indents/' 
+             or page.url == '/word/fixing-irregular-spacing/' 
+             or page.url == '/word/font-options/' 
+             or page.url == '/word/paragraph-options/' %}
+            show
+          {% endif %}">
+
+        <li><a href="{{ '/word/tab-stops/' | url }}" class="{% if page.url == '/word/tab-stops/' %}active{% endif %}">Tab stops</a></li>
+        <li><a href="{{ '/word/indents/' | url }}" class="{% if page.url == '/word/indents/' %}active{% endif %}">Indents</a></li>
+        <li><a href="{{ '/word/fixing-irregular-spacing/' | url }}" class="{% if page.url == '/word/fixing-irregular-spacing/' %}active{% endif %}">Fixing irregular spacing</a></li>
+        <li><a href="{{ '/word/font-options/' | url }}" class="{% if page.url == '/word/font-options/' %}active{% endif %}">Font options</a></li>
+        <li><a href="{{ '/word/paragraph-options/' | url }}" class="{% if page.url == '/word/paragraph-options/' %}active{% endif %}">Paragraph options</a></li>
+
+      </ul>
+    </li>
+
+
+    <!-- DOCUMENT STRUCTURE & STYLES-->
+    <li>
+      <button 
+        class="nav-toggle level-3-toggle
+          {% if page.url == '/word/styles/' 
+             or page.url == '/word/page-breaks/' 
+             or page.url == '/word/section-breaks/' 
+             or page.url == '/word/headers-and-footers/' %}
+            expanded
+          {% endif %}"
+        aria-expanded="{% if page.url == '/word/styles/' 
+             or page.url == '/word/page-breaks/' 
+             or page.url == '/word/section-breaks/' 
+             or page.url == '/word/headers-and-footers/' %}
+            true
+          {% else %}
+            false
+          {% endif %}">
+        Document Structure & Styles<span class="arrow"></span>
+      </button>
+
+      <ul class="nav-level-3
+          {% if page.url == '/word/styles/' 
+             or page.url == '/word/page-breaks/' 
+             or page.url == '/word/section-breaks/' 
+             or page.url == '/word/headers-and-footers/' %}
+            show
+          {% endif %}">
+
+        <li><a href="{{ '/word/styles/' | url }}" class="{% if page.url == '/word/styles/' %}active{% endif %}">Styles</a></li>
+        <li><a href="{{ '/word/page-breaks/' | url }}" class="{% if page.url == '/word/page-breaks/' %}active{% endif %}">Page breaks</a></li>
+        <li><a href="{{ '/word/section-breaks/' | url }}" class="{% if page.url == '/word/section-breaks/' %}active{% endif %}">Section breaks</a></li>
+        <li><a href="{{ '/word/headers-and-footers/' | url }}" class="{% if page.url == '/word/headers-and-footers/' %}active{% endif %}">Headers and Footers</a></li>
+
+      </ul>
+    </li>
+
+
+    <!-- LISTS -->
+    <li>
+      <button 
+        class="nav-toggle level-3-toggle
+          {% if page.url == '/word/lists-fixing-number-lists/' 
+             or page.url == '/word/lists-soft-hard-returns/' %}
+            expanded
+          {% endif %}"
+        aria-expanded="{% if page.url == '/word/lists-fixing-number-lists/' 
+             or page.url == '/word/lists-soft-hard-returns/' %}
+            true
+          {% else %}
+            false
+          {% endif %}">
+        Lists <span class="arrow"></span>
+      </button>
+
+      <ul class="nav-level-3
+          {% if page.url == '/word/lists-fixing-number-lists/' 
+             or page.url == '/word/lists-soft-hard-returns/' %}
+            show
+          {% endif %}">
+
+        <li><a href="{{ '/word/lists-fixing-number-lists/' | url }}" class="{% if page.url == '/word/lists-fixing-number-lists/' %}active{% endif %}">Fixing number lists</a></li>
+        <li><a href="{{ '/word/lists-soft-hard-returns/' | url }}" class="{% if page.url == '/word/lists-soft-hard-returns/' %}active{% endif %}">Soft & hard returns</a></li>
+
+      </ul>
+    </li>
+
+
+    <!-- TABLES -->
+    <li>
+      <button 
+        class="nav-toggle level-3-toggle
+          {% if page.url == '/word/tables/' 
+             or page.url == '/word/tables-formatting/' 
+             or page.url == '/word/tables-fixing-table-image-problems/' 
+             or page.url == '/word/tables-fixing-tables-extending-offscreen/' 
+             or page.url == '/word/tables-fixing-tables-over-pages/' 
+             or page.url == '/word/tables-convert-text-to-tables/' %}
+            expanded
+          {% endif %}"
+        aria-expanded="{% if page.url == '/word/tables/' 
+             or page.url == '/word/tables-formatting/' 
+             or page.url == '/word/tables-fixing-table-image-problems/' 
+             or page.url == '/word/tables-fixing-tables-extending-offscreen/' 
+             or page.url == '/word/tables-fixing-tables-over-pages/' 
+             or page.url == '/word/tables-convert-text-to-tables/' %}
+            true
+          {% else %}
+            false
+          {% endif %}">
+        Tables <span class="arrow"></span>
+      </button>
+
+      <ul class="nav-level-3
+          {% if page.url == '/word/tables/' 
+             or page.url == '/word/tables-formatting/' 
+             or page.url == '/word/tables-fixing-table-image-problems/' 
+             or page.url == '/word/tables-fixing-tables-extending-offscreen/' 
+             or page.url == '/word/tables-fixing-tables-over-pages/' 
+             or page.url == '/word/tables-convert-text-to-tables/' %}
+            show
+          {% endif %}">
+
+        <li><a href="{{ '/word/tables/' | url }}" class="{% if page.url == '/word/tables/' %}active{% endif %}">Tables</a></li>
+        <li><a href="{{ '/word/tables-formatting/' | url }}" class="{% if page.url == '/word/tables-formatting/' %}active{% endif %}">Formatting</a></li>
+        <li><a href="{{ '/word/tables-fixing-table-image-problems/' | url }}" class="{% if page.url == '/word/tables-fixing-table-image-problems/' %}active{% endif %}">Fixing image problems</a></li>
+        <li><a href="{{ '/word/tables-fixing-tables-extending-offscreen/' | url }}" class="{% if page.url == '/word/tables-fixing-tables-extending-offscreen/' %}active{% endif %}">Fixing tables extending offscreen</a></li>
+        <li><a href="{{ '/word/tables-fixing-tables-over-pages/' | url }}" class="{% if page.url == '/word/tables-fixing-tables-over-pages/' %}active{% endif %}">Fixing tables over pages</a></li>
+        <li><a href="{{ '/word/tables-convert-text-to-tables/' | url }}" class="{% if page.url == '/word/tables-convert-text-to-tables/' %}active{% endif %}">Convert text to tables</a></li>
+
+      </ul>
+    </li>
+
+
+    <!-- IMAGES & OBJECTS -->
+    <li>
+      <button 
+        class="nav-toggle level-3-toggle
+          {% if page.url == '/word/images/' 
+             or page.url == '/word/altering-images-and-objects/' 
+             or page.url == '/word/objects/' 
+             or page.url == '/word/objects-embedded-files/' 
+             or page.url == '/word/editing-charts/' %}
+            expanded
+          {% endif %}"
+        aria-expanded="{% if page.url == '/word/images/' 
+             or page.url == '/word/altering-images-and-objects/' 
+             or page.url == '/word/objects/' 
+             or page.url == '/word/objects-embedded-files/' 
+             or page.url == '/word/editing-charts/' %}
+            true
+          {% else %}
+            false
+          {% endif %}">
+        Images & Objects <span class="arrow"></span>
+      </button>
+
+      <ul class="nav-level-3
+          {% if page.url == '/word/images/' 
+             or page.url == '/word/altering-images-and-objects/' 
+             or page.url == '/word/objects/' 
+             or page.url == '/word/objects-embedded-files/' 
+             or page.url == '/word/editing-charts/' %}
+            show
+          {% endif %}">
+
+        <li><a href="{{ '/word/images/' | url }}" class="{% if page.url == '/word/images/' %}active{% endif %}">Images</a></li>
+        <li><a href="{{ '/word/altering-images-and-objects/' | url }}" class="{% if page.url == '/word/altering-images-and-objects/' %}active{% endif %}">Altering images and objects</a></li>
+        <li><a href="{{ '/word/objects/' | url }}" class="{% if page.url == '/word/objects/' %}active{% endif %}">Objects</a></li>
+        <li><a href="{{ '/word/objects-embedded-files/' | url }}" class="{% if page.url == '/word/objects-embedded-files/' %}active{% endif %}">Embedded files</a></li>
+        <li><a href="{{ '/word/editing-charts/' | url }}" class="{% if page.url == '/word/editing-charts/' %}active{% endif %}">Editing charts</a></li>
+
+      </ul>
+    </li>
+
+
+    <!-- DOCUMENT NAVIGATION -->
+    <li>
+      <button 
+        class="nav-toggle level-3-toggle
+          {% if page.url == '/word/table-of-contents/' 
+             or page.url == '/word/table-of-contents-custom/' %}
+            expanded
+          {% endif %}"
+        aria-expanded="{% if page.url == '/word/table-of-contents/' 
+             or page.url == '/word/table-of-contents-custom/' %}
+            true
+          {% else %}
+            false
+          {% endif %}">
+        Document Navigation <span class="arrow"></span>
+      </button>
+
+      <ul class="nav-level-3
+          {% if page.url == '/word/table-of-contents/' 
+             or page.url == '/word/table-of-contents-custom/' %}
+            show
+          {% endif %}">
+
+        <li><a href="{{ '/word/table-of-contents/' | url }}" class="{% if page.url == '/word/table-of-contents/' %}active{% endif %}">Table of contents</a></li>
+        <li><a href="{{ '/word/table-of-contents-custom/' | url }}" class="{% if page.url == '/word/table-of-contents-custom/' %}active{% endif %}">Custom table of contents</a></li>
+
+      </ul>
+    </li>
+
+
+    <!-- PAGE SETUP -->
+    <li>
+      <button 
+        class="nav-toggle level-3-toggle
+          {% if page.url == '/word/page-setup-options/' %}
+            expanded
+          {% endif %}"
+        aria-expanded="{% if page.url == '/word/page-setup-options/' %}
+            true
+          {% else %}
+            false
+          {% endif %}">
+        Page setup <span class="arrow"></span>
+      </button>
+
+      <ul class="nav-level-3
+          {% if page.url == '/word/page-setup-options/' %}
+            show
+          {% endif %}">
+
+        <li>
+          <a href="{{ '/word/page-setup-options/' | url }}" 
+             class="{% if page.url == '/word/page-setup-options/' %}active{% endif %}">
+            Page setup options
+          </a>
+        </li>
+
+      </ul>
+    </li>
+
+
+    <!-- STANDALONE: KEYBOARD SHORTCUTS -->
+    <li>
+      <a href="{{ '/content-control/keyboard-shortcuts/#word-keyboard-shortcuts' | url }}" 
+         class="{% if page.url == '/content-control/keyboard-shortcuts/#word-keyboard-shortcuts' %}active{% endif %}">
+        Word Keyboard Shortcuts
+      </a>
+    </li>
+
+  </ul>
+</li>
+
 
   <!-- Excel Section -->
   <li>

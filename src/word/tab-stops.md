@@ -12,7 +12,7 @@ difficultyLevels:
     description: "Introduces Tab stops basics with clear visual cues and interactivities."
     urlSuffix: "#beginner"
   - level: Intermediate
-    description: "Expands on Tab stops basics with advanced indenting techniques."
+    description: "Expands on Tab stops basics with advanced techniques."
     urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
@@ -21,9 +21,14 @@ tags:
   - microsoft word
   - tab stops
   - tabs
+  - alignment
+  - aligning
+  - custom alignment
+  - custom aligning
   - tab marks
   - tab alignment
   - tab key
+  - tabbing
   - left alignment
   - left aligning
   - centre alignment
@@ -35,6 +40,7 @@ tags:
   - bar alignment
   - bar aligning
   - forms
+  - menus
   - margins
   - spaces
   - spacing
@@ -135,7 +141,7 @@ active: word
 
 <h4>Alignment examples</h4>
 <div class="tooltip-wrapper" style="margin: 2rem 0rem 1rem; text-align: left;">
-    <table class="word-tables-cursor-icons hover-table">
+    <table>
       <colgroup>
         <col style="width: 10%;">
         <col style="width: 15%;">

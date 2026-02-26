@@ -228,10 +228,10 @@ active: word
 
   <h3 id="indentation">Indentation</h3>
   <p>Here you can alter the <span class="glossary-hover" data-term="indent">indentation</span> of the paragraph. For more on indentation see the <a href="/word/Indents/">Indents</a> article and try out the interactive examples showing how to modify indents via <span class="glossary-hover" data-term="indent-markers">indent markers</span> on the horizontal <span class="glossary-hover" data-term="ruler">ruler</span>.</p>
-  <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation options.png' | url }}"  alt="Indentation options in Paragraph Options in Word" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h4>Left and Right</h4>
   <p>Literally applies indents on a paragraph from the left or from the right.</p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation options.png' | url }}"  alt="Indentation options in Paragraph Options in Word" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h4>Mirror indents</h4>
   <p>Checking the <strong>Mirror indents</strong> checkbox below changes the <strong>Left</strong> and <strong>Right</strong> options to <strong>Inside</strong> and <strong>Outside</strong>.</p>

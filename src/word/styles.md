@@ -111,10 +111,10 @@ active: word
 
 <li><a href="/word/font-options/">Font</a></li>
 <li><a href="/word/paragraph-options/">Paragraph</a></li>
+<li><a href="/word/tab-stops#tabs-options">Tabs</a></li>
 
   <!-- New pages to create-->
 
-<li><a href="/word/indents/#tab-stops">Tabs</a></li>
 <li><a href="">Border</a></li>
 <li><a href="">Language</a></li>
 <li><a href="">Frame</a></li>
@@ -148,10 +148,11 @@ There are further options you can modify a style with though. Locate the style i
 <ul>
     <li><a href="/word/font-options/">Font</a></li>
     <li><a href="/word/paragraph-options/">Paragraph</a></li>
+    <li><a href="/word/tab-stops#tabs-options/">Tabs</a></li>
 
 <!-- New pages to create-->
     
-    <li><a href="">Tabs</a></li>
+    
     <li><a href="">Border</a></li>
     <li><a href="">Language</a></li>
     <li><a href="">Frame</a></li>
