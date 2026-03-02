@@ -1521,18 +1521,12 @@ body.sidebar-collapsed .main-column {
 }
 
 /* ─── Adsbar ────────────────────────── */
-.adsbar-wrapper {
-  grid-column: 2;
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 200px;
-  height: 100vh;
-  background-color: #f5f5f5;
-  border-left: 1px solid #ddd;
-  box-sizing: border-box; /* prevents borders from expanding width */
-  margin-top: 30px;   /* adjust for topbar height */
+#ad-wrapper {
+  width: 100%;
+  max-width: 728px;
+  margin: 0 auto;
 }
+
 
 .adsbar-content {
   font-size: 14px;
@@ -1540,13 +1534,6 @@ body.sidebar-collapsed .main-column {
 }
 
 .adsbar-wrapper::-webkit-scrollbar { display: none; }
-
-#ads-wrapper,
-.adsbygoogle {
-  padding: 0 !important;
-  margin: 0 !important;   /* optional, if margins are also causing overshoot */
-  box-sizing: border-box; /* keeps borders inside width */
-}
 
 
 .spacer-30 {
