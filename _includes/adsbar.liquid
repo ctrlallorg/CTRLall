@@ -1,6 +1,14 @@
 <div class="spacer-30"></div>
 
 <div class="spacer-20"></div>
+<div class="spacer-20"></div>
+
+<a href="https://ko-fi.com/ctrlall" class="support-cta-button" target="_blank" rel="noopener noreferrer" aria-label="Support CTRL All on Ko-fi">
+  <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="Ko-fi logo" class="kofi-logo" loading="lazy">
+  <span>Support us</span>
+</a>
+
+<div class="spacer-20"></div>
 
 <div class="adsbar-wrapper">
   <div id="ad-wrapper">
@@ -16,6 +24,19 @@
     </script>
     <script src="https://www.highperformanceformat.com/e373e4cdb619a1f0f752da22d226cfa5/invoke.js"></script>
 
+    <script>
+      function openKofiPopup(e) {
+        e.preventDefault();
+        const popup = document.getElementById('kofi-popup');
+        if (popup) popup.style.display = 'block';
+      }
+
+      function closeKofiPopup() {
+        const popup = document.getElementById('kofi-popup');
+        if (popup) popup.style.display = 'none';
+      }
+    </script>
+
   </div>
 </div>
 
@@ -25,15 +46,4 @@
   </div>
 </noscript>
 
-<script>
-  function openKofiPopup(e) {
-    e.preventDefault();
-    const popup = document.getElementById('kofi-popup');
-    if (popup) popup.style.display = 'block';
-  }
 
-  function closeKofiPopup() {
-    const popup = document.getElementById('kofi-popup');
-    if (popup) popup.style.display = 'none';
-  }
-</script>

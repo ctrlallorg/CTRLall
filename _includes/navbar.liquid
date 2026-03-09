@@ -162,33 +162,54 @@
 
 
     <!-- LISTS -->
+<li>
+  <button 
+    class="nav-toggle level-3-toggle
+      {% if page.url == '/word/lists/' 
+         or page.url == '/word/lists-fixing-number-lists/' 
+         or page.url == '/word/lists-soft-hard-returns/' %}
+        expanded
+      {% endif %}"
+    aria-expanded="{% if page.url == '/word/lists/' 
+         or page.url == '/word/lists-fixing-number-lists/' 
+         or page.url == '/word/lists-soft-hard-returns/' %}
+        true
+      {% else %}
+        false
+      {% endif %}">
+    Lists <span class="arrow"></span>
+  </button>
+
+  <ul class="nav-level-3
+      {% if page.url == '/word/lists/' 
+         or page.url == '/word/lists-fixing-number-lists/' 
+         or page.url == '/word/lists-soft-hard-returns/' %}
+        show
+      {% endif %}">
+
     <li>
-      <button 
-        class="nav-toggle level-3-toggle
-          {% if page.url == '/word/lists-fixing-number-lists/' 
-             or page.url == '/word/lists-soft-hard-returns/' %}
-            expanded
-          {% endif %}"
-        aria-expanded="{% if page.url == '/word/lists-fixing-number-lists/' 
-             or page.url == '/word/lists-soft-hard-returns/' %}
-            true
-          {% else %}
-            false
-          {% endif %}">
-        Lists <span class="arrow"></span>
-      </button>
-
-      <ul class="nav-level-3
-          {% if page.url == '/word/lists-fixing-number-lists/' 
-             or page.url == '/word/lists-soft-hard-returns/' %}
-            show
-          {% endif %}">
-
-        <li><a href="{{ '/word/lists-fixing-number-lists/' | url }}" class="{% if page.url == '/word/lists-fixing-number-lists/' %}active{% endif %}">Fixing number lists</a></li>
-        <li><a href="{{ '/word/lists-soft-hard-returns/' | url }}" class="{% if page.url == '/word/lists-soft-hard-returns/' %}active{% endif %}">Soft & hard returns</a></li>
-
-      </ul>
+      <a href="{{ '/word/lists/' | url }}"
+         class="{% if page.url == '/word/lists/' %}active{% endif %}">
+        Lists
+      </a>
     </li>
+
+    <li>
+      <a href="{{ '/word/lists-fixing-number-lists/' | url }}"
+         class="{% if page.url == '/word/lists-fixing-number-lists/' %}active{% endif %}">
+        Fixing number lists
+      </a>
+    </li>
+
+    <li>
+      <a href="{{ '/word/lists-soft-hard-returns/' | url }}"
+         class="{% if page.url == '/word/lists-soft-hard-returns/' %}active{% endif %}">
+        Soft & hard returns
+      </a>
+    </li>
+
+  </ul>
+</li>
 
 
     <!-- TABLES -->

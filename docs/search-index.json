@@ -1134,6 +1134,30 @@
     "url": "/word/lists-soft-hard-returns/"
   },
   {
+    "title": "Lists: Fixing number lists",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "microsoft word",
+      "lists",
+      "number lists",
+      "numbered lists",
+      "bullet lists",
+      "bulleted lists",
+      "bullets",
+      "sequences",
+      "steps",
+      "sequential lists",
+      "numerical lists",
+      "custom bullets",
+      "custom nummbering",
+      "define new bullet",
+      "define new number format"
+    ],
+    "url": "/word/lists/"
+  },
+  {
     "title": "Embedded files",
     "tags": [
       "ctrlall.org",
@@ -1996,5 +2020,12 @@
       "buttons"
     ],
     "url": "/content-control/keyboard-shortcuts/"
+  },
+  {
+    "title": "Alignment",
+    "tags": [
+      "null"
+    ],
+    "url": "/word/alignment/"
   }
 ]

@@ -288,7 +288,7 @@ active: word
         "Page-setup-layout-options-tooltip-2": `
         <div class="rich-tooltip">
           <p><strong>Supress endnotes</strong>: In theory this a great option; this should let you push endnotes forward from one section into a later section (having set endnotes to appear at the 'end of section' rather than the end of the document) — but in practice, I find this option is often unreliable and disabled.</p>
-          <p>If you need to have footnotes reorganised for print, edit them directly as needed. If you need to maintain where your endnotes are outside of a print version, make a separate copy of the document and edit it accordingly for print.</p
+          <p>If you need to have footnotes reorganised for print, edit them directly as needed. If you need to maintain where your endnotes are outside of a print version, make a separate copy of the document and edit it accordingly for print.</p>
         </div>`,
         "Page-setup-layout-options-tooltip-3": `
         <div class="rich-tooltip">

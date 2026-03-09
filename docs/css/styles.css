@@ -1533,6 +1533,12 @@ body.sidebar-collapsed .main-column {
   color: #333;
 }
 
+#ad-wrapper iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+
 .adsbar-wrapper::-webkit-scrollbar { display: none; }
 
 
