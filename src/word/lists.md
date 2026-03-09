@@ -1,10 +1,10 @@
 ---
-title: "Lists: Fixing number lists"
+title: "Lists"
 layout: layout.liquid
 permalink: /word/lists/
 canonical: /word/lists/
 description: How to create different types of lists in Microsoft Word with clear steps, visuals, and animations.
-asset_id: ctrlall-word-lists-fixing-number-lists-v1
+asset_id: ctrlall-word-lists-number-lists-v1
 date: 2025-10-26
 last_modified: 2025-12-06
 difficultyLevels:
