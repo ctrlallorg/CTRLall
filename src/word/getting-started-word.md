@@ -100,7 +100,7 @@ active: word
           <strong>Tip</strong>: Once you've opened the app, <strong>right click</strong> on the blue Word app icon and select <strong>Pin to taskbar</strong> from the menu. Pinning the Word app to the taskbar will make it stay there after you close it, making iteasier and quicker to access next time:
           <p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Pin Word app taskbar.png' | url }}"  alt="Pin Word app to the taskbar" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
           <h2 id="create-new-word-doc">How to create a new Word document</h2>
-            <p>When you start Word you'll see a emnu screen. To start a brand new document click the highlighted option <strong>Blank document</strong>. There are also many different <a href="/glossary/#template">templates</a> you can choose from here as well.</p>
+            <p>When you start Word you'll see a menu screen. To start a brand new document click the highlighted option <strong>Blank document</strong>. There are also many different <a href="/glossary/#template">templates</a> you can choose from here as well.</p>
             <p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/New document.png' | url }}"  alt="The first screen interface you see when Word opens" style="width:100%; height:auto; vertical-align:middle"></p>
           <h2 id="open-word-doc">How to open a Word file</h2>
             <p>Word files have their own blue icon with a 'W'. To open one, find the file on your computer and <strong>double click</strong> it.</p>
