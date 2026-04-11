@@ -82,6 +82,15 @@ active: word
 
 </section>
 
+<section class="exercise-hero">
+  <h2>Try the Exercise</h2>
+  <p>Download the sample file and follow along with the guide.</p>
+  <a class="download-btn" href="/assets/downloads/exercise01.docx" download>
+    Download Exercise File
+  </a>
+</section>
+
+
 <div class="article-share">
 {% include "share-menu.liquid" %}
 </div>

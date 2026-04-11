@@ -1791,6 +1791,34 @@ body.sidebar-collapsed .main-column {
   justify-content: center;
 }
 
+
+
+/* ─── Exercise Download Hero and Button ─────────────────────────── */
+
+.exercise-hero {
+  background: #f0f6ff;
+  padding: 40px 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 50px 0;
+  border: 1px solid #d0e3ff;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0078d4;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.download-btn:hover {
+  background: #005fa3;
+}
+
+
 /* ─── Contact Form ─────────────────────────── */
 #contactForm {
   max-width: 600px;
