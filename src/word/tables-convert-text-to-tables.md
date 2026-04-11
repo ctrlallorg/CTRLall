@@ -80,12 +80,13 @@ active: word
   <p><u>Note</u>: The examples above were simple. When you have table content pasting from a table elsewhere the text in that situation is usually a bit messy and may require some editing around the delimiters before it'll convert neatly. A successful conversion of the above examples would look to this:</p>
   <p><img class="border left" src="{{ '/assets/images/word/Tables convert text to tables/Text converted to table.png' | url }}" alt="Text converted to table in Word" style="max-width:627px; width:100%; height:auto; vertical-align:middle"></p>
 
+
 </section>
 
 <section class="exercise-hero">
   <h2>Try the Exercise</h2>
   <p>Download the sample file and follow along with the guide.</p>
-  <a class="download-btn" href="/assets/downloads/exercise01.docx" download>
+  <a class="download-btn" href="/assets/downloads/word/Tables/Tables - convert text to tables.zip" download>
     Download Exercise File
   </a>
 </section>
