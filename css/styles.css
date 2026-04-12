@@ -1439,7 +1439,7 @@ body {
 
 .content {
   max-width: none;   
-  width: 100%;       /* fill all available space */
+  width: 99%;       /* fill all available space */
 }
 
 .main-column {
@@ -1802,7 +1802,13 @@ body.sidebar-collapsed .main-column {
   text-align: center;
   margin: 50px 0;
   border: 1px solid #d0e3ff;
+  box-sizing: border-box;
 }
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 
 .download-btn {
   display: inline-block;
