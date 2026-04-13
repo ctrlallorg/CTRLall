@@ -84,8 +84,8 @@ active: word
 </section>
 
 <section class="exercise-hero">
-  <h2>Try the Exercise</h2>
-  <p>Download the sample file and follow along with the guide.</p>
+  <h2>Try it yourself</h2>
+  <p>Download the examples in this article and follow along with the guide.</p>
   <a class="download-btn" href="/assets/downloads/word/Tables/Tables - convert text to tables.zip" download>
     Download Exercise File
   </a>
