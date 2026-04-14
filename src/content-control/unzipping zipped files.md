@@ -112,7 +112,7 @@ active: content-control
 <div class="difficulty beginner-version"  aria-label="Beginner introduction to unzipping/extracting zipped/compressed files">
 
 <section class="section-light">
-<p>You may or may not have come across a zip file before. A zip file is a special folder whose contents have been <span class="glossary-hover" data-term="file-size">compressed</span> to make them smaller and easier to share or store. When files are compressed like this, they’re often described as being 'zipped'”'.</p>
+<p>You may or may not have come across a zip file before. A zip file is a special folder whose contents and overall <span class="glossary-hover" data-term="file-size">file size</span> have been compressed to make them smaller and easier to share or store. When files are compressed like this, they’re often described as being 'zipped'.</p>
 
 <p><u>Note</u>: <strong>.zip</strong> is the most common compressed file format, but there are others. These are covered in the <a href="?difficulty=intermediate">intermediate version</a> of this article.</p>
 
