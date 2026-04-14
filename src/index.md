@@ -6,7 +6,7 @@ permalink: /
 canonical: /index/
 asset_id: index-v1.0
 date: 2025-10-26
-last_modified: 2025-12-06
+last_modified: 2026-04-13
 type: index
 tags:
   - ctrlall.org
@@ -95,9 +95,20 @@ active: index
 
   <h2>What You'll Find Here</h2>
    <ul>
-    <li><strong>Article guides & tutorials</strong>: Step-by-step walkthroughs for real-world digital tasks.</li>
-     <li><strong>Animated and interactive examples</strong>: Topic articles are packed with visual examples, animated GIF demonstrations, tooltip signposting and interactivites so you can understand and replicate features yourself.</li>
-     <li><strong>Expandable images</strong>: Screenshots and diagrams can be enlarged with a click, so you never have to squint or guess what you’re looking at.</li>
+    <li>
+      <strong><p>Article guides & tutorials</strong>: Step-by-step walkthroughs for real-world digital tasks.</p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/Index/Example article.png' | url }}"  alt="" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+    </li>
+     <li>
+      <p><strong>Animated and interactive examples</strong>: Topic articles are packed with visual examples, animated GIF demonstrations, tooltip signposting and interactivites so you can understand and replicate features yourself.</p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Layout options move with text.gif' | url }}"  alt="" style="max-width:550px; width:100%; height:auto; vertical-align:middle"></p>    
+     </li>
+     <li><strong>Expandable images</strong>: Screenshots and diagrams can be enlarged with a click, so you never have to squint or guess what you’re looking at. Try clicking on any.</li>
+     <li>
+      <p><strong><span style="color:#415576;">*NEW*</span> Downloadable exercises</strong>: Download zipped exercise files with examples from the article steps to try out yourself.</p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/Index/Example exercise Site.png' | url }}"  alt="" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/Index/Example exercise Word.png' | url }}"  alt="" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+    </li>
   </ul>
   <h2>Difficulty</h2>
     <p>Each topic article has a difficulty level tailored for your experience and/or the subject:</p>
@@ -133,8 +144,10 @@ active: index
 <section class="section-light">
   <h2>What's new?</h2>
   <ul>
-    <li>News: <a href="https://gadgetbond.com/microsoft-word-hyperlink-easy-insertion/" target="_blank">Microsoft making it easier to add hyperlinks to text</a> — <u>Note</u>: only for web versions</li>
-    <li>Try out the difficulty toggle at the top of the navigation pane when viewing certain articles. If you're completely new go with <strong>Beginner</strong>, if you're a little familiar already try <strong>Intermediate</strong></li>
+    <li>02 Apr 2026 - Exercises available to download in select articles.</li>
+    <li>News: <a href="https://support.microsoft.com/en-gb/office/microsoft-publisher-will-no-longer-be-supported-after-october-2026-ee6302a2-4bc7-4841-babf-8e9be3acbfd7#:~:text=In%20October%202026%2C%20Microsoft%20Publisher%20will%20reach,on%2Dpremises%20suites%20will%20no%20longer%20be%20supported." target="_blank">Microsoft Publisher will no longer be supported after October 2026.</a></li>
+    <li>News: <a href="https://gadgetbond.com/microsoft-word-hyperlink-easy-insertion/" target="_blank">Microsoft making it easier to add hyperlinks to text in Word</a> — <u>Note</u>: only for web versions</li>
+    <li>Try out the difficulty toggle at the top of the navigation pane when viewing certain articles. If you're completely new go with <strong>Beginner</strong>, if you're a little familiar already try <strong>Intermediate</strong>.</li>
     <li>12 Dec 2025 - Hotspots available for menu images, hover over them to see an explanation and/or example.</li>
     <li>10 Dec 2025 - Search bar now available up the top, type in what you're looking for to see relevant pages.</li>
     <li>11 Nov 2025 - US-Other English Language toggle added for non-UI terms.</li>

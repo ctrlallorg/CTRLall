@@ -90,6 +90,7 @@ active: word
     Download Exercise File
   </a>
   <br>
+  <p>Not sure how to open a zip file? <a href="/content-control/unzipping-zipped-files?difficulty=beginner">Look here</a></p>
   <br>
 </section>
 

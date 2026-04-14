@@ -4,9 +4,9 @@ layout: layout.liquid
 permalink: /about/
 canonical: /about/
 description: About us.
-asset_id: ctrlall-about-v1
+asset_id: ctrlall-about-v1.1
 date: 2025-11-11
-last_modified: 2025-12-06
+last_modified: 2026-04-13
 type: about
 tags:
   - ctrlall.org
@@ -137,12 +137,13 @@ active: about
 </div>
 
   <h2>Copyright & Licensing</h2>
-  <p>All content is © Ctrl All 2025. Educational use is encouraged with attribution. For other uses — including commercial, derivative, or syndication — please <a href="/contact/">get in touch</a>.</p>
+    <p>All content is © Ctrl All 2025. Educational use is encouraged with attribution. For other uses — including commercial, derivative, or syndication — please <a href="/contact/">get in touch</a>.</p>
 
   <h2>About Ads</h2>
-  <p>Ctrl All may include ads to help cover hosting costs and support the creation of free educational content. We aim to keep ads minimal, relevant, and never intrusive. This site is built on trust, not tracking — and we’ll never sell your data or compromise your experience for clicks. For more please view our <a href="/privacy-policy/">Privacy Policy</a>.</p>
+    <p>Ctrl All may include ads to help cover hosting costs and support the creation of free educational content. We aim to keep ads minimal, relevant, and never intrusive. This site is built on trust, not tracking — and we’ll never sell your data or compromise your experience for clicks. For more please view our <a href="/privacy-policy/">Privacy Policy</a>.</p>
 
   <h2>Privacy Policy</h2>
-  <p>View our <a href="/privacy-policy/">Privacy Policy</a>.</p>
+    <p>View our <a href="/privacy-policy/">Privacy Policy</a>.</p>
+    
 </section>
 

@@ -186,6 +186,23 @@ active: glossary
       </td>
     </tr>
     <tr>
+      <td id="file-size">File size</td>
+      <td><p>How much storge space memory the file takes up on a computer. You can see this in the Details view of a window by looking at the <strong>Size</strong> column. File sizes are measures in bytes. The more information a file stores the larger its file size.</p>
+        <p>File sizes go up like this:</p>
+        <ul>
+          <li>B – Byte – roughly one character of text</li>
+          <li>KB – Kilobyte (1024 bytes) – A small image or icon might be ~20–300 KB</li>
+          <li>
+          <p>MB – Megabyte (1024 KB) – Typical Word docs are 50–500 KB; image‑heavy docs can reach 500MB</p>
+          <p><u>Note</u>: Very large office files can be slow to run and in some cases problematic to use. When sending files you may run into a file size limit; for example Microsoft Outlook 365 has a file size limit of 35MB for emails attachments.</p>
+          </li>
+          <li>GB – Gigabyte (1024 MB) – HD/4K videos, large apps, game files</li>
+          <li>TB – Terabyte (1024 GB) – Modern SSDs/HDDs; large game installs can be 100+ GB</li>
+          <li>PB – Petabyte (1024 TB) – Used for massive datasets (cloud storage)</li>
+        </ul>
+      </td>
+    <tr>
+    <tr>
       <td id="filetype">File type</td>
       <td>The format a file is <a href="#save">saved</a> in, such as a document, image or video. When viewing files in the details view of a window the file types are shown in a <strong>Type</strong> column. The file type is also indicated by the <a href="#filename-extension">Filename extension</a>.</td>
     <tr>
@@ -732,6 +749,23 @@ active: glossary
         <img src="{{ '/assets/images/glossary/File extension.png' | url }}"  alt="File extension" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle">
         </td>
       </tr>
+      <tr>
+        <td id="file-size">File size</td>
+        <td><p>How much storge space memory the file takes up on a computer. You can see this in the Details view of a window by looking at the <strong>Size</strong> column. File sizes are measures in bytes. The more information a file stores the larger its file size.</p>
+        <p>File sizes go up like this:</p>
+        <ul>
+          <li>B – Byte – roughly one character of text</li>
+          <li>KB – Kilobyte (1024 bytes) – A small image or icon might be ~20–300 KB</li>
+          <li>
+          <p>MB – Megabyte (1024 KB) – Typical Word docs are 50–500 KB; image‑heavy docs can reach 500MB</p>
+          <p><u>Note</u>: Very large office files can be slow to run and in some cases problematic to use. When sending files you may run into a file size limit; for example Microsoft Outlook 365 has a file size limit of 35MB for emails attachments.</p>
+          </li>
+          <li>GB – Gigabyte (1024 MB) – HD/4K videos, large apps, game files</li>
+          <li>TB – Terabyte (1024 GB) – Modern SSDs/HDDs; large game installs can be 100+ GB</li>
+          <li>PB – Petabyte (1024 TB) – Used for massive datasets (cloud storage)</li>
+        </ul>
+        </td>
+      <tr>
       <tr>
         <td id="filetype">File type</td>
         <td>The format a file is <a href="#save">saved</a> in, such as a document, image or video. When viewing files in the details view of a window the file types are shown in a <strong>Type</strong> column. The file type is also indicated by the <a href="#filename-extension">Filename extension</a>.</td>
