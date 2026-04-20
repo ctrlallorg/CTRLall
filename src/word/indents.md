@@ -91,10 +91,10 @@ active: word
           <td class="td-v-align-middle"><strong>First line indent</strong> - Controls where the first line of the paragraph begins.</td>
         </tr>
         <tr>
-          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Hanging indent.png' | url }}" alt="Hanging indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Hanging-indent.png' | url }}" alt="Hanging indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
           <td class="td-v-align-middle"><strong>Hanging Indent</strong> - Controls where all lines except the first line begin.
         <tr>
-          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Left indent.png' | url }}" alt="Left indent rectangle icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Left-indent.png' | url }}" alt="Left indent rectangle icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
           <td class="td-v-align-middle"><strong>Left Indent</strong> - Moves both the above indents together, shifting the entire paragraph left or right.
         </tr>
   </table>
@@ -120,7 +120,7 @@ active: word
 
   <div class="control-row">
     <label for="hangingIndent">
-      <img src="{{ '/assets/images/word/Indents/Hanging Indent.png' | url }}" alt="Hanging indent">
+      <img src="{{ '/assets/images/word/Indents/Hanging-indent.png' | url }}" alt="Hanging indent">
       <span><strong>Hanging indent</strong> (Move all text except first line):</span>
     </label>
     <input type="range" id="hangingIndent" min="0" max="5" step="0.25" value="0">
@@ -129,7 +129,7 @@ active: word
 
   <div class="control-row">
     <label for="leftIndent">
-      <img src="{{ '/assets/images/word/Indents/Left Indent.png' | url }}" alt="Left indent">
+      <img src="{{ '/assets/images/word/Indents/Left-indent.png' | url }}" alt="Left indent">
       <span><strong>Left indent</strong> (Move all paragraph text together):</span>
     </label>
     <input type="range" id="leftIndent" min="0" max="5" step="0.25" value="0">
@@ -187,10 +187,10 @@ function updateIndent() {
           <td class="td-v-align-middle"><strong>First line indent</strong> - Controls where bullet/number begins.</td>
         </tr>
         <tr>
-          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Hanging indent.png' | url }}" alt="Hanging indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Hanging-indent.png' | url }}" alt="Hanging indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
           <td class="td-v-align-middle"><strong>Hanging Indent</strong> - Controls where the text begins after the bullet.
         <tr>
-          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Left indent.png' | url }}" alt="Left indent rectangular icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Left-indent.png' | url }}" alt="Left indent rectangular icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
           <td class="td-v-align-middle"><strong>Left Indent</strong> - Moves both the above indents together, shifting both the bullet/number and line/paragraph left or right.
         </tr>
   </table>
@@ -218,7 +218,7 @@ function updateIndent() {
 
   <div class="control-row">
     <label for="svgHangingIndent">
-      <img src="{{ '/assets/images/word/Indents/Hanging Indent.png' | url }}" alt="Hanging indent">
+      <img src="{{ '/assets/images/word/Indents/Hanging-indent.png' | url }}" alt="Hanging indent">
       <span><strong>Hanging indent</strong> (moves text):</span>
     </label>
     <input type="range" id="svgHangingIndent" min="0" max="5" step="0.25" value="0">
@@ -227,7 +227,7 @@ function updateIndent() {
 
   <div class="control-row">
     <label for="svgLeftIndent">
-      <img src="{{ '/assets/images/word/Indents/Left Indent.png' | url }}" alt="Left indent">
+      <img src="{{ '/assets/images/word/Indents/Left-indent.png' | url }}" alt="Left indent">
       <span><strong>Left indent</strong> (moves both together):</span>
     </label>
     <input type="range" id="svgLeftIndent" min="0" max="5" step="0.25" value="0">
@@ -302,10 +302,10 @@ function updateSvgIndent() {
           <td><strong>First line indent</strong> - Controls where bullet/number begins.</td>
         </tr>
         <tr>
-          <td><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Hanging indent.png' | url }}" alt="Hanging indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Hanging-indent.png' | url }}" alt="Hanging indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
           <td><strong>Hanging Indent</strong> - Controls where the text begins after the bullet/number.
         <tr>
-          <td><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Left indent.png' | url }}" alt="Left indent rectangular icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Left-indent.png' | url }}" alt="Left indent rectangular icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
           <td><strong>Left Indent</strong> - Moves both the above indents together, shifting both the bullet/number and line/paragraph left or right.
         </tr>
         <tr>
@@ -395,10 +395,10 @@ function updateSvgIndent() {
           <td class="td-v-align-middle"><strong>First line indent</strong> - Controls where the first line of the paragraph begins.</td>
         </tr>
         <tr>
-          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Hanging indent.png' | url }}" alt="Hanging indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Hanging-indent.png' | url }}" alt="Hanging indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
           <td class="td-v-align-middle"><strong>Hanging Indent</strong> - Controls where all lines except the first line begin.
         <tr>
-          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Left indent.png' | url }}" alt="Left indent rectangle icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Left-indent.png' | url }}" alt="Left indent rectangle icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
           <td class="td-v-align-middle"><strong>Left Indent</strong> - Moves both the above indents together, shifting the entire paragraph left or right.
         </tr>
   </table>
@@ -422,7 +422,7 @@ function updateSvgIndent() {
     </div>
     <div class="control-row">
       <label for="intHangingIndent">
-        <img src="{{ '/assets/images/word/Indents/Hanging Indent.png' | url }}" alt="Hanging indent">
+        <img src="{{ '/assets/images/word/Indents/Hanging-indent.png' | url }}" alt="Hanging indent">
         <span><strong>Hanging indent</strong> (Move all text except first line):</span>
       </label>
       <input type="range" id="intHangingIndent" min="0" max="5" step="0.25" value="0">
@@ -430,7 +430,7 @@ function updateSvgIndent() {
     </div>
     <div class="control-row">
       <label for="intLeftIndent">
-        <img src="{{ '/assets/images/word/Indents/Left Indent.png' | url }}" alt="Left indent">
+        <img src="{{ '/assets/images/word/Indents/Left-indent.png' | url }}" alt="Left indent">
         <span><strong>Left indent</strong> (Move all paragraph text together):</span>
       </label>
       <input type="range" id="intLeftIndent" min="0" max="5" step="0.25" value="0">
@@ -482,10 +482,10 @@ function updateIntIndent() {
           <td class="td-v-align-middle"><strong>First line indent</strong> - Controls where bullet/number begins.</td>
         </tr>
         <tr>
-          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Hanging indent.png' | url }}" alt="Hanging indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Hanging-indent.png' | url }}" alt="Hanging indent arrow icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
           <td class="td-v-align-middle"><strong>Hanging Indent</strong> - Controls where the text begins after the bullet.
         <tr>
-          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Left indent.png' | url }}" alt="Left indent rectangular icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
+          <td class="td-v-align-middle"><img class="thumbnail img-no-space" src="{{ '/assets/images/word/Indents/Left-indent.png' | url }}" alt="Left indent rectangular icon" style="display: inline; max-width:55px; width:100%; height:auto; vertical-align:middle"></td>
           <td class="td-v-align-middle"><strong>Left Indent</strong> - Moves both the above indents together, shifting both the bullet/number and line/paragraph left or right.
         </tr>
   </table>
@@ -511,7 +511,7 @@ function updateIntIndent() {
 
     <div class="control-row">
       <label for="intSvgHangingIndent">
-        <img src="{{ '/assets/images/word/Indents/Hanging Indent.png' | url }}" alt="Hanging indent">
+        <img src="{{ '/assets/images/word/Indents/Hanging-indent.png' | url }}" alt="Hanging indent">
         <span><strong>Hanging indent</strong> (moves text):</span>
       </label>
       <input type="range" id="intSvgHangingIndent" min="0" max="5" step="0.25" value="0">
@@ -520,7 +520,7 @@ function updateIntIndent() {
 
     <div class="control-row">
       <label for="intSvgLeftIndent">
-        <img src="{{ '/assets/images/word/Indents/Left Indent.png' | url }}" alt="Left indent">
+        <img src="{{ '/assets/images/word/Indents/Left-indent.png' | url }}" alt="Left indent">
         <span><strong>Left indent</strong> (moves both together):</span>
       </label>
       <input type="range" id="intSvgLeftIndent" min="0" max="5" step="0.25" value="0">
