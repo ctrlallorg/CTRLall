@@ -17,6 +17,7 @@ tags:
   - ctrl all
   - microsoft word
   - how to convert text to table
+  - how to convert text to a table
   - converting text to table
   - how to turn text into table
   - turning text in table
@@ -45,6 +46,7 @@ active: word
 <body data-intermediate-only="true">
 
 <h1>Converting text to a table</h1>
+<a href="#exercise"><div class="exercise-badge jump">Includes downloadable exercise</div></a>
 
 <section>
   
@@ -83,7 +85,7 @@ active: word
 
 </section>
 
-<section class="exercise-hero">
+<section class="exercise-hero" id="exercise">
   <h2>Try it yourself</h2>
   <p>Download the examples in this article and follow along with the guide.</p>
   <a class="download-btn" href="/assets/downloads/word/Tables/Tables - convert text to tables.zip" download>

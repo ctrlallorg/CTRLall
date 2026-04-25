@@ -1832,6 +1832,38 @@ body.sidebar-collapsed .main-column {
   background: #005fa3;
 }
 
+.exercise-badge {
+  display: inline-block;
+  background: #e4efff;
+  color: #0f3d8c;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border: 1px solid #c9dcff;
+}
+
+.exercise-badge.jump {
+  display: inline-block;
+  background: #e4efff;
+  color: #0f3d8c;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border: 1px solid #c9dcff;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.exercise-badge.jump:hover {
+  background: #d7e7ff;
+  transform: translateY(-1px);
+}
+
+
 
 /* ─── Contact Form ─────────────────────────── */
 #contactForm {
