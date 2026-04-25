@@ -1856,11 +1856,18 @@ body.sidebar-collapsed .main-column {
   border: 1px solid #c9dcff;
   text-decoration: none;
   transition: background 0.2s, transform 0.1s;
+  cursor: pointer;
 }
 
 .exercise-badge.jump:hover {
   background: #d7e7ff;
   transform: translateY(-1px);
+  cursor: pointer;
+}
+.exercise-badge.jump .arrow {
+  margin-left: 6px;
+  font-size: 1rem;
+  vertical-align: 2px;
 }
 
 

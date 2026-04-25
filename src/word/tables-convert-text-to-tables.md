@@ -46,7 +46,7 @@ active: word
 <body data-intermediate-only="true">
 
 <h1>Converting text to a table</h1>
-<a href="#exercise"><div class="exercise-badge jump">Includes downloadable exercise</div></a>
+<a href="#exercise"><div class="exercise-badge jump">Includes downloadable exercise<span class="arrow"></div></a>
 
 <section>
   
