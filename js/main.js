@@ -824,9 +824,29 @@ window.initSearch = function () {
 const track = document.querySelector('.mv-scroll');
 const leftZone = document.querySelector('.mv-hover-left');
 const rightZone = document.querySelector('.mv-hover-right');
+const fadeLeft = document.querySelector('.mv-fade-left');
+const fadeRight = document.querySelector('.mv-fade-right');
 
 let scrollInterval = null;
 let lastMouseX = null;
+
+function updateFades() {
+  const maxScroll = track.scrollWidth - track.clientWidth;
+
+  // At far left
+  if (track.scrollLeft <= 5) {
+    fadeLeft.classList.add('hidden');
+  } else {
+    fadeLeft.classList.remove('hidden');
+  }
+
+  // At far right
+  if (track.scrollLeft >= maxScroll - 5) {
+    fadeRight.classList.add('hidden');
+  } else {
+    fadeRight.classList.remove('hidden');
+  }
+}
 
 function startScrolling(direction, zone) {
   stopScrolling();
@@ -849,14 +869,16 @@ function startScrolling(direction, zone) {
     if (factor < 0) factor = 0;
     if (factor > 1) factor = 1;
 
-    const minSpeed = 3;   // slowest
-    const maxSpeed = 20;  // fastest
+    const minSpeed = 3;
+    const maxSpeed = 20;
     const speed = minSpeed + factor * (maxSpeed - minSpeed);
 
     track.scrollBy({
       left: direction === 'left' ? -speed : speed,
-      behavior: 'auto' // smoother with repeated updates
+      behavior: 'auto'
     });
+
+    updateFades(); // ⭐ ensure fades update during auto-scroll
   }, 20);
 }
 
@@ -886,3 +908,8 @@ rightZone.addEventListener('mousemove', (e) => {
 });
 rightZone.addEventListener('mouseleave', stopScrolling);
 
+// Update fades on scroll
+track.addEventListener('scroll', updateFades);
+
+// Run once on load
+updateFades();

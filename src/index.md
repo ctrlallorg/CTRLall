@@ -89,6 +89,8 @@ active: index
   <h2>Most viewed</h2>
 
   <div class="mv-container">
+    <div class="mv-fade-left"></div>
+    <div class="mv-fade-right"></div>
     <div class="mv-hover-left"></div>
     <div class="mv-hover-right"></div>
     <div class="mv-scroll">

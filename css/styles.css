@@ -896,6 +896,39 @@ a.start-button {
 }
 
 
+/* Fade edges */
+.mv-fade-left,
+.mv-fade-right {
+  position: absolute;
+  top: 0;
+  width: 60px;          /* adjust fade width */
+  height: 100%;
+  pointer-events: none; /* important: doesn't block hover zones */
+  z-index: 5;
+}
+
+.mv-fade-left {
+  left: 0;
+  background: linear-gradient(to right, #fff 0%, transparent 100%);
+}
+
+.mv-fade-right {
+  right: 0;
+  background: linear-gradient(to left, #fff 0%, transparent 100%);
+}
+
+.mv-fade-left.hidden,
+.mv-fade-right.hidden {
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.mv-fade-left,
+.mv-fade-right {
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+
 /* Section Light */
 .section-light {
   width: 100%;
