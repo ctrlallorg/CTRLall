@@ -853,7 +853,7 @@ a.start-button {
 
 /* ⭐ You control the width here */
 .mv-container {
-  width: 800px;   /* ← SET THIS TO WHATEVER YOU WANT */
+  width: 750px;   /* ← SET THIS TO WHATEVER YOU WANT */
   max-width: 100%; /* prevents overflow on small screens */
   margin: 0 auto;
   position: relative;
@@ -928,6 +928,7 @@ a.start-button {
   opacity: 1;
   transition: opacity 0.25s ease;
 }
+
 
 /* Section Light */
 .section-light {
