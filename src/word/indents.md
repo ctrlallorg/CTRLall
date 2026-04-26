@@ -39,7 +39,7 @@ active: word
 ---
 
 <h1>Indents</h1>
-<div class="interactivity-badge">Includes interactivities, scroll down to have a go yourself.</div>
+<div class="interactivity-badge">Includes interactive elements, scroll down to have a go yourself.</div>
 
 <article class="difficulty-wrapper" role="article" aria-label="Indents tutorial with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
