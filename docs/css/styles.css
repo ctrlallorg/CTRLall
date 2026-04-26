@@ -1925,6 +1925,44 @@ body.sidebar-collapsed .main-column {
   vertical-align: 2px;
 }
 
+/* Interactivities badge*/
+.interactivity-badge {
+  display: inline-block;
+  background: #EBFFFF;
+  color: #0f3d8c;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border: 1px solid #c9dcff;
+}
+
+.interactivity-badge.jump {
+  display: inline-block;
+  background: #EBFFFF;
+  color: #0f3d8c;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border: 1px solid #c9dcff;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.1s;
+  cursor: pointer;
+}
+
+.interactivity-badge.jump:hover {
+  background: #EBFFFF;
+  transform: translateY(-1px);
+  cursor: pointer;
+}
+.interactivity-badge.jump .arrow {
+  margin-left: 6px;
+  font-size: 1rem;
+  vertical-align: 2px;
+}
 
 
 /* ─── Contact Form ─────────────────────────── */
