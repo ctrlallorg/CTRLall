@@ -818,3 +818,71 @@ window.initSearch = function () {
     }
   });
 };
+
+
+// Carousel scroll on mouseover with edge‑based speed
+const track = document.querySelector('.mv-scroll');
+const leftZone = document.querySelector('.mv-hover-left');
+const rightZone = document.querySelector('.mv-hover-right');
+
+let scrollInterval = null;
+let lastMouseX = null;
+
+function startScrolling(direction, zone) {
+  stopScrolling();
+
+  scrollInterval = setInterval(() => {
+    if (lastMouseX === null) return;
+
+    const rect = zone.getBoundingClientRect();
+    const mouseX = lastMouseX;
+
+    // Distance from the edge of the hover zone
+    const distance = direction === 'left'
+      ? mouseX - rect.left
+      : rect.right - mouseX;
+
+    const zoneWidth = rect.width;
+
+    // Clamp factor between 0 and 1
+    let factor = 1 - (distance / zoneWidth);
+    if (factor < 0) factor = 0;
+    if (factor > 1) factor = 1;
+
+    const minSpeed = 3;   // slowest
+    const maxSpeed = 20;  // fastest
+    const speed = minSpeed + factor * (maxSpeed - minSpeed);
+
+    track.scrollBy({
+      left: direction === 'left' ? -speed : speed,
+      behavior: 'auto' // smoother with repeated updates
+    });
+  }, 20);
+}
+
+function stopScrolling() {
+  clearInterval(scrollInterval);
+  scrollInterval = null;
+  lastMouseX = null;
+}
+
+// LEFT zone
+leftZone.addEventListener('mouseenter', (e) => {
+  lastMouseX = e.clientX;
+  startScrolling('left', leftZone);
+});
+leftZone.addEventListener('mousemove', (e) => {
+  lastMouseX = e.clientX;
+});
+leftZone.addEventListener('mouseleave', stopScrolling);
+
+// RIGHT zone
+rightZone.addEventListener('mouseenter', (e) => {
+  lastMouseX = e.clientX;
+  startScrolling('right', rightZone);
+});
+rightZone.addEventListener('mousemove', (e) => {
+  lastMouseX = e.clientX;
+});
+rightZone.addEventListener('mouseleave', stopScrolling);
+

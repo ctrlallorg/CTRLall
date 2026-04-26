@@ -841,6 +841,61 @@ a.start-button {
 }
 
 
+/* Most Viewed */
+.most-viewed {
+  margin: 0 auto;
+}
+
+.most-viewed h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* ⭐ You control the width here */
+.mv-container {
+  width: 800px;   /* ← SET THIS TO WHATEVER YOU WANT */
+  max-width: 100%; /* prevents overflow on small screens */
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden; /* ensures nothing leaks out */
+}
+
+/* Invisible hover zones */
+.mv-hover-left,
+.mv-hover-right {
+  position: absolute;
+  top: 0;
+  width: 60px;     /* adjust sensitivity */
+  height: 100%;
+  z-index: 10;
+}
+
+.mv-hover-left {
+  left: 0;
+}
+
+.mv-hover-right {
+  right: 0;
+}
+
+/* Horizontal scroll area */
+.mv-scroll {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  padding-bottom: 0.5rem;
+}
+
+/* Cards inside the scroll strip */
+.mv-scroll .tutorial-card {
+  flex: 0 0 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+
 /* Section Light */
 .section-light {
   width: 100%;
