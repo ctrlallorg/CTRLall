@@ -807,6 +807,12 @@ a.start-button {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
+@media (max-width: 380px) {
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+}
+
 .tutorial-card {
   display: block;
   background: #fff;
@@ -817,6 +823,13 @@ a.start-button {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
+
+@media (max-width: 480px) {
+  .tutorial-card {
+    padding: 0.75rem;
+  }
+}
+
 
 .tutorial-card:hover {
   transform: translateY(-4px);
@@ -835,10 +848,18 @@ a.start-button {
   font-size: 1.2rem;
 }
 
+@media (max-width: 480px) {
+  .tutorial-card h3 {
+    font-size: 1.05rem;
+  }
+}
+
+
 .tutorial-card p {
   font-size: 0.95rem;
   color: #555;
 }
+
 
 
 /*---------------- Most Viewed ------------------*/
