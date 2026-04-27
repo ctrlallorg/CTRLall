@@ -94,12 +94,12 @@ active: index
     <div class="mv-hover-left"></div>
     <div class="mv-hover-right"></div>
     <div class="mv-scroll">
-      <a class="tutorial-card" href="/word/tables-convert-text-to-">
+      <a class="tutorial-card" href="/word/tables-convert-text-to-tables/">
         <img src="/assets/images/Index/Featured/Convert text to tables.png" alt="Convert text to tables thumbnail">
         <h3>Convert text to tables</h3>
         <p>Featuring a downloadable exercise on how to convert text data into tables in Word.</p>
       </a>
-      <a class="tutorial-card" href="/content-control/unzipping zipped files/">
+      <a class="tutorial-card" href="/content-control/unzipping-zipped-files/">
         <img src="/assets/images/Index/Featured/Extracting compressed files.png" alt="Extracting compressed files thumbnail">
         <h3>Unzipping compressed/zipped files</h3>
         <p>What to do with a .zip file like our downloadable exercises.</p>
