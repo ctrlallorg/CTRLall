@@ -180,13 +180,13 @@ active: index
     <h3>Beginner essentials</h3>
     <ul>
       <li><a href="/word/getting-started-word">Getting started with Word</a></li>
-      <li><a href="/word/documents-vs-templates">Documents vs templates</a></li>
-      <li><a href="/word/pages-and-views">Pages and Views</a></li>
-      <li><a href="/word/saving-and-save-as">Saving and Save As</a></li>
-      <li><a href="/word/save-as-pdf">Save as PDF</a></li>
       <li><a href="/word/selecting-text">Selecting text</a></li>
       <li><a href="/content-control/moving-content">Moving content</a></li>
       <li><a href="/content-control/copying-content">Copying content</a></li>
+      <li><a href="/word/saving-and-save-as">Saving and Save As</a></li>
+      <li><a href="/word/save-as-pdf">Save as PDF</a></li>
+      <li><a href="/word/documents-vs-templates">Documents vs templates</a></li>
+      <li><a href="/word/pages-and-views">Pages and Views</a></li>
       <li><a href="/content-control/unzipping-zipped-files">Extracting zipped files</a></li>
     </ul>
   </div>

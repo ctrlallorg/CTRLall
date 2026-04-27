@@ -964,6 +964,8 @@ a.start-button {
   max-width: 900px;
   margin: 50px auto;
   margin-left: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .pathways h3 {
