@@ -853,12 +853,19 @@ a.start-button {
 
 /* ⭐ You control the width here */
 .mv-container {
-  width: 750px;   /* ← SET THIS TO WHATEVER YOU WANT */
-  max-width: 100%; /* prevents overflow on small screens */
+  max-width: 750px;   /* stays 750px on desktop */
+  width: 100%;        /* shrinks on mobile, prevents overflow on small screens */
   margin: 0 auto;
   position: relative;
   overflow: hidden; /* ensures nothing leaks out */
 }
+
+@media (max-width: 480px) {
+  .mv-scroll .tutorial-card {
+    flex: 0 0 200px;
+  }
+}
+
 
 /* Invisible hover zones */
 .mv-hover-left,
@@ -901,11 +908,19 @@ a.start-button {
 .mv-fade-right {
   position: absolute;
   top: 0;
-  width: 60px;          /* adjust fade width */
+  width: 40px;          /* adjust fade width */
   height: 100%;
   pointer-events: none; /* important: doesn't block hover zones */
   z-index: 5;
 }
+
+@media (max-width: 480px) {
+  .mv-hover-left,
+  .mv-hover-right {
+    width: 40px;
+  }
+}
+
 
 .mv-fade-left {
   left: 0;
