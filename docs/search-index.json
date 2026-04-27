@@ -1797,7 +1797,7 @@
     "url": "/word/tab-stops/"
   },
   {
-    "title": "Table of contents",
+    "title": "Custom table of contents",
     "tags": [
       "ctrlall.org",
       "ctrlall",
@@ -2111,12 +2111,5 @@
       "buttons"
     ],
     "url": "/content-control/keyboard-shortcuts/"
-  },
-  {
-    "title": "Alignment",
-    "tags": [
-      "null"
-    ],
-    "url": "/word/alignment/"
   }
 ]

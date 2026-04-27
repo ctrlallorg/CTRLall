@@ -94,7 +94,7 @@ active: index
     <div class="mv-hover-left"></div>
     <div class="mv-hover-right"></div>
     <div class="mv-scroll">
-      <a class="tutorial-card" href="/word/tables-convert-text-to-tables/">
+      <a class="tutorial-card" href="/word/tables-convert-text-to-">
         <img src="/assets/images/Index/Featured/Convert text to tables.png" alt="Convert text to tables thumbnail">
         <h3>Convert text to tables</h3>
         <p>Featuring a downloadable exercise on how to convert text data into tables in Word.</p>
@@ -149,6 +149,114 @@ active: index
     </a>
   </div>
 </section>
+
+
+<section class="pathways">
+
+  <div>
+    <h3>Recently updated</h3>
+    <ul>
+       <li><a href="/word/objects-embedded-files">Embedded files</a></li>
+       <li><a href="/word/lists">Lists</a></li>
+       <li><a href="/word/page-setup-options">Page setup options</a></li>
+       <li><a href="/word/tables-convert-text-to-tables">Convert text to tables</a></li>
+       <li><a href="/word/indents">Indents</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Troubleshooting</h3>
+    <ul>
+      <li><a href="/word/lists-fixing-number-lists">Fixing number lists</a></li>
+      <li><a href="/word/lists-soft-hard-returns">Soft & hard returns in lists</a></li>
+      <li><a href="/word/tables-fixing-table-image-problems">Fixing table image problems</a></li>
+      <li><a href="/word/tables-fixing-tables-extending-offscreen">Fixing tables extending offscreen</a></li>
+      <li><a href="/word/tables-fixing-tables-over-pages">Fixing tables over pages</a></li>
+      <li><a href="/word/objects-embedded-files/#object-not-updated">Embedded files not updating</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Beginner essentials</h3>
+    <ul>
+      <li><a href="/word/getting-started-word">Getting started with Word</a></li>
+      <li><a href="/word/documents-vs-templates">Documents vs templates</a></li>
+      <li><a href="/word/pages-and-views">Pages and Views</a></li>
+      <li><a href="/word/saving-and-save-as">Saving and Save As</a></li>
+      <li><a href="/word/save-as-pdf">Save as PDF</a></li>
+      <li><a href="/word/selecting-text">Selecting text</a></li>
+      <li><a href="/content-control/moving-content">Moving content</a></li>
+      <li><a href="/content-control/copying-content">Copying content</a></li>
+      <li><a href="/content-control/unzipping-zipped-files">Extracting zipped files</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Fixing formatting</h3>
+    <ul>
+      <li><a href="/word/formatting-text">Formatting text</a></li>
+      <li><a href="/word/fixing-irregular-spacing">Fixing irregular spacing</a></li>
+      <li><a href="/word/font-options">Font options</a></li>
+      <li><a href="/word/paragraph-options">Paragraph options</a></li>
+      <li><a href="/word/indents">Indents</a></li>
+      <li><a href="/word/tab-stops">Tab stops</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Document structure</h3>
+    <ul>
+      <li><a href="/word/styles">Styles</a></li>
+      <li><a href="/word/headers-and-footers">Headers and Footers</a></li>
+      <li><a href="/word/page-breaks">Page breaks</a></li>
+      <li><a href="/word/section-breaks">Section breaks</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Document setup</h3>
+    <ul>
+      <li><a href="/word/page-setup-options">Page setup options</a></li>
+      <li><a href="/word/table-of-contents">Table of contents</a></li>
+      <li><a href="/word/table-of-contents-custom">Custom table of contents</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Lists</h3>
+    <ul>
+      <li><a href="/word/lists">Lists</a></li>
+      <li><a href="/word/lists-fixing-number-lists">Fixing number lists</a></li>
+      <li><a href="/word/lists-soft-hard-returns">Soft & hard returns in lists</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Tables</h3>
+    <ul>
+      <li><a href="/word/tables">Tables</a></li>
+      <li><a href="/word/tables-formatting">Table formatting</a></li>
+      <li><a href="/word/tables-convert-text-to-tables">Convert text to tables</a></li>
+      <li><a href="/word/tables-fixing-table-image-problems">Fixing table image problems</a></li>
+      <li><a href="/word/tables-fixing-tables-extending-offscreen">Fixing tables extending offscreen</a></li>
+      <li><a href="/word/tables-fixing-tables-over-pages">Fixing tables over pages</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Images & objects</h3>
+    <ul>
+      <li><a href="/word/images">Images</a></li>
+      <li><a href="/word/objects">Objects</a></li>
+      <li><a href="/word/altering-images-and-objects">Altering images and objects</a></li>
+      <li><a href="/word/objects-embedded-files">Embedded files</a></li>
+      <li><a href="/word/editing-charts">Editing charts</a></li>
+    </ul>
+  </div>
+
+</section>
+
+
 
   <h2>Why Ctrl All?</h2>
   <p>Ctrl All teaches digital literacy in Microsoft Office through visual, example‑driven article guides which show you how and why things work. Topic content includes animated demonstrations and a difficulty toggle so you can learn at the pace that suits you — whether you’re starting from scratch or building on existing skills.</p>

@@ -1,5 +1,5 @@
 ---
-title: Table of contents
+title: Custom table of contents
 layout: layout.liquid
 permalink: /word/table-of-contents-custom/
 canonical: /word/table-of-contents-custom/
