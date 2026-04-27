@@ -841,7 +841,7 @@ a.start-button {
 }
 
 
-/* Most Viewed */
+/*---------------- Most Viewed ------------------*/
 .most-viewed {
   margin: 0 auto;
 }
@@ -901,6 +901,17 @@ a.start-button {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 480px) {
+  .mv-scroll .tutorial-card {
+    flex: 0 0 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mv-scroll {
+    gap: 0.5rem;
+  }
+}
 
 
 /* Fade edges */
@@ -916,10 +927,14 @@ a.start-button {
 
 @media (max-width: 480px) {
   .mv-hover-left,
-  .mv-hover-right {
-    width: 40px;
+  .mv-hover-right,
+  .mv-fade-left,
+  .mv-fade-right {
+    display: none;
   }
 }
+
+
 
 
 .mv-fade-left {
