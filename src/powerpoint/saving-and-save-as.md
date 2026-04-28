@@ -126,7 +126,7 @@ active: powerpoint
 
   <div class="image-adjacent">
     <img class="thumbnail left" src="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}"  alt="Keyboard shortcut for save Ctrl+S" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
-    <img class="thumbnail left" src="{{ '/assets/images/powerpoint/Saving and Save as/Save button on QAT.png' | url }}"  alt="Save button on quick access toolbar in PowerPoint" style="max-width:225px; width:100%; height:auto; vertical-align:middle">
+    <img class="thumbnail left" src="{{ '/assets/images/powerpoint/Saving and Save As/Save on QAT.png' | url }}"  alt="Save button on quick access toolbar in PowerPoint" style="max-width:225px; width:100%; height:auto; vertical-align:middle">
 
   </li>
 
