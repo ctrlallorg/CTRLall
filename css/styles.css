@@ -807,11 +807,13 @@ a.start-button {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
-@media (max-width: 380px) {
-  .card-grid {
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+@media (max-width: 480px) {
+  .featured-tutorials .card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
   }
 }
+
+
 
 .tutorial-card {
   display: block;
@@ -842,6 +844,16 @@ a.start-button {
   border-radius: 6px;
   margin-bottom: 0.75rem;
 }
+
+@media (max-width: 480px) {
+  .tutorial-card img {
+    max-width: 180px;
+    margin: 0 auto 0.75rem;
+    display: block;
+  }
+}
+
+
 
 .tutorial-card h3 {
   margin: 0.5rem 0;
