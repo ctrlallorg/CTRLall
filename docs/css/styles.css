@@ -793,8 +793,17 @@ a.start-button {
 .featured-tutorials {
   padding: 2rem 1rem;
   max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
 }
+
+@media (max-width: 480px) {
+  .featured-tutorials {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
 
 .featured-tutorials h2 {
   text-align: center;
