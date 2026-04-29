@@ -123,7 +123,7 @@ mark {
   border-radius: 2px;
 }
 
-@media (max-width: 600px) {
+@media (max-height: 600px) {
   .search-wrapper {
     max-width: 100%;
   }
@@ -789,7 +789,10 @@ a.start-button {
 }
 
 
-/* Feature tutorials */
+/* ===========================
+   FEATURED TUTORIALS
+   =========================== */
+
 .featured-tutorials {
   padding: 2rem 1rem;
   max-width: 1000px;
@@ -797,13 +800,12 @@ a.start-button {
   margin: 0 auto;
 }
 
-@media (max-width: 480px) {
+@media (max-height: 600px) {
   .featured-tutorials {
     max-width: 100%;
     width: 100%;
   }
 }
-
 
 .featured-tutorials h2 {
   text-align: center;
@@ -816,13 +818,11 @@ a.start-button {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
-@media (max-width: 480px) {
-  .featured-tutorials .card-grid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
+@media (max-height: 600px) {
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
-
-
 
 .tutorial-card {
   display: block;
@@ -835,12 +835,11 @@ a.start-button {
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-@media (max-width: 480px) {
+@media (max-height: 600px) {
   .tutorial-card {
     padding: 0.75rem;
   }
 }
-
 
 .tutorial-card:hover {
   transform: translateY(-4px);
@@ -854,27 +853,10 @@ a.start-button {
   margin-bottom: 0.75rem;
 }
 
-@media (max-width: 480px) {
-  .tutorial-card img {
-    max-width: 180px;
-    margin: 0 auto 0.75rem;
-    display: block;
-  }
-}
-
-
-
 .tutorial-card h3 {
   margin: 0.5rem 0;
   font-size: 1.2rem;
 }
-
-@media (max-width: 480px) {
-  .tutorial-card h3 {
-    font-size: 1.05rem;
-  }
-}
-
 
 .tutorial-card p {
   font-size: 0.95rem;
@@ -883,7 +865,10 @@ a.start-button {
 
 
 
-/*---------------- Most Viewed ------------------*/
+/* ===========================
+   MOST VIEWED CAROUSEL
+   =========================== */
+
 .most-viewed {
   margin: 0 auto;
 }
@@ -893,67 +878,88 @@ a.start-button {
   margin-bottom: 1.5rem;
 }
 
-/* ⭐ You control the width here */
+/* Container that must NEVER exceed viewport width */
+
 .mv-container {
-  max-width: 750px;   /* stays 750px on desktop */
-  width: 100%;        /* shrinks on mobile, prevents overflow on small screens */
+  max-width: 750px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
-  overflow: hidden; /* ensures nothing leaks out */
+  overflow-x: auto;
+  overflow-y: visible;
 }
 
-@media (max-width: 480px) {
-  .mv-scroll .tutorial-card {
-    flex: 0 0 200px;
+/* ⭐ MOBILE LANDSCAPE — shrink the container */
+@media (max-height: 500px) {
+  .mv-container {
+    max-width: 400px;   /* or whatever width you want */
+    width: 100%;
   }
 }
-
-
-/* Invisible hover zones */
-.mv-hover-left,
-.mv-hover-right {
-  position: absolute;
-  top: 0;
-  width: 60px;     /* adjust sensitivity */
-  height: 100%;
-  z-index: 10;
-}
-
-.mv-hover-left {
-  left: 0;
-}
-
-.mv-hover-right {
-  right: 0;
-}
-
-/* Horizontal scroll area */
+/* Unified, fixed mv-scroll block */
 .mv-scroll {
   display: flex;
+  flex-wrap: nowrap;      /* prevents stretching */
   gap: 1rem;
   overflow-x: auto;
   overflow-y: hidden;
   scroll-behavior: smooth;
   padding-bottom: 0.5rem;
+
+  /* CRITICAL: prevents viewport stretching */
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
-/* Cards inside the scroll strip */
+/* Default carousel card width */
 .mv-scroll .tutorial-card {
   flex: 0 0 250px;
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 480px) {
+
+/* Mobile landscape */
+@media (max-height: 600px) {
   .mv-scroll .tutorial-card {
     flex: 0 0 200px;
+    max-width: 100%;
   }
-}
 
-@media (max-width: 480px) {
   .mv-scroll {
     gap: 0.5rem;
   }
 }
+
+/* Mobile portrait */
+@media (max-width: 480px) {
+  .mv-scroll .tutorial-card {
+    flex: 0 0 200px;
+    max-width: 200px;
+  }
+
+  .mv-scroll .tutorial-card h3 {
+    font-size: 1.05rem;
+  }
+
+  .mv-scroll .tutorial-card img {
+    height: 75px;
+    object-fit: cover;
+  }
+}
+
+/* Hover zones (desktop only) */
+.mv-hover-left,
+.mv-hover-right {
+  position: absolute;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  z-index: 10;
+}
+
+.mv-hover-left { left: 0; }
+.mv-hover-right { right: 0; }
 
 
 /* Fade edges */
@@ -975,8 +981,6 @@ a.start-button {
     display: none;
   }
 }
-
-
 
 
 .mv-fade-left {
@@ -1111,7 +1115,7 @@ table td {
 }
 
 /* Mobile: allow horizontal scroll */
-@media (max-width: 600px) {
+@media (max-height: 600px) {
   .table-wrapper table {
     min-width: 650px;
   }
