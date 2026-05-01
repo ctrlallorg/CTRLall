@@ -196,6 +196,7 @@ active: index
     <h3>Fixing formatting</h3>
     <ul>
       <li><a href="/word/formatting-text">Formatting text</a></li>
+      <li><a href="/word/hard-and-soft-returns">Hard and soft returns</a></li>  
       <li><a href="/word/fixing-irregular-spacing">Fixing irregular spacing</a></li>
       <li><a href="/word/font-options">Font options</a></li>
       <li><a href="/word/paragraph-options">Paragraph options</a></li>
