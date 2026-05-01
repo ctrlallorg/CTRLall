@@ -86,14 +86,16 @@
     <li>
       <button 
         class="nav-toggle level-3-toggle
-          {% if page.url == '/word/tab-stops/' 
+          {% if page.url == '/word/hard-and-soft-returns/' 
+             or page.url == '/word/tab-stops/'
              or page.url == '/word/indents/' 
              or page.url == '/word/fixing-irregular-spacing/' 
              or page.url == '/word/font-options/' 
              or page.url == '/word/paragraph-options/' %}
             expanded
           {% endif %}"
-        aria-expanded="{% if page.url == '/word/tab-stops/' 
+        aria-expanded="{% if page.url == '/word/hard-and-soft-returns/' 
+             or page.url == '/word/tab-stops/'
              or page.url == '/word/indents/' 
              or page.url == '/word/fixing-irregular-spacing/' 
              or page.url == '/word/font-options/' 
@@ -106,7 +108,8 @@
       </button>
 
       <ul class="nav-level-3
-          {% if page.url == '/word/tab-stops/' 
+          {% if page.url == '/word/hard-and-soft-returns/' 
+             or page.url == '/word/tab-stops/'
              or page.url == '/word/indents/' 
              or page.url == '/word/fixing-irregular-spacing/' 
              or page.url == '/word/font-options/' 
@@ -114,6 +117,7 @@
             show
           {% endif %}">
 
+        <li><a href="{{ '/word/hard-and-soft-returns/' | url }}" class="{% if page.url == '/word/hard-and-soft-returns/' %}active{% endif %}">Hard & soft returns</a></li>
         <li><a href="{{ '/word/tab-stops/' | url }}" class="{% if page.url == '/word/tab-stops/' %}active{% endif %}">Tab stops</a></li>
         <li><a href="{{ '/word/indents/' | url }}" class="{% if page.url == '/word/indents/' %}active{% endif %}">Indents</a></li>
         <li><a href="{{ '/word/fixing-irregular-spacing/' | url }}" class="{% if page.url == '/word/fixing-irregular-spacing/' %}active{% endif %}">Fixing irregular spacing</a></li>

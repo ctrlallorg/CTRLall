@@ -159,6 +159,25 @@ Active: word
 <p>Now all the multiple paragraph marks are reduced to just one per standard digital formatting. Here's a demonstration of the above:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Fix multiple paragraph marks.gif' | url }}" alt="Demonstration fixing multiple paragraph marks with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
+<h4>What if it's not a hard return? (Soft returns)</h4>
+<p>If you're finding lines at the end of your paragraphs are the problem then it's <span class="glossary-hover" data-term="soft-return">soft returns</span> you need to remove.</p>
+<p>Do the above find and replace but use <strong>^l</strong> instead of <strong>^p</strong>:</p>
+
+<ol>
+  <li>Select the area in your document with the paragraphs and spaces that needs fixing, or if you need the whole document fixed click anywhere click anywhere selecting nothing in particular.</li>
+  <li>Open up <strong>Find and Replace</strong> with <strong>Ctrl + H</strong>.</li>
+  <li>
+    <p>In the <strong>Find what</strong> field: type <strong>^l</strong> for a soft return.</p>
+  </li>
+  <li>
+    <p>Leave the <strong>Replace with</strong> field blank.</p>
+    <p>This will replace all soft returns with nothing, essentially removing them.</p>
+  </li>
+  <li>There's no need to enable wildcards for this one so lastly click <strong>Replace All</strong>.</li>
+</ol>
+
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Remove all soft returns.gif' | url }}" alt="Removing all soft returns from text in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+
 <h2 id="remove-space-before-punctuation">Remove spaces before punctuation</h2>
 <p>This is less common but you may sometimes find typing errors where a space has been added before punctuation such as <strong>. , : ; ?</strong> or <strong>!</strong></p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Spaces before punctuation example.png' | url }}" alt="Example of spaces before punctuation in a paragraph in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>

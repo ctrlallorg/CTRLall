@@ -452,6 +452,14 @@ active: glossary
       <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Orphan.png' | url }}"  alt="Orphan line in Word" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p></td>
     </tr>
     <tr>
+      <td id="outline-level">Outline level</td>
+      <td><p>An outline level determines a hierarchy order for a paragraph versus other paragraphs. You can change the outline level of a paragraph in <strong>Paragraph Options</strong>. There are heading levels 1-9 (1 is the highest, 9 is the lowest), and body text. For more see this article: <a href="/word/paragraph-options">Paragraph Options</a></p>
+      <p><img class="thumbnail border" 
+      src="{{ '/assets/images/word/Paragraph options/Outline levels.png' | url }}"  
+      alt="Outline levels dropdown menu in Paragraph Options in Word" 
+      style="max-width:350px; width:100%; height:auto; vertical-align:middlemargin-bottom:2em;"></p></td>
+    </tr>
+    <tr>
       <td id="page-break">Page break</td>
       <td>A page break is the boundary of the editable area between one page and another. To add a page break press <strong>Ctrl + Enter</strong>. To view page breaks you need to turn on non-printing <a href="#formatting-marks">formatting mark</a> <strong>Show/Hide ¶</strong>.</td>
     </tr>
@@ -1015,6 +1023,14 @@ active: glossary
       <td id="orphan">Orphan</td>
       <td><p>The first line of a paragraph that appears alone at the bottom of a page detached from the rest of the paragraph on the next page. The opposite of this is a <a href="#widow">widow</a>. Word prevents these by default but you can disable <a href="/word/paragraph-options/#widow-orphan-control">widow/orphan control</a> in the <strong>Line and Pages breaks</strong> tab in <strong>Paragraph Options</strong></p>
       <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Orphan.png' | url }}"  alt="Orphan line in Word" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p></td>
+    </tr>
+    <tr>
+      <td id="outline-level">Outline level</td>
+      <td><p>An outline level determines a hierarchy order for a paragraph versus other paragraphs. You can change the outline level of a paragraph in <strong>Paragraph Options</strong>. There are heading levels 1-9 (1 is the highest, 9 is the lowest), and body text. For more see this article: <a href="/word/paragraph-options">Paragraph Options</a></p>
+      <p><img class="thumbnail border" 
+      src="{{ '/assets/images/word/Paragraph options/Outline levels.png' | url }}"  
+      alt="Outline levels dropdown menu in Paragraph Options in Word" 
+      style="max-width:350px; width:100%; height:auto; vertical-align:middlemargin-bottom:2em;"></p></td>
     </tr>
     <tr>
       <td id="page-break">Page break</td>
