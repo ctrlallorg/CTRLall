@@ -32,7 +32,23 @@ const QUESTIONS = [
   { shortcut: "Windows + L",                answer: "Lock Screen",      category: "Windows", difficulty: "Beginner",     hint: "Stop others using your PC" },
   { shortcut: "Windows + Up Arrow",          answer: "Maximise Window",  category: "Windows", difficulty: "Beginner",     hint: "Make the window fill the screen" },
   { shortcut: "Windows + Left/Right Arrow",  answer: "Snap Window",      category: "Windows", difficulty: "Beginner",     hint: "Pin a window to one side" },
+  { shortcut: "Alt + F4",                    answer: "Close Current App",         category: "Windows", difficulty: "Intermediate", hint: "Force‑close the active window" },
+  { shortcut: "Ctrl + W",                    answer: "Close Current Tab/Window",  category: "Windows", difficulty: "Intermediate", hint: "Works in File Explorer too" },
+  { shortcut: "Windows + Shift + S",         answer: "Open Snipping Tool",        category: "Windows", difficulty: "Intermediate", hint: "Capture part of your screen" },
+  { shortcut: "Windows + M",                 answer: "Minimise All Windows",      category: "Windows", difficulty: "Intermediate", hint: "Hide everything quickly" },
 
+
+  // ── Windows ── Intermediate ───────────────────────────────────────────
+  { shortcut: "Windows + V",                 answer: "Open Clipboard History",    category: "Windows", difficulty: "Intermediate", hint: "See your recent copied items" },
+  { shortcut: "Windows + A",                 answer: "Open Quick Settings",       category: "Windows", difficulty: "Intermediate", hint: "Wi‑Fi, Bluetooth, brightness" },
+  { shortcut: "Windows + N",                 answer: "Open Notifications",        category: "Windows", difficulty: "Intermediate", hint: "View recent alerts" },
+  { shortcut: "Windows + I",                 answer: "Open Settings",             category: "Windows", difficulty: "Intermediate", hint: "Change system preferences" },
+  { shortcut: "Windows + .",                 answer: "Emoji Picker",              category: "Windows", difficulty: "Intermediate", hint: "Insert emojis anywhere" },
+  { shortcut: "Ctrl + Shift + Esc",          answer: "Open Task Manager",         category: "Windows", difficulty: "Intermediate", hint: "See running apps and processes" },
+  { shortcut: "Windows + Shift + M",         answer: "Restore Minimized Windows", category: "Windows", difficulty: "Intermediate", hint: "Bring everything back" },
+  { shortcut: "Windows + R",                 answer: "Open Run Dialog",           category: "Windows", difficulty: "Intermediate", hint: "Launch apps by name" },
+  { shortcut: "Windows + U",                 answer: "Open Accessibility Settings", category: "Windows", difficulty: "Intermediate", hint: "Ease of Access tools" },
+  
   // ── Word ── Beginner ─────────────────────────────────────────────────────
   { shortcut: "Ctrl + S",  answer: "Save",           category: "Word", difficulty: "Beginner", hint: "Store your work" },
   { shortcut: "Ctrl + N",  answer: "New Document",   category: "Word", difficulty: "Beginner", hint: "Start from scratch" },
