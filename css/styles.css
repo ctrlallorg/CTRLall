@@ -2201,3 +2201,27 @@ body.sidebar-collapsed .main-column {
   max-width: 540px;
   margin: 0;
 }
+
+/* Keyboard shortcuts quiz button*/
+.keyboard-shortcuts-quiz-button-area {
+  text-align: left;
+}
+
+.keyboard-shortcuts-quiz-button {
+  display: inline-block;
+  background: #2c3e50;
+  color: #fff;
+  padding: 0.9rem 1.6rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.keyboard-shortcuts-quiz-button:hover {
+  background: #005fa3;
+}
+
+a.keyboard-shortcuts-quiz-button {
+  color: #fff !important;
+}

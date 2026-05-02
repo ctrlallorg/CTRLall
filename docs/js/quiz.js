@@ -1,5 +1,5 @@
 /**
- * CTRL All — Keyboard Shortcut Quiz
+ * CTRL All — Keyboard Shortcuts Quiz
  * Plain vanilla JavaScript. No frameworks, no build step.
  *
  * HOW TO USE ON A PAGE:
@@ -213,7 +213,7 @@ function renderStart(showResults) {
     <div class="caq-panel">
       <div class="caq-header">
         <img src="/assets/images/Ctrl-All-logo-og.png" alt="Ctrl All" class="caq-logo">
-        <h2 class="caq-title">Keyboard Shortcut Quiz</h2>
+        <h2 class="caq-title">Keyboard Shortcuts Quiz</h2>
         <p class="caq-subtitle">How well do you know your shortcuts?</p>
       </div>
 
