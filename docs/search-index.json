@@ -204,7 +204,14 @@
       "library training",
       "glossary of computer terms",
       "educational resource",
-      "corporate office education"
+      "corporate office education",
+      "digital quizzes",
+      "test learning",
+      "test yourself",
+      "test knowledge",
+      "test skills",
+      "test your knowledge",
+      "test your skills"
     ],
     "url": "/"
   },
@@ -309,6 +316,18 @@
       "move multiple text"
     ],
     "url": "/content-control/moving-content/"
+  },
+  {
+    "title": "Keyboard shortcuts quiz",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "microsoft word",
+      "quiz",
+      "keyboard shortcuts"
+    ],
+    "url": "/content-control/keyboard-shortcuts-quiz/"
   },
   {
     "title": "Extracting zipped (compressed) files",

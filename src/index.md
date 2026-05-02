@@ -67,6 +67,13 @@ tags:
   - educational resource
   - corporate office education
   - computing basics
+  - digital quizzes
+  - test learning
+  - test yourself
+  - test knowledge
+  - test skills
+  - test your knowledge
+  - test your skills
 active: index
 ---
 
@@ -94,6 +101,11 @@ active: index
     <div class="mv-hover-left"></div>
     <div class="mv-hover-right"></div>
     <div class="mv-scroll">
+            <a class="tutorial-card" href="/content-control/keyboard-shortcuts-quiz/">
+        <img src="/assets/images/Index/Featured/Keyboard shortcuts quiz.png" alt="Keyboard shortcuts quiz thumbnail">
+        <h3>Keyboard shortcuts quiz</h3>
+        <p>How many shortcuts do you know? Test yourself.</p>
+      </a>
       <a class="tutorial-card" href="/word/tables-convert-text-to-tables/">
         <img src="/assets/images/Index/Featured/Convert text to tables.png" alt="Convert text to tables thumbnail">
         <h3>Convert text to tables</h3>
@@ -146,6 +158,11 @@ active: index
       <img src="/assets/images/Index/Featured/Keyboard shortcuts.png" alt="Keyboard shortcuts thumbnail">
       <h3>Keyboard shortcuts</h3>
       <p>One stop shop for all the shortcuts you need to know for each program.</p>
+    </a>
+    <a class="tutorial-card" href="/content-control/keyboard-shortcuts-quiz/">
+      <img src="/assets/images/Index/Featured/Keyboard shortcuts quiz.png" alt="Keyboard shortcuts quiz thumbnail">
+      <h3>Keyboard shortcuts quiz</h3>
+      <p>Think you know shortcuts? Test your knowledge with our quiz!</p>
     </a>
   </div>
 </section>
@@ -283,6 +300,10 @@ active: index
       <p><strong><span style="color:#415576;">*NEW*</span> Downloadable exercises</strong>: Look out for this button in articles to download zipped exercise files. Exerises feature examples from the article steps to try out yourself.</p>
       <p><img class="thumbnail left" src="{{ '/assets/images/Index/Exercise badge.png' | url }}"  alt="Exercise button" style="max-width:253px; width:100%; height:auto; vertical-align:middle"></p>   
       <p><img class="thumbnail border" src="{{ '/assets/images/Index/Example exercise Word.png' | url }}"  alt="Example exercise in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+    </li>
+    <li>
+      <p><strong><span style="color:#415576;">*NEW*</span> Quizzes</strong>: Test your knowledge with quizzes being added to the site.</p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/Index/Example quiz.png' | url }}"  alt="Example quiz" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>   
     </li>
   </ul>
   <h2>Difficulty</h2>

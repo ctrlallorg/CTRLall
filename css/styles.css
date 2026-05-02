@@ -881,7 +881,7 @@ a.start-button {
 /* Container that must NEVER exceed viewport width */
 
 .mv-container {
-  max-width: 750px;
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -892,7 +892,7 @@ a.start-button {
 /* ⭐ MOBILE LANDSCAPE — shrink the container */
 @media (max-height: 500px) {
   .mv-container {
-    max-width: 400px;   /* or whatever width you want */
+    max-width: 500px;   /* or whatever width you want */
     width: 100%;
   }
 }
@@ -1626,16 +1626,15 @@ body {
 
 .page-container {
   display: grid;
-  grid-template-columns: 1fr 200px; /* content | adsbar */
+  grid-template-columns: 1fr; /* content only */
   width: 100%;
   min-height: calc(100vh - 60px);
   position: relative;
-  gap: 0;                 /* ensure no grid gap */
-  padding: 0;             /* ensure no padding */
-  margin: 0;              /* ensure no margin */
-  box-sizing: border-box; /* ensure sizing is correct */
+  gap: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
 
 .layout-wrapper {
   display: flex;
@@ -1664,7 +1663,7 @@ body {
   max-width: 100%;       /* don’t let child overflow parent */
   overflow-x: auto;      /* scroll inside child, not inflate parent */
   white-space: normal;   /* allow wrapping instead of unbreakable line */
-  margin-right: 20px;   /* space between content and adsbar */
+  margin-right: 20px;   /* space between content and right side */
   box-sizing: border-box;
 }
 
@@ -1751,27 +1750,6 @@ body.sidebar-collapsed .main-column {
   color: #333;
 }
 
-/* ─── Adsbar ────────────────────────── */
-#ad-wrapper {
-  width: 100%;
-  max-width: 728px;
-  margin: 0 auto;
-}
-
-
-.adsbar-content {
-  font-size: 14px;
-  color: #333;
-}
-
-#ad-wrapper iframe {
-  display: block;
-  margin: 0 auto;
-}
-
-
-.adsbar-wrapper::-webkit-scrollbar { display: none; }
-
 
 .spacer-30 {
   height: 30px;
@@ -1815,35 +1793,12 @@ body.sidebar-collapsed .main-column {
   opacity: 1;
 }
 
-/* ─── Adsbar ────────────────────────── */
-.adsbar-wrapper {
-  width: 180px;
-  background-color: #f5f5f5;
-  border-left: 0px solid #ddd;
-  padding: 0px;
-  overflow-y: auto;
-
-  /* Ensure lower stacking context */
-  position: relative;
-  z-index: 10;
-}
-
-.adsbar-content {
-  font-size: 14px;
-  color: #333;
-}
-
-@media (max-width: 768px) {
-  .adsbar-wrapper {
-    display: none;
-  }
-}
 
 /* ─── Interactive hotspot overlay ────────────────────────── */
 .overlay-container {
   position: relative;
   display: inline-block;
-  z-index: 999; /* higher than adsbar-wrapper */
+  z-index: 999;
 }
 
 .base-image {
@@ -2241,3 +2196,8 @@ body.sidebar-collapsed .main-column {
   margin: 1em 0;
 }
 
+/* ─── Quiz ────────────────────────── */
+#ctrl-quiz {
+  max-width: 540px;
+  margin: 0;
+}

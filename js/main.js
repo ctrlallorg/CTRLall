@@ -913,3 +913,4 @@ track.addEventListener('scroll', updateFades);
 
 // Run once on load
 updateFades();
+
