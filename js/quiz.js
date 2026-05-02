@@ -6,11 +6,6 @@
  *   1. Add `quiz: true` to the page's frontmatter
  *   2. Add <div id="ctrl-quiz"></div> in the page body
  *
- * HOW IT WORKS:
- *   Finds the #ctrl-quiz div, builds the HTML inside it, then manages
- *   all interactivity (selecting difficulty + category, answering,
- *   scoring, moving to the next question, showing results).
- *
  * DIFFICULTY LEVELS:
  *   Beginner     — shortcuts everyone needs in their first week
  *   Intermediate — less obvious, more powerful shortcuts
@@ -18,37 +13,29 @@
 
 
 // ─── 1. QUESTION BANK ────────────────────────────────────────────────────────
-// Each question has:
-//   shortcut   — the key combination shown to the user
-//   answer     — the correct answer text
-//   category   — "Word" | "Excel" | "PowerPoint" | "Windows"
-//   difficulty — "Beginner" | "Intermediate"
-//   hint       — optional clue the user can reveal
 
 const QUESTIONS = [
 
   // ── Windows ── Beginner ──────────────────────────────────────────────────
-  { shortcut: "Windows + D",                answer: "Show Desktop",     category: "Windows", difficulty: "Beginner",     hint: "Minimise all windows at once" },
-  { shortcut: "Windows + L",                answer: "Lock Screen",      category: "Windows", difficulty: "Beginner",     hint: "Stop others using your PC" },
-  { shortcut: "Windows + Up Arrow",          answer: "Maximise Window",  category: "Windows", difficulty: "Beginner",     hint: "Make the window fill the screen" },
-  { shortcut: "Windows + Left/Right Arrow",  answer: "Snap Window",      category: "Windows", difficulty: "Beginner",     hint: "Pin a window to one side" },
-  { shortcut: "Alt + F4",                    answer: "Close Current App",         category: "Windows", difficulty: "Intermediate", hint: "Force‑close the active window" },
-  { shortcut: "Ctrl + W",                    answer: "Close Current Tab/Window",  category: "Windows", difficulty: "Intermediate", hint: "Works in File Explorer too" },
-  { shortcut: "Windows + Shift + S",         answer: "Open Snipping Tool",        category: "Windows", difficulty: "Intermediate", hint: "Capture part of your screen" },
-  { shortcut: "Windows + M",                 answer: "Minimise All Windows",      category: "Windows", difficulty: "Intermediate", hint: "Hide everything quickly" },
+  { shortcut: "Windows + D",               answer: "Show Desktop",              category: "Windows", difficulty: "Beginner",     hint: "Minimise all windows at once" },
+  { shortcut: "Windows + L",               answer: "Lock Screen",               category: "Windows", difficulty: "Beginner",     hint: "Stop others using your PC" },
+  { shortcut: "Windows + Up Arrow",         answer: "Maximise Window",           category: "Windows", difficulty: "Beginner",     hint: "Make the window fill the screen" },
+  { shortcut: "Windows + Left/Right Arrow", answer: "Snap Window",              category: "Windows", difficulty: "Beginner",     hint: "Pin a window to one side" },
+  { shortcut: "Windows + V",               answer: "Open Clipboard History",    category: "Windows", difficulty: "Beginner",     hint: "See everything you've copied" },
+  { shortcut: "Windows + Shift + M",       answer: "Restore All Minimised Windows", category: "Windows", difficulty: "Beginner", hint: "Bring all windows back" },
+  { shortcut: "Ctrl + W",                  answer: "Close Window / Tab",        category: "Windows", difficulty: "Beginner",     hint: "Close what's in front of you" },
+  { shortcut: "Alt + F4",                  answer: "Close Current App",         category: "Windows", difficulty: "Beginner",     hint: "Shut down the whole application" },
+  { shortcut: "Ctrl + T",                  answer: "New Tab",                   category: "Windows", difficulty: "Beginner",     hint: "Open a fresh tab" },
+  { shortcut: "Ctrl + Shift + T",          answer: "Reopen Last Closed Tab",    category: "Windows", difficulty: "Beginner",     hint: "Bring back that tab you just closed" },
 
+  // ── Windows ── Intermediate ──────────────────────────────────────────────
+  { shortcut: "Windows + Shift + S",            answer: "Take a Screenshot",         category: "Windows", difficulty: "Intermediate", hint: "Capture part of your screen" },
+  { shortcut: "Windows + U",                    answer: "Open Accessibility Settings", category: "Windows", difficulty: "Intermediate", hint: "Adjust display and input options" },
+  { shortcut: "Ctrl + Shift + Esc",             answer: "Open Task Manager",         category: "Windows", difficulty: "Intermediate", hint: "See what's running on your PC" },
+  { shortcut: "Ctrl + Shift + N",               answer: "Create New Folder",         category: "Windows", difficulty: "Intermediate", hint: "Add a folder in File Explorer" },
+  { shortcut: "Windows + Ctrl + D",             answer: "Create New Virtual Desktop", category: "Windows", difficulty: "Intermediate", hint: "Add another workspace" },
+  { shortcut: "Windows + Ctrl + Left/Right",    answer: "Switch Virtual Desktop",    category: "Windows", difficulty: "Intermediate", hint: "Move between your workspaces" },
 
-  // ── Windows ── Intermediate ───────────────────────────────────────────
-  { shortcut: "Windows + V",                 answer: "Open Clipboard History",    category: "Windows", difficulty: "Intermediate", hint: "See your recent copied items" },
-  { shortcut: "Windows + A",                 answer: "Open Quick Settings",       category: "Windows", difficulty: "Intermediate", hint: "Wi‑Fi, Bluetooth, brightness" },
-  { shortcut: "Windows + N",                 answer: "Open Notifications",        category: "Windows", difficulty: "Intermediate", hint: "View recent alerts" },
-  { shortcut: "Windows + I",                 answer: "Open Settings",             category: "Windows", difficulty: "Intermediate", hint: "Change system preferences" },
-  { shortcut: "Windows + .",                 answer: "Emoji Picker",              category: "Windows", difficulty: "Intermediate", hint: "Insert emojis anywhere" },
-  { shortcut: "Ctrl + Shift + Esc",          answer: "Open Task Manager",         category: "Windows", difficulty: "Intermediate", hint: "See running apps and processes" },
-  { shortcut: "Windows + Shift + M",         answer: "Restore Minimized Windows", category: "Windows", difficulty: "Intermediate", hint: "Bring everything back" },
-  { shortcut: "Windows + R",                 answer: "Open Run Dialog",           category: "Windows", difficulty: "Intermediate", hint: "Launch apps by name" },
-  { shortcut: "Windows + U",                 answer: "Open Accessibility Settings", category: "Windows", difficulty: "Intermediate", hint: "Ease of Access tools" },
-  
   // ── Word ── Beginner ─────────────────────────────────────────────────────
   { shortcut: "Ctrl + S",  answer: "Save",           category: "Word", difficulty: "Beginner", hint: "Store your work" },
   { shortcut: "Ctrl + N",  answer: "New Document",   category: "Word", difficulty: "Beginner", hint: "Start from scratch" },
@@ -71,8 +58,8 @@ const QUESTIONS = [
   { shortcut: "Ctrl + L",         answer: "Left Align",         category: "Word", difficulty: "Intermediate", hint: "Push text to the left" },
   { shortcut: "Ctrl + E",         answer: "Centre Align",       category: "Word", difficulty: "Intermediate", hint: "Centre the text" },
   { shortcut: "Ctrl + R",         answer: "Right Align",        category: "Word", difficulty: "Intermediate", hint: "Push text to the right" },
-  { shortcut: "Ctrl + Enter",     answer: "Page Break",         category: "Word", difficulty: "Intermediate", hint: "Force a new page" },
   { shortcut: "Ctrl + K",         answer: "Insert Hyperlink",   category: "Word", difficulty: "Intermediate", hint: "Add a clickable link" },
+  { shortcut: "Ctrl + Enter",     answer: "Page Break",         category: "Word", difficulty: "Intermediate", hint: "Force a new page" },
   { shortcut: "Ctrl + + (plus)",  answer: "Zoom In",            category: "Word", difficulty: "Intermediate", hint: "Make content appear larger" },
   { shortcut: "Ctrl + - (minus)", answer: "Zoom Out",           category: "Word", difficulty: "Intermediate", hint: "Make content appear smaller" },
   { shortcut: "Ctrl + 0",         answer: "Reset Zoom to 100%", category: "Word", difficulty: "Intermediate", hint: "Return to default zoom" },
@@ -103,15 +90,18 @@ const QUESTIONS = [
   { shortcut: "Ctrl + - (minus)", answer: "Zoom Out",             category: "Excel", difficulty: "Intermediate", hint: "Make content appear smaller" },
 
   // ── PowerPoint ── Beginner ───────────────────────────────────────────────
-  { shortcut: "Ctrl + S",  answer: "Save",                category: "PowerPoint", difficulty: "Beginner", hint: "Store your presentation" },
-  { shortcut: "Ctrl + N",  answer: "New Presentation",    category: "PowerPoint", difficulty: "Beginner", hint: "Start from scratch" },
-  { shortcut: "Ctrl + O",  answer: "Open File",           category: "PowerPoint", difficulty: "Beginner", hint: "Load an existing presentation" },
-  { shortcut: "Ctrl + P",  answer: "Print",               category: "PowerPoint", difficulty: "Beginner", hint: "Send to printer" },
-  { shortcut: "Ctrl + Z",  answer: "Undo",                category: "PowerPoint", difficulty: "Beginner", hint: "Go back one step" },
-  { shortcut: "Ctrl + C",  answer: "Copy",                category: "PowerPoint", difficulty: "Beginner", hint: "Duplicate to clipboard" },
-  { shortcut: "Ctrl + V",  answer: "Paste",               category: "PowerPoint", difficulty: "Beginner", hint: "Place from clipboard" },
-  { shortcut: "Ctrl + M",  answer: "New Slide",           category: "PowerPoint", difficulty: "Beginner", hint: "Add another slide" },
-  { shortcut: "F5",         answer: "Start Slideshow",    category: "PowerPoint", difficulty: "Beginner", hint: "Begin the presentation" },
+  { shortcut: "Ctrl + S",  answer: "Save",             category: "PowerPoint", difficulty: "Beginner", hint: "Store your presentation" },
+  { shortcut: "Ctrl + N",  answer: "New Presentation", category: "PowerPoint", difficulty: "Beginner", hint: "Start from scratch" },
+  { shortcut: "Ctrl + O",  answer: "Open File",        category: "PowerPoint", difficulty: "Beginner", hint: "Load an existing presentation" },
+  { shortcut: "Ctrl + W",  answer: "Close Presentation", category: "PowerPoint", difficulty: "Beginner", hint: "Close this file but keep PowerPoint open" },
+  { shortcut: "Ctrl + P",  answer: "Print",            category: "PowerPoint", difficulty: "Beginner", hint: "Send to printer" },
+  { shortcut: "Ctrl + Z",  answer: "Undo",             category: "PowerPoint", difficulty: "Beginner", hint: "Go back one step" },
+  { shortcut: "Ctrl + Y",  answer: "Redo",             category: "PowerPoint", difficulty: "Beginner", hint: "Go forward one step" },
+  { shortcut: "Ctrl + X",  answer: "Cut",              category: "PowerPoint", difficulty: "Beginner", hint: "Remove to clipboard" },
+  { shortcut: "Ctrl + C",  answer: "Copy",             category: "PowerPoint", difficulty: "Beginner", hint: "Duplicate to clipboard" },
+  { shortcut: "Ctrl + V",  answer: "Paste",            category: "PowerPoint", difficulty: "Beginner", hint: "Place from clipboard" },
+  { shortcut: "Ctrl + M",  answer: "New Slide",        category: "PowerPoint", difficulty: "Beginner", hint: "Add another slide" },
+  { shortcut: "F5",         answer: "Start Slideshow", category: "PowerPoint", difficulty: "Beginner", hint: "Begin the presentation" },
 
   // ── PowerPoint ── Intermediate ───────────────────────────────────────────
   { shortcut: "Shift + F5", answer: "Slideshow from Current Slide", category: "PowerPoint", difficulty: "Intermediate", hint: "Present from this slide onwards" },
@@ -123,32 +113,26 @@ const QUESTIONS = [
 
 ];
 
-const QUIZ_LENGTH = 8; // Maximum questions per round
+const QUIZ_LENGTH = 8;
 
 
 // ─── 2. HELPER FUNCTIONS ─────────────────────────────────────────────────────
 
-// Returns a new array in random order (doesn't change the original)
 function shuffle(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
 
-// Picks 3 wrong answers + the correct one, then shuffles them.
-// Falls back to full question bank if pool is too small for 4 options.
 function buildOptions(correctQuestion, pool) {
-  const source = pool.length >= 4 ? pool : QUESTIONS;
+  const source   = pool.length >= 4 ? pool : QUESTIONS;
   const wrongOnes = source.filter(q => q.answer !== correctQuestion.answer);
   const threeWrong = shuffle(wrongOnes).slice(0, 3);
   return shuffle([correctQuestion, ...threeWrong]);
 }
 
-// Filters by category and difficulty, then picks up to QUIZ_LENGTH questions.
-// "All" means no filter on that dimension.
 function buildQuestionSet(category, difficulty) {
   let pool = QUESTIONS;
-  if (category !== "All")   pool = pool.filter(q => q.category === category);
+  if (category  !== "All") pool = pool.filter(q => q.category   === category);
   if (difficulty !== "All") pool = pool.filter(q => q.difficulty === difficulty);
-
   const length = Math.min(QUIZ_LENGTH, pool.length);
   return shuffle(pool).slice(0, length).map(q => ({
     ...q,
@@ -156,10 +140,9 @@ function buildQuestionSet(category, difficulty) {
   }));
 }
 
-// Returns how many questions match the current selection (for preview)
 function previewCount(category, difficulty) {
   let pool = QUESTIONS;
-  if (category !== "All")   pool = pool.filter(q => q.category === category);
+  if (category  !== "All") pool = pool.filter(q => q.category   === category);
   if (difficulty !== "All") pool = pool.filter(q => q.difficulty === difficulty);
   return Math.min(QUIZ_LENGTH, pool.length);
 }
@@ -181,11 +164,9 @@ function getContainer() {
   return document.getElementById("ctrl-quiz");
 }
 
-// START SCREEN — shown before quiz begins and after it ends
 function renderStart(showResults) {
   const container = getContainer();
 
-  // Results section (only after a completed quiz)
   let resultsHTML = "";
   if (showResults) {
     const total   = questions.length;
@@ -211,21 +192,18 @@ function renderStart(showResults) {
     `;
   }
 
-  // Difficulty buttons
   const difficulties = ["Beginner", "Intermediate"];
-  const diffButtons = difficulties.map(d => `
+  const diffButtons  = difficulties.map(d => `
     <button class="caq-diff-btn ${d === difficulty ? "caq-diff-active caq-diff-active--" + d.toLowerCase() : ""}"
             data-diff="${d}">${d}</button>
   `).join("");
 
-  // Category buttons
-  const cats = ["All", "Windows", "Word", "Excel", "PowerPoint"];
+  const cats      = ["All", "Windows", "Word", "Excel", "PowerPoint"];
   const catButtons = cats.map(cat => `
     <button class="caq-cat-btn ${cat === category ? "caq-cat-active" : ""}"
             data-cat="${cat}">${cat}</button>
   `).join("");
 
-  // Question count preview
   const count       = previewCount(category, difficulty);
   const previewText = count > 0
     ? `${count} question${count !== 1 ? "s" : ""} available`
@@ -255,33 +233,20 @@ function renderStart(showResults) {
     </div>
   `;
 
-  // Difficulty handlers
   container.querySelectorAll(".caq-diff-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      difficulty = btn.dataset.diff;
-      renderStart(showResults);
-    });
+    btn.addEventListener("click", () => { difficulty = btn.dataset.diff; renderStart(showResults); });
   });
-
-  // Category handlers
   container.querySelectorAll(".caq-cat-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      category = btn.dataset.cat;
-      renderStart(showResults);
-    });
+    btn.addEventListener("click", () => { category = btn.dataset.cat; renderStart(showResults); });
   });
-
   container.querySelector("#caq-start").addEventListener("click", startQuiz);
 }
 
-
-// QUESTION SCREEN
 function renderQuestion() {
   const container = getContainer();
   const q         = questions[current];
   const letters   = ["A", "B", "C", "D"];
 
-  // Progress dots
   const dots = Array.from({ length: questions.length }).map((_, i) => {
     if (i < answers.length) {
       return `<span class="caq-dot ${answers[i].correct ? "caq-dot-correct" : "caq-dot-wrong"}"></span>`;
@@ -289,7 +254,6 @@ function renderQuestion() {
     return `<span class="caq-dot caq-dot-empty"></span>`;
   }).join("");
 
-  // Answer buttons
   const optionButtons = q.options.map((opt, i) => `
     <button class="caq-option" data-answer="${opt.answer}">
       <span class="caq-option-letter">${letters[i]}</span>
@@ -302,7 +266,6 @@ function renderQuestion() {
       <div class="caq-progress-bar-wrap">
         <div class="caq-progress-bar" style="width: ${(current / questions.length) * 100}%"></div>
       </div>
-
       <div class="caq-meta">
         <span class="caq-counter">${current + 1} / ${questions.length}</span>
         <div class="caq-meta-right">
@@ -310,15 +273,12 @@ function renderQuestion() {
           <span class="caq-category-tag caq-cat-${q.category.toLowerCase()}">${q.category}</span>
         </div>
       </div>
-
       <p class="caq-question-label">What does this shortcut do?</p>
       <div class="caq-shortcut">${q.shortcut}</div>
-
       <div class="caq-hint-wrap">
         <button class="caq-hint-btn" id="caq-hint-btn">Show hint</button>
         <span class="caq-hint-text" id="caq-hint-text" hidden>💡 ${q.hint}</span>
       </div>
-
       <div class="caq-options">${optionButtons}</div>
       <div class="caq-dots">${dots}</div>
     </div>
@@ -328,14 +288,11 @@ function renderQuestion() {
     container.querySelector("#caq-hint-btn").hidden = true;
     container.querySelector("#caq-hint-text").hidden = false;
   });
-
   container.querySelectorAll(".caq-option").forEach(btn => {
     btn.addEventListener("click", () => handleAnswer(btn.dataset.answer));
   });
 }
 
-
-// Called when user selects an answer
 function handleAnswer(chosen) {
   const q       = questions[current];
   const correct = chosen === q.answer;
@@ -346,9 +303,9 @@ function handleAnswer(chosen) {
   const container = getContainer();
   container.querySelectorAll(".caq-option").forEach(btn => {
     btn.disabled = true;
-    if (btn.dataset.answer === q.answer)              btn.classList.add("caq-option-correct");
+    if (btn.dataset.answer === q.answer)               btn.classList.add("caq-option-correct");
     else if (btn.dataset.answer === chosen && !correct) btn.classList.add("caq-option-wrong");
-    else                                               btn.classList.add("caq-option-dim");
+    else                                                btn.classList.add("caq-option-dim");
   });
 
   const nextBtn       = document.createElement("button");
@@ -565,6 +522,7 @@ function injectStyles() {
   `;
   document.head.appendChild(style);
 }
+
 
 
 // ─── 7. INITIALISE ───────────────────────────────────────────────────────────
