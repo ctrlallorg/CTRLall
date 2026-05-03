@@ -1,5 +1,5 @@
 /**
- * CTRL All — Keyboard Shortcuts Quiz
+ * CTRL All — Keyboard Shortcut Quiz
  * Plain vanilla JavaScript. No frameworks, no build step.
  *
  * HOW TO USE ON A PAGE:
@@ -183,10 +183,42 @@ function renderStart(showResults) {
       </div>
     `).join("");
 
+    // Share URLs — pre-written message for each platform
+    const quizUrl    = "https://ctrlall.org/content-control/keyboard-shortcuts-quiz/";
+    const displayMsg = `I got ${pct}% on this keyboard shortcuts quiz — how many do you know?`;
+    const shareText  = `${displayMsg} ${quizUrl}`;
+    const encoded    = encodeURIComponent(shareText);
+    const urlOnly    = encodeURIComponent(quizUrl);
+    const titleOnly  = encodeURIComponent("Keyboard Shortcuts Quiz – CTRL All");
+
+    const shareLinks = [
+      { label: "LinkedIn", img: "/assets/images/topbar/linkedin.png", color: "#2867B2", url: `https://www.linkedin.com/sharing/share-offsite/?url=${urlOnly}` },
+      { label: "Facebook", img: "/assets/images/topbar/facebook.png", color: "#0266FF", url: `https://www.facebook.com/sharer/sharer.php?u=${urlOnly}&quote=${encoded}` },
+      { label: "Bluesky",  img: "/assets/images/topbar/bluesky.png",  color: "#B3DDFF", url: `https://bsky.app/intent/compose?text=${encoded}` },
+      { label: "Threads",  img: "/assets/images/topbar/threads.png",  color: "#000",    url: `https://www.threads.net/intent/post?text=${encoded}` },
+      { label: "Reddit",   img: "/assets/images/topbar/reddit.png",   color: "#FF4500", url: `https://www.reddit.com/submit?url=${urlOnly}&title=${titleOnly}` },
+      { label: "Email",    img: null,                                  color: "#2c3e50", url: `mailto:?subject=${titleOnly}&body=${encoded}` }
+    ];
+
+    const shareButtons = shareLinks.map(s => `
+      <a href="${s.url}" ${s.label !== "Email" ? 'target="_blank" rel="noopener noreferrer"' : ""}
+         class="caq-share-btn" style="background:${s.color}" aria-label="Share on ${s.label}">
+        ${s.img
+          ? `<img src="${s.img}" alt="${s.label}" class="caq-share-logo">`
+          : `<span class="caq-share-envelope">✉</span>`
+        }
+      </a>
+    `).join("");
+
     resultsHTML = `
       <div class="caq-results">
         <div class="caq-score-circle ${pct >= 70 ? "caq-pass" : "caq-fail"}">${score}/${total}</div>
         <div class="caq-score-label"><strong>${pct}%</strong> — ${message}</div>
+        <div class="caq-share-wrap">
+          <div class="caq-share-label">Share your score</div>
+          <div class="caq-share-text">${displayMsg}</div>
+          <div class="caq-share-buttons">${shareButtons}</div>
+        </div>
         <div class="caq-review">${rows}</div>
       </div>
     `;
@@ -213,7 +245,7 @@ function renderStart(showResults) {
     <div class="caq-panel">
       <div class="caq-header">
         <img src="/assets/images/Ctrl-All-logo-og.png" alt="Ctrl All" class="caq-logo">
-        <h2 class="caq-title">Keyboard Shortcuts Quiz</h2>
+        <h2 class="caq-title">Keyboard Shortcut Quiz</h2>
         <p class="caq-subtitle">How well do you know your shortcuts?</p>
       </div>
 
@@ -335,194 +367,110 @@ function startQuiz() {
 function injectStyles() {
   const style = document.createElement("style");
   style.textContent = `
-    #ctrl-quiz {
-      font-family: 'Inter', sans-serif;
-      max-width: 540px;
-      margin: 2rem auto;
-    }
-    .caq-panel {
-      background: #fff;
-      border: 1px solid #e0d9f5;
-      border-radius: 14px;
-      padding: 28px;
-      box-shadow: 0 2px 20px rgba(107,79,187,0.08);
-    }
+    #ctrl-quiz { font-family: 'Inter', sans-serif; max-width: 540px; margin: 2rem auto; }
+    .caq-panel { background: #fff; border: 1px solid #e0d9f5; border-radius: 14px; padding: 28px; box-shadow: 0 2px 20px rgba(107,79,187,0.08); }
 
-    /* Header */
     .caq-header { text-align: center; margin-bottom: 24px; }
     .caq-logo { height: 48px; width: auto; margin-bottom: 10px; }
     .caq-title { font-size: 22px; color: #1A1035; margin: 0 0 6px; }
     .caq-subtitle { color: #6B5FA0; font-size: 14px; margin: 0; }
 
-    /* Selector labels */
-    .caq-selector-label {
-      font-size: 11px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #9B8EC4;
-      margin-bottom: 8px;
-    }
+    .caq-selector-label { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #9B8EC4; margin-bottom: 8px; }
 
-    /* Difficulty buttons */
     .caq-diffs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
-    .caq-diff-btn {
-      padding: 8px 20px;
-      border-radius: 8px;
-      border: 2px solid #e0d9f5;
-      background: #fff;
-      color: #5A4A8A;
-      font-size: 14px;
-      cursor: pointer;
-      transition: all 0.15s;
-    }
+    .caq-diff-btn { padding: 8px 20px; border-radius: 8px; border: 2px solid #e0d9f5; background: #fff; color: #5A4A8A; font-size: 14px; cursor: pointer; transition: all 0.15s; }
     .caq-diff-active--beginner     { background: #2d6a4f; border-color: #2d6a4f; color: #fff; font-weight: 700; }
     .caq-diff-active--intermediate { background: #2D1B69; border-color: #2D1B69; color: #fff; font-weight: 700; }
 
-    /* Category buttons */
     .caq-cats { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
-    .caq-cat-btn {
-      padding: 8px 16px;
-      border-radius: 8px;
-      border: 2px solid #e0d9f5;
-      background: #5A4A8A;
-      color: #fff;
-      font-size: 14px;
-      cursor: pointer;
-      transition: all 0.15s;
-    }
-    .caq-cat-active { background: #6B5FA0; border-color: #6B5FA0 color: #fff; font-weight: 700; }
+    .caq-cat-btn { padding: 8px 16px; border-radius: 8px; border: 2px solid #e0d9f5; background: #fff; color: #5A4A8A; font-size: 14px; cursor: pointer; transition: all 0.15s; }
+    .caq-cat-active { background: #452c50; border-color: #452c50; color: #fff; font-weight: 700; }
 
-    /* Preview count */
     .caq-preview { font-size: 13px; color: #9B8EC4; margin-bottom: 16px; min-height: 20px; }
     .caq-warn { color: #C43E1C; }
 
-    /* Start / Next buttons */
-    .caq-start-btn, .caq-next-btn {
-      width: 100%;
-      padding: 13px;
-      border-radius: 10px;
-      border: none;
-      background: #452C50;
-      color: #fff;
-      font-size: 15px;
-      font-weight: 700;
-      cursor: pointer;
-      margin-top: 16px;
-      transition: background 0.15s;
-    }
+    .caq-start-btn, .caq-next-btn { width: 100%; padding: 13px; border-radius: 10px; border: none; background: #452c50; color: #fff; font-size: 15px; font-weight: 700; cursor: pointer; margin-top: 16px; transition: background 0.15s; }
     .caq-start-btn:hover:not(:disabled), .caq-next-btn:hover { background: #654175; }
     .caq-start-btn:disabled { background: #c4b8e8; cursor: not-allowed; }
 
-    /* Progress bar */
     .caq-progress-bar-wrap { height: 4px; background: #ede9fa; border-radius: 4px; margin-bottom: 16px; }
-    .caq-progress-bar { height: 4px; background: #452C50; border-radius: 4px; transition: width 0.3s; }
+    .caq-progress-bar { height: 4px; background: #452c50; border-radius: 4px; transition: width 0.3s; }
 
-    /* Meta row */
     .caq-meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
     .caq-meta-right { display: flex; align-items: center; gap: 6px; }
     .caq-counter { font-size: 13px; color: #9B8EC4; }
 
-    /* Category tags */
     .caq-category-tag { font-size: 11px; padding: 3px 10px; border-radius: 20px; color: #fff; letter-spacing: 1px; }
-    .caq-cat-windows    { background: #0078d4; }
-    .caq-cat-word       { background: #6B4FBB; }
+    .caq-cat-windows    { background: #00A8E9; }
+    .caq-cat-word       { background: #0078d4; }
     .caq-cat-excel      { background: #1E7145; }
     .caq-cat-powerpoint { background: #C43E1C; }
-    .caq-cat-all        { background: #2D2D2D; }
+    .caq-cat-all        { background: #2c3e50; }
 
-    /* Difficulty badge (shown during question) */
     .caq-diff-badge { font-size: 11px; padding: 3px 10px; border-radius: 20px; letter-spacing: 1px; }
     .caq-diff-badge--beginner     { background: #d4f4dd; color: #2d6a4f; }
     .caq-diff-badge--intermediate { background: #e0e7ff; color: #2D1B69; }
 
-    /* Shortcut display */
-    .caq-question-label {
-      text-align: center; font-size: 13px; color: #9B8EC4;
-      letter-spacing: 1px; text-transform: uppercase; margin-bottom: 10px;
-    }
-    .caq-shortcut {
-      text-align: center;
-      background: #1A1035;
-      color: #E8E0FF;
-      font-family: 'Courier New', monospace;
-      font-size: 22px;
-      font-weight: 700;
-      padding: 8px 12px;
-      border-radius: 10px;
-      letter-spacing: 2px;
-      margin-bottom: 8px;
-      box-shadow: 0 4px 0 #0D0820;
-    }
+    .caq-question-label { text-align: center; font-size: 13px; color: #9B8EC4; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 10px; }
+    .caq-shortcut { text-align: center; background: #1A1035; color: #E8E0FF; font-family: 'Courier New', monospace; font-size: 22px; font-weight: 700; padding: 16px 24px; border-radius: 10px; letter-spacing: 2px; margin-bottom: 16px; box-shadow: 0 4px 0 #0D0820; }
 
-    /* Hint */
     .caq-hint-wrap { text-align: center; margin-bottom: 20px; min-height: 28px; }
-    .caq-hint-btn {
-      background: none; border: 1px dashed #c4b8e8; border-radius: 6px;
-      color: #9B8EC4; padding: 5px 14px; font-size: 13px; cursor: pointer;
-    }
+    .caq-hint-btn { background: none; border: 1px dashed #c4b8e8; border-radius: 6px; color: #9B8EC4; padding: 5px 14px; font-size: 13px; cursor: pointer; }
     .caq-hint-text { color: #6B4FBB; font-size: 14px; font-style: italic; }
 
-    /* Answer options */
     .caq-options { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
-    .caq-option {
-      display: flex; align-items: center; gap: 10px;
-      padding: 12px 14px; border-radius: 9px;
-      border: 2px solid #e0d9f5; background: #f8f6ff;
-      color: #2D1B69; font-size: 14px; text-align: left;
-      cursor: pointer; transition: border-color 0.15s, background 0.15s;
-    }
+    .caq-option { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border-radius: 9px; border: 2px solid #e0d9f5; background: #f8f6ff; color: #2D1B69; font-size: 14px; text-align: left; cursor: pointer; transition: border-color 0.15s, background 0.15s; }
     .caq-option:hover:not(:disabled) { border-color: #6B4FBB; }
-    .caq-option-letter {
-      width: 24px; height: 24px; border-radius: 50%;
-      background: #e0d9f5; color: #9B8EC4;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 12px; font-weight: 700; flex-shrink: 0;
-    }
+    .caq-option-letter { width: 24px; height: 24px; border-radius: 50%; background: #e0d9f5; color: #9B8EC4; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; }
     .caq-option-correct { background: #f0faf4 !important; border-color: #1E7145 !important; color: #1E7145 !important; }
     .caq-option-correct .caq-option-letter { background: #1E7145; color: #fff; }
     .caq-option-wrong   { background: #fff5f5 !important; border-color: #C43E1C !important; color: #C43E1C !important; }
     .caq-option-wrong .caq-option-letter   { background: #C43E1C; color: #fff; }
     .caq-option-dim { opacity: 0.4; }
 
-    /* Progress dots */
     .caq-dots { display: flex; justify-content: center; gap: 6px; margin-top: 16px; }
     .caq-dot  { width: 8px; height: 8px; border-radius: 50%; }
     .caq-dot-correct { background: #1E7145; }
     .caq-dot-wrong   { background: #C43E1C; }
     .caq-dot-empty   { background: #e0d9f5; }
 
-    /* Results */
     .caq-results { margin-bottom: 24px; }
-    .caq-score-circle {
-      width: 60px; height: 60px; border-radius: 50%; border: 3px solid;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 16px; font-weight: 700; margin: 0 auto 10px;
-    }
+    .caq-score-circle { width: 60px; height: 60px; border-radius: 50%; border: 3px solid; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 700; margin: 0 auto 10px; }
     .caq-pass { background: #f0faf4; border-color: #1E7145; color: #1E7145; }
     .caq-fail { background: #fff5f5; border-color: #C43E1C; color: #C43E1C; }
     .caq-score-label { text-align: center; color: #1A1035; margin-bottom: 16px; }
 
-    /* Review rows */
     .caq-review { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
-    .caq-review-row {
-      display: flex; align-items: center; gap: 10px;
-      padding: 8px 12px; border-radius: 8px; border: 1px solid; font-size: 13px;
-    }
+    .caq-review-row { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; border: 1px solid; font-size: 13px; }
     .caq-review-row.caq-correct { background: #f0faf4; border-color: #c8e6c9; }
     .caq-review-row.caq-wrong   { background: #fff5f5; border-color: #ffcdd2; }
     .caq-review-icon { font-size: 15px; flex-shrink: 0; }
-    .caq-kbd {
-      background: #ede9fa; color: #2D1B69; padding: 2px 6px;
-      border-radius: 4px; font-family: 'Courier New', monospace;
-      font-size: 12px; flex-shrink: 0;
-    }
+    .caq-kbd { background: #ede9fa; color: #2D1B69; padding: 2px 6px; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 12px; flex-shrink: 0; }
     .caq-review-label { color: #333; }
     .caq-review-row.caq-wrong .caq-review-label { color: #C43E1C; }
     .caq-review-row.caq-wrong s { color: #aaa; }
+
+    /* Share buttons */
+    .caq-share-wrap { margin-bottom: 20px; }
+    .caq-share-label { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #9B8EC4; margin-bottom: 8px; }
+    .caq-share-text { font-size: 14px; color: #2c3e50; font-style: italic; margin-bottom: 12px; line-height: 1.4; }
+    .caq-share-buttons { display: flex; flex-wrap: wrap; gap: 8px; }
+    .caq-share-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: opacity 0.15s, transform 0.1s;
+    }
+    .caq-share-btn:hover { opacity: 0.85; transform: translateY(-2px); }
+    .caq-share-logo { width: 22px; height: 22px; object-fit: contain; display: block; margin: 0; }
+    .caq-share-envelope { font-size: 18px; color: #fff; line-height: 1; }
   `;
   document.head.appendChild(style);
 }
-
 
 
 // ─── 7. INITIALISE ───────────────────────────────────────────────────────────
