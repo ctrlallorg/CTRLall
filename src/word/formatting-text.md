@@ -68,9 +68,12 @@ tags:
   - sort
   - line spacing
 active: word
+quiz: formatting-text-quiz
 ---
 
 <h1>Formatting text</h1>
+
+<a href="#ctrl-quiz" class="quiz-badge jump">Test yourself! Go to the Quiz &#8595;</a>
 
 <article class="difficulty-wrapper" role="article" aria-label="Formatting text in Word tutorial with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
@@ -511,6 +514,8 @@ active: word
 
 </div>
 </article>
+
+<div id="ctrl-quiz"></div>
 
 <div class="article-share">
 {% include "share-menu.liquid" %}
