@@ -40,6 +40,7 @@ tags:
   - what is a .dotx file?
   - what is a .dotx file?
   - what is a .doc file?
+  - documents vs templates quiz
 active: word
 quiz: documents-vs-templates-quiz
 ---

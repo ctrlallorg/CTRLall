@@ -740,7 +740,8 @@
       "what is a dotx file?",
       "what is a doc file?",
       "what is a .dotx file?",
-      "what is a .doc file?"
+      "what is a .doc file?",
+      "documents vs templates quiz"
     ],
     "url": "/word/documents-vs-templates/"
   },
@@ -934,7 +935,8 @@
       "indents",
       "tab stops",
       "sort",
-      "line spacing"
+      "line spacing",
+      "formatting text quiz"
     ],
     "url": "/word/formatting-text/"
   },
@@ -1729,7 +1731,8 @@
       "doc",
       ".docx",
       ".dotx",
-      ".doc"
+      ".doc",
+      "saving and save as quiz"
     ],
     "url": "/word/saving-and-save-as/"
   },

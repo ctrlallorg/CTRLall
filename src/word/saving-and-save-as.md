@@ -78,6 +78,7 @@ tags:
   - .docx
   - .dotx
   - .doc
+  - saving and save as quiz
 active: word
 quiz: saving-and-save-as-quiz
 ---

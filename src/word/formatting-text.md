@@ -67,6 +67,7 @@ tags:
   - tab stops
   - sort
   - line spacing
+  - formatting text quiz
 active: word
 quiz: formatting-text-quiz
 ---
