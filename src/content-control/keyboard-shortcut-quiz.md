@@ -39,7 +39,7 @@ tags:
   - keyboard shortcuts test
   - keyboard shortcut test
 active: content-control
-quiz: true
+quiz: keyboard-shortcuts-quiz
 ---
 
 <body data-no-difficulty="true">

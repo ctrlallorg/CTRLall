@@ -41,6 +41,7 @@ tags:
   - what is a .dotx file?
   - what is a .doc file?
 active: word
+quiz: documents-vs-templates-quiz
 ---
 <h1>Documents vs Templates</h1>
 
@@ -225,10 +226,15 @@ active: word
 
   <p>If you don't have access to the original template file, you can always use the document and save over a template file  via <strong>Save As</strong> settings. For more on saving files as different filetypes see <a href="/word/saving-and-save-as/">Saving and Save As.</a></p>
  
+
   </section>
 </div>
 </article>
 
+<div id="ctrl-quiz"></div>
+
 <div class="article-share">
 {% include "share-menu.liquid" %}
 </div>
+
+
