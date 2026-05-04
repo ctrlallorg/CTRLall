@@ -273,6 +273,16 @@ active: index
     </ul>
   </div>
 
+  <div>
+    <h3>Quizzes - Test yourself!</h3>
+    <ul>
+      <li><a href="/content-control/keyboard-shortcuts-quiz">Keyboard shortcuts</a></li>
+      <li><a href="/word/documents-vs-templates#ctrl-quiz">Documents vs Templates</a></li>
+      <li><a href="/word/saving-and-save-as#ctrl-quiz">Saving and Save As</a></li>
+      <li><a href="/word/formatting-text#ctrl-quiz">Formatting text</a></li>
+    </ul>
+  </div>
+
 </section>
 
 
