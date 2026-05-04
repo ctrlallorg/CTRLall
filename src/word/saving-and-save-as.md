@@ -79,9 +79,12 @@ tags:
   - .dotx
   - .doc
 active: word
+quiz: saving-and-save-as-quiz
 ---
 
 <h1>Saving and Save As</h1>
+
+<a href="#ctrl-quiz" class="quiz-badge jump">Test yourself! Go to the Quiz &#8595;</a>
 
 <article class="difficulty-wrapper" role="article" aria-label="Article on saving in Word with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
@@ -198,6 +201,8 @@ In the browser window that appears decide on the file name, the file type (the d
 </section>
 </div>
 </article>
+
+<div id="ctrl-quiz"></div>
 
 <div class="article-share">
 {% include "share-menu.liquid" %}
