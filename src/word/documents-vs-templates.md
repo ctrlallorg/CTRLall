@@ -45,6 +45,8 @@ quiz: documents-vs-templates-quiz
 ---
 <h1>Documents vs Templates</h1>
 
+<a href="#ctrl-quiz" class="quiz-badge jump">Test yourself! Go to the Quiz &#8595;</a>
+
 <article class="difficulty-wrapper" role="article" aria-label="Tutorial introducing Microsoft Word documents and templates beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
 <!-- Beginner version -->
