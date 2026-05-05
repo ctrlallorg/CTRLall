@@ -86,32 +86,6 @@ const QUESTIONS = [
   // ── Intermediate ──────────────────────────────────────────────────────────
 
   {
-    question:   "What does Save As allow you to do that regular Save doesn't?",
-    answer:     "Save the file with a new name, location, or file type",
-    difficulty: "Intermediate",
-    hint:       "Think about the extra choices Save As gives you",
-    options: [
-      "Save the file faster",
-      "Save the file with a new name, location, or file type",
-      "Save the file to a USB drive only",
-      "Save a backup copy automatically every few seconds"
-    ]
-  },
-
-  {
-    question:   "Where does Autosave store your files?",
-    answer:     "OneDrive or SharePoint",
-    difficulty: "Intermediate",
-    hint:       "These are Microsoft's cloud storage services",
-    options: [
-      "Your desktop",
-      "Your Documents folder",
-      "OneDrive or SharePoint",
-      "A USB drive"
-    ]
-  },
-
-  {
     question:   "When using Save As to change file type, should you choose the file type before or after selecting the location — and why?",
     answer:     "Before — Word can divert to a different default folder for some file types",
     difficulty: "Intermediate",
@@ -137,9 +111,35 @@ const QUESTIONS = [
     ]
   },
 
+  {
+    question:   "Where in Word Options do you find the default save location settings?",
+    answer:     "The Save section in the left menu",
+    difficulty: "Intermediate",
+    hint:       "Look at the left-hand menu in Word Options",
+    options: [
+      "The General section in the left menu",
+      "The Advanced section in the left menu",
+      "The Save section in the left menu",
+      "The Trust Center section in the left menu"
+    ]
+  },
+
+  {
+    question:   "What are the two default folder locations you can set in Word's Save Options?",
+    answer:     "Word documents and Word templates",
+    difficulty: "Intermediate",
+    hint:       "They correspond to the two main Word file types",
+    options: [
+      "OneDrive and SharePoint",
+      "Word documents and PDFs",
+      "Word documents and Word templates",
+      "Local files and network files"
+    ]
+  },
+
 ];
 
-const QUIZ_LENGTH = 4;
+const QUIZ_LENGTH = 6;
 
 
 // ─── 2. HELPER FUNCTIONS ─────────────────────────────────────────────────────
@@ -381,7 +381,7 @@ function injectStyles() {
     .caq-diffs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
     .caq-diff-btn { padding: 8px 20px; border-radius: 8px; border: 2px solid #e0d9f5; background: #fff; color: #5A4A8A; font-size: 14px; cursor: pointer; transition: all 0.15s; }
     .caq-diff-active--beginner     { background: #2d6a4f; border-color: #2d6a4f; color: #fff; font-weight: 700; }
-    .caq-diff-active--intermediate { background: #2D1B69; border-color: #2D1B69; color: #fff; font-weight: 700; }
+    .caq-diff-active--intermediate { background: #2C3E50; border-color: #2C3E50; color: #fff; font-weight: 700; }
 
     .caq-preview { font-size: 13px; color: #9B8EC4; margin-bottom: 16px; min-height: 20px; }
     .caq-warn { color: #C43E1C; }

@@ -407,7 +407,7 @@ function injectStyles() {
     .caq-diffs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
     .caq-diff-btn { padding: 8px 20px; border-radius: 8px; border: 2px solid #e0d9f5; background: #fff; color: #5A4A8A; font-size: 14px; cursor: pointer; transition: all 0.15s; }
     .caq-diff-active--beginner     { background: #2d6a4f; border-color: #2d6a4f; color: #fff; font-weight: 700; }
-    .caq-diff-active--intermediate { background: #2D1B69; border-color: #2D1B69; color: #fff; font-weight: 700; }
+    .caq-diff-active--intermediate { background: #2C3E50; border-color: #2C3E50; color: #fff; font-weight: 700; }
 
     .caq-preview { font-size: 13px; color: #9B8EC4; margin-bottom: 16px; min-height: 20px; }
     .caq-warn { color: #C43E1C; }
