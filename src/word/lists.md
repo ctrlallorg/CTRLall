@@ -34,10 +34,13 @@ tags:
   - define new bullet
   - define new number format
 active: word
+quiz: lists-quiz
 ---
 
 
 <h1>Lists</h2>
+
+<a href="#ctrl-quiz" class="quiz-badge jump">Test yourself! Go to the Quiz &#8595;</a>
 
 <article class="difficulty-wrapper" role="article" aria-label="Images insertion tutorial with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
@@ -209,6 +212,8 @@ active: word
 </section>
 </div>
 </article>
+
+<div id="ctrl-quiz"></div>
 
 <div class="article-share">
 {% include "share-menu.liquid" %}
