@@ -77,8 +77,11 @@ tags:
   - close up spaces
   - wildcard
 Active: word
+quiz: fixing-irregular-spacing-quiz
 ---
 <h1>Fixing irregular spacing</h1>
+
+<a href="#ctrl-quiz" class="quiz-badge jump">Test yourself! Go to the Quiz &#8595;</a>
 
 <!-- Intermediate only -->
 <body data-intermediate-only="true">
@@ -279,6 +282,8 @@ Active: word
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Compound words and unspaced hyphens.gif' | url }}" alt="Example of Compound words and unspaced hyphens in a paragraph in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 </section>
+
+<div id="ctrl-quiz"></div>
 
 <div class="article-share">
 {% include "share-menu.liquid" %}
