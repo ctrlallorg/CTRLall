@@ -4,6 +4,8 @@ const markdownIt = require("markdown-it");
 const fs = require("fs");
 const { JSDOM } = require("jsdom");
 
+const SITE_URL = "https://ctrlall.org";
+
 module.exports = function (eleventyConfig) {
   console.log("✅ Eleventy config loaded");
 
@@ -12,7 +14,7 @@ module.exports = function (eleventyConfig) {
     root: path.resolve(__dirname, "_includes"),
     extname: ".liquid"
   });
-  engine.registerFilter("absolute_url", (path, base = "https://ctrlall.org") => base + path);
+  engine.registerFilter("absolute_url", (path, base = SITE_URL) => base + path);
   eleventyConfig.setLibrary("liquid", engine);
 
   // ─── Markdown Setup ──────────────────────────────────────
@@ -27,7 +29,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "assets": "assets" });
   eleventyConfig.addPassthroughCopy("ads.txt");
   eleventyConfig.addPassthroughCopy("robots.txt");
-  eleventyConfig.addPassthroughCopy("sitemap.xml");
+  // sitemap.xml is now auto-generated — no longer passed through manually
   eleventyConfig.addPassthroughCopy({ "assets/spellingVariants.json": "spellingVariants.json" });
 
   // ─── Watch Targets ───────────────────────────────────────
@@ -51,6 +53,49 @@ module.exports = function (eleventyConfig) {
     fs.writeFileSync(outputPath, JSON.stringify(index, null, 2));
     console.log(`🔍 Search index written to ${outputPath}`);
     return index;
+  });
+
+  // ─── Sitemap Generator ───────────────────────────────────
+  // Automatically builds sitemap.xml from every page on each build.
+  // Pages excluded: 404, search-index.json, any URL containing /private/
+  eleventyConfig.addCollection("sitemap", function (collectionApi) {
+    const pages = collectionApi.getAll()
+      .filter(item => {
+        const url = item.url;
+        if (!url) return false;
+        if (url === false) return false;
+        if (url.endsWith(".json")) return false;
+        if (url.includes("/private/")) return false;
+        if (item.inputPath.includes("404")) return false;
+        return true;
+      })
+      .map(item => {
+        // Use last_modified if available, otherwise date, otherwise today
+        const rawDate = item.data.last_modified || item.data.date || new Date();
+        const lastmod = new Date(rawDate).toISOString().split("T")[0];
+        return {
+          url: SITE_URL + item.url,
+          lastmod
+        };
+      })
+      // Sort alphabetically by URL for a clean, readable sitemap
+      .sort((a, b) => a.url.localeCompare(b.url));
+
+    // Build XML string
+    const urls = pages.map(p =>
+      `  <url>\n    <loc>${p.url}</loc>\n    <lastmod>${p.lastmod}</lastmod>\n  </url>`
+    ).join("\n");
+
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls}
+</urlset>`;
+
+    const outputPath = path.join("docs", "sitemap.xml");
+    fs.writeFileSync(outputPath, xml);
+    console.log(`🗺️  Sitemap written to ${outputPath} (${pages.length} URLs)`);
+
+    return pages;
   });
 
   // ─── Hotspot Transform: px → % ───────────────────────────

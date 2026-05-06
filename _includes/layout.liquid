@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <title>{{ title }} – Ctrl All</title>
 
-  {% if page.canonical %}
-    <link rel="canonical" href="{{ page.canonical }}">
-  {% else %}
-    <link rel="canonical" href="{{ page.url }}">
-  {% endif %}
+  {%- comment -%}
+    Canonical: always use page.url (absolute), never trust frontmatter canonical field.
+    This fixes "Page with redirect" and "Alternative page with proper canonical tag" issues in GSC.
+  {%- endcomment -%}
+  <link rel="canonical" href="https://ctrlall.org{{ page.url }}">
 
   <meta name="ctrlall-source" content="{{ page.asset_id }}">
   <meta name="description" content="{{ description }}">
@@ -16,40 +16,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="robots" content="index, follow">
 
-  {% assign page_image = image | default: "/assets/images/Ctrl All logo blue.svg" %}
+  {%- assign page_image = image | default: "/assets/images/Ctrl-All-logo-og.png" -%}
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ title }} – Ctrl All">
   <meta property="og:description" content="{{ description }}">
-  <meta property="og:image" content="https://stevewilliams87.github.io/CTRLall/assets/images/Ctrl-All-logo-og.png">
-  <meta property="og:url" content="{{ page.url }}">
+  <meta property="og:image" content="https://ctrlall.org{{ page_image }}">
+  <meta property="og:url" content="https://ctrlall.org{{ page.url }}">
 
   {% if page.difficultyLevels %}
-  {% for diff in page.difficultyLevels %}
+    {% for diff in page.difficultyLevels %}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LearningResource",
       "name": "{{ title | escape }}",
       "headline": "{{ title | escape }}",
-      "description": "{{ description | escape }} {{ diff.description }}",
-      "url": "{{ page.url }}{{ diff.urlSuffix }}",
-      "image": "{{ page_image | url }}",
+      "description": "{{ description | escape }} {{ diff.description | escape }}",
+      "url": "https://ctrlall.org{{ page.url }}{{ diff.urlSuffix }}",
+      "image": "https://ctrlall.org{{ page_image }}",
       "educationalLevel": "{{ diff.level }}",
       "publisher": {
         "@type": "Organization",
         "name": "Ctrl All",
+        "url": "https://ctrlall.org",
         "logo": {
           "@type": "ImageObject",
-          "url": "{{ '/assets/logo.png' | url }}"
+          "url": "https://ctrlall.org/assets/images/Ctrl All logo purple.svg"
         }
       }
       {% if date %}, "datePublished": "{{ date }}"{% endif %}
       {% if last_modified %}, "dateModified": "{{ last_modified }}"{% endif %}
     }
     </script>
-  {% endfor %}
-{% else %}
+    {% endfor %}
+  {% else %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -66,21 +67,22 @@
     "name": "{{ title | escape }}",
     "headline": "{{ title | escape }}",
     "description": "{{ description | escape }}",
-    "url": "{{ page.url }}",
-    "image": "{{ page_image | url }}",
+    "url": "https://ctrlall.org{{ page.url }}",
+    "image": "https://ctrlall.org{{ page_image }}",
     "publisher": {
       "@type": "Organization",
       "name": "Ctrl All",
+      "url": "https://ctrlall.org",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ '/assets/logo.png' | url }}"
+        "url": "https://ctrlall.org/assets/images/Ctrl All logo purple.svg"
       }
     }
     {% if date %}, "datePublished": "{{ date }}"{% endif %}
     {% if last_modified %}, "dateModified": "{{ last_modified }}"{% endif %}
   }
   </script>
-{% endif %}
+  {% endif %}
 
   <meta name="d47cbd8b7b7b4e7d4e521bde72009807643069ba" content="d47cbd8b7b7b4e7d4e521bde72009807643069ba" />
 
@@ -96,8 +98,6 @@
     gtag('config', 'G-LHDJ9W7GWZ');
   </script>
 
-
-
 </head>
 
 <body>
@@ -106,61 +106,58 @@
     <div class="noscript-warning">JavaScript is required for full site functionality.</div>
   </noscript>
 
-<header class="topbar">
+  <header class="topbar">
     <button id="navbar-toggle" class="sidebar-toggle" aria-label="Toggle sidebar">☰</button>
     {% include "topbar.liquid" %}
   </header>
 
-<!-- PAGE CONTAINER WRAPPER (includes adsbar with sidebar and main column) -->
-<div class="page-container">
+  <!-- PAGE CONTAINER WRAPPER (includes adsbar with sidebar and main column) -->
+  <div class="page-container">
 
-  <!-- LAYOUT WRAPPER -->
-  <div class="layout-wrapper">
+    <!-- LAYOUT WRAPPER -->
+    <div class="layout-wrapper">
 
-    <!-- FIXED LEFT SIDEBAR -->
-    <nav class="sidebar-wrapper">
-      <div id="navbar-content" class="navbar-collapse">
-        {% include "navbar.liquid", page: page %}
-      </div>
-    </nav>
-
-    <!-- MAIN CONTENT COLUMN -->
-    <div class="main-column">
-      <main class="content-wrapper">
-        <div class="content">
-          <section id="main-content">
-            {{ content }}
-
-            {% if image and hotspots %}
-            <div class="overlay-container">
-              <img src="{{ image.src }}" alt="Hotspot image" class="base-image">
-              {% for spot in hotspots %}
-                <div class="hotspot rich-tooltip-trigger"
-                     data-tooltip-id="{{ spot.tooltip }}"
-                     style="top:{{ spot.top | pxToPercent: 'height', image }}%; 
-                            left:{{ spot.left | pxToPercent: 'width', image }}%;">
-                </div>
-              {% endfor %}
-            </div>
-            {% endif %}
-          </section>
+      <!-- FIXED LEFT SIDEBAR -->
+      <nav class="sidebar-wrapper">
+        <div id="navbar-content" class="navbar-collapse">
+          {% include "navbar.liquid", page: page %}
         </div>
-      </main>
+      </nav>
+
+      <!-- MAIN CONTENT COLUMN -->
+      <div class="main-column">
+        <main class="content-wrapper">
+          <div class="content">
+            <section id="main-content">
+              {{ content }}
+
+              {% if image and hotspots %}
+              <div class="overlay-container">
+                <img src="{{ image.src }}" alt="Hotspot image" class="base-image">
+                {% for spot in hotspots %}
+                  <div class="hotspot rich-tooltip-trigger"
+                       data-tooltip-id="{{ spot.tooltip }}"
+                       style="top:{{ spot.top | pxToPercent: 'height', image }}%; 
+                              left:{{ spot.left | pxToPercent: 'width', image }}%;">
+                  </div>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </section>
+          </div>
+        </main>
+      </div>
+
     </div>
 
+  <!-- Closing Page container div -->
   </div>
-
-<!-- Closing Page container div -->
-</div>   
 
   <!-- IMAGE MODAL -->
   <div id="imageModal" class="modal">
     <span class="close">&times;</span>
     <img id="modalImage" class="modal-content" src="" alt="">
   </div>
-
-
-
 
   <!-- FOOTER -->
   <footer class="site-footer">
@@ -177,7 +174,7 @@
     </div>
   </footer>
 
-<script src="/js/main.js"></script>
+  <script src="/js/main.js"></script>
   <script>
     function copyPageLink(el) {
       const url = window.location.href;
@@ -208,6 +205,6 @@
   <div id="glossary-tooltip" hidden></div>
 
   <!-- Ctrl All asset ID: {{ page.asset_id }} -->
- 
+
 </body>
 </html>
