@@ -76,6 +76,7 @@ tags:
   - close up spacing
   - close up spaces
   - wildcard
+  - fixing irregulr spacing quiz
 Active: word
 quiz: fixing-irregular-spacing-quiz
 ---

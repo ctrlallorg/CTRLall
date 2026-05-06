@@ -35,6 +35,7 @@ tags:
   - rows
   - columns
   - delimiters
+  - exercise
 active: word
 ---
 

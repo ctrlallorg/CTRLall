@@ -33,6 +33,7 @@ tags:
   - custom nummbering
   - define new bullet
   - define new number format
+  - lists quiz
 active: word
 quiz: lists-quiz
 ---

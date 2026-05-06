@@ -242,7 +242,7 @@ active: index
   </div>
 
   <div>
-    <h3>Lists</h3>
+    <h3>Working with Lists</h3>
     <ul>
       <li><a href="/word/lists">Lists</a></li>
       <li><a href="/word/lists-fixing-number-lists">Fixing number lists</a></li>
@@ -251,7 +251,7 @@ active: index
   </div>
 
   <div>
-    <h3>Tables</h3>
+    <h3>Working with Tables</h3>
     <ul>
       <li><a href="/word/tables">Tables</a></li>
       <li><a href="/word/tables-formatting">Table formatting</a></li>
@@ -263,7 +263,7 @@ active: index
   </div>
 
   <div>
-    <h3>Images & objects</h3>
+    <h3>Working with Images & objects</h3>
     <ul>
       <li><a href="/word/images">Images</a></li>
       <li><a href="/word/objects">Objects</a></li>
@@ -280,6 +280,9 @@ active: index
       <li><a href="/word/documents-vs-templates#ctrl-quiz">Documents vs Templates</a></li>
       <li><a href="/word/saving-and-save-as#ctrl-quiz">Saving and Save As</a></li>
       <li><a href="/word/formatting-text#ctrl-quiz">Formatting text</a></li>
+      <li><a href="/word/lists#ctrl-quiz">Lists</a></li>
+      <li><a href="/word/styles#ctrl-quiz">Styles</a></li>
+      <li><a href="/word/fixing-irregular-spacing#ctrl-quiz">Fixing irregular spacing</a></li>
     </ul>
   </div>
 
