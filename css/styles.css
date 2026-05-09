@@ -869,9 +869,9 @@ a.start-button {
 }
 
 /* ⭐ MOBILE LANDSCAPE — shrink the container */
-@media (max-height: 500px) {
+@media (max-height: 600px) {
   .mv-container {
-    max-width: 500px;   /* or whatever width you want */
+    max-width: 700px;   /* or whatever width you want */
     width: 100%;
   }
 }
