@@ -1736,8 +1736,16 @@ body.sidebar-collapsed .main-column {
   .home .main-column {
     margin-left: 0;
   }
-}
 
+  /* When JS removes .collapsed, show the sidebar */
+  .home .sidebar-wrapper:not(.collapsed) {
+    width: 280px;
+  }
+
+  .home .sidebar-wrapper:not(.collapsed) .navbar-collapse {
+    display: block;
+  }
+}
 /* ─── Sidebar Toggle Button ──────────────────────── */
 .sidebar-toggle,
 #navbar-toggle {
