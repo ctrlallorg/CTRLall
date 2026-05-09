@@ -317,7 +317,7 @@ active: index
     <li>
       <p><strong><span style="color:#415576;">*NEW*</span> Quizzes</strong>: Test your knowledge with quizzes being added to the site.</p>
       <p><img class="left" src="{{ '/assets/images/Index/Quiz badge.png' | url }}"  alt="Quiz button" style="max-width:242px; width:100%; height:auto; vertical-align:middle"></p> 
-      <p><img class="thumbnail border" src="{{ '/assets/images/Index/Example quiz.png' | url }}"  alt="Example quiz" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>   
+      <p><a href="/content-control/keyboard-shortcuts-quiz/"><img class="thumbnail border" src="{{ '/assets/images/Index/Example quiz.png' | url }}"  alt="Example quiz" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></a></p>   
     </li>
   </ul>
   <h2>Difficulty</h2>
