@@ -100,14 +100,14 @@
 
 </head>
 
-<body>
+<body{% if page.url == "/" %} class="home"{% endif %}>
 
   <noscript>
     <div class="noscript-warning">JavaScript is required for full site functionality.</div>
   </noscript>
 
   <header class="topbar">
-    <button id="navbar-toggle" class="sidebar-toggle" aria-label="Toggle sidebar">☰</button>
+    <button id="navbar-toggle" class="sidebar-toggle" aria-label="Toggle sidebar" title="Navigation Menu">☰</button>
     {% include "topbar.liquid" %}
   </header>
 
