@@ -311,12 +311,12 @@ active: index
      <li><strong>Expandable images</strong>: Screenshots and diagrams can be enlarged with a click, so you never have to squint or guess what you’re looking at. Try clicking on any.</li>
      <li>
       <p><strong><span style="color:#415576;">*NEW*</span> Downloadable exercises</strong>: Look out for this button in articles to download zipped exercise files. Exerises feature examples from the article steps to try out yourself.</p>
-      <p><img class="left" src="{{ '/assets/images/Index/Exercise badge.png' | url }}"  alt="Exercise button" style="max-width:253px; width:100%; height:auto; vertical-align:middle"></p>   
+      <p><div class="exercise-badge jump">Includes downloadable exercise &#8595;</div></p>   
       <p><img class="thumbnail border" src="{{ '/assets/images/Index/Example exercise Word.png' | url }}"  alt="Example exercise in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
     </li>
     <li>
       <p><strong><span style="color:#415576;">*NEW*</span> Quizzes</strong>: Test your knowledge with quizzes being added to the site.</p>
-      <p><img class="left" src="{{ '/assets/images/Index/Quiz badge.png' | url }}"  alt="Quiz button" style="max-width:242px; width:100%; height:auto; vertical-align:middle"></p> 
+      <p><div class="quiz-badge jump">Test yourself! Go to the Quiz &#8595;</div></p> 
       <p><a href="/content-control/keyboard-shortcuts-quiz/"><img class="thumbnail border" src="{{ '/assets/images/Index/Example quiz.png' | url }}"  alt="Example quiz" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></a></p>   
     </li>
   </ul>
