@@ -1015,10 +1015,10 @@ a.start-button {
 .pathways {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px 20px;
+  gap: 20px 60px;
   max-width: 900px;
+  width: fit-content;
   margin: 50px auto;
-  margin-left: 120px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
