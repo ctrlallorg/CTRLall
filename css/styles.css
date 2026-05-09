@@ -199,6 +199,17 @@ mark {
   }
 }
 
+@media (max-width: 768px) {
+  #share-dropdown {
+    left: 0;
+    right: auto;
+    position: fixed;
+    top: 60px; /* sits just below the topbar */
+    width: 100vw;
+    min-width: unset;
+    box-sizing: border-box;
+  }
+}
 
 /* ─── Dropdown Fade-In Animation ──────────────── */
 @keyframes fadeInDown {
