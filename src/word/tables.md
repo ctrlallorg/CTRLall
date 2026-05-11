@@ -43,6 +43,7 @@ tags:
   - modify a table
   - modify tables
 active: word
+quiz: tables-quiz
 ---
 
 <div id="tooltip">
@@ -51,6 +52,8 @@ active: word
 
 
 <h1>Tables</h1>
+
+<a href="#ctrl-quiz" class="quiz-badge jump">Test yourself! Go to the Quiz &#8595;</a>
 
 <article class="difficulty-wrapper" role="article" aria-label="Tables tutorial with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
@@ -315,9 +318,16 @@ active: word
   <h2 id="split-table-int">Splitting tables</h2>
   <p>If you need to separate a table into two tables at a certain point Word allows you to do this with the <strong>Split Table</strong> function.</p>
   <ol>
-    <li>Navigate to where you want the table separated and click on the row you want to be the first row of the next table.</li>
+    <li>Navigate to where you want the table separated and click on the row you want to be the first row of the next table and either</li>
+    <ul>
+    <li>
+      <p>Press <strong>Ctrl + Shift + Enter</strong></p>
+      <p><img class="thumbnail left" src="{{ '/assets/images/keyboard shortcuts/Ctrl+Shift+Enter.png' | url }}" alt="Ctrl+Shift+Enter" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
+    </li>
+    <p>OR</p>
     <li>Go to <strong>Table Layout > Split Table</strong></li>
     <img class="thumbnail border" src="{{ '/assets/images/word/Tables/Split Table.png' | url }}" alt="Split Table option on ribbon in Word" style="max-width:375px; width:100%; height:auto; vertical-align:middle">
+    </ul>
   </ol>
   <p>The table will now split with a space between them. Here's a demonstration:</p>
   <img class="thumbnail border" src="{{ '/assets/images/word/Tables/Split Table.gif' | url }}" alt="Demonstration of splitting a table in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
@@ -370,6 +380,8 @@ active: word
 
 </div>
 </article>
+
+<div id="ctrl-quiz"></div>
 
 <div class="article-share">
 {% include "share-menu.liquid" %}

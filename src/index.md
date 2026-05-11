@@ -334,7 +334,8 @@ active: index
 <section class="section-light">
   <h2>What's new?</h2>
   <ul>
-    <li>04 May 2026 - 3 new quizzes added - <a href="/word/documents-vs-templates#ctrl-quiz">Word Documents vs Templates Quiz</a> | <a href="/word/saving-and-save-as#ctrl-quiz">Saving and Save As Quiz</a> | <a href="/word/formatting-text#ctrl-quiz">Formatting Text Quiz</a></li>
+    <li>09 May 2026 - More quizzes added - <a href="/word/lists#ctrl-quiz">Lists quiz</a> | <a href="/word/styles#ctrl-quiz">Styles quiz</a> | <a href="/word/fixing-irregular-spacing#ctrl-quiz">Fixing irregular spacing quiz</a></li>
+    <li>04 May 2026 - 3 new quizzes added - <a href="/word/documents-vs-templates#ctrl-quiz">Word Documents vs Templates quiz</a> | <a href="/word/saving-and-save-as#ctrl-quiz">Saving and Save As quiz</a> | <a href="/word/formatting-text#ctrl-quiz">Formatting text quiz</a></li>
     <li>02 May 2026 - <a href="/content-control/keyboard-shortcuts-quiz/">Keyboard shortcuts quiz</a> added - test your knowledge.</li>
     <li>02 Apr 2026 - Exercises available to download in selected articles.</li>
     <li>Try out the difficulty toggle at the top of the navigation pane when viewing certain articles. If you're completely new go with <strong>Beginner</strong>, if you're a little familiar already try <strong>Intermediate</strong>.</li>
