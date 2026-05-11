@@ -138,14 +138,14 @@ const QUESTIONS = [
   },
 
   {
-    question:   "How do you split a table into two?",
-    answer:     "Click the row that should become the first row of the second table, then go to Table Layout > Split Table",
+    question:   "What is one way to split a table into two?",
+    answer:     "Select the row that should become the first row of the second table, then press Ctrl + Shift + Enter",
     difficulty: "Intermediate",
     hint:       "The row you click becomes the start of the new table",
     options: [
       "Select the rows you want to split off and press Ctrl + X",
       "Right-click anywhere in the table and select Split Table",
-      "Click the row that should become the first row of the second table, then go to Table Layout > Split Table",
+      "Select the row that should become the first row of the second table, then press Ctrl + Shift + Enter",
       "Delete the row between the two sections to create a break"
     ]
   },
