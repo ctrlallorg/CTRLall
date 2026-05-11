@@ -67,6 +67,7 @@ module.exports = function (eleventyConfig) {
         if (url.endsWith(".json")) return false;
         if (url.includes("/private/")) return false;
         if (item.inputPath.includes("404")) return false;
+        if (item.data.sitemap === false) return false;
         return true;
       })
       .map(item => {
