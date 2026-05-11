@@ -283,7 +283,7 @@ active: content-control
         <p><img class="thumbnail border left" src="{{ '/assets/images/keyboard shortcuts/Word custom shortuts/Customise Ribbon Choose commands from.png' | url }}" alt="Word Options Customise Ribbon and Choose commands from drop down" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
     </li>
     <li>
-        <p>Look for the command you need in the left menu. In this example I want <strong>TableDistributeColumns</strong>.</p>
+        <p>Look for the command you need in the left menu. In this example I want to set a keyboard shortcut for distributing table columne evenly so I'm selecting <strong>Distribute Columns Evenly</strong>.</p>
         </p><img class="thumbnail border left" src="{{ '/assets/images/keyboard shortcuts/Word custom shortuts/Choose commands Customise.png' | url }}" alt="Choosing a command from Word Options Customise Ribbon" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
     </li>
     <li>
