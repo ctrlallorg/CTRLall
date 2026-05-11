@@ -1,4 +1,5 @@
 ---
+sitemap: false
 title: Image and object issues
 layout: layout.liquid
 permalink: /word/image-object-issues/

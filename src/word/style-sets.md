@@ -1,4 +1,5 @@
 ---
+sitemap: false
 title: Styles
 layout: layout.liquid
 permalink: /word/style-sets/

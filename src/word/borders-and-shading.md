@@ -1,4 +1,5 @@
 ---
+sitemap: false
 title: Borders and shading
 layout: layout.liquid
 permalink: /word/borders-and-shading/

@@ -203,5 +203,11 @@
 
   <!-- Ctrl All asset ID: {{ page.asset_id }} -->
 
+{% unless page.sitemap == false %}
+  <url>
+    <loc>...</loc>
+  </url>
+{% endunless %}
+
 </body>
 </html>

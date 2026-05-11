@@ -1,4 +1,5 @@
 ---
+sitemap: false
 title: Autosave not working
 layout: layout.liquid
 permalink: /all/autosave-not-working/
@@ -40,6 +41,8 @@ tags:
   - backup
 active: powerpoint
 ---
+
+
 
 <h1>Autosave issues</h1>
 

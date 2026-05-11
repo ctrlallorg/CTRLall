@@ -1,4 +1,5 @@
 ---
+sitemap: false
 title: Line numbers
 layout: layout.liquid
 permalink: /word/line-numbers/
