@@ -2,7 +2,6 @@
 title: "Tab stops"
 layout: layout.liquid
 permalink: /word/tab-stops/
-canonical: /word/tab-stops/
 description: Tab stops in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-tab-stops-v1
 date: 2025-10-26

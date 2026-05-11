@@ -3,7 +3,6 @@ title: CTRL All privacy policy
 description: Ctrl All - Digital literacy with soul, clarity, and control.
 layout: layout.liquid
 permalink: /privacy-policy/
-canonical: /privacy-policy/
 asset_id: privacy-policy-v1.1
 date: 2025-11-26
 last_modified: 2026-04-13

@@ -2,7 +2,6 @@
 title: Copying content
 layout: layout.liquid
 permalink: /content-control/copying-content/
-canonical: /content-control/copying-content/
 description: Copying and duplicating content in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-copying-content-v1
 date: 2025-10-26

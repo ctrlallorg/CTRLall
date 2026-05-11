@@ -2,7 +2,6 @@
 title: Formatting text
 layout: layout.liquid
 permalink: /word/formatting-text/
-canonical: /modules/formatting-text.html
 description: Style words, sentences, and paragraphs in Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-formatting-text-v1"
 date: 2025-10-26

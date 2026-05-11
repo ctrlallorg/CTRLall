@@ -2,7 +2,6 @@
 title: "Indents"
 layout: layout.liquid
 permalink: /word/indents/
-canonical: /word/indents/
 description: Indents in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-indents-v1
 date: 2025-10-26

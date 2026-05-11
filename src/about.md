@@ -2,7 +2,6 @@
 title: About Ctrl All
 layout: layout.liquid
 permalink: /about/
-canonical: /about/
 description: About us.
 asset_id: ctrlall-about-v1.1
 date: 2025-11-11

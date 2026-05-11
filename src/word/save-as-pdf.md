@@ -2,7 +2,6 @@
 title: Save as a PDF
 layout: layout.liquid
 permalink: /word/save-as-pdf/
-canonical: /word/save-as-pdf/
 description: Save as a PDF in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-save-as-pdf-v1
 date: 2025-11-22

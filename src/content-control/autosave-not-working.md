@@ -3,7 +3,6 @@ sitemap: false
 title: Autosave not working
 layout: layout.liquid
 permalink: /all/autosave-not-working/
-canonical: /all/autosave-not-working/
 description: Autosave not working.
 asset_id: ctrlall-all-autosave-not-working-v1
 date: 2025-11-23

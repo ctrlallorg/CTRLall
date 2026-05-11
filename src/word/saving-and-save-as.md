@@ -2,7 +2,6 @@
 title: Saving and Save As
 layout: layout.liquid
 permalink: /word/saving-and-save-as/
-canonical: /word/saving-and-save-as/
 description: Saving an Save As in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-saving-and-save-as-v1
 date: 2025-10-26

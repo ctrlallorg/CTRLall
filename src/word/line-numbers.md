@@ -3,7 +3,6 @@ sitemap: false
 title: Line numbers
 layout: layout.liquid
 permalink: /word/line-numbers/
-canonical: /word/line-numbers/
 description: Line numbers in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-line-numbers-v1
 date: 2025-12-07

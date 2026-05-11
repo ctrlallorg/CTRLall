@@ -2,7 +2,6 @@
 title: Table of contents
 layout: layout.liquid
 permalink: /word/table-of-contents/
-canonical: /word/table-of-contents/
 description: A guide to tables of contents in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-table-of-contents-v1
 date: 2025-11-13

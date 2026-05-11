@@ -2,7 +2,6 @@
 title: "Documents vs Templates"
 layout: layout.liquid
 permalink: /word/documents-vs-templates/
-canonical: /word/documents-vs-templates/
 description: Understand the difference between a document and a template in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-documents-vs-templates-v1
 date: 2025-10-26

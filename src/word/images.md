@@ -2,7 +2,6 @@
 title: Images and graphic visuals
 layout: layout.liquid
 permalink: /word/images/
-canonical: /word/images/
 description: A guide on everything about images and graphic visuals in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-images-v1
 date: 2025-10-26

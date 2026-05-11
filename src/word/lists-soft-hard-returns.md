@@ -2,7 +2,6 @@
 title: "Lists: Soft & hard returns"
 layout: layout.liquid
 permalink: /word/lists-soft-hard-returns/
-canonical: /word/lists-soft-hard-returns/
 description: Hard and soft returns in number lists and bullet lists in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-lists-soft-hard-returns-v1
 date: 2025-10-26

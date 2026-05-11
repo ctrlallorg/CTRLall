@@ -2,7 +2,6 @@
 title: "Tables:  Convert text to tables"
 layout: layout.liquid
 permalink: /word/tables-convert-text-to-tables/
-canonical: /word/tables-convert-text-to-tables/
 description: A guide to tables in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-tables-convert-text-to-tables-v1
 date: 2026-01-26

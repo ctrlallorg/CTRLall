@@ -2,7 +2,6 @@
 title: Keyboard shortcuts quiz
 layout: layout.liquid
 permalink: /content-control/keyboard-shortcuts-quiz/
-canonical: /content-control/keyboard-shortcuts-quiz/
 description: Keyboard shortcuts quiz
 asset_id: ctrlall-content-control-keyboard-shortcuts-quiz
 date: 2026-05-01

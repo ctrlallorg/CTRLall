@@ -3,7 +3,6 @@ title: CTRL All
 description: Ctrl All - Digital literacy with soul, clarity, and control.
 layout: layout.liquid
 permalink: /
-canonical: /index/
 asset_id: index-v1.0
 date: 2025-10-26
 last_modified: 2026-04-13

@@ -2,7 +2,6 @@
 title: Moving content
 layout: layout.liquid
 permalink: /content-control/moving-content/
-canonical: /content-control/moving-content/
 description: Moving content in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-moving-content-v1
 date: 2025-10-26

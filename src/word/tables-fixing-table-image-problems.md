@@ -2,7 +2,6 @@
 title: "Tables: Fixing table image problems"
 layout: layout.liquid
 permalink: /word/tables-fixing-table-image-problems/
-canonical: /word/tables-fixing-table-image-problems/
 description: How to fix problems with images in tables in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-tables-fixing-table-image-problems-v1
 date: 2025-12-30

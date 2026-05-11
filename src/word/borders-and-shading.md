@@ -3,7 +3,6 @@ sitemap: false
 title: Borders and shading
 layout: layout.liquid
 permalink: /word/borders-and-shading/
-canonical: /word/borders-and-shading/
 description: Alter borders and shading in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-borders-and-shading-v1
 date: 2025-11-28

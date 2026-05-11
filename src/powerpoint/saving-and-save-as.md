@@ -2,7 +2,6 @@
 title: Saving and Save As in PowerPoint
 layout: layout.liquid
 permalink: /powerpoint/saving-and-save-as/
-canonical: /powerpoint/saving-and-save-as/
 description: Saving and Save As in PowerPoint, an introduction with clear steps, visuals, and animations.
 asset_id: ctrlall-powerpoint-saving-and-save-as-v1
 date: 2025-11-15

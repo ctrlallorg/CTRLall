@@ -2,7 +2,6 @@
 title: Hard and soft returns
 layout: layout.liquid
 permalink: /word/hard-and-soft-returns/
-canonical: /word/hard-and-soft-returns/
 description: Overview of hard and soft returns in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-hard-and-soft-returns-v1
 date: 2026-05-29

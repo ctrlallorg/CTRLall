@@ -2,7 +2,6 @@
 title: Page Setup options
 layout: layout.liquid
 permalink: /word/page-setup-options/
-canonical: /word/page-setup-options/
 description: Altering pages set up options in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-page-setup-options-v1
 date: 2025-11-27

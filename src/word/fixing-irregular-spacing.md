@@ -2,7 +2,6 @@
 title: Fixing irregular spacing
 layout: layout.liquid
 permalink: /word/fixing-irregular-spacing/
-canonical: /word/fixing-irregular-spacing/
 description: Fixing irregular spacing in Microsoft Word with clear steps, visuals, and animations.
 image: /assets/images/Ctrl-All-logo-og.png
 asset_id: ctrlall-word-fixing-irregular-spacing-v1

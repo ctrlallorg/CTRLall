@@ -3,7 +3,6 @@ title: Contact us
 description: Contact us.
 layout: layout.liquid
 permalink: /contact/
-canonical: /contact/
 asset_id: ctrlall-contact-v1
 date: 2025-10-26
 last_modified: 2025-12-06

@@ -2,7 +2,6 @@
 title: Pages and Views
 layout: layout.liquid
 permalink: /word/pages-and-views/
-canonical: /word/pages-and-views/
 description: Altering pages and views in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-pages-and-views-v1
 date: 2025-10-26

@@ -2,7 +2,6 @@
 title: Glossary
 layout: layout.liquid
 permalink: /glossary/
-canonical: /glossary/
 description: A digital literacy glossary from Ctrl All of terms with tooltip visuals and detailed definitions.
 asset_id: glossary-v1.0
 date: 2025-10-26

@@ -2,7 +2,6 @@
 title: Altering images and objects
 layout: layout.liquid
 permalink: /word/altering-images-and-objects/
-canonical: /word/altering-images-and-objects/
 description: Alter, resize, rotate and edit images and graphic visuals in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-altering-images-and-objects-v1
 date: 2025-10-26

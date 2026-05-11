@@ -2,7 +2,6 @@
 title: Extracting zipped (compressed) files
 layout: layout.liquid
 permalink: /content-control/unzipping-zipped-files/
-canonical: /content-control/unzipping-zipped-files/
 description: How to extract files from a zipped/compressed file in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-unzipping-zipped-files-v1
 date: 2026-04-13

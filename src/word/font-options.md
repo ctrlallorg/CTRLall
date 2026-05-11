@@ -2,7 +2,6 @@
 title: Font options
 layout: layout.liquid
 permalink: /word/font-options/
-canonical: /word/font-options/
 description: Style font for words, sentences, and paragraphs in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-font-options-v1
 date: 2025-10-26

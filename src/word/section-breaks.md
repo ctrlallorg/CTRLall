@@ -2,7 +2,6 @@
 title: Section breaks
 layout: layout.liquid
 permalink: /word/section-breaks/
-canonical: /word/section-breaks/
 description: Section breaks in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-section-breaks-v1
 date: 2025-10-30

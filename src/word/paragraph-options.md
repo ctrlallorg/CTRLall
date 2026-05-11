@@ -2,7 +2,6 @@
 title: Paragraph options
 layout: layout.liquid
 permalink: /word/paragraph-options/
-canonical: /word/paragraph-options/
 description: Edit paragraph and line spacing, indentation and page/line breaks in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-paragraph-options-v1
 date: 2025-10-26
