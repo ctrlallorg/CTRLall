@@ -82,8 +82,11 @@ tags:
   - move around
   - wrapping
 active: word
+quiz: altering-images-and-objects-quiz
 ---
 <h1>Altering images, graphic visuals and objects</h1>
+
+<a href="#ctrl-quiz" class="quiz-badge jump">Test yourself! Go to the Quiz &#8595;</a>
 
 <article class="difficulty-wrapper" role="article" aria-label="Altering images tutorial with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
@@ -370,6 +373,8 @@ active: word
 
 </div>
 </article>
+
+<div id="ctrl-quiz"></div>
 
 <div class="article-share">
 {% include "share-menu.liquid" %}
