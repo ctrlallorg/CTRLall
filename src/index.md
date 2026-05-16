@@ -1,5 +1,5 @@
 ---
-title: CTRL All
+title: Ctrl All - Free Microsoft Office tutorial guides, quizzes and exercises 
 description: Ctrl All - Digital literacy with soul, clarity, and control.
 layout: layout.liquid
 permalink: /
