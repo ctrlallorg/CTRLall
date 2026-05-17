@@ -1,8 +1,8 @@
 ---
-title: Glossary – Ctrl All
+title: Microsoft Office and Windows Glossary – Terms, Definitions and Visual Examples – Ctrl All
 layout: layout.liquid
 permalink: /glossary/
-description: A digital literacy glossary from Ctrl All of terms with tooltip visuals and detailed definitions.
+description: A comprehensive glossary of Microsoft Office and Windows terms with definitions and visual examples. Covers terms from alignment and anchoring to wrapping and widows, including clipboard, file types, formatting marks, indents, OLE objects, styles, tab stops, rulers and more — with links to relevant tutorial articles throughout.
 asset_id: glossary-v1.0
 date: 2025-10-26
 last_modified: 2025-12-06
