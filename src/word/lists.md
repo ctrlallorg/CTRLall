@@ -1,5 +1,5 @@
 ---
-title: "Lists"
+title: Lists in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/lists/
 description: How to create different types of lists in Microsoft Word with clear steps, visuals, and animations.

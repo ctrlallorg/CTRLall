@@ -1,5 +1,5 @@
 ---
-title: Moving content
+title: Moving content in Microsoft Office and Windows – Ctrl All
 layout: layout.liquid
 permalink: /content-control/moving-content/
 description: Moving content in Microsoft Word with clear steps, visuals, and animations.

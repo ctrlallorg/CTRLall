@@ -1,5 +1,5 @@
 ---
-title: Hard and soft returns
+title: Hard and soft returns in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/hard-and-soft-returns/
 description: Overview of hard and soft returns in Microsoft Word with clear steps, visuals, and animations.

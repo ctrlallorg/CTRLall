@@ -1,5 +1,5 @@
 ---
-title: Section breaks
+title: Section breaks in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/section-breaks/
 description: Section breaks in Microsoft Word with clear steps, visuals, and animations.

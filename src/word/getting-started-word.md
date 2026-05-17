@@ -1,5 +1,5 @@
 ---
-title: Getting started with Microsoft Word
+title: Getting started with Microsoft Word in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/getting-started-word/
 description: Getting started with Microsoft Word, an introduction with clear steps, visuals, and animations.

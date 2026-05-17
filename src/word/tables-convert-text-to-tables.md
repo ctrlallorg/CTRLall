@@ -1,5 +1,5 @@
 ---
-title: "Tables:  Convert text to tables"
+title: "Tables:  Convert text to tables in Microsoft Word – Ctrl All"
 layout: layout.liquid
 permalink: /word/tables-convert-text-to-tables/
 description: A guide to tables in Microsoft Word with clear steps, visuals, and animations.

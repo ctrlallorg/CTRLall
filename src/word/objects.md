@@ -1,5 +1,5 @@
 ---
-title: Objects
+title: Objects in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/objects/
 description: A guide on everything about objects in Microsoft Word with clear steps, visuals, and animations.

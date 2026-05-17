@@ -1,5 +1,5 @@
 ---
-title: Keyboard shortcuts quiz
+title: Keyboard shortcuts quiz for Microsoft Office and Windows – Ctrl All
 layout: layout.liquid
 permalink: /content-control/keyboard-shortcuts-quiz/
 description: Keyboard shortcuts quiz

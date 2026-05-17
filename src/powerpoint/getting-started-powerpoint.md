@@ -1,5 +1,5 @@
 ---
-title: Getting started with Microsoft PowerPoint
+title: Getting started with Microsoft PowerPoint – Ctrl All
 layout: layout.liquid
 permalink: /powerpoint/getting-started-powerpoint/
 description: Getting started with Microsoft PowerPoint, an introduction with clear steps, visuals, and animations.

@@ -1,5 +1,5 @@
 ---
-title: Images and graphic visuals
+title: Images and graphic visuals in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/images/
 description: A guide on everything about images and graphic visuals in Microsoft Word with clear steps, visuals, and animations.

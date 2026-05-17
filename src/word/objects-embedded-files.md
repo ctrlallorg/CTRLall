@@ -1,5 +1,5 @@
 ---
-title: Embedded files
+title: Embedded files in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/objects-embedded-files/
 description: Embed and link external files in a Microsoft Word document with clear steps, visuals, and animations.

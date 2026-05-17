@@ -1,5 +1,5 @@
 ---
-title: Glossary
+title: Glossary – Ctrl All
 layout: layout.liquid
 permalink: /glossary/
 description: A digital literacy glossary from Ctrl All of terms with tooltip visuals and detailed definitions.

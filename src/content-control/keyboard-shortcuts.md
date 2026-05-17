@@ -1,5 +1,5 @@
 ---
-title: Keyboard Shortcuts
+title: Keyboard Shortcuts in Microsoft Office and Windows – Ctrl All
 layout: layout.liquid
 permalink: /content-control/keyboard-shortcuts/
 description: Keyboard shortcuts in Windows and Microsoft Office with tooltip visuals.

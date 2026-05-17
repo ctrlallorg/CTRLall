@@ -1,5 +1,5 @@
 ---
-title: "Lists: Soft & hard returns"
+title: "Lists: Soft and hard returns in Microsoft Word – Ctrl All"
 layout: layout.liquid
 permalink: /word/lists-soft-hard-returns/
 description: Hard and soft returns in number lists and bullet lists in Microsoft Word with clear steps, visuals, and animations.

@@ -1,5 +1,5 @@
 ---
-title: "Indents"
+title: Indents in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/indents/
 description: Indents in Microsoft Word with clear steps, visuals, and animations.

@@ -1,5 +1,5 @@
 ---
-title: Pages and Views
+title: Pages and Views in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/pages-and-views/
 description: Altering pages and views in Microsoft Word with clear steps, visuals, and animations.

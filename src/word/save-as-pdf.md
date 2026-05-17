@@ -1,5 +1,5 @@
 ---
-title: Save as a PDF
+title: Save as a PDF in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/save-as-pdf/
 description: Save as a PDF in Microsoft Word with clear steps, visuals, and animations.

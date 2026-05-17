@@ -1,5 +1,5 @@
 ---
-title: Paragraph options
+title: Paragraph options in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/paragraph-options/
 description: Edit paragraph and line spacing, indentation and page/line breaks in Microsoft Word with clear steps, visuals, and animations.

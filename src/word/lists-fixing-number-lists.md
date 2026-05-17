@@ -1,5 +1,5 @@
 ---
-title: "Lists: Fixing number lists"
+title: "Lists: Fixing number lists in Microsoft Word – Ctrl All"
 layout: layout.liquid
 permalink: /word/lists-fixing-number-lists/
 description: How to fix number list issues in Microsoft Word with clear steps, visuals, and animations.

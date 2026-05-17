@@ -1,5 +1,5 @@
 ---
-title: Font options
+title: Font options in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/font-options/
 description: Style font for words, sentences, and paragraphs in Microsoft Word with clear steps, visuals, and animations.

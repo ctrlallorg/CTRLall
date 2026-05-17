@@ -1,5 +1,5 @@
 ---
-title: Styles
+title: Styles in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/styles/
 description: Applying and editing styles in Microsoft Word with clear steps, visuals, and animations.

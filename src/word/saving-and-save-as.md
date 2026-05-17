@@ -1,5 +1,5 @@
 ---
-title: Saving and Save As
+title: Saving and Save As in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/saving-and-save-as/
 description: Saving an Save As in Microsoft Word with clear steps, visuals, and animations.

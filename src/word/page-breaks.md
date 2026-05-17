@@ -1,5 +1,5 @@
 ---
-title: Page breaks
+title: Page breaks in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/page-breaks/
 description: Page breaks in Microsoft Word with clear steps, visuals, and animations.

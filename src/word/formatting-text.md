@@ -1,5 +1,5 @@
 ---
-title: Formatting text
+title: Formatting text in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/formatting-text/
 description: Style words, sentences, and paragraphs in Word with clear steps, visuals, and animations.

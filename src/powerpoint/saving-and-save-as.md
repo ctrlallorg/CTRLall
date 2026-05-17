@@ -1,5 +1,5 @@
 ---
-title: Saving and Save As in PowerPoint
+title: Saving and Save As in Microsoft PowerPoint – Ctrl All
 layout: layout.liquid
 permalink: /powerpoint/saving-and-save-as/
 description: Saving and Save As in PowerPoint, an introduction with clear steps, visuals, and animations.

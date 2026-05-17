@@ -1,5 +1,5 @@
 ---
-title: Page Setup options
+title: Page Setup options in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/page-setup-options/
 description: Altering pages set up options in Microsoft Word with clear steps, visuals, and animations.

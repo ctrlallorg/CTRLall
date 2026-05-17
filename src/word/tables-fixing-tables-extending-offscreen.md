@@ -1,5 +1,5 @@
 ---
-title: "Tables: Fixing tables extending off the page"
+title: "Tables: Fixing tables extending off the page in Microsoft Word – Ctrl All"
 layout: layout.liquid
 permalink: /word/tables-fixing-tables-extending-offscreen/
 description: How to fix tables that are extending offscreen Microsoft Word with clear steps, visuals, and animations.

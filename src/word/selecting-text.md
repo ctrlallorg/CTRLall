@@ -1,5 +1,5 @@
 ---
-title: Selecting text
+title: Selecting text in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/selecting-text/
 description: Select words, sentences, and paragraphs in Microsoft Word with clear steps, visuals, and animations.

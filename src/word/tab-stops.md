@@ -1,5 +1,5 @@
 ---
-title: "Tab stops"
+title: Tab stops in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/tab-stops/
 description: Tab stops in Microsoft Word with clear steps, visuals, and animations.

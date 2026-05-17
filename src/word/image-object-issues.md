@@ -1,6 +1,6 @@
 ---
 sitemap: false
-title: Image and object issues
+title: Image and object issues in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/image-object-issues/
 description: How to fix issues with images and objects in Microsoft Word, help with clear steps, visuals, and animations.

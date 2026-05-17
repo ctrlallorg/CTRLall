@@ -1,5 +1,5 @@
 ---
-title: Tables
+title: Tables in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/tables/
 description: A guide to tables in Microsoft Word with clear steps, visuals, and animations.

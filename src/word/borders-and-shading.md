@@ -1,6 +1,6 @@
 ---
 sitemap: false
-title: Borders and shading
+title: Borders and shading in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/borders-and-shading/
 description: Alter borders and shading in Microsoft Word with clear steps, visuals, and animations.

@@ -1,5 +1,5 @@
 ---
-title: Altering images and objects
+title: Altering images and objects in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/altering-images-and-objects/
 description: Alter, resize, rotate and edit images and graphic visuals in Microsoft Word with clear steps, visuals, and animations.

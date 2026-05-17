@@ -1,5 +1,5 @@
 ---
-title: Custom table of contents
+title: Custom table of contents in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/table-of-contents-custom/
 description: A guide to tables of contents in Microsoft Word with clear steps, visuals, and animations.

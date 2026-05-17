@@ -1,6 +1,6 @@
 ---
 sitemap: false
-title: Styles
+title: Style sets in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/style-sets/
 description: Applying and editing style sets in Microsoft Word with clear steps, visuals, and animations.

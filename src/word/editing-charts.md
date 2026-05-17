@@ -1,5 +1,5 @@
 ---
-title: Editing charts
+title: Editing charts in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/editing-charts/
 description: Editing charts in Mirosoft Word with clear steps, visuals, and animations. .

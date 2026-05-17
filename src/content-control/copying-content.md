@@ -1,5 +1,5 @@
 ---
-title: Copying content
+title: Copying content in Microsoft Office and Windows – Ctrl All
 layout: layout.liquid
 permalink: /content-control/copying-content/
 description: Copying and duplicating content in Microsoft Word with clear steps, visuals, and animations.

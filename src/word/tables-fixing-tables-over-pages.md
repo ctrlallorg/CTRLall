@@ -1,5 +1,5 @@
 ---
-title: "Tables: Fixing tables over pages"
+title: "Tables: Fixing tables over pages in Microsoft Word – Ctrl All"
 layout: layout.liquid
 permalink: /word/tables-fixing-tables-over-pages/
 description: How to alter tables extending over pages Microsoft Word with clear steps, visuals, and animations.

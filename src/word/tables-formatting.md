@@ -1,5 +1,5 @@
 ---
-title: "Tables: Formatting"
+title: "Tables: Formatting tables in Microsoft Word – Ctrl All"
 layout: layout.liquid
 permalink: /word/tables-formatting/
 description: Style tables in Word with clear steps, visuals, and animations.

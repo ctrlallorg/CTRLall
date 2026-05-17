@@ -1,6 +1,6 @@
 ---
 sitemap: false
-title: Line numbers
+title: Line numbers in Microsoft Word – Ctrl All
 layout: layout.liquid
 permalink: /word/line-numbers/
 description: Line numbers in Microsoft Word with clear steps, visuals, and animations.
