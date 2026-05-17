@@ -1,8 +1,8 @@
 ---
-title: Altering images and objects in Microsoft Word – Ctrl All
+title: Altering Images and Objects in Microsoft Word – Resize, Rotate, Move, Wrap and Anchoring – Ctrl All
 layout: layout.liquid
 permalink: /word/altering-images-and-objects/
-description: Alter, resize, rotate and edit images and graphic visuals in Microsoft Word with clear steps, visuals, and animations.
+description: How to alter images and objects in Microsoft Word. Covers resizing with sizing handles, rotating, moving, shape adjustment handles, adding text to shapes, 3D model rotation, all text wrapping layout options including square, tight, behind text and in front of text, move with text vs fixed position, anchoring floating images, and locking anchors.
 asset_id: ctrlall-word-altering-images-and-objects-v1
 date: 2025-10-26
 last_modified: 2025-12-06

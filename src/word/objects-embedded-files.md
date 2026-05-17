@@ -1,8 +1,8 @@
 ---
-title: Embedded files in Microsoft Word – Ctrl All
+title: Embedded Files in Microsoft Word – OLE Objects, Linked vs Embedded and File Types – Ctrl All
 layout: layout.liquid
 permalink: /word/objects-embedded-files/
-description: Embed and link external files in a Microsoft Word document with clear steps, visuals, and animations.
+description: How to embed and link external files in Microsoft Word as OLE objects. Covers the difference between embedded and linked OLE objects, when to use each, supported file types including Word, Excel, PowerPoint, PDF and audio, inserting as an icon or visual content, opening, resizing and wrapping OLE objects on the page.
 asset_id: ctrlall-word-objects-embedded-files-v1
 date: 2025-10-26
 last_modified: 2025-12-06

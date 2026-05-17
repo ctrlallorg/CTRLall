@@ -1,8 +1,8 @@
 ---
-title: Paragraph options in Microsoft Word – Ctrl All
+title: Paragraph Options in Microsoft Word – Spacing, Indentation, Alignment and Page Breaks – Ctrl All
 layout: layout.liquid
 permalink: /word/paragraph-options/
-description: Edit paragraph and line spacing, indentation and page/line breaks in Microsoft Word with clear steps, visuals, and animations.
+description: Complete guide to paragraph options in Microsoft Word. Covers alignment, outline levels, left and right indentation, mirror indents, spacing before and after paragraphs, line spacing options including single, double and multiple, and line and page break settings including widow and orphan control, keep with next, keep lines together and page break before.
 asset_id: ctrlall-word-paragraph-options-v1
 date: 2025-10-26
 last_modified: 2025-10-30

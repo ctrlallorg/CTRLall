@@ -1,8 +1,8 @@
 ---
-title: Images and graphic visuals in Microsoft Word – Ctrl All
+title: Images and Graphics in Microsoft Word – Pictures, Shapes, Icons, SmartArt and Charts – Ctrl All
 layout: layout.liquid
 permalink: /word/images/
-description: A guide on everything about images and graphic visuals in Microsoft Word with clear steps, visuals, and animations.
+description: How to insert images and graphic visuals in Microsoft Word. Covers inserting pictures from your device, stock images and online, shapes, icons, 3D models, SmartArt diagrams, charts including importing from Excel, taking screenshots and screen clips, and inserting WordArt.
 asset_id: ctrlall-word-images-v1
 date: 2025-10-26
 last_modified: 2026-01-04

@@ -1,8 +1,8 @@
 ---
-title: "Tables: Fixing tables extending off the page in Microsoft Word – Ctrl All"
+title: "Tables: Fixing Tables Extending Off the Page in Microsoft Word – AutoFit Window and Distribute Columns – Ctrl All"
 layout: layout.liquid
 permalink: /word/tables-fixing-tables-extending-offscreen/
-description: How to fix tables that are extending offscreen Microsoft Word with clear steps, visuals, and animations.
+description: How to fix a table that has extended beyond the page margin in Microsoft Word. Covers selecting the whole table, using AutoFit Window to bring it back within the page, and using Distribute Columns to even out column widths afterwards.
 asset_id: ctrlall-word-tables-fixing-tables-extending-offscreen-v1
 date: 2025-10-26
 last_modified: 2025-12-06

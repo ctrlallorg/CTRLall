@@ -1,8 +1,8 @@
 ---
-title: Selecting text in Microsoft Word – Ctrl All
+title: Selecting Text in Microsoft Word – Click, Drag, Shift and Ctrl Selection Methods – Ctrl All
 layout: layout.liquid
 permalink: /word/selecting-text/
-description: Select words, sentences, and paragraphs in Microsoft Word with clear steps, visuals, and animations.
+description: How to select text in Microsoft Word. Covers click and drag, double-clicking a word, triple-clicking a paragraph, selecting punctuation, clicking the margin to select rows, Shift to select adjacent text, and Ctrl to select multiple non-adjacent sections.
 asset_id: ctrlall-word-selecting-text-v1 
 date: 2025-10-26
 last_modified: 2025-12-06

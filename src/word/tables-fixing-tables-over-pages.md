@@ -1,8 +1,8 @@
 ---
-title: "Tables: Fixing tables over pages in Microsoft Word – Ctrl All"
+title: "Tables: Fixing Tables Over Multiple Pages in Microsoft Word – Header Rows, Row Breaks and Merged Cells – Ctrl All"
 layout: layout.liquid
 permalink: /word/tables-fixing-tables-over-pages/
-description: How to alter tables extending over pages Microsoft Word with clear steps, visuals, and animations.
+description: How to fix table problems across multiple pages in Microsoft Word. Covers preventing table rows from splitting across pages, repeating a header row at the top of each page, including subheading rows in repeated headers, fixing unwanted merged cells appearing in repeated header rows, and keeping table content on one page.
 asset_id: ctrlall-word-tables-fixing-tables-over-pages-v1
 date: 2025-10-26
 last_modified: 2025-12-06

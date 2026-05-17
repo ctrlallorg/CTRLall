@@ -1,8 +1,8 @@
 ---
-title: Styles in Microsoft Word – Ctrl All
+title: Styles in Microsoft Word – Applying, Creating and Modifying Styles – Ctrl All
 layout: layout.liquid
 permalink: /word/styles/
-description: Applying and editing styles in Microsoft Word with clear steps, visuals, and animations.
+description: How to use styles in Microsoft Word. Covers what styles are and why they matter, the styles gallery, applying heading and paragraph styles, creating a new style, adding styles to the gallery, and modifying styles including updating a style to match selected text formatting.
 asset_id: ctrlall-word-styles-v1
 date: 2025-10-26
 last_modified: 2025-10-26

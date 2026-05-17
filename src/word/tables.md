@@ -1,8 +1,8 @@
 ---
-title: Tables in Microsoft Word – Ctrl All
+title: Tables in Microsoft Word – Creating, Editing, Splitting and Autofitting Tables – Ctrl All
 layout: layout.liquid
 permalink: /word/tables/
-description: A guide to tables in Microsoft Word with clear steps, visuals, and animations.
+description: How to use tables in Microsoft Word. Covers inserting and deleting tables, adding data, adding rows and columns, selecting cells and columns, adjusting column width and row height, splitting tables, distributing columns evenly, and autofitting tables to the window or to content.
 asset_id: ctrlall-word-tables-v1
 date: 2025-10-26
 last_modified: 2025-12-30

@@ -1,8 +1,8 @@
 ---
-title: Formatting text in Microsoft Word – Ctrl All
+title: Formatting Text in Microsoft Word – Font, Paragraph and Clipboard Tools – Ctrl All
 layout: layout.liquid
 permalink: /word/formatting-text/
-description: Style words, sentences, and paragraphs in Word with clear steps, visuals, and animations.
+description: Guide to formatting text in Microsoft Word using the Home tab. Covers the clipboard tools, cut, copy and paste options, format painter, font formatting including bold, italic, underline, strikethrough, highlight, change case, subscript and superscript, and paragraph tools including lists, alignment, indents, sort and line spacing.
 asset_id: ctrlall-word-formatting-text-v1"
 date: 2025-10-26
 last_modified: 2025-12-06

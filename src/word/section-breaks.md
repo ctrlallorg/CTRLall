@@ -1,8 +1,8 @@
 ---
-title: Section breaks in Microsoft Word – Ctrl All
+title: Section Breaks in Microsoft Word – How to Insert, Find and Remove Section Breaks – Ctrl All
 layout: layout.liquid
 permalink: /word/section-breaks/
-description: Section breaks in Microsoft Word with clear steps, visuals, and animations.
+description: How to use section breaks in Microsoft Word. Covers what a section break is, how to find hidden section breaks using Show/Hide formatting marks, how to remove a section break, and the four section break types — next page, continuous, even page and odd page — including what formatting each one applies and when.
 asset_id: ctrlall-word-section-breaks-v1
 date: 2025-10-30
 last_modified: 2025-12-06

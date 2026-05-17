@@ -1,8 +1,8 @@
 ---
-title: "Tables:  Convert text to tables in Microsoft Word – Ctrl All"
+title: "Tables: Converting Text to a Table in Microsoft Word – Tabs, Commas and Paragraph Delimiters – Ctrl All"
 layout: layout.liquid
 permalink: /word/tables-convert-text-to-tables/
-description: A guide to tables in Microsoft Word with clear steps, visuals, and animations.
+description: How to convert text into a table in Microsoft Word. Covers selecting text separated by tabs, commas, paragraphs or spaces and using Insert > Convert Text to Table, configuring the number of columns and delimiter options in the dialog, and includes a downloadable exercise file to practice with.
 asset_id: ctrlall-word-tables-convert-text-to-tables-v1
 date: 2026-01-26
 last_modified: 2026-01-26

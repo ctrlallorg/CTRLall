@@ -1,8 +1,8 @@
 ---
-title: Getting started with Microsoft Word in Microsoft Word – Ctrl All
+title: Getting Started with Microsoft Word – Interface, Documents and Versions – Ctrl All
 layout: layout.liquid
 permalink: /word/getting-started-word/
-description: Getting started with Microsoft Word, an introduction with clear steps, visuals, and animations.
+description: Beginner's guide to Microsoft Word. Covers how to open Word, create and open documents, the ribbon, workspace, quick access toolbar, status bar, closing documents, and the differences between Word versions including Microsoft 365, Word 2021 and Word Online.
 asset_id: ctrlall-word-getting-started-word-v1
 date: 2025-11-17
 last_modified: 2025-12-06

@@ -1,8 +1,8 @@
 ---
-title: Moving content in Microsoft Office and Windows – Ctrl All
+title: "Moving Content in Microsoft Word – Cut, Paste, Drag and Drop – Ctrl All"
 layout: layout.liquid
 permalink: /content-control/moving-content/
-description: Moving content in Microsoft Word with clear steps, visuals, and animations.
+description: How to move content in Microsoft Word and Windows. Covers drag and drop, cut and paste with Ctrl+X and Ctrl+V, selecting multiple items, and The Spike for cutting multiple non-adjacent items.
 asset_id: ctrlall-moving-content-v1
 date: 2025-10-26
 last_modified: 2025-12-06

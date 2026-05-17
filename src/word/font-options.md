@@ -1,8 +1,8 @@
 ---
-title: Font options in Microsoft Word – Ctrl All
+title: Font Options in Microsoft Word – Size, Colour, Effects and Advanced Typography – Ctrl All
 layout: layout.liquid
 permalink: /word/font-options/
-description: Style font for words, sentences, and paragraphs in Microsoft Word with clear steps, visuals, and animations.
+description: Complete guide to font options in Microsoft Word. Covers font style, size, colour, underline styles, strikethrough, subscript, superscript and hidden text effects, plus advanced options including character scale, spacing, position, kerning, ligatures, number spacing, number forms and stylistic sets.
 asset_id: ctrlall-word-font-options-v1
 date: 2025-10-26
 last_modified: 2025-12-06

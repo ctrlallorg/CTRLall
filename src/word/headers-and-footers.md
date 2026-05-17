@@ -1,5 +1,5 @@
 ---
-title: Headers and Footers in Microsoft Word – Ctrl All
+title: Headers and Footers in Word – Adding, Editing, Page Numbers and Quick Parts – Ctrl All
 layout: layout.liquid
 permalink: /word/headers-and-footers/
 description: How to add, select, deselect, edit and remove headers and footers in Microsoft Word. Covers page numbers, alignment and tab stops, different first pages, odd and even pages, and Quick Part fields.

@@ -1,8 +1,8 @@
 ---
-title: "Lists: Fixing number lists in Microsoft Word – Ctrl All"
+title: "Lists: Fixing Number Lists in Microsoft Word – Continue Numbering and Set Number Value – Ctrl All"
 layout: layout.liquid
 permalink: /word/lists-fixing-number-lists/
-description: How to fix number list issues in Microsoft Word with clear steps, visuals, and animations.
+description: How to fix broken numbered lists in Microsoft Word. Covers using Continue Numbering to reconnect a number list that has restarted across headings or other content, and how to set a custom starting number using Set Numbering Value.
 asset_id: ctrlall-word-lists-fixing-number-lists-v1
 date: 2025-10-26
 last_modified: 2025-12-06

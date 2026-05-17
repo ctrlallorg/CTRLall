@@ -1,8 +1,8 @@
 ---
-title: Page breaks in Microsoft Word – Ctrl All
+title: Page Breaks in Microsoft Word – How to Insert, Find and Remove Page Breaks – Ctrl All
 layout: layout.liquid
 permalink: /word/page-breaks/
-description: Page breaks in Microsoft Word with clear steps, visuals, and animations.
+description: How to use page breaks in Microsoft Word. Covers what a page break is, how to insert one with Ctrl+Enter, how to find invisible page breaks using Show/Hide formatting marks, and how to select and delete a page break. Also covers section breaks, line breaks and column breaks.
 asset_id: ctrlall-word-page-breaks-v1
 date: 2025-10-30
 last_modified: 2025-12-23

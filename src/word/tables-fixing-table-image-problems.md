@@ -1,8 +1,8 @@
 ---
-title: "Tables: Fixing table image problems in Microsoft Word – Ctrl All"
+title: "Tables: Fixing Table Image Problems in Microsoft Word – Cell Size, Alignment and Wrap Settings – Ctrl All"
 layout: layout.liquid
 permalink: /word/tables-fixing-table-image-problems/
-description: How to fix problems with images in tables in Microsoft Word with clear steps, visuals, and animations.
+description: How to fix common image problems in Microsoft Word tables. Covers images expanding column width and row height, images too large for a cell, cell alignment with different wrap settings, resizing large images that push a table across pages, and images disappearing behind or in front of table content.
 asset_id: ctrlall-word-tables-fixing-table-image-problems-v1
 date: 2025-12-30
 last_modified: 2025-12-30

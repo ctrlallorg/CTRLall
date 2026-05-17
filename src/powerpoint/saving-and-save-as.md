@@ -1,8 +1,8 @@
 ---
-title: Saving and Save As in Microsoft PowerPoint – Ctrl All
+title: Saving and Save As in Microsoft PowerPoint – Autosave and Default Save Locations – Ctrl All
 layout: layout.liquid
 permalink: /powerpoint/saving-and-save-as/
-description: Saving and Save As in PowerPoint, an introduction with clear steps, visuals, and animations.
+description: How to save presentations in Microsoft PowerPoint. Covers saving with Ctrl+S, Save As for renaming or changing file type, Autosave with OneDrive and SharePoint, and how to change the default save location for presentations and templates.
 asset_id: ctrlall-powerpoint-saving-and-save-as-v1
 date: 2025-11-15
 last_modified: 2026-01-13

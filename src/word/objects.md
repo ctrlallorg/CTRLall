@@ -1,8 +1,8 @@
 ---
-title: Objects in Microsoft Word – Ctrl All
+title: Objects in Microsoft Word – Text Boxes, Equations, Embedded Files and Drawing Canvas – Ctrl All
 layout: layout.liquid
 permalink: /word/objects/
-description: A guide on everything about objects in Microsoft Word with clear steps, visuals, and animations.
+description: How to insert and use objects in Microsoft Word. Covers inserting and drawing text boxes, creating equations using the Equation tab, embedding files as OLE objects, and using a drawing canvas to group images, graphic visuals and text boxes together in a locked area.
 asset_id: ctrlall-word-objects-v1
 date: 2025-10-26
 last_modified: 2026-01-11

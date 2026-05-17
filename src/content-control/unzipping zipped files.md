@@ -1,8 +1,8 @@
 ---
-title: Extracting zipped (compressed) files
+title: How to Unzip and Extract Compressed Files in Windows – Ctrl All
 layout: layout.liquid
 permalink: /content-control/unzipping-zipped-files/
-description: How to extract files from a zipped/compressed file in Microsoft Word with clear steps, visuals, and animations.
+description: How to extract and unzip compressed .zip files in Windows. Step-by-step guide covering how to locate a zip file, right-click to extract, choose a destination folder, and access your unzipped files.
 asset_id: ctrlall-unzipping-zipped-files-v1
 date: 2026-04-13
 last_modified: 2026-04-13

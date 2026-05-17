@@ -1,8 +1,8 @@
 ---
-title: Saving and Save As in Microsoft Word – Ctrl All
+title: Saving and Save As in Microsoft Word – Autosave and Default Save Locations – Ctrl All
 layout: layout.liquid
 permalink: /word/saving-and-save-as/
-description: Saving an Save As in Microsoft Word with clear steps, visuals, and animations.
+description: How to save documents in Microsoft Word. Covers saving with Ctrl+S, Save As for renaming or changing file type, Autosave with OneDrive and SharePoint, and how to change the default save location for documents and templates.
 asset_id: ctrlall-word-saving-and-save-as-v1
 date: 2025-10-26
 last_modified: 2025-12-06

@@ -1,8 +1,8 @@
 ---
-title: Keyboard Shortcuts in Microsoft Office and Windows – Ctrl All
+title: Keyboard Shortcuts for Windows, Microsoft Word, Excel and PowerPoint – Ctrl All
 layout: layout.liquid
 permalink: /content-control/keyboard-shortcuts/
-description: Keyboard shortcuts in Windows and Microsoft Office with tooltip visuals.
+description: Complete keyboard shortcut reference for Windows, Microsoft Word, Excel and PowerPoint. Covers shortcuts for saving, copying, pasting, formatting, find and replace, zoom, and more.
 asset_id: ctrlall-keyboard-shortcuts-v1
 type: keyboard-shortcuts
 tags:

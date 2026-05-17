@@ -1,8 +1,8 @@
 ---
-title: Save as a PDF in Microsoft Word – Ctrl All
+title: How to Save a Word Document as a PDF – Ctrl All
 layout: layout.liquid
 permalink: /word/save-as-pdf/
-description: Save as a PDF in Microsoft Word with clear steps, visuals, and animations.
+description: How to save a Microsoft Word document as a PDF using Save As. Covers selecting the PDF file type, saving with Adobe Acrobat vs Word's built-in PDF converter, and how to hide comments before saving so they don't appear in the PDF.
 asset_id: ctrlall-word-save-as-pdf-v1
 date: 2025-11-22
 last_modified: 2025-12-06

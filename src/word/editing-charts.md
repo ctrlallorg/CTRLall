@@ -1,8 +1,8 @@
 ---
-title: Editing charts in Microsoft Word – Ctrl All
+title: Editing Charts in Microsoft Word – Edit Data and Refreshing Linked Excel Charts – Ctrl All
 layout: layout.liquid
 permalink: /word/editing-charts/
-description: Editing charts in Mirosoft Word with clear steps, visuals, and animations. .
+description: How to edit charts in Microsoft Word. Covers editing chart data using the built-in Excel window via Chart Design, and how to manually refresh a linked Excel chart that hasn't updated when the Word document was closed during edits.
 asset_id: ctrlall-word-editing-charts-v1
 date: 2025-10-26
 last_modified: 2025-12-06

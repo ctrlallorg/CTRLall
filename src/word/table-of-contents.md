@@ -1,8 +1,8 @@
 ---
-title: Table of contents in Microsoft Word – Ctrl All
+title: Table of Contents in Microsoft Word – Insert, Update and Remove – Ctrl All
 layout: layout.liquid
 permalink: /word/table-of-contents/
-description: A guide to tables of contents in Microsoft Word with clear steps, visuals, and animations.
+description: How to create a table of contents in Microsoft Word. Covers inserting automated and manual tables of contents, how heading levels 1 to 3 appear in a TOC, navigating via TOC hyperlinks, updating a table of contents after adding or editing headings, and removing a table of contents.
 asset_id: ctrlall-word-table-of-contents-v1
 date: 2025-11-13
 last_modified: 2025-11-12

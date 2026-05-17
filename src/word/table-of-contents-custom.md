@@ -1,8 +1,8 @@
 ---
-title: Custom table of contents in Microsoft Word – Ctrl All
+title: Custom Table of Contents in Microsoft Word – Options, TC Fields and Modifying Styles – Ctrl All
 layout: layout.liquid
 permalink: /word/table-of-contents-custom/
-description: A guide to tables of contents in Microsoft Word with clear steps, visuals, and animations.
+description: How to create a custom table of contents in Microsoft Word. Covers the custom TOC options dialog, using table entry TC fields to add custom entries using Alt+Shift+O, assigning entries to different TOC levels, and modifying TOC styles including font, indentation, leader dots and spacing per heading level.
 asset_id: ctrlall-word-table-of-contents-custom-v1
 date: 2025-11-12
 last_modified: 2025-12-06

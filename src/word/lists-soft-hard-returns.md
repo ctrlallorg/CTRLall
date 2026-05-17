@@ -1,8 +1,8 @@
 ---
-title: "Lists: Soft and hard returns in Microsoft Word – Ctrl All"
+title: "Lists: Soft and Hard Returns in Microsoft Word – Enter vs Shift+Enter in Lists – Ctrl All"
 layout: layout.liquid
 permalink: /word/lists-soft-hard-returns/
-description: Hard and soft returns in number lists and bullet lists in Microsoft Word with clear steps, visuals, and animations.
+description: How soft and hard returns behave differently inside bullet and numbered lists in Microsoft Word. A hard return (Enter) creates a new bullet or number, while a soft return (Shift+Enter) adds a new line under the same list item without advancing to the next point.
 asset_id: ctrlall-word-lists-soft-hard-returns-v1
 date: 2025-10-26
 last_modified: 2025-12-06

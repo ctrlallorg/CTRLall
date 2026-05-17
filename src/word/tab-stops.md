@@ -1,8 +1,8 @@
 ---
-title: Tab stops in Microsoft Word – Ctrl All
+title: Tab Stops in Microsoft Word – Alignment, Leaders and Custom Tab Stops – Ctrl All
 layout: layout.liquid
 permalink: /word/tab-stops/
-description: Tab stops in Microsoft Word with clear steps, visuals, and animations.
+description: How to use tab stops in Microsoft Word. Covers default and custom tab stops, setting tab stops on the ruler, left, centre, right, decimal and bar alignment types, leader characters including dots and dashes, and the Tabs options dialog.
 asset_id: ctrlall-word-tab-stops-v1
 date: 2025-10-26
 last_modified: 2025-10-26

@@ -1,8 +1,8 @@
 ---
-title: "Tables: Formatting tables in Microsoft Word – Ctrl All"
+title: "Tables: Formatting Tables in Microsoft Word – Borders, Shading, Cell Alignment and Paste Options – Ctrl All"
 layout: layout.liquid
 permalink: /word/tables-formatting/
-description: Style tables in Word with clear steps, visuals, and animations.
+description: How to format tables in Microsoft Word. Covers table shading and background colour, border visibility and colour, table styles gallery, cell alignment, removing paragraph spacing from pasted content, lists in tables, and all paste options when copying table content into or beneath a table.
 asset_id: ctrlall-word-tables-formatting-v1
 date: 2025-10-26
 last_modified: 2026-01-04

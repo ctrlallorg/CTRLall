@@ -1,5 +1,5 @@
 ---
-title: Documents vs Templates in Microsoft Word – Ctrl All
+title: "Word Documents vs Templates – File Types, Extensions and How to Tell Them Apart – Ctrl All"
 layout: layout.liquid
 permalink: /word/documents-vs-templates/
 description: Understand the difference between a document and a template in Microsoft Word with clear steps, visuals, and animations.

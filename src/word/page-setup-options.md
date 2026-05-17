@@ -1,8 +1,8 @@
 ---
-title: Page Setup options in Microsoft Word – Ctrl All
+title: Page Setup Options in Microsoft Word – Margins, Paper Size and Print Settings – Ctrl All
 layout: layout.liquid
 permalink: /word/page-setup-options/
-description: Altering pages set up options in Microsoft Word with clear steps, visuals, and animations.
+description: How to use page setup options in Microsoft Word. Covers the Margins tab for setting custom margins and gutters, the Paper tab for choosing paper sizes including A4, Letter, Legal and custom sizes, and print options including printing background colours, document properties, and updating fields and linked data before printing.
 asset_id: ctrlall-word-page-setup-options-v1
 date: 2025-11-27
 last_modified: 2025-11-27

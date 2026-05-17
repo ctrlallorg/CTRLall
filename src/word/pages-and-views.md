@@ -1,8 +1,8 @@
 ---
-title: Pages and Views in Microsoft Word – Ctrl All
+title: Pages and Views in Microsoft Word – Zoom, Orientation, Size and Hyphenation – Ctrl All
 layout: layout.liquid
 permalink: /word/pages-and-views/
-description: Altering pages and views in Microsoft Word with clear steps, visuals, and animations.
+description: How to adjust pages and views in Microsoft Word. Covers zooming in and out, zoom options, one page and multiple pages view, page orientation, paper size, margins, columns, line numbers and hyphenation settings.
 asset_id: ctrlall-word-pages-and-views-v1
 date: 2025-10-26
 last_modified: 2025-12-06

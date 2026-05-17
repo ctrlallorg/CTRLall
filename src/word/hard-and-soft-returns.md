@@ -1,8 +1,8 @@
 ---
-title: Hard and soft returns in Microsoft Word – Ctrl All
+title: Hard and Soft Returns in Microsoft Word – Enter vs Shift+Enter Explained – Ctrl All
 layout: layout.liquid
 permalink: /word/hard-and-soft-returns/
-description: Overview of hard and soft returns in Microsoft Word with clear steps, visuals, and animations.
+description: Explains the difference between hard and soft returns in Microsoft Word. Hard returns (Enter) create a new paragraph with its own spacing and styles, while soft returns (Shift+Enter) create a line break within the same paragraph. Covers how each affects spacing, styles, list behaviour and how to remove multiple returns at once.
 asset_id: ctrlall-word-hard-and-soft-returns-v1
 date: 2026-05-29
 last_modified: 2026-05-29

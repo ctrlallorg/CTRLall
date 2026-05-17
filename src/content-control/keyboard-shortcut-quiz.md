@@ -1,8 +1,8 @@
 ---
-title: Keyboard shortcuts quiz for Microsoft Office and Windows – Ctrl All
+title: Keyboard Shortcuts Quiz – Test Your Microsoft Office and Windows Knowledge – Ctrl All
 layout: layout.liquid
 permalink: /content-control/keyboard-shortcuts-quiz/
-description: Keyboard shortcuts quiz
+description: Free interactive quiz to test your knowledge of keyboard shortcuts for Windows, Microsoft Word, Excel and PowerPoint. Choose your difficulty level and program to get started.
 asset_id: ctrlall-content-control-keyboard-shortcuts-quiz
 date: 2026-05-01
 last_modified: 2026-05-01

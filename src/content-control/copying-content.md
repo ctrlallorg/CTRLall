@@ -1,8 +1,8 @@
 ---
-title: Copying content in Microsoft Office and Windows – Ctrl All
+title: "Copying Content in Microsoft Word – Copy, Paste and Multiple Selections – Ctrl All"
 layout: layout.liquid
 permalink: /content-control/copying-content/
-description: Copying and duplicating content in Microsoft Word with clear steps, visuals, and animations.
+description: How to copy and paste content in Microsoft Word, Excel and Windows. Covers Ctrl+C and Ctrl+V, selecting multiple adjacent items with Shift, and selecting multiple non-adjacent items with Ctrl.
 asset_id: ctrlall-copying-content-v1
 date: 2025-10-26
 last_modified: 2025-12-06

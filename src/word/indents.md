@@ -1,8 +1,8 @@
 ---
-title: Indents in Microsoft Word – Ctrl All
+title: Indents in Microsoft Word – First Line, Hanging and Left Indent Markers – Ctrl All
 layout: layout.liquid
 permalink: /word/indents/
-description: Indents in Microsoft Word with clear steps, visuals, and animations.
+description: How to use indents in Microsoft Word. Covers increasing and decreasing indents from the ribbon, paragraph options, using the ruler's first line indent, hanging indent and left indent markers, how indents work in bullet and number lists, adjusting list indents in tables, and the difference between the Tab key and indenting.
 asset_id: ctrlall-word-indents-v1
 date: 2025-10-26
 last_modified: 2025-10-26

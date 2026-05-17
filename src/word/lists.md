@@ -1,8 +1,8 @@
 ---
-title: Lists in Microsoft Word – Ctrl All
+title: Lists in Microsoft Word – Bullet Lists, Numbered Lists and Custom Styles – Ctrl All
 layout: layout.liquid
 permalink: /word/lists/
-description: How to create different types of lists in Microsoft Word with clear steps, visuals, and animations.
+description: How to create and format lists in Microsoft Word. Covers creating bullet lists and numbered lists, converting existing text into a list, changing bullet and numbering styles from the library, and creating custom bullets using symbols and custom number formats.
 asset_id: ctrlall-word-lists-number-lists-v1
 date: 2025-10-26
 last_modified: 2025-12-06

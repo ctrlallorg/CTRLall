@@ -1,8 +1,8 @@
 ---
-title: Fixing irregular spacing in Microsoft Word – Ctrl All
+title: Fixing Irregular Spacing in Microsoft Word – Line Spacing, Blank Lines, Punctuation and Dashes – Ctrl All
 layout: layout.liquid
 permalink: /word/fixing-irregular-spacing/
-description: Fixing irregular spacing in Microsoft Word with clear steps, visuals, and animations.
+description: How to fix irregular spacing problems in Microsoft Word. Covers fixing irregular line spacing with Format Painter, fixing uneven word spacing with Find and Replace wildcards, removing multiple blank lines, removing spaces before punctuation, and replacing hyphens with en dashes or em dashes.
 image: /assets/images/Ctrl-All-logo-og.png
 asset_id: ctrlall-word-fixing-irregular-spacing-v1
 date: 2026-01-17
