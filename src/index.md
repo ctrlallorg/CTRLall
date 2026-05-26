@@ -128,7 +128,7 @@ active: index
       <a class="tutorial-card" href="/glossary/">
         <img src="/assets/images/Index/Featured/Glossary background.png" alt="Glossary thumbnail">
         <h3>Glossary</h3>
-        <p>Our huge glossary defines and explains terms in Microsoft Office and Windows you might come across, with links to relevant articles and visual examples.</p>
+        <p>Our huge searchable glossary defines and explains terms in Microsoft Office and Windows you might come across, with links to relevant articles and visual examples.</p>
       </a>
       <a class="tutorial-card" href="/word/getting-started-word/">
         <img src="/assets/images/Index/Featured/Getting started with Word.png" alt="Getting started with Word thumbnail">
@@ -151,7 +151,7 @@ active: index
     <a class="tutorial-card" href="/glossary/">
       <img src="/assets/images/Index/Featured/Glossary background.png" alt="Glossary thumbnail">
       <h3>Glossary</h3>
-      <p>Our huge glossary defines and explains terms in Microsoft Office and Windows you might come across, with links to relevant articles and visual examples.</p>
+      <p>Our huge searchable glossary defines and explains terms in Microsoft Office and Windows you might come across, with links to relevant articles and visual examples.</p>
     </a>
     <a class="tutorial-card" href="/content-control/keyboard-shortcuts/">
       <img src="/assets/images/Index/Featured/Keyboard shortcuts.png" alt="Keyboard shortcuts thumbnail">
@@ -305,9 +305,9 @@ active: index
       <strong><p>Article guides & tutorials</strong>: Step-by-step walkthroughs for real-world digital tasks.</p>
       <p><img class="thumbnail border" src="{{ '/assets/images/Index/Example article.png' | url }}"  alt="" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
     </li>
-     <li>
-      <p><strong>Animated and interactive examples</strong>: Topic articles are packed with visual examples, animated GIF demonstrations, tooltip signposting and interactivites so you can understand and replicate features yourself.</p>
-      <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Layout options move with text.gif' | url }}"  alt="" style="max-width:550px; width:100%; height:auto; vertical-align:middle"></p>    
+          <li>
+     <p><strong>Animated and interactive examples</strong>: Topic articles are packed with visual examples, animated GIF demonstrations, tooltip signposting and interactivites so you can understand and replicate features yourself.</p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Layout options move with text.gif' | url }}"  alt="" style="max-width:550px; width:100%; height:auto; vertical-align:middle"></p>  
      </li>
      <li><strong>Expandable images</strong>: Screenshots and diagrams can be enlarged with a click, so you never have to squint or guess what you’re looking at. Try clicking on any.</li>
      <li>
@@ -320,6 +320,10 @@ active: index
       <p><div class="quiz-badge jump">Test yourself! Go to the Quiz &#8595;</div></p> 
       <p><a href="/content-control/keyboard-shortcuts-quiz/"><img class="thumbnail border" src="{{ '/assets/images/Index/Example quiz.png' | url }}"  alt="Example quiz" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></a></p>   
     </li>
+    <li>
+      <p><strong>Searchable <a href="/glossary/"><strong>Glossary</strong></a></strong>: A comprehensive searchable glossary of Microsoft Office and Windows terms with definitions and visual examples as well as links to relevant tutorial articles throughout.</p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/Index/Example glossary search.png' | url }}"  alt="" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>    
+     </li>
   </ul>
   <h2>Difficulty</h2>
     <p>Each topic article has a difficulty level tailored for your experience and/or the subject:</p>
@@ -336,8 +340,7 @@ active: index
 <section class="section-light">
   <h2>What's new?</h2>
   <ul>
-    
-    
+    <li>26 May 2026 - The <a href="/glossary/">Glossary</a> is now searchable - the page now has it's own search bar  you can use to query terms.</li>
     <li>12 May 2026 - More quizzes added - <a href="/word/altering-images-and-objects#ctrl-quiz">Altering images and objects</a> | <a href="/word/tables#ctrl-quiz">Tables</a>
     <li>09 May 2026 - More quizzes added - <a href="/word/lists#ctrl-quiz">Lists quiz</a> | <a href="/word/styles#ctrl-quiz">Styles quiz</a> | <a href="/word/fixing-irregular-spacing#ctrl-quiz">Fixing irregular spacing quiz</a></li>
     <li>04 May 2026 - 3 new quizzes added - <a href="/word/documents-vs-templates#ctrl-quiz">Word Documents vs Templates quiz</a> | <a href="/word/saving-and-save-as#ctrl-quiz">Saving and Save As quiz</a> | <a href="/word/formatting-text#ctrl-quiz">Formatting text quiz</a></li>

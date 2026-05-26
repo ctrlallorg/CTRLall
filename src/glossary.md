@@ -2,10 +2,10 @@
 title: Microsoft Office and Windows Glossary – Terms, Definitions and Visual Examples – Ctrl All
 layout: layout.liquid
 permalink: /glossary/
-description: A comprehensive glossary of Microsoft Office and Windows terms with definitions and visual examples. Covers terms from alignment and anchoring to wrapping and widows, including clipboard, file types, formatting marks, indents, OLE objects, styles, tab stops, rulers and more — with links to relevant tutorial articles throughout.
-asset_id: glossary-v1.0
+description: A comprehensive searchable glossary of Microsoft Office and Windows terms with definitions and visual examples. Covers terms from alignment and anchoring to wrapping and widows, including clipboard, file types, formatting marks, indents, OLE objects, styles, tab stops, rulers and more — with links to relevant tutorial articles throughout.
+asset_id: glossary-v2.0
 date: 2025-10-26
-last_modified: 2025-12-06
+last_modified: 2026-05-26
 type: glossary
 tags:
   - ctrlall.org
@@ -51,8 +51,16 @@ active: glossary
 </div>
 
 <h1>Glossary</h1>
-<!-- CTRL All glossary v1.0 -->
+<!-- CTRL All glossary v2.0 -->
 
+<!-- Search bar -->
+<div style="display:flex; align-items:center; gap:10px; margin:1.5rem 0;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#888; flex-shrink:0"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+  <input type="text" id="gl-input" oninput="filterGlossary()" placeholder="Search terms or definitions…" style="flex:1; padding:8px 12px; border:1px solid #ccc; border-radius:6px; font-size:15px; outline:none;">
+  <span id="gl-count" style="font-size:13px; color:#888; white-space:nowrap;"></span>
+</div>
+
+<!-- Visible table -->
 <div id="tooltip">
     <img />
 </div>
@@ -1204,3 +1212,47 @@ active: glossary
     </table>
   </template>
 </div>
+
+<script>
+function filterGlossary() {
+  const q = document.getElementById('gl-input').value.trim();
+  const ql = q.toLowerCase();
+  const rows = document.querySelectorAll('.hover-table tbody tr');
+  let visible = 0;
+
+  rows.forEach(tr => {
+    if (!tr.cells[0] || !tr.cells[1]) return;
+
+    if (!tr.cells[0].dataset.original) {
+      tr.cells[0].dataset.original = tr.cells[0].innerHTML;
+      tr.cells[1].dataset.original = tr.cells[1].innerHTML;
+    }
+
+    const termText = tr.cells[0].textContent.toLowerCase();
+    const defText  = tr.cells[1].textContent.toLowerCase();
+    const show = !q || termText.includes(ql) || defText.includes(ql);
+    tr.style.display = show ? '' : 'none';
+
+    if (show) {
+      visible++;
+      tr.cells[0].innerHTML = q ? highlightHTML(tr.cells[0].dataset.original, q) : tr.cells[0].dataset.original;
+      tr.cells[1].innerHTML = q ? highlightHTML(tr.cells[1].dataset.original, q) : tr.cells[1].dataset.original;
+    }
+  });
+
+  const countEl = document.getElementById('gl-count');
+  if (countEl) countEl.textContent = q ? `${visible} result${visible !== 1 ? 's' : ''}` : '';
+}
+
+function highlightHTML(html, q) {
+  const escaped = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp(`(${escaped})(?![^<]*>)`, 'gi');
+
+  return html.replace(re, (match, p1, offset, string) => {
+    const before = string.slice(0, offset);
+    const insideLink = before.split('<a ').length > before.split('</a>').length;
+    const colour = insideLink ? '#1e3a5f' : '#92400e';
+    return `<mark style="background:#fef3c7; color:${colour}; border-radius:2px; padding:0 1px;">${match}</mark>`;
+  });
+}
+</script>
