@@ -156,9 +156,20 @@ active: glossary
       <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls the column border of a multi-column table. See examples in this article: <a href="/word/indents">Indents</a></td>
     </tr>
     <tr>
+      <td id="compressed-file">Zip file / Compressed file</td>
+      <td>
+         <p>One or more files that have been compressed to reduce their size. Zipping files is common when saving storage space or complying with file size limits on email attachments; Outlook for example has a <a href="#file-size">file size</a> limit of 35MB. The most common format is .zip, though others exist such as .7z and .rar.</p>
+         <p>Compressed files need to be extracted before use. See this article for how: <a href="/content-control/unzipping-zipped-files/">Unzipping zipped files</a></p>
+         <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file icon large.png' | url }}" alt="Zip file icon medium view" style="max-width:70px; width:100%; height:auto; vertical-align:middle"></p>
+         <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file icon details.png' | url }}" alt="Zip file icon details view" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
+    </tr>
+    <tr>
       <td id="cursor">Cursor / Pointer</td>
-      <td>The cursor, also known as the pointer, is the arrow or symbol where your mouse or mousepad is currently pointing. It is used to select system files, menus, buttons, objects and content. In applications the cursor icon can change for different actions.
-      <img src="{{ '/assets/images/glossary/Cursor arrow icon.png' | url }}" alt="Cursor keys" style="display: block; max-width:30px; width:100%; height:auto; vertical-align:middle"></td>
+      <td>
+      <p>The cursor, also known as the pointer, is the arrow or symbol where your mouse or mousepad is currently pointing. It is used to select system files, menus, buttons, objects and content. In applications the cursor icon can change for different actions.</p>
+      <p><img src="{{ '/assets/images/glossary/Cursor arrow icon.png' | url }}" alt="Cursor keys" style="display: block; max-width:30px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
     </tr>
     <tr>
       <td id="cursor-keys">Cursor keys</td>
@@ -282,7 +293,7 @@ active: glossary
           </tr>
         </tbody>
       </table>
-      <p><u>Note</u>: Paragraph marks (hard returns), line breaks (soft returns), spaces and tabs are <a href="#formatting-marks">formatting marks</a>.</p>
+      <p><u>Note</u>: Paragraph marks (<a href="#hard-return">hard returns), line breaks (<a href="#soft-return">soft returns), spaces and <a href="#tab-stop">tabs</a> are <a href="#formatting-marks">formatting marks</a>.</p>
       </td>
     </tr>
     <tr>
@@ -324,7 +335,7 @@ active: glossary
           </tr>
         </tbody>
       </table>
-      <p><u>Note</u>: Page breaks, section breaks and hidden text are not formatting marks, they are <a href="#formatting-markers">formatting markers</a>.</p>
+      <p><u>Note</u>: <a href="#page-break">Page breaks</a>, <a href="#section-break">section breaks</a> and hidden text are not formatting marks, they are <a href="#formatting-markers">formatting markers</a>.</p>
       </td>
     </tr>
     <tr>
@@ -391,7 +402,7 @@ active: glossary
     <tr>
         <td id="keyboard-shortcut">Keyboard shortcut</td>
         <td>
-          <p>A combination of two or more keys held down simultaneously to run a command in Windows or a Microsoft Office application, typically as a faster alternative to using menus or the ribbon. See the <a href="/content-control/keyboard-shortcuts/" target="_blank">Keyboard shortcuts</a> page for a list of useful shortcuts, or test your knowledge with the <a href="/content-control/keyboard-shortcuts-quiz/" target="_blank">Keyboard shortcuts quiz</a>.</p>
+          <p>A combination of two or more keys held down simultaneously to run a command in Windows or a Microsoft Office application, typically as a faster alternative to using menus or the ribbon. See the <a href="/content-control/keyboard-shortcuts/">Keyboard shortcuts</a> page for a list of useful shortcuts, or test your knowledge with the <a href="/content-control/keyboard-shortcuts-quiz/">Keyboard shortcuts quiz</a>.</p>
           <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+C.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + C" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
         </td>
       </tr>
@@ -516,6 +527,13 @@ active: glossary
       <img class="border" src="{{ '/assets/images/glossary/Quick styles.png' | url }}" alt="Cursor keys" style="display: block; max-width:350px; width:100%; height:auto; vertical-align:middle"></td>
     </tr>
     <tr>
+      <td id="recycle-bin">Recycle bin</td>
+      <td>
+      <p>When you delete a file in Windows it's transferred to the Recycle Bin which is accessible from the desktop. Files can be restored to their original location if needed by <a href="#right-click-menu">right-clicking</a> a file(s) and selecting <strong>Restore</strong>, or you can delete them permanently, which frees up space on your hard drive. Be careful not to permanently delete anything you might need later; data retrieval tools exist but recovery is not always guaranteed.</p>
+      <p><img class="border" src="{{ '/assets/images/glossary/Recycle bin.png' | url }}" alt="Recycle bin icon" style="display: block; max-width:77px; width:100%; height:auto; vertical-align:middle"></td></p>
+      </td>
+    </tr>
+    <tr>
       <td id="redo">Redo</td>
       <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+Y.png' | url }}">Option to repeat the last action. The opposite of <a href="#undo">undo</a>. Keyboard shortcut: <strong>Ctrl + Y</strong></td>
     </tr>
@@ -569,6 +587,14 @@ active: glossary
     <tr>
       <td id="selection-frame">Selection frame</td>
       <td>When an image or object is selected a selection frame appears around it with tools to alter it in terms of size, rotation and/or dimensions. Selection frames are discussed more in this article: <a href="/word/altering-images-and-objects/">Altering images and objects</a></td>
+    </tr>
+    <tr>
+    <td id="shortcut">Shortcut (file) / File shortcut</td>
+      <td>
+        <p>A file that acts as a link to open another file, folder, or application from a different location without moving the original. In Windows, shortcut icons have a small arrow in the bottom-left corner. Shortcuts are normally placed on the desktop for quick access but can be added to folders as well.</p>
+        <p>To make a shortcut file, right-click on the destination file or folder and select <strong>Show more options > Create shortcut</strong> to make one. Not to be confused with a <a href="#keyboard-shortcut">keyboard shortcut</a>.</p>
+        <p><img src="{{ '/assets/images/glossary/Shortcut icon.png' | url }}" alt="Shortcut icon with small arrow indicator" style="display: block; max-width:106px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
     </tr>
     <tr>
       <td id="sizing-handles">Sizing handles</td>
@@ -778,10 +804,20 @@ active: glossary
         <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls the column border of a multi-column table. See examples in this article: <a href="/word/indents">Indents</a></td>
       </tr>
       <tr>
-        <td id="cursor">Cursor / Pointer</td>
-        <td>The cursor, also known as the pointer, is the arrow or symbol where your mouse or mousepad is currently pointing. It is used to select system files, menus, buttons, objects and content. In applications the cursor icon can change for different actions.
-        <img src="{{ '/assets/imagesCursor arrow icon.png' | url }}" alt="Cursor keys" style="display: block; max-width:30px; width:100%; height:auto; vertical-align:middle"></td>
-      </tr>
+        <td id="compressed-file">Zip file / Compressed file</td>
+        <td>
+          <p>One or more files that have been compressed to reduce their size. Zipping files is common when saving storage space or complying with file size limits on email attachments; Outlook for example has a <a href="#file-size">file size</a> limit of 35MB. The most common format is .zip, though others exist such as .7z and .rar.</p>
+          <p>Compressed files need to be extracted before use. See this article for how: <a href="/content-control/unzipping-zipped-files/">Unzipping zipped files</a></p>
+          <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file icon large.png' | url }}" alt="Zip file icon medium view" style="max-width:70px; width:100%; height:auto; vertical-align:middle"></p>
+          <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file icon details.png' | url }}" alt="Zip file icon details view" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+        </td>
+     </tr>
+      <tr>
+      <td id="cursor">Cursor / Pointer</td>
+      <td><p>The cursor, also known as the pointer, is the arrow or symbol where your mouse or mousepad is currently pointing. It is used to select system files, menus, buttons, objects and content. In applications the cursor icon can change for different actions.</p>
+      <p><img src="{{ '/assets/images/glossary/Cursor arrow icon.png' | url }}" alt="Cursor keys" style="display: block; max-width:30px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
+    </tr>
       <tr>
         <td id="cursor-keys">Cursor keys</td>
         <td>The up, down, left and right buttons on your keyboard.
@@ -947,7 +983,7 @@ active: glossary
           </tr>
         </tbody>
       </table>
-      <p><u>Note</u>: Page breaks, section breaks and hidden text are not formatting marks, they are <a href="#formatting-markers">formatting markers</a>.</p>
+      <p><u>Note</u>: <a href="#page-break">Page breaks</a>, <a href="#section-break">section breaks</a> and hidden text are not formatting marks, they are <a href="#formatting-markers">formatting markers</a>.</p>
       </td>
     </tr>
     <tr>
@@ -1015,7 +1051,7 @@ active: glossary
       <tr>
         <td id="keyboard-shortcut">Keyboard shortcut</td>
         <td>
-          <p>A combination of two or more keys held down simultaneously to run a command in Windows or a Microsoft Office application, typically as a faster alternative to using menus or the ribbon. See the <a href="/content-control/keyboard-shortcuts/" target="_blank">Keyboard shortcuts</a> page for a list of useful shortcuts, or test your knowledge with the <a href="/content-control/keyboard-shortcuts-quiz/" target="_blank">Keyboard shortcuts quiz</a>.</p>
+          <p>A combination of two or more keys held down simultaneously to run a command in Windows or a Microsoft Office application, typically as a faster alternative to using menus or the ribbon. See the <a href="/content-control/keyboard-shortcuts/">Keyboard shortcuts</a> page for a list of useful shortcuts, or test your knowledge with the <a href="/content-control/keyboard-shortcuts-quiz/">Keyboard shortcuts quiz</a>.</p>
           <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+C.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + C" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
         </td>
       </tr>
@@ -1139,6 +1175,13 @@ active: glossary
       <img class="border" src="{{ '/assets/imagesQuick styles.png' | url }}" alt="Cursor keys" style="display: block; max-width:350px; width:100%; height:auto; vertical-align:middle"></td>
     </tr>
     <tr>
+      <td id="recycle-bin">Recycle bin</td>
+      <td>
+      <p>When you delete a file in Windows it's transferred to the Recycle Bin which is accessible from the desktop. Files can be restored to their original location if needed by <a href="#right-click-menu">right-clicking</a> a file(s) and selecting <strong>Restore</strong>, or you can delete them permanently, which frees up space on your hard drive. Be careful not to permanently delete anything you might need later; data retrieval tools exist but recovery is not always guaranteed.</p>
+      <p><img class="border" src="{{ '/assets/images/glossary/Recycle bin.png' | url }}" alt="Recycle bin icon" style="display: block; max-width:77px; width:100%; height:auto; vertical-align:middle"></td></p>
+      </td>
+    </tr>
+    <tr>
       <td id="redo">Redo</td>
       <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+Y.png' | url }}">Option to repeat the last action. The opposite of <a href="#undo">undo</a>. Keyboard shortcut: <strong>Ctrl + Y</strong></td>
     </tr>
@@ -1191,6 +1234,13 @@ active: glossary
     <tr>
       <td id="selection-frame">Selection frame</td>
       <td>When an image or object is selected a selection frame appears around it with tools to alter it in terms of size, rotation and/or dimensions. Selection frames are discussed more in this article: <a href="/word/altering-images-and-objects/">Altering images and objects</a></td>
+    </tr>
+    <td id="shortcut">Shortcut (file) / File shortcut</td>
+      <td>
+        <p>A file that acts as a link to open another file, folder, or application from a different location without moving the original. In Windows, shortcut icons have a small arrow in the bottom-left corner. Shortcuts are normally placed on the desktop for quick access but can be added to folders as well.</p>
+        <p>To make a shortcut file, right-click on the destination file or folder and select <strong>Show more options > Create shortcut</strong> to make one. Not to be confused with a <a href="#keyboard-shortcut">keyboard shortcut</a>.</p>
+        <p><img src="{{ '/assets/images/glossary/Shortcut icon.png' | url }}" alt="Shortcut icon with small arrow indicator" style="display: block; max-width:106px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
     </tr>
     <tr>
       <td id="sizing-handles">Sizing handles</td>
@@ -1314,6 +1364,16 @@ active: glossary
 </div>
 
 <script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.hover-table a, .tooltip-wrapper a').forEach(link => {
+    const href = link.getAttribute('href');
+    if (href && !href.startsWith('#')) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+});
+
 document.addEventListener('click', function(e) {
   const link = e.target.closest('a');
   if (!link) return;
