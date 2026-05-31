@@ -550,6 +550,18 @@ active: content-control
       <td>Ctrl + H</td>
       <td>Find and Replace text</td>
     </tr>
+    <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+L.png' | url }}">
+      <td>Ctrl + L</td>
+      <td>Left align content</td>
+    </tr>
+    <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+E.png' | url }}">
+      <td>Ctrl + E</td>
+      <td>Centre align content</td>
+    </tr>
+    <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+R.png' | url }}">
+      <td>Ctrl + R</td>
+      <td>Right align content</td>
+    </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+B.png' | url }}">
       <td>Ctrl + B</td>
       <td>Bold selected text</td>
