@@ -234,7 +234,7 @@ active: glossary
     <tr>
     <tr>
       <td id="first-line-indent">First-line indent</td>
-      <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls either where the first line of a paragraph starts or a bullet/number starts in a list. See examples in this article: <a href="/word/indents">Indents</a></td>
+      <td>An <a href="#indent-markers">indent marker</a> found on the horizontal <a href="#ruler">ruler</a> that controls either where the first line of a paragraph starts or a bullet/number starts in a list. See examples in this article: <a href="/word/indents">Indents</a></td>
     </tr>
     <tr>
       <td id="floating-image">Floating image</td>
@@ -357,7 +357,7 @@ active: glossary
     </tr>
     <tr>
       <td id="hanging-indent">Hanging indent</td>
-      <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls the position of all lines in a paragraph except for the first line. See examples in this article: <a href="/word/indents">Indents</a></td>
+      <td>An <a href="#indent-markers">indent marker</a> found on the horizontal <a href="#ruler">ruler</a> that controls the position of all lines in a paragraph except for the first line. See examples in this article: <a href="/word/indents">Indents</a></td>
     </tr>
     <tr>
       <td id="hard-return">Hard return</td>
@@ -379,11 +379,12 @@ active: glossary
     </tr>
     <tr>
       <td id="indent">Indent</td>
-      <td>Space between a line of content and the <a href="#margin">margin</a>. You can add indents by pressing <strong>Tab</strong> or increase and decrease them via <strong>Home > Paragraph > Increase/Decrease Indent</strong>. The finer details of indents can be controlled by dragging indent markers on the horizontal <a href="#ruler">ruler</a>, see examples in this article: <a href="/word/indents">Indents</a>. It is also possible to drag the left margin or right margin beyond the margin of a page, known as a negative margin.</td>
+      <td>Space between a line of content and the <a href="#margin">margin</a>. You can add indents by pressing <strong>Tab</strong> or increase and decrease them via <strong>Home > Paragraph > Increase/Decrease Indent</strong>. The finer details of indents can be controlled by dragging <a href="#indent-markers">indent markers</a> on the horizontal <a href="#ruler">ruler</a>, see examples in this article: <a href="/word/indents">Indents</a>. It is also possible to drag the left margin or right margin beyond the margin of a page, known as a negative margin.</td>
     </tr>
-    <td id="indent-markers">Indent markers</td>
-        <td>Indent markers are found on the horizontal <a href="#ruler">ruler</a> when content is selected. Have a look at examples and interactivities in this article: <a href="/word/indents">Indents</a>.</td>
-      </tr>
+    <tr>
+        <td id="indent-markers">Indent markers</td>
+        <td>Indent markers are found on the horizontal <a href="#ruler">ruler</a> when content is selected. There are different indent markers (<a href="#first-line-indent">First-line indent</a>, <a href="#hanging-indent">Hanging indent</a>, <a href="#left-indent">Left indent</a> and <a href="#column-boundary-marker">Column boundary marker</a>) that control the horizontal position of different parts of text or tables. Have a look at examples and interactivities in this article: <a href="/word/indents">Indents</a>.</td>
+    </tr>
     <tr>
       <td id="insertion-point">Insertion point</td>
       <td>
@@ -413,7 +414,7 @@ active: glossary
       </tr>
     <tr>
       <td id="left-indent">Left indent</td>
-      <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls where the whole paragraph starts, or, in a list where both the bullet/number and content after starts. See examples in this article: <a href="/word/indents">Indents</a></td>
+      <td>An <a href="#indent-markers">indent marker</a> found on the horizontal <a href="#ruler">ruler</a> that controls where the whole paragraph starts, or, in a list where both the bullet/number and content after starts. See examples in this article: <a href="/word/indents">Indents</a></td>
     </tr>
     <tr>
       <td id="line-numbers">Line numbers</td>
@@ -879,10 +880,10 @@ active: glossary
       <td id="find-and-replace">Find and replace</td>
       <td>An extension of the <a href="#find">Find</a> tool that lets you replace found text with something else — either one match at a time or all instances at once. You can specify formatting in both what you search for and what you replace it with. Keyboard shortcut: <strong>Ctrl + H</strong></td>
     </tr>
-      <tr>
-        <td id="first-line-indent">First-line indent</td>
-        <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls either where the first line of a paragraph starts or a bullet/number starts in a list. See examples in this article: <a href="/word/indents">Indents</a></td>
-      </tr>
+    <tr>
+      <td id="first-line-indent">First-line indent</td>
+      <td>An <a href="#indent-markers">indent marker</a> found on the horizontal <a href="#ruler">ruler</a> that controls either where the first line of a paragraph starts or a bullet/number starts in a list. See examples in this article: <a href="/word/indents">Indents</a></td>
+    </tr>
       <tr>
         <td id="floating-image">Floating image</td>
         <td>A floating image is one that is able to move freely on the page independent of the text on it. This is set by layout options and wrapping. Floating images have an <a href="#anchor">anchor</a> which links them to a particular paragraph. See the different types of wrap options to make an image float here: <a href="/word/altering-images-and-objects/#layout-options">Layout options</a></td>
@@ -1005,63 +1006,67 @@ active: glossary
      <p><img class="thumbnail" src="{{ '/assets/images/glossary/Gutter.png' | url }}"  alt="Guttering options" style="max-width:375px; width:100%; height:auto; vertical-align:middle">
       </p></td>
     </tr>
-      <tr>
-        <td id="hanging-indent">Hanging indent</td>
-        <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls the position of all lines in a paragraph except for the first line. See examples in this article: <a href="/word/indents">Indents</a></td>
-      </tr>
-      <tr>
-        <td id="hard-return">Hard return</td>
-        <td>When typing pressing <strong>Enter</strong> will create a hard return that starts a new paragraph. In lists, it will create a new bullet/list number, see <a href="/word/lists-soft-hard-returns/">Lists: Soft and hard returns</a> for examples. Another type of return is a <a href="#soft-return">soft return</a>.</td>
-      </tr>
-      <tr>
-        <td id="header">Header</td>
-        <td><p>Content placed at the top of each page to help the reader navigate, identify or understand the context of the page or document. For example a chapter/unit/section title might be something you find in a header.</p>
-        <p>To access the header space either double click on the <a href="#margin">margin</a> at the top of the page or go to <strong>Insert > Header & Footer > Header</strong>.</p>
-        <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Header.png' | url }}" alt="Header in Word" style="display: block; max-width:650px; width:100%; height:auto; vertical-align:middle"></p></td></td>
-      </tr>
-      <tr>
-        <td id="highlight-formatting">Highlight (<a href="#formatting">formatting</a>)</td>
-        <td>The highlight tool can be found under Home > Font. It applies a highlight colour behind selected text.</td>
-      </tr>
-      <tr>
-        <td id="highight-selected-content">Highlight (selected content)</td>
-        <td>When text is selected it will be highlighted with a grey background to show what you have selected. Note: Another kind of highlight exists when formatting text which changes the background colour of text, see <a href="#highlight formatting">Highlight (formatting)</a>.</td>
-      </tr>
-      <tr>
-        <td id="indent">Indent</td>
-        <td>Space between a line of content and the <a href="#margin">margin</a>. You can add indents by pressing <strong>Tab</strong> or increase and decrease them via <strong>Home > Paragraph > Increase/Decrease Indent</strong>. The finer details of indents can be controlled by dragging <a href="#indent markers">indent markers</a> on the horizontal <a href="#ruler">ruler</a>, see examples in this article: <a href="/word/indents">Indents</a>. It is also possible to drag the left margin or right margin beyond the margin of a page, known as a negative margin.</td>
-      </tr>
+    <tr>
+      <td id="hanging-indent">Hanging indent</td>
+      <td>An <a href="#indent-markers">indent marker</a> found on the horizontal <a href="#ruler">ruler</a> that controls the position of all lines in a paragraph except for the first line. See examples in this article: <a href="/word/indents">Indents</a></td>
+    </tr>
+    <tr>
+     <td id="hard-return">Hard return</td>
+      <td>When typing pressing <strong>Enter</strong> will create a hard return that starts a new paragraph. In lists, it will create a new bullet/list number, see <a href="/word/lists-soft-hard-returns/">Lists: Soft and hard returns</a> for examples. Another type of return is a <a href="#soft-return">soft return</a>.</td>
+    </tr>
+    <tr>
+      <td id="header">Header</td>
+      <td><p>Content placed at the top of each page to help the reader navigate, identify or understand the context of the page or document. For example a chapter/unit/section title might be something you find in a header.</p>
+      <p>To access the header space either double click on the <a href="#margin">margin</a> at the top of the page or go to <strong>Insert > Header & Footer > Header</strong>.</p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Header.png' | url }}" alt="Header in Word" style="display: block; max-width:650px; width:100%; height:auto; vertical-align:middle"></p></td></td>
+    </tr>
+    <tr>
+      <td id="highlight-formatting">Highlight (<a href="#formatting">formatting</a>)</td>
+      <td>The highlight tool can be found under Home > Font. It applies a highlight colour behind selected text.</td>
+    </tr>
+    <tr>
+      <td id="highight-selected-content">Highlight (selected content)</td>
+      <td>When text is selected it will be highlighted with a grey background to show what you have selected. Note: Another kind of highlight exists when formatting text which changes the background colour of text, see <a href="#highlight formatting">Highlight (formatting)</a>.</td>
+    </tr>
+    <tr>
+      <td id="indent">Indent</td>
+      <td>Space between a line of content and the <a href="#margin">margin</a>. You can add indents by pressing <strong>Tab</strong> or increase and decrease them via <strong>Home > Paragraph > Increase/Decrease Indent</strong>. The finer details of indents can be controlled by dragging <a href="#indent-markers">indent markers</a> on the horizontal <a href="#ruler">ruler</a>, see examples in this article: <a href="/word/indents">Indents</a>. It is also possible to drag the left margin or right margin beyond the margin of a page, known as a negative margin.</td>
+    </tr>
+    <tr>
       <td id="indent-markers">Indent markers</td>
-        <td>Indent markers are found on the horizontal <a href="#ruler">ruler</a> when content is selected. Have a look at examples and interactivities in this article: <a href="/word/indents">Indents</a>.</td>
-      </tr>
-      <tr>
-        <td id="insertion-point">Insertion point</td>
-        <td>
-          <p>A flashing vertical line in an editable area that indicates where you are about to type or edit on the page. You can move this by clicking elsewhere with the <a href="#cursor">cursor</a> or moving it with <a href="#cursor-keys">cursor keys</a> on your keyboard.</p>
-          <div style="display: flex; gap: 1em;">
+      <td>Indent markers are found on the horizontal <a href="#ruler">ruler</a> when content is selected. There are different indent markers (<a href="#first-line-indent">First-line indent</a>, <a href="#hanging-indent">Hanging indent</a>, <a href="#left-indent">Left indent</a> and <a href="#column-boundary-marker">Column boundary marker</a>) that control the horizontal position of different parts of text or tables. Have a look at examples and interactivities in this article: <a href="/word/indents">Indents</a>.</td>
+    </tr>
+    <tr>
+      <td id="insertion-point">Insertion point</td>
+      <td>
+         <p>A flashing vertical line in an editable area that indicates where you are about to type or edit on the page. You can move this by clicking elsewhere with the <a href="#cursor">cursor</a> or moving it with <a href="#cursor-keys">cursor keys</a> on your keyboard.</p>
+         <div style="display: flex; gap: 1em;">
             <img src="/assets/images/glossary/Insertion point example 1.gif" style="display: block; max-width:150px; width:100%; height:auto; vertical-align:middle">
             <img src="/assets/images/glossary/Insertion point example 2.gif" style="display: block; max-width:150px; width:100%; height:auto; vertical-align:middle">
-          </div>
+        </div>
       </td>
-      <tr>
-        <td id="kerning">Kerning</td>
-        <td><p>Kerning is about adjusting the spacing between individual letters in a word to improve visual balance and readability. For example kerning may be used to bring adjacent letters like '<strong>A</strong>' and '<strong>V</strong>' closer together so they look evenly spaced. Kerning is key to typography in headlines, logos, and display type. If done poorly though kerning can lead to word being misinterpreted, e.g. if you put '<strong>r</strong>' and '<strong>n</strong>' to close together they can appear like an '<strong>m</strong>'.</p>
-        <p><img src="{{ '/assets/images/glossary/Kerning.png' | url }}"  alt="Kerning example" style="display: block; max-width:275px; width:100%; height:auto; vertical-align:middle"></p></td>
-      </tr>
-      <tr>
-        <td id="keyboard-shortcut">Keyboard shortcut</td>
-        <td>
-          <p>A combination of two or more keys held down simultaneously to run a command in Windows or a Microsoft Office application, typically as a faster alternative to using menus or the ribbon. See the <a href="/content-control/keyboard-shortcuts/">Keyboard shortcuts</a> page for a list of useful shortcuts, or test your knowledge with the <a href="/content-control/keyboard-shortcuts-quiz/">Keyboard shortcuts quiz</a>.</p>
-          <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+C.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + C" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
-        </td>
-      </tr>
-      <tr>
-        <td id="leader">Leader</td>
-        <td>Leaders are a filler pattern that appears between one point and a <a href="#tab-stop">tab stop</a>. When pressing tab Word will add the leader in automatically. You'll most likely recognise leaders from a table of contents but they're also using in forms, menus and other lists. See examples further below.</p>
-        <p><img src="{{ '/assets/images/glossary/Leader examples.png' | url }}"  alt="Leader examples" style="display: block; max-width:500px; width:100%; height:auto; vertical-align:middle"></p></td>
-      </tr>
+    </tr>
+    <tr>
+      <td id="kerning">Kerning</td>
+      <td><p>Kerning is about adjusting the spacing between individual letters in a word to improve visual balance and readability. For example kerning may be used to bring adjacent letters like '<strong>A</strong>' and '<strong>V</strong>' closer together so they look evenly spaced. Kerning is key to typography in headlines, logos, and display type. If done poorly though kerning can lead to word being misinterpreted, e.g. if you put '<strong>r</strong>' and '<strong>n</strong>' to close together they can appear like an '<strong>m</strong>'.</p>
+      <p><img src="{{ '/assets/images/glossary/Kerning.png' | url }}"  alt="Kerning example" style="display: block; max-width:275px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
+    </tr>
+    <tr>
+      <td id="keyboard-shortcut">Keyboard shortcut</td>
+      <td>
+        <p>A combination of two or more keys held down simultaneously to run a command in Windows or a Microsoft Office application, typically as a faster alternative to using menus or the ribbon. See the <a href="/content-control/keyboard-shortcuts/">Keyboard shortcuts</a> page for a list of useful shortcuts, or test your knowledge with the <a href="/content-control/keyboard-shortcuts-quiz/">Keyboard shortcuts quiz</a>.</p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+C.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + C" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
+    </tr>
+    <tr>
+      <td id="leader">Leader</td>
+      <td>Leaders are a filler pattern that appears between one point and a <a href="#tab-stop">tab stop</a>. When pressing tab Word will add the leader in automatically. You'll most likely recognise leaders from a table of contents but they're also using in forms, menus and other lists. See examples further below.</p>
+      <p><img src="{{ '/assets/images/glossary/Leader examples.png' | url }}"  alt="Leader examples" style="display: block; max-width:500px; width:100%; height:auto; vertical-align:middle"></p></td>
+    </tr>
+    <tr>
       <td id="left-indent">Left indent</td>
-      <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls where the whole paragraph starts, or, in a list where both the bullet/number and content after starts. See examples in this article: <a href="/word/indents">Indents</a></td>
+      <td>An <a href="#indent-markers">indent marker</a> found on the horizontal <a href="#ruler">ruler</a> that controls where the whole paragraph starts, or, in a list where both the bullet/number and content after starts. See examples in this article: <a href="/word/indents">Indents</a></td>
     </tr>
     <tr>
       <td id="line-numbers">Line numbers</td>
