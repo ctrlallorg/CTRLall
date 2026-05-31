@@ -135,51 +135,51 @@ active: content-control
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Win+V.png' | url }}">
       <td>Windows + V</td>
-      <td>Open Clipboard History to see everything copied to the virtual clipboard.</td>
+      <td>Open Clipboard History to see everything copied to the virtual clipboard</td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Win+Shift+S.png' | url }}">
       <td>Windows + Shift + S</td>
-      <td>Take a screenshot.</td>
+      <td>Take a screenshot</td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Win+Shift+M.png' | url }}">
       <td>Windows + Shift + M</td>
-      <td>Restores all minimised windows.</td>
+      <td>Restores all minimised windows</td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Win+U.png' | url }}">
       <td>Windows + U</td>
-      <td>Open Accessibility settings.</td>
+      <td>Open Accessibility settings</td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+Shift+Esc.png' | url }}">
       <td>Ctrl + Shift + Esc</td>
-      <td>Open Task Manager.</td>
+      <td>Open Task Manager</td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Win+W.png' | url }}">
       <td>Ctrl + W</td>
-      <td>Close the current window/tab/document.</td>
+      <td>Close the current window/tab/document</td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Alt+F4.png' | url }}">
       <td>Alt + F4</td>
-      <td>Close the current app.</td>
+      <td>Close the current app</td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+Shift+N.png' | url }}">
       <td>Ctrl + Shift + N</td>
-      <td>Create a new folder.</td>
+      <td>Create a new folder</td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+T.png' | url }}">
       <td>Ctrl + T</td>
-      <td>Create new tab (File Explorer + browsers).</td>
+      <td>Create new tab (File Explorer + browsers)</td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+Shift+T.png' | url }}">
       <td>Ctrl + Shift + T</td>
-      <td>Reopen last closed tab (File Explorer + browsers).</td>
+      <td>Reopen last closed tab (File Explorer + browsers)</td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Win+Ctrl+D.png' | url }}">
       <td>Windows + Ctrl + D</td>
-      <td>Create a new virtual desktop.</td>
+      <td>Create a new virtual desktop</td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Win+Ctrl+leftright.png' | url }}">
       <td>Windows + Ctrl + Left / Right Arrow</td>
-      <td>Switch between virtual desktops.</td>
+      <td>Switch between virtual desktops</td>
     </tr>
   </tbody>
 </table>
@@ -417,14 +417,6 @@ active: content-control
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+E.png' | url }}">
       <td>Ctrl + E</td>
       <td>Flash fill</td>
-    </tr>
-    <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl++.png' | url }}">
-      <td>Ctrl + + (plus)</td>
-      <td>Zoom in</td>
-    </tr>
-    <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+-.png' | url }}">
-      <td>Ctrl + - (minus)</td>
-      <td>Zoom out</td>
     </tr>
   </tbody>
 </table>
