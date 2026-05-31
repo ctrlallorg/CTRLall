@@ -27,7 +27,7 @@ active: content-control
 
 <section class="section-light">
 
-<p>Here's some keyboard shortcuts that are genuinely useful for everyday use.</p>
+<p>Search for actions to find the keyboard shortcut you need:</p>
 
 <!-- Search bar -->
 <div style="display:flex; align-items:center; gap:10px; margin:1.5rem 0 0.75rem;">
