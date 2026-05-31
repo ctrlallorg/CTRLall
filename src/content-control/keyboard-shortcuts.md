@@ -659,17 +659,17 @@ active: content-control
       <td>Ctrl + V</td>
       <td>Paste the copied or cut content from the clipboard</td>
     </tr>
-    <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+F.png' | url }}">
-      <td>Ctrl + F</td>
-      <td>Find (search in an email)</td>
-    </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+E.png' | url }}">
       <td>Ctrl + E</td>
       <td>Find (search in mailbox)</td>
     </tr>
-    <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Question mark.png' | url }}">
-      <td>?</td>
-      <td>Show a full list of shortcuts</td>
+    <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+F.png' | url }}">
+      <td>Ctrl + F</td>
+      <td>Find (search in an email)</td>
+    </tr>
+    <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+H.png' | url }}">
+      <td>Ctrl + H</td>
+      <td>Find and replace (in an email)</td>
     </tr>
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+Q.png' | url }}">
       <td>Ctrl + Q</td>
@@ -722,6 +722,10 @@ active: content-control
     <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+K.png' | url }}">
       <td>Ctrl + K</td>
       <td>Insert hyperlink</td>
+    </tr>
+    <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Question mark.png' | url }}">
+      <td>?</td>
+      <td>Show a full list of shortcuts (in mailbox)</td>
     </tr>
   </tbody>
 </table>
