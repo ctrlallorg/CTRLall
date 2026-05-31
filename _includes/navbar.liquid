@@ -411,9 +411,22 @@
           Saving and Save As
         </a>
       </li>
+      <li>
+        <a href="{{ '/content-control/keyboard-shortcuts/#powerpoint-keyboard-shortcuts' | url }}" 
+        class="{% if page.url == '/content-control/keyboard-shortcuts/#powerpoint-keyboard-shortcuts' %}active{% endif %}">PowerPoint Keyboard Shortcuts</a>
+      </li>
     </ul>
   </li>
 
+  <!-- Outlook Section -->
+  <li>
+    <button class="nav-toggle {% if active == 'outlook' %}active expanded{% endif %}" data-section="outlook" aria-expanded="{% if active == 'outlook' %}true{% else %}false{% endif %}" aria-controls="nav-outlook">
+      Outlook <span class="arrow"></span>
+    </button>
+    <ul id="nav-outlook" class="nav-level-2 {% if active == 'outlook' %}show{% endif %}">
+      <li><a href="{{ '/content-control/keyboard-shortcuts/#outlook-keyboard-shortcuts' | url }}" class="{% if page.url == '/content-control/keyboard-shortcuts/#outlook-keyboard-shortcuts' %}active{% endif %}">Outlook Keyboard Shortcuts</a></li>
+    </ul>
+  </li>
 
 <!-- Glossary Section -->
 <li>
