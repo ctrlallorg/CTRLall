@@ -27,7 +27,7 @@ active: content-control
 
 <section class="section-light">
 
-<p>Search for actions to find the keyboard shortcut you need:</p>
+<p>Search for actions or a keyboard shortcut to find what you need:</p>
 
 <!-- Search bar -->
 <div style="display:flex; align-items:center; gap:10px; margin:1.5rem 0 0.75rem;">
