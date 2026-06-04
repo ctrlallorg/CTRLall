@@ -61,7 +61,7 @@ active: word
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Line numbers/Line numbers example restart each page.png' | url }}"  alt="Line numbers example restarting on a new page" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h4>Restart Each Section</h4>
-<p>Same as above except applied to sections in your document rather than pages. You'll need to have <span class="glossary-hover" data-term="section-break">section breaks</span> set up which are explored in this article: <a href="/word/section-breaks/">Section breaks</a>.</p>
+<p>Same as above except applied to <span class="glossary-hover" data-term="section">sections</span> in your document rather than pages. You'll need to have <span class="glossary-hover" data-term="section-break">section breaks</span> set up which are explored in this article: <a href="/word/section-breaks/">Section breaks</a>.</p>
 
 <h4>Suppress for Current Paragraph</h4>
 <p>This option lets you leaves a gap in the line numbers for a selected paragraph(s). Select the paragraph(s) first then select this option and the line numbers besides it will disappear and continue on lines after it.</p>
