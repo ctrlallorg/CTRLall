@@ -40,18 +40,21 @@ active: word
 <p>Section breaks are similar to <a href="/word/page-breaks/">page breaks</a> but slightly more complex.</p>
 
 <h2>What is a section break?</h2>
-<p>Section breaks allow for advanced-level formatting of documents; they divide a document up into sections to which you can then apply differing formatting, styles, headers and footers, page size, orientation and layout, and more, without affecting the rest of the document outside that section. </p> 
-<p>One common use for section breaks is when you need one or two pages to be landscape in a document of portrait pages, e.g. a report where you want to need to fit a large table, diagram or graph lengthways.</p>
+<p>Section breaks allow for advanced-level formatting of documents; they divide a document up into sections to which you can then apply differing formatting, styles, <span class="glossary-hover" data-term="header">headers</span> and <span class="glossary-hover" data-term="footer">footers</span>, page size, orientation and layout, and more, without affecting the rest of the document outside that section. </p> 
+<p>One common use for section breaks is when you need one or two pages to be landscape in a document of portrait pages, e.g. a report where you need to fit a large table, diagram or graph lengthways.</p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break example portrait landscape mix.png' | url }}"  alt="Section break example over two pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2>I can’t find any section breaks</h2>
-That’s because they’re hidden by default. To make formatting marks like these visible go to <strong>Home > Show/Hide ¶</strong> and the section break will appear on the page.
+<p>That’s because they’re hidden by default. To make formatting marks like these visible go to <strong>Home > Show/Hide ¶</strong> and the section break will appear on the page.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Show Hide non-printing formatting marks.png' | url }}"  alt="Home Show non-printing formatting markers on ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break example.png' | url }}"  alt="Section break example over two pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2 id="remove-section-break">How do you remove a section break</h2>
-<p>With formatting marks switched on (<strong>Home > Show/Hide ¶</strong>), locate the section break and either select it by dragging, or click just before it, then delete.</p>
+<p>First make formatting marks visible (<strong>Home > Show/Hide ¶</strong>):</p>
+<p><img class="thumbnail border left" src="{{ '/assets/images/word/Section breaks/Show Hide non-printing formatting marks.png' | url }}"  alt="Home Show non-printing formatting markers on ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
+<p>Then locate the section break and either select it by dragging, or click just before it, then delete.</p>
 <p><u>Note</u>: The content will respond based on the type of section break you have and where the content was. For example if you had a 'Next Page' type section break content will shift up from the following page.</p>
-<p>However this is actually where things can get a bit tricky. If you have more than one section break in your document then the next section will take on any formatting the section after it has which could include anything e.g. all pages suddenly switch to landscape orientation. Typically if you’ve got a document laden with section breaks you may need to do some surgery removing certain section breaks or maybe even all of them and starting again with a clean slate.</p>
+<p>However this is actually where things can get a bit tricky. If you have more than one section break in your document then the next section will take on <u>any formatting the section <em>after</em> it has</u>, which could include anything e.g. all pages suddenly switch to landscape orientation. Typically if you’ve got a document laden with section breaks you may need to do some surgery removing certain section breaks and fixing the formatting, or maybe even remove all of them and start again with a clean slate.</p>
 
 <h2>How do you insert a section break?</h2>
 <p>Go to the <strong>Layout > Breaks</strong> drop down menu and you’ll see four section break options listed there.</p>
@@ -88,15 +91,15 @@ That’s because they’re hidden by default. To make formatting marks like thes
     </tbody>
 </table>
 </div>
-<p>Choose the one that’s right for you document. Typically you’ll use <strong>Next Page</strong>.</p>
+<p>Choose the one that’s right for your document. <strong>Next Page</strong> tends to be the simplest to use.</p>
 
 <h3>Continuous section breaks</h3>
 <p>Continuous section breaks are a little different, some features work immediately after the section break on the page, others work on the next page after it.</p>
-<h4>Features that apply immediately after a continuous section break (same page)</h4>
+<h4>Features that apply immediately after a continuous section break (on the same page)</h4>
 <ul>
     <li>Columns (change layout mid-page from single column to two-column layout)</li>
     <li>Margins</li>
-    <li>Line numbering</li>
+    <li>Line numbering (example below)</li>
     <li>Language settings</li>
 </ul>
 <figure class="figure">
@@ -108,9 +111,9 @@ That’s because they’re hidden by default. To make formatting marks like thes
 
 <h4>Features that apply from the next page after a continuous section break</h4>
 <ul>
-    <li>Page orientation (e.g. change to landscape)</li>
+    <li>Page orientation (e.g. change to landscape, example below)</li>
     <li>Page size</li>
-    <li>Headers</li>
+    <li>Headers (examples below)</li>
     <li>Footers (e.g. page numbering)</li>
     <li>Footnote and endnote layout (numbering, position)</li>
     <li>Page backgrounds</li>
@@ -127,12 +130,21 @@ That’s because they’re hidden by default. To make formatting marks like thes
 </figure>
 
 <figure class="figure">
+ <img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break example appendix headers.png' | url }}"  alt="Section break headers in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle">
+  <figcaption class="figcaption">
+    Headers spanning sections e.g. chapters, units, appendices etc. (click to enlarge)
+  </figcaption>
+</figure>
+
+<figure class="figure">
  <img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break headers.png' | url }}"  alt="Section break headers in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
   <figcaption class="figcaption">
-    Differing headers due to separate sections
+    Example of differing formatting on headers
   </figcaption>
 </figure>
 </section>
+
+<p>Always proceed with caution when editing existing section breaks in a document as they can be unforgiving.</p>
 
 <div class="article-share">
 {% include "share-menu.liquid" %}
