@@ -64,7 +64,7 @@ active: word
 <p>Same as above except applied to <span class="glossary-hover" data-term="section">sections</span> in your document rather than pages. You'll need to have <span class="glossary-hover" data-term="section-break">section breaks</span> set up which are explored in this article: <a href="/word/section-breaks/">Section breaks</a>.</p>
 
 <h4>Suppress for Current Paragraph</h4>
-<p>This option lets you leaves a gap in the line numbers for a selected paragraph(s). Select the paragraph(s) first then select this option and the line numbers besides it will disappear and continue on lines after it.</p>
+<p>This option lets you leave a gap in the line numbers for a selected paragraph(s). Select the paragraph(s) first then select this option and the line numbers besides it will disappear and continue on lines after it.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Line numbers/Line numbers example suppress for current paragraph.png' | url }}"  alt="Example of line numbers suppressed" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h4>Line Numbering Options...</h4>
@@ -104,7 +104,7 @@ active: word
         </div>`,
       "Line-number-options-tooltip-3": `
         <div class="rich-tooltip">
-          <p><strong>From text</strong>: Determines the position of the line numbers on the page away from the text. The more you increase this the further left the numbers will move from the text. This is be set to <strong>Auto</strong> by default.</p>
+          <p><strong>From text</strong>: Determines the position of the line numbers on the page away from the text. The more you increase this the further left the numbers will move from the text. This is set to <strong>Auto</strong> by default.</p>
         </div>`,
       "Line-number-options-tooltip-4": `
         <div class="rich-tooltip">
