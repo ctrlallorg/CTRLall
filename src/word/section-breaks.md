@@ -37,7 +37,7 @@ active: word
 <section class="section-light">
 <p>We’re in advanced territory here so proceed with caution. Section breaks can get extremely messy if you don’t configure them properly or if your document has several section breaks with unique formatting.</p> 
 <p>If you consider yourself a beginner to Word then you’re likely here looking for how to get rid of a section break, if so see here: <a href="#remove-section-break">How do you remove a section break?</a></p> 
-<p>Section breaks are similar to <a href="/word/page-breaks/">page breaks</a> but slightly more complex.</p>
+<p>Section breaks are similar to <a href="/word/page-breaks/">page breaks</a> but slightly more complex. If you just want content to appear from the next page you need a page break.</p>
 
 <h2>What is a section break?</h2>
 <p>Section breaks allow for advanced-level formatting of documents; they divide a document up into sections to which you can then apply differing formatting, styles, <span class="glossary-hover" data-term="header">headers</span> and <span class="glossary-hover" data-term="footer">footers</span>, page size, orientation and layout, and more, without affecting the rest of the document outside that section. </p> 
