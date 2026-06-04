@@ -221,6 +221,7 @@ active: glossary
       <td id="draft-view">Draft view</td>
       <td>
         <p>A view in Microsoft Word that displays a document's content in a simplified, text-focused layout, hiding most layout elements that you would see in the default <a href="#print-layout">Print layout</a> such as <a href="#margin">margins</a>, <a href="#header">headers</a>, <a href="#footer">footers</a> and images. Unlike <a href="#read-mode">Read mode</a>, editing is enabled in Draft view. It can be useful for quickly writing and editing text without distractions from layout elements.</p>
+        <p><img class="thumbnail border"  src="{{ '/assets/images/word/Pages and Views/Draft view.png' | url }}" alt="Draft view in Microsoft Word"  style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
       </td>
     </tr>
     <tr>
@@ -570,6 +571,7 @@ active: glossary
       <td>
         <p>A view in Microsoft Word that displays a document's content in a structured, hierarchical layout based on <a href="#outline-level">outline levels</a>. It hides layout elements visible in the default <a href="#print-layout">Print layout</a> such as <a href="#margin">margins</a>, <a href="#header">headers</a>, <a href="#footer">footers</a> and images.</p>
         <p>Outline view is designed for structural editing of long documents. You can collapse and expand sections, promote and demote headings, and drag sections to reorder them.</p>
+        <p><img class="thumbnail border"  src="{{ '/assets/images/word/Pages and Views/Outline view.png' | url }}" alt="Outline view in Microsoft Word"  style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
       </td>
     </tr>
     <tr>
@@ -590,7 +592,9 @@ active: glossary
     </tr>
     <tr>
       <td id="print-layout">Print layout</td>
-      <td>The default view in Microsoft Word. Print layout shows how the document will look when printed. It displays the full page including <a href="#margin">margins</a>, <a href="#header">headers</a>, <a href="#footer">footers</a>, images, and <a href="#page-break">page breaks</a> exactly as they'll appear on paper. Print layout is best used when formatting and designing the layout of a document.</td>
+      <td>The default view in Microsoft Word. Print layout shows how the document will look when printed. It displays the full page including <a href="#margin">margins</a>, <a href="#header">headers</a>, <a href="#footer">footers</a>, images, and <a href="#page-break">page breaks</a> exactly as they'll appear on paper. Print layout is best used when formatting and designing the layout of a document.
+      <p><img class="thumbnail border"  src="{{ '/assets/images/word/Pages and Views/Print Layout.png' | url }}" alt="Print layout view in Microsoft Word"  style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
     </tr>
     <tr>
       <td id="quick-access-toolbar">Quick Access Toolbar</td>
@@ -610,6 +614,7 @@ active: glossary
       <td>
          <p>A view in Microsoft Word that displays a document's content in a simplified, text-focused layout, hiding most formatting elements that you would see in the default <a href="#print-layout">Print layout</a> such as <a href="#margin">margins</a>, <a href="#header">headers</a>, <a href="#footer">footers</a> and certain graphics.</p>
          <p>Read mode is designed for reading documents comfortably without layout distractions. Editing is disabled in Read mode. To edit, switch back to <a href="#print-layout">Print layout</a> by pressing <strong>Escape</strong>, selecting <strong>View > Print Layout</strong>, or clicking the Print Layout icon in the bottom-right corner.</p>
+         <p><img class="thumbnail border"  src="{{ '/assets/images/word/Pages and Views/Read mode.png' | url }}" alt="Read mode view in Microsoft Word"  style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
       </td>
     </tr>
     <tr>
@@ -780,6 +785,7 @@ active: glossary
       <td id="web-layout">Web layout</td>
       <td>
         <p>A view in Microsoft Word that displays a document's content as it would appear in a web browser, with a continuous, fluid layout rather than fixed pages. Web layout is intended for editing content destined to be viewed online. Unlike <a href="#print-layout">Print layout</a>, it does not show fixed page boundaries, <a href="#margin">margins</a>, or <a href="#page-break">page breaks</a>. Instead, text and images automatically reflow to fill the available width.</p>
+        <p><img class="thumbnail border"  src="{{ '/assets/images/word/Pages and Views/Web layout.png' | url }}" alt="Web layout view in Microsoft Word"  style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
       </td>
     </tr>
     <td id="widow">Widow</td>
@@ -964,6 +970,7 @@ active: glossary
         <td id="draft-view">Draft view</td>
         <td>
           <p>A view in Microsoft Word that displays a document's content in a simplified, text-focused layout, hiding most layout elements that you would see in the default <a href="#print-layout">Print layout</a> such as <a href="#margin">margins</a>, <a href="#header">headers</a>, <a href="#footer">footers</a> and images. Unlike <a href="#read-mode">Read mode</a>, editing is enabled in Draft view. It can be useful for quickly writing and editing text without distractions from layout elements.</p>
+          <p><img class="thumbnail border"  src="{{ '/assets/images/word/Pages and Views/Draft view.png' | url }}" alt="Draft view in Microsoft Word"  style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
         </td>
       </tr>
       <tr>
@@ -1305,6 +1312,7 @@ active: glossary
         <td>
           <p>A view in Microsoft Word that displays a document's content in a structured, hierarchical layout based on <a href="#outline-level">outline levels</a>. It hides layout elements visible in the default <a href="#print-layout">Print layout</a> such as <a href="#margin">margins</a>, <a href="#header">headers</a>, <a href="#footer">footers</a> and images.</p>
           <p>Outline view is designed for structural editing of long documents. You can collapse and expand sections, promote and demote headings, and drag sections to reorder them.</p>
+          <p><img class="thumbnail border"  src="{{ '/assets/images/word/Pages and Views/Outline view.png' | url }}" alt="Outline view in Microsoft Word"  style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
         </td>
       </tr>
       <tr>
@@ -1325,7 +1333,9 @@ active: glossary
       </tr>
       <tr>
         <td id="print-layout">Print layout</td>
-        <td>The default view in Microsoft Word. Print layout shows how the document will look when printed. It displays the full page including <a href="#margin">margins</a>, <a href="#header">headers</a>, <a href="#footer">footers</a>, images, and <a href="#page-break">page breaks</a> exactly as they'll appear on paper. Print layout is best used when formatting and designing the layout of a document.</td>
+        <td>The default view in Microsoft Word. Print layout shows how the document will look when printed. It displays the full page including <a href="#margin">margins</a>, <a href="#header">headers</a>, <a href="#footer">footers</a>, images, and <a href="#page-break">page breaks</a> exactly as they'll appear on paper. Print layout is best used when formatting and designing the layout of a document.
+        <p><img class="thumbnail border"  src="{{ '/assets/images/word/Pages and Views/Print Layout.png' | url }}" alt="Print layout view in Microsoft Word"  style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+        </td>
       </tr>
       <tr>
         <td id="quick-access-toolbar">Quick Access Toolbar</td>
@@ -1345,6 +1355,7 @@ active: glossary
         <td>
           <p>A view in Microsoft Word that displays a document's content in a simplified, text-focused layout, hiding most formatting elements that you would see in the default <a href="#print-layout">Print layout</a> such as <a href="#margin">margins</a>, <a href="#header">headers</a>, <a href="#footer">footers</a> and certain graphics.</p>
           <p>Read mode is designed for reading documents comfortably without layout distractions. Editing is disabled in Read mode. To edit, switch back to <a href="#print-layout">Print layout</a> by pressing <strong>Escape</strong>, selecting <strong>View > Print Layout</strong>, or clicking the Print Layout icon in the bottom-right corner.</p>
+          <p><img class="thumbnail border"  src="{{ '/assets/images/word/Pages and Views/Read mode.png' | url }}" alt="Read mode view in Microsoft Word"  style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
         </td>
       </tr>
       <tr>
@@ -1513,6 +1524,7 @@ active: glossary
         <td id="web-layout">Web layout</td>
         <td>
           <p>A view in Microsoft Word that displays a document's content as it would appear in a web browser, with a continuous, fluid layout rather than fixed pages. Web layout is intended for editing content destined to be viewed online. Unlike <a href="#print-layout">Print layout</a>, it does not show fixed page boundaries, <a href="#margin">margins</a>, or <a href="#page-break">page breaks</a>. Instead, text and images automatically reflow to fill the available width.</p>
+          <p><img class="thumbnail border"  src="{{ '/assets/images/word/Pages and Views/Web layout.png' | url }}" alt="Web layout view in Microsoft Word"  style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
         </td>
       </tr>
       <td id="widow">Widow</td>
