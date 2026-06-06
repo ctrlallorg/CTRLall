@@ -5,7 +5,7 @@ permalink: /word/table-of-contents-custom/
 description: How to create a custom table of contents in Microsoft Word. Covers the custom TOC options dialog, using table entry TC fields to add custom entries using Alt+Shift+O, assigning entries to different TOC levels, and modifying TOC styles including font, indentation, leader dots and spacing per heading level.
 asset_id: ctrlall-word-table-of-contents-custom-v1
 date: 2025-11-12
-last_modified: 2025-12-06
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Intermediate
     description: "Explores custom tables of contents for intermediate level."
@@ -67,12 +67,10 @@ active: word
 
 <section class="section-light">
 
-<h3>Inserting a custom table of contents</h3>
+<h2>Inserting a custom table of contents</h2>
 <p>You can select <strong>Custom Table of Contents</strong> at the bottom of the drop down which provides options a TOC's style and layout.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/Custom TOC.png' | url }}"  alt="Custom TOC button in Word ribbon, opens advanced formatting options" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 <p>You'll be presented with this window with multiple options to customise your table of contents.</p>
-
- <header class="topbar"></header>
 
   <!-- Custom TOC tooltip overlay -->
   <div class="overlay-container">
@@ -97,12 +95,12 @@ active: word
   </div>
 
   <h4 id="table-entry-fields">Table entry fields</h4>
-<p>They are a legacy option but if you need to add in something custom to a table of contents then you can set content to have a TC field. To insert a TC field directly:
+<p>They are a legacy option but if you need to add in something custom to a table of contents then you can set content to have a TC field. To insert a TC field directly:</p>
 <p><img class="thumbnail" src="{{ '/assets/images/word/TOC/Mark TOC entry.png' | url }}"  alt="Mark Table of Contents Entry dialog in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 <ol>
-  <li>Press <strong>Alt + Shift + O</strong> which brings up the the Mark table of Contents Entry dialog.</li>
+  <li>Press <strong>Alt + Shift + O</strong> which brings up the Mark table of Contents Entry dialog.</li>
   <li>Decide on entry text to appear in the TOC.</li>
-  <li>If necessary choose the Table identifier, the default for a single TOC is 'C'. It's possible to  assign to a different custom TOC with a different identifier letter, e.g. a TOC for appendices.</li>
+  <li>If necessary choose the Table identifier, the default for a single TOC is 'C'. It's possible to assign to a different custom TOC with a different identifier letter, e.g. a TOC for appendices.</li>
   <li>Choose a TOC level.</li>
   <li>Click <strong>Mark</strong> to apply. Formatting marks will then appear showing you the TC field code.</li>
 </ol>
@@ -193,7 +191,7 @@ active: word
         </div>`,
       "toc-modify-tooltip-3": `
         <div class="rich-tooltip">
-          <p>Modify the TOC style as needed, this will bring up the style formatting dialog to adjust font, spacing, tab setting etc. See formatting options</p>
+          <p>Modify the TOC style as needed, this will bring up the style formatting dialog to adjust font, spacing, tab setting etc. See formatting options.</p>
         </div>`,
       "toc-modify-tooltip-4": `
         <div class="rich-tooltip">

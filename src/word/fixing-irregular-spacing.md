@@ -6,7 +6,7 @@ description: How to fix irregular spacing problems in Microsoft Word. Covers fix
 image: /assets/images/Ctrl-All-logo-og.png
 asset_id: ctrlall-word-fixing-irregular-spacing-v1
 date: 2026-01-17
-last_modified: 2026-01-17
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Intermediate
     description: "Explores fixing irregular spacing in Word at an intermediate level."
@@ -76,8 +76,8 @@ tags:
   - close up spacing
   - close up spaces
   - wildcard
-  - fixing irregulr spacing quiz
-Active: word
+  - fixing irregular spacing quiz
+active: word
 quiz: fixing-irregular-spacing-quiz
 ---
 <h1>Fixing irregular spacing</h1>
@@ -92,7 +92,7 @@ quiz: fixing-irregular-spacing-quiz
 <ul>
   <li><a href="#irregular-line-spacing">Irregular line spacing in text</a></li>
   <li><a href="#irregular-spacing-words">Irregular spacing between words</a></li>
-  <li><a href="#remove-multiple-blank lines">Remove multiple blank lines</a></li>
+  <li><a href="#remove-multiple-blank-lines">Remove multiple blank lines</a></li>
   <li><a href="#remove-duplicate-punctuation">Remove duplicate punctuation</a></li>
   <li><a href="#remove-space-before-punctuation">Remove spaces before punctuation</a></li>
   <li><a href="#hyphens-en-dashes-em-dashes">Hyphens, en dashes and em dashes</a></li>
@@ -101,7 +101,7 @@ quiz: fixing-irregular-spacing-quiz
 
 <h2 id="irregular-line-spacing">Irregular line spacing in text</h2>
 <p>If you ever have a document with irregular line spacing in your text usually this is either Word applying paragraph formatting you don't want or if it's pasted text it may have brought some external formatting over with it.</p>
-<p>The quickest tool to fix it is <strong>Format Painter</strong>. Here's an the example of some non-matching text which I've coloured blue:</p>
+<p>The quickest tool to fix it is <strong>Format Painter</strong>. Here's an example of some non-matching text which I've coloured blue:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Irregular line spacing from pasted text.png' | url }}" alt="Example of irregular line spacing in paragraphs in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 <p>Here's how it works:</p>
 <ol>
@@ -139,15 +139,15 @@ quiz: fixing-irregular-spacing-quiz
 
 
 
-<h2 id="remove-multiple-blank lines">Remove multiple blank lines</h2>
+<h2 id="remove-multiple-blank-lines">Remove multiple blank lines</h2>
 <p>Sometimes you might find multiple blank lines irregularly through inherited formatting when pasting or a lack of housekeeping in a document. You may also find this in older documents as a previously common but now outdated rule used to be doing a double return after each paragraph. Whatever the situation there's a wildcard you can use to reduce multiple blanks lines to just one.</p>
 
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Fix multiple paragraph marks example.png' | url }}" alt="Example of multiple paragraph marks in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 <ol>
-  <li>Select the area in your document with the paragraphs and spaces that needs fixing, or if you need the whole document fixed click anywhere click anywhere selecting nothing in particular.</li>
+  <li>Select the area in your document with the paragraphs and spaces that needs fixing, or if you need the whole document fixed click anywhere selecting nothing in particular.</li>
   <li>Open up <strong>Find and Replace</strong> with <strong>Ctrl + H</strong>.</li>
   <li>
-    <p>In the <strong>Find what</strong> field: type <strong>^13{2,}</strong><p>
+    <p>In the <strong>Find what</strong> field: type <strong>^13{2,}</strong></p>
     <p>(<strong>^13</strong> means paragraph mark or a <span class="glossary-hover" data-term="hard-return">hard return</span> while <strong>{2,}</strong> means two or more repetitions).</p>
   </li>
   <li>
@@ -168,7 +168,7 @@ quiz: fixing-irregular-spacing-quiz
 <p>Do the above find and replace but use <strong>^l</strong> instead of <strong>^p</strong>:</p>
 
 <ol>
-  <li>Select the area in your document with the paragraphs and spaces that needs fixing, or if you need the whole document fixed click anywhere click anywhere selecting nothing in particular.</li>
+  <li>Select the area in your document with the paragraphs and spaces that needs fixing, or if you need the whole document fixed click anywhere selecting nothing in particular.</li>
   <li>Open up <strong>Find and Replace</strong> with <strong>Ctrl + H</strong>.</li>
   <li>
     <p>In the <strong>Find what</strong> field: type <strong>^l</strong> for a soft return.</p>
@@ -192,7 +192,7 @@ quiz: fixing-irregular-spacing-quiz
   <p>(This is basically grouping all the punctuation types.)</p>
   <li>
   <p>In the <strong>Replace with</strong> field: type <strong>\1</strong></p>
-  <p>(The <strong>\1</strong> means whatever was captured in the set of parentheses. So by replacing it just what was in the brackets, the space we added before is not included and effectively elimated.)</p>
+  <p>(The <strong>\1</strong> means whatever was captured in the set of parentheses. So by replacing it just what was in the brackets, the space we added before is not included and is elimated.)</p>
   </li>
 </ol>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Spaces before punctuation demonstration.gif' | url }}" alt="Demonstration fixing spaces before punctuation in a paragraph with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
@@ -241,7 +241,7 @@ quiz: fixing-irregular-spacing-quiz
       </tr>
       <tr>
         <td>Spaced em dash</td>
-        <td>"&nbsp;–&nbsp;"</td>
+        <td>"&nbsp;—&nbsp;"</td>
         <td>&lt;space&gt;^+&lt;space&gt;</td>
       </tr>
     </tbody>
@@ -252,7 +252,7 @@ quiz: fixing-irregular-spacing-quiz
 <h3 id="replace-unspaced-hyphens-with-spaced-hyphens">Warning: replacing unspaced hyphens with spaced hyphens</h3>
 <p>Before adding spaces around hyphens, you need to be careful. Word’s wildcard engine can’t tell the difference between a hyphen inside a hyphenated compound word (like <em>long-term</em> or <em>mother-in-law</em>) and a hyphen that should be spaced (<em>word - word</em>). If you blindly replace every hyphen with a spaced hyphen, you’ll break those compound words.</p>
 <p>So what do we do here?</p>
-<p>If you’re 100% certain your document has no hyphenated compound words then spacing all hyphens is safe to do. Use <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>) to replace hyphens with spaced hyphens using the code above.</li></p>
+<p>If you’re 100% certain your document has no hyphenated compound words then spacing all hyphens is safe to do. Use <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>) to replace hyphens with spaced hyphens using the code above.</p></li>
 <ol>
   <li>Go to <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>).</li>
   <li>In the <strong>Find what</strong> field: <strong>-</strong></li>

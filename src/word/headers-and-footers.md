@@ -5,7 +5,7 @@ permalink: /word/headers-and-footers/
 description: How to add, select, deselect, edit and remove headers and footers in Microsoft Word. Covers page numbers, alignment and tab stops, different first pages, odd and even pages, and Quick Part fields.
 asset_id: ctrlall-word-headers-and-footers-v1
 date: 2025-11-13
-last_modified: 2025-11-13
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
     description: "Introduces the basics of headers and footers with clear visual cues."
@@ -112,7 +112,7 @@ active: word
 <figcaption class="figcaption">Example header at the top of the page (in grey)</figcaption>
 </figure></p>
 
-<p><figure><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Footer example.png' | url }}" alt="Example footer at the bottom of the page<" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
+<p><figure><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Footer example.png' | url }}" alt="Example footer at the bottom of the page" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
 <figcaption class="figcaption">Example footer at the bottom of the page (in grey)</figcaption>
 </figure></p>
 
@@ -194,7 +194,7 @@ active: word
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Quick parts field.png' | url }}" alt="Quick parts field on ribbon in Word" style="max-width:260px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>This brings up a <i>Field</i> window with the left menu hosting all different sorts of fields available.</p> 
-<p>In my case I need <strong>NumPages</strong>. I have the option to choose different formats and can then press <strong>OK</strong></p>.
+<p>In my case I need <strong>NumPages</strong>. I have the option to choose different formats and can then press <strong>OK</strong>.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Field window.png' | url }}" alt="Field window in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>Here's it all from start to finish:</p>
@@ -204,7 +204,7 @@ active: word
 </div>
 
 <!-- Intermediate version -->
-<div class="difficulty intermediate-version" aria-label="Intermediate article exploring altering images" style="display:none;">
+<div class="difficulty intermediate-version" aria-label="Intermediate article exploring headers and footers" style="display:none;">
 
  <section class="section-light">
 
@@ -223,7 +223,7 @@ active: word
 
 <h2 id="header-footer-content-int">Header and Footer content</h2>
 <p>Lots of different content can go in a header or footer, the most obvious example is page numbers which are typically found in a footer in any book or document.</p> 
-<p>You may have heard hard and fast rules about what belongs in a header and what belongs in a footer, but I'm going to call on a quote from Judith Butcher's <i>Copy-editing</i> which is widely considered the authoritative reference for editorial practice in English-language publishing. It's referred to as 'Butcher's bible' or the 'the copyeditor's bible' and gives guidance on layout conventions:
+<p>You may have heard hard and fast rules about what belongs in a header and what belongs in a footer, but I'm going to call on a quote from Judith Butcher's <i>Copy-editing</i> which is widely considered the authoritative reference for editorial practice in English-language publishing. It's referred to as 'Butcher's bible' or the 'the copyeditor's bible' and gives guidance on layout conventions:</p>
 
 <blockquote>'Running heads and footers are used to help the reader find their way about the book or document. They may include the title of the book, the chapter title, the author’s name, the page number, or other identifying information, depending on the house style.'</blockquote>
 <p class="citation">
@@ -290,21 +290,21 @@ active: word
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Different odd and even pages.png' | url }}" alt="Different odd and even pages on ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>Once checked the even paged headers and footers turn blank, from here you can edit odd and even pages as needed.</p>
-<p><u>Note</u>: Odd numbered pages are usualy right-sided pages and even numbered pages are left-sided pages. The example below has page numbers swapped over between odd and even pages; this is done to ensure the page number is placed near the edge of the page rather than the spine where the pages meet.</p>
+<p><u>Note</u>: Odd numbered pages are usually right-sided pages and even numbered pages are left-sided pages. The example below has page numbers swapped over between odd and even pages; this is done to ensure the page number is placed near the edge of the page rather than the spine where the pages meet.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Different odd and even pages example.png' | url }}" alt="Different odd and even pages example in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2 id="header-footer-quick-part-field-int">Inserting automated fields (Quick Parts)</h2>
 <p>Quick part fields are very useful to insert dynamic data that updates according to the document. You already use one of these when inserting a page number via <strong>Insert > Page Number</strong>. Once you insert a page number field it highlights dark grey; this is because it is a field not just text. The field will automatically increase by one for every new page.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Page number field.png' | url }}" alt="Page number field selected in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
-<p>You may want to have the total number of pages showing alongside it e.g. '1 of 7'. This invovles adding another quick part field.</p>
+<p>You may want to have the total number of pages showing alongside it e.g. '1 of 7'. This involves adding another quick part field.</p>
 
 <p>In the example above we have a page number field added to a footer. I'm going to add the word 'of' which spaces either side then select <strong>Header & Footer > Quick Parts > Field</strong>:</p>
 
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Quick parts field.png' | url }}" alt="Quick parts field on ribbon in Word" style="max-width:260px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>This brings up the <i>Field</i> dialog with a list of different fields to choose from on the left menu. It's worth having a look through for anything you might need as it's quite extensive, a description of each one is found at the bottom of the window.</p> 
-<p>The field for the total number of pages is called <strong>NumPages</strong>. There are options t choose different formats as well. To insert the field select. <strong>OK</strong></p>.
+<p>The field for the total number of pages is called <strong>NumPages</strong>. There are options to choose different formats as well. To insert the field select. <strong>OK</strong>.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Field window.png' | url }}" alt="Field window in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>Here's a demonstration of the above from beginning to end:</p>
@@ -350,7 +350,7 @@ active: word
     </tr>
     <tr>
       <td><strong>FileName</strong></td>
-      <td>Displays the document filename (includes option to include add path as well)</td>
+      <td>Displays the document filename (includes option to add path as well)</td>
     </tr>
     <tr>
       <td><strong>SaveDate</strong></td>
@@ -370,6 +370,7 @@ active: word
     </tr>
   </tbody>
 </table>
+</div>
 
 </section>
 

@@ -6,7 +6,7 @@ permalink: /word/borders-and-shading/
 description: Alter borders and shading in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-borders-and-shading-v1
 date: 2025-11-28
-last_modified: 2025-11-28
+last_modified: 2026-06-07
 tags:
   - ctrlall.org
   - ctrlall
@@ -91,10 +91,10 @@ tags:
 active: word
 ---
 
-<article class="difficulty-wrapper">
+<article class="difficulty-wrapper" role="article" aria-label="Borders and shading tutorial with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
 <!-- Beginner version -->
-<div class="difficulty beginner-version">
+<div class="difficulty beginner-version"  aria-label="Beginner introduction to Borders and shading in Microsoft Word">
   <h1>Borders and shading</h1>
 
   <section class="section-light">
@@ -116,15 +116,14 @@ active: word
             <td>
             <ul>
                 <li><strong>None</strong>: Apply no border. If you have a page border that you want to remove select this then click <strong>OK</strong> in the bottom right of the window.</li>
-                <li><strong>Box</strong>: Apply a standard box border around the page. this is the most common option you'll for it you want to add a page border.</li>
+                <li><strong>Box</strong>: Apply a standard box border around the page. This is the most common option you'll use if you want to add a page border.</li>
                 <li><strong>Shadow</strong>: Similar to the <strong>Box</strong> border above but this one has extra weight on the right and bottom lines to look like it casts a shadow.</li>
-                <li><strong>3D</strong>: This one can be ignore. 3D is supposed to show a slightly double-toned line to give a 3D effect but on modern screens you'll be unlikely to see any difference. On paper you might see a faint difference but it’s still very subtle. This is an old style from when printers and monitors had lower resolutions, so the beveled effect (light edge and dark edge) stood out more. Ignore this one.</li>
+                <li><strong>3D</strong>: This one can be ignored. 3D is supposed to show a slightly double-toned line to give a 3D effect but on modern screens you'll be unlikely to see any difference. On paper you might see a faint difference but it’s still very subtle. This is an old style from when printers and monitors had lower resolutions, so the beveled effect (light edge and dark edge) stood out more. Ignore this one.</li>
                 <li><p><strong>Custom</strong>: This lets you build your own border, mixing and matching border styles for each side of the page. You can apply different line thickness, style or colours to the top, bottom, left and right sides individually.</p>
                 <ol>
                     <li>Select <strong>Custom</strong></li>
                     <li>In the <strong>Preview</strong> section click on each edge you want to customise</li>
                     <li>Now apply line styles, colours or thickness for those selected edges.</li>
-                    <li>If you want to style other edges differently</li>
                 </ol>
                 <img class="thumbnail left" src="{{ '/assets/images/word/Borders and shading/Custom page border demonstration 1.gif' | url }}" alt="Custom page border demonstration" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
                 </li>
@@ -139,18 +138,11 @@ active: word
 <p><u>Note</u>: If your page has a <strong>Box</strong>, <strong>Shadow</strong> or <strong>3D</strong> border already or if you've even selected one of those option in the window, the <strong>Custom</strong> option will pick up those styles. They may not be the ones you want. In order to style each side individually from here you'll need to click each styled side twice, first to unselect it, then again to apply the style you want.</p>
 <img class="thumbnail left" src="{{ '/assets/images/word/Borders and shading/Custom page border demonstration 2.gif' | url }}" alt="Custom page border demonstration" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
 
-
-
-                
-                
-
-  <p></p>
-
   </section>
 </div>
 
 <!-- Intermediate version -->
-<div class="difficulty intermediate-version" style="display:none;">
+<div class="difficulty intermediate-version" aria-label="Intermediate article exploring borders and shading in Microsoft Word" style="display:none;">
   <h1>Borders and shading</h1>
 
   <section class="section-light">

@@ -4,13 +4,15 @@ layout: layout.liquid
 permalink: /content-control/keyboard-shortcuts/
 description: Complete keyboard shortcut reference for Windows, Microsoft Word, Excel and PowerPoint. Covers shortcuts for saving, copying, pasting, formatting, find and replace, zoom, and more.
 asset_id: ctrlall-keyboard-shortcuts-v1
+date: 2025-10-26
+last_modified: 2026-06-07
 type: keyboard-shortcuts
 tags:
   - ctrlall.org
   - ctrlall
   - ctrl all
   - windows shortcuts
-  - microsoft word shorcuts
+  - microsoft word shortcuts
   - microsoft excel shortcuts
   - microsoft powerpoint shortcuts
   - microsoft outlook shortcuts
@@ -100,7 +102,7 @@ active: content-control
   <img src="/assets/images/keyboard shortcuts/Win+Shift+M.png" alt="Windows + Shift + M shortcut: Restore all minimised windows">
   <img src="/assets/images/keyboard shortcuts/Win+U.png" alt="Windows + U shortcut: Open Accessibility settings">
   <img src="/assets/images/keyboard shortcuts/Ctrl+Shift+Esc.png" alt="Ctrl + Shift + Esc shortcut: Open Task Manager">
-  <img src="/assets/images/keyboard shortcuts/Win+W.png" alt="Ctrl + W shortcut: Close the current window/tab/document">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+W.png" alt="Ctrl + W shortcut: Close the current window/tab/document">
   <img src="/assets/images/keyboard shortcuts/Alt+F4.png" alt="Alt + F4 shortcut: Close the current app">
   <img src="/assets/images/keyboard shortcuts/Ctrl+Shift+N.png" alt="Ctrl + Shift + N shortcut: Create a new folder">
   <img src="/assets/images/keyboard shortcuts/Ctrl+T.png" alt="Ctrl + T shortcut: Create a new tab">
@@ -576,6 +578,7 @@ active: content-control
 
 
 <!-- ═══════════════ OUTLOOK ═══════════════ -->
+<div class="sc-section" data-app="outlook">
 
 <div class="preload-images" hidden>
   <img src="/assets/images/keyboard shortcuts/Ctrl+N.png" alt="Ctrl + N shortcut: New email">
@@ -600,11 +603,10 @@ active: content-control
   <img src="/assets/images/keyboard shortcuts/Ctrl+L.png" alt="Ctrl + L shortcut: Left align content">
   <img src="/assets/images/keyboard shortcuts/Ctrl+R.png" alt="Ctrl + R shortcut: Right align content">
   <img src="/assets/images/keyboard shortcuts/Ctrl+B.png" alt="Ctrl + B shortcut: Bold selected text">
-  <img src="/assets/images/keyboard shortcuts/Ctrl+I.png" alt="Ctrl + I shortcut: Italicize selected text">
+  <img src="/assets/images/keyboard shortcuts/Ctrl+I.png" alt="Ctrl + I shortcut: Italicise selected text">
   <img src="/assets/images/keyboard shortcuts/Ctrl+K.png" alt="Ctrl + K shortcut: Insert hyperlink">
 </div>
 
-<div class="sc-section" data-app="outlook">
 <h2 id="outlook-keyboard-shortcuts">Microsoft Outlook shortcuts</h2>
 <br>
 <table class="shortcut-tables-cursor-icons hover-table" data-app="outlook">
@@ -627,7 +629,7 @@ active: content-control
       <td>Ctrl + O</td>
       <td>Open selected email</td>
     </tr>
-    <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+O.png' | url }}">
+    <tr class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}">
       <td>Ctrl + S</td>
       <td>Save email as a draft</td>
     </tr>

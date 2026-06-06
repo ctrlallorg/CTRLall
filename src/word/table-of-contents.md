@@ -5,7 +5,7 @@ permalink: /word/table-of-contents/
 description: How to create a table of contents in Microsoft Word. Covers inserting automated and manual tables of contents, how heading levels 1 to 3 appear in a TOC, navigating via TOC hyperlinks, updating a table of contents after adding or editing headings, and removing a table of contents.
 asset_id: ctrlall-word-table-of-contents-v1
 date: 2025-11-13
-last_modified: 2025-11-12
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
     description: "Introduces table of contents basics with clear visual cues."
@@ -53,10 +53,10 @@ active: word
 
 <h1>Table of contents</h1>
 
-<article class="difficulty-wrapper" role="article" aria-label="Altering images tutorial with beginner and intermediate versions">
+<article class="difficulty-wrapper" role="article" aria-label="Table of contents tutorial with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
 <!-- Beginner version -->
-<div class="difficulty beginner-version"  aria-label="Beginner introduction to altering images">
+<div class="difficulty beginner-version"  aria-label="Beginner introduction to a table of contents">
 
 <section class="section-light">
 <p>In Word a table of contents (TOC) automatically includes the major headings in your document. Word provides templated automated tables of contents that are quite handy to use. We'll look at this automated TOC in this article.</p>
@@ -65,7 +65,7 @@ active: word
 <p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/TOC link example.gif' | url }}"  alt="References TOC on the ribbon in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2>How to insert a table of contents</h2>
-<p>To add a table of contents go to <strong>Reference > Table of Contents</strong>.</p>
+<p>To add a table of contents go to <strong>References > Table of Contents</strong>.</p>
 <p>You'll get a drop down menu which has a few templated tables of contents.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/References TOC.png' | url }}"  alt="References TOC on the ribbon in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
 <p>Click the top one <strong>Automatic Table 1</strong> and a TOC is inserted where you had the <span class="glossary-hover" data-term="insertion-point">insertion point</span>:</p>
@@ -76,7 +76,7 @@ active: word
 <p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/TOC empty.png' | url }}"  alt="Empty table of contents in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2>Remove a table of contents</h2>
-<p>If you have a table of contents that spans a whole page or more it can be tricky to select all of it to then delete it. Instead there's a button that can do it for you. Go to <strong>Reference > Table of Contents > Remove Table of Contents</strong>:</p>
+<p>If you have a table of contents that spans a whole page or more it can be tricky to select all of it to then delete it. Instead there's a button that can do it for you. Go to <strong>References > Table of Contents > Remove Table of Contents</strong>:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/Remove TOC.png' | url }}"  alt="Remove table of contents button in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2>How to update a table of contents</h2>
@@ -93,7 +93,7 @@ active: word
 <p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/TOC basic example.png' | url }}"  alt="Basic table of contents example in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
 <p>This is due to heading levels where a heading has a certain style applied that has a heading level assigned to it. For the above example TOC here's what the headings looks like:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/Heading 1-4 examples.png' | url }}"  alt="Example heading styles with heading levels 1 2 3 and 4 in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
-<p>Note how the fourth level heading doesn't show. An automated TOC only shows the top 3 headling levels.</p>
+<p>Note how the fourth level heading doesn't show. An automated TOC only shows the top 3 heading levels.</p>
 <h4>Where do I find heading levels and how do you set them?</h4>
 <p>Go to <strong>Home > Styles</strong> and click the <strong>far right button</strong>:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/Styles Gallery expand button.png' | url }}"  alt="Styles Gallery expand button on ribbon in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
@@ -117,7 +117,7 @@ active: word
 
 
 <!-- Intermediate version -->
-<div class="difficulty intermediate-version" aria-label="Intermediate article exploring altering images" style="display:none;">
+<div class="difficulty intermediate-version" aria-label="Intermediate article exploring a table of contents" style="display:none;">
 
   <section class="section-light">
 
@@ -132,7 +132,6 @@ active: word
       <li><a href="#update-toc">Updating a table of contents</a></li>
   </ul>
 
-  <section class="section-light">
   <h2 id="using-toc">Using a table of contents in Word</h2>
   <p>A table of contents (TOC) in Word lists headings in the document much like you'd find in a book or long form publication like a report. By default the headings in a TOC are also hyperlinks which will take you directly to the location of a heading when you hold down <strong>Ctrl and click</strong> on one.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/TOC link example.gif' | url }}"  alt="Exmaple of link in a table of contents in Word" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
@@ -167,10 +166,10 @@ active: word
   <h2 id="update-toc">Updating a table of contents</h2>
   <p>Adding, editing or removing headings requires manually updating your table of contents even if you're using the 'Automatic table of contents'. At the top of the TOC click on it and the option <strong>Update Table</strong> will appear above, click this.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/TOC example Update Table button.png' | url }}"  alt="Update Table button on a table of contents in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle"></p>
-  <p>A small dialog appears where you an update just the page numbers or the whole TOC. Always choose the later to capture any changes. Click <strong>OK</strong> when done:</p>
+  <p>A small dialog appears where you an update just the page numbers or the whole TOC. Always choose the latter to capture any changes. Click <strong>OK</strong> when done:</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/Update TOC dialog.png' | url }}"  alt="Update table of contents window in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
   <p>The TOC then updates like this:</p>
-  <p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/Update TOC.gif' | url }}"  alt="Demonstrationg of updating a table of contents window in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/TOC/Update TOC.gif' | url }}"  alt="Demonstration of updating a table of contents window in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
   </section>
 

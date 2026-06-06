@@ -5,7 +5,7 @@ permalink: /word/page-setup-options/
 description: How to use page setup options in Microsoft Word. Covers the Margins tab for setting custom margins and gutters, the Paper tab for choosing paper sizes including A4, Letter, Legal and custom sizes, and print options including printing background colours, document properties, and updating fields and linked data before printing.
 asset_id: ctrlall-word-page-setup-options-v1
 date: 2025-11-27
-last_modified: 2025-11-27
+last_modified: 2026-06-07
 tags:
   - ctrlall.org
   - ctrlall
@@ -35,7 +35,7 @@ active: word
 <p>Let's look at each one.</p>
 
 <h2 id="custom-margins">Margins</h2>
-<p>Here you can set custom margins, <span class="glossary-hover" data-term="gutter">gutters</span> amongst other options. See the hotspots below for mor detail.</p>
+<p>Here you can set custom margins, <span class="glossary-hover" data-term="gutter">gutters</span> amongst other options. See the hotspots below for more detail.</p>
 
 <!-- Page setup Margins... tooltip overlay -->
   <div class="overlay-container">
@@ -55,7 +55,7 @@ active: word
 
 
 <h2 id="custom-paper-sizes">Paper</h2>
-<p>The paper tab focuses on the physical reality of printing the document. If you have intended paper you want the document printed on then this set of options is cruical for the finished physical product.</p>
+<p>The paper tab focuses on the physical reality of printing the document. If you have intended paper you want the document printed on then this set of options is crucial for the finished physical product.</p>
 
 <!-- Page setup Paper... tooltip overlay -->
   <div class="overlay-container">
@@ -141,12 +141,12 @@ active: word
   <li><strong>Print background colors and images</strong>: By default this is switched off to save on printer ink/toner.</li>
   <li><strong>Print document properties</strong>: Should you need it this will print out metadata about the document on a separate page e.g. Author, Title, Last Modified, Revision Number, Total Editing Time, Creation Date etc. Legal documents for example may require this.</li>
   <li><strong>Update fields before printing</strong>: This forces Word to automatically refresh fields like dates, page numbers or a table of contents before sending to the printer. Particularly cruicial for ensuring the final tables of contents is up to date rather than having to remember to do it manually.</li>
-  <li><strong>Update linked data before printing</strong>: This fores Word to refresh data from external sources like Excel charts or linked OLE objects. Useful if the sourced data is live and you need to reflect the most up to date changes at time of print.</li>
+  <li><strong>Update linked data before printing</strong>: This forces Word to refresh data from external sources like Excel charts or linked OLE objects. Useful if the sourced data is live and you need to reflect the most up to date changes at time of print.</li>
 </ul>
 
 
 <h2 id="custom-layout">Layout</h2>
-<p>The <strong>Layout</strong> tab has several options</p>
+<p>The <strong>Layout</strong> tab has several options:</p>
 <!-- Page setup Layout... tooltip overlay -->
   <div class="overlay-container">
     <img src="/assets/images/word/Page setup options/Page setup Layout.png" alt="Page setup Layout in Word" class="base-image" data-width="407" data-height="552">
@@ -286,12 +286,12 @@ active: word
         </div>`,
         "Page-setup-layout-options-tooltip-2": `
         <div class="rich-tooltip">
-          <p><strong>Supress endnotes</strong>: In theory this a great option; this should let you push endnotes forward from one section into a later section (having set endnotes to appear at the 'end of section' rather than the end of the document) — but in practice, I find this option is often unreliable and disabled.</p>
+          <p><strong>Suppress endnotes</strong>: In theory this a great option; this should let you push endnotes forward from one section into a later section (having set endnotes to appear at the 'end of section' rather than the end of the document) — but in practice, I find this option is often unreliable and disabled.</p>
           <p>If you need to have footnotes reorganised for print, edit them directly as needed. If you need to maintain where your endnotes are outside of a print version, make a separate copy of the document and edit it accordingly for print.</p>
         </div>`,
         "Page-setup-layout-options-tooltip-3": `
         <div class="rich-tooltip">
-          <p><strong>Headers and Footers</strong>: Choose how to arrange headers and footers to be different on odd and even pages (<strong>Different odd and even</strong>) and/or have a <strong>Different first page</strong> for cover pages. More is explained in this article: <a href="/word/headers-and-footers/"></a></p>
+          <p><strong>Headers and Footers</strong>: Choose how to arrange headers and footers to be different on odd and even pages (<strong>Different odd and even</strong>) and/or have a <strong>Different first page</strong> for cover pages. More is explained in this article: <a href="/word/headers-and-footers/">Headers and Footers</a></p>
         </div>`,
         "Page-setup-layout-options-tooltip-4": `
         <div class="rich-tooltip">
@@ -317,7 +317,7 @@ active: word
         </div>`,
         "Page-setup-layout-options-tooltip-8": `
         <div class="rich-tooltip">
-          <p>The <strong>Line numbers...</strong> button takes you to the <strong>Line numbers</strong> options dialog, this is explored in this article: <a href="/word/line numbers/">Line numbers</a>.</p>
+          <p>The <strong>Line numbers...</strong> button takes you to the <strong>Line numbers</strong> options dialog, this is explored in this article: <a href="/word/line-numbers/">Line numbers</a>.</p>
         </div>`,
         "Page-setup-layout-options-tooltip-9": `
         <div class="rich-tooltip">

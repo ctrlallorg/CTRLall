@@ -3,9 +3,9 @@ title: Formatting Text in Microsoft Word – Font, Paragraph and Clipboard Tools
 layout: layout.liquid
 permalink: /word/formatting-text/
 description: Guide to formatting text in Microsoft Word using the Home tab. Covers the clipboard tools, cut, copy and paste options, format painter, font formatting including bold, italic, underline, strikethrough, highlight, change case, subscript and superscript, and paragraph tools including lists, alignment, indents, sort and line spacing.
-asset_id: ctrlall-word-formatting-text-v1"
+asset_id: ctrlall-word-formatting-text-v1
 date: 2025-10-26
-last_modified: 2025-12-06
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
     description: "Introduces formatting text in Microsoft Word to beginners with clear visual cues."
@@ -97,16 +97,16 @@ quiz: formatting-text-quiz
     <li><u>Copy</u>: This copies the content to the <strong>clipboard</strong> so you can <strong>paste</strong> it elsewhere, letting you duplicate it.</li>
     <p><img class="thumbnail border" src="{{ '/assets/images/content control/Copy and paste text.gif' | url }}"  alt="Copy and paste demonstration in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
     <li><u>Paste</u>: This duplicates content copied to the clipboard by cutting or copying it first. There are different types of paste options depending on what you cut or copy which are explored more in the <a href="?difficulty=intermediate">intermediate version</a> of this article.</li>
-
+  </ul>
   <h4>Format Painter</h4> 
   <img class="thumbnail left" src="{{ '/assets/images/word/Formatting text/Format painter icon.png' | url }}"  alt="Format painter icon" style="max-width:50px; width:100%; height:auto; vertical-align:middle"> 
   <p>This is a really useful tool which lets you apply the formatting/look of some selected text onto other text in your document. This is much faster than manually applying the same formatting each time.</p>
-  <u>Note</u>: If you're wanting to format headings you should use styles (explored here: <a href="/word/styles/">Styles</a>). With heading styles you can use the format painter to apply it to other text to make it a recognised heading in Word.
+  <p><u>Note</u>: If you're wanting to format headings you should use styles (explored here: <a href="/word/styles/">Styles</a>). With heading styles you can use the format painter to apply it to other text to make it a recognised heading in Word.</p>
   <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Format painter example.gif' | url }}"  alt="Example of format painter being used to style text" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h2>Font tools</h2>
   <p>The tools help format your text in various ways, take a look at the examples below.</p>
-  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middlee"></p>
+  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="max-width:650px; width:100%; height:auto; vertical-align:"></p>
   <div class="tooltip-wrapper">
   <table>
   <colgroup>
@@ -268,7 +268,7 @@ quiz: formatting-text-quiz
   </div>
 
 <h1>Where to now?</h1>
-<p>Now you've got the basics of formatting tools try experimenting with them on text in a document, it's the best way to learn how they work. For more font and paragraph options take a look at these articles:<p>
+<p>Now you've got the basics of formatting tools try experimenting with them on text in a document, it's the best way to learn how they work. For more font and paragraph options take a look at these articles:</p>
 <ul>
   <li><a href="/word/font-options/">Font options</a></li>
   <li><a href="/word/paragraph-options/">Paragraph options</a></li>
@@ -342,7 +342,7 @@ quiz: formatting-text-quiz
   <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Format painter example.gif' | url }}"  alt="Example of format painter being used to style text" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h2>Font tools</h2>
-  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middlee"></p>
+  <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle"></p>
   <div class="table-wrapper">
   <table>
   <colgroup>
@@ -501,16 +501,17 @@ quiz: formatting-text-quiz
       </tr>
     </tbody>
   </table>
-  </div>
-  </section>
 
-<h1>Where to now?</h1>
-<p>These are the basics of formatting tools. More options available are detailed in these articles:<p>
+  <h1>Where to now?</h1>
+<p>These are the basics of formatting tools. More options available are detailed in these articles:</p>
 <ul>
   <li><a href="/word/font-options/">Font options</a></li>
   <li><a href="/word/paragraph-options/">Paragraph options</a></li>
   <li><a href="/word/styles/">Styles</a> (for headings)</li>
 </ul>
+
+  </div>
+  </section>
 
 </div>
 </article>

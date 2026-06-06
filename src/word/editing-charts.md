@@ -5,10 +5,10 @@ permalink: /word/editing-charts/
 description: How to edit charts in Microsoft Word. Covers editing chart data using the built-in Excel window via Chart Design, and how to manually refresh a linked Excel chart that hasn't updated when the Word document was closed during edits.
 asset_id: ctrlall-word-editing-charts-v1
 date: 2025-10-26
-last_modified: 2025-12-06
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Intermediate
-    description: "Explores editing inserted excel charts within Word for intermediate level."
+    description: "Explores editing inserted Excel charts within Word for intermediate level."
     urlSuffix: "#intermediate"
 tags:
   - ctrlall.org
@@ -44,7 +44,7 @@ active: word
 
 <section class="section-light">
 <h2>Editing chart data in Word</h2>
-<p>To edit the data select the chart, go to the <strong>Chart Design</strong> and then click <strong>Edit data</strong> which will open up an Excel window to edit and save. Note below how the Excel window has a yellow banner message about the data being linked to the original Excel spreadsheet; saving here updates both files.</p>
+<p>To edit the data select the chart, go to the <strong>Chart Design</strong> tab on the <span class="glossary-hover" data-term="ribbon">ribbon</span> and then click <strong>Edit data</strong> which will open up an Excel window to edit and save. Note below how the Excel window has a yellow banner message about the data being linked to the original Excel spreadsheet; saving here updates both files.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Edit data.gif' | url }}" alt="Editing chart data in Word with excel interface" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 <!-- watermarking cuts off above video -->
 <h4>I updated my chart in Excel but it hasn't updated in Word</h4>

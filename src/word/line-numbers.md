@@ -4,8 +4,8 @@ layout: layout.liquid
 permalink: /word/line-numbers/
 description: How to use, edit and suppress line numbers in Microsoft Word with clear steps, visuals, and animations.
 asset_id: ctrlall-word-line-numbers-v1
-date: 2026-06-01
-last_modified: 2026-06-01
+date: 2026-06-07
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Intermediate
     description: "Explores how to apply and alter line numbers in Word with advanced options for intermediate level."

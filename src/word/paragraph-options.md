@@ -5,10 +5,10 @@ permalink: /word/paragraph-options/
 description: Complete guide to paragraph options in Microsoft Word. Covers alignment, outline levels, left and right indentation, mirror indents, spacing before and after paragraphs, line spacing options including single, double and multiple, and line and page break settings including widow and orphan control, keep with next, keep lines together and page break before.
 asset_id: ctrlall-word-paragraph-options-v1
 date: 2025-10-26
-last_modified: 2025-10-30
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
-    description: "Introduces the bacics of paragraph options with clear visual cues."
+    description: "Introduces the basics of paragraph options with clear visual cues."
     urlSuffix: "#beginner"
   - level: Intermediate
     description: "Expands on paragraph options with advanced options explained."
@@ -75,7 +75,7 @@ active: word
 
 <section class="section-light">
 
-  <p>Word has <strong>Paragraph options</strong> which help to set the layout of a paragraph(s) with their line spacing and <span class="glossary-hover" data-term="alignment">alignment</span> and a few othe useful features like <span class="glossary-hover" data-term="indent">indents</span>. efore going to the paragraph options, choose first whether you wan to set options for a particular paragraph(s), if so select that paragraph(s) first, or, don't select any to apply paragraph options to all paragraphs throughout your document.</p>
+  <p>Word has <strong>Paragraph options</strong> which help to set the layout of a paragraph(s) with their line spacing and <span class="glossary-hover" data-term="alignment">alignment</span> and a few other useful features like <span class="glossary-hover" data-term="indent">indents</span>. Before going to the paragraph options, choose first whether you want to set options for a particular paragraph(s), if so select that paragraph(s) first, or, don't select any to apply paragraph options to all paragraphs throughout your document.</p>
 
   <p>To get to paragraph options window, you can <strong>right click</strong> and select <strong>Paragraph...</strong> from the menu, or, under <strong>Home > Paragraph</strong> click the <strong>bottom right corner button</strong>:</p>
 
@@ -124,7 +124,7 @@ active: word
 
 
   <h3 id="indentation-beg">Indentation</h3>
-  <p>Indentation is the space between the content and the page margin. To move text or other content further away from the margin inward on the page you add 'indents'. Typically you can do this by pressing tab though for a beginner that can get messy. This is an easier way for you to apply indentation to paragraphs.
+  <p>Indentation is the space between the content and the page margin. To move text or other content further away from the margin inward on the page you add 'indents'. Typically you can do this by pressing tab though for a beginner that can get messy. This is an easier way for you to apply indentation to paragraphs.</p>
 
   <p><img class="thumbnail border left" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Indents and Spacing Indentation.png' | url }}"  alt="Paragraph Options Indents and Spacing Indentation" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 
@@ -205,7 +205,7 @@ active: word
       <img class="thumbnail border" 
       src="{{ '/assets/images/word/Paragraph options/Outline levels.png' | url }}"  
       alt="Outline levels dropdown menu in Paragraph Options in Word" 
-      style="max-width:350px; width:100%; height:auto; vertical-align:middlemargin-bottom:2em;">
+      style="max-width:350px; width:100%; height:auto; vertical-align:middle; margin-bottom:2em;">
   </ul>
 
   <p>Changing the outline level of a paragraph has the following affects in these areas:</p>
@@ -234,7 +234,7 @@ active: word
 
   <h4>Mirror indents</h4>
   <p>Checking the <strong>Mirror indents</strong> checkbox below changes the <strong>Left</strong> and <strong>Right</strong> options to <strong>Inside</strong> and <strong>Outside</strong>.</p>
-  <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation Mirror intents.png' | url }}"  alt="Indentation Mirror intents option checkbox in Paragraph Options in Word" style="max-width:404px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation Mirror intents.png' | url }}"  alt="Mirror intents option checkbox in Paragraph Options in Word" style="max-width:404px; width:100%; height:auto; vertical-align:middle"></p>
 
   <p>These are to do with the layout of margins for paragraphs on opposite facing pages, for when you're holding a double sided report, book or magazine open. Use this if you want paragraph indents mirroring each other on opposite pages in terms of being indented closer to the spine where the pages meet ('inside') or further from the spine towards the outer edge of the pages ('outside').</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation Inside and Outside 2.png' | url }}"  alt="Indentation Inside and Outside on opposite facing pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
@@ -248,7 +248,7 @@ active: word
   <h4 id="paragraph-spacing">Before and After (Paragraph spacing)</h4>
   <p>Alter the vertical spacing before or after a paragraph in points.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Spacing before and after.png' | url }}"  alt="Spacing before and after options in Paragraph Options in Word" style="max-width:425px; width:100%; height:auto; vertical-align:middle"></p>
-  <p>Peronally, this spacing is something that I find myself altering for individual paragraphs all the time. Sometimes you just need more or less space before or after a specific paragraph, image or object in order to fit content on the page or simply for aesthetics when it could look better. <strong>Before</strong> and <strong>After</strong> this lets you tweak it individually and discreetly without having to resort to altering entire styles.</p>
+  <p>Personally, this spacing is something that I find myself altering for individual paragraphs all the time. Sometimes you just need more or less space before or after a specific paragraph, image or object in order to fit content on the page or simply for aesthetics when it could look better. <strong>Before</strong> and <strong>After</strong> this lets you tweak it individually and discreetly without having to resort to altering entire styles.</p>
 
   <h4>Don't add space between paragraphs of the same style</h4>
   <p>Typically this is checked to retain spacing between same-styled paragraphs. If you uncheck it, then it applies the <strong>Before</strong> and <strong>After</strong> spacing to the selected paragraph.</p>
@@ -293,7 +293,7 @@ active: word
         </tr>
         <tr>
           <td><strong>Exactly</strong></td>
-          <td>Fixes spacing to a specific point size (pt) regardless of the font size. Word does not adjust it even if the text or graphics need more room.<img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Line spacing exactly 12 pt.png' | url }}"  alt="Line spacing eactly 12 pt" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></td>
+          <td>Fixes spacing to a specific point size (pt) regardless of the font size. Word does not adjust it even if the text or graphics need more room.<img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Line spacing exactly 12 pt.png' | url }}"  alt="Line spacing exactly 12 pt" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></td>
           <td>Forms, legal documents or layouts where precise spacing is needed.</td>
         </tr>
         <tr>
@@ -309,7 +309,7 @@ active: word
 
 
   <h2 id="line-and-page-breaks">Line and Page Breaks</h2>
-  <p>The <strong>Line and Page Breaks</strong> tab has options to control how text flows across lines and pages. These are useful for managing layout in long documents keeping content together, avoiding awkward breaks, and managing layout in long documents.</p>
+  <p>The <strong>Line and Page Breaks</strong> tab has options to control how text flows across lines and pages. These are useful for managing layout in long documents keeping content together and avoiding awkward breaks.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Paragraph Options Line and Page Breaks.png' | url }}"  alt="Paragraph Options Line and Page Breaks" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
   <div class="table-wrapper">
   <table>
@@ -362,7 +362,7 @@ active: word
           <td><strong>Tight wrap</strong></td>
           <td><p>Tight wrap is normally greyed out in Western-language documents because it only applies to East Asian text layouts. This type of 'wrap' is different to text wrapping around images. This is a legacy setting used for vertical or grid-based writing in languages like Japanese, Chinese, or Korean. When enabled it tightens character spacing to fit the document grid better. In modern Word the visual effect is subtle but it reflects traditional publishing layout behavior.</p>
           <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Tight wrap japanese grid.png' | url }}"  alt="Tight wrap japanese grid" style="width:90%; height:auto; vertical-align:middle"></p></td>
-  -      </tr>
+        </tr>
       </tbody>
   </table>
   </div>

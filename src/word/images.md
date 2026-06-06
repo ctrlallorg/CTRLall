@@ -5,7 +5,7 @@ permalink: /word/images/
 description: How to insert images and graphic visuals in Microsoft Word. Covers inserting pictures from your device, stock images and online, shapes, icons, 3D models, SmartArt diagrams, charts including importing from Excel, taking screenshots and screen clips, and inserting WordArt.
 asset_id: ctrlall-word-images-v1
 date: 2025-10-26
-last_modified: 2026-01-04
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
     description: "Introduces image basics with clear visual cues."
@@ -193,7 +193,7 @@ active: word
     </tr>
     <tr>
       <td><a href="#image-insert-WordArt">WordArt</a></td>
-      <td>Stylised text treated as a visual object. This is an old feature of Word Gen X and Millennials  will remember well from the 90s.</td>
+      <td>Stylised text treated as a visual object. This is an old feature of Word Gen X and Millennials will remember well from the 90s.</td>
       <td>Multiple choices from a modest gallery of styles.</td>
     </tr>
     <tr>
@@ -216,7 +216,7 @@ active: word
 </ul>
 
 
-<p>Depending on which you choose you'll get either a window to browse your computer for an image, or a gallery to search and choose an image from:
+<p>Depending on which you choose you'll get either a window to browse your computer for an image, or a gallery to search and choose an image from:</p>
 <div class="table-wrapper">
   <table class="no-border">
     <colgroup>
@@ -250,7 +250,7 @@ active: word
 
 
 <h2 id="image-insert-shape-icon-model">Inserting shapes, icons and 3D models</h2>
-<p>Alongside images you can also insert shapes, icons and 3D models into a document.
+<p>Alongside images you can also insert shapes, icons and 3D models into a document.</p>
 <div class="table-wrapper">
 <table>
   <colgroup>
@@ -292,7 +292,7 @@ active: word
 <p><img class="thumbnail" src="{{ '/assets/images/word/Images/3D model examples.png' | url }}" alt="3D model examples in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 
-<h2 id="#image-insert-smartart">Inserting SmartArt</h2>
+<h2 id="image-insert-smartart">Inserting SmartArt</h2>
 <p>SmartArt produces linked text containers arranged in visual layouts that are very useful to illustrate points, processes and structures for a report or guide. This feature is especially useful in <span class="glossary-hover" data-term="microsoft-powerpoint">PowerPoint</span> presentations. Under <strong>Insert</strong> select <strong>SmartArt</strong>, once you've chosen the option you need, select <strong>OK</strong> and you can then type into the visual as needed, as well as edit and style using the <strong>SmartArt Design</strong> and <strong>Format</strong> tabs on the ribbon.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/SmartArt menu.png' | url }}" alt="SmartArt option on ribbon in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle"></p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/SmartArt.png' | url }}" alt="SmartArt menu in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle"></p>
@@ -301,7 +301,7 @@ active: word
 
 <h2 id="image-insert-chart">Inserting charts</h2>
 <p>Via <strong>Insert > Chart</strong>, Word gives you several chart types to create one from:</p>
-<img class="thumbnail" src="{{ '/assets/images/word/Images/Chart menu.png' | url }}" alt="Chart option on ribbon in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Images/Chart menu.png' | url }}" alt="Chart option on ribbon in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle"></p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Images/Chart.png' | url }}" alt="Chart menu in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle"></p>
 <p>Inserting a chart will also provide you with an Excel window which will initially have placeholder data that the chart is based on. From here you can replace and alter that data to modify the chart as needed.</p>
 <p>More on editing charts here: <a href="/word/editing-charts/">Editing charts</a>.

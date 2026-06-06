@@ -5,7 +5,7 @@ permalink: /word/tables/
 description: How to use tables in Microsoft Word. Covers inserting and deleting tables, adding data, adding rows and columns, selecting cells and columns, adjusting column width and row height, splitting tables, distributing columns evenly, and autofitting tables to the window or to content.
 asset_id: ctrlall-word-tables-v1
 date: 2025-10-26
-last_modified: 2025-12-30
+last_modified: 2026-06-07
 tags:
   - ctrlall.org
   - ctrlall
@@ -46,9 +46,7 @@ active: word
 quiz: tables-quiz
 ---
 
-<div id="tooltip">
-  <img src="" alt="Tooltip preview">
-</div>
+
 
 
 <h1>Tables</h1>
@@ -76,7 +74,7 @@ quiz: tables-quiz
 <p>Here's it in action:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables/Insert table.gif' | url }}" alt="Insert table menu in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
-<h2 id="delete table">Deleting tables</h2>
+<h2 id="delete-table">Deleting tables</h2>
 <p>Select the whole table by clicking into it and pressing the top left square then press <strong>Delete</strong> or <strong>Backspace</strong>.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables/Delete table.gif' | url }}" alt="Delete menu demonstration in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
@@ -195,16 +193,16 @@ quiz: tables-quiz
 </div>
 
 <!-- Intermediate version -->
-<div class="difficulty intermediate-version" aria-label="Intermediate article exploring altering images" style="display:none;">
+<div class="difficulty intermediate-version" aria-label="Intermediate article exploring tables" style="display:none;">
 
 <section class="section-light">
 
   <p>Here's what this article about tables covers:</p>
   <ul>
     <li><a href="#create-table-int">Creating tables</a></li>
-    <li><a href="#delete table-int">Deleting tables</a></li>
+    <li><a href="#delete-table-int">Deleting tables</a></li>
     <li><a href="#image-table-resize-int">Adding data into a table</a></li>
-    <li><a href="#add-rows-columns-int">Add new table rows or columns</a></li>
+    <li><a href= "#add-rows-columns-int">Add new table rows or columns</a></li>
     <li><a href="#alter-table-int">Altering tables</a></li>
     <li><a href="#split-table-int">Splitting tables</a></li>
     <li><a href="#distribute-columns-evenly-int">Distributing Columns Evenly</a></li>
@@ -229,12 +227,12 @@ quiz: tables-quiz
   </div>
 
 
-  <h2 id="delete table-int">Deleting tables</h2>
-  <p>It's tempting to drag ver the table to select it, but this can be problematic if you table runs over more than one page. Instead select the whole table by clicking into it, press the top left square then delete:</p>
+  <h2 id="delete-table-int">Deleting tables</h2>
+  <p>It's tempting to drag over the table to select it, but this can be problematic if you table runs over more than one page. Instead select the whole table by clicking into it, press the top left square then delete:</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables/Delete table.gif' | url }}" alt="Delete menu demonstration in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h2 id="image-table-resize-int">Adding data into a table</h2>
-  <p>Simply type text or paste content into a seelcted table cell. Text is easy but images can be problematic at first...</p>
+  <p>Simply type text or paste content into a selected table cell. Text is easy but images can be problematic at first...</p>
 
   <h3>Images and tables</h3>
   <p>You can get a few issues crop up with images and tables, for any image-related issues with tables take a look at this article: <a href="/word/tables-fixing-table-image-problems/">Tables: Fixing table image problems</a></p>
@@ -356,7 +354,7 @@ quiz: tables-quiz
 
   <h1>Where to now?</h1>
   <ul>
-  <li>Have a look at <a href="/word/tables-formatting/">Tables: Formatting</a>:</p>
+  <li><p>Have a look at <a href="/word/tables-formatting/">Tables: Formatting</a>:</p>
     <ul style="list-style-type: circle;">
         <li><a href="/word/tables-formatting/#table-cell-alignment">Table cell alignment</a></li>
         <li><a href="/word/tables-formatting/#table-borders">Table borders</a></li>
@@ -367,19 +365,18 @@ quiz: tables-quiz
   </li>
   <li>Table gone wrong? Try these fixes:</li>
     <ul style="list-style-type: circle;">
-        <li><a href="tables-fixing-tables-extending-offscreen">Fixing tables that have gone off the page</a></li>
-        <li><a href="tables-fixing-tables-over-pages">Fixing tables over pages</a></li>
+        <li><a href="/word/tables-fixing-tables-extending-offscreen/">Fixing tables that have gone off the page</a></li>
+        <li><a href="/word/tables-fixing-tables-over-pages/">Fixing tables over pages</a></li>
     </ul>
   </ul>
-
-  <div id="tooltip">
-    <img src="" alt="Tooltip preview">
-  </div>
-
 </section>
 
 </div>
 </article>
+
+  <div id="tooltip">
+    <img src="" alt="Tooltip preview">
+  </div>
 
 <div id="ctrl-quiz"></div>
 
@@ -406,7 +403,7 @@ quiz: tables-quiz
           <p><strong>AutoFit to contents</strong>: This will have the table only the width of your content. Since it won't have any yet the columns will be the smallest width possible.
           </p>
           <p>
-          <img src="{{ '/assets/images/word/Tables/Insert Table AutoFit to contents example.png' | url }}" alt="Adjust table row cursor icon in Word" style="max-width:125px; width:100%; height:auto; vertical-align:middle"
+          <img src="{{ '/assets/images/word/Tables/Insert Table AutoFit to contents example.png' | url }}" alt="Adjust table row cursor icon in Word" style="max-width:125px; width:100%; height:auto; vertical-align:middle">
           </p>
         </div>`,
       "Insert-Table-options-tooltip-4": `

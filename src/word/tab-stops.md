@@ -5,7 +5,7 @@ permalink: /word/tab-stops/
 description: How to use tab stops in Microsoft Word. Covers default and custom tab stops, setting tab stops on the ruler, left, centre, right, decimal and bar alignment types, leader characters including dots and dashes, and the Tabs options dialog.
 asset_id: ctrlall-word-tab-stops-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
     description: "Introduces Tab stops basics with clear visual cues and interactivities."
@@ -88,7 +88,6 @@ active: word
 
 </div>
 
-
 <!-- Intermediate version -->
 <div class="difficulty intermediate-version" aria-label="Intermediate article exploring Tab stops" style="display:none;">
 
@@ -98,7 +97,7 @@ active: word
 
 
 <h2 id="tab-stops">Tab stops</h2>
-<p>You can set custom points on the horizontal ruler called <strong>tab stops</strong> that control where the insertion point jumps to when you press the Tab key. This is useful if you don't want to rey on Word's default half-inch jumps, as you can create consistent alignment in your document how you want it and where you want it.</p>
+<p>You can set custom points on the horizontal ruler called <strong>tab stops</strong> that control where the insertion point jumps to when you press the Tab key. This is useful if you don't want to rely on Word's default half-inch jumps, as you can create consistent alignment in your document how you want it and where you want it.</p>
 <br>
 <p><i>Default tab stop — every 0.5" by default. <u>Note</u>: you can change this, see <a href="#tabs-options">Tabs options</a> further down.</i></p>
 <img class="thumbnail border left" src="{{ '/assets/images/word/Tab stops/Default tab stop on page.png' | url }}" alt="Default tab stop on page in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle">
@@ -114,7 +113,7 @@ active: word
     <img class="thumbnail left" src="{{ '/assets/images/word/Tab stops/Tab stop bar.png' | url }}" alt="Tab stop bar icon" style="max-width:50px; width:100%; height:auto">
   </div>
 
-<p>You can also customise tabs to have <strong>leaders</strong>. A <span class="glossary-hover" data-term="leader">leader</span> is a filler pattern (dots, dashes, or a solid line) that appears between text and the tab stop. When you press Tab, Word will insert the leader automatically. You'll recognise leaders from tables of contents but they're also using in forms, menus and other lists. You can add a leader to a tab stop in the <strong>Tabs options</strong>.</p>
+<p>You can also customise tabs to have <strong>leaders</strong>. A <span class="glossary-hover" data-term="leader">leader</span> is a filler pattern (dots, dashes, or a solid line) that appears between text and the tab stop. When you press Tab, Word will insert the leader automatically. You'll recognise leaders from tables of contents but they're also used in forms, menus and other lists. You can add a leader to a tab stop in the <strong>Tabs options</strong>.</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Tab stops/Leader example.png' | url }}" alt="Leader example in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
 
 
@@ -122,7 +121,7 @@ active: word
 <p>To access the Tabs options just double click on a tab stop icon.</p> 
 
 <p>Alternatively you can navigate to the Tabs options via <strong>Home</strong> > <strong>Paragraph options</strong> (bottom right button) > <strong>Tabs</strong>.</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Tab stops/Tab options alternative navgiation.png' | url }}" alt="Tab options alternative navgiation in Word" style="display: inline; max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tab stops/Tab options alternative navigation.png' | url }}" alt="Tab options alternative navigation in Word" style="display: inline; max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>The Tabs options dialog shows all the tab stops you have currently, their position measurement, alignment and any leaders you have on them. Hover over each for an explanation.</p> 
 <!-- Page setup Layout... tooltip overlay -->
@@ -184,7 +183,7 @@ active: word
   </div>
 
 <h4>Bar</h4>
-<p><strong>Bar</strong> is slightly different. It doesn't align text. Instead it creates a decorative vertical line at the tab position that acts as a visual divider. This might be used to separate text in headers and footers (Document title | Page number) or forms (Name | Phone | Email), in multi‑column lists without tables like a menu or directory, or anywhere you want a vertical line but don’t want the overhead of a table or shape.</li>
+<p><strong>Bar</strong> is slightly different. It doesn't align text. Instead it creates a decorative vertical line at the tab position that acts as a visual divider. This might be used to separate text in headers and footers (Document title | Page number) or forms (Name | Phone | Email), in multi‑column lists without tables like a menu or directory, or anywhere you want a vertical line but don’t want the overhead of a table or shape.</p>
 
 <h4>Leader examples</h4>
 <p>Here's the different types of leaders demonstrated. I've added a tab stop just after 4" and then configured it to have a leader in the Tabs options. After typing a word on a line I then press Tab after it and Word automatically applies the leader between the text and the tab stop.</p>
@@ -194,6 +193,7 @@ active: word
 
 </div>
 </article>
+
 <!-- Global tooltip layer -->
   <div id="tooltip-layer"></div>
 

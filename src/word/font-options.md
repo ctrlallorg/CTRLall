@@ -5,7 +5,7 @@ permalink: /word/font-options/
 description: Complete guide to font options in Microsoft Word. Covers font style, size, colour, underline styles, strikethrough, subscript, superscript and hidden text effects, plus advanced options including character scale, spacing, position, kerning, ligatures, number spacing, number forms and stylistic sets.
 asset_id: ctrlall-word-font-options-v1
 date: 2025-10-26
-last_modified: 2025-12-06
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
     description: "Introduces basic Font Options in Microsoft Word for beginners with clear visual cues."
@@ -31,7 +31,7 @@ tags:
   - font formats
   - font styles
   - bold
-  - emboldneing
+  - emboldening
   - italicising
   - underline
   - underlining
@@ -59,8 +59,8 @@ active: word
 <div class="difficulty beginner-version"  aria-label="Beginner introduction to basic Font Options in Word">
 
   <section class="section-light">
-  Word has a one-stop shop <strong>Font options</strong> window for formatting (editing the look of) all a text's font. First, select the text you want to change first then either <strong>right click</strong> and select <strong>Font</strong> from the menu, or on the <strong>Home > Font</strong> section of the ribbon click the <strong>bottom right corner button</strong>.
-  <img class="thumbnail border" src="{{ '/assets/images/word/Font options/Font options menus-beg.png' | url }}"  alt="Different ways to open the Font options menus" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
+  <p>Word has a one-stop shop <strong>Font options</strong> window for formatting (editing the look of) all a text's font. First, select the text you want to change first then either <strong>right click</strong> and select <strong>Font</strong> from the menu, or on the <strong>Home > Font</strong> section of the ribbon click the <strong>bottom right corner button</strong>.</p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Font options/Font options menus-beg.png' | url }}"  alt="Different ways to open the Font options menus" style="max-width:700px; width:100%; height:auto; vertical-align:middle"><p>
 
   <p>The font options windows pops up and with the <strong>Font</strong> tab showing. More options can be found on the <a href="#Advanced-Font-Options">Advanced</a> tab which are explained in the <a href="?difficulty=intermediate">intermediate version</a> of this article.</p>
   <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font options.png' | url }}" alt="Font options in Word" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
@@ -136,7 +136,7 @@ active: word
     </table>
 
   <h4>What about alignment?</h4>
-  If you're looking for alignment that comes under paragraph options (<strong>Home > Paragraph</strong>), see here for more: <a href="/word/formatting-text/#paragraph-tools" target="_blank">Formatting text</a>.</p>
+  If you're looking for alignment, that comes under paragraph options (<strong>Home > Paragraph</strong>), see here for more: <a href="/word/formatting-text/#paragraph-tools" target="_blank">Formatting text</a>.</p>
 
   <h2 id="Advanced-Font-Options">Advanced Font Options</h2>
   <p>The Advanced tab gives you some more specific options to style font as needed. This is slightly more complex and is detailed in the <a href="?difficulty=intermediate">intermediate version</a> of this article. Click Intermediate to see more.</p>
@@ -149,8 +149,8 @@ active: word
   <h1>Font options</h1>
 
   <section class="section-light">
-  The <strong>Font options</strong> window provides multiple font format options for selected text. You can access Font options in various ways; the simpliest is to select text and <strong>right click</strong> then select <strong>Font</strong>, or on the <strong>Home > Font</strong> section of the ribbon click the <strong>bottom right corner button</strong>, but you might also access it through other menus like the <strong>Format</strong> drop down when creating or modifying a style:
-  <img class="thumbnail border" src="{{ '/assets/images/word/Font options/Font options menus-int.png' | url }}"  alt="Different ways to open the Font options menus" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
+  <p>The <strong>Font options</strong> window provides multiple font format options for selected text. You can access Font options in various ways; the simpliest is to select text and <strong>right click</strong> then select <strong>Font</strong>, or on the <strong>Home > Font</strong> section of the ribbon click the <strong>bottom right corner button</strong>, but you might also access it through other menus like the <strong>Format</strong> drop down when creating or modifying a style:</p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/word/Font options/Font options menus-int.png' | url }}"  alt="Different ways to open the Font options menus" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h2>Font</h2>
   <p>You'll first find yourself on the <strong>Font</strong> tab. More options can be found on the <a href="#Advanced-Font-Options">Advanced</a> tab.</p>
@@ -189,7 +189,7 @@ active: word
             <li>Regular</li>
             <li><i>Italic</i></li>
             <li><strong>Bold</strong></li>
-            <li><strong><em>Bold Italic</strong></em></strong>
+            <li><strong><em>Bold Italic</em></strong></strong>
           </ul>
           <p>It doesn't include underline, that's handled below with the <strong>underline style</strong> drop down.</p>
           </td>
@@ -204,7 +204,7 @@ active: word
         <tr>
           <td>Font <span class="us-only">color</span></td>
           <td><p>Choose the text's colour from a palette. There are more options if you want to choose a more exact colour shade, right down to specific RGB, HSL or HEX colour models.</p>
-          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font colour palette.png' | url }}" alt="Font colour palettes" style="display: inline; max-width:90700px0px; width:100%; height:auto; vertical-align:middle"></p></td>
+          <p><img class="thumbnail" src="{{ '/assets/images/word/Font options/Font colour palette.png' | url }}" alt="Font colour palettes" style="display: inline; max-width:700px; width:100%; height:auto; vertical-align:middle"></p></td>
         </tr>
         <tr>
           <td>Underline style</td>
@@ -256,7 +256,7 @@ active: word
               <li><u>Expanded</u>: adds space between characters (can specify in points).</li>
               <li><u>Condensed</u>: reduces space between characters (can specify in points).</li>
           </ul>
-          <td>
+          </td>
         </tr>
         <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Font options/Position examples.png' | url }}">
           <td>Position</td>
@@ -307,8 +307,8 @@ active: word
         </tr>
         <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Font options/Stylistic Sets examples.png' | url }}">
           <td>Stylistic Sets</td>
-          <td><p>Stylistic Sets offer alternate versions of characters, however most default fonts in Word offer little to no visible change with stylistic sets so these sets are not much worth bothering with. The tooltip is showing one example you can try: set '1' for the font EB Garamond.<p>
-          <p>Fonts that offer more Stylistic Sets but won't be preinstalled are Adobe fonts like Bickham Script Pro and Minion Pro or Google fonts like Source Serif Pro and Crimson Text. The bottom line is that stylisitc sets are really more for design-focused apps like Adobe Illustrator which allow you more control over them.</p></td>
+          <td><p>Stylistic Sets offer alternate versions of characters, however, most default fonts in Word offer little to no visible change with stylistic sets so these sets are not much worth bothering with. The tooltip is showing one example you can try: set '1' for the font EB Garamond.<p>
+          <p>Fonts that offer more Stylistic Sets but won't be preinstalled are Adobe fonts like Bickham Script Pro and Minion Pro or Google fonts like Source Serif Pro and Crimson Text. The bottom line is that stylistic sets are really more for design-focused apps like Adobe Illustrator which allow you more control over them.</p></td>
         </tr>
         <tr class="tooltip-row" data-gif="{{ '/assets/images/word/Font options/Contextual Alternatives examples.png' | url }}">
           <td>Contextual Alternatives</td>

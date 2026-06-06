@@ -5,7 +5,7 @@ permalink: /word/tables-fixing-tables-extending-offscreen/
 description: How to fix a table that has extended beyond the page margin in Microsoft Word. Covers selecting the whole table, using AutoFit Window to bring it back within the page, and using Distribute Columns to even out column widths afterwards.
 asset_id: ctrlall-word-tables-fixing-tables-extending-offscreen-v1
 date: 2025-10-26
-last_modified: 2025-12-06
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Intermediate
     description: "Explores amending table issues extending offscreen with advanced solutions for intermediate level."
@@ -52,20 +52,20 @@ active: word
 
 <section class="section-light">
 
-<p>Got a table with columns extending beyond the margin off the page into the grey area? It’s a bit annoying. Typically this can happen when adding or pasting a new column onto a table that’s likely had it’s column widths altered previously. It might look something like this:</p>
+<p>Got a table with columns extending beyond the margin off the page into the grey area? It’s a bit annoying. Typically this can happen when adding or pasting a new column onto a table that’s likely had its column widths altered previously. It might look something like this:</p>
 
 <img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables extending offscreen/Example table extending offscreen.png' | url }}" alt="Example of a table extending off the page in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
 
 <p>There is a quick tool we can use to bring it back in line.</p>
 <p>First, select the whole table (hover over table and click the little box top left corner):</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables extending offscreen/Example table extending offscreen selected.png' | url }}" alt="Table extending off the page selected" style="margin-bottom: 10px;" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
+<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables extending offscreen/Example table extending offscreen selected.png' | url }}" alt="Table extending off the page selected"  style="margin-bottom:10px; max-width:550px; width:100%; height:auto; vertical-align:middle">
 
-<p>Then under Table Layout > Autofit select <strong>AutoFit Window</strong>:</p>
-<img class="thumbnail" src="{{ '/assets/images/word/Tables fixing tables extending offscreen/Table Layout Autofit.png' | url }}" alt="Autofit window option under Table Layout on ribbon in Word"style="margin-bottom: 20px;" style="max-width:300px; width:100%; height:auto; vertical-align:middle">
+<p>Then under Table Layout > AutoFit select <strong>AutoFit Window</strong>:</p>
+<img class="thumbnail" src="{{ '/assets/images/word/Tables fixing tables extending offscreen/Table Layout AutoFit.png' | url }}" alt="Autoit window option under Table Layout on ribbon in Word" style="margin-bottom: 20px;" style="max-width:300px; width:100%; height:auto; vertical-align:middle">
 
-<p>This autofits the whole table to fit the page again.</p>
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables extending offscreen/Example table autofit to window.png' | url }}" alt="A table autofitted to the page" style="margin-bottom: 20px;" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
+<p>This AutoFits the whole table to fit the page again.</p>
+<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables extending offscreen/Example table AutoFit to window.png' | url }}" alt="A table AutoFitted to the page" style="margin-bottom:10px; max-width:550px; width:100%; height:auto; vertical-align:middle">
 
 <p>It may need some cleaning up in terms of column width; <strong>Distribute Columns</strong> under Table Layout is a good tool for dealing with this as it makes all of your table’s column widths equal:</p>
 <img class="thumbnail" src="{{ '/assets/images/word/Tables fixing tables extending offscreen/Table Layout Distribute Column.png' | url }}" alt="Distribute Column option under Table Layout on ribbon in Word" style="max-width:150px; width:100%; height:auto; vertical-align:middle">

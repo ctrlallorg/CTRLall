@@ -5,7 +5,7 @@ permalink: /word/lists-fixing-number-lists/
 description: How to fix broken numbered lists in Microsoft Word. Covers using Continue Numbering to reconnect a number list that has restarted across headings or other content, and how to set a custom starting number using Set Numbering Value.
 asset_id: ctrlall-word-lists-fixing-number-lists-v1
 date: 2025-10-26
-last_modified: 2025-12-06
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Intermediate
     description: "Explores advanced modification of numbering in number lists at an intermediate level."
@@ -26,7 +26,7 @@ tags:
   - list number order
   - in sync
   - synchronize
-  - syncronized
+  - syncronised
   - connected
   - joined together
   - separate
@@ -49,7 +49,7 @@ active: word
 <body data-intermediate-only="true">
 
 
-<h1>Fixing number lists</h2>
+<h1>Fixing number lists</h1>
 
 <section class="section-light">
 
@@ -59,19 +59,19 @@ active: word
 
 <img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Number list issue example.png' | url }}" alt="Number list issue example" style="max-width:450px; width:100%; height:auto; vertical-align:middle">
 
-To have all these numbers run sequentially together, right click the number that is not following on from the last and select <strong>Continue Numbering</strong> from the menu.
+<p>To have all these numbers run sequentially together, right click the number that is not following on from the last and select <strong>Continue Numbering</strong> from the menu.</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Right click menu Continue Numbering.png' | url }}" alt="Right click menu Continue Numbering" style="max-width:250px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Right click menu Continue Numbering.png' | url }}" alt="Right click menu Continue Numbering" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
 
-You can also set a custom number for a numbered list to start on via <strong>Set Numbering value</strong> which brings up this window:
+<p>You can also set a custom number for a numbered list to start on via <strong>Set Numbering value</strong> which brings up this window:</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Right click menu Set Number Value.png' | url }}" alt="Right click menu Set Number Value" style="max-width:250px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Right click menu Set Number Value.png' | url }}" alt="Right click menu Set Number Value" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
 <br>
-<img class="thumbnail" src="{{ '/assets/images/word/Lists fixing number lists/Set Number Value options.png' | url }}" alt="Set Number Value options in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail" src="{{ '/assets/images/word/Lists fixing number lists/Set Number Value options.png' | url }}" alt="Set Number Value options in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle"></p>
 <br>
-Once done you should see the numbered lists continuing on as appropriate (Note: the numbers below the last heading that were sequential will adapt accordingly):
+<p>Once done you should see the numbered lists continuing on as appropriate (Note: the numbers below the last heading that were sequential will adapt accordingly):</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Number list issue example fixed.png' | url }}" alt="Number list sequence issue example fixed" style="max-width:450px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Lists fixing number lists/Number list issue example fixed.png' | url }}" alt="Number list sequence issue example fixed" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
 
 </section>
 

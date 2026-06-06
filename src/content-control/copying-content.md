@@ -5,7 +5,7 @@ permalink: /content-control/copying-content/
 description: How to copy and paste content in Microsoft Word, Excel and Windows. Covers Ctrl+C and Ctrl+V, selecting multiple adjacent items with Shift, and selecting multiple non-adjacent items with Ctrl.
 asset_id: ctrlall-copying-content-v1
 date: 2025-10-26
-last_modified: 2025-12-06
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
     description: "Introduces drag and drop and copy and paste with clear visual cues."
@@ -68,13 +68,13 @@ then
 </div>
 
 <!-- Intermediate version -->
-<div class="difficulty intermediate-version" aria-label="Intermediate article exploring altering images" style="display:none;">
+<div class="difficulty intermediate-version" aria-label="Intermediate article exploring copying content" style="display:none;">
 
 <section class="section-light">
 
 <h2>Copy and paste</h2> 
 
-<p>Copy and paste by selecting the file/content, pressing <strong>Ctrl + C</strong> to copy informtion to the <span class="glossary-hover" data-term="clipboard">clipboard</span>, then <strong>Ctrl + V</strong> to <span class="glossary-hover" data-term="paste">paste</span> it elsewhere.</p>
+<p>Copy and paste by selecting the file/content, pressing <strong>Ctrl + C</strong> to copy information to the <span class="glossary-hover" data-term="clipboard">clipboard</span>, then <strong>Ctrl + V</strong> to <span class="glossary-hover" data-term="paste">paste</span> it elsewhere.</p>
 
 <img class="thumbnail left" src="{{ '/assets/images/keyboard shortcuts/Ctrl+C.png' | url }}" alt="Ctrl and C" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
 <img class="thumbnail left" src="{{ '/assets/images/keyboard shortcuts/Ctrl+V.png' | url }}" alt="Ctrl and V" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
@@ -87,12 +87,12 @@ then
 <img class="thumbnail border" src="{{ '/assets/images/content control/Copy and paste file.gif' | url }}"  alt="Copy and paste file" style="max-width:800px; width:100%; height:auto; vertical-align:middle">
 
 <h2>Copy and paste multiple content/files</h2> 
-<p>Select multiple content and files to copy and paste at once is possible and it can be done in two ways:</p>
+<p>Selecting multiple content and files to copy and paste at once is possible and it can be done in two ways:</p>
 
 <h3>Select multiple adjacent content/files</h3>
 <ol>
   <li><p>Hold <strong>Shift</strong> and select multiple items/content that are adjacent.</p></li>
-  <li><p>Copy and paste as normal.</strong></p></li>
+  <li><p><strong>Copy and paste as normal.</strong></p></li>
 </ol>
 <img class="thumbnail border" src="{{ '/assets/images/content control/Multiple select copy and paste Shift Word.gif' | url }}"  alt="Copy and paste multiple text using Shift in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
 <img class="thumbnail border" src="{{ '/assets/images/content control/Multiple select copy and paste Shift Excel.gif' | url }}"  alt="Copy and paste multiple using Shift cells in Excel" style="max-width:300px; width:100%; height:auto; vertical-align:middle">

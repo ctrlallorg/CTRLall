@@ -1,44 +1,44 @@
 ---
 title: Getting Started with Microsoft PowerPoint – Interface, Slides and Versions – Ctrl All
 layout: layout.liquid
-permalink: /powerpoint/getting-started-powerpoint/
+permalink: /powerpoint/getting-started-PowerPoint/
 description: Beginner's guide to Microsoft PowerPoint. Covers how to open PowerPoint, create a new presentation, open existing files, the main interface including the ribbon, slides pane, slide canvas, Quick Access Toolbar and status bar, closing a presentation, and the differences between PowerPoint versions including Microsoft 365, PowerPoint 2021 and PowerPoint Online.
-asset_id: ctrlall-powerpoint-getting-started-powerpoint-v1
+asset_id: ctrlall-PowerPoint-getting-started-PowerPoint-v1
 date: 2025-11-15
-last_modified: 2025-11-15
+last_modified: 2026-06-07
 tags:
   - ctrlall.org
   - ctrlall
   - ctrl all
-  - microsoft powerpoint
-  - what is powerpoint
-  - get started with powerpoint
-  - new to powerpoint
-  - starting with powerpoint
-  - powerpoint for beginners
-  - never used powerpoint
-  - not used powerpoint before
-  - what do you do in powerpoint
-  - how do you use powerpoint
-  - how do you use a powerpoint
-  - how does powerpoint work
-  - how to open up powerpoint
-  - open powerpoint app
-  - make a powerpoint presentation
-  - make powerpoint presentations
-  - new powerpoint presentations
+  - microsoft PowerPoint
+  - what is PowerPoint
+  - get started with PowerPoint
+  - new to PowerPoint
+  - starting with PowerPoint
+  - PowerPoint for beginners
+  - never used PowerPoint
+  - not used PowerPoint before
+  - what do you do in PowerPoint
+  - how do you use PowerPoint
+  - how do you use a PowerPoint
+  - how does PowerPoint work
+  - how to open up PowerPoint
+  - open PowerPoint app
+  - make a PowerPoint presentation
+  - make PowerPoint presentations
+  - new PowerPoint presentations
   - make a slideshow
   - make slideshow
   - new slideshow
   - new files
-  - create a powerpoint presentation
+  - create a PowerPoint presentation
   - create a slideshow
   - create a pptx
-  - opening powerpoint
-  - how to open powerpoint
-  - how do i open powerpoint?
-  - how to open a powerpoint presentation
-  - how to open powerpoint presentation
+  - opening PowerPoint
+  - how to open PowerPoint
+  - how do i open PowerPoint?
+  - how to open a PowerPoint presentation
+  - how to open PowerPoint presentation
   - how to open a slideshow
   - how to open slideshow
   - open a pptx file
@@ -53,11 +53,11 @@ tags:
   - open .pptx file
   - open .potx file
   - open .ppt file
-  - powerpoint demonstrations
-  - powerpoint examples
-active: powerpoint
+  - PowerPoint demonstrations
+  - PowerPoint examples
+active: PowerPoint
 ---
-<h1>Getting started with Microsoft Powerpoint</h1>
+<h1>Getting started with Microsoft PowerPoint</h1>
 
 <article class="difficulty-wrapper" role="article" aria-label="An introduction to Microsoft PowerPoint with beginner and intermediate versions">
 
@@ -68,38 +68,37 @@ active: powerpoint
   <section class="section-light">
   <p>If you’re new to PowerPoint read on. If you're already a little familiar with PowerPoint try the <a href="?difficulty=intermediate">intermediate version</a> of this article.</p>
 
-  <p>Microsoft Powerpoint is slideshow presentation <span class="glossary-hover" data-term="application">application</span> used worldwide for professional and educational presentation. It comes as part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> suite, a package of several Microsoft applications like <span class="glossary-hover" data-term="microsoft-PowerPoint">PowerPoint</span> for creating and presenting slideshows, <span class="glossary-hover" data-term="microsoft-outlook">Outlook</span> for emails and <span class="glossary-hover" data-term="microsoft-excel">Excel</span> for spreadsheets.
+  <p>Microsoft PowerPoint is slideshow presentation <span class="glossary-hover" data-term="application">application</span> used worldwide for professional and educational presentation. It comes as part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> suite, a package of several Microsoft applications like <span class="glossary-hover" data-term="microsoft-PowerPoint">PowerPoint</span> for creating and presenting slideshows, <span class="glossary-hover" data-term="microsoft-outlook">Outlook</span> for emails and <span class="glossary-hover" data-term="microsoft-excel">Excel</span> for spreadsheets.</p>
 
-  If you're new to Microsoft PowerPoint ('PowerPoint' for short, slideshow presentations made are commonly just referred to as 'PowerPoints' / 'PPTs' as well) this article starts from the ground up. In this article we'll explore:</p>
+  <p>If you're new to Microsoft PowerPoint ('PowerPoint' for short, slideshow presentations made are commonly just referred to as 'PowerPoints' / 'PPTs' as well) this article starts from the ground up. In this article we'll explore:
+    <ul>
+    <li><a href="#open-PowerPoint-app-beg">How to open Microsoft PowerPoint</a></li>
+    <li><a href="#create-new-PowerPoint-beg">How to create a new PowerPoint presentation</a></li>
+    <li><a href="#open-PowerPoint-beg">How to open a PowerPoint file</a></li>
+    <li><a href="#PowerPoint-interface-beg">The main interface</a></li>
+    <li><a href="#close-PowerPoint-beg">Closing a PowerPoint presentation</a></li>
+    <li><a href="#close-PowerPoint-app-beg">How to close the PowerPoint application</a></li>
+    <li><a href="#PowerPoint-version-beg">What version of PowerPoint do I have?</a></li>
+    </ul>
+  </p>
 
-  <ul>
-  <li><a href="#open-powerpoint-app-beg">How to open Microsoft Powerpoint</a></li>
-  <li><a href="#create-new-powerpoint-beg">How to create a new PowerPoint presentation</a></li>
-  <li><a href="#open-powerpoint-beg">How to open a PowerPoint file</a></li>
-  <li><a href="#powerpoint-interface-beg">The main interface</a></li>
-  <li><a href="#close-powerpoint-beg">Closing a PowerPoint presentation</a></li>
-  <li><a href="#close-powerpoint-app-beg">How to close the PowerPoint application</a></li>
-  <li><a href="#powerpoint-version-beg">What version of Powerpoint do I have?</a></li>
-  </ul>
-
-
-  <h2 id="open-powerpoint-app-beg">How to open Microsoft Powerpoint</h2>
+  <h2 id="open-PowerPoint-app-beg">How to open Microsoft PowerPoint</h2>
   <p>To find the PowerPoint <span class="glossary-hover" data-term="application">application</span> ('app' for short), search on your <span class="glossary-hover" data-term="taskbar">taskbar</span> at the bottom of your screen:</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/Search bar.png' | url }}"  alt="Searching for PowerPoint via taskbar" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
   <p>This brings up two buttons to open PowerPoint with:</p>
-  <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/Searching for powerpoint app.png' | url }}"  alt="Searching for PowerPoint via taskbar" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/Searching for PowerPoint app.png' | url }}"  alt="Searching for PowerPoint via taskbar" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
   <strong>Tip</strong>: Once you've opened the app, right click on the app icon, then select <strong>Pin to taskbar</strong> from the menu. Pinning an app to the taskbar will keep it there after you close it so you can access it quicker next time:
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/PowerPoint app pin to taskbar.png' | url }}"  alt="How to pin PowerPoint app to taskbar" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
 
 
-  <h2 id="create-new-powerpoint-beg">How to create a new PowerPoint presentation</h2>
+  <h2 id="create-new-PowerPoint-beg">How to create a new PowerPoint presentation</h2>
   <p>When the PowerPoint app loads up you get the screen shown below. Click <strong>Blank Presentation</strong> up the top to get started. This will create a brand new blank presentation for you to edit.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/New presentation.png' | url }}"  alt="PowerPoint start screen showing Blank Presentation option" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
 
-  <h2 id="open-powerpoint-beg">How to open a PowerPoint file</h2>
+  <h2 id="open-PowerPoint-beg">How to open a PowerPoint file</h2>
   <p>PowerPoint files will have the PowerPoint app icon with a 'P' which looks like this depending on the folder view.
 
   First, find the file you need then <strong>double click</strong> on it. If you find double clicking tricky try clicking on the file once to select it, then press the <strong>Enter</strong> key on your keyboard instead. This will open it in the app.</p>
@@ -108,7 +107,7 @@ active: powerpoint
     <img class="thumbnail left" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/PowerPoint file 2.png' | url }}" alt="PowerPoint file icon" style="max-width:175px; width:100%; height:50%; vertical-align:middle">
   </div>
 
-  <h2 id="powerpoint-interface-beg">The main interface</h2>
+  <h2 id="PowerPoint-interface-beg">The main interface</h2>
   <p>This is the main interface of the PowerPoint app. Let's break it down in sections top to bottom.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/PowerPoint interface.png' | url }}"  alt="PowerPoint interface" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
@@ -123,7 +122,7 @@ active: powerpoint
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/The ribbon.png' | url }}"  alt="The ribbon in PowerPoint" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h3>Slides Pane</h3>
-  <p>To the left is the <strong>slides pane</strong> which shows all your presentation's slide in order. Here you can add, delete, <span class="glossary-hover" data-term="cut">cut</span>, <span class="glossary-hover" data-term="copy">copy</span> and <span class="glossary-hover" data-term="paste">paste</span> slides in your presentation.</p>
+  <p>To the left is the <strong>slides pane</strong> which shows all your presentation's slides in order. Here you can add, delete, <span class="glossary-hover" data-term="cut">cut</span>, <span class="glossary-hover" data-term="copy">copy</span> and <span class="glossary-hover" data-term="paste">paste</span> slides in your presentation.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/Slides pane.png' | url }}"  alt="in PowerPoint" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h3>Slide canvas</h3>
@@ -131,19 +130,19 @@ active: powerpoint
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/Slide canvas.png' | url }}"  alt="in PowerPoint" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h3>Status bar</h3>
-  <p>The bar at the bottom of the application is the </strong>status bar</strong> which shows details about your PowerPoint presentation such as the slide number, total slides, current language setting, notes for the slide, view options and the zoom tool.</p>
+  <p>The bar at the bottom of the application is the <strong>status bar</strong> which shows details about your PowerPoint presentation such as the slide number, total slides, current language setting, notes for the slide, view options and the zoom tool.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/Status bar.png' | url }}"  alt="in PowerPoint" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
 
-  <h2 id="close-powerpoint-beg">Closing a PowerPoint presentation</h2>
+  <h2 id="close-PowerPoint-beg">Closing a PowerPoint presentation</h2>
   <p>You can close the current document but still keep the PowerPoint application open by clicking <strong>File > Close</strong>.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/File.png' | url }}"  alt="in PowerPoint" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/File Close.png' | url }}"  alt="in PowerPoint" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
-  <h2 id="close-powerpoint-app-beg">How to close the PowerPoint application</h2>
+  <h2 id="close-PowerPoint-app-beg">How to close the PowerPoint application</h2>
   <p>You can close the PowerPoint application by pressing the <strong>✖</strong> button in the far right corner on the <span class="glossary-hover" data-term="quick-access-toolbar">Quick Access Toolbar</span>. If you have made any unsaved edits PowerPoint will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
 
-  <h2 id="powerpoint-version-beg">What version of Powerpoint do I have?</h2>
+  <h2 id="PowerPoint-version-beg">What version of PowerPoint do I have?</h2>
   <div class="table-wrapper">
   <table>
       <colgroup>
@@ -179,11 +178,11 @@ active: powerpoint
         </tr>
         <tr>
           <td>PowerPoint for Mac</td>
-          <td>Mac-specific versions released alongside Windows editions. Some advanced features (e.g., certain add-ins or shortcut customizations) may differ.</td>
+          <td>Mac-specific versions released alongside Windows editions. Some advanced features (e.g., certain add-ins or shortcut customisations) may differ.</td>
         </tr>
         <tr>
           <td>PowerPoint Mobile</td>
-          <td>A lightweight version of PowerPoint for mobile devices, optimized for touch, viewing and light editing. Advanced features are limited.</td>
+          <td>A lightweight version of PowerPoint for mobile devices, optimised for touch, viewing and light editing. Advanced features are limited.</td>
         </tr>
         </tbody>
   </table>
@@ -229,19 +228,19 @@ active: powerpoint
   <p>This article is for those who are already a little familiar with PowerPoint. If you're brand new to PowerPoint try the <a href="?difficulty=beginner">beginner version</a> of this article.</p>
 
   <section class="section-light">
-  <p>You've probably heard of Powerpoint before or seen a PowerPoint presentation at some time. PowerPoint is slideshow presentation <span class="glossary-hover" data-term="application">application</span> used globally for creating slideshows. It's part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> suite.
+  <p>You've probably heard of PowerPoint before or seen a PowerPoint presentation at some time. PowerPoint is slideshow presentation <span class="glossary-hover" data-term="application">application</span> used globally for creating slideshows. It's part of the <span class="glossary-hover" data-term="microsoft-office">Microsoft Office</span> suite.
+    <ul>
+    <li><a href="#PowerPoint-version">PowerPoint versions</a></li>
+    <li><a href="#open-PowerPoint-app-beg">Opening Microsoft PowerPoint</a></li>
+    <li><a href="#create-new-PowerPoint">Create a new PowerPoint presentation</a></li>
+    <li><a href="#open-PowerPoint">Opening an existing PowerPoint file</a></li>
+    <li><a href="#PowerPoint-interface">The main interface</a></li>
+    <li><a href="#close-PowerPoint">Closing a PowerPoint</a></li>
+    <li><a href="#close-PowerPoint-app">Closing the app</a></li>
+    </ul>
+  </p>
 
-  <ul>
-  <li><a href="#powerpoint-version">PowerPoint versions</a></li>
-  <li><a href="#open-powerpoint-app-beg">Opening Microsoft Powerpoint</a></li>
-  <li><a href="#create-new-powerpoint">Create a new PowerPoint presentation</a></li>
-  <li><a href="#open-powerpoint">Opening an existing Powerpoint file</a></li>
-  <li><a href="#powerpoint-interface">The main interface</a></li>
-  <li><a href="#close-powerpoint">Closing a Powerpoint</a></li>
-  <li><a href="#close-powerpoint-app">Closing the app</a></li>
-  </ul>
-
-  <h2 id="powerpoint-version">PowerPoint versions</h2>
+  <h2 id="PowerPoint-version">PowerPoint versions</h2>
 
   <div class="table-wrapper">
   <table>
@@ -278,11 +277,11 @@ active: powerpoint
         </tr>
         <tr>
           <td>PowerPoint for Mac</td>
-          <td>Mac-specific versions released alongside Windows editions. Some advanced features (e.g., certain add-ins or shortcut customizations) may differ.</td>
+          <td>Mac-specific versions released alongside Windows editions. Some advanced features (e.g., certain add-ins or shortcut customisations) may differ.</td>
         </tr>
         <tr>
           <td>PowerPoint Mobile</td>
-          <td>A lightweight version of PowerPoint for mobile devices, optimized for touch, viewing and light editing. Advanced features are limited.</td>
+          <td>A lightweight version of PowerPoint for mobile devices, optimised for touch, viewing and light editing. Advanced features are limited.</td>
         </tr>
         </tbody>
   </table>
@@ -305,23 +304,23 @@ active: powerpoint
 
   <p><u>Note</u>: For the purpose of demonstration here all the examples are using Microsoft Office 365.</p>
 
-  <h2 id="open-powerpoint-app-beg">Opening Microsoft Powerpoint</h2>
+  <h2 id="open-PowerPoint-app-beg">Opening Microsoft PowerPoint</h2>
   <p>To find the PowerPoint app, search on the <span class="glossary-hover" data-term="taskbar">taskbar</span>:</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/Search bar.png' | url }}"  alt="Searching for PowerPoint via taskbar" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
   <p>This brings up two buttons to open the application with:</p>
-  <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/Searching for powerpoint app.png' | url }}"  alt="Searching for PowerPoint via taskbar" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+  <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/Searching for PowerPoint app.png' | url }}"  alt="Searching for PowerPoint via taskbar" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
-  </strong>Tip</strong>: Once you've opened the app, right click on the app icon and select <strong>Pin to taskbar</strong> from the menu. Pinning the app to the taskbar will make it stay there after you close it:
+  <strong>Tip</strong>: Once you've opened the app, right click on the app icon and select <strong>Pin to taskbar</strong> from the menu. Pinning the app to the taskbar will make it stay there after you close it:
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/PowerPoint app pin to taskbar.png' | url }}"  alt="How to pin PowerPoint app to taskbar" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
 
 
-  <h2 id="create-new-powerpoint">Create a new PowerPoint presentation</h2>
+  <h2 id="create-new-PowerPoint">Create a new PowerPoint presentation</h2>
   <p>When the PowerPoint app loads up you get the screen shown below. Click <strong>Blank Presentation</strong> up the top to get started.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/New presentation.png' | url }}"  alt="PowerPoint start screen showing Blank Presentation option" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
 
-  <h2 id="open-powerpoint">Opening an existing PowerPoint file</h2>
+  <h2 id="open-PowerPoint">Opening an existing PowerPoint file</h2>
   <p>PowerPoint files will have the PowerPoint app icon. The Microsoft Office icons have changed over the years with the latest revamp happening in 2025, so depending on what version of PowerPoint you have they'll look like one of these below. For Mac users icons might look like <a href="https://www.reddit.com/r/FrutigerAero/comments/1ckjclj/office_icons_through_the_years_2k8_was_the_fa/" target="_blank">this.</a></p>
   <p><img class="thumbnail" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/PowerPoint icon history.png' | url }}"  alt="PowerPoint file icon history" style="width:100%; height:auto; vertical-align:middle"></p>
 
@@ -332,12 +331,12 @@ active: powerpoint
     <img class="thumbnail left" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/PowerPoint file 2.png' | url }}" alt="PowerPoint file icon" style="max-width:175px; width:100%; height:50%; vertical-align:middle">
   </div>
 
-  <h2 id="powerpoint-interface">The main interface</h2>
+  <h2 id="PowerPoint-interface">The main interface</h2>
   <p>This is the main interface of the PowerPoint app. We'll break it down in sections top to bottom.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/PowerPoint interface.png' | url }}"  alt="PowerPoint interface" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h3>Quick Access Toolbar</h3>
-  <p>At the very top of the app is the Quick Access Toolbar has some options that are always available; on the left are options to <span class="glossary-hover" data-term="save">save</span>, <span class="glossary-hover" data-term="undo">undo</span>, <span class="glossary-hover" data-term="redo">redo</span> and view the presentation; in the centre is a search bar to search for tools and options; on the right are options to <span class="glossary-hover" data-term="minimise-screen">minimise screen</span>, <span class="glossary-hover" data-term="maximise-screen">maximise screen</span> and close the application. If you're using Microsoft Office 365 then you'll see a <span class="glossary-hover" data-term="toggle">toggle</span> for <span class="glossary-hover" data-term="autosave">Autosave</span> to the far left as well.</p>
+  <p>At the very top of the app is the Quick Access Toolbar which has some options that are always available; on the left are options to <span class="glossary-hover" data-term="save">save</span>, <span class="glossary-hover" data-term="undo">undo</span>, <span class="glossary-hover" data-term="redo">redo</span> and view the presentation; in the centre is a search bar to search for tools and options; on the right are options to <span class="glossary-hover" data-term="minimise-screen">minimise screen</span>, <span class="glossary-hover" data-term="maximise-screen">maximise screen</span> and close the application. If you're using Microsoft Office 365 then you'll see a <span class="glossary-hover" data-term="toggle">toggle</span> for <span class="glossary-hover" data-term="autosave">Autosave</span> to the far left as well.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/Quick Access Toolbar.png' | url }}"  alt="Quick Access Toolbar in PowerPoint" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
   <p><strong>Tip</strong>: Hover over the maximise button and you'll see some 'snap' feature options to display multiple windows in various ways on screen.</p>
@@ -362,12 +361,12 @@ active: powerpoint
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/Status bar.png' | url }}"  alt="in PowerPoint" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
 
-  <h2 id="close-powerpoint">Closing a PowerPoint</h2>
+  <h2 id="close-PowerPoint">Closing a PowerPoint</h2>
   <p>You can close the current document but still keep the PowerPoint application open by clicking <strong>File > Close</strong>:</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/File.png' | url }}"  alt="in PowerPoint" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
   <p><img class="thumbnail border" src="{{ '/assets/images/powerpoint/Getting started with PowerPoint/File Close.png' | url }}"  alt="in PowerPoint" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
-  <h2 id="close-powerpoint-app">Closing the app</h2>
+  <h2 id="close-PowerPoint-app">Closing the app</h2>
   <p>You can close PowerPoint by pressing the <strong>✖</strong> button in the far right corner on the <span class="glossary-hover" data-term="quick-access-toolbar">Quick Access Toolbar</span>. If you have made any unsaved edits PowerPoint will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
 
   <h1>Where to now?</h1>

@@ -5,7 +5,7 @@ permalink: /glossary/
 description: A comprehensive searchable glossary of Microsoft Office and Windows terms with definitions and visual examples. Covers terms from alignment and anchoring to wrapping and widows, including clipboard, file types, formatting marks, indents, OLE objects, styles, tab stops, rulers and more — with links to relevant tutorial articles throughout.
 asset_id: glossary-v2.0
 date: 2025-10-26
-last_modified: 2026-05-26
+last_modified: 2026-06-07
 type: glossary
 tags:
   - ctrlall.org
@@ -183,6 +183,26 @@ active: glossary
          <p>Compressed files need to be extracted before use. See this article for how: <a href="/content-control/unzipping-zipped-files/">Unzipping zipped files</a></p>
          <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file icon large.png' | url }}" alt="Zip file icon medium view" style="max-width:70px; width:100%; height:auto; vertical-align:middle"></p>
          <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file icon details.png' | url }}" alt="Zip file icon details view" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
+    </tr>
+    <tr>
+      <td id="crop">Crop / Cropping</td>
+      <td>
+      <p>Cropping removes part of an image. To crop an image, select it and the Picture Format tab will appear on the ribbon. Under Picture Format select the <strong>Crop</strong> tool. Crop handles will appear around the image which you can drag inward to remove content.</p>
+      <div class="image-adjacent">
+        <img class="thumbnail left" src="{{ '/assets/images/word/Images/Cropped image 1.png' | url }}"  alt="Crop image handles" style="max-width:302px; width:100%; height:auto; vertical-align:middle">
+        <img class="thumbnail left" src="{{ '/assets/images/word/Images/Cropped image 2.png' | url }}"  alt="" style="max-width:303px; width:100%; height:auto; vertical-align:middle">
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td id="crop">Crop / Cropping</td>
+      <td>
+      <p>Cropping removes part of an image. To crop an image, select it and the Picture Format tab will appear on the ribbon. Under Picture Format select the <strong>Crop</strong> tool. Crop handles will appear around the image which you can drag inward to remove content.</p>
+      <div class="image-adjacent">
+        <img class="thumbnail left" src="{{ '/assets/images/word/Images/Cropped image 1.png' | url }}"  alt="Cropping an image with crop handles visible" style="max-width:302px; width:100%; height:auto; vertical-align:middle">
+        <img class="thumbnail left" src="{{ '/assets/images/word/Images/Cropped image 2.png' | url }}"  alt="An image cropped" style="max-width:303px; width:100%; height:auto; vertical-align:middle">
+      </div>
       </td>
     </tr>
     <tr>
@@ -691,7 +711,11 @@ active: glossary
       <td id="sizing-handles">Sizing handles</td>
       <td><p>When an image or object is selected a selection frame appears around it with dots known as sizing handles. These let you resize the image/object. See examples here: <a href="/word/altering-images-and-objects/">Altering images and objects</a></p>
       <p><img src="{{ '/assets/images/word/Images/Sizing handles.png' | url }}" alt="Sizing handles" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p></td>
-    </tr>      
+    </tr> 
+    <tr>
+      <td id="smartart">SmartArt</td>
+      <td>SmartArt graphics are diagrammatic visuals with editable text, available in Microsoft Office applications via <strong>Insert > SmartArt</strong>. They come in a range of types including lists, processes, cycles, hierarchies, relationships, matrices, pyramids and pictures, and are useful for illustrating processes and structures in reports, presentations or guides. SmartArt graphics can be edited and styled using the <strong>SmartArt Design</strong> and <strong>Format</strong> tabs that appear on the <a href="#ribbon">ribbon</a> when a SmartArt graphic is selected.</td>
+    </tr>  
     <tr>
       <td id="soft-return">Soft return</td>
       <td>When typing pressing <strong>Shift + Enter</strong> will create a soft return that starts a new line which is still connected to the same paragraph before known as a line break. In lists, a soft return will create a new line for the existing bullet/list number, see this article for examples: <a href="/word/lists-soft-hard-returns/">Lists: Soft and hard returns</a>. Another type of return is a <a href="#hard-return">hard return</a>.</td>
@@ -1430,7 +1454,11 @@ active: glossary
         <td id="sizing-handles">Sizing handles</td>
         <td><p>When an image or object is selected a selection frame appears around it with dots known as sizing handles. These let you resize the image/object. See examples here: <a href="/word/altering-images-and-objects/">Altering images and objects</a></p>
         <p><img src="{{ '/assets/images/word/Images/Sizing handles.png' | url }}" alt="Sizing handles" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p></td>
-      </tr>   
+      </tr>  
+      <tr>
+      <td id="smartart">SmartArt</td>
+      <td>SmartArt graphics are diagrammatic visuals with editable text, available in Microsoft Office applications via <strong>Insert > SmartArt</strong>. They come in a range of types including lists, processes, cycles, hierarchies, relationships, matrices, pyramids and pictures, and are useful for illustrating processes and structures in reports, presentations or guides. SmartArt graphics can be edited and styled using the <strong>SmartArt Design</strong> and <strong>Format</strong> tabs that appear on the <a href="#ribbon">ribbon</a> when a SmartArt graphic is selected.</td>
+    </tr> 
       <tr>
         <td id="soft-return">Soft return</td>
         <td>When typing pressing <strong>Shift + Enter</strong> will create a soft return that starts a new line which is still connected to the same paragraph before known as a line break. In lists, a soft return will create a new line for the existing bullet/list number, see this article for examples: <a href="/word/lists-soft-hard-returns/">Lists: Soft and hard returns</a>. Another type of return is a <a href="#hard-return">hard return</a>.</td>

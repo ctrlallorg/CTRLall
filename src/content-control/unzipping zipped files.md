@@ -5,7 +5,7 @@ permalink: /content-control/unzipping-zipped-files/
 description: How to extract and unzip compressed .zip files in Windows. Step-by-step guide covering how to locate a zip file, right-click to extract, choose a destination folder, and access your unzipped files.
 asset_id: ctrlall-unzipping-zipped-files-v1
 date: 2026-04-13
-last_modified: 2026-04-13
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
     description: "Introduces how to extract/unzip files from a zipped/compressed file with clear visual cues."
@@ -113,12 +113,12 @@ active: content-control
 <section class="section-light">
 <p>You may or may not have come across a zip file before. A zip file is a special folder whose contents and overall <span class="glossary-hover" data-term="file-size">file size</span> have been compressed to make them smaller and easier to share or store. When files are compressed like this, they’re often described as being 'zipped'.</p>
 
-<p><u>Note</u>: <strong>.zip</strong> is the most common compressed file format, but there are others. These are covered in the <a href="?difficulty=intermediate">intermediate version</a> of this article.</p>
+<p><u>Note</u>: <strong>.zip</strong> is the most common compressed file format, but there are others such as .rar, .7z and .tar.</p>
 
 <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file icon large.png' | url }}" alt="Zip file icon medium view" style="max-width:70px; width:100%; height:auto; vertical-align:middle"></p>
 <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file icon details.png' | url }}" alt="Zip file icon details view" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
-<p>When you download a zip file You need to extract — or 'unzip' — the files within it. Here's how:</p>
+<p>When you download a zip file you need to extract — or 'unzip' — the files within it. Here's how:</p>
 
 <h3>How to extract ('unzip') a .zip file</h3>
 <p>First locate the zip file. Typically you'll have downloaded a zip file from a webpage or an email so it'll be sat in your Downloads folder like this:</p>
@@ -128,13 +128,13 @@ active: content-control
 <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file Extract All.png' | url }}" alt="Extract all option on Windows right click menu" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>A window pops up asking you where to create a folder with the compressed files inside. By default this will be the same location as the zip file. There is also a checkbox option to open that folder afterwards. Click <strong>Extract</strong> and the compressed files will be extracted:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file Extract dialog.png' | url }}" alt="Zip file in download folder" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file Extract dialog.png' | url }}" alt="Zip file Extract dialog window" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>The new folder of extracted files is created:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file extracted folder in Downloads folder.png' | url }}" alt="Zip file in download folder" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file extracted folder in Downloads folder.png' | url }}" alt="Zip file extracted folder in Downloads folder" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>If you go inside this your extracted files will be there ready to use:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file extracted folder showing file.png' | url }}" alt="Zip file in download folder" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file extracted folder showing file.png' | url }}" alt="Zip file extracted folder showing file" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 </section>
 </div>
@@ -144,8 +144,6 @@ active: content-control
 
 <section class="section-light">
 
-<p></p>
-
 <h3>How to extract a compressed file</h3>
 <p>First locate the compressed/zipped file. Typically it'll be in your Downloads folder:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file in download folder.png' | url }}" alt="Zip file in download folder" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
@@ -154,13 +152,13 @@ active: content-control
 <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file Extract All.png' | url }}" alt="Extract all option on Windows right click menu" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>A dialog pops up asking you where to extract files to as a folder. By default this will be the same location as the compressed file. There is also a checkbox option to open the folder after extraction. Click <strong>Extract</strong> and the compressed files will be extracted:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file Extract dialog.png' | url }}" alt="Zip file in download folder" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file Extract dialog.png' | url }}" alt="Zip file Extract dialog window" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>The new folder of extracted files is created:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file extracted folder in Downloads folder.png' | url }}" alt="Zip file in download folder" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file extracted folder in Downloads folder.png' | url }}" alt="Zip file extracted folder in Downloads folder" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>Look inside this folder and you will find your extracted files there ready to use:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file extracted folder showing file.png' | url }}" alt="Zip file in download folder" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file extracted folder showing file.png' | url }}" alt="Zip file extracted folder showing file" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 
 </section>

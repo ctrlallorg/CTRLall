@@ -5,7 +5,7 @@ permalink: /word/section-breaks/
 description: How to use section breaks in Microsoft Word. Covers what a section break is, how to find hidden section breaks using Show/Hide formatting marks, how to remove a section break, and the four section break types — next page, continuous, even page and odd page — including what formatting each one applies and when.
 asset_id: ctrlall-word-section-breaks-v1
 date: 2025-10-30
-last_modified: 2025-12-06
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Intermediate
     description: "Explores advanced topic of section breaks and related options in detail for intermediate level."
@@ -49,7 +49,7 @@ active: word
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Show Hide non-printing formatting marks.png' | url }}"  alt="Home Show non-printing formatting markers on ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break example.png' | url }}"  alt="Section break example over two pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
-<h2 id="remove-section-break">How do you remove a section break</h2>
+<h2 id="remove-section-break">How do you remove a section break?</h2>
 <p>First make formatting marks visible (<strong>Home > Show/Hide ¶</strong>):</p>
 <p><img class="thumbnail border left" src="{{ '/assets/images/word/Section breaks/Show Hide non-printing formatting marks.png' | url }}"  alt="Home Show non-printing formatting markers on ribbon in Word" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></p>
 <p>Then locate the section break and either select it by dragging, or click just before it, then delete.</p>
@@ -120,7 +120,6 @@ active: word
     <li>Page borders</li>
     <li>Document protection / editing restrictions</li>
 </ul>
-<p></p>
 
 <figure class="figure">
  <img class="thumbnail border" src="{{ '/assets/images/word/Section breaks/Section break footers.png' | url }}"  alt="Section break footers in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle">

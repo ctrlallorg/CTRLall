@@ -5,7 +5,7 @@ permalink: /word/save-as-pdf/
 description: How to save a Microsoft Word document as a PDF using Save As. Covers selecting the PDF file type, saving with Adobe Acrobat vs Word's built-in PDF converter, and how to hide comments before saving so they don't appear in the PDF.
 asset_id: ctrlall-word-save-as-pdf-v1
 date: 2025-11-22
-last_modified: 2025-12-06
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
     description: "Introduces how to save as a PDF for beginners with clear visual cues."
@@ -88,22 +88,22 @@ active: word
 <div class="difficulty beginner-version"  aria-label="Beginner introduction to saving documents as PDFs">
 
   <section class="section-light">
-  <p>It's easy to save as a PDF. Click on <strong>File</strong> in the top right of the screen first:
-  <img class="thumbnail left" src="{{ '/assets/images/word/Save as PDF/File.png' | url }}"  alt="File button on ribbon in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
+  <p>It's easy to save as a PDF. Click on <strong>File</strong> in the top left of the screen first:
+  <img class="thumbnail left" src="{{ '/assets/images/word/Save as PDF/File.png' | url }}"  alt="File button on ribbon in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
 
-  <p>This will bring up the <i>File</i> screen.
+  <p>This will bring up the <em>File</em> screen.</p>
 
-  <p><u>Note</u>: If you can see <i>Save as Adobe PDF</i> button on the left pane, it means you've got Adobe Acrobat or Adobe Acrobat Pro installed at some point (perhaps bundled with another Adobe product or added by your IT department). If you have Adobe Acrobat the button gives you trial version access where you can create '1 PDF for free every 30 days'; if you have Acrobat Pro the feature is unlimited. If you have Adobe Reader or no Adobe products you won't see this option.</p>
+  <p><u>Note</u>: If you can see <em>Save as Adobe PDF</em> button on the left pane, it means you've got Adobe Acrobat or Adobe Acrobat Pro installed at some point (perhaps bundled with another Adobe product or added by your IT department). If you have Adobe Acrobat the button gives you trial version access where you can create '1 PDF for free every 30 days'; if you have Acrobat Pro the feature is unlimited. If you have Adobe Reader or no Adobe products you won't see this option.</p>
 
   <p>You can save a PDF via the <strong>File > Save As</strong>.</p>
   <img class="thumbnail left" src="{{ '/assets/images/word/Save as PDF/File Save As.png' | url }}"  alt="File Save As in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
 
-  <p>This will bring up options of locations to save to the right. A simple way to choose where you want to save is to <strong>double click</strong> on <strong>This PC</strong> and a <i>Save As</i> browser window will then appear (see snip below).</p>
+  <p>This will bring up options of locations to save to the right. A simple way to choose where you want to save is to <strong>double click</strong> on <strong>This PC</strong> and a <em>Save As</em> browser window will then appear (see snip below).</p>
   <p><u>Note</u>: Instead of this you can also use the two fields top right to enter the <span class="glossary-hover" data-term="filename" style="font-weight:bold;">File name</span>
-  and <span class="glossary-hover" data-term="filename" style="font-weight:bold;">Type of file</span> and choose a location by clicking the location field above them with the <i>Save As</i> browser window. In the example below the location field says 'OneDrive - Personal'.</p>
+  and <span class="glossary-hover" data-term="filename" style="font-weight:bold;">Type of file</span> and choose a location by clicking the location field above them with the <em>Save As</em> browser window. In the example below the location field says 'OneDrive - Personal'.</p>
   <img class="thumbnail left" src="{{ '/assets/images/word/Save as PDF/File Save As 2.png' | url }}"  alt="File Save As options in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle">
 
-  <p>In the <i>Save As</i> browser window enter in the <span class="glossary-hover" data-term="filename" style="font-weight:bold;">File name</span> and the click on <strong>Save as type</strong> beneath it to decide the <span class="glossary-hover" data-term="filetype">file type</span>:</p>
+  <p>In the <em>Save As</em> browser window enter in the <span class="glossary-hover" data-term="filename" style="font-weight:bold;">File name</span> and then click on <strong>Save as type</strong> beneath it to decide the <span class="glossary-hover" data-term="filetype">file type</span>:</p>
   <img class="thumbnail left" src="{{ '/assets/images/word/Save as PDF/Save As browse window.png' | url }}"  alt="Save As browse window in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
 
   <p>The menu that drops down shows the different file formats you can save in and you'll see <strong>PDF</strong> in there about mid-way, so now select that:</p>
@@ -139,7 +139,7 @@ active: word
 
   <p>It's as simple as that.</p>
 
-  <p><u>Note</u>: If you have Adobe Acrobat installed you'll may an extra button <strong>Save as Adobe PDF</strong> in the File menu. This option uses Adobe’s PDF engine instead of Word’s built‑in one. If you have just Adobe Reader then you won't see this option.</p>
+  <p><u>Note</u>: If you have Adobe Acrobat installed you'll see an extra button <strong>Save as Adobe PDF</strong> in the File menu. This option uses Adobe’s PDF engine instead of Word’s built‑in one. If you have just Adobe Reader then you won't see this option.</p>
 
   <img class="thumbnail left" src="{{ '/assets/images/word/Save as PDF/Save as Adobe PDF.png' | url }}"  alt="File Save as Adobe PDF in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
 

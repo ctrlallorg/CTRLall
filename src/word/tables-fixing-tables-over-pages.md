@@ -5,7 +5,7 @@ permalink: /word/tables-fixing-tables-over-pages/
 description: How to fix table problems across multiple pages in Microsoft Word. Covers preventing table rows from splitting across pages, repeating a header row at the top of each page, including subheading rows in repeated headers, fixing unwanted merged cells appearing in repeated header rows, and keeping table content on one page.
 asset_id: ctrlall-word-tables-fixing-tables-over-pages-v1
 date: 2025-10-26
-last_modified: 2025-12-06
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Intermediate
     description: "Explores amending table issues over pages with advanced solutions for intermediate level."
@@ -81,10 +81,10 @@ active: word
 
 <img class="thumbnail" src="{{ '/assets/images/word/Tables fixing tables over pages/Table properties row break across pages option.png' | url }}"  alt="Allow row to break across pages checkbox option in Table properties window in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle">
 
-Now instead of content overflowing the whole row moves down to the next page instead.
+<p>Now instead of content overflowing the whole row moves down to the next page instead.</p>
 <p><u>Note</u>: It will leave a space on the page before, so consider whether this is what you want.</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Table row not breaking across pages.png' | url }}"  alt="Table row not breaking across pages" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Table row not breaking across pages.png' | url }}"  alt="Table row not breaking across pages" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 
 
@@ -103,22 +103,22 @@ Now instead of content overflowing the whole row moves down to the next page ins
 
 <h2 id="header-rows-repeat">Repeating a table header row across pages</h2>
 
-<p>If your table is over more than one page and you have a header row you it won't come across to the next page by default. To have the header row appear the top of each page your table extends to is an easy fix.</p>
+<p>If your table is over more than one page and you have a header row you it won't repeat to the next page by default. To have the header row appear the top of each page your table extends to is an easy fix.</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Table with header row.png' | url }}"  alt="Table across two pages with a header row" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Table with header row.png' | url }}"  alt="Table across two pages with a header row" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>Click on that header row, then <strong>right click</strong> and select <strong>Table properties</strong>.</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Table properties.png' | url }}"  alt="Table Properties option on right click menu in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Table properties.png' | url }}"  alt="Table Properties option on right click menu in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>In Table Properties under <strong>Row</strong> check the option <strong>Repeat as header row at the top of each page</strong>, then click <strong>OK</strong>.</p> 
     <p><u>Note</u>: If the option is greyed out for you that means you’ve clicked on/selected another row that’s not the header row.</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Table properties repeat header row.png' | url }}"  alt="Repeat as header row at the top of each page checkbox option in Table Properties window in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Table properties repeat header row.png' | url }}"  alt="Repeat as header row at the top of each page checkbox option in Table Properties window in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>Now the header row is applied at the top of each page.</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Header row over multiple pages.png' | url }}"  alt="Table across two pages with header row repeated on each page" style="max-width:800px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Header row over multiple pages.png' | url }}"  alt="Table across two pages with header row repeated on each page" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h3>Issues you can come across</h3>
 <p>Even when <strong>Repeat as header row</strong> is selected, there are other things that might require some surgery for it to work as you need it.</p>
@@ -127,37 +127,37 @@ Now instead of content overflowing the whole row moves down to the next page ins
 
 <p>In some cases you might want subheading rows to repeat with the header row on other pages the table extends to.</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Header row and subheading row.png' | url }}"  alt="Table with header row and subheading row" style="max-width:500px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Header row and subheading row.png' | url }}"  alt="Table with header row and subheading row" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>To do this simply select the header row and extra rows you want to include, then do the same as shown above; <strong>right click</strong>, go to <strong>Table properties</strong> then on the <strong>Row</strong> tab check <strong>Repeat as header row at the top of each page</strong>, then click <strong>OK</strong>.</p> 
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Header row and subheading row selected.png' | url }}"  alt="Table header row and subheading row selected in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Header row and subheading row selected.png' | url }}"  alt="Table header row and subheading row selected in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Header row and subheading row over multiple pages.png' | url }}"  alt="Table header row and subheading row repeated over multiple pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Header row and subheading row over multiple pages.png' | url }}"  alt="Table header row and subheading row repeated over multiple pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2 id="header-rows-unwanted-merged-rows">Table header rows repeating with unwanted merged cells</h2>
 
 <p>Here we’ve got a cell on the right column merged with the header row. When repeating the header row on the next page, because it's merged with the header row and we have <strong>Repeat as header row</strong> switched on, it's bringing across that second row as well.</p>
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Header row merged cell.png' | url }}"  alt="Table header row with merged cells over multiple pages in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle">
- <img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Header row merged cell over multiple pages.png' | url }}"  alt="Table header row with merged cells over multiple pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Header row merged cell.png' | url }}"  alt="Table header row with merged cells over multiple pages in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Header row merged cell over multiple pages.png' | url }}"  alt="Table header row with merged cells over multiple pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>What if you don't want that and just want the top header row repeating? There’s a few ways we can tackle this:</p>
 
 <ol>
     <li>Ask yourself do those cells really need to be merged? You can have them separate and <a href="/word/tables-formatting/">alter the table's formatting</a> with borders and shading so it still <i>looks</i> merged if needed. That way the top row remains a true header row and Word will only repeat that. 
     <p>For the example above we'd rebuild the rows. The easiest way to do that would be to merge the left column's 2nd row with the header row, create a new row below it and move the extra content into that row (<span class="glossary-hover" data-term="cut-and-paste">cut and paste</span> it), then clean up the header row height (<a href="/word/tables/">adjusting it with your mouse</a>) and if needed <a href="/word/tables-formatting/">style</a> the new row e.g. if you want it to stand out as a subheading.</p></li>
-    <img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Fixing merged table rows.gif' | url }}"  alt="Demonstration of fixing merged table rows" style="max-width:700px; width:100%; height:auto; vertical-align:middle">
+    <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Fixing merged table rows.gif' | url }}"  alt="Demonstration of fixing merged table rows" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
     <!-- watermarked GIF cuts off, need program to add watermark for longer gifs -->
     <li>If you want merged cells to show on some pages but not on others then that’s trickier. Instead it’s better to split your table into different tables and create a new header row matching the last.</li>
 </ol>
 
 <h2 id="merge-rows-with-header-row">Merging multiple rows with the header row</h2>  
 
-<p>Another trick to keep in mind is so long as <strong>Repeat as header row</strong> is switched on, any rows merged with the header row (including any rows merged with that row too) will be repeated on other pages the table extends to. You can actually get quite complex with this, like in this example below where the merged rows on the right share the same row as the merged rows on the left, so Word includes them all as one large header row.</p> 
+<p>Another trick to keep in mind is so long as <strong>Repeat as header row</strong> is switched on, any rows merged with the header row (including rows merged with those rows) will be repeated on other pages the table extends to. You can actually get quite complex with this, like in this example below where the merged rows on the right share the same row as the merged rows on the left, so Word includes them all as one large header row.</p> 
 
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Complex header row example.png' | url }}"  alt="Complex header and subheading rows example in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
-<img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Complex header row example across pages.png' | url }}"  alt="Complex header and subheading rows example across pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle">
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Complex header row example.png' | url }}"  alt="Complex header and subheading rows example in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing tables over pages/Complex header row example across pages.png' | url }}"  alt="Complex header and subheading rows example across pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
 </section>
 

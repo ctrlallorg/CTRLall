@@ -5,7 +5,7 @@ permalink: /word/lists/
 description: How to create and format lists in Microsoft Word. Covers creating bullet lists and numbered lists, converting existing text into a list, changing bullet and numbering styles from the library, and creating custom bullets using symbols and custom number formats.
 asset_id: ctrlall-word-lists-number-lists-v1
 date: 2025-10-26
-last_modified: 2025-12-06
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
     description: "Introduces basics of lists with clear visual cues."
@@ -29,7 +29,7 @@ tags:
   - sequential lists
   - numerical lists
   - custom bullets
-  - custom nummbering
+  - custom numbering
   - define new bullet
   - define new number format
   - lists quiz
@@ -38,14 +38,14 @@ quiz: lists-quiz
 ---
 
 
-<h1>Lists</h2>
+<h1>Lists</h1>
 
 <a href="#ctrl-quiz" class="quiz-badge jump">Test yourself! Go to the Quiz &#8595;</a>
 
-<article class="difficulty-wrapper" role="article" aria-label="Images insertion tutorial with beginner and intermediate versions">
+<article class="difficulty-wrapper" role="article" aria-label="Lists tutorial with beginner and intermediate versions">
 <div id="article-badge" class="article-badge beginner">⭐ Beginner Level</div>
 <!-- Beginner version -->
-<div class="difficulty beginner-version"  aria-label="Beginner introduction to inserting images">
+<div class="difficulty beginner-version"  aria-label="Beginner introduction to lists">
 <section class="section-light">
 
 <p>You can format your text into lists easily in Word. The main two types are bullet lists and numbered lists. Here's how to do both.</p>
@@ -97,13 +97,13 @@ quiz: lists-quiz
 <i>Numbered list</i>
 <p><img class="thumbnail border left" src="{{ '/assets/images/word/Lists/Numbered list.gif' | url }}" alt="Numbered list demonstration in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
 
-<h3 id="format-text-into-list">Format text already typed into a list</h4>
+<h3 id="format-text-into-list">Format text already typed into a list</h3>
 <p>If you want to convert existing text into a list: 
 <ol>
   <li>  <p>First select the lines you want to make into a list. (For more on how to select text in different ways see this article: <a href="/word/selecting-text/">Selecting text</a>)</p>
       <p><u>Note</u>: Each list entry needs to start on a new paragraph line; this is done by applying a <span class="glossary-hover" data-term="hard-return">hard return</span> after each entry — press <strong>Enter</strong> after each entry to push the <span class="glossary-hover" data-term="insertion-point">insertion point</span> down to the next paragraph line.</p>
   </li>
-  <li><p>Then click on of the two options above for a bullet list or numbered list</p>
+  <li><p>Then click on one of the two options above for a bullet list or numbered list</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Lists/Bullet and number list buttons on ribbon.png' | url }}" alt="Bullet list and number list buttons on ribbon in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p></li>
 </ol>
 
@@ -114,7 +114,7 @@ quiz: lists-quiz
 <p><img class="thumbnail border left" src="{{ '/assets/images/word/Lists/Convert text to numbered list.gif' | url }}" alt="Numbered list demonstration in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h1>Where to now?</h1>
-<p>Now you've got the basics of lists try experimenting with them in a document. There are more options you can apply to lists which are explored in the intermediate version of this article:<p>
+<p>Now you've got the basics of lists try experimenting with them in a document. There are more options you can apply to lists which are explored in the intermediate version of this article:</p>
 <ul>
   <li><a href="?difficulty=intermediate">Lists (intermediate version of this article)</a>: covers bullet/numbering styles and creating your own custom style lists</li>
   <li><a href="/word/lists-fixing-number-lists/">Fixing number lists</a></li>
@@ -125,7 +125,7 @@ quiz: lists-quiz
 </div>
 
 <!-- Intermediate version -->
-<div class="difficulty intermediate-version" aria-label="Intermediate article exploring inserting images and options" style="display:none;">
+<div class="difficulty intermediate-version" aria-label="Intermediate article exploring lists" style="display:none;">
 <section class="section-light">
 
 <p>You may have some experience with bullets and number lists already, creating them and applying them to existing text via the two button found on the ribbon under <strong>Home > Paragraph</strong>.</p>
@@ -179,8 +179,8 @@ quiz: lists-quiz
 <h3>Custom bullets</h3>
 <p>Click the arrow button right of the <strong>Bullets</strong> button on the ribbon under Home > Paragraph and at the bottom of the drop down menu select <strong>Define new bullet</strong>.</p>
 
-<p>This brings up a dialog with options to switch the bullet to a symbol, image or text. The atter two are less common. To use symbol select the <strong>Symbol</strong> button and options to select from are shown in a new dialog. Arrows are normally a good alternative.</p>
-<p><img class="thumbnail" src="{{ '/assets/images/word/Lists/Define new bullet.png' | url }}" alt="Define new bullet dilog in Word" style="max-width:750px; width:100%; height:auto; vertical-align:middle"></p>
+<p>This brings up a dialog with options to switch the bullet to a symbol, image or text. The latter two are less common. To use symbol select the <strong>Symbol</strong> button and options to select from are shown in a new dialog. Arrows are normally a good alternative.</p>
+<p><img class="thumbnail" src="{{ '/assets/images/word/Lists/Define new bullet.png' | url }}" alt="Define new bullet dialog in Word" style="max-width:750px; width:100%; height:auto; vertical-align:middle"></p>
 <p><i>Example custom bullets using arrows</i></p>
 <p><img class="thumbnail" src="{{ '/assets/images/word/Lists/Custom bullet example 0.png' | url }}" alt="Custom bullet selection in Word" style="max-width:750px; width:100%; height:auto; vertical-align:middle"></p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Lists/Custom bullet example 1.png' | url }}" alt="Example custom bullet list in Word" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
@@ -189,7 +189,7 @@ quiz: lists-quiz
 
 
 <h3>Custom numbering</h3>
-<p>You can customise numbered lists easily. Go to <strong>Font > Paragraph > Numbering > Define New Number Format</strong>:</p>
+<p>You can customise numbered lists easily. Go to <strong>Home > Paragraph > Numbering > Define New Number Format</strong>:</p>
 <p><img class="thumbnail border left" src="{{ '/assets/images/word/Lists/Numbering - Define New Number Format.png' | url }}" alt="Define New Number Format option in Word" style="max-width:300px; width:100%; height:auto; vertical-align:middle"></p>
 <p>This brings up a dialog to choose extra options. Hover over the red dots for explanation of each option:</p>
 <!-- Define New Number Format Layout... tooltip overlay -->

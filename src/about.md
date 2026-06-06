@@ -5,7 +5,7 @@ permalink: /about/
 description: About us.
 asset_id: ctrlall-about-v1.1
 date: 2025-11-11
-last_modified: 2026-04-13
+last_modified: 2026-06-07
 type: about
 tags:
   - ctrlall.org
@@ -98,7 +98,7 @@ active: about
 
   <p>Digital literacy isn’t just knowing which buttons to press — it’s understanding the system, navigating it with confidence, and helping others do the same. Digital skills should be empowering, ethical, and open to everyone.</p>
 
-  <p>Where most help sites don't explain why, video tutorials are too long, and paid lessons are too expensive, this site aims to explain everything you need to know, no paywalls, no filler, no boundaries. </p>
+  <p>Where most help sites don't explain why, video tutorials are too long, and paid lessons are too expensive, this site aims to explain everything you need to know, no paywalls, no filler, no 'upgrade to unlock' traps. </p>
 
   <p>Ctrl All is built by an open-source advocate who believes in clarity, confidence, and control. This space empowers anyone — whether you're new to Microsoft Office or an experienced user — to get unstuck or to go one step further.</p>
 
@@ -107,14 +107,14 @@ active: about
       <p>In the menu for some articles you'll also have a choice of <strong>Beginner</strong> and <strong>Intermediate</strong> difficulty levels:</p>
       <ul>
         <li>If you're a beginner who's new to everything this site is set up for beginners by default.<img class="thumbnail left" src="{{ '/assets/images/about/Beginner.png' | url }}"  alt="Ctrl All Beginner difficulty toggle" style="max-width:260px; width:100%; height:auto; vertical-align:middle"></li>
-        <li>If you are familiar with Office apps and understand some basic terminology then switch to the Intermediate setting for more advanced content.<img class="thumbnail left" src="{{ '/assets/images/about/Intermediate.png' | url }}"  alt="Ctrl All Intermediate difficulty toggle" style="max-width:260px; width:100%; height:auto; vertical-align:middle"></li>
-        <u>Note</u>: Some topics are Intermediate level only as the content is too advanced for beginners. You'll see the Beginner option greyed out:
-        <img class="thumbnail left" src="{{ '/assets/images/about/Intermediate only.png' | url }}"  alt="Ctrl All Intermediate only difficulty toggle" style="max-width:260px; width:100%; height:auto; vertical-align:middle">  
+        <li><p>If you are familiar with Office apps and understand some basic terminology, then switch to the Intermediate setting for more advanced content.<img class="thumbnail left" src="{{ '/assets/images/about/Intermediate.png' | url }}"  alt="Ctrl All Intermediate difficulty toggle" style="max-width:260px; width:100%; height:auto; vertical-align:middle"></p>
+        <p><u>Note</u>: Some topics are Intermediate level only as the content is too advanced for beginners. You'll see the Beginner option greyed out:</p>
+        <p><img class="thumbnail left" src="{{ '/assets/images/about/Intermediate only.png' | url }}"  alt="Ctrl All Intermediate only difficulty toggle" style="max-width:260px; width:100%; height:auto; vertical-align:middle"></p></li>
       </ul>
     <h3>Language</h3>
       <p>Language on this site is optimised between US-English and non-US English. Use the toggle on the top bar if you want to switch between US and UK/CA/AU/NZ English. By default this will be based on your web browser settings.</p>
       <img class="thumbnail left" src="{{ '/assets/images/about/Language.png' | url }}"  alt="Ctrl All English language toggle" style="max-width:150px; width:100%; height:auto; vertical-align:middle">
-      <p><u>Note</u>: The options and labels found in the Microsoft Office remain in US english by default to reflect the programs accurately.</p>
+      <p><u>Note</u>: The options and labels found in Microsoft Office remain in US English by default to reflect the programs accurately.</p>
 
   <h3>Let's go</h3>
       <div class="button-row">
@@ -136,10 +136,7 @@ active: about
 </div>
 
   <h2>Copyright & Licensing</h2>
-    <p>All content is © Ctrl All 2025. Educational use is encouraged with attribution. For other uses — including commercial, derivative, or syndication — please <a href="/contact/">get in touch</a>.</p>
-
-  <h2>About Ads</h2>
-    <p>Ctrl All may include ads to help cover hosting costs and support the creation of free educational content. We aim to keep ads minimal, relevant, and never intrusive. This site is built on trust, not tracking — and we’ll never sell your data or compromise your experience for clicks. For more please view our <a href="/privacy-policy/">Privacy Policy</a>.</p>
+    <p>All content is © Ctrl All 2026. Educational use is encouraged with attribution. For other uses — including commercial, derivative, or syndication — please <a href="/contact/">get in touch</a>.</p>
 
   <h2>Privacy Policy</h2>
     <p>View our <a href="/privacy-policy/">Privacy Policy</a>.</p>

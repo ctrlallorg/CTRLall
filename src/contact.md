@@ -1,5 +1,5 @@
 ---
-title: Contact us
+title: Contact us – Ctrl All
 description: Contact us.
 layout: layout.liquid
 permalink: /contact/
@@ -21,7 +21,7 @@ tags:
   - problems
   - requests
   - educators
-  - eduction providers
+  - education providers
   - library
   - libraries
   - librarian
@@ -37,7 +37,7 @@ active: contact
 
 <section class="section-light">
 <h1>Contact us</h1>
-<p>If you're stuck on a problem, have a query or something else, feel free to drop us a message.</p>
+<p>If you're stuck on a problem, have a query, a topic request, or anything else, feel free to drop us a message.</p>
 <form action="https://formspree.io/f/mblzanjy" method="POST" id="contactForm">
   <label for="email">Your Email</label>
   <input type="email" name="email" id="email" required>

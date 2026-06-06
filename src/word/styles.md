@@ -5,7 +5,7 @@ permalink: /word/styles/
 description: How to use styles in Microsoft Word. Covers what styles are and why they matter, the styles gallery, applying heading and paragraph styles, creating a new style, adding styles to the gallery, and modifying styles including updating a style to match selected text formatting.
 asset_id: ctrlall-word-styles-v1
 date: 2025-10-26
-last_modified: 2025-10-26
+last_modified: 2026-06-07
 tags:
   - ctrlall.org
   - ctrlall
@@ -64,7 +64,7 @@ quiz: styles-quiz
 </ul>
 
 <h2 id="styles-gallery">Styles gallery</h2>
-<p>Click <strong>Styles</strong> and a drop down menu appears with a Styles gallery (formerly known as the Quick Styles gallery in older versions of Word). The default styles in the gallery are:
+<p>Click <strong>Styles</strong> and a drop down menu appears with a Styles gallery (formerly known as the Quick Styles gallery in older versions of Word). The default styles in the gallery are:</p>
 <ul>
     <li>Normal, No Spacing</li>
     <li>Heading levels (Heading 1, Heading 2, etc.)</li>
@@ -85,10 +85,10 @@ quiz: styles-quiz
 <h2 id="create-style">Creating a style</h2>
 <p>Creating a style is easy. On the Styles list click the <strong>bottom left A+ button</strong>. This will create a new style and gives you options to customise how it looks.</p>
 <p><img class="border" src="{{ '/assets/images/word/Styles/Create a style Styles list.png' | url }}" alt="Create a style button on Styles list pane in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle"></p>
-<p><u>Note</u>: Another way is via the Styles gallery clicking <strong>Create a Style</strong> which will prompt you to decide the a name first. Make sure to click <strong>Modify</strong> so you can decide determine its formatting otherwise clicking <strong>OK</strong> will just add a new style to the list based on the 'Normal' style, which you'll then just want to modify anyway:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Styles/Create a style Styles gallery.png' | url }}" alt="Create a style button on Styles gallery in Word and and modify option" style="max-width:650px; width:100%; height:auto; vertical-align:middle"></p>
+<p><u>Note</u>: Another way is via the Styles gallery clicking <strong>Create a Style</strong> which will prompt you to decide a name first. Make sure to click <strong>Modify</strong> so you can determine its formatting otherwise clicking <strong>OK</strong> will just add a new style to the list based on the 'Normal' style, which you'll then just want to modify anyway:</p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Styles/Create a style Styles gallery.png' | url }}" alt="Create a style button on Styles gallery in Word and modify option" style="max-width:650px; width:100%; height:auto; vertical-align:middle"></p>
 
-<p>You'll then see the window of property and formatting options for the new style. Here you can edit:
+<p>You'll then see the window of property and formatting options for the new style. Here you can edit:</p>
 
 <!-- Styles formatting options tooltip overlay -->
   <div class="overlay-container">
@@ -145,16 +145,15 @@ quiz: styles-quiz
 There are further options you can modify a style with though. Locate the style in the Styles gallery or the Styles list, <strong>right click</strong> it and select <strong>Modify</strong>.
 
 <div class="image-adjacent">
-  <img class="thumbnail border left" src="{{ '/assets/images/word/Styles/Modify style Styles gallery.png' | url }}"  alt="Modify style Styles gallery"" style="max-width:325px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail border left" src="{{ '/assets/images/word/Styles/Modify style Styles gallery.png' | url }}"  alt="Modify style Styles gallery" style="max-width:325px; width:100%; height:auto; vertical-align:middle">
   <img class="thumbnail border left" src="{{ '/assets/images/word/Styles/Modify style from list.png' | url }}"  alt="Modify style from list" style="max-width:280px; width:100%; height:auto; vertical-align:middle">
 </div>
 <ul>
     <li><a href="/word/font-options/">Font</a></li>
     <li><a href="/word/paragraph-options/">Paragraph</a></li>
-    <li><a href="/word/tab-stops#tabs-options/">Tabs</a></li>
+    <li><a href="/word/tab-stops#tabs-options">Tabs</a></li>
 
 <!-- New pages to create-->
-    
     
     <li><a href="">Border</a></li>
     <li><a href="">Language</a></li>
@@ -162,7 +161,6 @@ There are further options you can modify a style with though. Locate the style i
     <li><a href="">Numbering</a></li>
     <li><a href="">Shortcut key</a></li>
     <li><a href="">Text Effects</a></li>
-
 </ul>
 </section>
 
@@ -192,7 +190,7 @@ There are further options you can modify a style with though. Locate the style i
         </div>`,
       "Style-formatting-options-tooltip-3": `
         <div class="rich-tooltip">
-          <p><strong>Style based on</strong>: Sets the parent style it should should inherit formatting properties from, kind of like a template. For example if this was set to <i>Normal</i> it would inherit the <i>Normal's</i> font, spacing, and alignment. If <i>Normal</i> was updated any changes flow on to all styles based on it.</p>
+          <p><strong>Style based on</strong>: Sets the parent style it should inherit formatting properties from, kind of like a template. For example if this was set to <i>Normal</i> it would inherit the <i>Normal's</i> font, spacing, and alignment. If <i>Normal</i> was updated any changes flow on to all styles based on it.</p>
           <p>You can always override the inherited properties, or if you don't want it to inherit anything simply select <strong>(no style)</strong> from the top of the list.</p>
         </div>`,
       "Style-formatting-options-tooltip-4": `

@@ -5,7 +5,7 @@ permalink: /word/pages-and-views/
 description: How to adjust pages and views in Microsoft Word. Covers zooming in and out, zoom options, one page and multiple pages view, page orientation, paper size, margins, columns, line numbers and hyphenation settings.
 asset_id: ctrlall-word-pages-and-views-v1
 date: 2025-10-26
-last_modified: 2025-12-06
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
     description: "Introduces basic interface, pages and view options of Microsoft Word for beginners with clear visual cues."
@@ -298,7 +298,7 @@ active: word
   </ul>
   </p>
   <h3 id="line-numbers-int">Line numbers</h3>
-  <p>Line numbers are explored in this article: <a href="">Line numbering</a>.</p>
+  <p>Line numbers are explored in this article: <a href="/word/line-numbering/">Line numbering</a>.</p>
 
   <h3 id="hyphenation-int">Hyphenation</h3>
   <p>By default Word disables hyphenation for ease of reading. The Hyphenation menu gives you a few options to choose from. <u>Note</u>: Normally for hyphenation to work you'd need to set the text alignment to <strong>Justified</strong> first.</p>

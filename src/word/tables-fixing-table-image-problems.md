@@ -5,7 +5,7 @@ permalink: /word/tables-fixing-table-image-problems/
 description: How to fix common image problems in Microsoft Word tables. Covers images expanding column width and row height, images too large for a cell, cell alignment with different wrap settings, resizing large images that push a table across pages, and images disappearing behind or in front of table content.
 asset_id: ctrlall-word-tables-fixing-table-image-problems-v1
 date: 2025-12-30
-last_modified: 2025-12-30
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Intermediate
     description: "Explores amending table images issues with advanced solutions for intermediate level."
@@ -67,15 +67,14 @@ active: word
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing image problems/Resize image in table.gif' | url }}" alt="Demonstration resizing an image in a table in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2 id="image-too-big-for-cell">Image doesn't fit inside the cell</h2>
-- image too large for cell - needs to be resized
 <p>Pasted an image that is larger than the cell? Everything gets squashed and you can't see some of the image you've pasted. Here's an example:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing image problems/Image too big for cell example 1.png' | url }}" alt="Example image too large for table cell in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing image problems/Image too big for cell example 2.png' | url }}" alt="Example image too large for table cell in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
-<p>See how the image's selection frame is extended beyond the column but it's still visible? The solution is the same as the one above simply resize using the corner sizing handle to make the image smaller so it fits the cell; the column width will reduce with the image automatically.</p>
+<p>See how the image's selection frame is extended beyond the column but it's still visible? The solution is the same as the one above, simply resize using the corner sizing handle to make the image smaller so it fits the cell; the column width will reduce with the image automatically.</p>
 
-<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing image problems/Image too big for cell example.gif' | url }}" alt="Demonstration resizin an image too large for its table cell in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing image problems/Image too big for cell example.gif' | url }}" alt="Demonstration resizing an image too large for its table cell in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2 id="image-cell-alignment">Image doesn't align properly in the cell</h2>
 <h4>Table cell alignment</h4>
@@ -89,13 +88,13 @@ active: word
 
 
 <h2 id="image-pushing-table-over-pages">Image pushes table across pages</h2>
-Some really large images can push a table over to another page. In these instances it can be difficult to select and drag the sizing handles of such large images; instead one way to reduce very large images is via the <strong>right click menu > Size and Position</strong> option.
+<p>Some really large images can push a table over to another page. In these instances it can be difficult to select and drag the sizing handles of such large images; instead one way to reduce very large images is via the <strong>right click menu > Size and Position</strong> option.</p>
 
 <p><img class="thumbnail border left" src="{{ '/assets/images/word/Tables fixing image problems/Right click Size and Position.png' | url }}" alt="Right click menu Size and Position option in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle"></p>
 
-This brings up the <strong>Layout</strong> dialog. Under <strong>Scale</strong> you'll see the <strong>Height</strong> and <strong>Width</strong> of the selected image in percentages. By default these two are locked together so you can just lower the percentage of one and the other will recalculate accordingly. Reduce the scale to a lower number so the image fits in the cell or it's small enough to resize down some more via the sizing handles.
+<p>This brings up the <strong>Layout</strong> dialog. Under <strong>Scale</strong> you'll see the <strong>Height</strong> and <strong>Width</strong> of the selected image in percentages. By default these two are locked together so you can just lower the percentage of one and the other will recalculate accordingly. Reduce the scale to a lower number so the image fits in the cell or it's small enough to resize down some more via the sizing handles.</p>
 <p><img class="thumbnail border left" src="{{ '/assets/images/word/Tables fixing image problems/Layout size.png' | url }}" alt="Image layout size options in Word" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
-Here's it in action:
+<p>Here it is in action:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Tables fixing image problems/Image pushing table over pages.gif' | url }}" alt="Image pushing table over pages demonstration in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2>Image disappears behind/above the table</h2>

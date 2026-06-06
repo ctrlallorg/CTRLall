@@ -98,6 +98,19 @@ const QUESTIONS = [
     ]
   },
 
+ {
+    question:   "Where do you find the crop tool in Word to trim parts of an image?",
+    answer:     "On the Picture Format tab",
+    difficulty: "Intermediate",
+    hint:       "You need to select the image first, then look for a tab that appears with formatting options",
+    options: [
+      "On the right-click menu when you select the image",
+      "On the View tab",
+      "On the Picture Format tab",
+      "In the layout options when you select the image"
+    ]
+  },
+
   {
     question:   "How do you resize an image from its centre point instead of from the opposite edge?",
     answer:     "Hold Ctrl and drag the sizing handles",

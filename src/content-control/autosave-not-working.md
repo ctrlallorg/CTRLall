@@ -6,7 +6,7 @@ permalink: /all/autosave-not-working/
 description: Autosave not working.
 asset_id: ctrlall-all-autosave-not-working-v1
 date: 2025-11-23
-last_modified: 2025-11-23
+last_modified: 2026-06-07
 tags:
   - ctrlall.org
   - ctrlall

@@ -5,16 +5,12 @@ permalink: /word/hard-and-soft-returns/
 description: Explains the difference between hard and soft returns in Microsoft Word. Hard returns (Enter) create a new paragraph with its own spacing and styles, while soft returns (Shift+Enter) create a line break within the same paragraph. Covers how each affects spacing, styles, list behaviour and how to remove multiple returns at once.
 asset_id: ctrlall-word-hard-and-soft-returns-v1
 date: 2026-05-29
-last_modified: 2026-05-29
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Intermediate
     description: "Hard and soft returns in Microsoft Word at an intermediate level."
     urlSuffix: "#intermediate"
 tags:
-  - ctrlall.org
-  - ctrlall
-  - ctrl all
-  - microsoft word
   - ctrlall.org
   - ctrlall
   - ctrl all
@@ -112,7 +108,7 @@ Active: word
 
 <h2>What each return actually does</h2>
 <h3>Hard return (Enter)</h3>
-A hard return creates a new paragraph separate to the one above it. Paragraphs have their own:
+<p>A hard return creates a new paragraph separate to the one above it. Paragraphs have their own:</p>
 
 <ul>
   <li>Paragraph spacing before/after</li>
@@ -125,26 +121,27 @@ A hard return creates a new paragraph separate to the one above it. Paragraphs h
 <p>Hard returns are the main tool of Word’s text structure.</p>
 
 <h3>Soft return (Shift+Enter)</h3>
-<p>Soft returns create a line break <u>inside the same paragraph</u>. They do not start a new paragraph, so:
+<p>Soft returns create a line break <u>inside the same paragraph</u>. They do not start a new paragraph, so:</p>
 <ul>
   <li>Spacing before/after doesn’t apply</li>
   <li>Styles don’t reset</li>
   <li>The <span class="glossary-hover" data-term="outline-level">outline level</span> doesn’t change</li>
-  <li><a href="#list-behaviour">List behaviour differs</a> (bullets wont align, number lists won't advance)</li>
+  <li><a href="#list-behaviour">List behaviour differs</a> (bullets won't align, number lists won't advance)</li>
 </ul>
+
 <p>Soft returns are useful when you want text to appear on separate lines but still behave as one paragraph for alignment, spacing, or style consistency.</p>
 
 <br>
 <p>Hard and soft returns are both easy to remove, just use <strong>backspace</strong> or <strong>delete</strong> as needed. But what if there are several of either throughout your document?</p>
 
 <h4>How to get rid of several hard or soft returns in one go</h4>
-<p>Go here: <a href="/word/fixing-irregular-spacing#remove-multiple-blank lines">Remove multiple blank lines</a></p>
+<p>Go here: <a href="/word/fixing-irregular-spacing#remove-multiple-blank-lines">Remove multiple blank lines</a></p>
 
 <h2 id="list-behaviour">Hard and soft returns in lists</h2>
 <p>See this article for how hard and soft returns behave in lists: <a href="/word/lists-soft-hard-returns">Hard & soft returns in lists</a></p>
 
 <h2>When it's not a hard or soft return</h2>
-<p>If you have a gap between text paragraphs and can't place the <span class="glossary-hover" data-term="insertion-point">insertion point</span> in it then it's not a soft or hand return; it's line/paragraph spacing. See this article for a quick fix: <a href="/word/fixing-irregular-spacing">Fixing irregular line spacing</a>.</p>
+<p>If you have a gap between text paragraphs and can't place the <span class="glossary-hover" data-term="insertion-point">insertion point</span> in it then it's not a hand return; it's line/paragraph spacing. See this article for a quick fix: <a href="/word/fixing-irregular-spacing">Fixing irregular line spacing</a>.</p>
 
 </section>
 

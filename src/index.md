@@ -5,7 +5,7 @@ layout: layout.liquid
 permalink: /
 asset_id: index-v1.0
 date: 2025-10-26
-last_modified: 2026-04-13
+last_modified: 2026-06-07
 type: index
 tags:
   - ctrlall.org
@@ -37,7 +37,6 @@ tags:
   - make sense
   - explain
   - free
-  - no paywalls
   - accessible
   - teach yourself
   - self-taught
@@ -99,8 +98,8 @@ active: index
     <div class="mv-fade-right"></div>
     <div class="mv-hover-left"></div>
     <div class="mv-hover-right"></div>
-    <div class="mv-scroll">
-            <a class="tutorial-card" href="/content-control/keyboard-shortcuts-quiz/">
+    <div class="mv-scroll"></div>
+      <a class="tutorial-card" href="/content-control/keyboard-shortcuts-quiz/">
         <img src="/assets/images/Index/Featured/Keyboard shortcuts quiz.png" alt="Keyboard shortcuts quiz thumbnail">
         <h3>Keyboard shortcuts quiz</h3>
         <p>How many shortcuts do you know? Test yourself.</p>
@@ -311,7 +310,7 @@ active: index
      </li>
      <li><strong>Expandable images</strong>: Screenshots and diagrams can be enlarged with a click, so you never have to squint or guess what you’re looking at. Try clicking on any.</li>
      <li>
-      <p><strong><span style="color:#415576;">*NEW*</span> Downloadable exercises</strong>: Look out for this button in articles to download zipped exercise files. Exerises feature examples from the article steps to try out yourself.</p>
+      <p><strong><span style="color:#415576;">*NEW*</span> Downloadable exercises</strong>: Look out for this button in articles to download zipped exercise files. Exercises feature examples from the article steps to try out yourself.</p>
       <p><div class="exercise-badge jump">Includes downloadable exercise &#8595;</div></p>   
       <p><img class="thumbnail border" src="{{ '/assets/images/Index/Example exercise Word.png' | url }}"  alt="Example exercise in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
     </li>
@@ -330,7 +329,7 @@ active: index
      <ul>
        <li><strong>Beginner</strong> (default) — if you're brand new to the program this is the level for you.</li>
        <li><strong>Intermediate</strong> — for those who have some experience already this level includes more advanced content.</li>
-       <li><strong>Intermediate only</strong> — advanced topics beyond a beginner level.</li>
+       <li><strong>Intermediate only</strong> — for topics that go beyond a beginner level.</li>
      </ul>
   <h2>Language</h2>
     <p>Language on this site is optimised between US-English and non-US English (UK/CA/AU/NZ). By default this is set based on your web browser settings but you can always switch between them with the toggle at the top.</p>
@@ -340,8 +339,8 @@ active: index
 <section class="section-light">
   <h2>What's new?</h2>
   <ul>
-    <li>26 May 2026 - The <a href="/glossary/">Glossary</a> is now searchable - the page now has it's own search bar  you can use to query terms.</li>
-    <li>12 May 2026 - More quizzes added - <a href="/word/altering-images-and-objects#ctrl-quiz">Altering images and objects</a> | <a href="/word/tables#ctrl-quiz">Tables</a>
+    <li>26 May 2026 - The <a href="/glossary/">Glossary</a> is now searchable - the page now has its own search bar  you can use to query terms.</li>
+    <li>12 May 2026 - More quizzes added - <a href="/word/altering-images-and-objects#ctrl-quiz">Altering images and objects</a> | <a href="/word/tables#ctrl-quiz">Tables</a></li>
     <li>09 May 2026 - More quizzes added - <a href="/word/lists#ctrl-quiz">Lists quiz</a> | <a href="/word/styles#ctrl-quiz">Styles quiz</a> | <a href="/word/fixing-irregular-spacing#ctrl-quiz">Fixing irregular spacing quiz</a></li>
     <li>04 May 2026 - 3 new quizzes added - <a href="/word/documents-vs-templates#ctrl-quiz">Word Documents vs Templates quiz</a> | <a href="/word/saving-and-save-as#ctrl-quiz">Saving and Save As quiz</a> | <a href="/word/formatting-text#ctrl-quiz">Formatting text quiz</a></li>
     <li>02 May 2026 - <a href="/content-control/keyboard-shortcuts-quiz/">Keyboard shortcuts quiz</a> added - test your knowledge.</li>

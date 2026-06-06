@@ -1,11 +1,11 @@
 ---
-title: CTRL All privacy policy
-description: Ctrl All - Digital literacy with soul, clarity, and control.
+title: Ctrl All privacy policy
+description: Ctrl All privacy policy
 layout: layout.liquid
 permalink: /privacy-policy/
 asset_id: privacy-policy-v1.1
 date: 2025-11-26
-last_modified: 2026-04-13
+last_modified: 2026-06-07
 type: privacy
 tags:
   - ctrlall.org
@@ -33,8 +33,8 @@ active: privacy-policy
         </ul>
     <h2>Data Use</h2>
         <p>Information collected is used to improve site functionality and user experience. We do not sell or share personal data.</p>
-    <h2>Cookies and Advertising</h2>
-        <p>Third-party vendors, use cookies to display ads based on your previous visits to this site.</p>
+    <h2>Language and display settings</h2>
+        <p>This site uses browser local storage to remember your language and display preferences. No personal data is stored or transmitted.</p>
     <h2>Updates</h2>
         <p>This policy may change over time. Updates will be posted on this page.</p>
     <h2>Contact</h2>

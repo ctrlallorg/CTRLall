@@ -5,7 +5,7 @@ permalink: /word/saving-and-save-as/
 description: How to save documents in Microsoft Word. Covers saving with Ctrl+S, Save As for renaming or changing file type, Autosave with OneDrive and SharePoint, and how to change the default save location for documents and templates.
 asset_id: ctrlall-word-saving-and-save-as-v1
 date: 2025-10-26
-last_modified: 2025-12-06
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
     description: "Introduces basic concept of saving in Microsoft Word for beginners with clear visual cues."
@@ -93,10 +93,10 @@ quiz: saving-and-save-as-quiz
 
 <section class="section-light">
 
-<p>Saving allows you to keep progress with what you've edited in a document. When you save, the next time you open your document those last changes will be rememebered. Not saving means you will lose the edits and changes you've made. Here's how to save:</p>
+<p>Saving allows you to keep progress with what you've edited in a document. When you save, the next time you open your document those last changes will be remembered. Not saving means you will lose the edits and changes you've made. Here's how to save:</p>
 <p>When you have a document file open, once edited you can do one of the following:</p>
 <ol type="a">
-<li><strong>Save the existing file</strong> (if it has been saved previously you ‘overwrite’ the file) by simply saving the document. Either press <strong>Ctrl + S</strong> or click the <strong>Save</strong> button at the top of the screen.</p>
+<li><p><strong>Save the existing file</strong> (if it has been saved previously you ‘overwrite’ the file) by simply saving the document. Either press <strong>Ctrl + S</strong> or click the <strong>Save</strong> button at the top of the screen.</p>
 <div class="image-adjacent">
   <img class="thumbnail left" src="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}"  alt="Keyboard shortcut for save Ctrl+S" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
   <img class="thumbnail left" src="{{ '/assets/images/word/Saving and Save as/Save button on QAT.png' | url }}"  alt="Save button on quick access toolbar in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle">
@@ -108,9 +108,9 @@ quiz: saving-and-save-as-quiz
 
 <li><strong>Save as a new document or a different <span class="glossary-hover" data-term="filetype" style="font-weight:bold;">file type</span></strong> (e.g. a template or PDF) using <strong>File > Save As.</strong></li>
 
-Select <strong>File</strong>
-<img class="thumbnail left" src="{{ '/assets/images/word/Saving and Save as/File.png' | url }}"  alt="File tab button on ribbon in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
-Then <strong>Save As</strong></p>
+<p>Select <strong>File</strong></p>
+<p><img class="thumbnail left" src="{{ '/assets/images/word/Saving and Save as/File.png' | url }}"  alt="File tab button on ribbon in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
+<p>Then <strong>Save As</strong></p>
 <img class="thumbnail left" src="{{ '/assets/images/word/Saving and Save as/Save As.png' | url }}"  alt="Save as button under file in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
 
 <p>This will then bring up these options to choose where to save, what the name of the file should be and what file type you need to save it as. Double click <strong>This PC</strong> to browse a location.</p>
@@ -121,9 +121,9 @@ Then <strong>Save As</strong></p>
 <p><img class="thumbnail border left" src="{{ '/assets/images/word/Saving and Save as/Save As menu.png' | url }}"  alt="Save As options This PC in Word" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
 
-In the browser window that appears decide on the <strong>file name</strong>, the file type (<strong>Save as file</strong> — the dropdown menu gives a large list of options) and the <strong>location</strong> to save it.
+<p>In the browser window that appears decide on the <strong>file name</strong>, the file type (<strong>Save as file</strong> — the dropdown menu gives a large list of options) and the <strong>location</strong> to save it.</p>
 
-<p><u>Note</u>: If you are saving as a different file type choose the file type before the location as Word can divert to a different default folder location for some file types. To change the default folder ocation see the <a href="?difficulty=intermediate">intermediate version</a> of this article.</p>
+<p><u>Note</u>: If you are saving as a different file type choose the file type before the location as Word can divert to a different default folder location for some file types. To change the default folder location see the <a href="?difficulty=intermediate">intermediate version</a> of this article.</p>
 
 <p><img class="thumbnail left" src="{{ '/assets/images/word/Saving and Save as/Browse window.png' | url }}"  alt="Save As browse window in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
@@ -145,11 +145,11 @@ In the browser window that appears decide on the <strong>file name</strong>, the
 <section class="section-light">
 <p>When you have a document file open, once edited you can do one of the following:</p>
 <ol type="a">
-<li><strong>Save the existing file</strong>  (if it has been saved previously you ‘overwrite’ the file) by simply saving the document. Either press <strong>Ctrl + S</strong> or click the <strong>Save</strong> button at the top left of the Quick Access Toolbar.</p>
+<li><p><strong>Save the existing file</strong>  (if it has been saved previously you ‘overwrite’ the file) by simply saving the document. Either press <strong>Ctrl + S</strong> or click the <strong>Save</strong> button at the top left of the Quick Access Toolbar.</p>
 
 <p>In these example snips we're using Microsoft Word, but you can do this in Excel and PowerPoint too.</p>
 
-<img class="thumbnail left" src="{{ '/assets/images/word/Saving and Save as/Autosave.png' | url }}"  alt="Save button on quick access toolbar in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle">
+<img class="thumbnail left" src="{{ '/assets/images/word/Saving and Save as/Autosave.png' | url }}"  alt="Autosave in Word" style="max-width:225px; width:100%; height:auto; vertical-align:middle">
 
 </li>
 
@@ -162,16 +162,12 @@ Select <strong>File</strong>
 Then <strong>Save As</strong></p>
 <img class="thumbnail left" src="{{ '/assets/images/word/Saving and Save as/Save As.png' | url }}"  alt="Save as button under file in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
 
-<p><u>Note</u>: Alternatively you can also use the two fields top right to enter the <span class="glossary-hover" data-term="filename" style="font-weight:bold;">File name</span>
-
-<p>This will then bring up these options to choose where to save, what the name of the file should be and what file type you need to save it as. Double click <strong>This PC</strong> to browse a location.</p>
-
- and <span class="glossary-hover" data-term="filename" style="font-weight:bold;">Type of file</span> and choose a location to save it by clicking the location field above them which will bring up a <i>Save As</i> browser window. In the example below the location field says 'OneDrive - Personal'.</p>
+<p><u>Note</u>: Alternatively you can also use the two fields top right to enter the <span class="glossary-hover" data-term="filename" style="font-weight:bold;">File name</span> and <span class="glossary-hover" data-term="filename" style="font-weight:bold;">Type of file</span> and choose a location to save it by clicking the location field above them which will bring up a <i>Save As</i> browser window. In the example below the location field says 'OneDrive - Personal'.</p>
 
 
 <p><img class="thumbnail border left" src="{{ '/assets/images/word/Saving and Save as/Save As menu.png' | url }}"  alt="Save As options This PC in Word" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 
-In the browser window that appears decide on the file name, the file type (the dropdown menu gives a large list of options) and the location to save it.
+<p>In the browser window that appears decide on the file name, the file type (the dropdown menu gives a large list of options) and the location to save it.</p>
 
 <p><u>Note</u>: If you are saving as a different file type choose the file type before the location as Word can divert to a different default folder location for some file types. If you want to stop this from happening see here: <a href="#default-save-location">Alter default save locations</a></p>
 

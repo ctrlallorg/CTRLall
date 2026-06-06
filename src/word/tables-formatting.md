@@ -5,10 +5,10 @@ permalink: /word/tables-formatting/
 description: How to format tables in Microsoft Word. Covers table shading and background colour, border visibility and colour, table styles gallery, cell alignment, removing paragraph spacing from pasted content, lists in tables, and all paste options when copying table content into or beneath a table.
 asset_id: ctrlall-word-tables-formatting-v1
 date: 2025-10-26
-last_modified: 2026-01-04
+last_modified: 2026-06-07
 difficultyLevels:
   - level: Beginner
-    description: "Introduces formatting and styleing tables with clear visual cues."
+    description: "Introduces formatting and styling tables with clear visual cues."
     urlSuffix: "#beginner"
   - level: Intermediate
     description: "Expands on the basics of formatting and styling table with advanced techniques."
@@ -74,7 +74,7 @@ active: word
   <p>Select a colour from the palette and it will be applied to the table cells.</p>
   <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table shading beg 3.png' | url }}"  alt="Demonstration of table cell alignment in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
 
-  <p><u>Note</u>: If you need a particularly shade like your company brand's colour then from the <strong>Shading</strong> menu try seleting <strong>More Colours...</strong>. This up more detailed options to choose from including RGB and HEX values you can define if you have those:</p>
+  <p><u>Note</u>: If you need a particular shade like your company brand's colour then from the <strong>Shading</strong> menu try selecting <strong>More Colours...</strong>. This opens up more detailed options to choose from including RGB and HEX values you can define if you have those:</p>
   <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Shading colour palette.png' | url }}"  alt="Shading colour palette in Word" style="max-width:575px; width:100%; height:auto; vertical-align:middle">
   
   <h2 id="table-borders-beg">Table borders</h2>
@@ -86,9 +86,9 @@ active: word
   <p>This will bring up a menu of different options to choose from.</p>
   <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table borders beg 3.png' | url }}"  alt="Table border options on ribbon in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
   <p>Try removing all borders first (<strong>No Borders</strong>), then applying what you want. Here's a demonstration:</p>
-  <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table borders beg.gif' | url }}"  alt="Editing table borders demontration in Word" style="max-width:750px; width:100%; height:auto; vertical-align:middle">
+  <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table borders beg.gif' | url }}"  alt="Editing table borders demonstration in Word" style="max-width:750px; width:100%; height:auto; vertical-align:middle">
   <h3>Colour border lines</h3>
-  <p>You can colour border lines by selecting cells or the whole table and going to <strong>Layout Design > Borders > Borders and Shading...</strong>:</p>
+  <p>You can colour border lines by selecting cells or the whole table and going to <strong>Table Design > Borders > Borders and Shading...</strong>:</p>
   <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table borders colour beg 1.png' | url }}"  alt="Table Borders and Shading option from Borders menu in Word" style="max-width:200px; width:100%; height:auto; vertical-align:middle">
   <p>In the <strong>Borders and Shading</strong> window select the <strong>Colour</strong> drop down menu:</p>
   <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table borders colour beg 2.png' | url }}"  alt="Table Borders and Shading window in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle">
@@ -113,7 +113,6 @@ active: word
 <!-- Intermediate version -->
 <div class="difficulty intermediate-version" aria-label="Intermediate article exploring formatting and styling tables" style="display:none;">
   <section class="section-light">
-  <p></p>
     <p>In this article:</p>
   <ul style="list-style-type: circle;">
       <li><a href="#table-cell-alignment">Table cell alignment</a></li>
@@ -123,9 +122,8 @@ active: word
       <li><a href="#lists-in-tables">Bullet/Number lists in tables</a></li>
   </ul>
 
-
   <h2 id="table-cell-alignment">Table cell alignment</h2> 
-  <p>You can alter how content is vertically and horizontally in the table cell via Table <strong>Layout > Alignment</strong>:</p>
+  <p>You can alter how content is aligned vertically and horizontally in the table cell via Table <strong>Layout > Alignment</strong>:</p>
   <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Table cell alignment of text examples.gif' | url }}"  alt="Demonstration of table cell alignment in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle">
   
   <h2 id="table-borders">Table borders</h2> 
@@ -152,16 +150,16 @@ active: word
    <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Shading colour palette.png' | url }}"  alt="Shading colour palette in Word" style="max-width:575px; width:100%; height:auto; vertical-align:middle">
 
   <h2 id="remove-paragraph-spacing-from-table">Remove paragraph spacing in a table</h2> 
-  <p>If you're coping a table from other Word document, Excel or a web browser it can come across with unwanted paragraph spacing. To remove this go to the <strong>Home > Paragraph options (bottom right corner button)</strong> and remove spacing 'points' as needed. Typically it's spacing after that needs reducing. Take a look:</p> 
+  <p>If you're copying a table from other Word document, Excel or a web browser it can come across with unwanted paragraph spacing. To remove this go to the <strong>Home > Paragraph options (bottom right corner button)</strong> and remove spacing 'points' as needed. Typically it's spacing after that needs reducing. Take a look:</p> 
   <img class="thumbnail border" src="{{ '/assets/images/word/Tables formatting/Remove paragraph spacing from table.gif' | url }}"  alt="Demonstration removing paragraph spacing from a table in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle">
 
   <h2 id="lists-in-tables">Bullet/Number lists in tables</h2> 
-  <p>You might find when applying a bullet list or number list to a table that the default indent Word applies isn't ideal in such a contrained space, see a quick fix here involving indent markers on the horizontal ruler: <a href="/word/indents/?difficulty=intermediate#table-lists-and-indents-int">Table lists and indents</a>.</p>
+  <p>You might find when applying a bullet list or number list to a table that the default indent Word applies isn't ideal in such a constrained space, see a quick fix here involving indent markers on the horizontal ruler: <a href="/word/indents/?difficulty=intermediate#table-lists-and-indents-int">Table lists and indents</a>.</p>
 
   <img class="thumbnail border" src="{{ '/assets/images/word/Indents/Table list default indent.png' | url }}"  alt="List in a table selected with default indent marker positions in Word" style="max-width:500px; width:100%; height:auto; vertical-align:middle">
 
-  <hw>Cut, copy and paste tables</hw> 
-  <p>When it comes to pasting tables you get some different pasting options. First there's a referesher on cut, copy and paste if you need it:</p>
+  <h2>Cut, copy and paste tables</h2> 
+  <p>When it comes to pasting tables you get some different pasting options. First there's a refresher on cut, copy and paste if you need it:</p>
   <ul>
     <li><u>Cut</u>: see <a href="/content-control/moving-content/#cut-and-paste" target="_blank">Moving content</a></li>
     <li><u>Copy</u>: see <a href="/content-control/copying-content/" target="_blank">Copying content</a></li>
@@ -203,7 +201,7 @@ active: word
         <tr>
           <td>Paste - Keep Text Only
           <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Paste Keep Text Only.png' | url }}"  alt="Paste Keep Text Only icon" style="max-width:40px; width:100%; height:auto; vertical-align:middle"></div></td>
-          <td><p>Pastes text into the table without any formatting, just it's character value.</p> <p><u>Note</u>: The content will not take on any formatting inside the destination table.</p></td>
+          <td><p>Pastes text into the table without any formatting, just its character value.</p> <p><u>Note</u>: The content will not take on any formatting inside the destination table.</p></td>
         </tr>
         <tr style="background-color: #f0f0f0;">
           <td colspan="2"><strong>Pasting cut/copied table content into a table</strong>
@@ -245,22 +243,22 @@ active: word
         <tr style="background-color: #f0f0f0;">
         <td colspan="2"><strong>Pasting cut/copied table content directly underneath a table</strong>
           <div style="text-align: center;"><img class="thumbnail border left" src="{{ '/assets/images/word/Tables formatting/Pasting table content beneath table options.png' | url }}"  alt="Pasting table content beneath table option icons" style="max-width:250px; width:100%; height:auto; vertical-align:middle"></div></td>
+        </tr>
         <tr>
           <td>Paste - Keep Original Table Formatting
           <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Paste Keep Original Table Formatting.png' | url }}"  alt="Paste Keep Original Table Formatting icon" style="max-width:40px; width:100%; height:auto; vertical-align:middle"></div></td>
           <td><p>Pastes table content 'as is' with its original formatting intact. It becomes part of the table above as added rows/columns underneath.</p>
-          <p><u>Note</u>: With this paste option the column border edges of the pasted content sometimes don't quite align with the table above so you may have to tweak it.<p></td>
+          <p><u>Note</u>: With this paste option the column border edges of the pasted content sometimes don't quite align with the table above so you may have to tweak it.</p></td>
         </tr>
         <tr>
           <td>Paste - Merge Table
           <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Paste Merge Table.png' | url }}"  alt="Paste Merge Table icon" style="max-width:40px; width:100%; height:auto; vertical-align:middle"></div></td>
           <td>Pastes table content which becomes part of the destination table above it as added rows/columns.</td>
-        </tr></strong></td>
         </tr>
         <tr>
           <td>Paste - Keep Text Only
           <div style="text-align: center;"><img class="thumbnail" src="{{ '/assets/images/word/Tables formatting/Paste Keep Text Only.png' | url }}"  alt="Paste Keep Text Only icon" style="max-width:40px; width:100%; height:auto; vertical-align:middle"></div></td>
-          <td>Pastes table content without a table frame around it, content is instead structured by <span class="glossary-hover" data-term="tab-stop">tabs</span> for columns and <span class="glossary-hover" data-term="hard-return">hard returns</span> for rows.</p></td>
+          <td><p>Pastes table content without a table frame around it, content is instead structured by <span class="glossary-hover" data-term="tab-stop">tabs</span> for columns and <span class="glossary-hover" data-term="hard-return">hard returns</span> for rows.</p></td>
         </tr>
       </tbody>
   </table>
