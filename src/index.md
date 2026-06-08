@@ -98,7 +98,7 @@ active: index
     <div class="mv-fade-right"></div>
     <div class="mv-hover-left"></div>
     <div class="mv-hover-right"></div>
-    <div class="mv-scroll"></div>
+    <div class="mv-scroll">
       <a class="tutorial-card" href="/content-control/keyboard-shortcuts-quiz/">
         <img src="/assets/images/Index/Featured/Keyboard shortcuts quiz.png" alt="Keyboard shortcuts quiz thumbnail">
         <h3>Keyboard shortcuts quiz</h3>
