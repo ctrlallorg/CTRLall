@@ -37,14 +37,13 @@ tags:
   - fix lists
   - fix a list
   - how do i
+intermediate_only: true
 active: word
 --- 
 
-<!-- Intermediate only -->
-<body data-intermediate-only="true">
-
-
 <h1>Lists: Soft & hard returns</h1>
+
+<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
 
 <section class="section-light">
 

@@ -78,14 +78,14 @@ tags:
   - wildcard
   - fixing irregular spacing quiz
 active: word
+intermediate_only: true
 quiz: fixing-irregular-spacing-quiz
 ---
 <h1>Fixing irregular spacing</h1>
 
 <a href="#ctrl-quiz" class="quiz-badge jump">Test yourself! Go to the Quiz &#8595;</a>
 
-<!-- Intermediate only -->
-<body data-intermediate-only="true">
+<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
 
 <section class="section-light">
 <p>Text in your document a disaster? These fixes can get you out of trouble:</p>

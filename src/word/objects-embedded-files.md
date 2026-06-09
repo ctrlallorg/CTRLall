@@ -25,6 +25,7 @@ tags:
   - embedded files
   - embedding files
   - attaching files to a word document
+  - attached files
   - external files
   - file attachment
   - outside files
@@ -60,14 +61,13 @@ tags:
   - zips
   - mp3s
   - mp4s
+intermediate_only: true
 active: word
 ---
 
-<!-- Intermediate only -->
-<body data-intermediate-only="true">
-
-
 <h1>Embedded files (OLE objects)</h1>
+
+<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
 
 <section class="section-light">
 

@@ -45,14 +45,16 @@ tags:
   - how do i
   - retrieve
   - get back
+intermediate_only: true
+
 active: word
 ---
 
-<!-- Intermediate only -->
-<body data-intermediate-only="true">
-
-
 <h1>Fixing tables over pages</h1>
+
+<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
+
+<section class="section-light">
 
 <p>Tables extending across multiple pages can sometimes throw up a few headaches. Here's a few scenarios you might encounter and fixes for them. In this article:</p>
 <ul style="list-style-type: circle;">

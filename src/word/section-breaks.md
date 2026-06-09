@@ -28,13 +28,16 @@ tags:
   - word pagination
   - word section layout
   - control page flow in word
+intermediate_only: true
 active: word
 ---
-<!-- Intermediate only -->
-<body data-intermediate-only="true">
 
 <h1>Section breaks</h1>
+
+<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
+
 <section class="section-light">
+
 <p>We’re in advanced territory here so proceed with caution. Section breaks can get extremely messy if you don’t configure them properly or if your document has several section breaks with unique formatting.</p> 
 <p>If you consider yourself a beginner to Word then you’re likely here looking for how to get rid of a section break, if so see here: <a href="#remove-section-break">How do you remove a section break?</a></p> 
 <p>Section breaks are similar to <a href="/word/page-breaks/">page breaks</a> but slightly more complex. If you just want content to appear from the next page you need a page break.</p>

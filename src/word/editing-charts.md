@@ -32,14 +32,15 @@ tags:
   - columns
   - rows
   - graphs
+intermediate_only: true
 active: word
 ---
 
-<!-- Intermediate only -->
-<body data-intermediate-only="true">
-
 <h1>Editing Charts</h1>
 
+<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
+
+<section class="section-light">
 <p>Firstly everything about inserting charts into Word, whether from within Word or from Excel into Word, is covered here: <a href="/word/images/#image-insert-chart">Inserting charts</a>. Once you have a chart in Word here's how you can edit it:</p>
 
 <section class="section-light">

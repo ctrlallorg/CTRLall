@@ -100,7 +100,7 @@
 
 </head>
 
-<body{% if page.url == "/" %} class="home"{% endif %}>
+<body{% if page.url == "/" %} class="home"{% endif %}{% if intermediate_only %} data-intermediate-only="true"{% endif %}{% if no_difficulty %} data-no-difficulty="true"{% endif %}>
 
   <noscript>
     <div class="noscript-warning">JavaScript is required for full site functionality.</div>
@@ -202,12 +202,6 @@
   <div id="glossary-tooltip" hidden></div>
 
   <!-- Ctrl All asset ID: {{ page.asset_id }} -->
-
-{% unless page.sitemap == false %}
-  <url>
-    <loc>...</loc>
-  </url>
-{% endunless %}
 
 </body>
 </html>

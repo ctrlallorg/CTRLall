@@ -16,13 +16,36 @@ tags:
   - custom page sizes
   - custom layout
   - custom page layout
+  - page setup options
+  - margins
+  - paper sizes
+  - print options
+  - display options
+  - layout options
+  - guttering
+  - gutter position
+  - multiple pages
+  - orientation
+  - landscape
+  - portrait
+  - paper size
+  - paper source
+  - section start
+  - headers and footers
+  - header
+  - footer
+  - page vertical alignment
+intermediate_only: true
+
 active: word
 ---
-<body data-intermediate-only="true">
 
 <h1>Page setup options</h1>
 
+<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
+
 <section class="section-light">
+
 <p>The page set up options can be found by going to <strong>Layout > Page Set-up</strong> and then clicking the <strong>bottom right button</strong>.</p> 
 <p><img class="thumbnail" src="{{ '/assets/images/word/Page setup options/Page setup Margins.png' | url }}"  alt="Page setup Margins dialog in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
 

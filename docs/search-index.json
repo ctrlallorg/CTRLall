@@ -329,6 +329,24 @@
     "url": "/content-control/keyboard-shortcuts-quiz/"
   },
   {
+    "title": "Keyboard Shortcuts for Windows, Microsoft Word, Excel and PowerPoint – Ctrl All",
+    "tags": [
+      "ctrlall.org",
+      "ctrlall",
+      "ctrl all",
+      "windows shortcuts",
+      "microsoft word shortcuts",
+      "microsoft excel shortcuts",
+      "microsoft powerpoint shortcuts",
+      "microsoft outlook shortcuts",
+      "hotkeys",
+      "keyboard shortcuts",
+      "keys",
+      "buttons"
+    ],
+    "url": "/content-control/keyboard-shortcuts/"
+  },
+  {
     "title": "Moving Content in Microsoft Word – Cut, Paste, Drag and Drop – Ctrl All",
     "tags": [
       "ctrlall.org",
@@ -1388,6 +1406,7 @@
       "embedded files",
       "embedding files",
       "attaching files to a word document",
+      "attached files",
       "external files",
       "file attachment",
       "outside files",
@@ -1514,7 +1533,26 @@
       "custom pages",
       "custom page sizes",
       "custom layout",
-      "custom page layout"
+      "custom page layout",
+      "page setup options",
+      "margins",
+      "paper sizes",
+      "print options",
+      "display options",
+      "layout options",
+      "guttering",
+      "gutter position",
+      "multiple pages",
+      "orientation",
+      "landscape",
+      "portrait",
+      "paper size",
+      "paper source",
+      "section start",
+      "headers and footers",
+      "header",
+      "footer",
+      "page vertical alignment"
     ],
     "url": "/word/page-setup-options/"
   },
@@ -2233,23 +2271,5 @@
       "modify tables"
     ],
     "url": "/word/tables/"
-  },
-  {
-    "title": "Keyboard Shortcuts for Windows, Microsoft Word, Excel and PowerPoint – Ctrl All",
-    "tags": [
-      "ctrlall.org",
-      "ctrlall",
-      "ctrl all",
-      "windows shortcuts",
-      "microsoft word shortcuts",
-      "microsoft excel shortcuts",
-      "microsoft powerpoint shortcuts",
-      "microsoft outlook shortcuts",
-      "hotkeys",
-      "keyboard shortcuts",
-      "keys",
-      "buttons"
-    ],
-    "url": "/content-control/keyboard-shortcuts/"
   }
 ]

@@ -50,12 +50,15 @@ tags:
   - manual TOC
   - custom table of contents
   - custom TOC
+intermediate_only: true
 active: word
 ---
-<!-- Intermediate only -->
-<body data-intermediate-only="true">
 
 <h1>Custom table of contents</h1>
+
+<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
+
+<section class="section-light">
 
 <p>In this article:</p>
 <ul>

@@ -64,12 +64,12 @@ tags:
   - tighten spaces
   - close up spacing
   - close up spaces
-Active: word
+intermediate_only: true
+active: word
 ---
 <h1>Hard and soft returns (and why your formatting is messed up)</h1>
 
-<!-- Intermediate only -->
-<body data-intermediate-only="true">
+<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
 
 <section class="section-light">
 

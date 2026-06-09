@@ -38,14 +38,15 @@ tags:
   - scripts
   - playscripts
 active: word
+intermediate_only: true
 ---
 
-<!-- Intermediate only -->
-<body data-intermediate-only="true">
 
 <h1>Line numbering</h1>
 
 <section class="section-light">
+<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
+
 <p>Line numbers have several uses, in legal documents, contracts, transcripts and screenplays to name a few. Numbers are given to each line in the left margin.</p>
 
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Line numbers/Line numbers example.png' | url }}"  alt="Line numbers example" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>

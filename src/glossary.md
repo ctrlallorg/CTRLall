@@ -435,10 +435,18 @@ active: glossary
       <td>When typing pressing <strong>Enter</strong> will create a hard return that starts a new paragraph. In lists, it will create a new bullet/list number, see <a href="/word/lists-soft-hard-returns/">Lists: Soft and hard returns</a> for examples. Another type of return is a <a href="#soft-return">soft return</a>.</td>
     </tr>
     <tr>
-        <td id="header">Header</td>
-        <td><p>Content placed at the top of each page to help the reader navigate, identify or understand the context of the page or document. For example a chapter/unit/section title might be something you find in a header.</p>
-        <p>To access the header space either double click on the <a href="#margin">margin</a> at the top of the page or go to <strong>Insert > Header & Footer > Header</strong>.</p>
-        <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Header.png' | url }}" alt="Header in Word" style="display: block; max-width:650px; width:100%; height:auto; vertical-align:middle"></p></td></td>
+      <td id="header">Header</td>
+      <td><p>Content placed at the top of each page to help the reader navigate, identify or understand the context of the page or document. For example a chapter/unit/section title might be something you find in a header.</p>
+      <p>To access the header space either double click on the <a href="#margin">margin</a> at the top of the page or go to <strong>Insert > Header & Footer > Header</strong>.</p>
+      <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Header.png' | url }}" alt="Header in Word" style="display: block; max-width:650px; width:100%; height:auto; vertical-align:middle"></p></td></td>
+    </tr>
+    <tr>
+        <td id="heading">Heading</td>
+        <td>A title or short phrase that precedes a page, section, or chapter, signposting the content that follows. In Microsoft Word, headings can have <a href="#heading-style">heading styles</a> applied to them, which control their appearance and hierarchical level in the document.</td>
+      </tr>
+    <tr>
+        <td id="heading-style">Heading style</td>
+        <td>A <a href="#style">style</a> applied to a heading in a document. In Microsoft Word, heading styles (Heading 1, Heading 2, Heading 3 etc.) are available in the styles gallery on the <strong>Home</strong> tab and each has an <a href="#outline-level">outline level</a> assigned, which determines their hierarchical placement in an automatically generated <a href="/word/table-of-contents/">table of contents</a>. For more on heading styles see the <a href="/word/styles/">Styles</a> article.</td>
       </tr>
     <tr>
       <td id="highlight-formatting">Highlight (<a href="#formatting">formatting</a>)</td>
@@ -447,6 +455,10 @@ active: glossary
     <tr>
       <td id="highight-selected-content">Highlight (selected content)</td>
       <td>When text is selected it will be highlighted with a grey background to show what you have selected. Note: Another kind of highlight exists when formatting text which changes the background colour of text, see <a href="#highlight formatting">Highlight (formatting)</a>.</td>
+    </tr>
+    <tr>
+      <td id="hyphenation">Hyphenation</td>
+      <td>Hyphenation automatically breaks long words at the end of lines with a hyphen, reducing ragged line endings particularly in justified text. In Microsoft Word, hyphenation is disabled by default, however there are hyphenation options which are explored in the <a href="/word/pages-and-views#hyphenation-int">Pages and Views</a> article.</td>
     </tr>
     <tr>
       <td id="indent">Indent</td>
@@ -752,7 +764,11 @@ active: glossary
       <td id="table">Table</td>
       <td>A structure of rows and columns which can contain content.</td>
     </tr>
-        <tr>
+    <tr>
+      <td id="table-of-contents">Table of contents</td>
+      <td>A sequential list of a document's sections and page numbers, typically placed at the beginning of a document. Sometimes abbreviated to 'TOC'. In Microsoft Word the option for an automated table of contents generates entries from <a href="#heading-style">heading styles</a>. Inserting and editing a table of contents is explored here: <a href="/word/table-of-contents/">Table of contents</a>.</td>
+    </tr>
+    <tr>
       <td id="table-border">Table border</td>
       <td>A visible, styled line applied to the edges of <a href="#table cell">table cells</a>, rows, or columns. Borders can be customized by colour, thickness, and style (e.g., solid, dashed). Note: Borders are printed; <a href="#gridlines">gridlines</a> are not.</td>
     </tr>
@@ -1175,7 +1191,7 @@ active: glossary
         <td>An <a href="#indent-markers">indent marker</a> found on the horizontal <a href="#ruler">ruler</a> that controls the position of all lines in a paragraph except for the first line. See examples in this article: <a href="/word/indents">Indents</a></td>
       </tr>
       <tr>
-      <td id="hard-return">Hard return</td>
+        <td id="hard-return">Hard return</td>
         <td>When typing pressing <strong>Enter</strong> will create a hard return that starts a new paragraph. In lists, it will create a new bullet/list number, see <a href="/word/lists-soft-hard-returns/">Lists: Soft and hard returns</a> for examples. Another type of return is a <a href="#soft-return">soft return</a>.</td>
       </tr>
       <tr>
@@ -1185,12 +1201,24 @@ active: glossary
         <p><img class="thumbnail border" src="{{ '/assets/images/word/Headers and Footers/Header.png' | url }}" alt="Header in Word" style="display: block; max-width:650px; width:100%; height:auto; vertical-align:middle"></p></td></td>
       </tr>
       <tr>
+        <td id="heading">Heading</td>
+        <td>A title or short phrase that precedes a page, section, or chapter, signposting the content that follows. In Microsoft Word, headings can have <a href="#heading-style">heading styles</a> applied to them, which control their appearance and hierarchical level in the document.</td>
+      </tr>
+      <tr>
+        <td id="heading-style">Heading style</td>
+        <td>A <a href="#style">style</a> applied to a heading in a document. In Microsoft Word, heading styles (Heading 1, Heading 2, Heading 3 etc.) are available in the styles gallery on the <strong>Home</strong> tab and each has an <a href="#outline-level">outline level</a> assigned, which determines their hierarchical placement in an automatically generated <a href="/word/table-of-contents/">table of contents</a>. For more on heading styles see the <a href="/word/styles/">Styles</a> article.</td>
+      </tr>
+      <tr>
         <td id="highlight-formatting">Highlight (<a href="#formatting">formatting</a>)</td>
         <td>The highlight tool can be found under Home > Font. It applies a highlight colour behind selected text.</td>
       </tr>
       <tr>
         <td id="highight-selected-content">Highlight (selected content)</td>
         <td>When text is selected it will be highlighted with a grey background to show what you have selected. Note: Another kind of highlight exists when formatting text which changes the background colour of text, see <a href="#highlight formatting">Highlight (formatting)</a>.</td>
+      </tr>
+      <tr>
+        <td id="hyphenation">Hyphenation</td>
+        <td>Hyphenation automatically breaks long words at the end of lines with a hyphen, reducing ragged line endings particularly in justified text. In Microsoft Word, hyphenation is disabled by default, however there are hyphenation options which are explored in the <a href="/word/pages-and-views#hyphenation-int">Pages and Views</a> article.</td>
       </tr>
       <tr>
         <td id="indent">Indent</td>
@@ -1495,7 +1523,11 @@ active: glossary
         <td id="table">Table</td>
         <td>A structure of rows and columns which can contain content.</td>
       </tr>
-          <tr>
+      <tr>
+        <td id="table-of-contents">Table of contents</td>
+        <td>A sequential list of a document's sections and page numbers, typically placed at the beginning of a document. Sometimes abbreviated to 'TOC'. In Microsoft Word the option for an automated table of contents generates entries from <a href="#heading-style">heading styles</a>. Inserting and editing a table of contents is explored here: <a href="/word/table-of-contents/">Table of contents</a>.</td>
+      </tr>
+      <tr>
         <td id="table-border">Table border</td>
         <td>A visible, styled line applied to the edges of <a href="#table cell">table cells</a>, rows, or columns. Borders can be customized by colour, thickness, and style (e.g., solid, dashed). Note: Borders are printed; <a href="#gridlines">gridlines</a> are not.</td>
       </tr>

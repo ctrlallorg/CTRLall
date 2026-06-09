@@ -35,18 +35,16 @@ tags:
   - columns
   - delimiters
   - exercise
+intermediate_only: true
+
 active: word
 ---
 
-<div id="tooltip">
-  <img src="" alt="Tooltip preview">
-</div>
-
-<!-- Intermediate only -->
-<body data-intermediate-only="true">
-
 <h1>Converting text to a table</h1>
+
 <a href="#exercise" class="exercise-badge jump">Includes downloadable exercise &#8595;</a>
+
+<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
 
 <section class="section-light">
   

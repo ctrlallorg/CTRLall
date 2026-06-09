@@ -1305,15 +1305,9 @@ table.shortcut-tables-cursor-icons td:nth-child(3) {
   color: #2d6a4f;
 }
 
-/* Intermediate badge */
-.article-badge.intermediate {
-  background: #e0e7ff;
-  color: #2c3e50;
-}
-
-/* Intermediate-only badge */
+.article-badge.intermediate,
 .article-badge.intermediate-only {
-  background: #fde2e2;
+  background: #e0e7ff;
   color: #2c3e50;
 }
 
