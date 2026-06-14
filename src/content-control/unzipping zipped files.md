@@ -124,8 +124,8 @@ active: content-control
 <p>First locate the zip file. Typically you'll have downloaded a zip file from a webpage or an email so it'll be sat in your Downloads folder like this:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file in download folder.png' | url }}" alt="Zip file in download folder" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
-<p>Right click on the zipped file and select <strong>Extract All...</strong> from the menu:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file Extract All.png' | url }}" alt="Extract all option on Windows right click menu" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
+<p><span class="glossary-hover" data-term="right-click-menu"><strong>Right click</strong></span> on the zipped file and select <strong>Extract All...</strong> from the menu:</p>
+<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file Extract All.png' | url }}" alt="Extract all option on Windows right click menu" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>A window pops up asking you where to create a folder with the compressed files inside. By default this will be the same location as the zip file. There is also a checkbox option to open that folder afterwards. Click <strong>Extract</strong> and the compressed files will be extracted:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file Extract dialog.png' | url }}" alt="Zip file Extract dialog window" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
@@ -149,7 +149,7 @@ active: content-control
 <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file in download folder.png' | url }}" alt="Zip file in download folder" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>Right click on the zipped file and select <strong>Extract All...</strong> from the menu:</p>
-<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file Extract All.png' | url }}" alt="Extract all option on Windows right click menu" style="max-width:500px; width:100%; height:auto; vertical-align:middle"></p>
+<p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file Extract All.png' | url }}" alt="Extract all option on Windows right click menu" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 
 <p>A dialog pops up asking you where to extract files to as a folder. By default this will be the same location as the compressed file. There is also a checkbox option to open the folder after extraction. Click <strong>Extract</strong> and the compressed files will be extracted:</p>
 <p><img class="thumbnail border" src="{{ '/assets/images/content control/Extracting compressed files/Zip file Extract dialog.png' | url }}" alt="Zip file Extract dialog window" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>

@@ -1561,6 +1561,7 @@ td.justified {
 /* Main content */
 .main-content {
   flex-grow: 1;
+  width: 100%;
 }
 
 

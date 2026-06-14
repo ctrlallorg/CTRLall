@@ -124,7 +124,7 @@ quiz: fixing-irregular-spacing-quiz
   <li>
     <p>In the <strong>Find what</strong> field: type <strong>^w</strong></p>
     <p><u>Note</u>: On most keyboards <strong>^</strong> is found as an alternative character on a number key. You'll need to press <strong>Shift</strong> and that number key. On mine it's on the 6 key so I'd press Shift + 6.</p>
-    <p>(<strong>^w</strong> is a special wildcard code that essentially means 'any whitespace', such as regular spaces, irregular spaces, non‑breaking spaces or tabs.)</p>
+    <p>(<strong>^w</strong> is a special <span class="glossary-hover" data-term="wildcard">wildcard</span> code that essentially means 'any whitespace', such as regular spaces, irregular spaces, non‑breaking spaces or tabs.)</p>
   </li>
   <li>
     <p>In the <strong>Replace with</strong> field: add a single space.</p>
@@ -140,7 +140,7 @@ quiz: fixing-irregular-spacing-quiz
 
 
 <h2 id="remove-multiple-blank-lines">Remove multiple blank lines</h2>
-<p>Sometimes you might find multiple blank lines irregularly through inherited formatting when pasting or a lack of housekeeping in a document. You may also find this in older documents as a previously common but now outdated rule used to be doing a double return after each paragraph. Whatever the situation there's a wildcard you can use to reduce multiple blanks lines to just one.</p>
+<p>Sometimes you might find multiple blank lines irregularly through inherited formatting when pasting or a lack of housekeeping in a document. You may also find this in older documents as a previously common but now outdated rule used to be doing a double return after each paragraph. Whatever the situation there's a <span class="glossary-hover" data-term="wildcard">wildcard</span> you can use to reduce multiple blanks lines to just one.</p>
 
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Fix multiple paragraph marks example.png' | url }}" alt="Example of multiple paragraph marks in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 <ol>
@@ -185,7 +185,7 @@ quiz: fixing-irregular-spacing-quiz
 <h2 id="remove-space-before-punctuation">Remove spaces before punctuation</h2>
 <p>This is less common but you may sometimes find typing errors where a space has been added before punctuation such as <strong>. , : ; ?</strong> or <strong>!</strong></p>
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Spaces before punctuation example.png' | url }}" alt="Example of spaces before punctuation in a paragraph in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
-<p>There's a wildcard to get rid of these for all the above punctuation marks:</p>
+<p>There's a <span class="glossary-hover" data-term="wildcard">wildcard</span> to get rid of these for all the above punctuation marks:</p>
 <ol>
   <li>Go to <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>).</li>
   <li>In the <strong>Find what</strong> field: type a literal <strong>space</strong> and then <strong>([.,;:\?\!])</strong></li>
@@ -198,7 +198,7 @@ quiz: fixing-irregular-spacing-quiz
 <p><img class="thumbnail border" src="{{ '/assets/images/word/Fixing irregular spacing/Spaces before punctuation demonstration.gif' | url }}" alt="Demonstration fixing spaces before punctuation in a paragraph with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
 <h2 id="hyphens-en-dashes-em-dashes">Hyphens, en dashes and em dashes</h2>
-<p>Hyphens are something everyone uses casually but you may need to replace them with en dashes or em dashes. Let's look at the wildcard codes involved:</p>
+<p>Hyphens are something everyone uses casually but you may need to replace them with en dashes or em dashes. Let's look at the <span class="glossary-hover" data-term="wildcard">wildcard</span> codes involved:</p>
 <div class="tooltip-wrapper" style="margin: 2rem 0rem 1rem; text-align: left;">
   <table class="table-center">
     <colgroup>

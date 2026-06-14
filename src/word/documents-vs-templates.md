@@ -54,7 +54,7 @@ quiz: documents-vs-templates-quiz
 
   <section class="section-light">
   <h2>What's the difference?</h2>
-  <p>If you're not too familiar with templates it's easy to get lost. Documents and templates are different types of Word files known as the <span class="glossary-hover" data-term="filetype">file type</span>. This article explains the difference between a document and a template.</p>
+  <p>If you're not too familiar with templates it's easy to get lost. Documents and templates are different types of Word files known as the <span class="glossary-hover" data-term="file-type">file type</span>. This article explains the difference between a document and a template.</p>
 
   <p><strong>Document</strong>: When creating a new document it will typically be blank, A4 size and portrait with standard styles used for all new documents. If you make edits to a document and <span class="glossary-hover" data-term="save">save</span> it, then those changes will remain the next time you open it up. For more on saving see <a href="/word/saving-and-save-as/">Saving and Save As</a></p>
 
@@ -75,7 +75,7 @@ quiz: documents-vs-templates-quiz
 
   <p>If you're viewing a file as a large icon like in a folder or on your desktop:</p>
   <ol>
-    <li><strong>Right click</strong> on it</li>
+    <li><span class="glossary-hover" data-term="right-click-menu"><strong>Right click</strong></span> on it</li>
     <li>Then select <strong>Properties</strong>.
     <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Right click properties.png' | url }}"  alt="Right click properties" style="max-width:400px; width:100%; height:auto; vertical-align:middle">
     <p>The file's <strong>type of file</strong> will be shown at the top.</p>
@@ -127,7 +127,7 @@ quiz: documents-vs-templates-quiz
   <br>
   <h2>Old file formats 97-2003</h2>
   <p>If you come across a <strong>.doc</strong> file then it's quite old as it would have been saved using an older version of Word before 2003. You can still open these in Word fine, but be careful not to save a document as a .doc as that can lead to compatibility issues later. It's always best practice to save in the new modern format <strong>.docx</strong>.</p>
-  <p><u>Rule of thumb</u>: Look at the filetype before you open it and be mindful of the format when saving it.</p> 
+  <p><u>Rule of thumb</u>: Look at the file type before you open it and be mindful of the format when saving it.</p> 
 
   <h1>Where to now?</h1>
   <ul>
@@ -141,7 +141,7 @@ quiz: documents-vs-templates-quiz
 
   <section class="section-light">
   <h2>What's the difference?</h2>
-  <p>Here's a refresher on documents and template if you're not too familiar with them. The main point is they are different <span class="glossary-hover" data-term="filetype">file types</span>.</p>
+  <p>Here's a refresher on documents and template if you're not too familiar with them. The main point is they are different <span class="glossary-hover" data-term="file-type">file types</span>.</p>
 
   <p><strong>Document</strong>: Standalone document file that derives its styles and standard formatting from a global Word template.</p>
 
@@ -160,7 +160,7 @@ quiz: documents-vs-templates-quiz
 
   <p>If you're viewing a file as a large icon like in a folder or on your desktop:</p>
     <ol>
-      <li><strong>Right click</strong> on it</li>
+      <li><span class="glossary-hover" data-term="right-click-menu"><strong>Right click</strong></span> on it</li>
       <li>Then select <strong>Properties</strong>.
       <img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Right click properties.png' | url }}"  alt="Right click properties" style="max-width:400px; width:100%; height:auto; vertical-align:middle">
       <p>The file's <strong>type of file</strong> will be shown at the top.</p>
@@ -213,10 +213,10 @@ quiz: documents-vs-templates-quiz
   <h2>Old file formats 97-2003</h2>
   <p>The old format (.doc) doesn’t have all of the features and capabilities of the new format (.docx). Usually older documents are saved in this format as they were saved when using an older version of Microsoft Word (97-2003).</p>
   <p>When saving, it is best practice to ensure you are saving in the new format with the ‘x’ at the end of the filename extension. Saving in the old format can cause compatibility issues.</p>
-  <p><u>Rule of thumb</u>: Look at the filetype before you open it and be mindful of the format when saving it.</p>  
+  <p><u>Rule of thumb</u>: Look at the file type before you open it and be mindful of the format when saving it.</p>  
 
   <h2 id="edit-template">How do you edit a template?</h2>
-  <p>There's more than one way to open a template. When opening a template file normally with a double click or selecting it and pressing Enter, Word will provide you with a document based on the template. But if you <strong>right click</strong> on a template file then select <strong>Open</strong> from the drop down menu, Word will open it as a template.</p>
+  <p>There's more than one way to open a template. When opening a template file normally with a double click or selecting it and pressing Enter, Word will provide you with a document based on the template. But if you <span class="glossary-hover" data-term="right-click-menu"><strong>right click</strong></span> on a template file then select <strong>Open</strong> from the drop down menu, Word will open it as a template.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Documents vs Templates/Open template as a template.png' | url }}"  alt="Opening a Word template as a template via the right click menu" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 
   <p>You can tell it has opened as a template by the file extension at the top:</p>
@@ -224,7 +224,7 @@ quiz: documents-vs-templates-quiz
 
   <p>Once edited as needed, save the template.</p> 
 
-  <p>If you don't have access to the original template file, you can always use the document and save over a template file via <strong>Save As</strong> settings. For more on saving files as different filetypes see <a href="/word/saving-and-save-as/">Saving and Save As.</a></p>
+  <p>If you don't have access to the original template file, you can always use the document and save over a template file via <strong>Save As</strong> settings. For more on saving files as different file types see <a href="/word/saving-and-save-as/">Saving and Save As.</a></p>
  
 
   </section>

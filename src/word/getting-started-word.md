@@ -96,10 +96,10 @@ active: word
       <p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 1.png' | url }}"  alt="Searching for the Word app with the taskbar search bar" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
       <p>Word will then appear in search results above. You can click on either of these two highlighted buttons below to open Word:</p>
       <p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 2.png' | url }}"  alt="Taskbar search results for Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
-      <p><strong>Tip</strong>: Once you've opened the app, <strong>right click</strong> on the blue Word app icon and select <strong>Pin to taskbar</strong> from the menu. Pinning the Word app to the taskbar will make it stay there after you close it, making it easier and quicker to access next time:</p>
+      <p><strong>Tip</strong>: Once you've opened the app, <span class="glossary-hover" data-term="right-click-menu"><strong>right click</strong></span> on the blue Word app icon and select <strong>Pin to taskbar</strong> from the menu. Pinning the Word app to the taskbar will make it stay there after you close it, making it easier and quicker to access next time:</p>
       <p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Pin Word app taskbar.png' | url }}"  alt="Pin Word app to the taskbar" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
     <h2 id="create-new-word-doc">How to create a new Word document</h2>
-      <p>When you start Word you'll see a menu screen. To start a brand new document click the highlighted option <strong>Blank document</strong>. There are also many different <a href="/glossary/#template">templates</a> you can choose from here as well.</p>
+      <p>When you start Word you'll see a menu screen. To start a brand new document click the highlighted option <strong>Blank document</strong>. There are also many different <span class="glossary-hover" data-term="template">templates</span> you can choose from here as well.</p>
       <p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/New document.png' | url }}"  alt="The first screen interface you see when Word opens" style="width:100%; height:auto; vertical-align:middle"></p>
     <h2 id="open-word-doc">How to open a Word file</h2>
       <p>Word files have their own blue icon with a 'W'. To open one, find the file on your computer and <strong>double click</strong> it.</p>
@@ -108,7 +108,7 @@ active: word
       <div class="image-row">
         <img class="thumbnail left" src="{{ '/assets/images/word/Getting started with Word/Doc icon 1 365.png' | url }}" alt="Word file icon" style="max-width:75px; width:100%; height:auto; vertical-align:middle">
         <img class="thumbnail left" src="{{ '/assets/images/word/Getting started with Word/Doc icon 2 365.png' | url }}" alt="Word file icon" style="max-width:175px; width:100%; height:50%; vertical-align:middle">
-      /div>
+      </div>
       <h2 id="word-interface">The main interface</h2>
         <p> This is the main Word interface you work from. It's made of different sections which we'll go through top to bottom.</p>
         <p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Word interface.png' | url }}"  alt="Main Word interface screen" style="width:100%; height:auto; vertical-align:middle"></p>
@@ -131,7 +131,7 @@ active: word
         <p><img class="thumbnail border left" src="{{ '/assets/images/word/Getting started with Word/Close document.png' | url }}"  alt="Close document button under File" style="max-width:175px; width:100%; height:auto; vertical-align:middle"></p>
         <p>A quicker way is to use the keyboard shortcut holding down <strong>Ctrl</strong> and then pressing <strong>W</strong>:</p>
         <p><img class="thumbnail left" src="{{ '/assets/images/keyboard shortcuts/Ctrl+W.png' | url }}"  alt="Ctrl + W shortcut: Close the document (keeping the application open)" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
-      <h2 id="close-word-app">How to close Word</h2>
+      <h2 id="close-word-app">How to close Microsoft Word (the <span class="glossary-hover" data-term="application"><strong>application</strong></span>)</h2>
         <p>You can close the Word application by pressing the <strong>✖</strong> button in the top right corner. If you have made any unsaved edits Word will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
       <h2 id="word-version">What version of Word do I have?</h2>
       <p>There are a few versions of Microsoft Word:</p>
@@ -298,10 +298,10 @@ active: word
           <p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 1.png' | url }}"  alt="Searching for the Word app with the taskbar search bar" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
           <p>Word will then appear in search results above. You can click on either of these two highlighted buttons below to open the application:</p>
           <p><img class="thumbnail" src="{{ '/assets/images/word/Getting started with Word/Searching for Word app 2.png' | url }}"  alt="Taskbar search results for Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
-          <strong>Tip</strong>: Once you've opened the app, <strong>right click</strong> on the blue Word app icon and select <strong>Pin to taskbar</strong> from the menu. Pinning the Word app to the taskbar will make it stay there after you close it:
+          <strong>Tip</strong>: Once you've opened the app, <span class="glossary-hover" data-term="right-click-menu"><strong>right click</strong></span> on the blue Word app icon and select <strong>Pin to taskbar</strong> from the menu. Pinning the Word app to the taskbar will make it stay there after you close it:
           <p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/Pin Word app taskbar.png' | url }}"  alt="Pin Word app to the taskbar" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
         <h2 id="create-new-word-doc-int">Creating a new document</h2>
-          <p>Once Word has loaded up you'll see this initial menu screen below. To start a brand new document click the highlighted option <strong>Blank document</strong>. There are also many different <a href="/glossary/#template">templates</a> you can choose from here as well.</p>
+          <p>Once Word has loaded up you'll see this initial menu screen below. To start a brand new document click the highlighted option <strong>Blank document</strong>. There are also many different <span class="glossary-hover" data-term="template">templates</span> you can choose from here as well.</p>
           <p><img class="thumbnail border" src="{{ '/assets/images/word/Getting started with Word/New document.png' | url }}"  alt="The first screen interface you see when Word opens" style="width:100%; height:auto; vertical-align:middle"></p>
         <h2 id="open-word-doc-int">Opening an existing Word document file</h2>
           <p>Word files will have the Word app icon. The Microsoft Office icons have changed over the years with the latest revamp happening in 2025, so depending on what version of Word you have they'll look like one of these below. For Mac users icons might look like <a href="https://www.reddit.com/r/FrutigerAero/comments/1ckjclj/office_icons_through_the_years_2k8_was_the_fa/" target="_blank">this.</a></p>

@@ -306,15 +306,17 @@
     </li>
 
 
-    <!-- DOCUMENT NAVIGATION -->
+<!-- DOCUMENT NAVIGATION -->
     <li>
       <button 
         class="nav-toggle level-3-toggle
-          {% if page.url == '/word/table-of-contents/' 
+          {% if page.url == '/word/find/'
+             or page.url == '/word/table-of-contents/' 
              or page.url == '/word/table-of-contents-custom/' %}
             expanded
           {% endif %}"
-        aria-expanded="{% if page.url == '/word/table-of-contents/' 
+        aria-expanded="{% if page.url == '/word/find/'
+             or page.url == '/word/table-of-contents/'
              or page.url == '/word/table-of-contents-custom/' %}
             true
           {% else %}
@@ -324,11 +326,13 @@
       </button>
 
       <ul class="nav-level-3
-          {% if page.url == '/word/table-of-contents/' 
+          {% if page.url == '/word/find/'
+             or page.url == '/word/table-of-contents/' 
              or page.url == '/word/table-of-contents-custom/' %}
             show
           {% endif %}">
 
+        <li><a href="{{ '/word/find/' | url }}" class="{% if page.url == '/word/find/' %}active{% endif %}">Find</a></li>
         <li><a href="{{ '/word/table-of-contents/' | url }}" class="{% if page.url == '/word/table-of-contents/' %}active{% endif %}">Table of contents</a></li>
         <li><a href="{{ '/word/table-of-contents-custom/' | url }}" class="{% if page.url == '/word/table-of-contents-custom/' %}active{% endif %}">Custom table of contents</a></li>
 

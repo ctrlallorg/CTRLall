@@ -78,6 +78,13 @@ active: glossary
   </thead>
   <tbody>
     <tr>
+      <td id="accept-reject-changes">Accept / Reject changes</td>
+      <td>
+        <p>Once edits have been made with <a href="#track-changes">Track Changes</a> turned on, each change can be accepted (kept) or rejected (discarded). In both cases the Track Changes formatting disappears. Accepted changes become part of the document content, while rejected changes revert to their previous form.</p>
+        <p>Changes can be handled individually one by one, or all at once using <strong>Accept All</strong> or <strong>Reject All</strong>. Accept and Reject controls are found on the <strong>Review</strong> tab of the <a href="#ribbon">ribbon</a>.</p>
+      </td>
+    </tr>
+    <tr>
       <td id="adjustment-handles">Adjustment handles</td>
       <td><p>For certain images and graphic visuals when selected a selection frame appears around it including a yellow dot called an adjustment handle. These let you adjust the inner or outer dimensions of that image/graphic. Not to be confused with <a href="#sizing-handles">sizing handles</a>, for more information and examples see here: <a href="/word/altering-images-and-objects/">Altering images and objects</a></p>
       <p><img src="{{ '/assets/images/word/Images/Adjustment handle.png' | url }}" alt="Sizing handles" style="display: block; max-width:100px; width:100%; height:auto; vertical-align:middle">
@@ -125,6 +132,21 @@ active: glossary
       <td id="BCC">Bcc (Blind Carbon Copy)</td>
       <td><p>In emails, Bcc (Blind Carbon Copy) allows you to include someone as a secondary recipient without other recipients seeing. In Outlook, enter the address in the <strong>Bcc</strong> field below the <a href="#CC"><strong>Cc</strong></a> field when composing or replying to an email. To turn on Bcc field got to <strong>Options</strong>.</p>
       <p><img class="thumbnail border" src="{{ '/assets/images/glossary/BCC.png' | url }}" alt="Cursor keys" style="display: block; max-width:430px; width:100%; height:auto; vertical-align:middle"></p></td>
+    </tr>
+    <tr>
+      <td id="bold">Bold</td>
+      <td>
+        <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords or important content. Bold thickens the selected characters <strong>to make them stand out like this</strong> from surrounding text. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications. Keyboard shortcut: <strong>Ctrl + B</strong></p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+B.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + B" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
+    </tr>
+    <tr>
+      <td id="browser-window">File dialog / Browser window</td>
+      <td>
+        <p>When opening or <a href="#save">saving</a> a file from an <a href="#application">application</a> in Windows, a file dialog window appears (also known as a browser window, which is what we'll call them here). Browser windows allow you to navigate to a file location to open, or choose where to save a file. They feature bookmarked shortcuts on the left and relevant options at the bottom.</p>
+        <p><img src="{{ '/assets/images/glossary/Browser window open.png' | url }}" alt="File dialog open window in Windows" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+        <p><img src="{{ '/assets/images/glossary/Browser window save as.png' | url }}" alt="File dialog save as window in Windows" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
     </tr>
     <tr>
       <td id="bullet-list">Bullet list / Bullets</td>
@@ -175,6 +197,15 @@ active: glossary
     <tr>
       <td id="column-boundary-marker">Column boundary marker</td>
       <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls the column border of a multi-column table. See examples in this article: <a href="/word/indents">Indents</a></td>
+    </tr>
+    <tr>
+      <td id="comments">Comments</td>
+      <td>
+        <p>An editing tool that adds annotations alongside a Word document or PowerPoint presentation, separate from the document content itself. Useful for brainstorming, collaborating, reviewing, and proofreading.</p>
+        <p>The Comments tool is found on the <strong>Review</strong> tab of the <a href="#ribbon">ribbon</a>.</p>
+        <p>Not to be confused with Word's <a href="#track-changes">Track Changes</a>, which records edits made directly to content rather than annotations added alongside it.</p>
+        <p>Also not to be confused with PowerPoint's Notes, which are presenter-facing notes shown per slide during a presentation. Comments are visible while editing but not during a presentation.</p>
+      </td>
     </tr>
     <tr>
       <td id="compressed-file">Zip file / Compressed file</td>
@@ -256,6 +287,11 @@ active: glossary
       <td id="filename">Filename</td>
       <td>The title given to a file. You decide the flename when <a href="#save">saving</a> a file. Filenames appear alongside a file icon. When viewing files in the details view of a window the filename are shown in a <strong>Name</strong> column.</td>
     <tr>
+      <td id="file-explorer">File Explorer</td>
+      <td>
+        <p>The built-in file management tool in Windows. File Explorer lets you browse, organise, and manage files and folders on your computer. You can copy, move, rename, delete, and more via the <a href="#right-click-menu">right-click menu</a>. The view can be changed to different icon sizes and layouts, including <strong>Details</strong> view which shows file information such as <a href="#file-size">file size</a>, <a href="#file-type">file type</a>, and date modified.</p>
+      </td>
+    </tr>
     <tr>
       <td id="filename-extension">Filename extension</td>
       <td>A suffix at the end of the filename after a full stop/period which indicates a file's file type. E.g. a Word document will have the filename extension <strong>.docx</strong> while a Excel workbook will have <strong>.xlsx</strong>. 
@@ -279,7 +315,7 @@ active: glossary
         </ul>
       </td>
     <tr>
-      <td id="filetype">File type</td>
+      <td id="file-type">File type</td>
       <td>The format a file is <a href="#save">saved</a> in, such as a document, image or video. When viewing files in the details view of a window the file types are shown in a <strong>Type</strong> column. The file type is also indicated by the <a href="#filename-extension">Filename extension</a>.</td>
     </tr>
     <tr>
@@ -457,6 +493,13 @@ active: glossary
       <td>When text is selected it will be highlighted with a grey background to show what you have selected. Note: Another kind of highlight exists when formatting text which changes the background colour of text, see <a href="#highlight formatting">Highlight (formatting)</a>.</td>
     </tr>
     <tr>
+        <td id="hyperlink">Hyperlink</td>
+        <td>
+          <p>Hyperlinks (commonly called 'links') let you navigate to a webpage, or a document or folder location on a computer or shared server. They are typically displayed <a href="#underline">underlined</a> and in a distinct colour. On web browsers the mouse <a href="#cursor">cursor</a> usually changes when hovering over one. In Microsoft Office applications hold <strong>Ctrl and click</strong> to follow a link. To insert a hyperlink use <strong>Ctrl + K</strong>.</p>
+          <p><img src="{{ '/assets/images/glossary/Hyperlink in word.png' | url }}" alt="Hyperlink in Microsoft Word with Ctrl and click tooltip" style="display: block; max-width:293px; width:100%; height:auto; vertical-align:middle"></p>
+        </td>
+      </tr>
+    <tr>
       <td id="hyphenation">Hyphenation</td>
       <td>Hyphenation automatically breaks long words at the end of lines with a hyphen, reducing ragged line endings particularly in justified text. In Microsoft Word, hyphenation is disabled by default, however there are hyphenation options which are explored in the <a href="/word/pages-and-views#hyphenation-int">Pages and Views</a> article.</td>
     </tr>
@@ -479,6 +522,13 @@ active: glossary
           <img class="border" src="{{ '/assets/images/glossary/Insertion point example 1.gif' | url }}" alt="Insertion point example" style="display: block; max-width:150px; width:100%; height:auto; vertical-align:middle">
           <img class="border" src="{{ '/assets/images/glossary/Insertion point example 2.gif' | url }}" alt="Insertion point in a text box example" style="display: block; max-width:150px; width:100%; height:auto; vertical-align:middle">
         </div>
+      </td>
+    </tr>
+    <tr>
+      <td id="italic">Italic</td>
+      <td>
+        <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords, titles, or technical terms. Italics slant selected text slightly to the right <em>like this</em> to create a subtle emphasis against surrounding text. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications. Keyboard shortcut: <strong>Ctrl + I</strong></p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+I.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + I" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
       </td>
     </tr>
     <tr>
@@ -671,7 +721,10 @@ active: glossary
     </tr>
     <tr>
       <td id="right-click-menu">Right click / context menu</td>
-      <td>A menu that appears  in Windows or a Microsoft Office applicationwhen you right click with a mouse, mousepad, or dedicated keyboard key. It is called a context menu because its contents change depending on what you right click on. For example in Microsoft Word, right clicking a word gives different options to right clicking an image. It's typically a quicker way to give a command than navigating through the ribbon or a top menu.</td>
+      <td>
+      <p>A menu appears in Windows or a Microsoft Office application when you right click with a mouse, mousepad, or dedicated keyboard key. It is called a context menu because its contents change depending on what you right click on.</p>
+      <p>For example in Microsoft Word, right clicking a word gives different options to right clicking an image. It's typically a quicker way to give a command than navigating through the ribbon or a top menu.</p>
+      </td>
     </tr>
     <tr>
       <td id="right-indent">Right indent</td>
@@ -692,7 +745,7 @@ active: glossary
     </tr>
     <tr>
       <td id="save">Save</td>
-      <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}">Saving a file means storing the file's content in its current state onto your computer, cloud drive, or external device. You choose what it's called (the <a href="#filename">filename</a>) and where it's stored, allowing you to access it later. You also decide what format the file is saved as (the <a href="#filetype">file type</a>); this is indicated by the <a href="#filename-extension">filename extension</a>. It's good practice to save frequently to avoid losing work due to crashes or power outages. Keyboard shortcut: <strong>Ctrl + S</strong>
+      <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}">Saving a file means storing the file's content in its current state onto your computer, cloud drive, or external device. In a <a href="browser-window">browser window</a> you choose what it's called (the <a href="#filename">filename</a>) and where it's stored, allowing you to access it later. You also decide what format the file is saved as (the <a href="#filetype">file type</a>); this is indicated by the <a href="#filename-extension">filename extension</a>. It's good practice to save frequently to avoid losing work due to crashes or power outages. Keyboard shortcut: <strong>Ctrl + S</strong>
       </td>
     </tr>
     <tr>
@@ -729,6 +782,13 @@ active: glossary
       <td>SmartArt graphics are diagrammatic visuals with editable text, available in Microsoft Office applications via <strong>Insert > SmartArt</strong>. They come in a range of types including lists, processes, cycles, hierarchies, relationships, matrices, pyramids and pictures, and are useful for illustrating processes and structures in reports, presentations or guides. SmartArt graphics can be edited and styled using the <strong>SmartArt Design</strong> and <strong>Format</strong> tabs that appear on the <a href="#ribbon">ribbon</a> when a SmartArt graphic is selected.</td>
     </tr>  
     <tr>
+      <td id="snap">Snap</td>
+      <td>
+        <p>A built-in Windows feature that lets you automatically resize and arrange multiple <a href="#application">application</a> windows on your screen. It's an easier way to view windows side by side or in multi-window grids without manually resizing them. Drag a window to the edge or corner of the screen to snap it into position, or use <strong>Windows + Left/Right arrow</strong> keys.</p>
+        <p>Some panels within Microsoft Office applications, such as the Navigation Pane in Word, can also be docked to the left or right side of the app window in a similar way.</p>
+      </td>
+    </tr>
+    <tr>
       <td id="soft-return">Soft return</td>
       <td>When typing pressing <strong>Shift + Enter</strong> will create a soft return that starts a new line which is still connected to the same paragraph before known as a line break. In lists, a soft return will create a new line for the existing bullet/list number, see this article for examples: <a href="/word/lists-soft-hard-returns/">Lists: Soft and hard returns</a>. Another type of return is a <a href="#hard-return">hard return</a>.</td>
     </tr>
@@ -744,6 +804,13 @@ active: glossary
       <td id="status-bar">Status bar</td>
       <td>The bar at the bottom of the screen showing details about what you are editing, language setting, accessibility, view options and the zoom tool. E.g. In Microsoft Word the status bar will show the current document’s page number, total pages and <a href="#word-count">word count</a>, as well as language settings and <a href="#zoom">zoom</a> controls.</td>
     </tr>
+    <tr>
+        <td id="strikethrough">Strikethrough</td>
+        <td>
+          <p>A character-level text <a href="#formatting">formatting</a> tool used to convey that text is no longer relevant or is proposed for removal, while keeping it visible to the reader. <s>It looks like this</s>. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications.</p>
+          <p><u>Note</u>: In Microsoft Word, <a href="#track-changes">Track Changes</a> also uses strikethrough to mark deleted text — this is automatic behaviour rather than a manually applied formatting tool.</p>
+        </td>
+      </tr>
     <tr>
       <td id="style">Style</td>
       <td>A set of <a href="#attribute-formatting">formatting attributes</a> saved which can be applied to text, e.g. a heading style, table of contents level style, attribution style etc. Styling reduces the amount of work you have to do styling multiple text by just applying the same style each time.</td>
@@ -799,7 +866,10 @@ active: glossary
     </tr>
     <tr>
       <td id="track-changes">Track Changes</td>
-      <td>This is a tool that when switched on will record any changes you or any other user makes in a document. This is useful for editing and version control. The changes made are then approved or rejected by a reviewer.</td>
+      <td>
+        <p>A collaboration tool that records any changes made by you or other users in a Word document or PowerPoint presentation. Changes are then reviewed and either accepted or rejected. It is useful for multi-stage editing processes and version control.</p>
+        <p>Track Changes is found on the <strong>Review</strong> tab of the <a href="#ribbon">ribbon</a>. Not to be confused with <a href="#comments">Comments</a>, which are annotations added alongside the document rather than edits to it.</p>
+      </td>
     </tr>
     <tr>
       <td id="typo">Typo (Typographical error)</td>
@@ -812,7 +882,14 @@ active: glossary
         <li>incorrect punctuation or space (“cant” instead of “can’t”).</li>
       </ul>
     </td>
-    </tr> 
+    </tr>
+    <tr>
+      <td id="underline">Underline</td>
+      <td>
+        <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords. Underline adds a horizontal line beneath the selected characters <u>like this</u> to create emphasis and draw attention within the surrounding text. It is best to avoid underlining body text in digital documents since it can be confused for hyperlinks which are typically underlined. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications. Keyboard shortcut: <strong>Ctrl + U</strong></p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+U.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + U" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
+    </tr>
     <tr>
       <td id="undo">Undo</td>
       <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+Z.png' | url }}">A very useful option to reverse your last action. The opposite of <a href="#redo">redo</a>. Keyboard shortcut: <strong>Ctrl + Z</strong></td>
@@ -831,6 +908,18 @@ active: glossary
     <td id="widow">Widow</td>
       <td><p>The last line of a paragraph that appears alone at the top of a new page detached from the rest of the paragraph on the page before. The opposite of this is an <a href="#orphan">orphan</a>. Word prevents these by default but you can disable <a href="/word/paragraph-options/#widow-orphan-control">widow/orphan control</a> in the <strong>Line and Pages breaks</strong> tab in <strong>Paragraph Options</strong></p>
       <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Widow.png' | url }}"  alt="Widow line in Word" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p></td>
+    </tr>
+    <tr>
+      <td id="wildcard">Wildcard</td>
+      <td>
+        <p>Special pattern characters used in the <a href="#find">Find</a> and <a href="#find-and-replace">Find and replace</a> tools that let you build flexible search patterns, for example:</p>
+        <ul>
+          <li><strong>*</strong> — matches any string of characters</li>
+          <li><strong>?</strong> — matches any single character</li>
+        </ul>
+        <p>Wildcards can be useful for tasks like <a href="/word/fixing-irregular-spacing/">fixing irregular spacing</a>.</p>
+        <p><u>Note</u>: Enabling wildcards disables some other search options that would conflict with pattern matching.</p>
+      </td>
     </tr>
     <tr>
       <td id="word-count">Word count</td>
@@ -868,6 +957,13 @@ active: glossary
 <div id="glossary-templates" hidden>
   <template id="tooltip-glossary">
     <table>
+      <tr>
+        <td id="accept-reject-changes">Accept / Reject changes</td>
+        <td>
+          <p>Once edits have been made with <a href="#track-changes">Track Changes</a> turned on, each change can be accepted (kept) or rejected (discarded). In both cases the Track Changes formatting disappears. Accepted changes become part of the document content, while rejected changes revert to their previous form.</p>
+          <p>Changes can be handled individually one by one, or all at once using <strong>Accept All</strong> or <strong>Reject All</strong>. Accept and Reject controls are found on the <strong>Review</strong> tab of the <a href="#ribbon">ribbon</a>.</p>
+        </td>
+      </tr>
       <tr>
         <td id="adjustment-handles" aria-label="Adjustment handles: yellow dot used to reshape images in Word">Adjustment handles</td>
         <td><p>For certain images and graphic visuals when selected a selection frame appears around it including a yellow dot called an adjustment handle. These let you adjust the inner or outer dimensions of that image/graphic. Not to be confused with <a href="#sizing-handles">sizing handles</a>, for more information and examples see here: <a href="/word/altering-images-and-objects/">Altering images and objects</a></p>
@@ -915,6 +1011,21 @@ active: glossary
         <td id="BCC">Bcc (Blind Carbon Copy)</td>
         <td><p>In emails, Bcc (Blind Carbon Copy) allows you to include someone as a secondary recipient without other recipients seeing. In Outlook, enter the address in the <strong>Bcc</strong> field below the <a href="#CC"><strong>Cc</strong></a> field when composing or replying to an email. To turn on Bcc field got to <strong>Options</strong>.</p>
         <p><img class="thumbnail border" src="{{ '/assets/images/glossary/BCC.png' | url }}" alt="Cursor keys" style="display: block; max-width:430px; width:100%; height:auto; vertical-align:middle"></p></td>
+      </tr>
+      <tr>
+        <td id="bold">Bold</td>
+        <td>
+          <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords or important content. Bold thickens the selected characters <strong>to make them stand out like this</strong> from surrounding text. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications. Keyboard shortcut: <strong>Ctrl + B</strong></p>
+          <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+B.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + B" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+        </td>
+      </tr>
+      <tr>
+        <td id="browser-window">File dialog / Browser window</td>
+        <td>
+          <p>When opening or <a href="#save">saving</a> a file from an <a href="#application">application</a> in Windows, a file dialog window appears (also known as a browser window, which is what we'll call them here). Browser windows allow you to navigate to a file location to open, or choose where to save a file. They feature bookmarked shortcuts on the left and relevant options at the bottom.</p>
+          <p><img src="{{ '/assets/images/glossary/Browser window open.png' | url }}" alt="File dialog open window in Windows" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+          <p><img src="{{ '/assets/images/glossary/Browser window save as.png' | url }}" alt="File dialog save as window in Windows" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
+        </td>
       </tr>
       <tr>
         <td id="bullet-list">Bullet list / Bullets</td>
@@ -965,6 +1076,15 @@ active: glossary
       <tr>
         <td id="column-boundary-marker">Column boundary marker</td>
         <td>An <a href="#indent">indent</a> marker found on the horizontal <a href="#ruler">ruler</a> that controls the column border of a multi-column table. See examples in this article: <a href="/word/indents">Indents</a></td>
+      </tr>
+      <tr>
+        <td id="comments">Comments</td>
+        <td>
+          <p>An editing tool that adds annotations alongside a Word document or PowerPoint presentation, separate from the document content itself. Useful for brainstorming, collaborating, reviewing, and proofreading.</p>
+          <p>The Comments tool is found on the <strong>Review</strong> tab of the <a href="#ribbon">ribbon</a>.</p>
+          <p>Not to be confused with Word's <a href="#track-changes">Track Changes</a>, which records edits made directly to content rather than annotations added alongside it.</p>
+          <p>Also not to be confused with PowerPoint's Notes, which are presenter-facing notes shown per slide during a presentation. Comments are visible while editing but not during a presentation.</p>
+        </td>
       </tr>
       <tr>
         <td id="compressed-file">Zip file / Compressed file</td>
@@ -1024,7 +1144,13 @@ active: glossary
       <tr>
         <td id="filename">Filename</td>
         <td>The title given to a file. You decide the flename when <a href="#save">saving</a> a file. Filenames appear alongside a file icon. When viewing files in the details view of a window the filename are shown in a <strong>Name</strong> column.</td>
+      </tr>
       <tr>
+        <td id="file-explorer">File Explorer</td>
+        <td>
+          <p>The built-in file management tool in Windows. File Explorer lets you browse, organise, and manage files and folders on your computer. You can copy, move, rename, delete, and more via the <a href="#right-click-menu">right-click menu</a>. The view can be changed to different icon sizes and layouts, including <strong>Details</strong> view which shows file information such as <a href="#file-size">file size</a>, <a href="#file-type">file type</a>, and date modified.</p>
+        </td>
+      </tr>
       <tr>
         <td id="filename-extension">Filename extension</td>
         <td>A suffix at the end of the filename after a full stop/period which indicates a file's file type. E.g. a Word document will have the filename extension <strong>.docx</strong> while a Excel workbook will have <strong>.xlsx</strong>. 
@@ -1049,7 +1175,7 @@ active: glossary
         </td>
       </tr>
       <tr>
-        <td id="filetype">File type</td>
+        <td id="file-type">File type</td>
         <td>The format a file is <a href="#save">saved</a> in, such as a document, image or video. When viewing files in the details view of a window the file types are shown in a <strong>Type</strong> column. The file type is also indicated by the <a href="#filename-extension">Filename extension</a>.</td>
       </tr>
       <tr>
@@ -1217,6 +1343,13 @@ active: glossary
         <td>When text is selected it will be highlighted with a grey background to show what you have selected. Note: Another kind of highlight exists when formatting text which changes the background colour of text, see <a href="#highlight formatting">Highlight (formatting)</a>.</td>
       </tr>
       <tr>
+        <td id="hyperlink">Hyperlink</td>
+        <td>
+          <p>Hyperlinks (commonly called 'links') let you navigate to a webpage, or a document or folder location on a computer or shared server. They are typically displayed <a href="#underline">underlined</a> and in a distinct colour. On web browsers the mouse <a href="#cursor">cursor</a> usually changes when hovering over one. In Microsoft Office applications hold <strong>Ctrl and click</strong> to follow a link. To insert a hyperlink use <strong>Ctrl + K</strong>.</p>
+          <p><img src="{{ '/assets/images/glossary/Hyperlink in word.png' | url }}" alt="Hyperlink in Microsoft Word with Ctrl and click tooltip" style="display: block; max-width:293px; width:100%; height:auto; vertical-align:middle"></p>
+        </td>
+      </tr>
+      <tr>
         <td id="hyphenation">Hyphenation</td>
         <td>Hyphenation automatically breaks long words at the end of lines with a hyphen, reducing ragged line endings particularly in justified text. In Microsoft Word, hyphenation is disabled by default, however there are hyphenation options which are explored in the <a href="/word/pages-and-views#hyphenation-int">Pages and Views</a> article.</td>
       </tr>
@@ -1239,6 +1372,13 @@ active: glossary
               <img src="/assets/images/glossary/Insertion point example 1.gif" style="display: block; max-width:150px; width:100%; height:auto; vertical-align:middle">
               <img src="/assets/images/glossary/Insertion point example 2.gif" style="display: block; max-width:150px; width:100%; height:auto; vertical-align:middle">
           </div>
+        </td>
+      </tr>
+      <tr>
+        <td id="italic">Italic</td>
+        <td>
+          <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords, titles, or technical terms. Italics slant selected text slightly to the right <em>like this</em> to create a subtle emphasis against surrounding text. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications. Keyboard shortcut: <strong>Ctrl + I</strong></p>
+          <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+I.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + I" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
         </td>
       </tr>
       <tr>
@@ -1432,7 +1572,10 @@ active: glossary
       </tr>
       <tr>
         <td id="right-click-menu">Right click / context menu</td>
-        <td>A menu that appears  in Windows or a Microsoft Office applicationwhen you right click with a mouse, mousepad, or dedicated keyboard key. It is called a context menu because its contents change depending on what you right click on. For example in Microsoft Word, right clicking a word gives different options to right clicking an image. It's typically a quicker way to give a command than navigating through the ribbon or a top menu.</td>
+        <td>
+        <p>A menu appears in Windows or a Microsoft Office application when you right click with a mouse, mousepad, or dedicated keyboard key. It is called a context menu because its contents change depending on what you right click on.</p>
+        <p>For example in Microsoft Word, right clicking a word gives different options to right clicking an image. It's typically a quicker way to give a command than navigating through the ribbon or a top menu.</p>
+        </td>
       </tr>
       <tr>
         <td id="right-indent">Right indent</td>
@@ -1452,7 +1595,7 @@ active: glossary
       </tr> 
       <tr>
         <td id="save">Save</td>
-        <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}">Saving a file means storing the file's content in its current state onto your computer, cloud drive, or external device. You choose what it's called (the <a href="#filename">filename</a>) and where it's stored, allowing you to access it later. You also decide what format the file is saved as (the <a href="#filetype">file type</a>); this is indicated by the <a href="#filename-extension">filename extension</a>. It's good practice to save frequently to avoid losing work due to crashes or power outages. Keyboard shortcut: <strong>Ctrl + S</strong>
+        <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}">Saving a file means storing the file's content in its current state onto your computer, cloud drive, or external device. In a <a href="browser-window">browser window</a> you choose what it's called (the <a href="#filename">filename</a>) and where it's stored, allowing you to access it later. You also decide what format the file is saved as (the <a href="#filetype">file type</a>); this is indicated by the <a href="#filename-extension">filename extension</a>. It's good practice to save frequently to avoid losing work due to crashes or power outages. Keyboard shortcut: <strong>Ctrl + S</strong>
         </td>
       </tr>
       <tr>
@@ -1484,9 +1627,16 @@ active: glossary
         <p><img src="{{ '/assets/images/word/Images/Sizing handles.png' | url }}" alt="Sizing handles" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p></td>
       </tr>  
       <tr>
-      <td id="smartart">SmartArt</td>
-      <td>SmartArt graphics are diagrammatic visuals with editable text, available in Microsoft Office applications via <strong>Insert > SmartArt</strong>. They come in a range of types including lists, processes, cycles, hierarchies, relationships, matrices, pyramids and pictures, and are useful for illustrating processes and structures in reports, presentations or guides. SmartArt graphics can be edited and styled using the <strong>SmartArt Design</strong> and <strong>Format</strong> tabs that appear on the <a href="#ribbon">ribbon</a> when a SmartArt graphic is selected.</td>
-    </tr> 
+        <td id="smartart">SmartArt</td>
+        <td>SmartArt graphics are diagrammatic visuals with editable text, available in Microsoft Office applications via <strong>Insert > SmartArt</strong>. They come in a range of types including lists, processes, cycles, hierarchies, relationships, matrices, pyramids and pictures, and are useful for illustrating processes and structures in reports, presentations or guides. SmartArt graphics can be edited and styled using the <strong>SmartArt Design</strong> and <strong>Format</strong> tabs that appear on the <a href="#ribbon">ribbon</a> when a SmartArt graphic is selected.</td>
+      </tr>
+      <tr>
+        <td id="snap">Snap</td>
+        <td>
+          <p>A built-in Windows feature that lets you automatically resize and arrange multiple <a href="#application">application</a> windows on your screen. It's an easier way to view windows side by side or in multi-window grids without manually resizing them. Drag a window to the edge or corner of the screen to snap it into position, or use <strong>Windows + Left/Right arrow</strong> keys.</p>
+          <p>Some panels within Microsoft Office applications, such as the Navigation Pane in Word, can also be docked to the left or right side of the app window in a similar way.</p>
+        </td>
+      </tr>
       <tr>
         <td id="soft-return">Soft return</td>
         <td>When typing pressing <strong>Shift + Enter</strong> will create a soft return that starts a new line which is still connected to the same paragraph before known as a line break. In lists, a soft return will create a new line for the existing bullet/list number, see this article for examples: <a href="/word/lists-soft-hard-returns/">Lists: Soft and hard returns</a>. Another type of return is a <a href="#hard-return">hard return</a>.</td>
@@ -1502,6 +1652,13 @@ active: glossary
       <tr>
         <td id="status-bar">Status bar</td>
         <td>The bar at the bottom of the screen showing details about what you are editing, language setting, accessibility, view options and the zoom tool. E.g. In Microsoft Word the status bar will show the current document’s page number, total pages and <a href="#word-count">word count</a>, as well as language settings and <a href="#zoom">zoom</a> controls.</td>
+      </tr>
+      <tr>
+        <td id="strikethrough">Strikethrough</td>
+        <td>
+          <p>A character-level text <a href="#formatting">formatting</a> tool used to convey that text is no longer relevant or is proposed for removal, while keeping it visible to the reader. <s>It looks like this</s>. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications.</p>
+          <p><u>Note</u>: In Microsoft Word, <a href="#track-changes">Track Changes</a> also uses strikethrough to mark deleted text — this is automatic behaviour rather than a manually applied formatting tool.</p>
+        </td>
       </tr>
       <tr>
         <td id="style">Style</td>
@@ -1558,7 +1715,10 @@ active: glossary
       </tr>
       <tr>
         <td id="track-changes">Track Changes</td>
-        <td>This is a tool that when switched on will record any changes you or any other user makes in a document. This is useful for editing and version control. The changes made are then approved or rejected by a reviewer.</td>
+        <td>
+          <p>A collaboration tool that records any changes made by you or other users in a Word document or PowerPoint presentation. Changes are then reviewed and either accepted or rejected. It is useful for multi-stage editing processes and version control.</p>
+          <p>Track Changes is found on the <strong>Review</strong> tab of the <a href="#ribbon">ribbon</a>. Not to be confused with <a href="#comments">Comments</a>, which are annotations added alongside the document rather than edits to it.</p>
+        </td>
       </tr>
       <tr>
         <td id="typo">Typo (Typographical error)</td>
@@ -1590,6 +1750,18 @@ active: glossary
       <td id="widow">Widow</td>
         <td><p>The last line of a paragraph that appears alone at the top of a new page detached from the rest of the paragraph on the page before. The opposite of this is an <a href="#orphan">orphan</a>. Word prevents these by default but you can disable <a href="/word/paragraph-options/#widow-orphan-control">widow/orphan control</a> in the <strong>Line and Pages breaks</strong> tab in <strong>Paragraph Options</strong></p>
         <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Widow.png' | url }}"  alt="Widow line in Word" style="display: block; max-width:600px; width:100%; height:auto; vertical-align:middle"></p></td>
+      </tr>
+      <tr>
+        <td id="wildcard">Wildcard</td>
+        <td>
+          <p>Special pattern characters used in the <a href="#find">Find</a> and <a href="#find-and-replace">Find and replace</a> tools that let you build flexible search patterns, for example:</p>
+          <ul>
+            <li><strong>*</strong> — matches any string of characters</li>
+            <li><strong>?</strong> — matches any single character</li>
+          </ul>
+          <p>Wildcards can be useful for tasks like <a href="/word/fixing-irregular-spacing/">fixing irregular spacing</a>.</p>
+          <p><u>Note</u>: Enabling wildcards disables some other search options that would conflict with pattern matching.</p>
+        </td>
       </tr>
       <tr>
         <td id="word-count">Word count</td>
