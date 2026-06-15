@@ -82,7 +82,7 @@ intermediate_only: true
 quiz: fixing-irregular-spacing-quiz
 ---
 <h1>Fixing irregular spacing</h1>
-
+<a href="#exercise" class="exercise-badge jump">Includes downloadable exercise &#8595;</a>
 <a href="#ctrl-quiz" class="quiz-badge jump">Test yourself! Go to the Quiz &#8595;</a>
 
 <div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
@@ -93,7 +93,6 @@ quiz: fixing-irregular-spacing-quiz
   <li><a href="#irregular-line-spacing">Irregular line spacing in text</a></li>
   <li><a href="#irregular-spacing-words">Irregular spacing between words</a></li>
   <li><a href="#remove-multiple-blank-lines">Remove multiple blank lines</a></li>
-  <li><a href="#remove-duplicate-punctuation">Remove duplicate punctuation</a></li>
   <li><a href="#remove-space-before-punctuation">Remove spaces before punctuation</a></li>
   <li><a href="#hyphens-en-dashes-em-dashes">Hyphens, en dashes and em dashes</a></li>
   <li><a href="#replace-unspaced-hyphens-with-spaced-hyphens">Replacing unspaced hyphens with spaced hyphens</a></li>
@@ -289,3 +288,14 @@ quiz: fixing-irregular-spacing-quiz
 <div class="article-share">
 {% include "share-menu.liquid" %}
 </div>
+
+<section class="exercise-hero">
+  <h2 id="exercise">Try it yourself</h2>
+  <p>Download the examples in this article and follow along with the guide.</p>
+  <a class="download-btn" href="/assets/downloads/word/Irregular line spacing/Irregular line spacing exercises.zip" download>
+    Download Exercise File
+  </a>
+  <br>
+  <p>This downloads a zip file. Not sure how to open one? <a href="/content-control/unzipping-zipped-files?difficulty=beginner" target="_blank">Look here</a></p>
+  <br>
+</section>
