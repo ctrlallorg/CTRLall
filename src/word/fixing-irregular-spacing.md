@@ -85,7 +85,7 @@ quiz: fixing-irregular-spacing-quiz
 <a href="#exercise" class="exercise-badge jump">Includes downloadable exercise &#8595;</a>
 <a href="#ctrl-quiz" class="quiz-badge jump">Test yourself! Go to the Quiz &#8595;</a>
 
-<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
+<p><div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div></p>
 
 <section class="section-light">
 <p>Text in your document a disaster? These fixes can get you out of trouble:</p>
@@ -283,12 +283,6 @@ quiz: fixing-irregular-spacing-quiz
 
 </section>
 
-<div id="ctrl-quiz"></div>
-
-<div class="article-share">
-{% include "share-menu.liquid" %}
-</div>
-
 <section class="exercise-hero">
   <h2 id="exercise">Try it yourself</h2>
   <p>Download the examples in this article and follow along with the guide.</p>
@@ -299,3 +293,10 @@ quiz: fixing-irregular-spacing-quiz
   <p>This downloads a zip file. Not sure how to open one? <a href="/content-control/unzipping-zipped-files?difficulty=beginner" target="_blank">Look here</a></p>
   <br>
 </section>
+
+<div id="ctrl-quiz"></div>
+
+<div class="article-share">
+{% include "share-menu.liquid" %}
+</div>
+
