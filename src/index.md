@@ -292,6 +292,7 @@ active: index
     <h3>Exercises</h3>
     <ul>
       <li><a href="/word/find">Find</a></li>
+      <li><a href="/word/fixing-irregular-spacing">Fixing irregular spacing</a></li>
       <li><a href="/word/tables-convert-text-to-tables">Convert text to tables</a></li>
     </ul>
   </div>
@@ -349,8 +350,9 @@ active: index
 <section class="section-light">
   <h2>What's new?</h2>
   <ul>
+    <li>16 Jun 2026 - New exercises - <a href="/word/find#exercise">Find & Find and replace exercises</a> | <a href="/word/fixing-irregular-spacing#exercise">Fixing irregular spacing exercises</a></li>
     <li>26 May 2026 - The <a href="/glossary/">Glossary</a> is now searchable - the page now has its own search bar  you can use to query terms.</li>
-    <li>12 May 2026 - More quizzes added - <a href="/word/altering-images-and-objects#ctrl-quiz">Altering images and objects</a> | <a href="/word/tables#ctrl-quiz">Tables</a></li>
+    <li>12 May 2026 - More quizzes added - <a href="/word/altering-images-and-objects#ctrl-quiz">Altering images and objects quiz</a> | <a href="/word/tables#ctrl-quiz">Tables quiz</a></li>
     <li>09 May 2026 - More quizzes added - <a href="/word/lists#ctrl-quiz">Lists quiz</a> | <a href="/word/styles#ctrl-quiz">Styles quiz</a> | <a href="/word/fixing-irregular-spacing#ctrl-quiz">Fixing irregular spacing quiz</a></li>
     <li>04 May 2026 - 3 new quizzes added - <a href="/word/documents-vs-templates#ctrl-quiz">Word Documents vs Templates quiz</a> | <a href="/word/saving-and-save-as#ctrl-quiz">Saving and Save As quiz</a> | <a href="/word/formatting-text#ctrl-quiz">Formatting text quiz</a></li>
     <li>02 May 2026 - <a href="/content-control/keyboard-shortcuts-quiz/">Keyboard shortcuts quiz</a> added - test your knowledge.</li>

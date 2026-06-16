@@ -3,7 +3,7 @@
  * Plain vanilla JavaScript. No frameworks, no build step.
  *
  * HOW TO USE ON A PAGE:
- *   1. Add `quiz: true` to the page's frontmatter
+ *   1. Add `quiz: keyboard-shortcuts-quiz` to the page's frontmatter
  *   2. Add <div id="ctrl-quiz"></div> in the page body
  *
  * DIFFICULTY LEVELS:
@@ -17,24 +17,24 @@
 const QUESTIONS = [
 
   // ── Windows ── Beginner ──────────────────────────────────────────────────
-  { shortcut: "Windows + D",               answer: "Show Desktop",              category: "Windows", difficulty: "Beginner",     hint: "Minimise all windows at once" },
-  { shortcut: "Windows + L",               answer: "Lock Screen",               category: "Windows", difficulty: "Beginner",     hint: "Stop others using your PC" },
-  { shortcut: "Windows + Up Arrow",         answer: "Maximise Window",           category: "Windows", difficulty: "Beginner",     hint: "Make the window fill the screen" },
-  { shortcut: "Windows + Left/Right Arrow", answer: "Snap Window",              category: "Windows", difficulty: "Beginner",     hint: "Pin a window to one side" },
-  { shortcut: "Windows + V",               answer: "Open Clipboard History",    category: "Windows", difficulty: "Beginner",     hint: "See everything you've copied" },
-  { shortcut: "Windows + Shift + M",       answer: "Restore All Minimised Windows", category: "Windows", difficulty: "Beginner", hint: "Bring all windows back" },
-  { shortcut: "Ctrl + W",                  answer: "Close Window / Tab",        category: "Windows", difficulty: "Beginner",     hint: "Close what's in front of you" },
-  { shortcut: "Alt + F4",                  answer: "Close Current App",         category: "Windows", difficulty: "Beginner",     hint: "Shut down the whole application" },
-  { shortcut: "Ctrl + T",                  answer: "New Tab",                   category: "Windows", difficulty: "Beginner",     hint: "Open a fresh tab" },
-  { shortcut: "Ctrl + Shift + T",          answer: "Reopen Last Closed Tab",    category: "Windows", difficulty: "Beginner",     hint: "Bring back that tab you just closed" },
+  { shortcut: "Windows + D",               answer: "Show Desktop",                  category: "Windows", difficulty: "Beginner",     hint: "Minimise all windows at once" },
+  { shortcut: "Windows + L",               answer: "Lock Screen",                   category: "Windows", difficulty: "Beginner",     hint: "Stop others using your PC" },
+  { shortcut: "Windows + Up Arrow",         answer: "Maximise Window",               category: "Windows", difficulty: "Beginner",     hint: "Make the window fill the screen" },
+  { shortcut: "Windows + Left/Right Arrow", answer: "Snap Window",                  category: "Windows", difficulty: "Beginner",     hint: "Pin a window to one side" },
+  { shortcut: "Windows + V",               answer: "Open Clipboard History",        category: "Windows", difficulty: "Beginner",     hint: "See everything you've copied" },
+  { shortcut: "Windows + Shift + M",       answer: "Restore All Minimised Windows", category: "Windows", difficulty: "Beginner",     hint: "Bring all windows back" },
+  { shortcut: "Ctrl + W",                  answer: "Close Window / Tab",            category: "Windows", difficulty: "Beginner",     hint: "Close what's in front of you" },
+  { shortcut: "Alt + F4",                  answer: "Close Current App",             category: "Windows", difficulty: "Beginner",     hint: "Shut down the whole application" },
+  { shortcut: "Ctrl + T",                  answer: "New Tab",                       category: "Windows", difficulty: "Beginner",     hint: "Open a fresh tab" },
+  { shortcut: "Ctrl + Shift + T",          answer: "Reopen Last Closed Tab",        category: "Windows", difficulty: "Beginner",     hint: "Bring back that tab you just closed" },
 
   // ── Windows ── Intermediate ──────────────────────────────────────────────
-  { shortcut: "Windows + Shift + S",            answer: "Take a Screenshot",         category: "Windows", difficulty: "Intermediate", hint: "Capture part of your screen" },
-  { shortcut: "Windows + U",                    answer: "Open Accessibility Settings", category: "Windows", difficulty: "Intermediate", hint: "Adjust display and input options" },
-  { shortcut: "Ctrl + Shift + Esc",             answer: "Open Task Manager",         category: "Windows", difficulty: "Intermediate", hint: "See what's running on your PC" },
-  { shortcut: "Ctrl + Shift + N",               answer: "Create New Folder",         category: "Windows", difficulty: "Intermediate", hint: "Add a folder in File Explorer" },
-  { shortcut: "Windows + Ctrl + D",             answer: "Create New Virtual Desktop", category: "Windows", difficulty: "Intermediate", hint: "Add another workspace" },
-  { shortcut: "Windows + Ctrl + Left/Right",    answer: "Switch Virtual Desktop",    category: "Windows", difficulty: "Intermediate", hint: "Move between your workspaces" },
+  { shortcut: "Windows + Shift + S",         answer: "Take a Screenshot",              category: "Windows", difficulty: "Intermediate", hint: "Capture part of your screen" },
+  { shortcut: "Windows + U",                 answer: "Open Accessibility Settings",    category: "Windows", difficulty: "Intermediate", hint: "Adjust display and input options" },
+  { shortcut: "Ctrl + Shift + Esc",          answer: "Open Task Manager",              category: "Windows", difficulty: "Intermediate", hint: "See what's running on your PC" },
+  { shortcut: "Ctrl + Shift + N",            answer: "Create New Folder",              category: "Windows", difficulty: "Intermediate", hint: "Add a folder in File Explorer" },
+  { shortcut: "Windows + Ctrl + D",          answer: "Create New Virtual Desktop",     category: "Windows", difficulty: "Intermediate", hint: "Add another workspace" },
+  { shortcut: "Windows + Ctrl + Left/Right", answer: "Switch Virtual Desktop",         category: "Windows", difficulty: "Intermediate", hint: "Move between your workspaces" },
 
   // ── Word ── Beginner ─────────────────────────────────────────────────────
   { shortcut: "Ctrl + S",  answer: "Save",           category: "Word", difficulty: "Beginner", hint: "Store your work" },
@@ -90,18 +90,18 @@ const QUESTIONS = [
   { shortcut: "Ctrl + - (minus)", answer: "Zoom Out",             category: "Excel", difficulty: "Intermediate", hint: "Make content appear smaller" },
 
   // ── PowerPoint ── Beginner ───────────────────────────────────────────────
-  { shortcut: "Ctrl + S",  answer: "Save",             category: "PowerPoint", difficulty: "Beginner", hint: "Store your presentation" },
-  { shortcut: "Ctrl + N",  answer: "New Presentation", category: "PowerPoint", difficulty: "Beginner", hint: "Start from scratch" },
-  { shortcut: "Ctrl + O",  answer: "Open File",        category: "PowerPoint", difficulty: "Beginner", hint: "Load an existing presentation" },
+  { shortcut: "Ctrl + S",  answer: "Save",               category: "PowerPoint", difficulty: "Beginner", hint: "Store your presentation" },
+  { shortcut: "Ctrl + N",  answer: "New Presentation",   category: "PowerPoint", difficulty: "Beginner", hint: "Start from scratch" },
+  { shortcut: "Ctrl + O",  answer: "Open File",          category: "PowerPoint", difficulty: "Beginner", hint: "Load an existing presentation" },
   { shortcut: "Ctrl + W",  answer: "Close Presentation", category: "PowerPoint", difficulty: "Beginner", hint: "Close this file but keep PowerPoint open" },
-  { shortcut: "Ctrl + P",  answer: "Print",            category: "PowerPoint", difficulty: "Beginner", hint: "Send to printer" },
-  { shortcut: "Ctrl + Z",  answer: "Undo",             category: "PowerPoint", difficulty: "Beginner", hint: "Go back one step" },
-  { shortcut: "Ctrl + Y",  answer: "Redo",             category: "PowerPoint", difficulty: "Beginner", hint: "Go forward one step" },
-  { shortcut: "Ctrl + X",  answer: "Cut",              category: "PowerPoint", difficulty: "Beginner", hint: "Remove to clipboard" },
-  { shortcut: "Ctrl + C",  answer: "Copy",             category: "PowerPoint", difficulty: "Beginner", hint: "Duplicate to clipboard" },
-  { shortcut: "Ctrl + V",  answer: "Paste",            category: "PowerPoint", difficulty: "Beginner", hint: "Place from clipboard" },
-  { shortcut: "Ctrl + M",  answer: "New Slide",        category: "PowerPoint", difficulty: "Beginner", hint: "Add another slide" },
-  { shortcut: "F5",         answer: "Start Slideshow", category: "PowerPoint", difficulty: "Beginner", hint: "Begin the presentation" },
+  { shortcut: "Ctrl + P",  answer: "Print",              category: "PowerPoint", difficulty: "Beginner", hint: "Send to printer" },
+  { shortcut: "Ctrl + Z",  answer: "Undo",               category: "PowerPoint", difficulty: "Beginner", hint: "Go back one step" },
+  { shortcut: "Ctrl + Y",  answer: "Redo",               category: "PowerPoint", difficulty: "Beginner", hint: "Go forward one step" },
+  { shortcut: "Ctrl + X",  answer: "Cut",                category: "PowerPoint", difficulty: "Beginner", hint: "Remove to clipboard" },
+  { shortcut: "Ctrl + C",  answer: "Copy",               category: "PowerPoint", difficulty: "Beginner", hint: "Duplicate to clipboard" },
+  { shortcut: "Ctrl + V",  answer: "Paste",              category: "PowerPoint", difficulty: "Beginner", hint: "Place from clipboard" },
+  { shortcut: "Ctrl + M",  answer: "New Slide",          category: "PowerPoint", difficulty: "Beginner", hint: "Add another slide" },
+  { shortcut: "F5",         answer: "Start Slideshow",   category: "PowerPoint", difficulty: "Beginner", hint: "Begin the presentation" },
 
   // ── PowerPoint ── Intermediate ───────────────────────────────────────────
   { shortcut: "Shift + F5", answer: "Slideshow from Current Slide", category: "PowerPoint", difficulty: "Intermediate", hint: "Present from this slide onwards" },
@@ -110,6 +110,18 @@ const QUESTIONS = [
   { shortcut: "Ctrl + B",   answer: "Bold",                         category: "PowerPoint", difficulty: "Intermediate", hint: "Make text heavier" },
   { shortcut: "Ctrl + I",   answer: "Italic",                       category: "PowerPoint", difficulty: "Intermediate", hint: "Slant the text" },
   { shortcut: "Ctrl + U",   answer: "Underline",                    category: "PowerPoint", difficulty: "Intermediate", hint: "Add a line below text" },
+
+  // ── Outlook ── Beginner ──────────────────────────────────────────────────
+  { shortcut: "Ctrl + N", answer: "New Email",       category: "Outlook", difficulty: "Beginner", hint: "Start a fresh email" },
+  { shortcut: "Ctrl + Q", answer: "Mark as Read",    category: "Outlook", difficulty: "Beginner", hint: "Remove the unread indicator" },
+  { shortcut: "Ctrl + U", answer: "Mark as Unread",  category: "Outlook", difficulty: "Beginner", hint: "Make it look like you haven't opened it" },
+
+  // ── Outlook ── Intermediate ──────────────────────────────────────────────
+  { shortcut: "Ctrl + Alt + J",    answer: "Mark as Junk",          category: "Outlook", difficulty: "Intermediate", hint: "Send it to the junk folder" },
+  { shortcut: "Ctrl + Shift + V",  answer: "Move Email to Folder",  category: "Outlook", difficulty: "Intermediate", hint: "File it away without dragging" },
+  { shortcut: "Ctrl + Shift + G",  answer: "Set Flag / Reminder",   category: "Outlook", difficulty: "Intermediate", hint: "Flag the email for follow-up" },
+  { shortcut: "Ctrl + Shift + Delete", answer: "Empty Deleted Items", category: "Outlook", difficulty: "Intermediate", hint: "Permanently clear the bin" },
+  { shortcut: "?",                 answer: "Show Full Shortcut List", category: "Outlook", difficulty: "Intermediate", hint: "Press this key while in the mailbox" },
 
 ];
 
@@ -123,7 +135,7 @@ function shuffle(array) {
 }
 
 function buildOptions(correctQuestion, pool) {
-  const source   = pool.length >= 4 ? pool : QUESTIONS;
+  const source    = pool.length >= 4 ? pool : QUESTIONS;
   const wrongOnes = source.filter(q => q.answer !== correctQuestion.answer);
   const threeWrong = shuffle(wrongOnes).slice(0, 3);
   return shuffle([correctQuestion, ...threeWrong]);
@@ -131,7 +143,7 @@ function buildOptions(correctQuestion, pool) {
 
 function buildQuestionSet(category, difficulty) {
   let pool = QUESTIONS;
-  if (category  !== "All") pool = pool.filter(q => q.category   === category);
+  if (category   !== "All") pool = pool.filter(q => q.category   === category);
   if (difficulty !== "All") pool = pool.filter(q => q.difficulty === difficulty);
   const length = Math.min(QUIZ_LENGTH, pool.length);
   return shuffle(pool).slice(0, length).map(q => ({
@@ -142,7 +154,7 @@ function buildQuestionSet(category, difficulty) {
 
 function previewCount(category, difficulty) {
   let pool = QUESTIONS;
-  if (category  !== "All") pool = pool.filter(q => q.category   === category);
+  if (category   !== "All") pool = pool.filter(q => q.category   === category);
   if (difficulty !== "All") pool = pool.filter(q => q.difficulty === difficulty);
   return Math.min(QUIZ_LENGTH, pool.length);
 }
@@ -183,7 +195,6 @@ function renderStart(showResults) {
       </div>
     `).join("");
 
-    // Share URLs — pre-written message for each platform
     const quizUrl    = "https://ctrlall.org/content-control/keyboard-shortcuts-quiz/";
     const displayMsg = `I got ${pct}% on this keyboard shortcuts quiz — how many do you know?`;
     const shareText  = `${displayMsg} ${quizUrl}`;
@@ -230,7 +241,7 @@ function renderStart(showResults) {
             data-diff="${d}">${d}</button>
   `).join("");
 
-  const cats      = ["All", "Windows", "Word", "Excel", "PowerPoint"];
+  const cats       = ["All", "Windows", "Word", "Excel", "PowerPoint", "Outlook"];
   const catButtons = cats.map(cat => `
     <button class="caq-cat-btn ${cat === category ? "caq-cat-active" : ""}"
             data-cat="${cat}">${cat}</button>
@@ -405,11 +416,12 @@ function injectStyles() {
     .caq-cat-word       { background: #0078d4; }
     .caq-cat-excel      { background: #1E7145; }
     .caq-cat-powerpoint { background: #C43E1C; }
+    .caq-cat-outlook    { background: #0078D4; }
     .caq-cat-all        { background: #2c3e50; }
 
     .caq-diff-badge { font-size: 11px; padding: 3px 10px; border-radius: 20px; letter-spacing: 1px; }
     .caq-diff-badge--beginner     { background: #d4f4dd; color: #2d6a4f; }
-    .caq-diff-badge--intermediate { background: #e0e7ff; color: #2D1B69; }
+    .caq-diff-badge--intermediate { background: #e0e7ff; color: #2C3E50; }
 
     .caq-question-label { text-align: center; font-size: 13px; color: #9B8EC4; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 10px; }
     .caq-shortcut { text-align: center; background: #1A1035; color: #E8E0FF; font-family: 'Courier New', monospace; font-size: 22px; font-weight: 700; padding: 16px 24px; border-radius: 10px; letter-spacing: 2px; margin-bottom: 16px; box-shadow: 0 4px 0 #0D0820; }
@@ -450,21 +462,11 @@ function injectStyles() {
     .caq-review-row.caq-wrong .caq-review-label { color: #C43E1C; }
     .caq-review-row.caq-wrong s { color: #aaa; }
 
-    /* Share buttons */
     .caq-share-wrap { margin-bottom: 20px; }
     .caq-share-label { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #9B8EC4; margin-bottom: 8px; }
     .caq-share-text { font-size: 14px; color: #2c3e50; font-style: italic; margin-bottom: 12px; line-height: 1.4; }
     .caq-share-buttons { display: flex; flex-wrap: wrap; gap: 8px; }
-    .caq-share-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 40px;
-      height: 40px;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: opacity 0.15s, transform 0.1s;
-    }
+    .caq-share-btn { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 8px; text-decoration: none; transition: opacity 0.15s, transform 0.1s; }
     .caq-share-btn:hover { opacity: 0.85; transform: translateY(-2px); }
     .caq-share-logo { width: 22px; height: 22px; object-fit: contain; display: block; margin: 0; }
     .caq-share-envelope { font-size: 18px; color: #fff; line-height: 1; }
