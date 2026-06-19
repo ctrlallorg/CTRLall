@@ -134,7 +134,7 @@ active: word
   <p>Use <strong>Left</strong> and <strong>Right</strong> to choose how far from the left and right margins the paragraph should be indented. Here's an example of them in action:</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indents example.png' | url }}"  alt="Indents example in Word" style="max-width:760px; width:100%; height:auto; vertical-align:middle"></p>
 
-  <p>For more on indentation see the <a href="/word/Indents/">Indents</a> article and try out the interactive examples showing how to modify indents via <span class="glossary-hover" data-term="indent-markers">indent markers</span> on the horizontal <span class="glossary-hover" data-term="ruler">ruler</span>.</p>
+  <p>For more on indentation see the <a href="/word/indents/">Indents</a> article and try out the interactive examples showing how to modify indents via <span class="glossary-hover" data-term="indent-markers">indent markers</span> on the horizontal <span class="glossary-hover" data-term="ruler">ruler</span>.</p>
 
   <h4 id="line-spacing">Line spacing</h4>
   <p>This is one you'll keep coming back to once you know how to use it. The <strong>Line spacing</strong> drop down lets you choose the spacing between the lines of a paragraph. The default is set to <strong>Single</strong> line spacing. In some cases you might want the lines more spaced out in which case you can choose other option like <strong>1.5 lines</strong> or <strong>Double</strong>.</p>
@@ -226,7 +226,7 @@ active: word
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Outline level Collapsed by default checkbox.png' | url }}"  alt="Outline level Collapsed by default checkbox" style="max-width:400px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h3 id="indentation">Indentation</h3>
-  <p>Here you can alter the <span class="glossary-hover" data-term="indent">indentation</span> of the paragraph. For more on indentation see the <a href="/word/Indents/">Indents</a> article and try out the interactive examples showing how to modify indents via <span class="glossary-hover" data-term="indent-markers">indent markers</span> on the horizontal <span class="glossary-hover" data-term="ruler">ruler</span>.</p>
+  <p>Here you can alter the <span class="glossary-hover" data-term="indent">indentation</span> of the paragraph. For more on indentation see the <a href="/word/indents/">Indents</a> article and try out the interactive examples showing how to modify indents via <span class="glossary-hover" data-term="indent-markers">indent markers</span> on the horizontal <span class="glossary-hover" data-term="ruler">ruler</span>.</p>
 
   <h4>Left and Right</h4>
   <p>Literally applies indents on a paragraph from the left or from the right.</p>
@@ -240,7 +240,7 @@ active: word
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation Inside and Outside 2.png' | url }}"  alt="Indentation Inside and Outside on opposite facing pages in Word" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h4>Special / By</h4>
-  <p>Use the <strong>Special</strong> drop down menu if you specifically want to change the <span class="glossary-hover" data-term="first-line-indent">First line indent</span> or <span class="glossary-hover" data-term="hanging-indent">Hanging indent</span>. Once selected you can alter how much to indent by with the <strong>By</strong> field. More on these different indent types is explained with interactive examples here: <a href="/word/Indents/">Indents</a>.</p>
+  <p>Use the <strong>Special</strong> drop down menu if you specifically want to change the <span class="glossary-hover" data-term="first-line-indent">First line indent</span> or <span class="glossary-hover" data-term="hanging-indent">Hanging indent</span>. Once selected you can alter how much to indent by with the <strong>By</strong> field. More on these different indent types is explained with interactive examples here: <a href="/word/indents/">Indents</a>.</p>
   <p><img class="thumbnail border" src="{{ '/assets/images/word/Paragraph options/Indentation Special and By options.png' | url }}"  alt="Indentation Special and By options in Paragraph Options in Word" style="max-width:425px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h3 id="spacing">Spacing</h3>
