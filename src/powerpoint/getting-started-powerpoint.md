@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Microsoft PowerPoint – Interface, Slides and Versions – Ctrl All
 layout: layout.liquid
-permalink: /powerpoint/getting-started-PowerPoint/
+permalink: /powerpoint/getting-started-powerpoint/
 description: Beginner's guide to Microsoft PowerPoint. Covers how to open PowerPoint, create a new presentation, open existing files, the main interface including the ribbon, slides pane, slide canvas, Quick Access Toolbar and status bar, closing a presentation, and the differences between PowerPoint versions including Microsoft 365, PowerPoint 2021 and PowerPoint Online.
 asset_id: ctrlall-PowerPoint-getting-started-PowerPoint-v1
 date: 2025-11-15
