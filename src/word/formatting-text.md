@@ -105,7 +105,7 @@ quiz: formatting-text-quiz
   <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Format painter example.gif' | url }}"  alt="Example of format painter being used to style text" style="max-width:800px; width:100%; height:auto; vertical-align:middle"></p>
 
   <h2>Font tools</h2>
-  <p>The tools help format your text in various ways, take a look at the examples below.</p>
+  <p>Word gives you standard formatting tools for text on the <span class="glossary-hover" data-term="ribbon">ribbon</span> under <strong>Home > Font</strong> to help format your text in various ways. Take a look at the examples below.</p>
   <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="max-width:650px; width:100%; height:auto; vertical-align:"></p>
   <div class="tooltip-wrapper">
   <table>
@@ -115,26 +115,26 @@ quiz: formatting-text-quiz
       </colgroup>
     <thead>
       <tr>
-        <th>Formatting Type</th>
+        <th>Standard Font tools on the ribbon</th>
         <th>Example</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Bold</td>
-        <td><strong>Lorem ipsum dolor sit amet.</strong></td>
+        <td><strong>Bold</strong></td>
       </tr>
       <tr>
         <td>Italic</td>
-        <td><em>Lorem ipsum dolor sit amet.</em></td>
+        <td><em>Italic</em></td>
       </tr>
       <tr>
         <td>Underline</td>
-        <td><u>Lorem ipsum dolor sit amet.</u></td>
+        <td><u>Underline</u></td>
       </tr>
       <tr>
         <td>Strikethrough</td>
-        <td><s>Lorem ipsum dolor sit amet.</s></td>
+        <td><s>Strikethrough</s></td>
       </tr>
       <tr>
         <td>Font</td>
@@ -142,22 +142,22 @@ quiz: formatting-text-quiz
       </tr>
       <tr>
         <td>Font size</td>
-        <td style="font-size: 20px;">Lorem ipsum dolor sit amet.</td>
+        <td style="font-size: 20px;">Font size</td>
       </tr>
       <tr>
         <td>Font colour</td>
-        <td style="color: #0077cc;">Lorem ipsum dolor sit amet.</td>
+        <td style="color: #0077cc;">Font colour</td>
       </tr>
       <tr>
       <td>Highlight</td>
-      <td><span style="background-color: yellow;">Lorem ipsum dolor sit amet.</span></td>
+      <td><span style="background-color: yellow;">Highlight</span></td>
       </tr>
       <tr>
         <td>Change case</td>
         <td>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem Ipsum Dolor Sit Amet.</p>
-        <p>LOREM IPSUM DOLOR SIT AMET.</p>
+        <p>Change sentence case</p>
+        <p>Change Sentence Case</p>
+        <p>CHANGE SENTENCE CASE</p>
         </td>
       </tr>
       <tr>
@@ -343,7 +343,7 @@ quiz: formatting-text-quiz
 
   <h2>Font tools</h2>
   <p><img class="thumbnail" src="{{ '/assets/images/word/Formatting text/Home Font.png' | url }}"  alt="Home Font tools on ribbon in Word" style="max-width:650px; width:100%; height:auto; vertical-align:middle"></p>
-  <div class="table-wrapper">
+  <div class="tooltip-wrapper">
   <table>
   <colgroup>
         <col style="width: 20%;">
@@ -351,26 +351,26 @@ quiz: formatting-text-quiz
       </colgroup>
     <thead>
       <tr>
-        <th>Formatting Type</th>
+        <th>Standard Font tools on the ribbon</th>
         <th>Example</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Bold</td>
-        <td><strong>Lorem ipsum dolor sit amet.</strong></td>
+        <td><strong>Bold</strong></td>
       </tr>
       <tr>
         <td>Italic</td>
-        <td><em>Lorem ipsum dolor sit amet.</em></td>
+        <td><em>Italic</em></td>
       </tr>
       <tr>
         <td>Underline</td>
-        <td><u>Lorem ipsum dolor sit amet.</u></td>
+        <td><u>Underline</u></td>
       </tr>
       <tr>
         <td>Strikethrough</td>
-        <td><s>Lorem ipsum dolor sit amet.</s></td>
+        <td><s>Strikethrough</s></td>
       </tr>
       <tr>
         <td>Font</td>
@@ -378,22 +378,22 @@ quiz: formatting-text-quiz
       </tr>
       <tr>
         <td>Font size</td>
-        <td style="font-size: 20px;">Lorem ipsum dolor sit amet.</td>
+        <td style="font-size: 20px;">Font size</td>
       </tr>
       <tr>
         <td>Font colour</td>
-        <td style="color: #0077cc;">Lorem ipsum dolor sit amet.</td>
+        <td style="color: #0077cc;">Font colour</td>
       </tr>
       <tr>
       <td>Highlight</td>
-      <td><span style="background-color: yellow;">Lorem ipsum dolor sit amet.</span></td>
+      <td><span style="background-color: yellow;">Highlight</span></td>
       </tr>
       <tr>
         <td>Change case</td>
         <td>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem Ipsum Dolor Sit Amet.</p>
-        <p>LOREM IPSUM DOLOR SIT AMET.</p>
+        <p>Change sentence case</p>
+        <p>Change Sentence Case</p>
+        <p>CHANGE SENTENCE CASE</p>
         </td>
       </tr>
       <tr>
