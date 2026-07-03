@@ -184,7 +184,7 @@ active: index
     <h3>Troubleshooting</h3>
     <ul>
       <li><a href="/word/lists-fixing-number-lists">Fixing number lists</a></li>
-      <li><a href="/word/lists-soft-hard-returns">Soft & hard returns in lists</a></li>
+      <li><a href="/word/lists-hard-soft-returns">Soft & hard returns in lists</a></li>
       <li><a href="/word/tables-fixing-table-image-problems">Fixing table image problems</a></li>
       <li><a href="/word/tables-fixing-tables-extending-offscreen">Fixing tables extending offscreen</a></li>
       <li><a href="/word/tables-fixing-tables-over-pages">Fixing tables over pages</a></li>
@@ -246,7 +246,7 @@ active: index
     <ul>
       <li><a href="/word/lists">Lists</a></li>
       <li><a href="/word/lists-fixing-number-lists">Fixing number lists</a></li>
-      <li><a href="/word/lists-soft-hard-returns">Soft & hard returns in lists</a></li>
+      <li><a href="/word/lists-hard-soft-returns">Soft & hard returns in lists</a></li>
     </ul>
   </div>
 
@@ -350,6 +350,7 @@ active: index
 <section class="section-light">
   <h2>What's new?</h2>
   <ul>
+    <li>03 Jul 2026 - updated 'Where to now?' sections at the end of all articles.</li>
     <li>16 Jun 2026 - New exercises - <a href="/word/find#exercise">Find & Find and replace exercises</a> | <a href="/word/fixing-irregular-spacing#exercise">Fixing irregular spacing exercises</a></li>
     <li>26 May 2026 - The <a href="/glossary/">Glossary</a> is now searchable - the page now has its own search bar  you can use to query terms.</li>
     <li>12 May 2026 - More quizzes added - <a href="/word/altering-images-and-objects#ctrl-quiz">Altering images and objects quiz</a> | <a href="/word/tables#ctrl-quiz">Tables quiz</a></li>
