@@ -47,7 +47,7 @@ intermediate_only: true
 
 <h1>Line numbering</h1>
 
-<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>s
+<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
 
 <section class="section-light">
 

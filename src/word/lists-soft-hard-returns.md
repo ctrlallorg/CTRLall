@@ -1,8 +1,8 @@
 ---
-title: "Lists: Soft and Hard Returns in Microsoft Word – Enter vs Shift+Enter in Lists – Ctrl All"
+title: "Lists: Hard and Soft Returns in Microsoft Word – Enter vs Shift+Enter in Lists – Ctrl All"
 layout: layout.liquid
 permalink: /word/lists-soft-hard-returns/
-description: How soft and hard returns behave differently inside bullet and numbered lists in Microsoft Word. A hard return (Enter) creates a new bullet or number, while a soft return (Shift+Enter) adds a new line under the same list item without advancing to the next point.
+description: How hard and soft returns behave differently inside bullet and numbered lists in Microsoft Word. A hard return (Enter) creates a new bullet or number, while a soft return (Shift+Enter) adds a new line under the same list item without advancing to the next point.
 asset_id: ctrlall-word-lists-soft-hard-returns-v1
 date: 2025-10-26
 last_modified: 2026-06-07
@@ -37,18 +37,20 @@ tags:
   - fix lists
   - fix a list
   - how do i
+relatedArticles:
+  - url: /word/hard-and-soft-returns/
+    label: "Hard and soft returns"
+  - url: /word/lists/
+    label: "Lists"
 intermediate_only: true
 active: word
 --- 
 
-<h1>Lists: Soft & hard returns</h1>
+<h1>Lists: Hard & soft returns</h1>
 
 <div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
 
 <section class="section-light">
-
-<p>For a general guide on lists go here: <a href="/word/lists/">lists</a></p>
-<p>For a general guide on hard and soft returns go here: <a href="/word/hard-and-soft-returns/">Hard and soft returns</a></p>
 
 <p>What do we mean by a <strong>hard return</strong> and a <strong>soft return?</strong></p>
 

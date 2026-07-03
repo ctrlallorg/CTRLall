@@ -71,7 +71,7 @@ relatedArticles:
     label: "Page setup options"
   - url: /word/hard-and-soft-returns/
     label: "Hard and soft returns"
-  - url: /word/lists-soft-hard-returns/
+  - url: /word/lists-hard-soft-returns/
     label: "Hard and soft returns in lists"
   - url: /word/formatting-text/
     label: "Formatting text"

@@ -38,10 +38,8 @@ tags:
 relatedArticles:
   - url: /word/pages-and-views/
     label: "Pages and views"
-  - url: /word/line=numbers/
-    label: "Line numbers" 
-  - url: /word//
-    label: ""   
+  - url: /word/line-numbers/
+    label: "Line numbers"   
 intermediate_only: true
 
 active: word

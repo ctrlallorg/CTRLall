@@ -86,6 +86,8 @@ relatedArticles:
     label: "Page breaks"
   - url: /word/section-breaks/
     label: "Section breaks"
+  - url: /word/pages-and-views/
+    label: "Pages and views"
 active: word
 ---
 

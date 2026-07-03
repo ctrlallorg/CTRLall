@@ -37,12 +37,12 @@ tags:
   - formatting
   - styles quiz
 relatedArticles:
-  - url: /word/table-of-contents/
-    label: "Table of contents"
-  - url: /word/paragraph-options/
-    label: "Paragraph options"
   - url: /word/formatting-text/
     label: "Formatting text"
+  - url: /word/paragraph-options/
+    label: "Paragraph options"
+  - url: /word/table-of-contents/
+    label: "Table of contents"
 active: word
 quiz: styles-quiz
 ---
