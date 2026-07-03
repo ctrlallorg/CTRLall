@@ -100,6 +100,8 @@ tags:
 relatedArticles:
   - url: /word/images/
     label: "Images"
+  - url: /word/tables-fixing-table-image-problems/
+    label: "Fixing image problems in tables"
   - url: /word/objects/
     label: "Objects"
   - url: /word/objects-embedded-files/
@@ -199,6 +201,7 @@ quiz: altering-images-and-objects-quiz
 
 <!-- Intermediate version -->
 <div class="difficulty intermediate-version" aria-label="Intermediate article exploring altering images" style="display:none;">
+
   <section class="section-light">
   <p>This article looks in depth at how to alter <a href="/word/images/">images and graphic visuals</a> and some <a href="/word/objects/">objects</a>:</p>
   <ul>
@@ -416,6 +419,7 @@ quiz: altering-images-and-objects-quiz
   </section>
 
 </div>
+
 </article>
 
 <div id="ctrl-quiz"></div>

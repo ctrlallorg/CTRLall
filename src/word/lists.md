@@ -120,13 +120,7 @@ quiz: lists-quiz
 <i>Numbered list</i>
 <p><img class="thumbnail border left" src="{{ '/assets/images/word/Lists/Convert text to numbered list.gif' | url }}" alt="Numbered list demonstration in Word" style="max-width:350px; width:100%; height:auto; vertical-align:middle"></p>
 
-<h1>Where to now?</h1>
-<p>Now you've got the basics of lists try experimenting with them in a document. There are more options you can apply to lists which are explored in the intermediate version of this article:</p>
-<ul>
-  <li><a href="?difficulty=intermediate">Lists (intermediate version of this article)</a>: covers bullet/numbering styles and creating your own custom style lists</li>
-  <li><a href="/word/lists-fixing-number-lists/">Fixing number lists</a></li>
-  <li><a href="/word/lists-soft-hard-returns/">Lists: Soft & hard returns</a></li>
-</ul>
+<p>Now you've got the basics of lists try experimenting with them in a document. There are more options you can apply to lists which are explored in the intermediate version of this article such as bullet/numbering styles and creating your own custom style lists.</p>
 
 </section>
 </div>

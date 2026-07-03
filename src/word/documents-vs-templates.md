@@ -134,10 +134,6 @@ quiz: documents-vs-templates-quiz
   <p>If you come across a <strong>.doc</strong> file then it's quite old as it would have been saved using an older version of Word before 2003. You can still open these in Word fine, but be careful not to save a document as a .doc as that can lead to compatibility issues later. It's always best practice to save in the new modern format <strong>.docx</strong>.</p>
   <p><u>Rule of thumb</u>: Look at the file type before you open it and be mindful of the format when saving it.</p> 
 
-  <h1>Where to now?</h1>
-  <ul>
-    <li>This article discusses saving in word: <a href="/word/saving-and-save-as/">Saving and Save As</a></li>
-  </ul>
   </section>
 </div>
 

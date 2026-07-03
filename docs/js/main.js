@@ -19,23 +19,23 @@ function setView(view, isIntermediateOnlyArg = false, isNoDifficultyArg = false)
     localStorage.setItem("preferredView", effectiveView);
   }
 
-  const beginner = document.querySelector(".beginner-version");
-  const intermediate = document.querySelector(".intermediate-version");
+  const beginners = document.querySelectorAll(".beginner-version");
+  const intermediates = document.querySelectorAll(".intermediate-version");
 
-  if (beginner) beginner.classList.add("difficulty");
-  if (intermediate) intermediate.classList.add("difficulty");
+  beginners.forEach(el => el.classList.add("difficulty"));
+  intermediates.forEach(el => el.classList.add("difficulty"));
 
-  if (beginner) {
+  beginners.forEach(el => {
     const showBeg = effectiveView === "beginner";
-    beginner.style.display = showBeg ? "block" : "none";
-    beginner.classList.toggle("visible", showBeg);
-  }
+    el.style.display = showBeg ? "block" : "none";
+    el.classList.toggle("visible", showBeg);
+  });
 
-  if (intermediate) {
+  intermediates.forEach(el => {
     const showInt = effectiveView === "intermediate";
-    intermediate.style.display = showInt ? "block" : "none";
-    intermediate.classList.toggle("visible", showInt);
-  }
+    el.style.display = showInt ? "block" : "none";
+    el.classList.toggle("visible", showInt);
+  });
 
   // ─── Update badge ──────────────────────────────
   const badge = document.getElementById("article-badge");

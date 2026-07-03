@@ -124,7 +124,7 @@ active: word
   <p>Here's a simple demonstration:</p>
   <p><img class="thumbnail" src="{{ '/assets/images/word/Objects/Equations demonstration.gif' | url }}" alt="Text Box option on Shapes drop down menu on ribbon in Word"  style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 
-  <h1>Where to now?</h1>
+  <h1>Other objects</h1>
   <ul>
   <li><strong>Embedded files (OLE objects)</strong>: Word lets you embed other files into a Word document. These are known as OLE objects. You can essentially embed content from another file on the page or the file icon to be able to open it up. This is explored in the <a href="?difficulty=intermediate">intermediate version</a> of this article.</li>
   <li><strong>Drawing canvas</strong>: A drawing canvas is a container which groups together images, graphic visuals and even text boxes in a locked area. This is also explored in the <a href="?difficulty=intermediate">intermediate version</a> of this article.</li>

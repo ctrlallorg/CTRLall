@@ -33,8 +33,10 @@ tags:
   - copy multiple files
   - copy multiple text
 relatedArticles:
-  - url: /word/moving-content/
+  - url: /content-control/moving-content/
     label: "Moving content"
+  - url: /content-control/keyboard-shortcuts/
+    label: "Keyboard shortcuts"
 active: content-control
 ---
 
