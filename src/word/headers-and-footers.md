@@ -81,6 +81,11 @@ tags:
   - qr codes
   - related resources
   - contact information 
+relatedArticles:
+  - url: /word/page-breaks/
+    label: "Page breaks"
+  - url: /word/section-breaks/
+    label: "Section breaks"
 active: word
 ---
 

@@ -34,6 +34,11 @@ tags:
   - select paragraph
   - select a line
   - select line
+relatedArticles:
+  - url: /word/copying-content/
+    label: "Copying content"
+  - url: /word/moving-content/
+    label: "Moving content"
 active: word
 ---
 

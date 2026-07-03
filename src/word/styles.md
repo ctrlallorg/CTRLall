@@ -36,6 +36,13 @@ tags:
   - formats
   - formatting
   - styles quiz
+relatedArticles:
+  - url: /word/table-of-contents/
+    label: "Table of contents"
+  - url: /word/paragraph-options/
+    label: "Paragraph options"
+  - url: /word/formatting-text/
+    label: "Formatting text"
 active: word
 quiz: styles-quiz
 ---

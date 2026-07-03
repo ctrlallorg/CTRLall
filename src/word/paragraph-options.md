@@ -64,6 +64,21 @@ tags:
   - keep lines together
   - page break before
   - outline levels
+relatedArticles:
+  - url: /word/fixing-irregular-spacing/
+    label: "Fixing irregular spacing"
+  - url: /word/page-setup-options/
+    label: "Page setup options"
+  - url: /word/hard-and-soft-returns/
+    label: "Hard and soft returns"
+  - url: /word/lists-soft-hard-returns/
+    label: "Hard and soft returns in lists"
+  - url: /word/formatting-text/
+    label: "Formatting text"
+  - url: /word/font-options/
+    label: "Font options"
+  - url: /word/page-setup-options/
+    label: "Page setup options"
 active: word
 ---
 <h1>Paragraph options</h1>

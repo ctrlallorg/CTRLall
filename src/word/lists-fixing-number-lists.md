@@ -52,6 +52,8 @@ active: word
 
 <section class="section-light">
 
+<p>For a general guide on lists go here: <a href="/word/lists/">lists</a></p>
+
 <p>In large or complex documents number lists can sometimes be broken, especially when extending over different headings and other content. Here's how to fix them.</p>
 
 <p>In the example snip below we have a numbered lists extending over headings which we want to all be connected together. <u>Note</u>: Some are connected, some are not.</p>

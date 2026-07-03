@@ -43,6 +43,9 @@ tags:
   - margins
   - spaces
   - spacing
+relatedArticles:
+  - url: /word/indents/
+    label: "Indents"
 active: word
 ---
 

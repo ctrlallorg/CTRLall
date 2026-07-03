@@ -97,6 +97,17 @@ tags:
   - change colours
   - move around
   - wrapping
+relatedArticles:
+  - url: /word/images/
+    label: "Images"
+  - url: /word/objects/
+    label: "Objects"
+  - url: /word/objects-embedded-files/
+    label: "Embedded files (OLE objects)"
+    level: intermediate
+  - url: /word/editing-charts/
+    label: "Editing charts"
+    level: intermediate
 active: word
 quiz: altering-images-and-objects-quiz
 ---

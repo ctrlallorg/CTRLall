@@ -34,6 +34,11 @@ tags:
   - left indents
   - spaces
   - spacing
+relatedArticles:
+  - url: /word/tab-stops/
+    label: "Tab stops"
+  - url: /word/paragraph-options/
+    label: "Paragraph options"
 active: word
 ---
 

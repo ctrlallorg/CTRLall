@@ -50,6 +50,15 @@ tags:
   - manual TOC
   - custom table of contents
   - custom TOC
+relatedArticles:
+  - url: /word/table-of-contents/
+    label: "Table of contents"
+  - url: /word/tables/
+    label: "Tables"
+  - url: /word/paragraph-options/
+    label: "Paragraph options"
+  - url: /word/styles/
+    label: "Styles"
 intermediate_only: true
 active: word
 ---

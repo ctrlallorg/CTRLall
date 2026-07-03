@@ -28,6 +28,17 @@ tags:
   - word pagination
   - word section layout
   - control page flow in word
+relatedArticles:
+  - url: /word/paragraph-options/
+    label: "Paragraph options"
+  - url: /word/page-breaks/
+    label: "Page breaks"
+  - url: /word/headers-and-footers/
+    label: "Headers and footers"
+  - url: /word/pages-and-views/
+    label: "Pages and views"
+  - url: /word/page-setup-options/
+    label: "Page setup options"
 intermediate_only: true
 active: word
 ---

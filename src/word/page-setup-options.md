@@ -35,6 +35,13 @@ tags:
   - header
   - footer
   - page vertical alignment
+relatedArticles:
+  - url: /word/pages-and-views/
+    label: "Pages and views"
+  - url: /word/line=numbers/
+    label: "Line numbers" 
+  - url: /word//
+    label: ""   
 intermediate_only: true
 
 active: word

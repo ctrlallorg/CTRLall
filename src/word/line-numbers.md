@@ -37,6 +37,9 @@ tags:
   - legal documents
   - scripts
   - playscripts
+relatedArticles:
+  - url: /word/page-setup-options/
+    label: "Page setup options"
 active: word
 intermediate_only: true
 ---
@@ -44,8 +47,9 @@ intermediate_only: true
 
 <h1>Line numbering</h1>
 
+<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>s
+
 <section class="section-light">
-<div id="article-badge" class="article-badge intermediate-only">⚡ Intermediate Level Only</div>
 
 <p>Line numbers have several uses, in legal documents, contracts, transcripts and screenplays to name a few. Numbers are given to each line in the left margin.</p>
 

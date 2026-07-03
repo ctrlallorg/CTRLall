@@ -34,6 +34,17 @@ tags:
   - pagination
   - page layouts
   - control page flow in word
+relatedArticles:
+  - url: /word/paragraph-options/
+    label: "Paragraph options"
+  - url: /word/section-breaks/
+    label: "Section breaks"
+  - url: /word/headers-and-footers/
+    label: "Headers and footers"
+  - url: /word/pages-and-views/
+    label: "Pages and views"
+  - url: /word/page-setup-options/
+    label: "Page setup options"
 active: word
 ---
 

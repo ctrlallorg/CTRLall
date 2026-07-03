@@ -33,6 +33,13 @@ tags:
   - define new bullet
   - define new number format
   - lists quiz
+relatedArticles:
+  - url: /word/lists-fixing-number-lists/
+    label: "Fixing numbered lists"
+  - url: /word/soft-hard-returns/
+    label: "Hard and soft returns in lists"
+  - url: /word/line-numbers/
+    label: "Line numbers"
 active: word
 quiz: lists-quiz
 ---

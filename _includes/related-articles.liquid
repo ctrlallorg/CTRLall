@@ -1,0 +1,23 @@
+{% if relatedArticles %}
+<section class="related-articles beginner-version" aria-label="Related articles">
+  <h2>Where to now?</h2>
+  <ul>
+    {% for item in relatedArticles %}
+      {% unless item.level == "intermediate" %}
+      <li><a href="{{ item.url | url }}">{{ item.label }}</a></li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="related-articles intermediate-version" aria-label="Related articles" style="display:none;">
+  <h2>Where to now?</h2>
+  <ul>
+    {% for item in relatedArticles %}
+      {% unless item.level == "beginner" %}
+      <li><a href="{{ item.url | url }}">{{ item.label }}</a></li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

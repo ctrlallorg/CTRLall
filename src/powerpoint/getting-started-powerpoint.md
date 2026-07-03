@@ -55,6 +55,9 @@ tags:
   - open .ppt file
   - PowerPoint demonstrations
   - PowerPoint examples
+relatedArticles:
+  - url: /powerpoint/saving-and-save-as/
+    label: "Saving and Save As"
 active: PowerPoint
 ---
 <h1>Getting started with Microsoft PowerPoint</h1>
@@ -211,13 +214,6 @@ active: PowerPoint
     </ul>
   <br>
   <p><u>Note</u>: For the purpose of demonstration here all the examples are using Microsoft Office 365.</p>
-  <h1>Where to now?</h1>
-  <p>That's a basic overview of PowerPoint for you. Now you understand its interface a little more and know how to open and close it, try the following articles:</p>
-
-  <ul>
-    <li><a href="/powerpoint/saving-and-save-as/">How to save</a></li>
-    <li>More articles on PowerPoint to come</li>
-  </ul>
   </section>
 </div>
 
@@ -368,13 +364,6 @@ active: PowerPoint
 
   <h2 id="close-PowerPoint-app">Closing the app</h2>
   <p>You can close PowerPoint by pressing the <strong>✖</strong> button in the far right corner on the <span class="glossary-hover" data-term="quick-access-toolbar">Quick Access Toolbar</span>. If you have made any unsaved edits PowerPoint will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
-
-  <h1>Where to now?</h1>
-  <p>Now you know how to get set up with the PowerPoint and understand its interface, try some of these articles depending on what you need:</p>
-    <ul>
-    <li><a href="/powerpoint/saving-and-save-as/">How to save</a></li>
-    <li>More articles on PowerPoint to come</li>
-  </ul>
 
   </section>
 

@@ -40,6 +40,11 @@ tags:
   - what is a .dotx file?
   - what is a .doc file?
   - documents vs templates quiz
+relatedArticles:
+  - url: /word/getting-started-word/
+    label: "Getting started with Word"
+  - url: /word/saving-and-save-as/
+    label: "Saving and Save As"
 active: word
 quiz: documents-vs-templates-quiz
 ---

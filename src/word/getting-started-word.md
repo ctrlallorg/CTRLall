@@ -65,6 +65,20 @@ tags:
   - open .doc file
   - word demonstrations
   - word examples
+relatedArticles:
+  - url: /word/documents-vs-templates/
+    label: "The difference between documents and templates"
+  - url: /word/pages-and-views/
+    label: "Pages and view options"   
+  - url: /word/saving-and-save-as/
+    label: "How to save"
+  - url: /word/selecting-text/
+    label: "How to select text in Word"
+    level: beginner
+  - url: /word/formatting-text/
+    label: "How to change the formatting (look) of text"
+  - url: /word/images/
+    label: "How to insert images and graphic visuals"
 active: word
 ---
 <article class="difficulty-wrapper" role="article" aria-label="An introduction to Microsoft Word with beginner and intermediate versions">
@@ -203,17 +217,6 @@ active: word
         <br>
         <p><u>Note</u>: For the purpose of demonstration here all the examples are using Microsoft Office 365.</p>
         <br>
-      <h1>Where to now?</h1>
-       <p>Now you know how to get set up with the Word application and understand the main interface, you might want to explore these articles depending on what you need:</p>
-        <ul>
-          <li><a href="/word/selecting-text">How to select text in Word</a></li>
-          <li><a href="/word/pages-and-views">Pages and view options</a></li>
-          <li><a href="/word/saving-and-save-as">How to save</a></li>
-           <li><a href="/word/documents-vs-templates">The difference between documents and templates</a></li>
-          <li><a href="/word/formatting-text">How to change the formatting (look) of text</a></li>
-          <li><a href="/word/images">How to insert images and graphic visuals</a></li>
-        </ul>
-        <p>Otherwise feel free to use the side menu or type what you're after in the search bar.</p>
     </section>
 </div>
 
@@ -336,17 +339,7 @@ active: word
           <p><img class="thumbnail left" src="{{ '/assets/images/keyboard shortcuts/Ctrl+W.png' | url }}"  alt="Ctrl + W shortcut: Close the document (keeping the application open)" style="max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
         <h2 id="close-word-app-int">Close Word app</h2>
           <p>You can close Word by pressing the <strong>✖</strong> button in the far right corner on the <span class="glossary-hover" data-term="quick-access-toolbar">Quick Access Toolbar</span>. If you have made any unsaved edits Word will prompt you to <span class="glossary-hover" data-term="save">save</span> before closing.</p>
-      <h1>Where to now?</h1>
-       <p>Now you know how to get set up with the Word application and understand the main interface, you might want to explore these articles depending on what you need:</p>
-        <ul>
-          <li><a href="/word/selecting-text">How to select text in Word</a></li>
-          <li><a href="/word/saving-and-save-as">How to save</a></li>
-           <li><a href="/word/documents-vs-templates">The difference between documents and templates</a></li>
-          <li><a href="/word/formatting-text">How to change the formatting (look) of text</a></li>
-          <li><a href="/word/images">How to insert images and graphic visuals</a></li>
-        </ul>
-        <p>Otherwise feel free to use the side menu or type what you're after in the search bar.</p>
-
+    
   </section>
 
 </div>

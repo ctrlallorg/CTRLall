@@ -59,6 +59,15 @@ tags:
   - side notes
   - labels
   - captions
+relatedArticles:
+  - url: /word/altering-images-and-objects/
+    label: "Altering images and objects"
+  - url: /word/objects-embedded-files/
+    label: "Embedded files (OLE objects)"
+    level: intermediate
+  - url: /word/editing-charts/
+    label: "Editing charts"
+    level: intermediate
 active: word
 ---
 

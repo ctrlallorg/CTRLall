@@ -78,6 +78,11 @@ tags:
   - .dotx
   - .doc
   - saving and save as quiz
+relatedArticles:
+  - url: /word/save-as-pdf/
+    label: "Save a Word document as a PDF"
+  - url: /word/documents-vs-templates/
+    label: "The difference between documents vs templates"
 active: word
 quiz: saving-and-save-as-quiz
 ---

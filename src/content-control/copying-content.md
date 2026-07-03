@@ -32,6 +32,9 @@ tags:
   - copy multiple content
   - copy multiple files
   - copy multiple text
+relatedArticles:
+  - url: /word/moving-content/
+    label: "Moving content"
 active: content-control
 ---
 

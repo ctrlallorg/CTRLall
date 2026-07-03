@@ -34,6 +34,11 @@ tags:
   - move multiple content
   - move multiple files
   - move multiple text
+relatedArticles:
+  - url: /content-control/copying-content/
+    label: "Copying content"
+  - url: /content-control/keyboard-shortcuts/
+    label: "Keyboard shortcuts"
 active: content-control
 ---
 

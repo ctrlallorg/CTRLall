@@ -67,6 +67,9 @@ tags:
   - .pptx
   - .potx
   - .ppt
+relatedArticles:
+  - url: /powerpoint/getting-started-powerpoint/
+    label: "Getting started with PowerPoint"
 active: powerpoint
 ---
 
@@ -78,6 +81,8 @@ active: powerpoint
 <div class="difficulty beginner-version"  aria-label="Beginner introduction to saving in Microsoft PowerPoint">
 
   <section class="section-light">
+
+  <p>If you're brand new to PowerPoint try starting here: <a href="/powerpoint/getting-started-powerpoint/">Getting started with PowerPoint</a></p>
   
   <p>Saving your PowerPoint presentation lets you to keep your edits for next time. When you save, the next time you open your presentation those changes you made will be remembered. Not saving means you will lose all the edits made last time. Here's how to save a PowerPoint presentation:</p>
   
@@ -120,6 +125,9 @@ active: powerpoint
 <div class="difficulty intermediate-version" aria-label="Intermediate article exploring saving in Microsoft PowerPoint" style="display:none;">
 
   <section class="section-light">
+
+  <p>If you're somewhat new to PowerPoint try starting here: <a href="/powerpoint/getting-started-powerpoint/">Getting started with PowerPoint</a></p>
+
   <p>With the PowerPoint presentation open, save by doing one of the following:</p>
   <ol type="a">
   <li>

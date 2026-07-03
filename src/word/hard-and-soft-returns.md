@@ -64,6 +64,14 @@ tags:
   - tighten spaces
   - close up spacing
   - close up spaces
+relatedArticles:
+  - url: /word/lists-soft-hard-returns/
+    label: "Hard and soft returns in lists"
+  - url: /word/formatting-text/
+    label: "Formatting text"
+  - url: /word/selecting-text/
+    label: "How to select text in Word"
+    level: beginner
 intermediate_only: true
 active: word
 ---

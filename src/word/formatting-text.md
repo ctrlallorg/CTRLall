@@ -67,6 +67,20 @@ tags:
   - sort
   - line spacing
   - formatting text quiz
+relatedArticles:
+  - url: /word/font-options/
+    label: "Font options"
+  - url: /word/paragraph-options/
+    label: "Paragraph options"
+  - url: /word/styles/
+    label: "Styles (for headings)"
+  - url: /word/hard-and-soft-returns/
+    label: "Hard and soft returns"
+  - url: /word/lists/
+    label: "Lists (bullet lists and numbered lists)"
+  - url: /word/fixing-irregular-spacing/
+    label: "Fixing irregular spacing"
+    level: intermediate  
 active: word
 quiz: formatting-text-quiz
 ---
@@ -199,6 +213,7 @@ quiz: formatting-text-quiz
             <li>Sub-item</li>
             <li>Sub-sub-item</li>
           </ul>
+          <p>For a general guide on lists go here: <a href="/word/lists/">lists</a></p>
         </td>
       </tr>
       <tr>
@@ -209,6 +224,7 @@ quiz: formatting-text-quiz
             <li>Sub-item</li>
             <li>Sub-sub-item</li>
           </ol>
+          <p>For a general guide on lists go here: <a href="/word/lists/">lists</a></p>
         </td>
       </tr>
       <tr>
@@ -266,14 +282,6 @@ quiz: formatting-text-quiz
     </tbody>
   </table>
   </div>
-
-<h1>Where to now?</h1>
-<p>Now you've got the basics of formatting tools try experimenting with them on text in a document, it's the best way to learn how they work. For more font and paragraph options take a look at these articles:</p>
-<ul>
-  <li><a href="/word/font-options/">Font options</a></li>
-  <li><a href="/word/paragraph-options/">Paragraph options</a></li>
-  <li><a href="/word/styles/">Styles</a> (for headings)</li>
-</ul>
 
   </section>
 </div>
@@ -433,6 +441,7 @@ quiz: formatting-text-quiz
             <li>Sub-item</li>
             <li>Sub-sub-item</li>
           </ul>
+          <p>For a general guide on lists go here: <a href="/word/lists/">lists</a></p>
         </td>
       </tr>
       <tr>
@@ -443,6 +452,7 @@ quiz: formatting-text-quiz
             <li>Sub-item</li>
             <li>Sub-sub-item</li>
           </ol>
+          <p>For a general guide on lists go here: <a href="/word/lists/">lists</a></p>
         </td>
       </tr>
       <tr>
@@ -501,14 +511,6 @@ quiz: formatting-text-quiz
       </tr>
     </tbody>
   </table>
-
-  <h1>Where to now?</h1>
-<p>These are the basics of formatting tools. More options available are detailed in these articles:</p>
-<ul>
-  <li><a href="/word/font-options/">Font options</a></li>
-  <li><a href="/word/paragraph-options/">Paragraph options</a></li>
-  <li><a href="/word/styles/">Styles</a> (for headings)</li>
-</ul>
 
   </div>
   </section>

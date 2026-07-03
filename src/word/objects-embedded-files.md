@@ -61,6 +61,15 @@ tags:
   - zips
   - mp3s
   - mp4s
+relatedArticles:
+  - url: /word/altering-images-and-objects/
+    label: "Altering images and objects"
+  - url: /word/objects/
+    label: "Objects"
+    level: intermediate
+  - url: /word/editing-charts/
+    label: "Editing charts"
+    level: intermediate
 intermediate_only: true
 active: word
 ---

@@ -78,6 +78,9 @@ tags:
   - documents
   - pdfs
   - .pdf
+relatedArticles:
+  - url: /word/saving-and-save-as/
+    label: "Saving and Save As"
 active: word
 ---
 <h1>Save a Word document as a PDF</h1>

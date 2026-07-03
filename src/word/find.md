@@ -75,6 +75,9 @@ tags:
   - searching for phrases in a document
   - search for text in a document
   - searching for text in a document
+relatedArticles:
+  - url: /word/fixing-irregular-spacing/
+    label: "Fixing irregular spacing"
 active: word
 ---
 <h1>Find</h1>

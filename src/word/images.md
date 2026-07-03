@@ -42,6 +42,19 @@ tags:
   - WordArt
   - image types
   - types of images
+relatedArticles:
+  - url: /word/altering-images-and-objects/
+    label: "Altering images and objects"
+  - url: /word/tables-fixing-table-image-problems/
+    label: "Fixing image problems in tables"
+  - url: /word/objects/
+    label: "Objects"
+  - url: /word/objects-embedded-files/
+    label: "Embedded files (OLE objects)"
+    level: intermediate
+  - url: /word/editing-charts/
+    label: "Editing charts"
+    level: intermediate
 active: word
 ---
 

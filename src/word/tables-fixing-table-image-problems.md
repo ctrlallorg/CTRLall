@@ -41,6 +41,21 @@ tags:
   - how do i
   - retrieve
   - get back
+relatedArticles:
+  - url: /word/altering-images-and-objects/
+    label: "Altering images and objects"
+  - url: /word/images/
+    label: "Images"
+  - url: /word/tables/
+    label: "Tables"
+  - url: /word/tables-formatting/
+    label: "Table formatting"
+  - url: /word/tables-convert-text-to-tables/
+    label: "Converting text to a table"
+  - url: /word/tables-fixing-tables-extending-offscreen/
+    label: "Fixing tables extending off the page"
+  - url: /word/tables-fixing-tables-over-pages/
+    label: "Fixing tables over pages"
 intermediate_only: true
 active: word
 ---

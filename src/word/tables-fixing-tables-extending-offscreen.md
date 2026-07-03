@@ -41,8 +41,18 @@ tags:
   - how do i
   - retrieve
   - get back
+relatedArticles:
+  - url: /word/tables/
+    label: "Tables"
+  - url: /word/tables-formatting/
+    label: "Table formatting"
+  - url: /word/tables-convert-text-to-tables/
+    label: "Convrting text to a table"
+  - url: /word/tables-fixing-tables-over-pages/
+    label: "Fixing tables over pages"
+  - url: /word/tables-fixing-table-image-problems/
+    label: "Fixing image problems in tables"
 intermediate_only: true
-
 active: word
 ---
 

@@ -49,6 +49,13 @@ tags:
   - bullet lists
   - numbered lists
   - multilevel lists
+relatedArticles:
+  - url: /word/formatting-text/
+    label: "Formatting text"
+  - url: /word/paragraph-options/
+    label: "Paragraph options"
+  - url: /word/page-setup-options/
+    label: "Page setup options"
 active: word
 ---
 <h1>Font options</h1>

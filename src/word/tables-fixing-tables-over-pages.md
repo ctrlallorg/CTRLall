@@ -45,8 +45,23 @@ tags:
   - how do i
   - retrieve
   - get back
+relatedArticles:
+  - url: /word/tables/
+    label: "Tables"
+  - url: /word/tables-formatting/
+    label: "Table formatting"
+  - url: /word/tables-convert-text-to-tables/
+    label: "Converting text to a table"
+  - url: /word/tables-fixing-tables-extending-offscreen/
+    label: "Fixing tables extending off the page"
+  - url: /word/tables-fixing-table-image-problems/
+    label: "Fixing image problems in tables"
+  - url: /word/table-of-contents/
+    label: "Table of contents"
+  - url: /word/table-of-contents-custom/
+    label: "Custom table of contents"
+    level: intermediate
 intermediate_only: true
-
 active: word
 ---
 

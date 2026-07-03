@@ -77,6 +77,17 @@ tags:
   - close up spaces
   - wildcard
   - fixing irregular spacing quiz
+relatedArticles:
+  - url: /word/find/
+    label: "'Find' and 'Find and Replace' tools"
+  - url: /word/formatting-text/
+    label: "Formatting text"
+  - url: /word/hard-and-soft-returns/
+    label: "Hard and soft returns"
+  - url: /word/paragraph-options/
+    label: "Paragraph options"
+  - url: /word/styles/
+    label: "Styles"
 active: word
 intermediate_only: true
 quiz: fixing-irregular-spacing-quiz

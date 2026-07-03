@@ -131,6 +131,8 @@
             <section id="main-content">
               {{ content }}
 
+              {% include "related-articles.liquid" %}
+
               {% if image and hotspots %}
               <div class="overlay-container">
                 <img src="{{ image.src }}" alt="Hotspot image" class="base-image">

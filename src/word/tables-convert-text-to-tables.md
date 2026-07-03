@@ -35,8 +35,16 @@ tags:
   - columns
   - delimiters
   - exercise
+relatedArticles:
+  - url: /word/tables/
+    label: "Tables"
+  - url: /word/tables-formatting/
+    label: "Table formatting"
+  - url: /word/tables-fixing-tables-extending-offscreen/
+    label: "Fixing tables extending off the page"
+  - url: /word/tables-fixing-tables-over-pages/
+    label: "Fixing tables over pages"
 intermediate_only: true
-
 active: word
 ---
 

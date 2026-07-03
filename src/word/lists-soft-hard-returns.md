@@ -47,6 +47,9 @@ active: word
 
 <section class="section-light">
 
+<p>For a general guide on lists go here: <a href="/word/lists/">lists</a></p>
+<p>For a general guide on hard and soft returns go here: <a href="/word/hard-and-soft-returns/">Hard and soft returns</a></p>
+
 <p>What do we mean by a <strong>hard return</strong> and a <strong>soft return?</strong></p>
 
 <p><u>Hard return</u>: When typing if you press <strong>Enter</strong> this will create a hard return that starts a new paragraph.</p>

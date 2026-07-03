@@ -70,7 +70,11 @@ tags:
   - single page
   - many pages
   - multiple pages
-
+relatedArticles:
+  - url: /word/page-setup-options/
+    label: "Page setup options"
+  - url: /word/page-breaks/
+    label: "Page breaks"
 active: word
 ---
 
@@ -135,16 +139,6 @@ active: word
 
   <p><strong>Size</strong> and <strong>Orientation</strong> are the most common tools you'll use here. These are explored more in the <a href="?difficulty=intermediate#layout-tab-int">intermediate version</a> of this article.</p>
   <p><img class="thumbnail" src="{{ '/assets/images/word/Pages and Views/Orientation and Size.png' | url }}"  alt="Page Orientation and Size options in Word" style="max-width:450px; width:100%; height:auto; vertical-align:middle"></p>
-
-  <h1>Where to now?</h1>
-    <ul>
-      <li><a href="/word/page-breaks">Page breaks</a></li>
-      <li><a href="/word/saving-and-save-as/">Saving and Save As</a></li>
-      <li><a href="/word/documents-vs-templates/">Documents vs templates</a></li>
-      <li><a href="/word/formatting-text">Changing the look and feel of text</a> (a.k.a. formatting)</li>
-      <li><a href="/word/images/">Inserting images and visual graphics</a></li>
-      <li><a href="/word/tables/">Inserting tables</a></li>
-    </ul>
   </section>
 </div>
 
