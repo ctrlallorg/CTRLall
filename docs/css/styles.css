@@ -1598,6 +1598,25 @@ td.justified {
   vertical-align: middle;
 }
 
+.site-footer .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.site-footer .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.site-footer .social-icons a {
+  white-space: nowrap;
+}
 
 .noscript-warning {
   background: #f44336;
