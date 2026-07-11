@@ -386,5 +386,8 @@ active: index
 <br>
 
   <p>© 2026 Ctrl All. Content licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>. Created by Steve, a digital learning specialist focused on clarity, pedagogy, and real‑world troubleshooting.</p>
+  <p><img class="left" src="/assets/images/cc-by-sa.png" 
+          alt="Creative Commons BY-SA" 
+          style="max-width: 88px; width: 100%; height:auto;"></p>
 
 <br>
