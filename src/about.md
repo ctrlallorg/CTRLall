@@ -166,7 +166,10 @@ active: about
       </a>
 
   <h2>Copyright & Licensing</h2>
-    <p>All content is © 2026 Ctrl All. Content licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a> Educational use is encouraged with attribution. For other uses — including commercial, derivative, or syndication — please <a href="/contact/">get in touch</a>.</p>
+    <p>All content is © 2026 Ctrl All. Content licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>. Educational use is encouraged with attribution.</p>
+    <img class="left" src="/assets/images/cc-by-sa.png" 
+          alt="Creative Commons BY-SA" 
+          style="max-width: 88px; width: 100%; height:auto;">
 
   <h2>Privacy Policy</h2>
     <p>View our <a href="/privacy-policy/">Privacy Policy</a>.</p>
