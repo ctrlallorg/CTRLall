@@ -385,6 +385,6 @@ active: index
 </section>
 <br>
 
-  <p>© 2026 Ctrl All. All rights reserved. Created by Steve, a digital learning specialist focused on clarity, pedagogy, and real‑world troubleshooting.</p>
+  <p>© 2026 Ctrl All | Content licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>. Created by Steve, a digital learning specialist focused on clarity, pedagogy, and real‑world troubleshooting.</p>
 
 <br>
