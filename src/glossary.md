@@ -136,7 +136,8 @@ active: glossary
     <tr>
       <td id="bold">Bold</td>
       <td>
-        <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords or important content. Bold thickens the selected characters <strong>to make them stand out like this</strong> from surrounding text. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications. Keyboard shortcut: <strong>Ctrl + B</strong></p>
+        <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords or important content. Bold thickens the selected characters <strong>to make them stand out like this</strong> from surrounding text. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications.</p>
+        <p>Keyboard shortcut: <strong>Ctrl + B</strong></p>
         <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+B.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + B" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
       </td>
     </tr>
@@ -170,7 +171,11 @@ active: glossary
     </tr>
     <tr>
       <td id="copy">Copy</td>
-      <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+C.png' | url }}">Copies selected information to the <a href="#clipboard">clipboard</a>. Content remains where it is. Keyboard shortcut: <strong>Ctrl + C</strong></td>
+      <td>
+        <p>Copies selected information to the <a href="#clipboard">clipboard</a>. Content remains where it is.</p>
+        <p>Keyboard shortcut: <strong>Ctrl + C</strong></p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+C.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + C" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
     </tr>
     <tr>
       <td id="copy-and-paste">Copy and paste / Copying and pasting</td>
@@ -252,7 +257,11 @@ active: glossary
     </tr>
     <tr>
       <td id="cut">Cut</td>
-      <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+X.png' | url }}">Copies selected information to the <a href="#clipboard">clipboard</a> and removes it from the editable space. Keyboard shortcut: <strong>Ctrl + X</strong></td>
+      <td>
+        <p>Copies selected information to the <a href="#clipboard">clipboard</a> and removes it from the editable space.</p>
+        <p>Keyboard shortcut: <strong>Ctrl + X</strong></p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+X.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + X" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
     </tr>
     <tr>
       <td id="cut-and-paste">Cut and paste / Cutting and pasting</td>
@@ -321,13 +330,20 @@ active: glossary
     </tr>
     <tr>
       <td id="find">Find</td>
-      <td>The Find tool is found in most Microsoft Office applications and lets you search for a text term. It will find matching entries which you can cycle through individually. You can also apply formatting and wildcards to your search criteria.</td>
+      <td>
+        <p>The Find tool is found in most Microsoft Office applications and lets you search a document for a specific word or phrase. Matching results are highlighted and you can step through them one by one. You can also apply formatting and wildcards to narrow your search. See more in this article: <a href="/word/find">Find</a>.</p>
+        <p>Keyboard shortcut: <strong>Ctrl + F</strong></p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+F.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + F" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
     </tr>
     <tr>
       <td id="find-and-replace">Find and replace</td>
-      <td>Find and replace is a tool in most Microsoft Office applications that allows you to replace all instances of a search text term. You can specify formatting in what you search for as well as what you replace it with.</td>
+      <td>
+        <p>An extension of the <a href="/word/find#find-and-replace">Find</a> tool that lets you replace found text with something else — either one match at a time or all instances at once. You can specify formatting in both what you search for and what you replace it with.</p>
+        <p>Keyboard shortcut: <strong>Ctrl + H</strong></p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+H.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + H" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
     </tr>
-    <tr>
     <tr>
       <td id="first-line-indent">First-line indent</td>
       <td>An <a href="#indent-markers">indent marker</a> found on the horizontal <a href="#ruler">ruler</a> that controls either where the first line of a paragraph starts or a bullet/number starts in a list. See examples in this article: <a href="/word/indents">Indents</a></td>
@@ -494,12 +510,14 @@ active: glossary
       <td>When text is selected it will be highlighted with a grey background to show what you have selected. Note: Another kind of highlight exists when formatting text which changes the background colour of text, see <a href="#highlight formatting">Highlight (formatting)</a>.</td>
     </tr>
     <tr>
-        <td id="hyperlink">Hyperlink</td>
-        <td>
-          <p>Hyperlinks (commonly called 'links') let you navigate to a webpage, or a document or folder location on a computer or shared server. They are typically displayed <a href="#underline">underlined</a> and in a distinct colour. On web browsers the mouse <a href="#cursor">cursor</a> usually changes when hovering over one. In Microsoft Office applications hold <strong>Ctrl and click</strong> to follow a link. To insert a hyperlink use <strong>Ctrl + K</strong>.</p>
-          <p><img src="{{ '/assets/images/glossary/Hyperlink in word.png' | url }}" alt="Hyperlink in Microsoft Word with Ctrl and click tooltip" style="display: block; max-width:293px; width:100%; height:auto; vertical-align:middle"></p>
-        </td>
-      </tr>
+      <td id="hyperlink">Hyperlink</td>
+      <td>
+        <p>Hyperlinks (commonly called 'links') let you navigate to a webpage, or a document or folder location on a computer or shared server. They are typically displayed <a href="#underline">underlined</a> and in a distinct colour. On web browsers the mouse <a href="#cursor">cursor</a> usually changes when hovering over one. In Microsoft Office applications hold <strong>Ctrl and click</strong> to follow a link.</p>
+        <p>Keyboard shortcut: <strong>Ctrl + K</strong></p>
+        <p><img src="{{ '/assets/images/glossary/Hyperlink in word.png' | url }}" alt="Hyperlink in Microsoft Word with Ctrl and click tooltip" style="display: block; max-width:293px; width:100%; height:auto; vertical-align:middle"></p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+K.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + K" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
+    </tr>
     <tr>
       <td id="hyphenation">Hyphenation</td>
       <td>Hyphenation automatically breaks long words at the end of lines with a hyphen, reducing ragged line endings particularly in justified text. In Microsoft Word, hyphenation is disabled by default, however there are hyphenation options which are explored in the <a href="/word/pages-and-views#hyphenation-int">Pages and Views</a> article.</td>
@@ -528,7 +546,8 @@ active: glossary
     <tr>
       <td id="italic">Italic</td>
       <td>
-        <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords, titles, or technical terms. Italics slant selected text slightly to the right <em>like this</em> to create a subtle emphasis against surrounding text. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications. Keyboard shortcut: <strong>Ctrl + I</strong></p>
+        <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords, titles, or technical terms. Italics slant selected text slightly to the right <em>like this</em> to create a subtle emphasis against surrounding text. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications.</p>
+        <p>Keyboard shortcut: <strong>Ctrl + I</strong></p>
         <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+I.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + I" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
       </td>
     </tr>
@@ -673,7 +692,11 @@ active: glossary
     </tr>
     <tr>
       <td id="paste">Paste / Pasting</td>
-      <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+V.png' | url }}">Duplicates information from the <a href="#clipboard">clipboard</a>. Keyboard shortcut: <strong>Ctrl + V</strong> See these articles for examples of pasting in action: <a href="/content-control/moving-content/">Moving content</a> / <a href="/content-control/copying-content/">Copying content</a></td>
+      <td>
+        <p>Duplicates information from the <a href="#clipboard">clipboard</a>. See these articles for examples of pasting in action: <a href="/content-control/moving-content/">Moving content</a> / <a href="/content-control/copying-content/">Copying content</a></p>
+        <p>Keyboard shortcut: Ctrl + V</p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+V.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + V" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
     </tr>
     <tr>
       <td id="point-font">Point (font)</td>
@@ -715,7 +738,11 @@ active: glossary
     </tr>
     <tr>
       <td id="redo">Redo</td>
-      <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+Y.png' | url }}">Option to repeat the last action. The opposite of <a href="#undo">undo</a>. Keyboard shortcut: <strong>Ctrl + Y</strong></td>
+      <td>
+        <p>Option to repeat the last action. The opposite of <a href="#undo">undo</a>.</p>
+        <p>Keyboard shortcut: <strong>Ctrl + Y</strong></p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+Y.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + Y" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
     </tr>
     <tr>
       <td id="resize">Resize / Resizing</td>
@@ -752,7 +779,11 @@ active: glossary
     </tr>
     <tr>
       <td id="save">Save</td>
-      <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}">Saving a file means storing the file's content in its current state onto your computer, cloud drive, or external device. In a <a href="browser-window">browser window</a> you choose what it's called (the <a href="#filename">filename</a>) and where it's stored, allowing you to access it later. You also decide what format the file is saved as (the <a href="#filetype">file type</a>); this is indicated by the <a href="#filename-extension">filename extension</a>. It's good practice to save frequently to avoid losing work due to crashes or power outages. Keyboard shortcut: <strong>Ctrl + S</strong>
+      <td>
+        <p>Saving a file means storing the file's content in its current state onto your computer, cloud drive, or external device. In a <a href="browser-window">browser window</a> you choose what it's called (the <a href="#filename">filename</a>) and where it's stored, allowing you to access it later.</p>
+        <p>You also decide what format the file is saved as (the <a href="#filetype">file type</a>); this is indicated by the <a href="#filename-extension">filename extension</a>. It's good practice to save frequently to avoid losing work due to crashes or power outages.</p>
+        <p>Keyboard shortcut: <strong>Ctrl + S</strong></p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + S" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
       </td>
     </tr>
     <tr>
@@ -894,13 +925,18 @@ active: glossary
     <tr>
       <td id="underline">Underline</td>
       <td>
-        <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords. Underline adds a horizontal line beneath the selected characters <u>like this</u> to create emphasis and draw attention within the surrounding text. It is best to avoid underlining body text in digital documents since it can be confused for hyperlinks which are typically underlined. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications. Keyboard shortcut: <strong>Ctrl + U</strong></p>
+        <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords. Underline adds a horizontal line beneath the selected characters <u>like this</u> to create emphasis and draw attention within the surrounding text. It is best to avoid underlining body text in digital documents since it can be confused for hyperlinks which are typically underlined. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications.</p>
+        <p>Keyboard shortcut: <strong>Ctrl + U</strong></p>
         <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+U.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + U" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
       </td>
     </tr>
     <tr>
       <td id="undo">Undo</td>
-      <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+Z.png' | url }}">A very useful option to reverse your last action. The opposite of <a href="#redo">redo</a>. Keyboard shortcut: <strong>Ctrl + Z</strong></td>
+      <td>
+        <p>A very useful option to reverse your last action. The opposite of <a href="#redo">redo</a>.</p>
+        <p>Keyboard shortcut: <strong>Ctrl + Z</strong></p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+Z.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + Z" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+      </td>
     </tr>
     <tr>
       <td id="web-browser">Web browser</td>
@@ -1023,7 +1059,8 @@ active: glossary
       <tr>
         <td id="bold">Bold</td>
         <td>
-          <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords or important content. Bold thickens the selected characters <strong>to make them stand out like this</strong> from surrounding text. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications. Keyboard shortcut: <strong>Ctrl + B</strong></p>
+          <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords or important content. Bold thickens the selected characters <strong>to make them stand out like this</strong> from surrounding text. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications.</p>
+          <p>Keyboard shortcut: <strong>Ctrl + B</strong></p>
           <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+B.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + B" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
         </td>
       </tr>
@@ -1056,8 +1093,10 @@ active: glossary
         <p><img class="thumbnail border" src="{{ '/assets/images/glossary/CC.png' | url }}" alt="Cursor keys" style="display: block; max-width:430px; width:100%; height:auto; vertical-align:middle"></p></td>
       </tr>
       <tr>
-          <td id="copy">Copy</td>
-          <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+C.png' | url }}">Copies selected information to the <a href="#clipboard">clipboard</a>. Content remains where it is. Keyboard shortcut: <strong>Ctrl + C</strong></td>
+        <td id="copy">Copy</td>
+        <td><p>Copies selected information to the <a href="#clipboard">clipboard</a>. Content remains where it is.</p>
+        <p>Keyboard shortcut: <strong>Ctrl + C</strong></p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+C.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + C" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p></td>
       </tr>
       <tr>
           <td id="copy-and-paste">Copy and paste / Copying and pasting</td>
@@ -1118,7 +1157,11 @@ active: glossary
       </tr>
       <tr>
         <td id="cut">Cut</td>
-        <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+X.png' | url }}">Copies selected information to the <a href="#clipboard">clipboard</a> and removes it from the editable space. Keyboard shortcut: <strong>Ctrl + X</strong></td>
+        <td>
+          <p>Copies selected information to the <a href="#clipboard">clipboard</a> and removes it from the editable space.</p>
+          <p>Keyboard shortcut: <strong>Ctrl + X</strong></p>
+          <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+X.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + X" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+        </td>
       </tr>
       <tr>
         <td id="cut-and-paste">Cut and paste / Cutting and pasting</td>
@@ -1189,11 +1232,19 @@ active: glossary
       </tr>
       <tr>
         <td id="find">Find</td>
-        <td>The Find tool is found in most Microsoft Office applications and lets you search a document for a specific word or phrase. Matching results are highlighted and you can step through them one by one. You can also apply formatting and wildcards to narrow your search. Keyboard shortcut: <strong>Ctrl + F</strong></td>
+        <td>
+          <p>The Find tool is found in most Microsoft Office applications and lets you search a document for a specific word or phrase. Matching results are highlighted and you can step through them one by one. You can also apply formatting and wildcards to narrow your search. See more in this article: <a href="/word/find">Find</a>.</p>
+          <p>Keyboard shortcut: <strong>Ctrl + F</strong></p>
+          <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+F.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + F" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+        </td>
       </tr>
       <tr>
         <td id="find-and-replace">Find and replace</td>
-        <td>An extension of the <a href="#find">Find</a> tool that lets you replace found text with something else — either one match at a time or all instances at once. You can specify formatting in both what you search for and what you replace it with. Keyboard shortcut: <strong>Ctrl + H</strong></td>
+        <td>
+          <p>An extension of the <a href="/word/find#find-and-replace">Find</a> tool that lets you replace found text with something else — either one match at a time or all instances at once. You can specify formatting in both what you search for and what you replace it with.</p>
+          <p>Keyboard shortcut: <strong>Ctrl + H</strong></p>
+          <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+H.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + H" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+          </td>
       </tr>
       <tr>
         <td id="first-line-indent">First-line indent</td>
@@ -1354,8 +1405,10 @@ active: glossary
       <tr>
         <td id="hyperlink">Hyperlink</td>
         <td>
-          <p>Hyperlinks (commonly called 'links') let you navigate to a webpage, or a document or folder location on a computer or shared server. They are typically displayed <a href="#underline">underlined</a> and in a distinct colour. On web browsers the mouse <a href="#cursor">cursor</a> usually changes when hovering over one. In Microsoft Office applications hold <strong>Ctrl and click</strong> to follow a link. To insert a hyperlink use <strong>Ctrl + K</strong>.</p>
+          <p>Hyperlinks (commonly called 'links') let you navigate to a webpage, or a document or folder location on a computer or shared server. They are typically displayed <a href="#underline">underlined</a> and in a distinct colour. On web browsers the mouse <a href="#cursor">cursor</a> usually changes when hovering over one. In Microsoft Office applications hold <strong>Ctrl and click</strong> to follow a link.</p>
+          <p>Keyboard shortcut: <strong>Ctrl + K</strong></p>
           <p><img src="{{ '/assets/images/glossary/Hyperlink in word.png' | url }}" alt="Hyperlink in Microsoft Word with Ctrl and click tooltip" style="display: block; max-width:293px; width:100%; height:auto; vertical-align:middle"></p>
+          <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+K.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + K" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
         </td>
       </tr>
       <tr>
@@ -1386,7 +1439,8 @@ active: glossary
       <tr>
         <td id="italic">Italic</td>
         <td>
-          <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords, titles, or technical terms. Italics slant selected text slightly to the right <em>like this</em> to create a subtle emphasis against surrounding text. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications. Keyboard shortcut: <strong>Ctrl + I</strong></p>
+          <p>A character-level text <a href="#formatting">formatting</a> tool used to emphasise keywords, titles, or technical terms. Italics slant selected text slightly to the right <em>like this</em> to create a subtle emphasis against surrounding text. Found on the <strong>Home</strong> tab of the <a href="#ribbon">ribbon</a> in Microsoft Office applications.</p>
+          <p>Keyboard shortcut: <strong>Ctrl + I</strong></p>
           <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+I.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + I" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
         </td>
       </tr>
@@ -1532,7 +1586,11 @@ active: glossary
       </tr>
       <tr>
         <td id="paste">Paste / Pasting</td>
-        <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+V.png' | url }}">Duplicates information from the <a href="#clipboard">clipboard</a>. Keyboard shortcut: <strong>Ctrl + V</strong> See these articles for examples of pasting in action: <a href="/content-control/moving-content/">Moving content</a> / <a href="/content-control/copying-content/">Copying content</a></td>
+        <td>
+          <p>Duplicates information from the <a href="#clipboard">clipboard</a>. See these articles for examples of pasting in action: <a href="/content-control/moving-content/">Moving content</a> / <a href="/content-control/copying-content/">Copying content</a></p>
+          <p>Keyboard shortcut: Ctrl + V</p>
+          <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+V.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + V" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+        </td>
       </tr>
       <tr>
         <td id="point-font">Point (font)</td>
@@ -1574,7 +1632,11 @@ active: glossary
       </tr>
       <tr>
         <td id="redo">Redo</td>
-        <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+Y.png' | url }}">Option to repeat the last action. The opposite of <a href="#undo">undo</a>. Keyboard shortcut: <strong>Ctrl + Y</strong></td>
+        <td>
+        <p>Option to repeat the last action. The opposite of <a href="#undo">undo</a>.</p>
+        <p>Keyboard shortcut: <strong>Ctrl + Y</strong></p>
+        <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+Y.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + Y" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+        </td>
       </tr>
       <tr>
         <td id="resize">Resize / Resizing</td>
@@ -1610,7 +1672,11 @@ active: glossary
       </tr> 
       <tr>
         <td id="save">Save</td>
-        <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}">Saving a file means storing the file's content in its current state onto your computer, cloud drive, or external device. In a <a href="browser-window">browser window</a> you choose what it's called (the <a href="#filename">filename</a>) and where it's stored, allowing you to access it later. You also decide what format the file is saved as (the <a href="#filetype">file type</a>); this is indicated by the <a href="#filename-extension">filename extension</a>. It's good practice to save frequently to avoid losing work due to crashes or power outages. Keyboard shortcut: <strong>Ctrl + S</strong>
+        <td>
+          <p>Saving a file means storing the file's content in its current state onto your computer, cloud drive, or external device. In a <a href="browser-window">browser window</a> you choose what it's called (the <a href="#filename">filename</a>) and where it's stored, allowing you to access it later.</p>
+          <p>You also decide what format the file is saved as (the <a href="#filetype">file type</a>); this is indicated by the <a href="#filename-extension">filename extension</a>. It's good practice to save frequently to avoid losing work due to crashes or power outages.</p>
+          <p>Keyboard shortcut: <strong>Ctrl + S</strong></p>
+          <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+S.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + S" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
         </td>
       </tr>
       <tr>
@@ -1750,7 +1816,11 @@ active: glossary
       </tr> 
       <tr>
         <td id="undo">Undo</td>
-        <td class="tooltip-row" data-gif="{{ '/assets/images/keyboard shortcuts/Ctrl+Z.png' | url }}">A very useful option to reverse your last action. The opposite of <a href="#redo">redo</a>. Keyboard shortcut: <strong>Ctrl + Z</strong></td>
+        <td>
+          <p>A very useful option to reverse your last action. The opposite of <a href="#redo">redo</a>.</p>
+          <p>Keyboard shortcut: <strong>Ctrl + Z</strong></p>
+          <p><img src="{{ '/assets/images/keyboard shortcuts/Ctrl+Z.png' | url }}" alt="Example of a keyboard shortcut: Ctrl + Z" style="display: block; max-width:200px; width:100%; height:auto; vertical-align:middle"></p>
+        </td>
       </tr>
       <tr>
         <td id="web-browser">Web browser</td>

@@ -512,10 +512,10 @@
 <p><img class="thumbnail border" src="/assets/images/word/Fixing irregular spacing/Fix irregular line spacing from pasted text.gif" alt="Demonstration fixing irregular line spacing with format painter in Word" style="max-width:900px; width:100%; height:auto; vertical-align:middle"></p>
 <h2 id="irregular-spacing-words">Irregular spacing between words</h2>
 <p>If you ever get text with irregular spacing between words like this below it could be some formatting issues with the file or even pasted text that's brought along odd formatting with it.</p>
-<p> Luckily there's a nice <strong>Find and Replace</strong> trick to fix it all in one go.</p>
+<p> Luckily there's a nice <span class="glossary-hover" data-term="find-and-replace"><strong>Find and Replace</strong></span> trick to fix it all in one go.</p>
 <p><img class="thumbnail border" src="/assets/images/word/Fixing irregular spacing/Irregular spacing between words.png" alt="Example of irregular spacing between words in a paragraph in Word" style="max-width:550px; width:100%; height:auto; vertical-align:middle"></p>
 <ol>
-  <li>Select the paragraph(s) affected, then open up the <strong>Find and Replace</strong> tool with <strong>Ctrl + H</strong>.</li>
+  <li>Select the paragraph(s) affected, then open up the <span class="glossary-hover" data-term="find-and-replace"><strong>Find and Replace</strong></span> tool with <strong>Ctrl + H</strong>.</li>
   <li>
     <p>In the <strong>Find what</strong> field: type <strong>^w</strong></p>
     <p><u>Note</u>: On most keyboards <strong>^</strong> is found as an alternative character on a number key. You'll need to press <strong>Shift</strong> and that number key. On mine it's on the 6 key so I'd press Shift + 6.</p>
@@ -535,7 +535,7 @@
 <p><img class="thumbnail border" src="/assets/images/word/Fixing irregular spacing/Fix multiple paragraph marks example.png" alt="Example of multiple paragraph marks in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 <ol>
   <li>Select the area in your document with the paragraphs and spaces that needs fixing, or if you need the whole document fixed click anywhere selecting nothing in particular.</li>
-  <li>Open up <strong>Find and Replace</strong> with <strong>Ctrl + H</strong>.</li>
+  <li>Open up <span class="glossary-hover" data-term="find-and-replace"><strong>Find and Replace</strong></span> with <strong>Ctrl + H</strong>.</li>
   <li>
     <p>In the <strong>Find what</strong> field: type <strong>^13{2,}</strong></p>
     <p>(<strong>^13</strong> means paragraph mark or a <span class="glossary-hover" data-term="hard-return">hard return</span> while <strong>{2,}</strong> means two or more repetitions).</p>
@@ -554,10 +554,10 @@
 <p><img class="thumbnail border" src="/assets/images/word/Fixing irregular spacing/Fix multiple paragraph marks.gif" alt="Demonstration fixing multiple paragraph marks with Find and Replace in Word" style="max-width:700px; width:100%; height:auto; vertical-align:middle"></p>
 <h4>What if it's not a hard return? (Soft returns)</h4>
 <p>If you're finding lines at the end of your paragraphs are the problem then it's <span class="glossary-hover" data-term="soft-return">soft returns</span> you need to remove.</p>
-<p>Do the above find and replace but use <strong>^l</strong> instead of <strong>^p</strong>:</p>
+<p>Do the above <span class="glossary-hover" data-term="find-and-replace">find and replace</span> but use <strong>^l</strong> instead of <strong>^p</strong>:</p>
 <ol>
   <li>Select the area in your document with the paragraphs and spaces that needs fixing, or if you need the whole document fixed click anywhere selecting nothing in particular.</li>
-  <li>Open up <strong>Find and Replace</strong> with <strong>Ctrl + H</strong>.</li>
+  <li>Open up <span class="glossary-hover" data-term="find-and-replace"><strong>Find and Replace</strong></span> with <strong>Ctrl + H</strong>.</li>
   <li>
     <p>In the <strong>Find what</strong> field: type <strong>^l</strong> for a soft return.</p>
   </li>
@@ -573,7 +573,7 @@
 <p><img class="thumbnail border" src="/assets/images/word/Fixing irregular spacing/Spaces before punctuation example.png" alt="Example of spaces before punctuation in a paragraph in Word" style="max-width:600px; width:100%; height:auto; vertical-align:middle"></p>
 <p>There's a <span class="glossary-hover" data-term="wildcard">wildcard</span> to get rid of these for all the above punctuation marks:</p>
 <ol>
-  <li>Go to <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>).</li>
+  <li>Go to <span class="glossary-hover" data-term="find-and-replace"><strong>Find and Replace</strong></span> (<strong>Ctrl + H</strong>).</li>
   <li>In the <strong>Find what</strong> field: type a literal <strong>space</strong> and then <strong>([.,;:\?\!])</strong></li>
   <p>(This is basically grouping all the punctuation types.)</p>
   <li>
@@ -632,13 +632,13 @@
     </tbody>
   </table>
 </div>
-<p>Using the above you can use <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>) to replace what you have with what you need.</p>
+<p>Using the above you can use <span class="glossary-hover" data-term="find-and-replace"><strong>Find and Replace</strong><span> (<strong>Ctrl + H</strong>) to replace what you have with what you need.</span></span></p>
 <h3 id="replace-unspaced-hyphens-with-spaced-hyphens">Warning: replacing unspaced hyphens with spaced hyphens</h3>
 <p>Before adding spaces around hyphens, you need to be careful. Word’s wildcard engine can’t tell the difference between a hyphen inside a hyphenated compound word (like <em>long-term</em> or <em>mother-in-law</em>) and a hyphen that should be spaced (<em>word - word</em>). If you blindly replace every hyphen with a spaced hyphen, you’ll break those compound words.</p>
 <p>So what do we do here?</p>
-<p>If you’re 100% certain your document has no hyphenated compound words then spacing all hyphens is safe to do. Use <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>) to replace hyphens with spaced hyphens using the code above.</p>
+<p>If you’re 100% certain your document has no hyphenated compound words then spacing all hyphens is safe to do. Use <span class="glossary-hover" data-term="find-and-replace"><strong>Find and Replace</strong></span> (<strong>Ctrl + H</strong>) to replace hyphens with spaced hyphens using the code above.</p>
 <ol>
-  <li>Go to <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>).</li>
+  <li>Go to <span class="glossary-hover" data-term="find-and-replace"><strong>Find and Replace</strong></span> (<strong>Ctrl + H</strong>).</li>
   <li>In the <strong>Find what</strong> field: <strong>-</strong></li>
   <li>In the <strong>Replace with</strong> field: type <strong>&lt;space&gt;-&lt;space&gt;</strong></li>
 </ol>
@@ -650,13 +650,13 @@
 <ol>
   <li>Using the <strong>Find</strong> tool (<strong>Ctrl + F</strong>) search for a single hyphen.</li>
   <li>Click the <strong>Results</strong> tab, look down the list for compound words and make a note of them. If there are too many instances of hyphens to list them in Results, click back to <strong>Headings</strong> and press <strong>Enter</strong> to cycle through each of the hyphens in your document, noting down the compound words.</li>
-  <li>When you have all the compound words noted down use <strong>Find and Replace</strong> (<strong>Ctrl + H</strong>) to replace hyphens with spaced hyphens:
+  <li>When you have all the compound words noted down use <span class="glossary-hover" data-term="find-and-replace"><strong>Find and Replace</strong></span> (<strong>Ctrl + H</strong>) to replace hyphens with spaced hyphens:
   <ul>
     <li>Find what: <strong>-</strong></li>
     <li>Replace with: <strong>&lt;space&gt;-&lt;space&gt;</strong></li>
   </ul>
   </li>
-  <li><p>Then repair the hyphenated words with <strong>Find and Replace</strong>, replacing broken compound words (<i>long - term</i>) with the correct syntax (<i>long-term</i>).</p>
+  <li><p>Then repair the hyphenated words with <span class="glossary-hover" data-term="find-and-replace"><strong>Find and Replace</strong></span>, replacing broken compound words (<i>long - term</i>) with the correct syntax (<i>long-term</i>).</p>
   <p>e.g.:</p>
   <ul>
     <li>Find what: <strong>long - term</strong></li>
@@ -711,7 +711,7 @@
   <ul>
     
       
-      <li><a href="/word/find/">'Find' and 'Find and Replace' tools</a></li>
+      <li><a href="/word/find#find-and-replace">Find and Replace' tool</a></li>
       
     
       
@@ -738,7 +738,7 @@
   <ul>
     
       
-      <li><a href="/word/find/">'Find' and 'Find and Replace' tools</a></li>
+      <li><a href="/word/find#find-and-replace">Find and Replace' tool</a></li>
       
     
       
